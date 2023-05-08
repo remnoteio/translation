@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Translations for https://remnote.com!",
   "repository": "https://github.com/remnoteio/translation.git",
+  "scripts": {
+    "generate": "typesafe-i18n --no-watch"
+  },
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
