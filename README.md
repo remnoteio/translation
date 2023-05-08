@@ -1,2 +1,5 @@
-# translation
-Help us translate RemNote! Editor at https://inlang.com/editor/github.com/remnoteio/translation
+# RemNote Translation
+
+Help us translate RemNote!
+
+Use https://inlang.com/editor/github.com/remnoteio/translation to contribute.
