@@ -2,3 +2,12 @@
 # yarn lockfile v1
 
 
+typesafe-i18n@^5.24.3:
+  version "5.24.3"
+  resolved "https://registry.yarnpkg.com/typesafe-i18n/-/typesafe-i18n-5.24.3.tgz#925a49f7ccec9ddb1d0c32f44bf9abc2d7df0071"
+  integrity sha512-VqjGbIydOqtQjO81mGo++TjuqeC8YoxxgYrO1/ikXIS/l/Q6mAcz4yrt5AvqjdFHMt3gRm7oGbVI/yLyV+VTOg==
+
+typescript@^5.0.4:
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.0.4.tgz#b217fd20119bd61a94d4011274e0ab369058da3b"
+  integrity sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==
