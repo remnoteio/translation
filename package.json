@@ -1,0 +1,7 @@
+{
+  "name": "@remnoteio/translation",
+  "version": "0.1.0",
+  "description": "Translations for https://remnote.com!",
+  "repository": "https://github.com/remnoteio/translation.git",
+  "license": "none"
+}
