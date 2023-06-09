@@ -1,12 +1,12 @@
 export async function defineConfig(env) {
-  const { default: jsonPlugin } = await env.$import(
-    "https://cdn.jsdelivr.net/gh/samuelstroschein/inlang-plugin-json@2/dist/index.js"
+  const { default: i18nextPlugin } = await env.$import(
+    "https://cdn.jsdelivr.net/gh/inlang/plugin-i18next@1/dist/index.js"
   );
 
   return {
     referenceLanguage: "en",
     plugins: [
-      jsonPlugin({
+      i18nextPlugin({
         pathPattern: "./{language}/*.json",
       })
     ]
