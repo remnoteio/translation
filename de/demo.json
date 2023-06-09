@@ -1,0 +1,4 @@
+{
+  "welcome-user": "Welcome, {{ username }}!",
+  "formatted-date": "Formatted date {{ value, datetime }}"
+}
