@@ -1,0 +1,4 @@
+{
+  "welcome-user": "안녕하세요, {{ username }}!",
+  "formatted-date": "서식 지정된 날짜 {{ value, datetime }}"
+}
