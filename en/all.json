@@ -1,0 +1,27 @@
+{
+  "LANGUAGE": {
+    "LANGUAGE_WORD": "Language",
+    "TRANSLATION_IN_PROGRESS": "Translation of RemNote is still in-progress. You can contribute translations <0>on Inlang</0>."
+  },
+  "COMMON": {
+    "ACTIONS": {
+      "CREATE": "Create"
+    }
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "PROFILE_TITLE": "Profile",
+      "IMPORT_EXPORT_TITLE": "Import and Export",
+      "NAVIGATION_TITLE": "Navigation",
+      "AUTHENTICATION_TITLE": "Authentication",
+      "ADVANCED_TITLE": "Advanced Settings",
+      "DANGER_ZONE_TITLE": "Danger Zone",
+      "PRIVACY_NOTE": "Privacy: Read our <policyLink>Privacy Policy</policyLink>, or change your settings in our <hubLink>Privacy Hub</hubLink>."
+    }
+  },
+  "SIDEBAR": {
+    "LABEL_ALL_NOTES": "All Notes",
+    "LABEL_TODAYS_NOTE": "Today's Note",
+    "LABEL_FLASHCARDS": "Flashcards"
+  }
+}

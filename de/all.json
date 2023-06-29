@@ -1,0 +1,27 @@
+{
+  "LANGUAGE": {
+    "LANGUAGE_WORD": "Sprache",
+    "TRANSLATION_IN_PROGRESS": "Die Übersetzungen sind noch nicht vollständig. Du kannst uns <0>auf Inlang</0> dabei helfen."
+  },
+  "COMMON": {
+    "ACTIONS": {
+      "CREATE": "Create"
+    }
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "PROFILE_TITLE": "Profil",
+      "IMPORT_EXPORT_TITLE": "Import and Export",
+      "NAVIGATION_TITLE": "Navigation",
+      "AUTHENTICATION_TITLE": "Authentifizierung",
+      "ADVANCED_TITLE": "Erweiterte Einstellungen",
+      "DANGER_ZONE_TITLE": "Gefahrenzone",
+      "PRIVACY_NOTE": "Datenschutz: Lies unsere <policyLink>Datenschutzerklärung</policyLink>, oder ändere deine Einstellungen im <hubLink>Privacy Hub</hubLink>."
+    }
+  },
+  "SIDEBAR": {
+    "LABEL_ALL_NOTES": "Alle Notizen",
+    "LABEL_TODAYS_NOTE": "Tägliche Notiz",
+    "LABEL_FLASHCARDS": "Karteikarten"
+  }
+}
