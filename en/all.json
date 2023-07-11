@@ -26,6 +26,11 @@
   "SIDEBAR": {
     "LABEL_ALL_NOTES": "All Notes",
     "LABEL_TODAYS_NOTE": "Today's Note",
-    "LABEL_FLASHCARDS": "Flashcards"
+    "LABEL_FLASHCARDS": "Flashcards",
+    "LABEL_EDIT_LATER": "Edit Later",
+    "LABEL_COMMUNITY": "Community",
+    "LABEL_INTERACTIVE_TOUR": "Interactive Tour",
+    "LABEL_RESUME_INTERACTIVE_TOUR": "Resume Interactive Tour",
+    "LABEL_TUTORIALS": "Tutorials"
   }
 }
