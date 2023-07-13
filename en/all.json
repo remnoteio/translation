@@ -1,7 +1,7 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "Language",
-    "TRANSLATION_IN_PROGRESS": "Translation of RemNote is still in-progress. You can contribute translations <0>on Inlang</0>."
+    "TRANSLATION_IN_PROGRESS": "Translation of RemNote is still in-progress. <bold>You can contribute</bold> translations <editorLink>on Inlang</editorLink>."
   },
   "COMMON": {
     "ACTIONS": {
