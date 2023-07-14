@@ -12,7 +12,7 @@ export async function defineConfig(env) {
 
     plugins: [
       i18nextPlugin({
-        pathPattern: "./{language}/*.json",
+        pathPattern: "./{language}/all.json",
       }),
       standardLintRules(),
     ],
