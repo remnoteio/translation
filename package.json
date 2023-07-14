@@ -1,0 +1,10 @@
+{
+  "name": "@remnoteio/translation",
+  "version": "1.0.0",
+  "description": "Contains community translations for @remnoteio!",
+  "main": "inlang.config.js",
+  "repository": "https://github.com/remnoteio/translation.git",
+  "author": "Dennis W. <7500200+dewil-official@users.noreply.github.com>",
+  "license": "CC BY-NC 4.0",
+  "private": false
+}
