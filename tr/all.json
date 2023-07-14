@@ -1,0 +1,17 @@
+{
+  "SETTINGS.ACCOUNT.NAVIGATION_TITLE": "Navigasyon",
+  "SETTINGS.ACCOUNT.AUTHENTICATION_TITLE": "Doğrulama",
+  "SETTINGS.ACCOUNT.IMPORT_EXPORT_TITLE": "İçe aktar ve dışa aktar",
+  "SETTINGS.ACCOUNT.PROFILE_TITLE": "Profil",
+  "COMMON.ACTIONS.CREATE": "Oluştur",
+  "LANGUAGE.LANGUAGE_WORD": "Dil",
+  "LANGUAGE.TRANSLATION_IN_PROGRESS": "RemNote'un çevirisi hala devam ediyor. <0>Inlang'da</0> çevirilere katkıda bulunabilirsiniz.",
+  "SETTINGS.ACCOUNT.ADVANCED_TITLE": "Gelişmiş Ayarlar",
+  "SETTINGS.ACCOUNT.DANGER_ZONE_TITLE": "Tehlikeli bölge",
+  "SETTINGS.ACCOUNT.PRIVACY_NOTE": "Gizlilik: <policyLink>Gizlilik Politikamızı</policyLink> okuyun veya <hubLink>Gizlilik Merkezimizde</hubLink> ayarlarınızı değiştirin.",
+  "SIDEBAR.LABEL_ALL_NOTES": "Tüm Notlar",
+  "SIDEBAR.LABEL_TODAYS_NOTE": "Bugünün Notu",
+  "SIDEBAR.LABEL_FLASHCARDS": "Bilgi Kartları",
+  "TAGS.PINNED_TAGS": "Sabitlenmiş Etiketler",
+  "TAGS.YOUR_TAGS": "Etiketleriniz"
+}
