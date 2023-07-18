@@ -5,7 +5,15 @@
   },
   "COMMON": {
     "ACTIONS": {
-      "CREATE": "Create"
+      "CREATE": "Create",
+      "REMOVE": "Remove",
+      "DELETE": "Delete",
+      "EDIT": "Edit",
+      "DUPLICATE": "Duplicate",
+      "APPLY": "Apply",
+      "UPDATE": "Update",
+      "VIEW": "View",
+      "HIDE": "Hide"
     }
   },
   "SETTINGS": {
@@ -20,9 +28,39 @@
     }
   },
   "TAGS": {
+    "TAG": "Tag",
+    "TAG_WITH_COUNT_one": "{{count, number}} Tag",
+    "TAG_WITH_COUNT_other": "{{count, number}} Tags",
     "PINNED_TAGS": "Pinned Tags",
     "YOUR_TAGS": "Your Tags",
+    "SEARCH_PLACEHOLDER": "Search for an existing tag to add it",
     "INSERT_PROPERTIES": "Insert Properties"
+  },
+  "TEMPLATES": {
+    "TEMPLATE_one": "Template",
+    "TEMPLATE_other": "Templates",
+    "TEMPLATE_WITH_COUNT_one": "{{count, number}} Template",
+    "TEMPLATE_WITH_COUNT_other": "{{count, number}} Templates",
+    "CREATE_TEMPLATE": "Create Template",
+    "NEW_TEMPLATE": "New Template",
+    "PROPERTY_one": "Property",
+    "PROPERTY_other": "Properties",
+    "PROPERTY_WITH_COUNT_one": "{{count, number}} Property",
+    "PROPERTY_WITH_COUNT_other": "{{count, number}} Properties",
+    "ADD_PROPERTY": "Add Property",
+    "ADD_NEW_PROPERTY": "Add New Property",
+    "NEW_PROPERTY": "New Property",
+    "AUTO_APPLY": "Auto-apply",
+    "SET_AS_AUTO_APPLY_TEMPLATE": "Set as Auto-Apply Template",
+    "TURN_OFF_AUTO_APPLY": "Turn off Auto-Apply",
+    "VIEW_CONFIGURATION": "View Configuration",
+    "HIDE_CONFIGURATION": "Hide Configuration",
+    "PROPERTIES_HELP_TEXT": [
+      "Get an instant overview of page information and filter data using properties.",
+      "Enhance your database organization with structured properties."
+    ],
+    "TEMPLATES_HELP_TEXT": "Create and replicate page structures with tag templates for easy organization of class notes, meeting notes, and action items.",
+    "AUTO_APPLY_HELP_TEXT": "This template will be automatically applied to all rows in its table, or all Rem tagged with the template."
   },
   "TABLES": {
     "PRIMARY_COLUMN_TITLE": "Name",
@@ -100,5 +138,32 @@
         "DESCENDING": "Z -> A"
       }
     }
+  },
+  "SOURCES": {
+    "LINK_SOURCE": {
+      "LABEL": "Link Source",
+      "ENTER_URL": "Enter URL",
+      "INVALID_URL": "Invalid URL",
+      "OPEN_IN_READER": "Open in Reader",
+      "SEARCH_PLACEHOLDER": "Paste a link or search for a Reference",
+      "LINK": "Link",
+      "LINK_WITH_COUNT_one": "{{count, number}} Link",
+      "LINK_WITH_COUNT_other": "{{count, number}} Links"
+    },
+    "UPLOAD_SOURCE": {
+      "LABEL": "Upload Source",
+      "SELECT_FILES": "Select files",
+      "SELECT_FILES_TO_UPLOAD": "Select files to upload",
+      "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
+      "INVALID": "Incorrect file format!",
+      "UPLOADING": "Uploading...",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs"
+    }
+  },
+  "POWERUPS": {
+    "POWERUP_one": "Powerup",
+    "POWERUP_other": "Powerups"
   }
 }
