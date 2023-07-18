@@ -21,7 +21,59 @@
   },
   "TAGS": {
     "PINNED_TAGS": "Pinned Tags",
-    "YOUR_TAGS": "Your Tags"
+    "YOUR_TAGS": "Your Tags",
+    "INSERT_PROPERTIES": "Insert Properties"
+  },
+  "TABLES": {
+    "PRIMARY_COLUMN_TITLE": "Name",
+    "UNTITLED_PROPERTY_TITLE": "Untitled Property",
+    "MENUS": {
+      "TAG": {
+        "TAG_TITLE": "Tag Name",
+        "RENAME_TAG": "Rename Tag",
+        "VIEW_TAG": "View Tag",
+        "EDIT_TABLE_NAME": "Edit Table Name",
+        "PRESS_TO_SAVE": "Press ↩ to save"
+      },
+      "FILTER": {
+        "FILTER_TITLE": "Filter",
+        "ADD_ADVANCED_FILTER": "Add Advanced Filter",
+        "NO_FILTER": "No Filter"
+      },
+      "SORT": {
+        "SORT_TITLE": "Sort"
+      },
+      "TABLE_CONFIGURATION": {
+        "TABLE_CONFIGURATION_TITLE": "Table",
+        "LIST_CONFIGURATION_TITLE": "List",
+        "VIEW_AS": {
+          "VIEW_AS_TITLE": "View as",
+          "TABLE_VIEW": "Table",
+          "LIST_VIEW": "List"
+        },
+        "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Configure Tag & Edit Templates",
+        "PROPERTIES_TITLE": "Properties",
+        "PROPERTIES_CONFIGURATION_TITLE": "Configure",
+        "OPEN_IN_ANOTHER_PANE_TITLE": "Open in Another Pane",
+        "ZOOM_IN_TO_TABLE_TITLE": "Zoom in to Table",
+        "ZOOM_IN_TO_LIST_TITLE": "Zoom in to List",
+        "MOVE_TABLE_TO_TITLE": "Move Table To",
+        "MOVE_LIST_TO_TITLE": "Move List To",
+        "DUPLICATE_TABLE_VIEW_TITLE": "Duplicate Table View",
+        "DUPLICATE_LIST_VIEW_TITLE": "Duplicate List View",
+        "DUPLICATE_VIEW_MESSAGE_COMMON": "Duplicate a view to apply a new filter, sort, or more! Content is shared between views of the same source, so you won't end up with any accidental duplicate instances.",
+        "SHOW_VERTICAL_LINES_TITLE": "Show Vertical Lines",
+        "CELL_LIST_HEIGHT": {
+          "CELL_LIST_HEIGHT_TITLE": "Cell List Height",
+          "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Cells can contain multiple bullets! Limit cell height for easier viewing.",
+          "COMFORTABLE_TITLE": "Comfortable",
+          "FULL_TITLE": "Full",
+          "COMPACT_TITLE": "Compact"
+        },
+        "DELETE_TABLE": "Delete Table",
+        "DELETE_LIST": "Delete List"
+      }
+    }
   },
   "SIDEBAR": {
     "LABEL_ALL_NOTES": "All Notes",
@@ -32,5 +84,21 @@
     "LABEL_INTERACTIVE_TOUR": "Interactive Tour",
     "LABEL_RESUME_INTERACTIVE_TOUR": "Resume Interactive Tour",
     "LABEL_TUTORIALS": "Tutorials"
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "TITLE": "All Notes",
+      "SORT": {
+        "RECENTLY_MODIFIED": "Recently modified",
+        "RECENTLY_CREATED": "Recently created",
+        "OLDEST_FIRST": "Oldest first",
+        "BY_CREATION_TIME": "By creation time",
+        "BY_TITLE": "By title",
+        "BY_MODIFICATION": "By modification",
+        "OLDEST_CREATION_FIRST": "Oldest creation first",
+        "ASCENDING": "A -> Z",
+        "DESCENDING": "Z -> A"
+      }
+    }
   }
 }
