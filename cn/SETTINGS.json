@@ -1,0 +1,9 @@
+{
+  "ACCOUNT.PROFILE_TITLE": "个人资料",
+  "ACCOUNT.IMPORT_EXPORT_TITLE": "导入和导出",
+  "ACCOUNT.NAVIGATION_TITLE": "导航",
+  "ACCOUNT.AUTHENTICATION_TITLE": "认证",
+  "ACCOUNT.ADVANCED_TITLE": "高级设置",
+  "ACCOUNT.DANGER_ZONE_TITLE": "风险操作",
+  "ACCOUNT.PRIVACY_NOTE": "隐私：阅读我们的<policyLink>隐私政策</policyLink>，或者在我们的<hubLink>隐私中心</hubLink>中更改您的设置。"
+}

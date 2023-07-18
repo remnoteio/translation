@@ -1,0 +1,12 @@
+{
+  "ALL_NOTES.TITLE": "All Notes",
+  "ALL_NOTES.SORT.RECENTLY_MODIFIED": "Recently modified",
+  "ALL_NOTES.SORT.RECENTLY_CREATED": "Recently created",
+  "ALL_NOTES.SORT.OLDEST_FIRST": "Oldest first",
+  "ALL_NOTES.SORT.BY_CREATION_TIME": "By creation time",
+  "ALL_NOTES.SORT.BY_TITLE": "By title",
+  "ALL_NOTES.SORT.BY_MODIFICATION": "By modification",
+  "ALL_NOTES.SORT.OLDEST_CREATION_FIRST": "Oldest creation first",
+  "ALL_NOTES.SORT.ASCENDING": "A -> Z",
+  "ALL_NOTES.SORT.DESCENDING": "Z -> A"
+}
