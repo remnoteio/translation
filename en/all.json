@@ -55,10 +55,10 @@
     "TURN_OFF_AUTO_APPLY": "Turn off Auto-Apply",
     "VIEW_CONFIGURATION": "View Configuration",
     "HIDE_CONFIGURATION": "Hide Configuration",
-    "PROPERTIES_HELP_TEXT": {
-      "0": "Get an instant overview of page information and filter data using properties.",
-      "1": "Enhance your database organization with structured properties."
-    },
+    "PROPERTIES_HELP_TEXT": [
+      "Get an instant overview of page information and filter data using properties.",
+      "Enhance your database organization with structured properties."
+    ],
     "TEMPLATES_HELP_TEXT": "Create and replicate page structures with tag templates for easy organization of class notes, meeting notes, and action items.",
     "AUTO_APPLY_HELP_TEXT": "This template will be automatically applied to all rows in its table, or all Rem tagged with the template."
   },
