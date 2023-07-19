@@ -5,7 +5,8 @@
   },
   "COMMON": {
     "ACTIONS": {
-      "CREATE": "Create"
+      "CREATE": "Create",
+      "REMOVE": "Entfernen"
     }
   },
   "SETTINGS": {
