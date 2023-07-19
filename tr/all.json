@@ -13,5 +13,6 @@
   "SIDEBAR.LABEL_TODAYS_NOTE": "Bugünün Notu",
   "SIDEBAR.LABEL_FLASHCARDS": "Bilgi Kartları",
   "TAGS.PINNED_TAGS": "Sabitlenmiş Etiketler",
-  "TAGS.YOUR_TAGS": "Etiketleriniz"
+  "TAGS.YOUR_TAGS": "Etiketleriniz",
+  "COMMON.ACTIONS.REMOVE": "Kaldırmak"
 }
