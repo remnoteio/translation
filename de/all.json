@@ -37,5 +37,14 @@
   },
   "TEMPLATES": {
     "TURN_OFF_AUTO_APPLY": "Deaktiviere „Automatisches anwenden“."
+  },
+  "TABLES": {
+    "MENUS": {
+      "TABLE_CONFIGURATION": {
+        "VIEW_AS": {
+          "TABLE_VIEW": "Tabelle"
+        }
+      }
+    }
   }
 }
