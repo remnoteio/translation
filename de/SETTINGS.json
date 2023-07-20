@@ -1,0 +1,9 @@
+{
+  "ACCOUNT.PROFILE_TITLE": "Profil",
+  "ACCOUNT.IMPORT_EXPORT_TITLE": "Import und Export",
+  "ACCOUNT.NAVIGATION_TITLE": "Navigation",
+  "ACCOUNT.AUTHENTICATION_TITLE": "Authentifizierung",
+  "ACCOUNT.ADVANCED_TITLE": "Erweiterte Einstellungen",
+  "ACCOUNT.DANGER_ZONE_TITLE": "Gefahrenzone",
+  "ACCOUNT.PRIVACY_NOTE": "Datenschutz: Lies unsere <policyLink>Datenschutzerklärung</policyLink>, oder ändere deine Einstellungen im <hubLink>Privacy Hub</hubLink>."
+}
