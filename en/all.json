@@ -73,7 +73,7 @@
       "FILTER": {
         "FILTER_TITLE": "Filter",
         "ADD_ADVANCED_FILTER": "Add Advanced Filter",
-        "NO_FILTER": "No Filter"
+        "NO_FILTER": "No Properties Are Available; Add a New One!"
       },
       "SORT": {
         "SORT_TITLE": "Sort"
