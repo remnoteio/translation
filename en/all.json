@@ -73,7 +73,7 @@
       "FILTER": {
         "FILTER_TITLE": "Filter",
         "ADD_ADVANCED_FILTER": "Add Advanced Filter",
-        "NO_FILTER": "No Properties Are Available; Add a New One!"
+        "NO_PROPERTIES_AVAILABLE": "No Properties Are Available; Add a New One!"
       },
       "SORT": {
         "SORT_TITLE": "Sort"
@@ -85,6 +85,7 @@
         "VIEW_AS": {
           "VIEW_AS_TITLE": "View as",
           "TABLE_VIEW": "Table",
+          "NORMAL_PORTAL_VIEW": "Portal",
           "LIST_VIEW": "List"
         },
         "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Configure Tag & Edit Templates",
