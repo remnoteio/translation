@@ -47,7 +47,9 @@
     "PROPERTY_other": "Properties",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Property",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Properties",
+    "ADD_PROPERTY": "Add Property",
     "ADD_NEW_PROPERTY": "Add New Property",
+    "NEW_PROPERTY": "New Property",
     "AUTO_APPLY": "Auto-apply",
     "SET_AS_AUTO_APPLY_TEMPLATE": "Set as Auto-Apply Template",
     "TURN_OFF_AUTO_APPLY": "Turn off Auto-Apply",
@@ -73,7 +75,7 @@
       "FILTER": {
         "FILTER_TITLE": "Filter",
         "ADD_ADVANCED_FILTER": "Add Advanced Filter",
-        "NO_FILTER": "No Properties Are Available; Add a New One!"
+        "NO_FILTER": "No Filter"
       },
       "SORT": {
         "SORT_TITLE": "Sort"
