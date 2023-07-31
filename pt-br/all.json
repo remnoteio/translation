@@ -1,3 +1,5 @@
 {
-  "LANGUAGE.TRANSLATION_IN_PROGRESS": "A tradução do RemNote ainda está em andamento. <bold>Você pode contribuir</bold> com traduções <editorLink>no Inlang</editorLink>."
+  "LANGUAGE.TRANSLATION_IN_PROGRESS": "A tradução do RemNote ainda está em andamento. <bold>Você pode contribuir</bold> com traduções <editorLink>no Inlang</editorLink>.",
+  "TEMPLATES.VIEW_CONFIGURATION": "Configurar Tag",
+  "TEMPLATES.PROPERTIES_HELP_TEXT.0": "Propriedades descrevem uma tag. Por exemplo, para uma tag chamada \"Livro\", adicione propriedades para Autor, Gênero, Status de Leitura e mais!"
 }
