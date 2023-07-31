@@ -76,5 +76,9 @@
   "TEMPLATES.VIEW_CONFIGURATION": "Etiketi Yapılandır",
   "TEMPLATES.HIDE_CONFIGURATION": "Yapılandırmayı Gizle",
   "TEMPLATES.PROPERTY_other": "Özellikler",
-  "TEMPLATES.PROPERTY_one": "Mülk"
+  "TEMPLATES.PROPERTY_one": "Özellik",
+  "TEMPLATES.PROPERTIES_HELP_TEXT.0": "Özellikler bir etiketi tanımlar. Örneğin, \"Kitap\" adlı bir etiket için Yazar, Tür, Okuma Durumu ve daha pek çok özellik ekleyin!",
+  "TEMPLATES.AUTO_APPLY_HELP_TEXT": "Bu şablon, tablosundaki tüm satırlara veya şablonla etiketlenen tüm Rem'lere otomatik olarak uygulanacaktır.",
+  "TABLES.UNTITLED_PROPERTY_TITLE": "İsimsiz Özellik",
+  "TABLES.MENUS.FILTER.FILTER_TITLE": "filtre"
 }
