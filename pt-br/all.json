@@ -1,6 +1,18 @@
 {
-  "LANGUAGE.TRANSLATION_IN_PROGRESS": "A tradução do RemNote ainda está em andamento. <bold>Você pode contribuir</bold> com traduções <editorLink>no Inlang</editorLink>.",
+  "LANGUAGE.TRANSLATION_IN_PROGRESS": "A tradução do RemNote ainda está em andamento. <bold>Você pode contribuir com </bold> traduções <editorLink>no Inlang</editorLink>.",
   "TEMPLATES.VIEW_CONFIGURATION": "Configurar Tag",
   "TEMPLATES.PROPERTIES_HELP_TEXT.0": "Propriedades descrevem uma tag. Por exemplo, para uma tag chamada \"Livro\", adicione propriedades para Autor, Gênero, Status de Leitura e mais!",
-  "LANGUAGE.LANGUAGE_WORD": "Idioma"
+  "LANGUAGE.LANGUAGE_WORD": "Idioma",
+  "COMMON.ACTIONS.CREATE": "Criar",
+  "COMMON.ACTIONS.REMOVE": "Remover",
+  "COMMON.ACTIONS.DELETE": "Deletar",
+  "COMMON.ACTIONS.APPLY": "Aplicar",
+  "COMMON.ACTIONS.DUPLICATE": "Duplicar",
+  "COMMON.ACTIONS.EDIT": "Editar",
+  "COMMON.ACTIONS.UPDATE": "Atualizar",
+  "SETTINGS.ACCOUNT.IMPORT_EXPORT_TITLE": "Importar e Exportar",
+  "SETTINGS.ACCOUNT.PROFILE_TITLE": "Perfil",
+  "COMMON.ACTIONS.VIEW": "Visualizar",
+  "COMMON.ACTIONS.HIDE": "Ocultar",
+  "SETTINGS.ACCOUNT.NAVIGATION_TITLE": "Navegação"
 }
