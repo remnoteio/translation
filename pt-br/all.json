@@ -100,5 +100,22 @@
   "SOURCES.UPLOAD_SOURCE.PDF_WITH_COUNT_one": "{{count, number}} PDF",
   "SOURCES.UPLOAD_SOURCE.PDF_WITH_COUNT_other": "{{count, number}} PDFs",
   "POWERUPS.POWERUP_one": "Powerup",
-  "POWERUPS.POWERUP_other": "Powerups"
+  "POWERUPS.POWERUP_other": "Powerups",
+  "TABLES.MENUS.TABLE_CONFIGURATION.CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Configurar Tag & Editar Modelos",
+  "TABLES.MENUS.TABLE_CONFIGURATION.ZOOM_IN_TO_TABLE_TITLE": "Dar Zoom na Tabela",
+  "TABLES.MENUS.TABLE_CONFIGURATION.ZOOM_IN_TO_LIST_TITLE": "Dar Zoom na Lista",
+  "TABLES.MENUS.TABLE_CONFIGURATION.INCLUDE_NESTED_DESCENDANTS": "Incluir Descendentes Aninhados",
+  "TABLES.MENUS.TABLE_CONFIGURATION.DUPLICATE_VIEW_MESSAGE_COMMON": "Duplique uma visualização para aplicar um novo filtro, ordenamento, ou mais! O conteúdo é compartilhado entre visualização de uma mesma fonte, para que você não acabe com instâncias acidentalmente duplicadas.",
+  "TABLES.MENUS.TABLE_CONFIGURATION.CELL_LIST_HEIGHT.CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Celulas podem conter múltiplos itens de lista! Limite a altura das celulas para facilitar a visualização. ",
+  "TABLES.MENUS.TABLE_CONFIGURATION.CELL_LIST_HEIGHT.COMFORTABLE_TITLE": "Confortável",
+  "TABLES.MENUS.TABLE_CONFIGURATION.CELL_LIST_HEIGHT.FULL_TITLE": "Tudo",
+  "PAGES.ALL_NOTES.SORT.RECENTLY_MODIFIED": "Modificado Recentemente",
+  "PAGES.ALL_NOTES.SORT.OLDEST_FIRST": "Mais Antigo primeiro",
+  "PAGES.ALL_NOTES.SORT.OLDEST_CREATION_FIRST": "Criação Mais Antiga primeiro",
+  "SOURCES.LINK_SOURCE.SEARCH_PLACEHOLDER": "Cole um link ou busque por uma Referência",
+  "SOURCES.UPLOAD_SOURCE.LABEL": "Upload de Fonte",
+  "SOURCES.UPLOAD_SOURCE.SELECT_FILES_TO_UPLOAD": "Selecione arquivos para fazer upload",
+  "SOURCES.UPLOAD_SOURCE.EMPTY": "Arraste PDFs, documentos de Word, PPTs e <moreLink>mais</moreLink> aqui!",
+  "SOURCES.UPLOAD_SOURCE.INVALID": "Formato incorreto de arquivo",
+  "SOURCES.UPLOAD_SOURCE.UPLOADING": "Enviando..."
 }
