@@ -80,7 +80,7 @@
   "TEMPLATES.PROPERTIES_HELP_TEXT.0": "Özellikler bir etiketi tanımlar. Örneğin, \"Kitap\" adlı bir etiket için Yazar, Tür, Okuma Durumu ve daha pek çok özellik ekleyin!",
   "TEMPLATES.AUTO_APPLY_HELP_TEXT": "Bu şablon, tablosundaki tüm satırlara veya şablonla etiketlenen tüm Rem'lere otomatik olarak uygulanacaktır.",
   "TABLES.UNTITLED_PROPERTY_TITLE": "İsimsiz Özellik",
-  "TABLES.MENUS.FILTER.FILTER_TITLE": "filtre",
+  "TABLES.MENUS.FILTER.FILTER_TITLE": "Filtre",
   "TABLES.MENUS.TABLE_CONFIGURATION.MOVE_LIST_TO_TITLE": "Listeyi Taşı",
   "TABLES.MENUS.TABLE_CONFIGURATION.PROPERTIES_TITLE": "Özellikler",
   "TABLES.MENUS.TABLE_CONFIGURATION.CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Etiketi Yapılandırın & Şablonları Düzenleyin",
@@ -107,5 +107,15 @@
   "COMMON.ACTIONS.VIEW": "Bak",
   "TAGS.TAG_WITH_COUNT_one": "{{count, number}} Etiket",
   "TAGS.INSERT_PROPERTIES": "Özellikleri Ekle",
-  "SOURCES.UPLOAD_SOURCE.EMPTY": "PDF'leri, Word belgelerini, PPT'leri ve <moreLink>fazlasını</moreLink> buraya bırakın!"
+  "SOURCES.UPLOAD_SOURCE.EMPTY": "PDF'leri, Word belgelerini, PPT'leri ve <moreLink>fazlasını</moreLink> buraya bırakın!",
+  "SOURCES.LINK_SOURCE.LINK_WITH_COUNT_one": "{{count, number}} Bağlantı",
+  "TABLES.MENUS.TABLE_CONFIGURATION.CELL_LIST_HEIGHT.CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Hücreler birden fazla madde içerebilir! Daha kolay görüntüleme için hücre yüksekliğini sınırlayın.",
+  "TABLES.MENUS.TABLE_CONFIGURATION.CELL_LIST_HEIGHT.CELL_LIST_HEIGHT_TITLE": "Hücre Listesi Yüksekliği",
+  "TABLES.MENUS.TABLE_CONFIGURATION.INCLUDE_NESTED_DESCENDANTS": "İç İçe Alt Öğeleri Dahil Et",
+  "TABLES.MENUS.TABLE_CONFIGURATION.DUPLICATE_VIEW_MESSAGE_COMMON": "Yeni bir filtre, sıralama veya daha fazlasını uygulamak için bir görünümü çoğaltın! İçerik, aynı kaynağın görünümleri arasında paylaşılır, böylece yanlışlıkla yinelenen örneklerle karşılaşmazsınız.",
+  "TABLES.MENUS.SORT.SORT_TITLE": "Sırala",
+  "TABLES.MENUS.FILTER.ADD_ADVANCED_FILTER": "Gelişmiş Filtre Ekle",
+  "TABLES.MENUS.FILTER.NO_PROPERTIES_AVAILABLE": "Hiçbir Özellik Mevcut Değil; Yeni Birini Ekleyin!",
+  "TEMPLATES.TEMPLATES_HELP_TEXT": "Bir etiketin şablonu, etiketli Rem'e otomatik olarak kopyalanabilen bir RemNote belgesidir. Başlıkları, kontrol listelerini ve daha fazlasını doğrudan şablonunuzun içine ekleyin.",
+  "TEMPLATES.SET_AS_AUTO_APPLY_TEMPLATE": "Otomatik Uygulama Şablonu Olarak Ayarla"
 }
