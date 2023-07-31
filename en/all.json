@@ -100,6 +100,7 @@
         "DUPLICATE_LIST_VIEW_TITLE": "Duplicate List View",
         "DUPLICATE_VIEW_MESSAGE_COMMON": "Duplicate a view to apply a new filter, sort, or more! Content is shared between views of the same source, so you won't end up with any accidental duplicate instances.",
         "SHOW_VERTICAL_LINES_TITLE": "Show Vertical Lines",
+        "INCLUDE_NESTED_DESCENDANTS": "Include Nested Descendants",
         "CELL_LIST_HEIGHT": {
           "CELL_LIST_HEIGHT_TITLE": "Cell List Height",
           "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Cells can contain multiple bullets! Limit cell height for easier viewing.",
