@@ -117,5 +117,8 @@
   "SOURCES.UPLOAD_SOURCE.PDF_WITH_COUNT_other": "{{count, number}} PDF",
   "POWERUPS.POWERUP_other": "高级功能",
   "POWERUPS.POWERUP_one": "高级功能",
-  "TAGS.TAG_WITH_COUNT_one": "{{count, number}} 标签"
+  "TAGS.TAG_WITH_COUNT_one": "{{count, number}} 标签",
+  "TABLES.MENUS.FILTER.NO_PROPERTIES_AVAILABLE": "无可用属性，请先添加新属性",
+  "TABLES.MENUS.TABLE_CONFIGURATION.VIEW_AS.NORMAL_PORTAL_VIEW": "传送门",
+  "TABLES.MENUS.TABLE_CONFIGURATION.INCLUDE_NESTED_DESCENDANTS": "包含嵌套的元素"
 }
