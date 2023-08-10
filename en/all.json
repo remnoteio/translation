@@ -165,5 +165,21 @@
   "POWERUPS": {
     "POWERUP_one": "Powerup",
     "POWERUP_other": "Powerups"
+  },
+  "COMMUNITY_NOTIFICATIONS": {
+    "INVITE": {
+      "BODY": "has invited you to join",
+      "ACCEPT": "Accept Invite",
+      "REJECT": "Reject"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "followed you"
+    },
+    "NEW_LIKE": {
+      "BODY": "liked"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "was added to"
+    }
   }
 }
