@@ -181,5 +181,36 @@
     "DOCUMENT_ADDED_TO_GROUP": {
       "BODY": "was added to"
     }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "TITLE": "Document",
+        "DESCRIPTION": "Write class notes, ideas, or anything you want!"
+      },
+      "QUICK_ADD": {
+        "TITLE": "Quick Add",
+        "DESCRIPTION": "Capture your ideas on the fly!"
+      },
+      "TODAYS_DOCUMENT": {
+        "TITLE": "Today's Document",
+        "DESCRIPTION": "Daily Documents are perfect for journaling, to-do lists and more."
+      },
+      "FOLDER": {
+        "TITLE": "Folder",
+        "DESCRIPTION": "Organize your documents into folders."
+      },
+      "TABLE_TAG": {
+        "TITLE": "Tables & Tags",
+        "DESCRIPTION": "Create a tables, templates, and databases."
+      },
+      "UPLOAD_FILE": {
+        "TITLE": "Upload & Annotate File",
+        "DESCRIPTION": "Highlight, annotate, and reference PDFs, & more.",
+        "PAYWALL": "You have reached your limit for PDF uploads.",
+        "todo_for_the_item_below": "move this into a global feature name object?",
+        "FEATURE_NAME": "PDF Highlighting"
+      }
+    }
   }
 }
