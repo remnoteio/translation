@@ -19,12 +19,179 @@
   "SETTINGS": {
     "ACCOUNT": {
       "PROFILE_TITLE": "Profile",
+      "MY_PROFILE": "My Profile",
+      "PROFILE_KEYWORDS": "Personal User Profile",
       "IMPORT_EXPORT_TITLE": "Import and Export",
+      "EXPORT_IMPORT_KEYWORDS": "Export Backup Export Roam Dynalist Logseq Notion Evernote Obsidian",
       "NAVIGATION_TITLE": "Navigation",
+      "NAVIGATION_KEYWORDS": "Export and Backup Trash View Deleted Rem Import Knowledge Base View All Cards  Download a Daily Backup Advanced Settings Delete All Rem",
       "AUTHENTICATION_TITLE": "Authentication",
+      "AUTHENTICATION_KEYWORDS": "Logout Log out Google Login Method Add Disconnect Sign In Sign Up",
       "ADVANCED_TITLE": "Advanced Settings",
+      "ADVANCED_KEYWORDS": "Support Rewire Search Fix Bug",
       "DANGER_ZONE_TITLE": "Danger Zone",
+      "PRIVACY_NOTE": "Privacy: Read our <policyLink>Privacy Policy</policyLink>, or change your settings in our <hubLink>Privacy Hub</hubLink>.",
+      "DANGER_ZONE": {
+        "TITLE": "Danger Zone",
+        "KEYWORDS": "sync log delete account reset walkthrough progress reset onboarding advanced account settings"
+
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "Mobile Streak Notifications",
+        "DESCRIPTION": "Send mobile push reminders about your daily flashcard streak. Reminders come at 6pm each day, in your local timezone."
+      },
+      "SYNCING": {
+          "TITLE": "Syncing",
+          "KEYWORDS": "force sync all files"
+      },
+      "VERSION": {
+          "TITLE": "Application Version",
+          "KEYWORDS": "version"
+      },
+      "SUPPORT": {
+          "TITLE": "Support",
+          "KEYWORDS": "support ticket run help"
+      },
+      "PRIVACY": {
+          "TITLE": "Privacy",
+          "KEYWORDS": "privacy"
+      }
+    },
+    "PLANS": {
+      "TITLE": "Plans",        
+      "KEYWORDS": "invite friends plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options"
+    },
+    "EARN_CREDIT": {
+      "TITLE": "Earn Credit",
+      "KEYWORDS": "invite friends earn credit plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options",
+      "INVITE_FRIENDS_REMNOTE": "Invite your friends to RemNote!",
+      "INVITE_FRIENDS_EARN_CREDIT": "Invite your friends to earn credit! You'll receive <0>{{monthlyPrice}}</0> in RemNote credit when the person you invite signs up for a RemNote account, and they'll also get <0>{{monthlyPrice}}</0> credit to get started.",
+      "CREDIT_BALANCE": "Credit Balance",
+      "CREDIT_BALANCE_TEXT": "You have <bold>{{userCredit}}</bold> credit remaining and have earned <bold>{{userCreditEarned}}</bold> credit in total.{{months}} remaining month or months of RemNote Pro for free.<div><br />Subscribe to Pro to start using your credit! You won't be charged until your credit runs out.</div>",
+      "SUBSCRIBE_NOTICE": "<div><br />Subscribe to Pro to start using your credit! You won't be charged until your credit runs out.</div>",
+      "TOAST_SUBSCRIBE": "Your credits will be applied automatically when you subscribe to RemNote Pro. Choose a plan below to get started!",
+      "TOAST_RENEW": "Your credits will be applied automatically when your current subscription renews.",
+      "APPLY_CREDIT": "Apply your credit",
+      "INVITE_TEXT": "Invite friends and earn credit",
+      "HANG_ON": "Hang on",
+      "CREATE_ACCOUNT": "Create an account to invite friends",
+      "ENTER_VALID_EMAIL": "Enter valid email!",
+      "SEND_INVITE": "Send invite",
+      "FRIEND_ALREADY_ON_REMNOTE": "Your friend is already on RemNote",
+      "INVITE_ERROR": "Something went wrong. Please try again later.",
+      "VERIFY_EMAIL": "To invite someone, verify your email first.",
+      "INVITE_EMAIL": "Invite via email",
+      "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
+      "INVITE": "Invite",
+      "SHARE_LINK": "Share invite link",
+      "COPIED": "Copied!",
+      "INVITE_COPIED": "Invite link copied!",
+      "COPYLINK": "Copy Link",
+      "FRIENDS_TITLE": "Friends",
+      "INVITED_YOU": " (invited You)",
+      "NOT_CONFIRMED_EMAIL": " (has not confirmed email)"
+    },
+    "GLOBAL_INTERFACE": {
+      "DARK_MODE": {
+        "TITLE": "Dark Mode",
+        "LABEL": "Use this color scheme."
+      },
+      "FULL_WIDTH": {
+        "TITLE": "Full Width",
+        "LABEL": "Expand documents to use the full width of the screen."
+      },
+      "SIMPLIFIED_UI": {
+        "TITLE": "Simplified UI",
+        "LABEL": "Simplify the UI and hide advanced features."
+      },
+      "IN_APP_SUGGESTIONS": {
+        "TITLE": "Top-of-Document Onboarding Tips",
+        "LABEL": "Show tips on RemNote features you could try at the top of your document.",
+        "KEYWORDS": "tooltips help support learn tutorial"
+      },
+      "ONBOARDING_TIPS": {
+        "TITLE": "Onboarding Tips",
+        "LABEL": "Show tips on RemNote features you're currently using in the corner of the screen.",
+        "KEYWORDS": "tooltips help support learn tutorial"
+      },
+      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
+        "TITLE": "Community Document Search Language",
+        "KEYWORDS": "language community documents search"
+      },
+      "INTERFACE": {
+        "TITLE": "RemNote Interface Language",
+        "KEYWORDS": "lang language translation i18n"
+      }
+    },
+    "EDITOR_INTERFACE": {
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "TITLE": "Single-Click References to Open",
+        "LABEL": "When you click or tap on a Reference, immediately go to its target, rather than opening the reference menu. (You can always show the reference menu by right-clicking.)"
+      },
+      "SCALE_COLLAPSED_REM_BULLETS": {
+        "TITLE": "Scale Collapsed Rem Bullets",
+        "LABEL": "WWhen a Rem is collapsed, make the ring around its bullet larger or smaller based on its total number of descendants.."
+      },
+      "SMOOTHLY_ANIMATE_THE_EDITOR": {
+        "TITLE": "Smoothly Animate The Editor",
+        "LABEL": "Smoothly animate adding and deleting Rems in the editor."
+      },
+      "PREVIEW_REM_ON_HOVER": {
+        "TITLE": "Preview References on Hover",
+        "LABEL": "When you hover over a Reference, show a preview of its contents."
+      }
+    },
+    "SIDEBAR": {
+      "DOCUMENT_STATUSES": {
+        "TITLE": "Document Statuses",
+        "LABEL": "Organize documents into Draft, Finished, and Pinned categories."
+      },
+      "CUSTOMIZE_SIDEBAR_SECTIONS": {
+        "TITLE": "Customize Sidebar Sections"
+      },
+      "COMMUNITY_TAB": {
+        "TITLE": "Community link in Sidebar",
+        "LABEL": "Show the Community Tab, where you can find public documents and study groups, in the sidebar. If you disable this you'll still be able to navigate to it via the account capsule."
+      },
+      "SORT_SIDEBAR": {
+        "TITLE": "Sort Sidebar",
+        "KEYWORDS": "organize sidebars sort a-to-z"
+      },
       "PRIVACY_NOTE": "Privacy: Read our <policyLink>Privacy Policy</policyLink>, or change your settings in our <hubLink>Privacy Hub</hubLink>."
+    },
+    "NOTIFICATIONS": {
+      "ENABLE_PUSH_TITLE": "Enable push notifications?",
+      "ENABLE_PUSH_LABEL": "Receive notifications directly to your device",
+      "ENABLE_EMAIL_TITLE": "Enable email notifications?",
+      "ENABLE_EMAIL_LABEL": "Receive notifications directly to your inbox",
+      "TOGGLE_TITLE": "Filter notifications",
+      "TOGGLE_LABEL": "Control which notifications you want to receive directly to your device/inbox",
+      "DESCRIPTIONS": {
+        "STREAK": {
+          "TITLE": "Streak notifications",
+          "LABEL": "Get daily notifications to keep up your study streak!"
+        },
+        "INVITE": {
+          "TITLE": "Invite notifications",
+          "LABEL": "Get notified when you have been invited to a group"
+        },
+        "NEW_LIKE": {
+          "TITLE": "Like notifications",
+          "LABEL": "Get notified when an article you shared is liked"
+        },
+        "NEW_FOLLOWER": {
+          "TITLE": "Follower notifications",
+          "LABEL": "Get notified when someone follows you"
+        },
+        "DOCUMENT_ADDED_TO_GROUP": {
+          "TITLE": "Article added to group notification",
+          "LABEL": "Get notified when an article is added to your group"
+        },
+        "NEW_COMMENT": {
+          "TITLE": "Comment notifications",
+          "LABEL": "Get notified when someone comments on your article"
+        }
+      }
     }
   },
   "TAGS": {
@@ -166,7 +333,7 @@
     "POWERUP_one": "Powerup",
     "POWERUP_other": "Powerups"
   },
-  "COMMUNITY_NOTIFICATIONS": {
+  "NOTIFICATIONS": {
     "INVITE": {
       "BODY": "has invited you to join",
       "ACCEPT": "Accept Invite",
