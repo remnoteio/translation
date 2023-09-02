@@ -34,31 +34,30 @@
       "DANGER_ZONE": {
         "TITLE": "Danger Zone",
         "KEYWORDS": "sync log delete account reset walkthrough progress reset onboarding advanced account settings"
-
       },
       "NOTIFICATIONS": {
         "TITLE": "Mobile Streak Notifications",
         "DESCRIPTION": "Send mobile push reminders about your daily flashcard streak. Reminders come at 6pm each day, in your local timezone."
       },
       "SYNCING": {
-          "TITLE": "Syncing",
-          "KEYWORDS": "force sync all files"
+        "TITLE": "Syncing",
+        "KEYWORDS": "force sync all files"
       },
       "VERSION": {
-          "TITLE": "Application Version",
-          "KEYWORDS": "version"
+        "TITLE": "Application Version",
+        "KEYWORDS": "version"
       },
       "SUPPORT": {
-          "TITLE": "Support",
-          "KEYWORDS": "support ticket run help"
+        "TITLE": "Support",
+        "KEYWORDS": "support ticket run help"
       },
       "PRIVACY": {
-          "TITLE": "Privacy",
-          "KEYWORDS": "privacy"
+        "TITLE": "Privacy",
+        "KEYWORDS": "privacy"
       }
     },
     "PLANS": {
-      "TITLE": "Plans",        
+      "TITLE": "Plans",
       "KEYWORDS": "invite friends plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options"
     },
     "EARN_CREDIT": {
@@ -350,6 +349,12 @@
     },
     "IMPORT": {
       "BODY": "Someone imported your article"
+    },
+    "NEW_COMMENT": {
+      "BODY": "commented on",
+      "BODY_ARTICLE": "commented on your article",
+      "BODY_COMMENT": "replied to your comment",
+      "BODY_GROUP": "sent a chat to your group"
     }
   },
   "POPUPS": {
