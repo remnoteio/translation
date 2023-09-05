@@ -285,6 +285,7 @@
     "LABEL_FLASHCARDS": "Flashcards",
     "LABEL_EDIT_LATER": "Edit Later",
     "LABEL_COMMUNITY": "Community",
+    "LABEL_ONBOARDING_CALL": "Setup an Onboarding Call",
     "LABEL_INTERACTIVE_TOUR": "Interactive Tour",
     "LABEL_RESUME_INTERACTIVE_TOUR": "Resume Interactive Tour",
     "LABEL_TUTORIALS": "Tutorials"
@@ -355,7 +356,9 @@
       "BODY_ARTICLE": "commented on your article",
       "BODY_COMMENT": "replied to your comment",
       "BODY_GROUP": "sent a chat to your group"
-    }
+    },
+    "ARTICLE_DEFAULT": "Your article",
+    "GROUP_DEFAULT": "Your group"
   },
   "POPUPS": {
     "CREATE_CONTENT_OPTIONS": {
