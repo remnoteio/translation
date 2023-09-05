@@ -1,7 +1,7 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "Language",
-    "TRANSLATION_IN_PROGRESS": "Translation of RemNote is still in progress. You can contribute translations <editorLink>on Inlang</editorLink>."
+    "TRANSLATION_INFO_SETTINGS": "Translation is still in progress.<br>You can help us, by reading the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink>."
   },
   "COMMON": {
     "ACTIONS": {
@@ -332,6 +332,22 @@
   "POWERUPS": {
     "POWERUP_one": "Powerup",
     "POWERUP_other": "Powerups"
+  },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_TITLE": {
+            "SRC": "The document you are trying to share doesn't have a title. You need to add one before publishing it.",
+            "SUBDOCUMENT": "One of your subdocuments doesn't have a title. It won't be published until it has one."
+          },
+          "NO_CONTENT": {
+            "SRC": "The document you are trying to share looks a bit empty. Please add at least {{minimum}} rems, then try again.",
+            "SUBDOCUMENT": "One of your subdocuments looks a bit empty. It won't be published until it has {{minimum}} rems."
+          }
+        }
+      }
+    }
   },
   "NOTIFICATIONS": {
     "INVITE": {
