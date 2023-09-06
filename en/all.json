@@ -219,9 +219,9 @@
     "TURN_OFF_AUTO_APPLY": "Turn off Auto-Apply",
     "VIEW_CONFIGURATION": "Configure Tag",
     "HIDE_CONFIGURATION": "Hide Configuration",
-    "PROPERTIES_HELP_TEXT": {
-      "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
-    },
+    "PROPERTIES_HELP_TEXT": [
+      "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
+    ],
     "TEMPLATES_HELP_TEXT": "A tag's template is a RemNote document that can be automatically copied to tagged Rems. Add headers, checklists, and more right within your template.",
     "AUTO_APPLY_HELP_TEXT": "This template will be automatically applied to all rows in its table, or all Rems tagged with the template."
   },
@@ -380,7 +380,7 @@
     "CREATE_CONTENT_OPTIONS": {
       "DOCUMENT": {
         "TITLE": "Document",
-        "DESCRIPTION": "Write class notes, ideas, or anything you want!"
+        "DESCRIPTION": "Organize notes on lectures, sources, or ideas into documents."
       },
       "QUICK_ADD": {
         "TITLE": "Quick Add",
@@ -392,15 +392,15 @@
       },
       "FOLDER": {
         "TITLE": "Folder",
-        "DESCRIPTION": "Organize your documents into folders."
+        "DESCRIPTION": "Organize documents into folders."
       },
       "TABLE_TAG": {
-        "TITLE": "Tables & Tags",
-        "DESCRIPTION": "Create a tables, templates, and databases."
+        "TITLE": "Tag & Table",
+        "DESCRIPTION": "Create a tag for use with tables and templates."
       },
       "UPLOAD_FILE": {
         "TITLE": "Upload & Annotate File",
-        "DESCRIPTION": "Highlight, annotate, and reference PDFs, & more.",
+        "DESCRIPTION": "Highlight, annotate, and reference a PDF or other file.",
         "PAYWALL": "You have reached your limit for PDF uploads.",
         "todo_for_the_item_below": "move this into a global feature name object?",
         "FEATURE_NAME": "PDF Highlighting"
