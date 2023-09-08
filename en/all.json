@@ -56,6 +56,153 @@
         "KEYWORDS": "privacy"
       }
     },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "TITLE": "Maximum Daily Target",
+          "DESCRIPTION": "Cap the number of flashcards RemNote will ask you to practice to meet your daily target at this value."
+        },
+        "TODAYS_TARGET": "Today's Target:",
+        "TODAYS_TARGET_EXPLANATION": "RemNote tries to set your daily target so that, if you reach the target every day, you'll complete all cards due for review during the next 7 days. However, the daily target will never be more than the maximum set above."
+      },
+      "GENERAL": {
+        "RESET_ALL": {
+          "TITLE": "Reset All Flashcard Settings",
+          "DESCRIPTION": "Reset all flashcard settings to their default values.",
+          "CONFIRM_MESSAGE": "Are you sure you want to reset all flashcard settings to their default values?"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "TITLE": "Max New Cards Per Day",
+          "DESCRIPTION": "Include at most this many newly created flashcards in your flashcard queue each day. This way, new cards will enter your queue at a steady daily rate, rather than in a giant batch."
+        },
+        "STALE_CARDS_PER_DAY": {
+          "TITLE": "Max Stale Cards Per Day",
+          "DESCRIPTION": "Reintroduce at most this many stale flashcards into your flashcard queue each day. Stale cards are ones which are temporarily withheld from the queue because you haven't studied them in a long time and relearning them all at once would be exhausting."
+        },
+        "LEECH_THRESHOLD": {
+          "TITLE": "Leech Threshold",
+          "DESCRIPTION": "Leeches are difficult cards that you keep learning and then forgetting again. If you press “forgot” on a card more times than this, we'll warn you so you can figure out why you're struggling and fix the problem. Set this to higher values to see the leech warning less often."
+        },
+        "AUTOPLAY_MEDIA": {
+          "TITLE": "Autoplay Media",
+          "DESCRIPTION": "When showing a flashcard, automatically play any audio or video on it."
+        },
+        "TYPE_ANSWER": {
+          "TITLE": "Type Answer",
+          "DESCRIPTION": "Show a text box on the front of each flashcard and compare what you type to the answer on the back of the card."
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "TITLE": "Simplified Flashcard Buttons",
+          "DESCRIPTION": "Show only the “Forgot” and “Recalled with effort” response buttons when studying flashcards, instead of all five options."
+        }
+      },
+      "VISUAL": {
+        "SHOW_NEXT_REVIEW_TIMES": {
+          "TITLE": "Show Next Review Times",
+          "DESCRIPTION": "Show the amount of time until the next review on each answer button."
+        }
+      },
+      "ORDERING": {
+        "DOCUMENT_CLUSTERS": {
+          "TITLE": "Document Clusters",
+          "DESCRIPTION": "Prefer to practice Rems from connected documents together."
+        },
+        "REFERENCE_CLUSTERS": {
+          "TITLE": "Reference Clusters",
+          "DESCRIPTION": "Prefer to practice Rems that reference each other together."
+        },
+        "TAG_CLUSTERS": {
+          "TITLE": "Tag Clusters",
+          "DESCRIPTION": "Prefer to practice Rems with the same tag together."
+        },
+        "HIERARCHY_CLUSTERS": {
+          "TITLE": "Hierarchy Clusters",
+          "DESCRIPTION": "Prefer to practice Rems related to each other hierarchically together."
+        }
+      },
+      "STATISTICS": {
+        "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
+          "TITLE": "Maximum Flashcard Response Time",
+          "DESCRIPTION": "If you take longer to answer a flashcard than this (in seconds), leave the rest of the time out of your statistics."
+        }
+      }
+    },
+    "KEYBOARD_SHORTCUTS": {
+      "SPLIT_WITH_ALT_ENTER": {
+        "TITLE": {
+          "PC": "Split With Alt+Enter",
+          "MAC": "Split With Opt+Return"
+        },
+        "DESCRIPTION": {
+          "PC": "When you press Enter in the middle of a Rem, create a line break within that Rem, and instead use Alt+Enter to break the text into two separate Rems. (By default, Shift+Enter and Enter alone, respectively, serve these functions.)",
+          "MAC": "When you press Return in the middle of a Rem, create a line break within that Rem, and instead use Opt+Return to break the text into two separate Rems. (By default, Shift+Return and Return alone, respectively, serve these functions.)"
+        }
+      },
+      "DOUBLE_SLASH_FOR_COMMAND_MENU": {
+        "TITLE": "Double Slash For Command Menu",
+        "DESCRIPTION": "Type // instead of / to trigger commands while editing Rems."
+      },
+      "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
+        "TITLE": "Default To Legacy Keyboard Shortcuts",
+        "DESCRIPTION": "Default to the legacy keyboard shortcuts (before the August 2020 update)."
+      },
+      "CHANGE_KEYBOARD_SHORTCUTS": {
+        "TITLE": "Change Keyboard Shortcuts",
+        "DESCRIPTION": "Customize keyboard shortcuts mapping keybinding.",
+        "KEYWORDS": "customize keyboard shortcuts mapping keybinding"
+      }
+    },
+    "EDITOR": {
+      "GENERAL": {
+        "ENABLE_SPELLCHECK": {
+          "TITLE": "Enable Spellcheck",
+          "DESCRIPTION": "Check the currently focused Rem for typos."
+        },
+        "CAPITALIZE_FROM_SEARCH": {
+          "TITLE": "Capitalize From Search",
+          "DESCRIPTION": {
+            "PC": "When creating a Rem by pressing Ctrl+Enter in a search, capitalize its name.",
+            "MAC": "When creating a Rem by pressing Cmd+Return in a search, capitalize its name."
+          }
+        },
+        "CREATE_CONCEPTS_FROM_SEARCH": {
+          "TITLE": "Create Concepts From Search",
+          "DESCRIPTION": {
+            "PC": "When creating a Rem by pressing Ctrl+Enter in a search, make it into a Concept.",
+            "MAC": "When creating a Rem by pressing Cmd+Return in a search, make it into a Concept."
+          }
+        },
+        "CREATE_STUBS_FROM_SEARCH": {
+          "TITLE": "Create Stubs From Search",
+          "DESCRIPTION": {
+            "PC": "When creating a Rem by pressing Ctrl+Enter in a search, tag it with “Stub.”",
+            "MAC": "When creating a Rem by pressing Cmd+Return in a search, tag it with “Stub.”"
+          }
+        },
+        "INSERT_EMOJIS_AS_REFERENCES": {
+          "TITLE": "Insert Emoji As References",
+          "DESCRIPTION": "When searching with %% and selecting an emoji, it will be inserted as a reference."
+        }
+      },
+      "DATES_AND_TIMES": {
+        "DATE_FORMATTING": {
+          "TITLE": "Date Formatting",
+          "DESCRIPTION": "Format dates inserted with /date like this."
+        },
+        "DATE_FORMATTING_CUSTOM": {
+          "TITLE": "Custom Date Formatting",
+          "DESCRIPTION": "Format your date as you wish using the provided options."
+        },
+        "TIME_FORMATTING": {
+          "TITLE": "Time Formatting",
+          "DESCRIPTION": "Format times inserted with /time like this."
+        },
+        "WEEK_STARTS_ON_MONDAY": {
+          "TITLE": "Week Starts on Monday",
+          "DESCRIPTION": "When selecting dates from a date picker, start each row in the calendar with Monday rather than Sunday."
+        }
+      }
+    },
     "PLANS": {
       "TITLE": "Plans",
       "KEYWORDS": "invite friends plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options"
@@ -149,7 +296,7 @@
         "TITLE": "Customize Sidebar Sections"
       },
       "COMMUNITY_TAB": {
-        "TITLE": "Community link in Sidebar",
+        "TITLE": "Community Link in Sidebar",
         "LABEL": "Show the Community Tab, where you can find public documents and study groups, in the sidebar. If you disable this you'll still be able to navigate to it via the account capsule."
       },
       "SORT_SIDEBAR": {
