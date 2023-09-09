@@ -276,7 +276,7 @@
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
         "TITLE": "Scale Collapsed Rem Bullets",
-        "LABEL": "WWhen a Rem is collapsed, make the ring around its bullet larger or smaller based on its total number of descendants.."
+        "LABEL": "When a Rem is collapsed, make the ring around its bullet larger or smaller based on its total number of descendants.."
       },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
         "TITLE": "Smoothly Animate The Editor",
@@ -375,6 +375,16 @@
   "TABLES": {
     "PRIMARY_COLUMN_TITLE": "Name",
     "UNTITLED_PROPERTY_TITLE": "Untitled Property",
+    "TABLE_CREATION": {
+      "NEW_TAG": {
+        "TITLE": "Create a New {{viewName}} + Tag",
+        "DESCRIPTION": "Start with a blank {{viewName}} with a new tag."
+      },
+      "EXISTING_TAG": {
+        "TITLE": "Use Existing Tag",
+        "DESCRIPTION": "Connect to an existing {{viewName}} source."
+      }
+    },
     "MENUS": {
       "TAG": {
         "TAG_TITLE": "Tag Name",
