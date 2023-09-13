@@ -445,7 +445,9 @@
     "LABEL_ONBOARDING_CALL": "Setup an Onboarding Call",
     "LABEL_INTERACTIVE_TOUR": "Interactive Tour",
     "LABEL_RESUME_INTERACTIVE_TOUR": "Resume Interactive Tour",
-    "LABEL_TUTORIALS": "Tutorials"
+    "LABEL_TUTORIALS": "Tutorials",
+    "TOOLTIP_FLASHCARD_HOME": "Go to Flashcard Home",
+    "TOOLTIP_EDIT_LATER_QUEUE": "Open Edit Later Queue"
   },
   "PAGES": {
     "ALL_NOTES": {
