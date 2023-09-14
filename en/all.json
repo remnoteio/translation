@@ -523,6 +523,10 @@
     "DOCUMENT_ADDED_TO_GROUP": {
       "BODY": "was added to"
     },
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Your article",
+      "BODY_2": "has gotten {{viewCount, number}} views"
+    },
     "IMPORT": {
       "BODY": "Someone imported your article"
     },
