@@ -536,6 +536,9 @@
       "BODY_COMMENT": "replied to your comment",
       "BODY_GROUP": "sent a chat to your group"
     },
+    "EMPTY_STATE_TITLE": "You have no recent notifications",
+    "EMPTY_STATE_MESSAGE": "You're all caught up! You'll receive notifications when someone interacts with the content shared on your <profileLink>profile</profileLink>",
+    "POPUP_TITLE": "Recent Notifications",
     "ARTICLE_DEFAULT": "Your article",
     "GROUP_DEFAULT": "Your group"
   },
