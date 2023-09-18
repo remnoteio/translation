@@ -1,15 +1,11 @@
 {
-  "$schema": "https://inlang.com/project-config-schema",
-  "sourceLanguageTag": "en",
-  "languageTags": [
-    "en",
-    "de",
-    "ne",
-    "pt-br",
-    "tr",
-    "cn"
-  ],
-  "modules": [
-    "https://cdn.jsdelivr.net/npm/@inlang/plugin-i18next@latest/dist/index.js"
-  ]
+	"$schema": "https://inlang.com/project-config-schema",
+	"sourceLanguageTag": "en",
+	"languageTags": ["en", "de", "ne", "pt-br", "tr", "cn"],
+	"modules": ["https://cdn.jsdelivr.net/npm/@inlang/plugin-i18next@latest/dist/index.js"],
+	"settings": {
+		"plugin.inlang.i18next": {
+			"pathPattern": "./{language}/all.json"
+		}
+	}
 }
