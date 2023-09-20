@@ -21,16 +21,6 @@
       "PRIVACY_NOTE": "Datenschutz: Lies unsere <policyLink>Datenschutzerklärung</policyLink>, oder ändere deine Einstellungen im <hubLink>Privacy Hub</hubLink>."
     }
   },
-  "SIDEBAR": {
-    "LABEL_ALL_NOTES": "Alle Notizen",
-    "LABEL_TODAYS_NOTE": "Tägliche Notiz",
-    "LABEL_FLASHCARDS": "Karteikarten",
-    "LABEL_TUTORIALS": "Tutorials",
-    "LABEL_EDIT_LATER": "Für später",
-    "LABEL_COMMUNITY": "Community",
-    "LABEL_INTERACTIVE_TOUR": "Interaktive Tour",
-    "LABEL_RESUME_INTERACTIVE_TOUR": "Setze die Tour fort"
-  },
   "TAGS": {
     "PINNED_TAGS": "Angepinnte Tags",
     "YOUR_TAGS": "Deine Tags"
@@ -40,14 +30,24 @@
   },
   "TABLES": {
     "MENUS": {
+      "TAG": {
+        "VIEW_TAG": "Tag anzeigen"
+      },
       "TABLE_CONFIGURATION": {
         "VIEW_AS": {
           "TABLE_VIEW": "Tabelle"
         }
-      },
-      "TAG": {
-        "VIEW_TAG": "Tag anzeigen"
       }
     }
+  },
+  "SIDEBAR": {
+    "LABEL_ALL_NOTES": "Alle Notizen",
+    "LABEL_TODAYS_NOTE": "Tägliche Notiz",
+    "LABEL_FLASHCARDS": "Karteikarten",
+    "LABEL_EDIT_LATER": "Für später",
+    "LABEL_COMMUNITY": "Community",
+    "LABEL_INTERACTIVE_TOUR": "Interaktive Tour",
+    "LABEL_RESUME_INTERACTIVE_TOUR": "Setze die Tour fort",
+    "LABEL_TUTORIALS": "Tutorials"
   }
 }
