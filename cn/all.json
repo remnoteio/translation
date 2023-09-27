@@ -106,15 +106,15 @@
       "ORDERING": {
         "DOCUMENT_CLUSTERS": {
           "TITLE": "文档集合",
-          "DESCRIPTION": "同时练习关联的文档中的 Rem"
+          "DESCRIPTION": "同时复习关联的文档中的 Rem"
         },
         "REFERENCE_CLUSTERS": {
           "TITLE": "引用集合",
-          "DESCRIPTION": "同时练习相互引用的 Rem。"
+          "DESCRIPTION": "同时复习相互引用的 Rem"
         },
         "TAG_CLUSTERS": {
           "TITLE": "标签集合",
-          "DESCRIPTION": "同时练习具有相同标签的 Rem。"
+          "DESCRIPTION": "同时复习具有相同标签的 Rem"
         },
         "HIERARCHY_CLUSTERS": {
           "TITLE": "层级集合",
@@ -462,14 +462,14 @@
       "TITLE": "全部笔记",
       "SORT": {
         "RECENTLY_MODIFIED": "最近修改",
-        "RECENTLY_CREATED": "最新创建",
+        "RECENTLY_CREATED": "最近创建",
         "OLDEST_FIRST": "按时间降序",
         "BY_CREATION_TIME": "按创建时间",
         "BY_TITLE": "按标题",
         "BY_MODIFICATION": "按修改时间",
         "OLDEST_CREATION_FIRST": "按创建时间降序",
-        "ASCENDING": "按字母序",
-        "DESCENDING": "按字母逆序"
+        "ASCENDING": "按字母序(A -> Z)",
+        "DESCENDING": "按字母逆序(Z -> A)"
       }
     }
   },
@@ -505,12 +505,12 @@
       "ERRORS": {
         "SHARING": {
           "NO_TITLE": {
-            "SRC": "您要共享的文档没有标题。您需要在发布前添加一个标题。",
-            "SUBDOCUMENT": "您的一个子文档没有标题。您需要在发布前添加一个标题。"
+            "SRC": "您要共享的文档没有标题，请在发布前添加一个标题",
+            "SUBDOCUMENT": "您的一个子文档没有标题，请在发布前添加一个标题"
           },
           "NO_CONTENT": {
-            "SRC": "您要共享的文件看起来内容不足。请至少添加 {{minimum}} 个 Rem 后再试一次。",
-            "SUBDOCUMENT": "您的一个子文档看起来内容不足。文档只有达到 {{minimum}} 个 Rem 后才能发布。"
+            "SRC": "您要共享的文件 Rem 数量不达标，请至少添加 {{minimum}} 个 Rem 后再试一次",
+            "SUBDOCUMENT": "您的某个子文档 Rem 数量不达标，文档只有达到 {{minimum}} 个 Rem 后才能发布"
           }
         }
       }
@@ -545,7 +545,7 @@
       "BODY_GROUP": "发送聊天到您的群组"
     },
     "EMPTY_STATE_TITLE": "您最近没有收到任何通知",
-    "EMPTY_STATE_MESSAGE": "您已掌握了一切！在有人与您在 <profileLink>profile</profileLink> 上分享的内容互动时，您会收到通知。",
+    "EMPTY_STATE_MESSAGE": "您已掌握了一切！当有人在您 <profileLink>profile</profileLink> 分享的内容上互动时，您会收到通知",
     "POPUP_TITLE": "近期通知",
     "ARTICLE_DEFAULT": "您的文章",
     "GROUP_DEFAULT": "您的群组"
@@ -566,16 +566,16 @@
       },
       "FOLDER": {
         "TITLE": "文件夹",
-        "DESCRIPTION": "在文件夹中组织笔记。"
+        "DESCRIPTION": "在文件夹中组织笔记"
       },
       "TABLE_TAG": {
         "TITLE": "表格和标签",
-        "DESCRIPTION": "创建表格、模板和数据库。"
+        "DESCRIPTION": "创建表格、模板和数据库"
       },
       "UPLOAD_FILE": {
         "TITLE": "上传并标注文件",
-        "DESCRIPTION": "高亮、标注和引用 PDF 等。",
-        "PAYWALL": "您已达到 PDF 上传限制。",
+        "DESCRIPTION": "高亮、标注和引用 PDF 等",
+        "PAYWALL": "您已达到 PDF 上传限制",
         "todo_for_the_item_below": "是否将其移动到全局功能名称对象中？",
         "FEATURE_NAME": "PDF 高亮"
       }
