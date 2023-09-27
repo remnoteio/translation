@@ -25,24 +25,24 @@
       "IMPORT_EXPORT_TITLE": "导入导出",
       "EXPORT_IMPORT_KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian",
       "NAVIGATION_TITLE": "功能导航",
-      "NAVIGATION_KEYWORDS": "导出备份 回收站 查看已删除Rem 导入知识库 查看全部卡片 下载每日备份 高级设置 删除所有Rem",
+      "NAVIGATION_KEYWORDS": "导出备份 回收站 查看已删除Rem 导入知识库 查看全部卡片 下载每日备份 高级设置 删除全部Rem",
       "AUTHENTICATION_TITLE": "认证授权",
       "AUTHENTICATION_KEYWORDS": "退出 退出Google登录 添加 断开连接 登录 注册",
       "ADVANCED_TITLE": "高级设置",
       "ADVANCED_KEYWORDS": "支持 重装 搜索 修复错误",
       "DANGER_ZONE_TITLE": "风险操作",
-      "PRIVACY_NOTE": "隐私：请阅读我们的<policyLink>隐私政策</policyLink>，或者在我们的<hubLink>隐私中心</hubLink>中更改您的设置。",
+      "PRIVACY_NOTE": "隐私：请阅读我们的<policyLink>隐私政策</policyLink>，或者在<hubLink>隐私中心</hubLink>中更改您的设置。",
       "DANGER_ZONE": {
         "TITLE": "风险操作",
         "KEYWORDS": "同步日志 删除账户 重置演示进度 重置导引 高级账户设置"
       },
       "NOTIFICATIONS": {
         "TITLE": "手机端推送通知",
-        "DESCRIPTION": "在当地时区的每天下午6点，自动发送记忆卡片的复习提醒到您的手机。"
+        "DESCRIPTION": "在当地时区的每天下午6点，自动向您的手机发送记忆卡片的复习提醒。"
       },
       "SYNCING": {
         "TITLE": "数据同步",
-        "KEYWORDS": "强制同步所有文件"
+        "KEYWORDS": "强制同步全部文件"
       },
       "VERSION": {
         "TITLE": "应用版本",
@@ -61,24 +61,24 @@
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "每日最高目标",
-          "DESCRIPTION": "限制抽认卡的数量，RemNote 会以此值作为您的每日练习目标。"
+          "DESCRIPTION": "在 RemNot 中设置每日复习的最大记忆卡片数量。"
         },
         "TODAYS_TARGET": "今日目标：",
-        "TODAYS_TARGET_EXPLANATION": "RemNote 会尝试为您设置每日目标，如果您每天都能达到目标，就能在接下来的 7 天内完成所有需要复习的卡片。注意，每日目标永远不会超过上述设定的上限。"
+        "TODAYS_TARGET_EXPLANATION": "如果您每天都能达到预定目标，RemNote 会尝试更改您的每日目标，以便在接下来的 7 天内完成所有需要复习的卡片。注意，每日目标永远不会超过上述设定的上限。"
       },
       "GENERAL": {
         "RESET_ALL": {
           "TITLE": "重置全部记忆卡片设置",
           "DESCRIPTION": "重置全部记忆卡片的设置为默认值",
-          "CONFIRM_MESSAGE": "您确定要将全部记忆卡片的设置重置为其默认值吗？"
+          "CONFIRM_MESSAGE": "您确定要重置全部记忆卡片的设置为其默认值吗？"
         },
         "NEW_CARDS_PER_DAY": {
           "TITLE": "每日最大新卡数量",
-          "DESCRIPTION": "每天最多将这些新制作的卡片加入您的记忆卡片队列。新卡片会每天以稳定的速度加入您的卡片队列，而不是一次性大批量地加入队列。"
+          "DESCRIPTION": "设置每天允许加入记忆卡片队列的新卡片数量，因此新卡片每天会以稳定的速度加入您的卡片队列，而不是一次性大批量地加入队列。"
         },
         "STALE_CARDS_PER_DAY": {
           "TITLE": "每日最大过期卡片数量",
-          "DESCRIPTION": "每天最多将这些过时的卡片重新加入您的卡片队列。过时的卡片是暂时被排除在卡片队列之外的卡片，因为您已经很久没有复习过它们，一次性重新复习它们会让您筋疲力尽。"
+          "DESCRIPTION": "设置每天允许重新加入记忆卡片队列的旧卡片数量，旧卡片是暂时被排除在卡片队列之外的卡片。因为您很久没有复习过它们，一次性重新加入复习队列会让您筋疲力尽。"
         },
         "LEECH_THRESHOLD": {
           "TITLE": "错误阈值",
@@ -86,27 +86,27 @@
         },
         "AUTOPLAY_MEDIA": {
           "TITLE": "自动播放媒体",
-          "DESCRIPTION": "在显示一个记忆卡片时，自动播放卡片上的音频活视频"
+          "DESCRIPTION": "在展示记忆卡片时，自动播放卡片上的音频活视频"
         },
         "TYPE_ANSWER": {
           "TITLE": "输入答案",
-          "DESCRIPTION": "在每张记忆卡片的正面显示一个文本框，自动将您输入的内容雨卡片背面的答案进行比较"
+          "DESCRIPTION": "在每张卡片的正面显示一个文本框，自动将您输入的内容与卡片背面的答案进行比较"
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "TITLE": "简化记忆卡片按钮",
-          "DESCRIPTION": "在学习记忆卡片时，只显示”忘记“和“努力回忆”的反馈按钮，而不显示其他五个选项。"
+          "DESCRIPTION": "在复习卡片时只显示”忘记“和“努力回忆”的反馈按钮，而不显示剩余的其他五个选项"
         }
       },
       "VISUAL": {
         "SHOW_NEXT_REVIEW_TIMES": {
           "TITLE": "显示下次复习时间",
-          "DESCRIPTION": "在每个答案按钮上显示距离下一次复习的时间。"
+          "DESCRIPTION": "在每个答案按钮上显示距离下一次复习的时间"
         }
       },
       "ORDERING": {
         "DOCUMENT_CLUSTERS": {
           "TITLE": "文档集合",
-          "DESCRIPTION": "同时练习关联的文档中的 Rem。"
+          "DESCRIPTION": "同时练习关联的文档中的 Rem"
         },
         "REFERENCE_CLUSTERS": {
           "TITLE": "引用集合",
@@ -118,13 +118,13 @@
         },
         "HIERARCHY_CLUSTERS": {
           "TITLE": "层级集合",
-          "DESCRIPTION": "同时练习在层级间相互关联的 Rem。"
+          "DESCRIPTION": "同时复习在层级间相互关联的 Rem。"
         }
       },
       "STATISTICS": {
         "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
           "TITLE": "最大记忆卡片回答时间",
-          "DESCRIPTION": "如果您在记忆卡片上回答所需的时间超过此时间（以秒为单位），超出的时间不会记录在统计数据中。"
+          "DESCRIPTION": "如果您在卡片上回答所需的时间超过此值（以秒为单位），则超出的时间不会记录在统计数据中。"
         }
       }
     },
@@ -135,13 +135,13 @@
           "MAC": "使用 Opt + 回车键拆分"
         },
         "DESCRIPTION": {
-          "PC": "但您在一个 Rem 的文本中间按下回车时，会在该 Rem 中创建一个换行符，而使用 Alt + 回车键则会将此文本拆分成两个独立的 Rem。（默认情况下，Shift + 回车键或者单独回车键也能分别实现类似的功能。）",
-          "MAC": "但您在一个 Rem 的文本中间按下回车时，会在该 Rem 中创建一个换行符，而使用 Opt + 回车键则会将此文本拆分成两个独立的 Rem。（默认情况下，Shift + 回车键或者单独回车键也能分别实现类似的功能。）"
+          "PC": "当您在一个 Rem 的文本中间按下回车时，会在光标处添加一个换行符，而使用 Alt + 回车键则会将此文本拆分成两个独立的 Rem。（默认情况下，Shift + 回车键或者单独回车键也能分别实现类似的功能）",
+          "MAC": "但您在一个 Rem 的文本中间按下回车时，会在光标处添加一个换行符，而使用 Opt + 回车键则会将此文本拆分成两个独立的 Rem。（默认情况下，Shift + 回车键或者单独回车键也能分别实现类似的功能。）"
         }
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
-        "TITLE": "命令菜单使用双斜线",
-        "DESCRIPTION": "在编辑 Rem 时，使用 // 而不是 / 触发命令"
+        "TITLE": "命令菜单双斜线设置",
+        "DESCRIPTION": "编辑 Rem 时通过 // 而非 / 触发命令模式"
       },
       "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
         "TITLE": "默认使用旧版键盘快捷键",
@@ -157,50 +157,50 @@
       "GENERAL": {
         "ENABLE_SPELLCHECK": {
           "TITLE": "启用拼写检查",
-          "DESCRIPTION": "检查当前聚焦的 Rem 是否存在拼写错误。"
+          "DESCRIPTION": "检查当前聚焦的 Rem 是否存在拼写错误"
         },
         "CAPITALIZE_FROM_SEARCH": {
-          "TITLE": "搜索时创建 Rem",
+          "TITLE": "搜索中创建 Rem",
           "DESCRIPTION": {
-            "PC": "在搜索中使用 Ctrl + 回车键创建 Rem 时，将首字母大写方式。",
-            "MAC": "在搜索中使用 Cmd + 回车键创建 Rem 时，将首字母大写方式。"
+            "PC": "在搜索中使用 Ctrl + 回车键创建 Rem 时将首字母大写",
+            "MAC": "在搜索中使用 Cmd + 回车键创建 Rem 时将首字母大写"
           }
         },
         "CREATE_CONCEPTS_FROM_SEARCH": {
-          "TITLE": "搜索时创建概念",
+          "TITLE": "搜索中创建概念",
           "DESCRIPTION": {
-            "PC": "在搜索中使用 Ctrl + 回车键创建 Rem 时，将其转化为概念。",
-            "MAC": "在搜索中使用 Ctrl + 回车键创建 Rem 时，将其转化为概念。"
+            "PC": "在搜索中使用 Ctrl + 回车键创建 Rem 时将其转化为概念",
+            "MAC": "在搜索中使用 Ctrl + 回车键创建 Rem 时将其转化为概念"
           }
         },
         "CREATE_STUBS_FROM_SEARCH": {
-          "TITLE": "搜索时创建 Stub",
+          "TITLE": "搜索中创建 Stub",
           "DESCRIPTION": {
-            "PC": "在搜索中使用 Ctrl + 回车键创建 Rem 时，将其打上“Stub”标签。",
-            "MAC": "在搜索中使用 Cmd + 回车键创建 Rem 时，将其打上“Stub”标签。"
+            "PC": "在搜索中使用 Ctrl + 回车键创建 Rem 时将其打上“Stub”标签",
+            "MAC": "在搜索中使用 Cmd + 回车键创建 Rem 时将其打上“Stub”标签"
           }
         },
         "INSERT_EMOJIS_AS_REFERENCES": {
           "TITLE": "插入表情符号作为引用",
-          "DESCRIPTION": "在使用 %% 搜索并选择添加表情时，将作为引用插入。"
+          "DESCRIPTION": "使用 %% 搜索表情并作为引用插入"
         }
       },
       "DATES_AND_TIMES": {
         "DATE_FORMATTING": {
           "TITLE": "日期格式",
-          "DESCRIPTION": "使用 /date 命令插入的日期格式。"
+          "DESCRIPTION": "设置 /date 命令插入的日期格式"
         },
         "DATE_FORMATTING_CUSTOM": {
           "TITLE": "自定义日期格式",
-          "DESCRIPTION": "使用所提供的选项，按您希望的格式设置日期。"
+          "DESCRIPTION": "按您提供的选项设置预期的日期格式"
         },
         "TIME_FORMATTING": {
           "TITLE": "时间格式",
-          "DESCRIPTION": "使用 /time 命令插入的日期格式。"
+          "DESCRIPTION": "设置 /time 命令插入的日期格式"
         },
         "WEEK_STARTS_ON_MONDAY": {
           "TITLE": "每周从周一开始",
-          "DESCRIPTION": "在从日期选择器中选择日期时，日历中的每一行应以星期一而不是星期日开始。"
+          "DESCRIPTION": "在从日期选择器中选择日期时，日历中的每一行应以星期一而不是星期日开始"
         }
       }
     },
