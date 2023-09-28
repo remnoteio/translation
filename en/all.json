@@ -36,7 +36,9 @@
         "KEYWORDS": "Logout Log out Google Login Method Add Disconnect Sign In Sign Up"
       },
       "ADVANCED_TITLE": "Advanced Settings",
-      "ADVANCED": { "KEYWORDS": "Support Rewire Search Fix Bug" },
+      "ADVANCED": {
+        "KEYWORDS": "Support Rewire Search Fix Bug"
+      },
       "DANGER_ZONE_TITLE": "Danger Zone",
       "PRIVACY_NOTE": "Privacy: Read our <policyLink>Privacy Policy</policyLink>, or change your settings in our <hubLink>Privacy Hub</hubLink>.",
       "DANGER_ZONE": {
@@ -293,6 +295,10 @@
       "PREVIEW_REM_ON_HOVER": {
         "TITLE": "Preview References on Hover",
         "LABEL": "When you hover over a Reference, show a preview of its contents."
+      },
+      "ENABLE_ZOOM_INTO_BULLET": {
+        "TITLE": "Enable Zooming into Bullet",
+        "LABEL": "When you click on the bullet pointer, show the rem as a full page"
       }
     },
     "SIDEBAR": {
