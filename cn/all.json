@@ -304,15 +304,15 @@
         "TITLE": "侧边栏排序",
         "KEYWORDS": "侧边栏按A-Z字母序排序"
       },
-      "PRIVACY_NOTE": "隐私：阅读我们的<policyLink>隐私政策</policyLink>，或在我们的<hubLink>隐私中心</hubLink>中更改您的设置。"
+      "PRIVACY_NOTE": "隐私：请阅读我们的<policyLink>隐私政策</policyLink>，您可以在<hubLink>隐私中心</hubLink>中更改您的设置。"
     },
     "NOTIFICATIONS": {
       "ENABLE_PUSH_TITLE": "启用推送通知？",
-      "ENABLE_PUSH_LABEL": "在您的设备上直接接受通知",
+      "ENABLE_PUSH_LABEL": "发送消息通知到您的设备",
       "ENABLE_EMAIL_TITLE": "启用电子邮件通知？",
-      "ENABLE_EMAIL_LABEL": "直接接受邮件通知",
+      "ENABLE_EMAIL_LABEL": "发送通知到您的邮箱",
       "TOGGLE_TITLE": "筛选通知",
-      "TOGGLE_LABEL": "管理您希望在设备或收件箱中收到的通知",
+      "TOGGLE_LABEL": "管理发送到您的设备或邮箱的通知",
       "DESCRIPTIONS": {
         "STREAK": {
           "TITLE": "连续通知",
