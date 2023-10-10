@@ -25,6 +25,13 @@
       "ADVANCED_TITLE": "Configurações Avançadas",
       "DANGER_ZONE_TITLE": "Área de Perigo",
       "PRIVACY_NOTE": "Privacidade: Leia nossa <policyLink>Política de Privacidade</policyLink>, ou mude suas configurações em nosso <hubLink>Centro de Privacidade</hubLink>."
+    },
+    "NOTIFICATIONS": {
+      "DESCRIPTIONS": {
+        "NEW_COMMENT": {
+          "LABEL": "Seja notificado quando alguém comentar seu artigo"
+        }
+      }
     }
   },
   "TAGS": {
@@ -62,6 +69,11 @@
   "TABLES": {
     "PRIMARY_COLUMN_TITLE": "Nome",
     "UNTITLED_PROPERTY_TITLE": "Propriedade Sem Nome",
+    "TABLE_CREATION": {
+      "EXISTING_TAG": {
+        "TITLE": "Usar tag existente"
+      }
+    },
     "MENUS": {
       "TAG": {
         "TAG_TITLE": "Nome da Tag",

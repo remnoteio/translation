@@ -21,15 +21,10 @@
     "ACCOUNT": {
       "PROFILE_TITLE": "个人资料",
       "MY_PROFILE": "我的个人资料",
-      "PROFILE_KEYWORDS": "个人用户资料",
       "IMPORT_EXPORT_TITLE": "导入导出",
-      "EXPORT_IMPORT_KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian",
       "NAVIGATION_TITLE": "功能导航",
-      "NAVIGATION_KEYWORDS": "导出备份 回收站 查看已删除Rem 导入知识库 查看全部卡片 下载每日备份 高级设置 删除全部Rem",
       "AUTHENTICATION_TITLE": "认证授权",
-      "AUTHENTICATION_KEYWORDS": "退出 退出Google登录 添加 断开连接 登录 注册",
       "ADVANCED_TITLE": "高级设置",
-      "ADVANCED_KEYWORDS": "支持 重装 搜索 修复错误",
       "DANGER_ZONE_TITLE": "风险操作",
       "PRIVACY_NOTE": "隐私：请阅读我们的<policyLink>隐私政策</policyLink>，或者在<hubLink>隐私中心</hubLink>中更改您的设置。",
       "DANGER_ZONE": {
@@ -55,7 +50,12 @@
       "PRIVACY": {
         "TITLE": "隐私",
         "KEYWORDS": "隐私"
-      }
+      },
+      "PROFILE_KEYWORDS": "个人用户资料",
+      "EXPORT_IMPORT_KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian",
+      "NAVIGATION_KEYWORDS": "导出备份 回收站 查看已删除Rem 导入知识库 查看全部卡片 下载每日备份 高级设置 删除全部Rem",
+      "AUTHENTICATION_KEYWORDS": "退出 退出Google登录 添加 断开连接 登录 注册",
+      "ADVANCED_KEYWORDS": "支持 重装 搜索 修复错误"
     },
     "FLASHCARDS": {
       "DAILY_TARGET": {

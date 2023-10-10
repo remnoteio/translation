@@ -20,15 +20,10 @@
     "ACCOUNT": {
       "PROFILE_TITLE": "प्रोफाइल",
       "MY_PROFILE": "मेरो प्रोफाइल",
-      "PROFILE_KEYWORDS": "व्यक्तिगत प्रयोगकर्ता प्रोफाइल",
       "IMPORT_EXPORT_TITLE": "आयात र निर्यात",
-      "EXPORT_IMPORT_KEYWORDS": "निर्यात ब्याकअप निर्यात Roam Dynalist Logseq Notion Evernote Obsidian",
       "NAVIGATION_TITLE": "नेविगेसन",
-      "NAVIGATION_KEYWORDS": "निर्यात र ब्याकअप फोहोर देखाउनुहोस् मेटिएको Rem आयात ज्ञान आधार हेर्न सबै कार्डहरू दैनिक ब्याकअप डाउनलोड गर्नुहोस् उन्नत सेटिङ्हरू सबै Rem मेटाउनुहोस्",
       "AUTHENTICATION_TITLE": "प्रमाणीकरण",
-      "AUTHENTICATION_KEYWORDS": "लगआउट लग आउट गूगल लगिन प्रक्रिया थप्न डिस्कनेक्ट साइन इन साइन अप",
       "ADVANCED_TITLE": "उन्नत सेटिङ्हरू",
-      "ADVANCED_KEYWORDS": "समर्थन Rewire खोज दोष मर्मत",
       "DANGER_ZONE_TITLE": "खतरा क्षेत्र",
       "PRIVACY_NOTE": "गोपनीयता: हाम्रो <policyLink>गोपनीयता नीति</policyLink> पढ्नुहोस्, वा हाम्रो <hubLink>गोपनीयता हबमा</hubLink> तपाईंको सेटिङ्हरू परिवर्तन गर्नुहोस्।",
       "DANGER_ZONE": {
@@ -54,7 +49,12 @@
       "PRIVACY": {
         "TITLE": "गोपनीयता",
         "KEYWORDS": "गोपनीयता"
-      }
+      },
+      "PROFILE_KEYWORDS": "व्यक्तिगत प्रयोगकर्ता प्रोफाइल",
+      "EXPORT_IMPORT_KEYWORDS": "निर्यात ब्याकअप निर्यात Roam Dynalist Logseq Notion Evernote Obsidian",
+      "NAVIGATION_KEYWORDS": "निर्यात र ब्याकअप फोहोर देखाउनुहोस् मेटिएको Rem आयात ज्ञान आधार हेर्न सबै कार्डहरू दैनिक ब्याकअप डाउनलोड गर्नुहोस् उन्नत सेटिङ्हरू सबै Rem मेटाउनुहोस्",
+      "AUTHENTICATION_KEYWORDS": "लगआउट लग आउट गूगल लगिन प्रक्रिया थप्न डिस्कनेक्ट साइन इन साइन अप",
+      "ADVANCED_KEYWORDS": "समर्थन Rewire खोज दोष मर्मत"
     },
     "PLANS": {
       "TITLE": "योजनाहरू",
