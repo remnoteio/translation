@@ -1,6 +1,7 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "Idioma",
+    "TRANSLATION_INFO_SETTINGS": "A tradução ainda está em andamento.<br> Você pode nos ajudar lendo o<guideLink>tutorial</guideLink> e então usando nosso<editorLink>editor web</editorLink> .",
     "TRANSLATION_IN_PROGRESS": "A tradução do RemNote ainda está em andamento. <bold>Você pode contribuir com </bold> traduções <editorLink>no Inlang</editorLink>."
   },
   "COMMON": {
@@ -19,17 +20,88 @@
   "SETTINGS": {
     "ACCOUNT": {
       "PROFILE_TITLE": "Perfil",
+      "MY_PROFILE": "Meu perfil",
+      "PROFILE": {
+        "KEYWORDS": "Perfil de Usuário Pessoal"
+      },
       "IMPORT_EXPORT_TITLE": "Importar e Exportar",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Exportar Backup Exportar Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
       "NAVIGATION_TITLE": "Navegação",
+      "NAVIGATION": {
+        "KEYWORDS": "Exportação e Backup Lixeira Exibir Deleteado Rem Importar Base de Conhecimento Exibir Todos os Cartões Baixar um Backup Diário Configurações Avançadas Excluir Todos Rem"
+      },
       "AUTHENTICATION_TITLE": "Autenticação",
+      "AUTHENTICATION": {
+        "KEYWORDS": "Sair Sair Método de Login do Google Adicionar Desconectar Entrar Cadastrar-se"
+      },
       "ADVANCED_TITLE": "Configurações Avançadas",
+      "ADVANCED": {
+        "KEYWORDS": "Suporte Religar Buscar Consertar Bug"
+      },
       "DANGER_ZONE_TITLE": "Área de Perigo",
-      "PRIVACY_NOTE": "Privacidade: Leia nossa <policyLink>Política de Privacidade</policyLink>, ou mude suas configurações em nosso <hubLink>Centro de Privacidade</hubLink>."
+      "PRIVACY_NOTE": "Privacidade: Leia nossa <policyLink>Política de Privacidade</policyLink>, ou mude suas configurações em nosso <hubLink>Centro de Privacidade</hubLink>.",
+      "DANGER_ZONE": {
+        "TITLE": "Zona de Perigo",
+        "KEYWORDS": "sincronizar log excluir conta redefinir passo a passo progresso redefinir onboarding avançadas conta configurações "
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "Notificações de Celular de Sequência de Meta",
+        "DESCRIPTION": "Enviar lembretes sobre sua sequência de metas diárias de flashcards. Os lembretes são enviados às 18h todos os dias, no seu fuso horário local."
+      },
+      "SYNCING": {
+        "TITLE": "Sincronizando",
+        "KEYWORDS": "forçar a sincronização de todos os arquivos"
+      },
+      "VERSION": {
+        "TITLE": "Versão do Aplicativo",
+        "KEYWORDS": "versão"
+      },
+      "SUPPORT": {
+        "TITLE": "Suporte",
+        "KEYWORDS": "suporte ticket executar ajuda"
+      },
+      "PRIVACY": {
+        "TITLE": "Privacidade",
+        "KEYWORDS": "privacidade"
+      }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "TITLE": "Meta Diária Máxima",
+          "DESCRIPTION": "Limita o número de flashcards que o RemNote solicitará que você pratique para atingir sua meta diária neste valor."
+        },
+        "TODAYS_TARGET": "Meta de Hoje:",
+        "TODAYS_TARGET_EXPLANATION": "O RemNote tenta definir sua meta diária para que, se você atingi-la todos os dias, todos os cards sejam revisados nos próximos 7 dias. Porém, a meta diária nunca será superior ao máximo definido acima."
+      },
+      "GENERAL": {
+        "RESET_ALL": {
+          "TITLE": "Redefinir Todas as Configurações de Flashcards",
+          "DESCRIPTION": "Redefine todas as configurações de flashcards para os valores padrão.",
+          "CONFIRM_MESSAGE": "Tem certeza de que deseja redefinir todas as configurações de flashcards para os valores padrão?"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "TITLE": "Máximo de Novos Cards Por Dia"
+        },
+        "STALE_CARDS_PER_DAY": {
+          "TITLE": "Máximo de Cards Atrasados Por Dia"
+        }
+      }
     },
     "NOTIFICATIONS": {
       "DESCRIPTIONS": {
+        "NEW_LIKE": {
+          "TITLE": "Notificações de Curtidas"
+        },
         "NEW_COMMENT": {
+          "TITLE": "Notificações de comentários",
           "LABEL": "Seja notificado quando alguém comentar seu artigo"
+        },
+        "ARTICLE_VIEWS": {
+          "TITLE": "Notificações de visualizações de artigos",
+          "LABEL": "Seja notificado quando seu artigo começar a obter várias visualizações "
         }
       }
     }
@@ -70,8 +142,13 @@
     "PRIMARY_COLUMN_TITLE": "Nome",
     "UNTITLED_PROPERTY_TITLE": "Propriedade Sem Nome",
     "TABLE_CREATION": {
+      "NEW_TAG": {
+        "TITLE": "Crie uma Nova {{viewName}} + Tag",
+        "DESCRIPTION": "Comece com uma {{viewName}} vazia com uma tag nova."
+      },
       "EXISTING_TAG": {
-        "TITLE": "Usar tag existente"
+        "TITLE": "Usar tag existente",
+        "DESCRIPTION": "Conecte a uma {{viewName}} já existente."
       }
     },
     "MENUS": {
@@ -131,9 +208,12 @@
     "LABEL_FLASHCARDS": "Flashcards",
     "LABEL_EDIT_LATER": "Editar depois",
     "LABEL_COMMUNITY": "Comunidade",
+    "LABEL_ONBOARDING_CALL": "Configurar uma chamada de Onboarding",
     "LABEL_INTERACTIVE_TOUR": "Tour Interativo",
     "LABEL_RESUME_INTERACTIVE_TOUR": "Continuar Tour Interativo",
-    "LABEL_TUTORIALS": "Tutoriais"
+    "LABEL_TUTORIALS": "Tutoriais",
+    "TOOLTIP_FLASHCARD_HOME": "Ir a Página Inicial de Flashcard",
+    "TOOLTIP_EDIT_LATER_QUEUE": "Abrir Lista de Editar Depois"
   },
   "PAGES": {
     "ALL_NOTES": {
@@ -177,5 +257,60 @@
   "POWERUPS": {
     "POWERUP_one": "Powerup",
     "POWERUP_other": "Powerups"
+  },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_TITLE": {
+            "SRC": "O documento que você está tentando compartilhar não tem título. Você precisa adicionar um antes de publicá-lo.",
+            "SUBDOCUMENT": "Um dos seus subdocumentos não tem título. Ele não será publicado até que tenha um."
+          }
+        }
+      }
+    }
+  },
+  "NOTIFICATIONS": {
+    "INVITE": {
+      "BODY": "convidou você para participar",
+      "ACCEPT": "Aceitar convite",
+      "REJECT": "Rejeitar"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "seguiu você"
+    },
+    "NEW_LIKE": {
+      "BODY": "curtiu"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "foi adicionado a"
+    },
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Seu artigo",
+      "BODY_2": "obteve {{viewCount, number}} visualizações"
+    },
+    "IMPORT": {
+      "BODY": "Alguém importou seu artigo"
+    },
+    "NEW_COMMENT": {
+      "BODY": "comentou no",
+      "BODY_ARTICLE": "comentou no seu artigo",
+      "BODY_COMMENT": "respondeu seu comentário",
+      "BODY_GROUP": "enviou um chat para seu grupo"
+    },
+    "EMPTY_STATE_TITLE": "Você não tem notificações recentes",
+    "POPUP_TITLE": "Notificações recentes",
+    "ARTICLE_DEFAULT": "Seu artigo",
+    "GROUP_DEFAULT": "Seu grupo"
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "TITLE": "Documento"
+      },
+      "QUICK_ADD": {
+        "TITLE": "Adição rápida"
+      }
+    }
   }
 }
