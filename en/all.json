@@ -485,7 +485,7 @@
   },
   "SOURCES": {
     "LINK_SOURCE": {
-      "LABEL": "Link Source",
+      "LABEL": "Link",
       "ENTER_URL": "Enter URL",
       "INVALID_URL": "Invalid URL",
       "OPEN_IN_READER": "Open in Reader",
@@ -495,7 +495,7 @@
       "LINK_WITH_COUNT_other": "{{count, number}} Links"
     },
     "UPLOAD_SOURCE": {
-      "LABEL": "Upload Source",
+      "LABEL": "Upload",
       "SELECT_FILES": "Select files",
       "SELECT_FILES_TO_UPLOAD": "Select files to upload",
       "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
