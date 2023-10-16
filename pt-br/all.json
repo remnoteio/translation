@@ -1,6 +1,7 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "Idioma",
+    "TRANSLATION_INFO_SETTINGS": "A tradução ainda está em andamento.<br> Você pode nos ajudar lendo o<guideLink>tutorial</guideLink> e então usando nosso<editorLink>editor web</editorLink> .",
     "TRANSLATION_IN_PROGRESS": "A tradução do RemNote ainda está em andamento. <bold>Você pode contribuir com </bold> traduções <editorLink>no Inlang</editorLink>."
   },
   "COMMON": {
@@ -19,12 +20,343 @@
   "SETTINGS": {
     "ACCOUNT": {
       "PROFILE_TITLE": "Perfil",
+      "MY_PROFILE": "Meu perfil",
+      "PROFILE": {
+        "KEYWORDS": "Perfil de Usuário Pessoal"
+      },
       "IMPORT_EXPORT_TITLE": "Importar e Exportar",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Exportar Backup Exportar Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
       "NAVIGATION_TITLE": "Navegação",
+      "NAVIGATION": {
+        "KEYWORDS": "Exportação e Backup Lixeira Exibir Deleteado Rem Importar Base de Conhecimento Exibir Todos os Cartões Baixar um Backup Diário Configurações Avançadas Excluir Todos Rem"
+      },
       "AUTHENTICATION_TITLE": "Autenticação",
+      "AUTHENTICATION": {
+        "KEYWORDS": "Sair Sair Método de Login do Google Adicionar Desconectar Entrar Cadastrar-se"
+      },
       "ADVANCED_TITLE": "Configurações Avançadas",
+      "ADVANCED": {
+        "KEYWORDS": "Suporte Religar Buscar Consertar Bug"
+      },
       "DANGER_ZONE_TITLE": "Área de Perigo",
-      "PRIVACY_NOTE": "Privacidade: Leia nossa <policyLink>Política de Privacidade</policyLink>, ou mude suas configurações em nosso <hubLink>Centro de Privacidade</hubLink>."
+      "PRIVACY_NOTE": "Privacidade: Leia nossa <policyLink>Política de Privacidade</policyLink>, ou mude suas configurações em nosso <hubLink>Centro de Privacidade</hubLink>.",
+      "DANGER_ZONE": {
+        "TITLE": "Zona de Perigo",
+        "KEYWORDS": "sincronizar log excluir conta redefinir passo a passo progresso redefinir onboarding avançadas conta configurações "
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "Notificações de Celular de Sequência de Meta",
+        "DESCRIPTION": "Enviar lembretes sobre sua sequência de metas diárias de flashcards. Os lembretes são enviados às 18h todos os dias, no seu fuso horário local."
+      },
+      "SYNCING": {
+        "TITLE": "Sincronizando",
+        "KEYWORDS": "forçar a sincronização de todos os arquivos"
+      },
+      "VERSION": {
+        "TITLE": "Versão do Aplicativo",
+        "KEYWORDS": "versão"
+      },
+      "SUPPORT": {
+        "TITLE": "Suporte",
+        "KEYWORDS": "suporte ticket executar ajuda"
+      },
+      "PRIVACY": {
+        "TITLE": "Privacidade",
+        "KEYWORDS": "privacidade"
+      }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "TITLE": "Meta Diária Máxima",
+          "DESCRIPTION": "Limita o número de flashcards que o RemNote solicitará que você pratique para atingir sua meta diária neste valor."
+        },
+        "TODAYS_TARGET": "Meta de Hoje:",
+        "TODAYS_TARGET_EXPLANATION": "O RemNote tenta definir sua meta diária para que, se você atingi-la todos os dias, todos os cards sejam revisados nos próximos 7 dias. Porém, a meta diária nunca será superior ao máximo definido acima."
+      },
+      "GENERAL": {
+        "RESET_ALL": {
+          "TITLE": "Redefinir Todas as Configurações de Flashcards",
+          "DESCRIPTION": "Redefine todas as configurações de flashcards para os valores padrão.",
+          "CONFIRM_MESSAGE": "Tem certeza de que deseja redefinir todas as configurações de flashcards para os valores padrão?"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "TITLE": "Máximo de Novos Cards por Dia",
+          "DESCRIPTION": "Inclua no máximo esta quantidade de flashcards novos em sua revisão dia a cada dia. Dessa forma, novos cartões entrarão na sua fila a uma taxa diária constante, em vez de em um lote gigante."
+        },
+        "STALE_CARDS_PER_DAY": {
+          "TITLE": "Máximo de Cards Obsoletos por Dia",
+          "DESCRIPTION": "Reintroduza no máximo esta quantidade de flashcards obsoletos em sua fila de flashcards todos os dias. Cards obsoletos são aqueles que são temporariamente retidos da fila porque você não os estuda há muito tempo e reaprende-los todos de uma vez seria exaustivo."
+        },
+        "LEECH_THRESHOLD": {
+          "TITLE": "Limiar de Sanguessuga",
+          "DESCRIPTION": "Sanguessugas são cartas difíceis que você continua aprendendo e depois esquecendo novamente. Se você pressionar “esqueci” em um cartão mais vezes do que o este valor, iremos avisá-lo para que você possa descobrir por que está tendo dificuldades neste card e resolver este problema. Defina valores mais altos para ver o aviso de sanguessuga com menos frequência."
+        },
+        "AUTOPLAY_MEDIA": {
+          "TITLE": "Reprodução Automática de Mídia ",
+          "DESCRIPTION": "Ao mostrar um flashcard, reproduz automaticamente qualquer áudio ou vídeo contido nele."
+        },
+        "TYPE_ANSWER": {
+          "TITLE": "Digitar Respostas",
+          "DESCRIPTION": "Mostra uma caixa de texto na frente de cada cartão e compara o que você digitou com a resposta no verso do cartão."
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "TITLE": "Botões dos Flashcard Simplificados ",
+          "DESCRIPTION": "Mostrar apenas os botões de resposta “Esqueci” e “Recuperei com esforço” ao estudar os flashcards, em vez de todas as cinco opções."
+        }
+      },
+      "VISUAL": {
+        "SHOW_NEXT_REVIEW_TIMES": {
+          "TITLE": "Mostrar Períodos para a Próxima Revisão",
+          "DESCRIPTION": "Mostrar o período de tempo até a próxima revisão em cada botão de resposta."
+        }
+      },
+      "ORDERING": {
+        "DOCUMENT_CLUSTERS": {
+          "TITLE": "Agrupamento de Documentos",
+          "DESCRIPTION": "Dar preferência para praticar juntos os Rems conectados por documentos."
+        },
+        "REFERENCE_CLUSTERS": {
+          "TITLE": "Agrupamento de Referência",
+          "DESCRIPTION": "Dar preferência para praticar juntos Rems que tenham referenciais entre si."
+        },
+        "TAG_CLUSTERS": {
+          "TITLE": "Agrumaento de de Tags",
+          "DESCRIPTION": "Dar preferência para praticar juntos os Rems que tenham a mesma tag."
+        },
+        "HIERARCHY_CLUSTERS": {
+          "TITLE": "Agrupamento de Hierarquia",
+          "DESCRIPTION": "Dar preferência para praticar juntos Rems relacinados pela sua hierarquia ."
+        }
+      },
+      "STATISTICS": {
+        "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
+          "TITLE": "Tempo Máximo de Resposta do Flashcard",
+          "DESCRIPTION": "Se você demorar mais tempo que isso (em segundos) para responder um flashcard, deixará o resto do tempo fora de suas estatísticas."
+        }
+      }
+    },
+    "KEYBOARD_SHORTCUTS": {
+      "SPLIT_WITH_ALT_ENTER": {
+        "TITLE": {
+          "PC": "Quebrar Linha com Alt + Enter",
+          "MAC": "Quebrar Linha com Opt+Return"
+        },
+        "DESCRIPTION": {
+          "PC": "Ao pressionar Enter no meio de um Rem, crie uma quebra de linha dentro desse Rem e pressione Alt+Enter para dividir o texto em dois Rems separados. (Por padrão, Shift+Enter e Enter sozinho, respectivamente, servem essas funções.)",
+          "MAC": "Ao pressionar Return no meio de um Rem, crie uma quebra de linha dentro desse Rem e pressione Opt+Return para dividir o texto em dois Rems separados. (Por padrão, Shift+Return e Return sozinho, respectivamente, servem essas funções.)"
+        }
+      },
+      "DOUBLE_SLASH_FOR_COMMAND_MENU": {
+        "TITLE": "Barra Dupla para Menu de Comando",
+        "DESCRIPTION": "Digite // em vez de / para acionar os comandos enquanto estiver editando Rems."
+      },
+      "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
+        "TITLE": "Padrão para Atalhos de Teclado Antigos",
+        "DESCRIPTION": "Padrão para os atalhos de teclado Antigos (antes da atualização de Agosto de 2020)."
+      },
+      "CHANGE_KEYBOARD_SHORTCUTS": {
+        "TITLE": "Alterar Atalhos de Teclado",
+        "DESCRIPTION": "Personalize os atalhos de teclado.",
+        "KEYWORDS": "personalize teclado atalhos mapeamento atalhos-de-teclas"
+      }
+    },
+    "EDITOR": {
+      "GENERAL": {
+        "ENABLE_SPELLCHECK": {
+          "TITLE": "Ativar Verificação Ortográfica",
+          "DESCRIPTION": "Verifica se há erros de digitação no Rem que estiver em foco."
+        },
+        "CAPITALIZE_FROM_SEARCH": {
+          "TITLE": "Capitalizar a Partir da Pesquisa",
+          "DESCRIPTION": {
+            "PC": "Ao criar um Rem pressionando Ctrl+Enter em uma pesquisa, capitaliza as palavras do nome deste Rem.",
+            "MAC": "Ao criar um Rem pressionando Cmd+Return em uma pesquisa, capitaliza as palavras do nome deste Rem."
+          }
+        },
+        "CREATE_CONCEPTS_FROM_SEARCH": {
+          "TITLE": "Crie conceitos a partir da pesquisa",
+          "DESCRIPTION": {
+            "PC": "Ao criar um Rem pressionando Ctrl+Enter em uma pesquisa, transforme-o em um Conceito.",
+            "MAC": "Ao criar um Rem pressionando Cmd+Return em uma pesquisa, transforme-o em um Conceito."
+          }
+        },
+        "CREATE_STUBS_FROM_SEARCH": {
+          "TITLE": "Criar Stubs a partir da pesquisa",
+          "DESCRIPTION": {
+            "PC": "Ao criar um Rem pressionando Ctrl+Enter em uma pesquisa, marque-o com “Stub”.",
+            "MAC": "Ao criar um Rem pressionando Cmd+Return em uma pesquisa, marque-o com “Stub”."
+          }
+        },
+        "INSERT_EMOJIS_AS_REFERENCES": {
+          "TITLE": "Insirir Emojis como Referências",
+          "DESCRIPTION": "Ao pesquisar com %% e selecionar um emoji, ele será inserido como referência."
+        }
+      },
+      "DATES_AND_TIMES": {
+        "DATE_FORMATTING": {
+          "TITLE": "Formatação de Data",
+          "DESCRIPTION": "Formate as datas inseridas com /date assim."
+        },
+        "DATE_FORMATTING_CUSTOM": {
+          "TITLE": "Formatação de Data Personalizada",
+          "DESCRIPTION": "Formate as datas como desejar usando as opções fornecidas."
+        },
+        "TIME_FORMATTING": {
+          "TITLE": "Formatação de Hora",
+          "DESCRIPTION": "Formate os horários inseridos com /time assim."
+        },
+        "WEEK_STARTS_ON_MONDAY": {
+          "TITLE": "Semana Começa na Segunda-feira",
+          "DESCRIPTION": "Ao selecionar datas em um seletor de datas, inicie cada linha do calendário com segunda-feira em vez de domingo."
+        }
+      }
+    },
+    "PLANS": {
+      "TITLE": "Planos",
+      "KEYWORDS": "convidar amigos plano alterar assinatura ganhar créditos grátis remnote enviar tweet email escolher plano vida-toda aprendizagem pro recursos detalhamento preços opções"
+    },
+    "EARN_CREDIT": {
+      "TITLE": "Ganhe Créditos",
+      "KEYWORDS": "convidar amigos ganhar créditos plano mudar assinatura ganhar créditos grátis remnote enviar tweet email escolher plano vida-toda aprendizagem pro recursos detalhamento preços opções",
+      "INVITE_FRIENDS_REMNOTE": "Convide seus amigos para o RemNote!",
+      "INVITE_FRIENDS_EARN_CREDIT": "Convide seus amigos para ganhar créditos! Você receberá <0>{{monthlyPrice}}</0> em crédito RemNote quando a pessoa que você convidou se inscrever com uma conta RemNote, e ele também receberá <0>{{monthlyPrice}}</0> de crédito para começar.",
+      "CREDIT_BALANCE": "Balanco de Creditos",
+      "CREDIT_BALANCE_TEXT": "Você tem<bold> {{userCredit}}</bold> de créditos restantes e ganhou<bold> {{userCreditEarned}}</bold> de créditos no total. {{months}} mês ou meses restantes de RemNote Pro gratuitamente.<div><br /> Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>",
+      "SUBSCRIBE_NOTICE": "<div><br />Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>",
+      "TOAST_SUBSCRIBE": "Seus créditos serão aplicados automaticamente quando você assinar o RemNote Pro. Escolha um plano abaixo para começar!",
+      "TOAST_RENEW": "Seus créditos serão aplicados automaticamente quando sua assinatura atual for renovada.",
+      "APPLY_CREDIT": "Utilize seu crédito",
+      "INVITE_TEXT": "Convide amigos e ganhe créditos",
+      "HANG_ON": "Espere",
+      "CREATE_ACCOUNT": "Crie uma conta para convidar amigos",
+      "ENTER_VALID_EMAIL": "Digite um e-mail válido!",
+      "SEND_INVITE": "Enviar convite",
+      "FRIEND_ALREADY_ON_REMNOTE": "Seu amigo já está no RemNote",
+      "INVITE_ERROR": "Algo deu errado. Por favor, tente novamente mais tarde.",
+      "VERIFY_EMAIL": "Para convidar alguém, primeiro verifique seu e-mail.",
+      "INVITE_EMAIL": "Convidar por e-mail",
+      "EMAIL_PLACEHOLDER": "amigocuriosos@gmail.com",
+      "INVITE": "Convidar",
+      "SHARE_LINK": "Compartilhar link de convite",
+      "COPIED": "Copiado!",
+      "INVITE_COPIED": "Link do convite copiado!",
+      "COPYLINK": "Copiar Link",
+      "FRIENDS_TITLE": "Amigos",
+      "INVITED_YOU": "(convidou você)",
+      "NOT_CONFIRMED_EMAIL": "(não confirmou e-mail)"
+    },
+    "GLOBAL_INTERFACE": {
+      "DARK_MODE": {
+        "TITLE": "Modo Escuro",
+        "LABEL": "Use este esquema de cores."
+      },
+      "FULL_WIDTH": {
+        "TITLE": "Largura Completa ",
+        "LABEL": "Expanda os documentos para usar toda a largura da tela."
+      },
+      "SIMPLIFIED_UI": {
+        "TITLE": "IU Simplificada",
+        "LABEL": "Simplifique a interface e oculte recursos avançados."
+      },
+      "IN_APP_SUGGESTIONS": {
+        "TITLE": "Dicas de Integração na Topo do Documento",
+        "LABEL": "Mostre dicas sobre os recursos do RemNote na parte superior do seu documento.",
+        "KEYWORDS": "dicas ajuda suporte aprender tutorial"
+      },
+      "ONBOARDING_TIPS": {
+        "TITLE": "Dicas de Integração",
+        "LABEL": "Mostrar dicas sobre os recursos do RemNote que você está usando no canto da tela.",
+        "KEYWORDS": "dicas ajuda suporte aprender tutorial"
+      },
+      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
+        "TITLE": "Idioma de Pesquisa de Documentos na Comunidade",
+        "KEYWORDS": "Idioma comunidade documentos pesquisa"
+      },
+      "INTERFACE": {
+        "TITLE": "Idioma da interface do RemNote",
+        "KEYWORDS": "idioma idioma tradução i18n"
+      }
+    },
+    "EDITOR_INTERFACE": {
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "TITLE": "Único Clique para Abrir Referências",
+        "LABEL": "Ao clicar ou tocar em uma Referência, vá imediatamente para o seu destino, em vez de abrir o menu de referência. (Você sempre pode mostrar o menu de referência clicando com o botão direito.)"
+      },
+      "SCALE_COLLAPSED_REM_BULLETS": {
+        "TITLE": "Dimensionar Marcadores de Rems Colapsados",
+        "LABEL": "Quando um Rem é colapsado, aumente ou diminua o anel ao redor do seu marcador baseado no número total de descendentes."
+      },
+      "SMOOTHLY_ANIMATE_THE_EDITOR": {
+        "TITLE": "Animar Sutilmente o Editor",
+        "LABEL": "Animações sutis ao adicionar e deleter Rems no editor."
+      },
+      "PREVIEW_REM_ON_HOVER": {
+        "TITLE": "Pré-visualizar Referências ao Passar o Mouse",
+        "LABEL": "Ao passar o mouse sobre uma Referência, mostre uma prévia do seu conteúdo."
+      },
+      "ENABLE_ZOOM_INTO_BULLET": {
+        "TITLE": "Ativar Zoom-In em marcadores",
+        "LABEL": "Ao clicar em um marcador do Rem, mostra o rem como uma página inteira"
+      }
+    },
+    "SIDEBAR": {
+      "DOCUMENT_STATUSES": {
+        "TITLE": "Status de Documentos",
+        "LABEL": "Organize documentos nas categorias Rascunho, Concluído e Fixado."
+      },
+      "CUSTOMIZE_SIDEBAR_SECTIONS": {
+        "TITLE": "Personalizar Seções da Barra Lateral"
+      },
+      "COMMUNITY_TAB": {
+        "TITLE": "Link da Comunidade na Barra Lateral",
+        "LABEL": "Abre a Aba da Comunidade, onde você pode encontrar documentos públicos e grupos de estudo, na barra lateral. Se você desativar isso, ainda poderá navegar até ele por meio do menu de sua conta."
+      },
+      "SORT_SIDEBAR": {
+        "TITLE": "Ordenar Barra Lateral",
+        "KEYWORDS": "Organizar barras-laterais ordernar de-A-a-Z"
+      },
+      "PRIVACY_NOTE": "Privacidade: Leia nossa<policyLink>Política de Privacidade</policyLink>, ou altere suas configurações em nosso<hubLink>Centro de privacidade</hubLink> ."
+    },
+    "NOTIFICATIONS": {
+      "ENABLE_PUSH_TITLE": "Ativar notificações push?",
+      "ENABLE_PUSH_LABEL": "Receba notificações diretamente no seu dispositivo móvel",
+      "ENABLE_EMAIL_TITLE": "Ativar notificações por e-mail?",
+      "ENABLE_EMAIL_LABEL": "Receba notificações diretamente em seu e-mail",
+      "TOGGLE_TITLE": "Filtrar notificações",
+      "TOGGLE_LABEL": "Controle quais notificações você deseja receber diretamente em seu dispositivo/e-mail",
+      "DESCRIPTIONS": {
+        "STREAK": {
+          "TITLE": "Notificações de Sequencia da Meta Diária",
+          "LABEL": "Receba notificações diárias para manter sua sequência de estudos!"
+        },
+        "INVITE": {
+          "TITLE": "Notificações de convite",
+          "LABEL": "Seja notificado quando você for convidado para um grupo"
+        },
+        "NEW_LIKE": {
+          "TITLE": "Notificações de Curtidas",
+          "LABEL": "Seja notificado quando um artigo que você compartilhou for curtido"
+        },
+        "NEW_FOLLOWER": {
+          "TITLE": "Notificações de seguidores",
+          "LABEL": "Seja notificado quando alguém seguir você"
+        },
+        "DOCUMENT_ADDED_TO_GROUP": {
+          "TITLE": "Notificação de Artigo adicionado à grupo",
+          "LABEL": "Seja notificado quando um artigo for adicionado ao seu grupo"
+        },
+        "NEW_COMMENT": {
+          "TITLE": "Notificações de comentários",
+          "LABEL": "Seja notificado quando alguém comentar seu artigo"
+        },
+        "ARTICLE_VIEWS": {
+          "TITLE": "Notificações de visualizações de artigos",
+          "LABEL": "Seja notificado quando seu artigo começar a obter várias visualizações "
+        }
+      }
     }
   },
   "TAGS": {
@@ -62,6 +394,16 @@
   "TABLES": {
     "PRIMARY_COLUMN_TITLE": "Nome",
     "UNTITLED_PROPERTY_TITLE": "Propriedade Sem Nome",
+    "TABLE_CREATION": {
+      "NEW_TAG": {
+        "TITLE": "Crie uma Nova {{viewName}} + Tag",
+        "DESCRIPTION": "Comece com uma {{viewName}} vazia com uma tag nova."
+      },
+      "EXISTING_TAG": {
+        "TITLE": "Usar tag existente",
+        "DESCRIPTION": "Conecte a uma {{viewName}} já existente."
+      }
+    },
     "MENUS": {
       "TAG": {
         "TAG_TITLE": "Nome da Tag",
@@ -119,9 +461,12 @@
     "LABEL_FLASHCARDS": "Flashcards",
     "LABEL_EDIT_LATER": "Editar depois",
     "LABEL_COMMUNITY": "Comunidade",
+    "LABEL_ONBOARDING_CALL": "Configurar uma chamada de Onboarding",
     "LABEL_INTERACTIVE_TOUR": "Tour Interativo",
     "LABEL_RESUME_INTERACTIVE_TOUR": "Continuar Tour Interativo",
-    "LABEL_TUTORIALS": "Tutoriais"
+    "LABEL_TUTORIALS": "Tutoriais",
+    "TOOLTIP_FLASHCARD_HOME": "Ir a Página Inicial de Flashcard",
+    "TOOLTIP_EDIT_LATER_QUEUE": "Abrir Lista de Editar Depois"
   },
   "PAGES": {
     "ALL_NOTES": {
@@ -165,5 +510,86 @@
   "POWERUPS": {
     "POWERUP_one": "Powerup",
     "POWERUP_other": "Powerups"
+  },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_TITLE": {
+            "SRC": "O documento que você está tentando compartilhar não tem título. Você precisa adicionar um antes de publicá-lo.",
+            "SUBDOCUMENT": "Um dos seus subdocumentos não tem título. Ele não será publicado até que tenha um."
+          },
+          "NO_CONTENT": {
+            "SRC": "O documento que você está tentando compartilhar parece um pouco vazio. Adicione pelo menos {{minimum}} rems e tente novamente.",
+            "SUBDOCUMENT": "Um dos seus subdocumentos parece um pouco vazio. Não será publicado até que tenha {{minimum}} rems."
+          }
+        }
+      }
+    }
+  },
+  "NOTIFICATIONS": {
+    "INVITE": {
+      "BODY": "convidou você para participar",
+      "ACCEPT": "Aceitar convite",
+      "REJECT": "Rejeitar"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "seguiu você"
+    },
+    "NEW_LIKE": {
+      "BODY": "curtiu"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "foi adicionado a"
+    },
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Seu artigo",
+      "BODY_2": "obteve {{viewCount, number}} visualizações"
+    },
+    "IMPORT": {
+      "BODY": "Alguém importou seu artigo"
+    },
+    "NEW_COMMENT": {
+      "BODY": "comentou no",
+      "BODY_ARTICLE": "comentou no seu artigo",
+      "BODY_COMMENT": "respondeu seu comentário",
+      "BODY_GROUP": "enviou um chat para seu grupo"
+    },
+    "EMPTY_STATE_TITLE": "Você não tem notificações recentes",
+    "EMPTY_STATE_MESSAGE": "Você está totalmente atualizado! Você receberá notificações quando alguém interagir com o conteúdo compartilhado em seu <profileLink>perfil</profileLink>",
+    "POPUP_TITLE": "Notificações recentes",
+    "ARTICLE_DEFAULT": "Seu artigo",
+    "GROUP_DEFAULT": "Seu grupo"
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "TITLE": "Documento",
+        "DESCRIPTION": "Organize anotações sobre aulas, fontes ou ideias em documentos."
+      },
+      "QUICK_ADD": {
+        "TITLE": "Adição rápida",
+        "DESCRIPTION": "Capture suas ideias na hora!"
+      },
+      "TODAYS_DOCUMENT": {
+        "TITLE": "Documento de hoje",
+        "DESCRIPTION": "Os Documentos Diários são perfeitos para anotações diárias, listas de tarefas e muito mais."
+      },
+      "FOLDER": {
+        "TITLE": "Pasta",
+        "DESCRIPTION": "Organize documentos em pastas."
+      },
+      "TABLE_TAG": {
+        "TITLE": "Tag & Tabela",
+        "DESCRIPTION": "Crie uma tag para usar com tabelas e modelos."
+      },
+      "UPLOAD_FILE": {
+        "TITLE": "Fazer Upload e Anotar Arquivo",
+        "DESCRIPTION": "Grife, anote e faça referência em um PDF ou outro arquivo.",
+        "PAYWALL": "Você atingiu seu limite de uploads de PDF.",
+        "todo_for_the_item_below": "mover isso para um objeto nome de recurso global?",
+        "FEATURE_NAME": "Grifos de PDF"
+      }
+    }
   }
 }
