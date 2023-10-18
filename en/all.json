@@ -265,11 +265,17 @@
         "LABEL": "Show tips on RemNote features you could try at the top of your document.",
         "KEYWORDS": "tooltips help support learn tutorial"
       },
-      "ONBOARDING_TIPS": {
+      "ONBOARDING_TIPS_FEATURES": {
         "TITLE": "Onboarding Tips",
         "LABEL": "Show tips on RemNote features you're currently using in the corner of the screen.",
         "KEYWORDS": "tooltips help support learn tutorial"
       },
+      "ONBOARDING_TIPS_SHORTCUTS": {
+        "TITLE": "Keyboard Shortcut Tips",
+        "LABEL": "Show tips on keyboard shortcuts you're currently using in the corner of the screen.",
+        "KEYWORDS": "tooltips help support learn tutorial"
+      },
+
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
         "TITLE": "Community Document Search Language",
         "KEYWORDS": "language community documents search"
@@ -337,23 +343,23 @@
         },
         "NEW_LIKE": {
           "TITLE": "Like notifications",
-          "LABEL": "Get notified when an article you shared is liked"
+          "LABEL": "Get notified when a document you shared is liked"
         },
         "NEW_FOLLOWER": {
           "TITLE": "Follower notifications",
           "LABEL": "Get notified when someone follows you"
         },
         "DOCUMENT_ADDED_TO_GROUP": {
-          "TITLE": "Article added to group notification",
-          "LABEL": "Get notified when an article is added to your group"
+          "TITLE": "Document added to group notification",
+          "LABEL": "Get notified when a document is added to your group"
         },
         "NEW_COMMENT": {
           "TITLE": "Comment notifications",
-          "LABEL": "Get notified when someone comments on your article"
+          "LABEL": "Get notified when someone comments on your shared document"
         },
         "ARTICLE_VIEWS": {
-          "TITLE": "Article views notifications",
-          "LABEL": "Get notified when your article starts gaining significant views"
+          "TITLE": "Document views notifications",
+          "LABEL": "Get notified when your shared document starts gaining significant views"
         }
       }
     }
@@ -542,22 +548,22 @@
       "BODY": "was added to"
     },
     "ARTICLE_VIEWS": {
-      "BODY_1": "Your article",
+      "BODY_1": "Your document",
       "BODY_2": "has gotten {{viewCount, number}} views"
     },
     "IMPORT": {
-      "BODY": "Someone imported your article"
+      "BODY": "Someone imported your document"
     },
     "NEW_COMMENT": {
       "BODY": "commented on",
-      "BODY_ARTICLE": "commented on your article",
+      "BODY_ARTICLE": "commented on your document",
       "BODY_COMMENT": "replied to your comment",
       "BODY_GROUP": "sent a chat to your group"
     },
     "EMPTY_STATE_TITLE": "You have no recent notifications",
     "EMPTY_STATE_MESSAGE": "You're all caught up! You'll receive notifications when someone interacts with the content shared on your <profileLink>profile</profileLink>",
     "POPUP_TITLE": "Recent Notifications",
-    "ARTICLE_DEFAULT": "Your article",
+    "ARTICLE_DEFAULT": "Your document",
     "GROUP_DEFAULT": "Your group"
   },
   "POPUPS": {
