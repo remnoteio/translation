@@ -590,7 +590,7 @@
       },
       "UPLOAD_FILE": {
         "TITLE": "Upload & Annotate File",
-        "DESCRIPTION": "Highlight, annotate, and reference a PDF or other file.",
+        "DESCRIPTION": "Highlight & reference a PDF, PowerPoint, Word document, or other file.",
         "PAYWALL": "You have reached your limit for PDF uploads.",
         "todo_for_the_item_below": "move this into a global feature name object?",
         "FEATURE_NAME": "PDF Highlighting"
