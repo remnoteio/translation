@@ -275,7 +275,6 @@
         "LABEL": "Show tips on keyboard shortcuts you're currently using in the corner of the screen.",
         "KEYWORDS": "tooltips help support learn tutorial"
       },
-
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
         "TITLE": "Community Document Search Language",
         "KEYWORDS": "language community documents search"
@@ -301,6 +300,10 @@
       "PREVIEW_REM_ON_HOVER": {
         "TITLE": "Preview References on Hover",
         "LABEL": "When you hover over a Reference, show a preview of its contents."
+      },
+      "ENTER_TO_OUTDENT": {
+        "TITLE": "Enable 'Press Enter to Outdent'",
+        "LABEL": "When you're focused at the last child rem and if the rem is empty, pressing Enter will outdent the rem."
       },
       "ENABLE_ZOOM_INTO_BULLET": {
         "TITLE": "Enable Zooming into Bullet",
