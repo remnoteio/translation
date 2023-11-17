@@ -266,11 +266,6 @@
         "LABEL": "Mostre dicas sobre os recursos do RemNote na parte superior do seu documento.",
         "KEYWORDS": "dicas ajuda suporte aprender tutorial"
       },
-      "ONBOARDING_TIPS": {
-        "TITLE": "Dicas de Integração",
-        "LABEL": "Mostrar dicas sobre os recursos do RemNote que você está usando no canto da tela.",
-        "KEYWORDS": "dicas ajuda suporte aprender tutorial"
-      },
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
         "TITLE": "Idioma de Pesquisa de Documentos na Comunidade",
         "KEYWORDS": "Idioma comunidade documentos pesquisa"
@@ -278,6 +273,11 @@
       "INTERFACE": {
         "TITLE": "Idioma da interface do RemNote",
         "KEYWORDS": "idioma idioma tradução i18n"
+      },
+      "ONBOARDING_TIPS": {
+        "TITLE": "Dicas de Integração",
+        "LABEL": "Mostrar dicas sobre os recursos do RemNote que você está usando no canto da tela.",
+        "KEYWORDS": "dicas ajuda suporte aprender tutorial"
       }
     },
     "EDITOR_INTERFACE": {
@@ -543,7 +543,7 @@
       "BODY": "foi adicionado a"
     },
     "ARTICLE_VIEWS": {
-      "BODY_1": "Seu artigo",
+      "BODY_1": "Seu documento",
       "BODY_2": "obteve {{viewCount, number}} visualizações"
     },
     "IMPORT": {
@@ -558,7 +558,7 @@
     "EMPTY_STATE_TITLE": "Você não tem notificações recentes",
     "EMPTY_STATE_MESSAGE": "Você está totalmente atualizado! Você receberá notificações quando alguém interagir com o conteúdo compartilhado em seu <profileLink>perfil</profileLink>",
     "POPUP_TITLE": "Notificações recentes",
-    "ARTICLE_DEFAULT": "Seu artigo",
+    "ARTICLE_DEFAULT": "Seu documento",
     "GROUP_DEFAULT": "Seu grupo"
   },
   "POPUPS": {

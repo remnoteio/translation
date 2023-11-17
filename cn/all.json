@@ -256,11 +256,6 @@
         "LABEL": "在文档顶部显示可以试用的 RemNote 功能提示",
         "KEYWORDS": "提示 帮助 支持 学习 教程"
       },
-      "ONBOARDING_TIPS": {
-        "TITLE": "引导提示",
-        "LABEL": "在屏幕一角显示当前正在使用的 RemNote 功能提示",
-        "KEYWORDS": "提示 帮助 支持 学习 教程"
-      },
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
         "TITLE": "社区文档搜索语言",
         "KEYWORDS": "语言 社区 文档 搜索"
@@ -268,6 +263,11 @@
       "INTERFACE": {
         "TITLE": "RemNote 界面语言",
         "KEYWORDS": "语言 语言 翻译 i18n"
+      },
+      "ONBOARDING_TIPS": {
+        "TITLE": "引导提示",
+        "LABEL": "在屏幕一角显示当前正在使用的 RemNote 功能提示",
+        "KEYWORDS": "提示 帮助 支持 学习 教程"
       }
     },
     "EDITOR_INTERFACE": {
