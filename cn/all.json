@@ -214,8 +214,8 @@
       "INVITE_FRIENDS_REMNOTE": "邀请您的朋友加入 RemNote！",
       "INVITE_FRIENDS_EARN_CREDIT": "邀请赚积分！好友通过邀请链接成功注册，双方均可在 RemNote 中获得  <0>{{monthlyPrice}}</0> 的积分。",
       "CREDIT_BALANCE": "积分额度",
-      "CREDIT_BALANCE_TEXT": "您还剩 <bold>{{userCredit}}</bold> 积分，当前一共获得了 <bold>{{userCreditEarned}}</bold>积分，可以免费使用 {{months}} 个月的 RemNote Pro。<div><br />使用积分订阅 RemNote Pro！在您的积分用完之前，我们不会向您收取任何费用。</div>",
-      "SUBSCRIBE_NOTICE": "<div><br />使用积分订阅 RemNote Pro！在您的积分用完之前，我们不会向您收取任何费用。</div>",
+      "CREDIT_BALANCE_TEXT": "您当前还剩 <bold>{{userCredit}}</bold> 积分，总共获得过 <bold>{{userCreditEarned}}</bold> 积分，可以免费使用 {{months}} 个月的 RemNote Pro 订阅计划。<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>",
+      "SUBSCRIBE_NOTICE": "<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>",
       "TOAST_SUBSCRIBE": "当您订阅 RemNote Pro 时，会先自动消耗您的积分。请选择以下计划，然后开始使用吧！",
       "TOAST_RENEW": "当您续订当前订阅计划时，会先自动消耗您的积分。",
       "APPLY_CREDIT": "使用您的积分",
@@ -298,7 +298,7 @@
       },
       "COMMUNITY_TAB": {
         "TITLE": "展示社区链接",
-        "LABEL": "在侧边栏上显示”社区“，您可以在社区中找到公共文档和学习小组。如果禁用此功能，您仍然可以通过账户导航找到它。"
+        "LABEL": "在侧边栏上显示社区“，您可以在社区中找到公共文档和学习小组。如果禁用此功能，您仍然可以通过账户导航找到它。"
       },
       "SORT_SIDEBAR": {
         "TITLE": "侧边栏排序",
