@@ -32,7 +32,7 @@
         "KEYWORDS": "同步日志 删除账户 重置演示进度 重置导引 高级账户设置"
       },
       "NOTIFICATIONS": {
-        "TITLE": "手机端推送通知",
+        "TITLE": "通知推送",
         "DESCRIPTION": "在当地时区的每天下午6点，自动向您的手机发送记忆卡片的复习提醒。"
       },
       "SYNCING": {
@@ -118,7 +118,7 @@
         },
         "HIERARCHY_CLUSTERS": {
           "TITLE": "层级集合",
-          "DESCRIPTION": "同时复习在层级间相互关联的 Rem。"
+          "DESCRIPTION": "同时复习在层级间相互关联的 Rem"
         }
       },
       "STATISTICS": {
@@ -131,7 +131,7 @@
     "KEYBOARD_SHORTCUTS": {
       "SPLIT_WITH_ALT_ENTER": {
         "TITLE": {
-          "PC": "使用 Alt + 回车键拆分",
+          "PC": "Alt + 回车键拆分文本",
           "MAC": "使用 Opt + 回车键拆分"
         },
         "DESCRIPTION": {
@@ -140,7 +140,7 @@
         }
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
-        "TITLE": "命令菜单双斜线设置",
+        "TITLE": "双斜线触发命令菜单",
         "DESCRIPTION": "编辑 Rem 时通过 // 而非 / 触发命令模式"
       },
       "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
@@ -214,8 +214,8 @@
       "INVITE_FRIENDS_REMNOTE": "邀请您的朋友加入 RemNote！",
       "INVITE_FRIENDS_EARN_CREDIT": "邀请赚积分！好友通过邀请链接成功注册，双方均可在 RemNote 中获得  <0>{{monthlyPrice}}</0> 的积分。",
       "CREDIT_BALANCE": "积分额度",
-      "CREDIT_BALANCE_TEXT": "您还剩 <bold>{{userCredit}}</bold> 积分，当前一共获得了 <bold>{{userCreditEarned}}</bold>积分，可以免费使用 {{months}} 个月的 RemNote Pro。<div><br />使用积分订阅 RemNote Pro！在您的积分用完之前，我们不会向您收取任何费用。</div>",
-      "SUBSCRIBE_NOTICE": "<div><br />使用积分订阅 RemNote Pro！在您的积分用完之前，我们不会向您收取任何费用。</div>",
+      "CREDIT_BALANCE_TEXT": "您当前还剩 <bold>{{userCredit}}</bold> 积分，总共获得过 <bold>{{userCreditEarned}}</bold> 积分，可以免费使用 {{months}} 个月的 RemNote Pro 订阅计划。<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>",
+      "SUBSCRIBE_NOTICE": "<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>",
       "TOAST_SUBSCRIBE": "当您订阅 RemNote Pro 时，会先自动消耗您的积分。请选择以下计划，然后开始使用吧！",
       "TOAST_RENEW": "当您续订当前订阅计划时，会先自动消耗您的积分。",
       "APPLY_CREDIT": "使用您的积分",
@@ -245,11 +245,11 @@
       },
       "FULL_WIDTH": {
         "TITLE": "全屏显示",
-        "LABEL": "在全屏下展开文档"
+        "LABEL": "在全屏下显示文档内容"
       },
       "SIMPLIFIED_UI": {
         "TITLE": "界面简化",
-        "LABEL": "界面简化并隐藏高级功能"
+        "LABEL": "简化界面显示并隐藏高级功能"
       },
       "IN_APP_SUGGESTIONS": {
         "TITLE": "顶级文档 使用技巧",
@@ -298,7 +298,7 @@
       },
       "COMMUNITY_TAB": {
         "TITLE": "展示社区链接",
-        "LABEL": "在侧边栏上显示”社区“，您可以在社区中找到公共文档和学习小组。如果禁用此功能，您仍然可以通过账户导航找到它。"
+        "LABEL": "在侧边栏上显示社区“，您可以在社区中找到公共文档和学习小组。如果禁用此功能，您仍然可以通过账户导航找到它。"
       },
       "SORT_SIDEBAR": {
         "TITLE": "侧边栏排序",
@@ -311,7 +311,7 @@
       "ENABLE_PUSH_LABEL": "发送消息通知到您的设备",
       "ENABLE_EMAIL_TITLE": "启用电子邮件通知？",
       "ENABLE_EMAIL_LABEL": "发送通知到您的邮箱",
-      "TOGGLE_TITLE": "筛选通知",
+      "TOGGLE_TITLE": "通知管理",
       "TOGGLE_LABEL": "管理发送到您的设备或邮箱的通知",
       "DESCRIPTIONS": {
         "STREAK": {
