@@ -63,6 +63,38 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "TODAYS_TARGET": "Mục tiêu hôm nay:"
+      },
+      "GENERAL": {
+        "RESET_ALL": {
+          "TITLE": "Đặt lại tất cả cài đặt Flashcard",
+          "DESCRIPTION": "Đặt lại tất cả cài đặt flashcard về giá trị mặc định của chúng.",
+          "CONFIRM_MESSAGE": "Bạn có chắc chắn muốn đặt lại tất cả cài đặt flashcard về giá trị mặc định của chúng không?"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "TITLE": "Thẻ mới tối đa mỗi ngày"
+        },
+        "STALE_CARDS_PER_DAY": {
+          "TITLE": "Thẻ cũ tối đa mỗi ngày"
+        },
+        "LEECH_THRESHOLD": {
+          "TITLE": "Ngưỡng đỉa"
+        },
+        "AUTOPLAY_MEDIA": {
+          "TITLE": "Phương tiện tự động phát"
+        },
+        "TYPE_ANSWER": {
+          "TITLE": "Viết câu trả lời"
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "TITLE": "Nút Flashcard đơn giản hóa"
+        }
+      }
+    },
+    "KEYBOARD_SHORTCUTS": {
+      "SPLIT_WITH_ALT_ENTER": {
+        "TITLE": {
+          "PC": "Tách bằng Alt+Enter"
+        }
       }
     }
   }
