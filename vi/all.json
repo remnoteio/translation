@@ -1,5 +1,6 @@
 {
   "LANGUAGE": {
-    "LANGUAGE_WORD": "Ngôn ngữ"
+    "LANGUAGE_WORD": "Ngôn ngữ",
+    "TRANSLATION_INFO_SETTINGS": "Bản dịch vẫn đang được tiến hành; bạn sẽ thấy sự kết hợp giữa tiếng Anh và ngôn ngữ đã chọn.<br> Bạn có thể giúp chúng tôi dịch bằng cách đọc <guideLink>hướng dẫn</guideLink>, sau đó sử dụng <editorLink>trình biên tập web</editorLink> của chúng tôi."
   }
 }
