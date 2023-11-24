@@ -1,0 +1,32 @@
+{
+  "LANGUAGE": {
+    "LANGUAGE_WORD": "言語"
+  },
+  "COMMON": {
+    "ACTIONS": {
+      "CREATE": "作成",
+      "REMOVE": "削除",
+      "DELETE": "削除",
+      "EDIT": "編集",
+      "DUPLICATE": "複製",
+      "APPLY": "適用",
+      "UPDATE": "更新",
+      "VIEW": "ビュー",
+      "HIDE": "非表示"
+    }
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "PROFILE_TITLE": "プロフィール",
+      "MY_PROFILE": "私のプロフィール",
+      "PROFILE": {
+        "KEYWORDS": "個人ユーザーのプロフィール"
+      },
+      "IMPORT_EXPORT_TITLE": "インポートとエクスポート",
+      "NAVIGATION_TITLE": "ナビゲーション",
+      "AUTHENTICATION_TITLE": "認証",
+      "ADVANCED_TITLE": "詳細設定",
+      "DANGER_ZONE_TITLE": "棄権ゾーン"
+    }
+  }
+}
