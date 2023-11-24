@@ -39,7 +39,31 @@
       "ADVANCED": {
         "KEYWORDS": "Hỗ trợ Rewire Tìm kiếm Sửa lỗi"
       },
-      "DANGER_ZONE_TITLE": "Khu vực nguy hiểm"
+      "DANGER_ZONE_TITLE": "Khu vực nguy hiểm",
+      "PRIVACY_NOTE": "Quyền riêng tư: Đọc <policyLink>Chính sách bảo mật</policyLink> của chúng tôi hoặc thay đổi cài đặt của bạn trong <hubLink>Trung tâm quyền riêng tư</hubLink>.",
+      "DANGER_ZONE": {
+        "TITLE": "Khu vực nguy hiểm",
+        "KEYWORDS": "đồng bộ hóa nhật ký xóa tài khoản thiết lập lại tiến trình hướng dẫn thiết lập lại cài đặt tài khoản nâng cao"
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "Thông báo chuỗi trên di động"
+      },
+      "VERSION": {
+        "TITLE": "Phiên bản Ứng dụng",
+        "KEYWORDS": "phiên bản"
+      },
+      "SUPPORT": {
+        "TITLE": "Ủng hộ"
+      },
+      "PRIVACY": {
+        "TITLE": "Sự riêng tư",
+        "KEYWORDS": "sự riêng tư"
+      }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "TODAYS_TARGET": "Mục tiêu hôm nay:"
+      }
     }
   }
 }
