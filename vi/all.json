@@ -18,7 +18,28 @@
   },
   "SETTINGS": {
     "ACCOUNT": {
-      "PROFILE_TITLE": "Hồ sơ"
+      "PROFILE_TITLE": "Hồ sơ",
+      "MY_PROFILE": "Thông tin của tôi",
+      "PROFILE": {
+        "KEYWORDS": "Hồ sơ người dùng cá nhân"
+      },
+      "IMPORT_EXPORT_TITLE": "Nhập và xuất",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Xuất bản Sao lưu Xuất Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "NAVIGATION_TITLE": "Điều hướng",
+      "NAVIGATION": {
+        "KEYWORDS": "Xuất và Sao lưu Thùng rác Xem Đã xóa Rem Nhập cơ sở kiến thức Xem tất cả thẻ  Tải xuống bản sao lưu hàng ngày Cài đặt nâng cao Xóa tất cả Rem"
+      },
+      "AUTHENTICATION_TITLE": "Xác thực",
+      "AUTHENTICATION": {
+        "KEYWORDS": "Đăng xuất Đăng xuất Phương thức đăng nhập Google Thêm Ngắt kết nối Đăng nhập Đăng ký"
+      },
+      "ADVANCED_TITLE": "Cài đặt nâng cao",
+      "ADVANCED": {
+        "KEYWORDS": "Hỗ trợ Rewire Tìm kiếm Sửa lỗi"
+      },
+      "DANGER_ZONE_TITLE": "Khu vực nguy hiểm"
     }
   }
 }
