@@ -48,6 +48,9 @@
       "NOTIFICATIONS": {
         "TITLE": "Thông báo chuỗi trên di động"
       },
+      "SYNCING": {
+        "TITLE": "Đang đồng bộ hóa"
+      },
       "VERSION": {
         "TITLE": "Phiên bản Ứng dụng",
         "KEYWORDS": "phiên bản"
