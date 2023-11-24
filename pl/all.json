@@ -1,0 +1,154 @@
+{
+  "COMMON": {
+    "ACTIONS": {
+      "DUPLICATE": "Duplikuj\n",
+      "APPLY": "Zatwierd"
+    }
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "VERSION": {
+        "TITLE": "Wersja Aplikacji"
+      }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "TODAYS_TARGET_EXPLANATION": "RemNote stara się określić Twój dzienny cel i jeżeli go osiągniesz każdego dnia, to przerobisz wszystkie fiszki zaplanowane na następne 7 dni. Natomiast, cel dzienny nigdy nie będzie większy niż maksymalny zbiór powyżej"
+      },
+      "GENERAL": {
+        "AUTOPLAY_MEDIA": {
+          "TITLE": "Odtwarzaj automatycznie dźwięk",
+          "DESCRIPTION": "Podczas pokazywania fiszki automatycznie odtwarzaj każdą ścieżkę dźwiękową lub wideo na niej."
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "TITLE": "Uproszczone przyciski w fiszkach",
+          "DESCRIPTION": "Pokazuj tylko przyciski \"Zapomniałem/-am\" i \"Przypomniałem/-am z trudem\"  podczas nauki fiszek, zamiast wszystkich pięciu opcji."
+        }
+      }
+    },
+    "KEYBOARD_SHORTCUTS": {
+      "SPLIT_WITH_ALT_ENTER": {
+        "TITLE": {
+          "PC": "Rozdziel Z Alt+Enter",
+          "MAC": "Rozdziel Z Opt-Return"
+        },
+        "DESCRIPTION": {
+          "PC": "Kiedy naciśniesz  Enter w środku Rem, utwórz podział wiersza w tym Rem i zamiast tego użyj Alt+Enter, aby podzielić tekst na dwa oddzielne Remy. (Domyślnie te funkcje pełnią odpowiednio Shift+Enter i sam klawisz Enter.)",
+          "MAC": "Kiedy naciśniesz  Return w środku Rem, utwórz podział wiersza w tym Rem i zamiast tego użyj Opt+Return, aby podzielić tekst na dwa osobne Remy. (Domyślnie te funkcje pełnią odpowiednio Shift+Return i sam klawisz Return.)"
+        }
+      },
+      "DOUBLE_SLASH_FOR_COMMAND_MENU": {
+        "TITLE": "Podwójny ukośnik dla Menu oleceń"
+      }
+    },
+    "PLANS": {
+      "TITLE": "Plany",
+      "KEYWORDS": "zaproś znajomych plan zmień subskrypcję zdobądź kredyty bezpłatny remnote wyślij tweet e-mail wybierz plan uczenia się na zawsze pro spis funkcji opcje cenowe"
+    },
+    "EARN_CREDIT": {
+      "KEYWORDS": "zaproś znajomych zdobądź kredyty plan zmień subskrypcję zdobądź kredyty bezpłatny remnote wyślij tweet e-mail wybierz plan nauki na zawsze pro spis funkcji opcje cenowe",
+      "TOAST_SUBSCRIBE": "Twoje kredyty zostaną wykorzystane automatycznie po wykupieniu subskrypcji RemNote Pro. Wybierz plan poniżej, aby rozpocząć!",
+      "TOAST_RENEW": "Twoje kredyty zostaną wykorzystane automatycznie po odnowieniu bieżącej subskrypcji.",
+      "APPLY_CREDIT": "Wydaj swoje kredyty",
+      "INVITE_ERROR": "Coś poszło nie tak. Spróbuj ponownie później.",
+      "EMAIL_PLACEHOLDER": "zaciekawionyprzyjaciel@gmail.com"
+    },
+    "GLOBAL_INTERFACE": {
+      "FULL_WIDTH": {
+        "TITLE": "Pełna szerokość"
+      },
+      "SIMPLIFIED_UI": {
+        "TITLE": "Uproszczony interfejs użytkownika",
+        "LABEL": "Uprość interfejs użytkownika i ukryj zaawansowane funkcje."
+      }
+    }
+  },
+  "TAGS": {
+    "SEARCH_PLACEHOLDER": "Wyszukaj istniejący tag, aby go dodać"
+  },
+  "TEMPLATES": {
+    "TEMPLATE_one": "Szablon",
+    "TEMPLATE_other": "Szablony",
+    "TEMPLATE_WITH_COUNT_one": " {{count, number}} Szablon",
+    "TEMPLATE_WITH_COUNT_other": "{{count, number}} Szablony/-ów",
+    "CREATE_TEMPLATE": "Utwórz zablon",
+    "NEW_TEMPLATE": "Nowy zablon",
+    "PROPERTY_one": "Właściwość",
+    "PROPERTY_other": "Właściwości",
+    "PROPERTY_WITH_COUNT_one": "{{count, number}} Właściwość",
+    "PROPERTY_WITH_COUNT_other": "{{count, number}} Właściwości",
+    "ADD_NEW_PROPERTY": "Dodaj nową Właściwość",
+    "AUTO_APPLY": "Zastosuj Automatycznie",
+    "SET_AS_AUTO_APPLY_TEMPLATE": "Ustaw jako Szablon Automatycznego Stosowania",
+    "TURN_OFF_AUTO_APPLY": "Wyłącz Zastosuj Automatycznie",
+    "VIEW_CONFIGURATION": "Skonfiguruj Tag",
+    "HIDE_CONFIGURATION": "Ukryj onfigurację",
+    "PROPERTIES_HELP_TEXT": {
+      "0": "Właściwości opisują tag. Na przykład dla tagu o nazwie „Książka” dodaj właściwości takie jak Autor, Gatunek, Stan Przeczytania i nie tylko!"
+    },
+    "TEMPLATES_HELP_TEXT": "Szablon taga to dokument RemNote, który można automatycznie skopiować do oznaczonych Remów. Dodaj nagłówki, listy kontrolne i inne elementy bezpośrednio w swoim szablonie.",
+    "AUTO_APPLY_HELP_TEXT": "Ten szablon zostanie automatycznie zastosowany do wszystkich wierszy w jego tabeli lub do wszystkich Remów oznaczonych tym szablonem."
+  },
+  "TABLES": {
+    "MENUS": {
+      "TABLE_CONFIGURATION": {
+        "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Skonfiguruj Tag & Edytuj Szablony",
+        "DUPLICATE_TABLE_VIEW_TITLE": "Zduplikuj Widok abeli",
+        "DUPLICATE_LIST_VIEW_TITLE": "Zduplikuj Widok Listy",
+        "DUPLICATE_VIEW_MESSAGE_COMMON": "Zduplikuj widok, aby zastosować nowy filtr, sortowanie lub więcej! Treść jest współdzielona pomiędzy widokami tego samego źródła, więc nie wystąpią żadne przypadkowe zduplikowane doku.",
+        "CELL_LIST_HEIGHT": {
+          "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Komórki mogą zawierać wiele punktorów! Ogranicz wysokość komórki, aby ułatwić przeglądanie."
+        }
+      }
+    }
+  },
+  "SIDEBAR": {
+    "LABEL_COMMUNITY": "Udostępnione iszki"
+  },
+  "SOURCES": {
+    "LINK_SOURCE": {
+      "SEARCH_PLACEHOLDER": "Wklej link lub wyszukaj dnośnik"
+    },
+    "UPLOAD_SOURCE": {
+      "LABEL": "Prześli",
+      "SELECT_FILES": "Wybierz pliki",
+      "SELECT_FILES_TO_UPLOAD": "Wybierz pliki do przesłania",
+      "EMPTY": "Upuść pliki PDF, dokumenty Word, PPT i<moreLink> więcej</moreLink> Tutaj!",
+      "INVALID": "Nieprawidłowy format pliku!",
+      "UPLOADING": "Przesyłanie...",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} pliki/-ów PDF"
+    }
+  },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_CONTENT": {
+            "SRC": "Dokument, który próbujesz udostępnić, wygląda na nieco pusty. Dodaj co najmniej {{minimum}} remów, a następnie spróbuj ponownie."
+          }
+        }
+      }
+    }
+  },
+  "NOTIFICATIONS": {
+    "NEW_COMMENT": {
+      "BODY_COMMENT": "odpowiedział/-a na Twój komentarz"
+    }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "TABLE_TAG": {
+        "DESCRIPTION": "Utwórz tag do użycia z tabelami i szablonami."
+      },
+      "UPLOAD_FILE": {
+        "TITLE": "Prześlij & Obrabiaj Plik",
+        "DESCRIPTION": "Wyróżnij & stwórz Odnośnik do PDF, prezentacji PowerPoint, dkomunetu Word lub innego pliku.",
+        "PAYWALL": "Osiągnąłeś limit przesyłania plików PDF.",
+        "todo_for_the_item_below": "przenieść to do globalnego obiektu nazwy funkcji?",
+        "FEATURE_NAME": "Wyróżnianie PDF"
+      }
+    }
+  }
+}
