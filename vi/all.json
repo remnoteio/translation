@@ -2,5 +2,23 @@
   "LANGUAGE": {
     "LANGUAGE_WORD": "Ngôn ngữ",
     "TRANSLATION_INFO_SETTINGS": "Bản dịch vẫn đang được tiến hành; bạn sẽ thấy sự kết hợp giữa tiếng Anh và ngôn ngữ đã chọn.<br> Bạn có thể giúp chúng tôi dịch bằng cách đọc <guideLink>hướng dẫn</guideLink>, sau đó sử dụng <editorLink>trình biên tập web</editorLink> của chúng tôi."
+  },
+  "COMMON": {
+    "ACTIONS": {
+      "CREATE": "Tạo",
+      "REMOVE": "Loại b",
+      "DELETE": "Xóa",
+      "EDIT": "Chỉnh sửa",
+      "DUPLICATE": "Nhân bản",
+      "APPLY": "Áp dụng",
+      "UPDATE": "Cập nhật",
+      "VIEW": "Xem",
+      "HIDE": "Ẩn"
+    }
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "PROFILE_TITLE": "Hồ sơ"
+    }
   }
 }
