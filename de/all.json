@@ -345,7 +345,7 @@
     "VIEW_CONFIGURATION": "Tag konfigurieren",
     "HIDE_CONFIGURATION": "Konfiguration ausblenden",
     "PROPERTIES_HELP_TEXT": {
-      "0": "Eigenschaften beschreiben ein Etikett. Fügen Sie beispielsweise für ein Etikettnamens „Buch“ Eigenschaften mit den Namen „Autor“, „Genre“, „Lesestatus“ und mehr hinzu!"
+      "0": "Eigenschaften beschreiben ein Etikett. Fügen Sie beispielsweise für ein Etikett namens „Buch“ Eigenschaften mit den Namen „Autor“, „Genre“, „Lesestatus“ und mehr hinzu!"
     },
     "TEMPLATES_HELP_TEXT": "Die Vorlage eines Tags ist ein RemNote-Dokument, das automatisch in getaggte Rems kopiert werden kann. Fügen Sie Überschriften, Checklisten und mehr direkt in Ihre Vorlage ein.",
     "AUTO_APPLY_HELP_TEXT": "Diese Vorlage wird automatisch auf alle Zeilen in der Tabelle oder alle mit der Vorlage etikettiertenRems angewendet."
