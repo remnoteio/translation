@@ -1,42 +1,413 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "Sprache",
+    "TRANSLATION_INFO_SETTINGS": "Die Übersetzung ist noch in Arbeit; Sie sehen eine Mischung aus Englisch und der ausgewählten Sprache.<br> Sie können uns beim Übersetzen helfen, indem Sie die <guideLink>Anleitung</guideLink> lesen und dann unserem<editorLink>Web-Editor</editorLink> nutzen.",
     "TRANSLATION_IN_PROGRESS": "Die Übersetzungen sind noch nicht vollständig. Du kannst uns <0>auf Inlang</0> dabei helfen."
   },
   "COMMON": {
     "ACTIONS": {
-      "CREATE": "Create",
+      "CREATE": "Erstellen",
       "REMOVE": "Entfernen",
-      "DELETE": "Löschen"
+      "DELETE": "Löschen",
+      "EDIT": "Änder",
+      "DUPLICATE": "Duplizieren",
+      "APPLY": "Anwenden",
+      "UPDATE": "Aktualisieren",
+      "VIEW": "Ansicht",
+      "HIDE": "Verstecken"
     }
   },
   "SETTINGS": {
     "ACCOUNT": {
       "PROFILE_TITLE": "Profil",
+      "MY_PROFILE": "Mein Profil",
+      "PROFILE": {
+        "KEYWORDS": "Persönliches Benutzerprofil"
+      },
       "IMPORT_EXPORT_TITLE": "Import und Export",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Exportiere Sicherung Exportiere Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
       "NAVIGATION_TITLE": "Navigation",
+      "NAVIGATION": {
+        "KEYWORDS": "Exportieren und Sichere Papierkorb Gelöschte Rem Wissensdatenbank importieren Alle Karten anzeigen  Tägliches Backup herunterladen Erweiterte Einstellungen  Alle Rem löschen"
+      },
       "AUTHENTICATION_TITLE": "Authentifizierung",
+      "AUTHENTICATION": {
+        "KEYWORDS": "Abmelden Abmelden Google-Anmeldemethode Hinzufügen Trennen Anmelden Registrieren"
+      },
       "ADVANCED_TITLE": "Erweiterte Einstellungen",
+      "ADVANCED": {
+        "KEYWORDS": "Unterstützung neu verdrahten Suche Fehlerbeheben"
+      },
       "DANGER_ZONE_TITLE": "Gefahrenzone",
-      "PRIVACY_NOTE": "Datenschutz: Lies unsere <policyLink>Datenschutzerklärung</policyLink>, oder ändere deine Einstellungen im <hubLink>Privacy Hub</hubLink>."
+      "PRIVACY_NOTE": "Datenschutz: Lies unsere <policyLink>Datenschutzerklärung</policyLink>, oder ändere deine Einstellungen im <hubLink>Privacy Hub</hubLink>.",
+      "DANGER_ZONE": {
+        "TITLE": "Gefahrenzone",
+        "KEYWORDS": "Protokoll synchronisieren, Konto löschen, Rundgang zurücksetzen, Fortschritt zurücksetzen, Einarbeitung, erweiterte Kontoeinstellungen"
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "Mobile Erfolgsserie Benachrichtigungen",
+        "DESCRIPTION": "Senden Sie mobile Push-Erinnerungen über Ihre tägliche Lernkarten Erfolgsserie. Die Erinnerungen kommen jeden Tag um 18:00 Uhr in Ihrer lokalen Zeitzone."
+      },
+      "SYNCING": {
+        "TITLE": "Synchronisier",
+        "KEYWORDS": "Synchronisierung von Bildern und PDFs erzwingen"
+      },
+      "VERSION": {
+        "TITLE": "Anwendungsversion",
+        "KEYWORDS": "Version"
+      },
+      "SUPPORT": {
+        "TITLE": "Unterstützung",
+        "KEYWORDS": "Support Ticket Ausführen Hilfe"
+      },
+      "PRIVACY": {
+        "TITLE": "Privatsphäre",
+        "KEYWORDS": "Privatsphäre"
+      }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "TITLE": "Maximales Tagesziel",
+          "DESCRIPTION": "Begrenzen Sie die Anzahl der Lernkarten. RemNote fordert Sie zum Üben auf, um Ihr Tagesziel bei diesem Wert zu erreichen."
+        },
+        "TODAYS_TARGET": "Das heutige Ziel:",
+        "TODAYS_TARGET_EXPLANATION": "RemNote versucht, Ihr Tagesziel so festzulegen, dass Sie, wenn Sie das Ziel jeden Tag erreichen, in den nächsten 7 Tagen alle zur Überprüfung fälligen Karten ausfüllen. Das Tagesziel wird jedoch niemals höher sein als das oben festgelegte Maximum."
+      },
+      "GENERAL": {
+        "RESET_ALL": {
+          "TITLE": "Alle Karteikaren-Einstellungen zurücksetzen",
+          "DESCRIPTION": "Setzen Sie alle Karteikarten-Einstellungen auf ihre Standardwerte zurück.",
+          "CONFIRM_MESSAGE": "Sind Sie sicher, dass Sie alle Karteikarten-Einstellungen auf ihre Standardwerte zurücksetzen möchten?"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "TITLE": "Maximale Anzahl neuer Karten pro Tag",
+          "DESCRIPTION": "Fügen Sie jeden Tag höchstens so viele neu erstellte Lernkarten in Ihre Lernkartenwarteschlange ein. Auf diese Weise werden neue Karten in einem gleichmäßigen und nicht in einem großen Stapel in Ihre Warteschlange gelangen."
+        },
+        "STALE_CARDS_PER_DAY": {
+          "TITLE": "Maximale Anzahl veralteter Karten pro Tag",
+          "DESCRIPTION": "Fügen Sie jeden Tag höchstens so viele veraltete Karteikarten wieder in Ihre Karteikartenwarteschlange ein. Veraltete Karten sind Karten, die vorübergehend aus der Warteschlange entfernt werden, weil Sie sie längere Zeit nicht mehr gelernt haben und es anstrengend wäre, sie alle auf einmal neu zu lernen."
+        },
+        "LEECH_THRESHOLD": {
+          "TITLE": "Klammernde Karteikarten Schwellwert",
+          "DESCRIPTION": "Klammernde Karteikarten sind schwierige Karten, die man immer wieder lernt und dann wieder vergisst. Wenn Sie bei einer Karte öfter auf „Vergessen“ klicken, werden Sie von uns gewarnt, damit Sie herausfinden können, warum Sie sich damit schwer tun und das Problem beheben können. Stellen Sie hier einen höheren Wert ein, um die Warnung zu den klammernden Karteikarten seltener zu sehen."
+        },
+        "AUTOPLAY_MEDIA": {
+          "TITLE": "Automatisches Abspielen von Medien",
+          "DESCRIPTION": "Wenn eine Karteikarte angezeigt wird, soll automatisch alle darauf befindlichen Audio- oder Videoinhalte abgespielt werde."
+        },
+        "TYPE_ANSWER": {
+          "TITLE": "Antwort eingeben",
+          "DESCRIPTION": "Zeigen Sie auf der Vorderseite jeder Karteikarte ein Textfeld an und vergleichen Sie Ihre Eingabe mit der Antwort auf der Rückseite der Karte."
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "TITLE": "Vereinfachte Karteikarten-Schaltflächen",
+          "DESCRIPTION": "Zeigen Sie beim Lernen von Karteikarten nur die Antwortschaltfläche „Vergessen“ und „Mit Mühe erinnert“ an, statt alle fünf Optionen."
+        }
+      },
+      "VISUAL": {
+        "SHOW_NEXT_REVIEW_TIMES": {
+          "TITLE": "Nächste Wiederholungszeiten anzeigen",
+          "DESCRIPTION": "Zeigen Sie auf jeder Antwortschaltfläche die Zeit bis zur nächsten Bewertung an."
+        }
+      },
+      "ORDERING": {
+        "DOCUMENT_CLUSTERS": {
+          "TITLE": "Dokumenten Gruppierung",
+          "DESCRIPTION": "Üben Sie Rems lieber gemeinsam aus zusammenhängenden Dokumenten."
+        },
+        "REFERENCE_CLUSTERS": {
+          "TITLE": "Referenz Gruppierung",
+          "DESCRIPTION": "Üben Sie lieber Rems, die sich gegenseitig referenzieren."
+        },
+        "TAG_CLUSTERS": {
+          "TITLE": "EtikettGruppierung",
+          "DESCRIPTION": "Üben Sie lieber Rems mit demselben Etikett."
+        },
+        "HIERARCHY_CLUSTERS": {
+          "TITLE": "Hierarchie Gruppierung",
+          "DESCRIPTION": "Üben Sie lieber hierarchisch miteinander verbundene Rems."
+        }
+      },
+      "STATISTICS": {
+        "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
+          "TITLE": "Maximale Reaktionszeit der Karteikarte",
+          "DESCRIPTION": "Wenn die Beantwortung einer Karteikarte länger dauert (in Sekunden), lassden Rest der Zeit aus Ihren Statistiken heraus."
+        }
+      }
+    },
+    "KEYBOARD_SHORTCUTS": {
+      "SPLIT_WITH_ALT_ENTER": {
+        "TITLE": {
+          "PC": "Mit Alt+Enter auteilen",
+          "MAC": "Mit Opt+Return aufteilen"
+        }
+      },
+      "DOUBLE_SLASH_FOR_COMMAND_MENU": {
+        "TITLE": "Doppelter Schrägstrich für Befehlsmenü",
+        "DESCRIPTION": "Geben Sie // anstelle von / ein, um beim Bearbeiten von Rems Befehle auszulösen."
+      },
+      "CHANGE_KEYBOARD_SHORTCUTS": {
+        "TITLE": "Tastaturkürzel ändern",
+        "DESCRIPTION": "Passen Sie die Zuordnung der Tastenkombinationen für Tastaturkürzel an."
+      }
+    },
+    "EDITOR": {
+      "GENERAL": {
+        "ENABLE_SPELLCHECK": {
+          "TITLE": "Aktivieren die Rechtschreibprüfung",
+          "DESCRIPTION": "Überprüfen Sie das aktuell fokussierte Rem auf Tippfehler."
+        },
+        "CREATE_CONCEPTS_FROM_SEARCH": {
+          "TITLE": "Erstellen Sie Konzepte von der Suche aus",
+          "DESCRIPTION": {
+            "PC": "Wenn Sie ein Rem erstellen, indem Sie in einer Suche Strg+Eingabe drücken, machen Sie daraus ein Konzept.",
+            "MAC": "Wenn Sie ein Rem durch Drücken von Cmd+Return in einer Suche erstellen, machen Sie daraus ein Konzept."
+          }
+        },
+        "INSERT_EMOJIS_AS_REFERENCES": {
+          "TITLE": "Fügen Sie Emojis als Referenzen ein",
+          "DESCRIPTION": "Wenn Sie mit %% suchen und ein Emoji auswählen, wird dieses als Referenz eingefügt."
+        }
+      },
+      "DATES_AND_TIMES": {
+        "DATE_FORMATTING": {
+          "TITLE": "Datumsformatierung",
+          "DESCRIPTION": "Mit /date eingefügte Daten werden wie folgt formatiert."
+        },
+        "DATE_FORMATTING_CUSTOM": {
+          "TITLE": "Benutzerdefinierte Datumsformatierung",
+          "DESCRIPTION": "Formatieren Sie Ihr Datum mit den bereitgestellten Optionen nach Ihren Wünschen."
+        },
+        "TIME_FORMATTING": {
+          "TITLE": "Zeitformatierung",
+          "DESCRIPTION": "Mit /time eingefügte Zeiten werden wie folgt formatiert."
+        },
+        "WEEK_STARTS_ON_MONDAY": {
+          "TITLE": "Die Woche beginnt am Montag",
+          "DESCRIPTION": "Wenn Sie Daten über eine Datumsauswahl auswählen, beginnen Sie jede Zeile im Kalender mit Montag und nicht mit Sonntag."
+        }
+      }
+    },
+    "PLANS": {
+      "TITLE": "Tarife",
+      "KEYWORDS": "Freunde einladen Tarif Abonnement ändern Guthaben verdienen kostenlos remnote verschicke twitter Nachricht wähle einen Tarif Lebenslanges lernen pro Aufschlüsselung der Funktionen Preisoptionen"
+    },
+    "EARN_CREDIT": {
+      "TITLE": "Guthaben verdienen",
+      "KEYWORDS": "Freunde einladen und Guthaben verdienen Tarif Abonnement ändern",
+      "INVITE_FRIENDS_REMNOTE": "Laden Sie Ihre Freunde zu RemNote ein!",
+      "INVITE_FRIENDS_EARN_CREDIT": "Laden Sie Ihre Freunde ein, um Guthaben zu verdienen! Sie erhalten <0>{{monthlyPrice}}</0> als RemNote-Gutschrift, wenn die von Ihnen eingeladene Person sich für ein RemNote-Konto anmeldet und Sie erhalten außerdem auch<0>{{monthlyPrice}}</0> Kredit, um loszulegen.",
+      "CREDIT_BALANCE_TEXT": "Sie haben <bold>{{userCredit}}</bold> Restguthaben und <bold> {{userCreditEarned}}</bold> Guthaben insgesamt erhalten. {{months}} verbleibender Monat oder verbleibende Monate RemNote Pro kostenlos.<br /><br /> Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung auf dem Konto erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.",
+      "SUBSCRIBE_NOTICE": "<div><br />Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung ihres Kontos erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.</div>",
+      "TOAST_SUBSCRIBE": "Ihr Guthaben wird automatisch angewendet, wenn Sie RemNote Pro abonnieren. Wählen Sie unten einen Plan aus, um loszulegen!",
+      "TOAST_RENEW": "Ihr Guthaben wird automatisch angewendet, wenn Ihr aktuelles Abonnement verlängert wird.",
+      "APPLY_CREDIT": "Guthaben anwenden",
+      "INVITE_TEXT": "Freunde einladen und Guthaben verdienen",
+      "CREATE_ACCOUNT": "Erstellen Sie ein Konto, um Freunde einzuladen",
+      "ENTER_VALID_EMAIL": "Geben Sie eine gültige E-Mail-Adresse ein!",
+      "FRIEND_ALREADY_ON_REMNOTE": "Ihr Freund ist bereits auf RemNote",
+      "INVITE_ERROR": "Etwas ist schief gelaufen. Bitte versuchen Sie es später noch einmal.",
+      "VERIFY_EMAIL": "Um jemanden einzuladen, bestätigen Sie zunächst Ihre E-Mail-Adresse.",
+      "INVITE_EMAIL": "Per E-Mail einladen",
+      "EMAIL_PLACEHOLDER": "neugierigfreund@gmail.com",
+      "INVITE": "Einladen",
+      "SHARE_LINK": "Einladungslink teilen",
+      "COPIED": "Kopiert!",
+      "INVITE_COPIED": "Einladungslink kopiert!",
+      "COPYLINK": "Link kopieren",
+      "FRIENDS_TITLE": "Freunde",
+      "INVITED_YOU": "(hat dich eingeladen)",
+      "NOT_CONFIRMED_EMAIL": "(hat die E-Mail nicht bestätigt)"
+    },
+    "GLOBAL_INTERFACE": {
+      "DARK_MODE": {
+        "TITLE": "Dunkler Modus",
+        "LABEL": "Verwenden Sie dieses Farbschema."
+      },
+      "FULL_WIDTH": {
+        "TITLE": "Gesamtbreite",
+        "LABEL": "Erweitern Sie Dokumente, um die volle Breite des Bildschirms zu nutzen."
+      },
+      "SIMPLIFIED_UI": {
+        "TITLE": "Vereinfachte Benutzeroberfläche",
+        "LABEL": "Vereinfachen Sie die Benutzeroberfläche und blenden Sie erweiterte Funktionen aus."
+      },
+      "IN_APP_SUGGESTIONS": {
+        "LABEL": "Zeigen Sie oben in Ihrem Dokument Tipps zu RemNote-Funktionen an, die Sie ausprobieren können."
+      },
+      "ONBOARDING_TIPS_FEATURES": {
+        "TITLE": "Onboarding-Tipps",
+        "LABEL": "Zeigen Sie Tipps zu den RemNote-Funktionen, die Sie gerade verwenden, in der Ecke des Bildschirms an."
+      },
+      "ONBOARDING_TIPS_SHORTCUTS": {
+        "TITLE": "Tipps zu Tastaturkürzeln",
+        "LABEL": "Zeigen Sie in der Ecke des Bildschirms Tipps zu Tastaturkürzeln an, die Sie gerade verwenden."
+      },
+      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
+        "TITLE": "Gemeinschaft Dokument Suche Sprache",
+        "KEYWORDS": "sprache gemeinschaft dokumente suche"
+      },
+      "INTERFACE": {
+        "TITLE": "RemNote Sprache der Benutzeroberfläche(Alpha)",
+        "KEYWORDS": "sprache sprache übersetzung i18n"
+      }
+    },
+    "EDITOR_INTERFACE": {
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "TITLE": "Referenzen mit einem Klick zum Öffnen",
+        "LABEL": "Wenn Sie auf eine Referenz klicken oder tippen, gelangen Sie sofort zu ihrem Ziel, anstatt das Referenzmenü zu öffnen. (Sie können das Referenzmenü jederzeit durch einen Rechtsklick anzeigen.)"
+      },
+      "PREVIEW_REM_ON_HOVER": {
+        "LABEL": "Wenn Sie mit der Maus über eine Referenz fahren, wird eine Vorschau ihres Inhalts angezeigt."
+      },
+      "ENABLE_ZOOM_INTO_BULLET": {
+        "TITLE": "Aktivieren Sie „In Bullet hineinzoomen“.",
+        "LABEL": "Wenn Sie auf den Aufzählungszeiger klicken, wird der Rest als ganze Seite angezeigt"
+      }
+    },
+    "SIDEBAR": {
+      "DOCUMENT_STATUSES": {
+        "LABEL": "Organisieren Sie Dokumente in den Kategorien „Entwurf“, „Fertiggestellt“ und „Angeheftet“."
+      },
+      "CUSTOMIZE_SIDEBAR_SECTIONS": {
+        "TITLE": "Passen Sie Seitenleistenabschnitte an"
+      },
+      "COMMUNITY_TAB": {
+        "TITLE": "Community-Link in der Seitenleiste",
+        "LABEL": "Zeigen Sie in der Seitenleiste die Registerkarte „Community“ an, auf der Sie öffentliche Dokumente und Lerngruppen finden. Wenn Sie dies deaktivieren, können Sie weiterhin über die Kontokapsel darauf zugreifen."
+      },
+      "SORT_SIDEBAR": {
+        "TITLE": "Seitenleiste sortieren"
+      },
+      "PRIVACY_NOTE": "Datenschutz: Lesen Sie unsere<policyLink>Datenschutzrichtlinie</policyLink> , oder ändern Sie Ihre Einstellungen in unserem<hubLink> Datenschutz-Hub</hubLink> ."
+    },
+    "NOTIFICATIONS": {
+      "ENABLE_PUSH_TITLE": "Push-Benachrichtigungen aktivieren?",
+      "ENABLE_PUSH_LABEL": "Erhalten Sie Benachrichtigungen direkt auf Ihr Gerät",
+      "ENABLE_EMAIL_TITLE": "E-Mail-Benachrichtigungen aktivieren?",
+      "ENABLE_EMAIL_LABEL": "Erhalten Sie Benachrichtigungen direkt in Ihren Posteingang",
+      "TOGGLE_TITLE": "Benachrichtigungen filtern",
+      "TOGGLE_LABEL": "Steuern Sie, welche Benachrichtigungen Sie direkt auf Ihrem Gerät/Posteingang erhalten möchten",
+      "DESCRIPTIONS": {
+        "STREAK": {
+          "TITLE": "Strähne-Benachrichtigungen",
+          "LABEL": "Erhalten Sie tägliche Benachrichtigungen, um Ihre Lernsträhne fortzusetzen!"
+        },
+        "INVITE": {
+          "TITLE": "Einladungsbenachrichtigungen",
+          "LABEL": "Lassen Sie sich benachrichtigen, wenn Sie zu einer Gruppe eingeladen wurden"
+        },
+        "NEW_LIKE": {
+          "TITLE": "Wie Benachrichtigungen",
+          "LABEL": "Lassen Sie sich benachrichtigen, wenn ein von Ihnen geteiltes Dokument mit „Gefällt mir“ markiert wird"
+        },
+        "NEW_FOLLOWER": {
+          "LABEL": "Lassen Sie sich benachrichtigen, wenn Ihnen jemand folgt"
+        },
+        "DOCUMENT_ADDED_TO_GROUP": {
+          "LABEL": "Lassen Sie sich benachrichtigen, wenn ein Dokument zu Ihrer Gruppe hinzugefügt wird"
+        },
+        "NEW_COMMENT": {
+          "TITLE": "Kommentarbenachrichtigungen",
+          "LABEL": "Lassen Sie sich benachrichtigen, wenn jemand einen Kommentar zu Ihrem freigegebenen Dokument abgibt"
+        },
+        "ARTICLE_VIEWS": {
+          "LABEL": "Lassen Sie sich benachrichtigen, wenn Ihr freigegebenes Dokument signifikante Aufrufe erhält"
+        }
+      }
     }
   },
   "TAGS": {
-    "PINNED_TAGS": "Angepinnte Tags",
-    "YOUR_TAGS": "Deine Tags"
+    "TAG": "Etikett",
+    "TAG_WITH_COUNT_one": "{{count, number}} Etiketten",
+    "TAG_WITH_COUNT_other": "{{count, number}} Etiketten",
+    "PINNED_TAGS": "Angepinnte Etikett",
+    "YOUR_TAGS": "Deine Etikett",
+    "SEARCH_PLACEHOLDER": "Suchen Sie nach einem vorhandenen Etikett, um es hinzuzufügen",
+    "INSERT_PROPERTIES": "Eigenschaften einfügen"
   },
   "TEMPLATES": {
-    "TURN_OFF_AUTO_APPLY": "Deaktiviere „Automatisches anwenden“."
+    "TEMPLATE_one": "Vorlage",
+    "TEMPLATE_other": "Vorlagen",
+    "TEMPLATE_WITH_COUNT_other": "{{count, number}} Vorlagen",
+    "CREATE_TEMPLATE": "Vorlage erstellen",
+    "NEW_TEMPLATE": "Neue Vorlage",
+    "PROPERTY_one": "Eigenschaft",
+    "PROPERTY_other": "Eigenschaften",
+    "PROPERTY_WITH_COUNT_one": "{{count, number}} Eigenschaft",
+    "PROPERTY_WITH_COUNT_other": "{{count, number}} Eigenschaften",
+    "ADD_NEW_PROPERTY": "Neue Eigenschaft hinzufügen",
+    "AUTO_APPLY": "Automatisch anwenden",
+    "TURN_OFF_AUTO_APPLY": "Deaktiviere „Automatisches anwenden“.",
+    "VIEW_CONFIGURATION": "Tag konfigurieren",
+    "HIDE_CONFIGURATION": "Konfiguration ausblenden",
+    "PROPERTIES_HELP_TEXT": {
+      "0": "Eigenschaften beschreiben ein Etikett. Fügen Sie beispielsweise für ein Etikettnamens „Buch“ Eigenschaften mit den Namen „Autor“, „Genre“, „Lesestatus“ und mehr hinzu!"
+    },
+    "TEMPLATES_HELP_TEXT": "Die Vorlage eines Tags ist ein RemNote-Dokument, das automatisch in getaggte Rems kopiert werden kann. Fügen Sie Überschriften, Checklisten und mehr direkt in Ihre Vorlage ein.",
+    "AUTO_APPLY_HELP_TEXT": "Diese Vorlage wird automatisch auf alle Zeilen in der Tabelle oder alle mit der Vorlage etikettiertenRems angewendet."
   },
   "TABLES": {
+    "PRIMARY_COLUMN_TITLE": "Name",
+    "UNTITLED_PROPERTY_TITLE": "Unbenanntes Eigenschaft",
+    "TABLE_CREATION": {
+      "NEW_TAG": {
+        "TITLE": "Erstellen Sie ein neues {{viewName}} + Etikett ",
+        "DESCRIPTION": "Beginnen Sie mit einem leeren {{viewName}} mit einem neuen Etikett ."
+      },
+      "EXISTING_TAG": {
+        "TITLE": "Vorhandenes Etikett  verwenden"
+      }
+    },
     "MENUS": {
       "TAG": {
-        "VIEW_TAG": "Tag anzeigen"
+        "TAG_TITLE": "Etikett Name",
+        "RENAME_TAG": "Etikett umbenennen",
+        "VIEW_TAG": "Etikett anzeigen",
+        "PRESS_TO_SAVE": "Drücken Sie ↩ zum Speichern"
+      },
+      "FILTER": {
+        "FILTER_TITLE": "Filter",
+        "ADD_ADVANCED_FILTER": "Erweiterten Filter hinzufügen",
+        "NO_PROPERTIES_AVAILABLE": "Es sind keine Eigenschaften verfügbar; Füge eine Neue hinzu!"
+      },
+      "SORT": {
+        "SORT_TITLE": "Sortieren"
       },
       "TABLE_CONFIGURATION": {
+        "TABLE_CONFIGURATION_TITLE": "Tabelle",
+        "LIST_CONFIGURATION_TITLE": "Liste",
+        "ALL": "Alle",
         "VIEW_AS": {
-          "TABLE_VIEW": "Tabelle"
-        }
+          "VIEW_AS_TITLE": "Ansicht als",
+          "TABLE_VIEW": "Tabelle",
+          "LIST_VIEW": "Liste"
+        },
+        "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Konfigurieren von Etiketten & Bearbeiten von Vorlagen",
+        "PROPERTIES_TITLE": "Eigenschaften",
+        "PROPERTIES_CONFIGURATION_TITLE": "Konfigurieren",
+        "OPEN_IN_ANOTHER_PANE_TITLE": "In einem anderen Seröffnen",
+        "ZOOM_IN_TO_TABLE_TITLE": "In die Tabelle hineinzoomen",
+        "ZOOM_IN_TO_LIST_TITLE": "In die Liste hineinzoomen",
+        "MOVE_TABLE_TO_TITLE": "Tabelle verschieben nach",
+        "MOVE_LIST_TO_TITLE": "Liste verschieben nach",
+        "DUPLICATE_TABLE_VIEW_TITLE": "Tabellenansicht duplizieren",
+        "DUPLICATE_LIST_VIEW_TITLE": "Listenansicht duplizieren",
+        "DUPLICATE_VIEW_MESSAGE_COMMON": "Duplizieren Sie eine Ansicht, um einen neuen Filter, eine neue Sortierung oder mehr anzuwenden! Der Inhalt wird zwischen Ansichten derselben Quelle geteilt, sodass es nicht zu versehentlichen Duplikaten kommt.",
+        "SHOW_VERTICAL_LINES_TITLE": "Vertikale Linien anzeigen",
+        "INCLUDE_NESTED_DESCENDANTS": "Verschachtelte Nachkommen einbeziehen",
+        "CELL_LIST_HEIGHT": {
+          "CELL_LIST_HEIGHT_TITLE": "Zellenhöhe",
+          "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Zellen können mehrere Aufzählungszeichen enthalten! Begrenzen Sie die Zellenhöhe, um die Anzeige zu erleichtern.",
+          "COMFORTABLE_TITLE": "Komfortabel",
+          "FULL_TITLE": "Voll",
+          "COMPACT_TITLE": "Kompakt"
+        },
+        "DELETE_TABLE": "Tabelle löschen",
+        "DELETE_LIST": "Liste löschen"
       }
     }
   },
@@ -46,8 +417,123 @@
     "LABEL_FLASHCARDS": "Karteikarten",
     "LABEL_EDIT_LATER": "Für später",
     "LABEL_COMMUNITY": "Community",
+    "LABEL_ONBOARDING_CALL": "Richten Sie einen EinarbeitungsAnruf ein",
     "LABEL_INTERACTIVE_TOUR": "Interaktive Tour",
     "LABEL_RESUME_INTERACTIVE_TOUR": "Setze die Tour fort",
-    "LABEL_TUTORIALS": "Tutorials"
+    "LABEL_TUTORIALS": "Tutorials",
+    "TOOLTIP_FLASHCARD_HOME": "Gehen Sie zur Karteikarten-Startseite",
+    "TOOLTIP_EDIT_LATER_QUEUE": "Öffnen Sie die Warteschlange „Später bearbeiten“."
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "TITLE": "Alle Notizen",
+      "SORT": {
+        "RECENTLY_MODIFIED": "Kürzlich geändert",
+        "RECENTLY_CREATED": "Kürzlich erstellt",
+        "OLDEST_FIRST": "Ältesten zuerst",
+        "BY_CREATION_TIME": "Zum Erstellungszeitpunkt",
+        "BY_TITLE": "Nach Titel",
+        "BY_MODIFICATION": "Nach Ä",
+        "OLDEST_CREATION_FIRST": "Älteste erstellung zuerst",
+        "ASCENDING": "A -> Z",
+        "DESCENDING": "Z -> A"
+      }
+    }
+  },
+  "SOURCES": {
+    "LINK_SOURCE": {
+      "ENTER_URL": "URL eingeben",
+      "INVALID_URL": "Ungültige URL",
+      "SEARCH_PLACEHOLDER": "Fügen Sie einen Link ein oder suchen Sie nach einer Referenz"
+    },
+    "UPLOAD_SOURCE": {
+      "LABEL": "Hochladen",
+      "SELECT_FILES": "Dateien auswählen",
+      "SELECT_FILES_TO_UPLOAD": "Wählen Sie die Dateien zum Hochladen aus",
+      "EMPTY": "Legen Sie PDFs, Word-Dokumente, PPTs und <moreLink> mehr</moreLink> hier ab!",
+      "INVALID": "Falsches Dateiformat!",
+      "UPLOADING": "Hochladen...",
+      "PDF": "PDF"
+    }
+  },
+  "POWERUPS": {
+    "POWERUP_one": "Einschalten"
+  },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_TITLE": {
+            "SRC": "Das Dokument, das Sie teilen möchten, hat keinen Titel. Sie müssen einhinzufügen, bevor Sie es veröffentlichen.",
+            "SUBDOCUMENT": "Eines Ihrer Unterdokumente hat keinen Titel. Es wird erst veröffentlicht, wenn es eines hat."
+          },
+          "NO_CONTENT": {
+            "SRC": "Das Dokument, das Sie teilen möchten, sieht etwas leer aus. Bitte fügen Sie mindestens {{minimum}} Rems hinzu und versuchen Sie es dann erneut.",
+            "SUBDOCUMENT": "Eines Ihrer Unterdokumente sehen etwas leer aus. Es wird erst veröffentlicht, wenn es {{minimum}} Rems hat."
+          }
+        }
+      }
+    }
+  },
+  "NOTIFICATIONS": {
+    "INVITE": {
+      "BODY": "hat Sie zur Teilnahme eingeladen",
+      "ACCEPT": "Einladung annehmen",
+      "REJECT": "Ablehnen"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "gefolgt"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "wurde hinzugefügt zu"
+    },
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Ihr Dokument",
+      "BODY_2": "hat {{viewCount, number}} Aufrufe erhalten"
+    },
+    "IMPORT": {
+      "BODY": "Jemand hat Ihr Dokument importiert"
+    },
+    "NEW_COMMENT": {
+      "BODY": "kommentiert",
+      "BODY_ARTICLE": "hat auf Ihr Dokument kommentiert",
+      "BODY_COMMENT": "hat auf deinen Kommentar geantwortet"
+    },
+    "EMPTY_STATE_TITLE": "Sie haben keine aktuellen Benachrichtigungen",
+    "EMPTY_STATE_MESSAGE": "Sie sind auf den neusten Stand! Sie erhalten Benachrichtigungen, wenn jemand mit den auf Ihrem freigegebenen Inhalten auf ihren <profileLink>Profil</profileLink> interagiert .",
+    "POPUP_TITLE": "Aktuelle Benachrichtigungen",
+    "ARTICLE_DEFAULT": "Ihr Dokument",
+    "GROUP_DEFAULT": "Deine Gruppe"
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "TITLE": "Dokument",
+        "DESCRIPTION": "Organisieren Sie Notizen zu Lehrveranstaltungen, Quellen oder Ideen in Dokumenten."
+      },
+      "QUICK_ADD": {
+        "TITLE": "Schnelles hinzufügen",
+        "DESCRIPTION": "Erfassen Sie Ihre Ideen im Handumdrehen!"
+      },
+      "TODAYS_DOCUMENT": {
+        "TITLE": "Das heutige Dokument",
+        "DESCRIPTION": "Tägliche Dokumente eignen sich perfekt für Tagebuchführung, To-Do-Listen und mehr."
+      },
+      "FOLDER": {
+        "TITLE": "Ordner",
+        "DESCRIPTION": "Organisieren Sie Dokumente in Ordnern."
+      },
+      "TABLE_TAG": {
+        "TITLE": "Etikett & Tabelle",
+        "DESCRIPTION": "Erstellen Sie ein Etikett zur Verwendung mit Tabellen und Vorlagen."
+      },
+      "UPLOAD_FILE": {
+        "TITLE": "Datei hochladen und mit Anmerkungen versehen",
+        "DESCRIPTION": "Markieren und referenzieren Sie ein PDF-, PowerPoint-, Word-Dokument oder eine andere Datei.",
+        "PAYWALL": "Sie haben Ihr Limit für PDF-Uploads erreicht.",
+        "todo_for_the_item_below": "Dies in ein globales Feature-Name-Objekt verschieben?",
+        "FEATURE_NAME": "PDF-Hervorhebung"
+      }
+    }
   }
 }
