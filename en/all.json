@@ -148,6 +148,10 @@
           "MAC": "When you press Return in the middle of a Rem, create a line break within that Rem, and instead use Opt+Return to break the text into two separate Rems. (By default, Shift+Return and Return alone, respectively, serve these functions.)"
         }
       },
+      "ENTER_TO_OUTDENT": {
+        "TITLE": "Press Enter to Outdent",
+        "LABEL": "When pressing Enter on a Rem with no content that is not at the top level of the document, outdent one level. (If disabled, stay at the same level and leave an empty Rem.)"
+      },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
         "TITLE": "Double Slash For Command Menu",
         "DESCRIPTION": "Type // instead of / to trigger commands while editing Rems."
@@ -166,7 +170,7 @@
       "GENERAL": {
         "ENABLE_SPELLCHECK": {
           "TITLE": "Enable Spellcheck",
-          "DESCRIPTION": "Check the currently focused Rem for typos."
+          "DESCRIPTION": "Check the currently focused Rem for typos. Spellcheck uses the language(s) selected in your browser or operating system."
         },
         "CAPITALIZE_FROM_SEARCH": {
           "TITLE": "Capitalize From Search",
@@ -271,7 +275,7 @@
         "KEYWORDS": "tooltips help support learn tutorial"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
-        "TITLE": "In App Tutorials",
+        "TITLE": "In-App Tutorials",
         "LABEL": "Show tutorials on RemNote features you're currently using in the corner of the screen.",
         "KEYWORDS": "in app left sidebar tutorials tooltips help support learn tutorial"
       },
@@ -296,7 +300,7 @@
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
         "TITLE": "Scale Collapsed Rem Bullets",
-        "LABEL": "When a Rem is collapsed, make the ring around its bullet larger or smaller based on its total number of descendants.."
+        "LABEL": "When a Rem is collapsed, make the ring around its bullet larger or smaller based on its total number of descendants."
       },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
         "TITLE": "Smoothly Animate The Editor",
@@ -305,10 +309,6 @@
       "PREVIEW_REM_ON_HOVER": {
         "TITLE": "Preview References on Hover",
         "LABEL": "When you hover over a Reference, show a preview of its contents."
-      },
-      "ENTER_TO_OUTDENT": {
-        "TITLE": "Enable 'Press Enter to Outdent'",
-        "LABEL": "When you're focused at the last child rem and if the rem is empty, pressing Enter will outdent the rem."
       },
       "ENABLE_ZOOM_INTO_BULLET": {
         "TITLE": "Enable Zooming into Bullet",
