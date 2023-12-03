@@ -604,5 +604,23 @@
         "FEATURE_NAME": "PDF Highlighting"
       }
     }
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "0": {
+          "TITLE": "Create A Folder"
+        },
+        "1": {
+          "TITLE": "Add a Bullet"
+        },
+        "2": {
+          "TITLE": "Create A Flashcard"
+        },
+        "3": {
+          "TITLE": "Structure Notes using “Tab”"
+        }
+      }
+    }
   }
 }
