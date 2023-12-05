@@ -228,7 +228,6 @@
       "INVITE_FRIENDS_EARN_CREDIT": "Invite your friends to earn credit! You'll receive <0>{{monthlyPrice}}</0> in RemNote credit when the person you invite signs up for a RemNote account, and they'll also get <0>{{monthlyPrice}}</0> credit to get started.",
       "CREDIT_BALANCE": "Credit Balance",
       "CREDIT_BALANCE_TEXT": "You have <bold>{{userCredit}}</bold> credit remaining and have earned <bold>{{userCreditEarned}}</bold> credit in total. {{months}} remaining month or months of RemNote Pro for free.<br /><br />Subscribe to Pro to start using your credit! You won't be charged until your credit runs out.",
-      "SUBSCRIBE_NOTICE": "<div><br />Subscribe to Pro to start using your credit! You won't be charged until your credit runs out.</div>",
       "TOAST_SUBSCRIBE": "Your credits will be applied automatically when you subscribe to RemNote Pro. Choose a plan below to get started!",
       "TOAST_RENEW": "Your credits will be applied automatically when your current subscription renews.",
       "APPLY_CREDIT": "Apply your credit",
