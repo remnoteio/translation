@@ -1,6 +1,7 @@
 {
   "LANGUAGE": {
-    "LANGUAGE_WORD": "言語"
+    "LANGUAGE_WORD": "言語",
+    "TRANSLATION_INFO_SETTINGS": "翻訳はまだ進行中です。英語と選択した言語が混在して表示されます。<br><editorLink>ウェブエディター</editorLink>から翻訳にご協力ください。また、必ず<guideLink>チュートリアル</guideLink>を一読してください。"
   },
   "COMMON": {
     "ACTIONS": {
@@ -23,7 +24,13 @@
         "KEYWORDS": "個人ユーザーのプロフィール"
       },
       "IMPORT_EXPORT_TITLE": "インポートとエクスポート",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "エクスポート バックアップ エクスポート Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
       "NAVIGATION_TITLE": "ナビゲーション",
+      "NAVIGATION": {
+        "KEYWORDS": "エクスポート と バックアップ ゴミ箱 ビュー 削除済み Rem インポート ナレッジ ベース ビュー 全て カード ダウンロード 1つの デイリー バックアップ アドバンス 設定 削除 全て Rem"
+      },
       "AUTHENTICATION_TITLE": "認証",
       "ADVANCED_TITLE": "詳細設定",
       "DANGER_ZONE_TITLE": "棄権ゾーン"
