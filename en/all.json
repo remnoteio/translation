@@ -451,6 +451,8 @@
         "MOVE_TABLE_TO_TITLE": "Move Table To",
         "MOVE_LIST_TO_TITLE": "Move List To",
         "DUPLICATE_TABLE_VIEW_TITLE": "Duplicate Table View",
+        "ADD_TABLE_VIEW_TITLE": "Add Table View",
+        "ADD_LIST_VIEW_TITLE": "Add List View",
         "DUPLICATE_LIST_VIEW_TITLE": "Duplicate List View",
         "DUPLICATE_VIEW_MESSAGE_COMMON": "Duplicate a view to apply a new filter, sort, or more! Content is shared between views of the same source, so you won't end up with any accidental duplicate instances.",
         "SHOW_VERTICAL_LINES_TITLE": "Show Vertical Lines",
