@@ -1,6 +1,7 @@
 {
   "LANGUAGE": {
-    "LANGUAGE_WORD": "言語"
+    "LANGUAGE_WORD": "言語",
+    "TRANSLATION_INFO_SETTINGS": "翻訳はまだ進行中です。英語と選択した言語が混在して表示されます。<br><editorLink>ウェブエディター</editorLink>から翻訳にご協力ください。また、必ず<guideLink>チュートリアル</guideLink>を一読してください。"
   },
   "COMMON": {
     "ACTIONS": {
@@ -23,10 +24,59 @@
         "KEYWORDS": "個人ユーザーのプロフィール"
       },
       "IMPORT_EXPORT_TITLE": "インポートとエクスポート",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "エクスポート バックアップ エクスポート Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
       "NAVIGATION_TITLE": "ナビゲーション",
+      "NAVIGATION": {
+        "KEYWORDS": "エクスポート と バックアップ ゴミ箱 ビュー 削除済み Rem インポート ナレッジ ベース ビュー 全て カード ダウンロード 1つの デイリー バックアップ アドバンス 設定 削除 全て Rem"
+      },
       "AUTHENTICATION_TITLE": "認証",
       "ADVANCED_TITLE": "詳細設定",
-      "DANGER_ZONE_TITLE": "棄権ゾーン"
+      "DANGER_ZONE_TITLE": "棄権ゾーン",
+      "PRIVACY_NOTE": "プライバシーについて: <policyLink>プライバシーポリシー</policyLink>を読み、必要に応じて設定を変更してください<hubLink>プライバシーハブ</hubLink>。",
+      "DANGER_ZONE": {
+        "TITLE": "危険 ゾーン"
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "モバイル ストリーク 通知"
+      },
+      "SYNCING": {
+        "TITLE": "同期しています"
+      }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "DESCRIPTION": "RemNote が毎日の目標を達成するために練習するよう求めるフラッシュカードの枚数をこの値に制限します。"
+        },
+        "TODAYS_TARGET": "今日の目標:",
+        "TODAYS_TARGET_EXPLANATION": "RemNote は 1 日の目標を設定しようとします。毎日目標を達成すると、次の 7 日間にレビュー期限のカードをすべて完了することになります。ただし、1 日の目標が上記で設定した最大値を超えることはありません。"
+      },
+      "GENERAL": {
+        "RESET_ALL": {
+          "CONFIRM_MESSAGE": "すべてのフラッシュカード設定をデフォルト値にリセットしてもよろしいですか?"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "DESCRIPTION": "毎日最大でこの数の新しく作成されたフラッシュカードをフラッシュカード キューに追加します。こうすることで、新しいカードが大量にではなく、毎日一定の割合でキューに追加されます。"
+        },
+        "STALE_CARDS_PER_DAY": {
+          "DESCRIPTION": "毎日、多くてもこの枚数の古いフラッシュカードをフラッシュカードのキューに再導入します。古くなったカードとは、長い間学習しておらず、一度にすべてを再学習するのは大変なため、一時的にキューから保留されているカードです。"
+        },
+        "LEECH_THRESHOLD": {
+          "DESCRIPTION": "リーチは、覚えてはまた忘れてしまう難しいカードです。カードの「忘れた」をこれ以上押した場合は警告が表示されるので、問題の原因を突き止めて問題を解決できます。これをより高い値に設定すると、リーチの警告が表示される頻度が低くなります。"
+        },
+        "AUTOPLAY_MEDIA": {
+          "TITLE": "自動再生 メディア"
+        },
+        "TYPE_ANSWER": {
+          "DESCRIPTION": "各フラッシュカードの表面にテキスト ボックスを表示し、入力した内容とカード裏面の答えを比較します。"
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "TITLE": "簡略化 フラッシュカード ボタン",
+          "DESCRIPTION": "フラッシュカードを学習するときは、5 つの選択肢すべてではなく、「忘れた」と「頑張って思い出した」の応答ボタンのみを表示します。"
+        }
+      }
     }
   }
 }
