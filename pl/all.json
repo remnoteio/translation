@@ -1,28 +1,115 @@
 {
+  "LANGUAGE": {
+    "LANGUAGE_WORD": "Język",
+    "TRANSLATION_INFO_SETTINGS": "Tłumaczenie jest nadal w toku; zobaczysz mieszankę języka angielskiego i wybranego języka.<br> Możesz pomóc nam w tłumaczeniu, czytając<guideLink> instruktaż</guideLink> a następnie skorzystaj z naszego<editorLink> redaktor internetowy</editorLink> ."
+  },
   "COMMON": {
     "ACTIONS": {
+      "CREATE": "Utwórz",
+      "REMOVE": "Wytnij",
+      "DELETE": "Usuń",
+      "EDIT": "Edytuj",
       "DUPLICATE": "Duplikuj\n",
-      "APPLY": "Zatwierd"
+      "APPLY": "Zatwierdź",
+      "UPDATE": "Aktualizuj",
+      "VIEW": "Widok",
+      "HIDE": "Ukryj"
     }
   },
   "SETTINGS": {
     "ACCOUNT": {
+      "PROFILE_TITLE": "Profil",
+      "MY_PROFILE": "Mój Profil",
+      "PROFILE": {
+        "KEYWORDS": "Osobisty Profil Użytkownika"
+      },
+      "IMPORT_EXPORT_TITLE": "Importuj i Eksportuj",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Eksportuj kopię zapasową Eksportuj Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "NAVIGATION_TITLE": "Nawigacja",
+      "NAVIGATION": {
+        "KEYWORDS": "Eksportuj i twórz kopie zapasowe Zobacz usunięte Rem Importuj Bazę Wiedzy Wyświetl wszystkie Fiszki Pobierz Codzienną Kopię Zapasową Ustawienia zaawansowane Usuń wszystkie Rem"
+      },
+      "AUTHENTICATION_TITLE": "Uwierzytelnianie",
+      "AUTHENTICATION": {
+        "KEYWORDS": "Wyloguj się Wyloguj się Metoda logowania Google Dodaj Rozłącz Zaloguj się Zarejestruj się"
+      },
+      "ADVANCED_TITLE": "Zaawansowane Ustawienia",
+      "ADVANCED": {
+        "KEYWORDS": "Wsparcie Podłącz na nowo Szukaj Napraw Błąd"
+      },
+      "DANGER_ZONE_TITLE": "Strefa niebezpieczeństwa",
+      "PRIVACY_NOTE": "Prywatność: Przeczytaj nasze<policyLink> Polityka prywatności</policyLink> lub zmień ustawienia w naszym<hubLink> Centrum prywatności</hubLink> .",
+      "DANGER_ZONE": {
+        "TITLE": "Strefa niebezpieczeństwa",
+        "KEYWORDS": "synchronizacja dziennika usuwanie konta resetowanie przewodnik postęp resetowanie wprowadzania zaawansowanych ustawień konta"
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "Powiadomienia Passy na urządzeniu mobilnym",
+        "DESCRIPTION": "Wysyłaj mobilne przypomnienia push o codziennej passie fiszek. Przypomnienia pojawiają się codziennie o 18:00 w Twojej lokalnej strefie czasowej."
+      },
+      "SYNCING": {
+        "TITLE": "Synchronizowanie",
+        "KEYWORDS": "Wymuś synchronizację Obrazów i plików PDF"
+      },
       "VERSION": {
-        "TITLE": "Wersja Aplikacji"
+        "TITLE": "Wersja Aplikacji",
+        "KEYWORDS": "wersja"
+      },
+      "SUPPORT": {
+        "TITLE": "Wsparcie",
+        "KEYWORDS": "Złóż Wniosek do Wsparcia Pomoc"
+      },
+      "PRIVACY": {
+        "TITLE": "Prywatność",
+        "KEYWORDS": "prywatność"
       }
     },
     "FLASHCARDS": {
       "DAILY_TARGET": {
-        "TODAYS_TARGET_EXPLANATION": "RemNote stara się określić Twój dzienny cel i jeżeli go osiągniesz każdego dnia, to przerobisz wszystkie fiszki zaplanowane na następne 7 dni. Natomiast, cel dzienny nigdy nie będzie większy niż maksymalny zbiór powyżej"
+        "MAXIMUM_DAILY_TARGET": {
+          "TITLE": "Maksymalny Dzienny Cel",
+          "DESCRIPTION": "Ogranicz liczbę fiszek RemNote przypomni Ci o nauce, aby osiągnąć Twój dzienny cel przy tej wartości."
+        },
+        "TODAYS_TARGET": "Dzisiejszy Cel:",
+        "TODAYS_TARGET_EXPLANATION": "RemNote stara się określić Twój dzienny cel i jeżeli go osiągniesz każdego dnia, to przerobisz wszystkie fiszki zaplanowane na następne 7 dni. Natomiast, cel dzienny nigdy nie będzie większy niż maksymalny zbiór powyżej."
       },
       "GENERAL": {
+        "RESET_ALL": {
+          "TITLE": "Zresetuj wszystkie ustawienia fiszek",
+          "DESCRIPTION": "Zresetuj wszystkie ustawienia fiszek do wartości domyślnych.",
+          "CONFIRM_MESSAGE": "Czy na pewno chcesz zresetować wszystkie ustawienia fiszek do wartości domyślnych?"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "TITLE": "Maksymalna liczba nowych kart dziennie",
+          "DESCRIPTION": "Codziennie dodawaj maksymalnie tyle nowo utworzonych fiszek do swojej kolejki fiszek. W ten sposób nowe karty będą pojawiać się w Twojej kolejce ze stałą stawką dzienną, a nie gigantyczną partią."
+        },
+        "STALE_CARDS_PER_DAY": {
+          "TITLE": "Maksymalna liczba Zaległych fiszek dziennie",
+          "DESCRIPTION": "Każdego dnia wprowadzaj ponownie maksymalnie tyle zaległych fiszek do swojej kolejki fiszek. Zaległe fiszki to takie, które są tymczasowo wstrzymywane z kolejki, ponieważ nie uczyłeś się ich przez długi czas i ponowne uczenie się ich wszystkich na raz byłoby wyczerpujące."
+        },
+        "LEECH_THRESHOLD": {
+          "TITLE": "Próg Fiszek Udręki",
+          "DESCRIPTION": "Fiszki Udręki to trudne fiszki, których ciągle się uczysz, a potem znowu zapominasz. Jeśli naciśniesz przycisk „zapomniałem/-am” na fiszce więcej razy niż ta wartość, ostrzeżemy Cię, abyś mógł zastanowić się, dlaczego masz z nią problem. Ustaw tę opcję na wyższe wartości, aby rzadziej wyświetlać ostrzeżenie o Uciażliwej Fiszce."
+        },
         "AUTOPLAY_MEDIA": {
           "TITLE": "Odtwarzaj automatycznie dźwięk",
           "DESCRIPTION": "Podczas pokazywania fiszki automatycznie odtwarzaj każdą ścieżkę dźwiękową lub wideo na niej."
         },
+        "TYPE_ANSWER": {
+          "TITLE": "Wpisz odpowiedź",
+          "DESCRIPTION": "Pokaż pole tekstowe z przodu każdej fiszki i porównaj to, co wpisałeś z odpowiedzią na odwrocie fiszki."
+        },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "TITLE": "Uproszczone przyciski w fiszkach",
           "DESCRIPTION": "Pokazuj tylko przyciski \"Zapomniałem/-am\" i \"Przypomniałem/-am z trudem\"  podczas nauki fiszek, zamiast wszystkich pięciu opcji."
+        }
+      },
+      "VISUAL": {
+        "SHOW_NEXT_REVIEW_TIMES": {
+          "TITLE": "Pokaż Godziny Następnej Powtórki",
+          "DESCRIPTION": "Na każdym przycisku odpowiedzi pokaż czas do następnej powtórki."
         }
       }
     },
