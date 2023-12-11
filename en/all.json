@@ -322,10 +322,6 @@
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "Customize Sidebar Sections"
       },
-      "COMMUNITY_TAB": {
-        "TITLE": "Community Link in Sidebar",
-        "LABEL": "Show the Community Tab, where you can find public documents and study groups, in the sidebar. If you disable this you'll still be able to navigate to it via the account capsule."
-      },
       "SORT_SIDEBAR": {
         "TITLE": "Sort Sidebar",
         "KEYWORDS": "organize sidebars sort a-to-z"
