@@ -61,10 +61,10 @@
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "每日最高目标",
-          "DESCRIPTION": "在 RemNot 中设置每日复习的最大记忆卡片数量。"
+          "DESCRIPTION": "设置每日可以复习的最大记忆卡片数量"
         },
         "TODAYS_TARGET": "今日目标：",
-        "TODAYS_TARGET_EXPLANATION": "如果您每天都能达到预定目标，RemNote 会尝试更改您的每日目标，以便在接下来的 7 天内完成所有需要复习的卡片。注意，每日目标永远不会超过上述设定的上限。"
+        "TODAYS_TARGET_EXPLANATION": "如果您每天都能达到预定目标，RemNote 会尝试自动设置您的每日目标，以便在接下来的 7 天内完成复习所有需要复习的卡片。注意，自动设置的目标值永远不会超过上述每日最高目标。"
       },
       "GENERAL": {
         "RESET_ALL": {
@@ -132,20 +132,20 @@
       "SPLIT_WITH_ALT_ENTER": {
         "TITLE": {
           "PC": "Alt + 回车键拆分文本",
-          "MAC": "使用 Opt + 回车键拆分"
+          "MAC": "Opt + 回车键拆分文本"
         },
         "DESCRIPTION": {
-          "PC": "当您在一个 Rem 的文本中间按下回车时，会在光标处添加一个换行符，而使用 Alt + 回车键则会将此文本拆分成两个独立的 Rem。（默认情况下，Shift + 回车键或者单独回车键也能分别实现类似的功能）",
-          "MAC": "但您在一个 Rem 的文本中间按下回车时，会在光标处添加一个换行符，而使用 Opt + 回车键则会将此文本拆分成两个独立的 Rem。（默认情况下，Shift + 回车键或者单独回车键也能分别实现类似的功能。）"
+          "PC": "在 Rem 中间按下回车键时，默认会自动换行，而使用 Alt + 回车键则会将文本拆分成两个独立的 Rem。（Shift + 回车键默认实现行内软换行）",
+          "MAC": "在 Rem 中间按下回车键时，默认会自动换行，而使用 Opt + 回车键则会将文本拆分成两个独立的 Rem。（Shift + 回车键默认实现行内软换行）"
         }
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
         "TITLE": "双斜线触发命令菜单",
-        "DESCRIPTION": "编辑 Rem 时通过 // 而非 / 触发命令模式"
+        "DESCRIPTION": "编辑 Rem 时使用 // 而非 / 触发命令模式"
       },
       "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
-        "TITLE": "默认使用旧版键盘快捷键",
-        "DESCRIPTION": "默认为旧版键盘快捷键（2020年8月更新之前）"
+        "TITLE": "开启旧版快捷键",
+        "DESCRIPTION": "使用旧版键盘快捷键（2020年8月更新之前）"
       },
       "CHANGE_KEYBOARD_SHORTCUTS": {
         "TITLE": "更改键盘快捷键",
@@ -181,7 +181,7 @@
           }
         },
         "INSERT_EMOJIS_AS_REFERENCES": {
-          "TITLE": "插入表情符号作为引用",
+          "TITLE": "表情符号引用",
           "DESCRIPTION": "使用 %% 搜索表情并作为引用插入"
         }
       },
@@ -212,14 +212,14 @@
       "TITLE": "赚取积分",
       "KEYWORDS": "邀请朋友 赚取积分计划 更改订阅 赚取积分 免费RemNote 发送推文 电子邮件 选择计划 终身学习 专业功能细分 定价选项",
       "INVITE_FRIENDS_REMNOTE": "邀请您的朋友加入 RemNote！",
-      "INVITE_FRIENDS_EARN_CREDIT": "邀请赚积分！好友通过邀请链接成功注册，双方均可在 RemNote 中获得  <0>{{monthlyPrice}}</0> 的积分。",
-      "CREDIT_BALANCE": "积分额度",
-      "CREDIT_BALANCE_TEXT": "您当前还剩 <bold>{{userCredit}}</bold> 积分，总共获得过 <bold>{{userCreditEarned}}</bold> 积分，可以免费使用 {{months}} 个月的 RemNote Pro 订阅计划。<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>",
+      "INVITE_FRIENDS_EARN_CREDIT": "邀请好友赚积分！每成功通过邀请链接完成注册，双方均可获得  <0>{{monthlyPrice}}</0> 的 RemNote 积分。",
+      "CREDIT_BALANCE": "积分详情",
+      "CREDIT_BALANCE_TEXT": "您当前剩余 <bold>{{userCredit}}</bold> 积分，总共获得过 <bold>{{userCreditEarned}}</bold> 积分，还可以免费使用 {{months}} 个月的 RemNote Pro 订阅计划。<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>",
       "SUBSCRIBE_NOTICE": "<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>",
       "TOAST_SUBSCRIBE": "当您订阅 RemNote Pro 时，会先自动消耗您的积分。请选择以下计划，然后开始使用吧！",
       "TOAST_RENEW": "当您续订当前订阅计划时，会先自动消耗您的积分。",
       "APPLY_CREDIT": "使用您的积分",
-      "INVITE_TEXT": "邀请好友赚积分",
+      "INVITE_TEXT": "邀请赚积分",
       "HANG_ON": "挂起",
       "CREATE_ACCOUNT": "创建账户并邀请好友",
       "ENTER_VALID_EMAIL": "请输入有效的电子邮件地址！",
@@ -241,11 +241,11 @@
     "GLOBAL_INTERFACE": {
       "DARK_MODE": {
         "TITLE": "暗黑模式",
-        "LABEL": "选择主题方案"
+        "LABEL": "主题配色方案"
       },
       "FULL_WIDTH": {
         "TITLE": "全屏显示",
-        "LABEL": "在全屏下显示文档内容"
+        "LABEL": "全屏显示文档内容"
       },
       "SIMPLIFIED_UI": {
         "TITLE": "界面简化",
@@ -291,14 +291,14 @@
     "SIDEBAR": {
       "DOCUMENT_STATUSES": {
         "TITLE": "文档状态",
-        "LABEL": "将文档设置为草稿、已完成和置顶分类"
+        "LABEL": "将文档分为草稿、完成和固定三类"
       },
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "自定义侧边栏"
       },
       "COMMUNITY_TAB": {
-        "TITLE": "展示社区链接",
-        "LABEL": "在侧边栏上显示社区“，您可以在社区中找到公共文档和学习小组。如果禁用此功能，您仍然可以通过账户导航找到它。"
+        "TITLE": "社区功能",
+        "LABEL": "在侧边栏上显示社区，您可以在社区中找到公共文档和学习小组。如果禁用此功能，您仍然可以通过账户导航找到它。"
       },
       "SORT_SIDEBAR": {
         "TITLE": "侧边栏排序",
@@ -309,7 +309,7 @@
     "NOTIFICATIONS": {
       "ENABLE_PUSH_TITLE": "启用推送通知？",
       "ENABLE_PUSH_LABEL": "发送消息通知到您的设备",
-      "ENABLE_EMAIL_TITLE": "启用电子邮件通知？",
+      "ENABLE_EMAIL_TITLE": "开启电子邮件通知？",
       "ENABLE_EMAIL_LABEL": "发送通知到您的邮箱",
       "TOGGLE_TITLE": "通知管理",
       "TOGGLE_LABEL": "管理发送到您的设备或邮箱的通知",
@@ -320,27 +320,27 @@
         },
         "INVITE": {
           "TITLE": "邀请通知",
-          "LABEL": "接受群组邀请通知"
+          "LABEL": "开启后，可以收到群组邀请通知"
         },
         "NEW_LIKE": {
           "TITLE": "点赞通知",
-          "LABEL": "接受分享的文章点赞通知"
+          "LABEL": "开启后，可以收到已分享文章的点赞通知"
         },
         "NEW_FOLLOWER": {
           "TITLE": "关注通知",
-          "LABEL": "接受其他人关注您的通知"
+          "LABEL": "开启后，可以收到其他人关注您的通知"
         },
         "DOCUMENT_ADDED_TO_GROUP": {
           "TITLE": "群组添加文章通知",
-          "LABEL": "接受群组中添加文章的通知"
+          "LABEL": "开启后，可以收到群组中添加文章的通知"
         },
         "NEW_COMMENT": {
           "TITLE": "评论通知",
-          "LABEL": "接受其他人评论您文章的通知"
+          "LABEL": "开启后，可以收到其他人评论您文章的通知"
         },
         "ARTICLE_VIEWS": {
           "TITLE": "文章浏览通知",
-          "LABEL": "接受文章获得大量浏览阅读时的通知"
+          "LABEL": "开启后，可以收到文章阅读浏览量通知"
         }
       }
     }
