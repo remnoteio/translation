@@ -1,7 +1,7 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "Language",
-    "TRANSLATION_INFO_SETTINGS": "Translation is still in progress.<br>You can help us, by reading the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink>."
+    "TRANSLATION_INFO_SETTINGS": "Translation is still in progress; you will see a mix of English and the selected language.<br>You can help us translate by reading the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink>."
   },
   "COMMON": {
     "ACTIONS": {
@@ -20,15 +20,25 @@
     "ACCOUNT": {
       "PROFILE_TITLE": "Profile",
       "MY_PROFILE": "My Profile",
-      "PROFILE_KEYWORDS": "Personal User Profile",
+      "PROFILE": {
+        "KEYWORDS": "Personal User Profile"
+      },
       "IMPORT_EXPORT_TITLE": "Import and Export",
-      "EXPORT_IMPORT_KEYWORDS": "Export Backup Export Roam Dynalist Logseq Notion Evernote Obsidian",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Export Backup Export Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
       "NAVIGATION_TITLE": "Navigation",
-      "NAVIGATION_KEYWORDS": "Export and Backup Trash View Deleted Rem Import Knowledge Base View All Cards  Download a Daily Backup Advanced Settings Delete All Rem",
+      "NAVIGATION": {
+        "KEYWORDS": "Export and Backup Trash View Deleted Rem Import Knowledge Base View All Cards  Download a Daily Backup Advanced Settings Delete All Rem"
+      },
       "AUTHENTICATION_TITLE": "Authentication",
-      "AUTHENTICATION_KEYWORDS": "Logout Log out Google Login Method Add Disconnect Sign In Sign Up",
+      "AUTHENTICATION": {
+        "KEYWORDS": "Logout Log out Google Login Method Add Disconnect Sign In Sign Up"
+      },
       "ADVANCED_TITLE": "Advanced Settings",
-      "ADVANCED_KEYWORDS": "Support Rewire Search Fix Bug",
+      "ADVANCED": {
+        "KEYWORDS": "Support Rewire Search Fix Bug"
+      },
       "DANGER_ZONE_TITLE": "Danger Zone",
       "PRIVACY_NOTE": "Privacy: Read our <policyLink>Privacy Policy</policyLink>, or change your settings in our <hubLink>Privacy Hub</hubLink>.",
       "DANGER_ZONE": {
@@ -41,7 +51,7 @@
       },
       "SYNCING": {
         "TITLE": "Syncing",
-        "KEYWORDS": "force sync all files"
+        "KEYWORDS": "Force Sync Images & PDFs"
       },
       "VERSION": {
         "TITLE": "Application Version",
@@ -138,6 +148,10 @@
           "MAC": "When you press Return in the middle of a Rem, create a line break within that Rem, and instead use Opt+Return to break the text into two separate Rems. (By default, Shift+Return and Return alone, respectively, serve these functions.)"
         }
       },
+      "ENTER_TO_OUTDENT": {
+        "TITLE": "Press Enter to Outdent",
+        "LABEL": "When pressing Enter on a Rem with no content that is not at the top level of the document, outdent one level. (If disabled, stay at the same level and leave an empty Rem.)"
+      },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
         "TITLE": "Double Slash For Command Menu",
         "DESCRIPTION": "Type // instead of / to trigger commands while editing Rems."
@@ -156,7 +170,7 @@
       "GENERAL": {
         "ENABLE_SPELLCHECK": {
           "TITLE": "Enable Spellcheck",
-          "DESCRIPTION": "Check the currently focused Rem for typos."
+          "DESCRIPTION": "Check the currently focused Rem for typos. Spellcheck uses the language(s) selected in your browser or operating system."
         },
         "CAPITALIZE_FROM_SEARCH": {
           "TITLE": "Capitalize From Search",
@@ -213,8 +227,7 @@
       "INVITE_FRIENDS_REMNOTE": "Invite your friends to RemNote!",
       "INVITE_FRIENDS_EARN_CREDIT": "Invite your friends to earn credit! You'll receive <0>{{monthlyPrice}}</0> in RemNote credit when the person you invite signs up for a RemNote account, and they'll also get <0>{{monthlyPrice}}</0> credit to get started.",
       "CREDIT_BALANCE": "Credit Balance",
-      "CREDIT_BALANCE_TEXT": "You have <bold>{{userCredit}}</bold> credit remaining and have earned <bold>{{userCreditEarned}}</bold> credit in total.{{months}} remaining month or months of RemNote Pro for free.<div><br />Subscribe to Pro to start using your credit! You won't be charged until your credit runs out.</div>",
-      "SUBSCRIBE_NOTICE": "<div><br />Subscribe to Pro to start using your credit! You won't be charged until your credit runs out.</div>",
+      "CREDIT_BALANCE_TEXT": "You have <bold>{{userCredit}}</bold> credit remaining and have earned <bold>{{userCreditEarned}}</bold> credit in total. {{months}} remaining month or months of RemNote Pro for free.<br /><br />Subscribe to Pro to start using your credit! You won't be charged until your credit runs out.",
       "TOAST_SUBSCRIBE": "Your credits will be applied automatically when you subscribe to RemNote Pro. Choose a plan below to get started!",
       "TOAST_RENEW": "Your credits will be applied automatically when your current subscription renews.",
       "APPLY_CREDIT": "Apply your credit",
@@ -255,9 +268,19 @@
         "LABEL": "Show tips on RemNote features you could try at the top of your document.",
         "KEYWORDS": "tooltips help support learn tutorial"
       },
-      "ONBOARDING_TIPS": {
+      "ONBOARDING_TIPS_FEATURES": {
         "TITLE": "Onboarding Tips",
         "LABEL": "Show tips on RemNote features you're currently using in the corner of the screen.",
+        "KEYWORDS": "tooltips help support learn tutorial"
+      },
+      "LEFT_SIDEBAR_TUTORIALS": {
+        "TITLE": "In-App Tutorials",
+        "LABEL": "Show tutorials on RemNote features you're currently using in the corner of the screen.",
+        "KEYWORDS": "in app left sidebar tutorials tooltips help support learn tutorial"
+      },
+      "ONBOARDING_TIPS_SHORTCUTS": {
+        "TITLE": "Keyboard Shortcut Tips",
+        "LABEL": "Show tips on keyboard shortcuts you're currently using in the corner of the screen.",
         "KEYWORDS": "tooltips help support learn tutorial"
       },
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
@@ -265,7 +288,7 @@
         "KEYWORDS": "language community documents search"
       },
       "INTERFACE": {
-        "TITLE": "RemNote Interface Language",
+        "TITLE": "RemNote Interface Language (Alpha)",
         "KEYWORDS": "lang language translation i18n"
       }
     },
@@ -276,7 +299,7 @@
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
         "TITLE": "Scale Collapsed Rem Bullets",
-        "LABEL": "When a Rem is collapsed, make the ring around its bullet larger or smaller based on its total number of descendants.."
+        "LABEL": "When a Rem is collapsed, make the ring around its bullet larger or smaller based on its total number of descendants."
       },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
         "TITLE": "Smoothly Animate The Editor",
@@ -285,6 +308,10 @@
       "PREVIEW_REM_ON_HOVER": {
         "TITLE": "Preview References on Hover",
         "LABEL": "When you hover over a Reference, show a preview of its contents."
+      },
+      "ENABLE_ZOOM_INTO_BULLET": {
+        "TITLE": "Enable Zooming into Bullet",
+        "LABEL": "When you click on the bullet pointer, show the rem as a full page"
       }
     },
     "SIDEBAR": {
@@ -323,23 +350,23 @@
         },
         "NEW_LIKE": {
           "TITLE": "Like notifications",
-          "LABEL": "Get notified when an article you shared is liked"
+          "LABEL": "Get notified when a document you shared is liked"
         },
         "NEW_FOLLOWER": {
           "TITLE": "Follower notifications",
           "LABEL": "Get notified when someone follows you"
         },
         "DOCUMENT_ADDED_TO_GROUP": {
-          "TITLE": "Article added to group notification",
-          "LABEL": "Get notified when an article is added to your group"
+          "TITLE": "Document added to group notification",
+          "LABEL": "Get notified when a document is added to your group"
         },
         "NEW_COMMENT": {
           "TITLE": "Comment notifications",
-          "LABEL": "Get notified when someone comments on your article"
+          "LABEL": "Get notified when someone comments on your shared document"
         },
         "ARTICLE_VIEWS": {
-          "TITLE": "Article views notifications",
-          "LABEL": "Get notified when your article starts gaining significant views"
+          "TITLE": "Document views notifications",
+          "LABEL": "Get notified when your shared document starts gaining significant views"
         }
       }
     }
@@ -370,9 +397,9 @@
     "TURN_OFF_AUTO_APPLY": "Turn off Auto-Apply",
     "VIEW_CONFIGURATION": "Configure Tag",
     "HIDE_CONFIGURATION": "Hide Configuration",
-    "PROPERTIES_HELP_TEXT": {
-      "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
-    },
+    "PROPERTIES_HELP_TEXT": [
+      "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
+    ],
     "TEMPLATES_HELP_TEXT": "A tag's template is a RemNote document that can be automatically copied to tagged Rems. Add headers, checklists, and more right within your template.",
     "AUTO_APPLY_HELP_TEXT": "This template will be automatically applied to all rows in its table, or all Rems tagged with the template."
   },
@@ -424,6 +451,8 @@
         "MOVE_TABLE_TO_TITLE": "Move Table To",
         "MOVE_LIST_TO_TITLE": "Move List To",
         "DUPLICATE_TABLE_VIEW_TITLE": "Duplicate Table View",
+        "ADD_TABLE_VIEW_TITLE": "Add Table View",
+        "ADD_LIST_VIEW_TITLE": "Add List View",
         "DUPLICATE_LIST_VIEW_TITLE": "Duplicate List View",
         "DUPLICATE_VIEW_MESSAGE_COMMON": "Duplicate a view to apply a new filter, sort, or more! Content is shared between views of the same source, so you won't end up with any accidental duplicate instances.",
         "SHOW_VERTICAL_LINES_TITLE": "Show Vertical Lines",
@@ -445,7 +474,7 @@
     "LABEL_TODAYS_NOTE": "Today's Note",
     "LABEL_FLASHCARDS": "Flashcards",
     "LABEL_EDIT_LATER": "Edit Later",
-    "LABEL_COMMUNITY": "Community",
+    "LABEL_COMMUNITY": "Shared Flashcards",
     "LABEL_ONBOARDING_CALL": "Setup an Onboarding Call",
     "LABEL_INTERACTIVE_TOUR": "Interactive Tour",
     "LABEL_RESUME_INTERACTIVE_TOUR": "Resume Interactive Tour",
@@ -471,7 +500,7 @@
   },
   "SOURCES": {
     "LINK_SOURCE": {
-      "LABEL": "Link Source",
+      "LABEL": "Link",
       "ENTER_URL": "Enter URL",
       "INVALID_URL": "Invalid URL",
       "OPEN_IN_READER": "Open in Reader",
@@ -481,7 +510,7 @@
       "LINK_WITH_COUNT_other": "{{count, number}} Links"
     },
     "UPLOAD_SOURCE": {
-      "LABEL": "Upload Source",
+      "LABEL": "Upload",
       "SELECT_FILES": "Select files",
       "SELECT_FILES_TO_UPLOAD": "Select files to upload",
       "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
@@ -528,22 +557,22 @@
       "BODY": "was added to"
     },
     "ARTICLE_VIEWS": {
-      "BODY_1": "Your article",
+      "BODY_1": "Your document",
       "BODY_2": "has gotten {{viewCount, number}} views"
     },
     "IMPORT": {
-      "BODY": "Someone imported your article"
+      "BODY": "Someone imported your document"
     },
     "NEW_COMMENT": {
       "BODY": "commented on",
-      "BODY_ARTICLE": "commented on your article",
+      "BODY_ARTICLE": "commented on your document",
       "BODY_COMMENT": "replied to your comment",
       "BODY_GROUP": "sent a chat to your group"
     },
     "EMPTY_STATE_TITLE": "You have no recent notifications",
     "EMPTY_STATE_MESSAGE": "You're all caught up! You'll receive notifications when someone interacts with the content shared on your <profileLink>profile</profileLink>",
     "POPUP_TITLE": "Recent Notifications",
-    "ARTICLE_DEFAULT": "Your article",
+    "ARTICLE_DEFAULT": "Your document",
     "GROUP_DEFAULT": "Your group"
   },
   "POPUPS": {
@@ -570,10 +599,28 @@
       },
       "UPLOAD_FILE": {
         "TITLE": "Upload & Annotate File",
-        "DESCRIPTION": "Highlight, annotate, and reference a PDF or other file.",
+        "DESCRIPTION": "Highlight & reference a PDF, PowerPoint, Word document, or other file.",
         "PAYWALL": "You have reached your limit for PDF uploads.",
         "todo_for_the_item_below": "move this into a global feature name object?",
         "FEATURE_NAME": "PDF Highlighting"
+      }
+    }
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "0": {
+          "TITLE": "Create A Folder"
+        },
+        "1": {
+          "TITLE": "Add a Bullet"
+        },
+        "2": {
+          "TITLE": "Create A Flashcard"
+        },
+        "3": {
+          "TITLE": "Structure Notes using “Tab”"
+        }
       }
     }
   }

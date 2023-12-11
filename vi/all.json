@@ -1,0 +1,104 @@
+{
+  "LANGUAGE": {
+    "LANGUAGE_WORD": "Ngôn ngữ",
+    "TRANSLATION_INFO_SETTINGS": "Bản dịch vẫn đang được tiến hành; bạn sẽ thấy sự kết hợp giữa tiếng Anh và ngôn ngữ đã chọn.<br> Bạn có thể giúp chúng tôi dịch bằng cách đọc <guideLink>hướng dẫn</guideLink>, sau đó sử dụng <editorLink>trình biên tập web</editorLink> của chúng tôi."
+  },
+  "COMMON": {
+    "ACTIONS": {
+      "CREATE": "Tạo",
+      "REMOVE": "Loại b",
+      "DELETE": "Xóa",
+      "EDIT": "Chỉnh sửa",
+      "DUPLICATE": "Nhân bản",
+      "APPLY": "Áp dụng",
+      "UPDATE": "Cập nhật",
+      "VIEW": "Xem",
+      "HIDE": "Ẩn"
+    }
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "PROFILE_TITLE": "Hồ sơ",
+      "MY_PROFILE": "Thông tin của tôi",
+      "PROFILE": {
+        "KEYWORDS": "Hồ sơ người dùng cá nhân"
+      },
+      "IMPORT_EXPORT_TITLE": "Nhập và xuất",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Xuất bản Sao lưu Xuất Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "NAVIGATION_TITLE": "Điều hướng",
+      "NAVIGATION": {
+        "KEYWORDS": "Xuất và Sao lưu Thùng rác Xem Đã xóa Rem Nhập cơ sở kiến thức Xem tất cả thẻ  Tải xuống bản sao lưu hàng ngày Cài đặt nâng cao Xóa tất cả Rem"
+      },
+      "AUTHENTICATION_TITLE": "Xác thực",
+      "AUTHENTICATION": {
+        "KEYWORDS": "Đăng xuất Đăng xuất Phương thức đăng nhập Google Thêm Ngắt kết nối Đăng nhập Đăng ký"
+      },
+      "ADVANCED_TITLE": "Cài đặt nâng cao",
+      "ADVANCED": {
+        "KEYWORDS": "Hỗ trợ Rewire Tìm kiếm Sửa lỗi"
+      },
+      "DANGER_ZONE_TITLE": "Khu vực nguy hiểm",
+      "PRIVACY_NOTE": "Quyền riêng tư: Đọc <policyLink>Chính sách bảo mật</policyLink> của chúng tôi hoặc thay đổi cài đặt của bạn trong <hubLink>Trung tâm quyền riêng tư</hubLink>.",
+      "DANGER_ZONE": {
+        "TITLE": "Khu vực nguy hiểm",
+        "KEYWORDS": "đồng bộ hóa nhật ký xóa tài khoản thiết lập lại tiến trình hướng dẫn thiết lập lại cài đặt tài khoản nâng cao"
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "Thông báo chuỗi trên di động"
+      },
+      "SYNCING": {
+        "TITLE": "Đang đồng bộ hóa"
+      },
+      "VERSION": {
+        "TITLE": "Phiên bản Ứng dụng",
+        "KEYWORDS": "phiên bản"
+      },
+      "SUPPORT": {
+        "TITLE": "Ủng hộ"
+      },
+      "PRIVACY": {
+        "TITLE": "Sự riêng tư",
+        "KEYWORDS": "sự riêng tư"
+      }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "TODAYS_TARGET": "Mục tiêu hôm nay:"
+      },
+      "GENERAL": {
+        "RESET_ALL": {
+          "TITLE": "Đặt lại tất cả cài đặt Flashcard",
+          "DESCRIPTION": "Đặt lại tất cả cài đặt flashcard về giá trị mặc định của chúng.",
+          "CONFIRM_MESSAGE": "Bạn có chắc chắn muốn đặt lại tất cả cài đặt flashcard về giá trị mặc định của chúng không?"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "TITLE": "Thẻ mới tối đa mỗi ngày"
+        },
+        "STALE_CARDS_PER_DAY": {
+          "TITLE": "Thẻ cũ tối đa mỗi ngày"
+        },
+        "LEECH_THRESHOLD": {
+          "TITLE": "Ngưỡng đỉa"
+        },
+        "AUTOPLAY_MEDIA": {
+          "TITLE": "Phương tiện tự động phát"
+        },
+        "TYPE_ANSWER": {
+          "TITLE": "Viết câu trả lời"
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "TITLE": "Nút Flashcard đơn giản hóa"
+        }
+      }
+    },
+    "KEYBOARD_SHORTCUTS": {
+      "SPLIT_WITH_ALT_ENTER": {
+        "TITLE": {
+          "PC": "Tách bằng Alt+Enter"
+        }
+      }
+    }
+  }
+}
