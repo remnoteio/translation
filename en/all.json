@@ -201,7 +201,7 @@
       "DATES_AND_TIMES": {
         "DATE_FORMATTING": {
           "TITLE": "Date Formatting",
-          "DESCRIPTION": "Format dates inserted with /date like this."
+          "DESCRIPTION": "Format Daily Document titles and dates inserted with /date like this."
         },
         "DATE_FORMATTING_CUSTOM": {
           "TITLE": "Custom Date Formatting",
