@@ -222,7 +222,7 @@
       "KEYWORDS": "invite friends plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options"
     },
     "EARN_CREDIT": {
-      "TITLE": "Earn Credit",
+      "TITLE": "Earn Credits",
       "KEYWORDS": "invite friends earn credit plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options",
       "INVITE_FRIENDS_REMNOTE": "Invite your friends to RemNote!",
       "INVITE_FRIENDS_EARN_CREDIT": "Invite your friends to earn credit! You'll receive <0>{{monthlyPrice}}</0> in RemNote credit when the person you invite signs up for a RemNote account, and they'll also get <0>{{monthlyPrice}}</0> credit to get started.",
