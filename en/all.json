@@ -331,6 +331,8 @@
     "NOTIFICATIONS": {
       "ENABLE_PUSH_TITLE": "Enable push notifications?",
       "ENABLE_PUSH_LABEL": "Receive notifications directly to your device",
+      "ENABLE_DUE_CARDS_TITLE": "Enable due cards badge?",
+      "ENABLE_DUE_CARDS_LABEL": "Show the total number of due cards as a badge on the RemNote app icon.",
       "ENABLE_EMAIL_TITLE": "Enable email notifications?",
       "ENABLE_EMAIL_LABEL": "Receive notifications directly to your inbox",
       "TOGGLE_TITLE": "Filter notifications",
