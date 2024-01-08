@@ -104,6 +104,10 @@
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "TITLE": "Simplified Flashcard Buttons",
           "DESCRIPTION": "Show only the “Forgot” and “Recalled with effort” response buttons when studying flashcards, instead of all five options."
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "TITLE": "Next Day Starts At",
+          "DESCRIPTION": "New cards appear in your queue each day at this time"
         }
       },
       "VISUAL": {
