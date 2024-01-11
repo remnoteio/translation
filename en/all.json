@@ -93,6 +93,10 @@
           "TITLE": "Leech Threshold",
           "DESCRIPTION": "Leeches are difficult cards that you keep learning and then forgetting again. If you press “forgot” on a card more times than this, we'll warn you so you can figure out why you're struggling and fix the problem. Set this to higher values to see the leech warning less often."
         },
+        "LEARN_AHEAD_LIMIT": {
+          "TITLE": "Learn Ahead Limit",
+          "DESCRIPTION": "When you reach the end of your queue, RemNote will show you cards up to this many minutes before they are due, so that you don't end up with cards due again immediately after finishing your queue."
+        },
         "AUTOPLAY_MEDIA": {
           "TITLE": "Autoplay Media",
           "DESCRIPTION": "When showing a flashcard, automatically play any audio or video on it."
