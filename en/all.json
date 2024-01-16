@@ -276,11 +276,6 @@
         "LABEL": "Show tips on RemNote features you could try at the top of your document.",
         "KEYWORDS": "tooltips help support learn tutorial"
       },
-      "ONBOARDING_TIPS_FEATURES": {
-        "TITLE": "Onboarding Tips",
-        "LABEL": "Show tips on RemNote features you're currently using in the corner of the screen.",
-        "KEYWORDS": "tooltips help support learn tutorial"
-      },
       "LEFT_SIDEBAR_TUTORIALS": {
         "TITLE": "In-App Tutorials",
         "LABEL": "Show tutorials on RemNote features you're currently using in the corner of the screen.",
