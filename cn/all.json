@@ -215,7 +215,6 @@
       "INVITE_FRIENDS_EARN_CREDIT": "邀请好友赚积分！每成功通过邀请链接完成注册，双方均可获得  <0>{{monthlyPrice}}</0> 的 RemNote 积分。",
       "CREDIT_BALANCE": "积分详情",
       "CREDIT_BALANCE_TEXT": "您当前剩余 <bold>{{userCredit}}</bold> 积分，总共获得过 <bold>{{userCreditEarned}}</bold> 积分，还可以免费使用 {{months}} 个月的 RemNote Pro 订阅计划。<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>",
-      "SUBSCRIBE_NOTICE": "<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>",
       "TOAST_SUBSCRIBE": "当您订阅 RemNote Pro 时，会先自动消耗您的积分。请选择以下计划，然后开始使用吧！",
       "TOAST_RENEW": "当您续订当前订阅计划时，会先自动消耗您的积分。",
       "APPLY_CREDIT": "使用您的积分",
@@ -236,7 +235,8 @@
       "COPYLINK": "复制链接",
       "FRIENDS_TITLE": "朋友",
       "INVITED_YOU": "(邀请您)",
-      "NOT_CONFIRMED_EMAIL": "(未确认邮件地址)"
+      "NOT_CONFIRMED_EMAIL": "(未确认邮件地址)",
+      "SUBSCRIBE_NOTICE": "<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>"
     },
     "GLOBAL_INTERFACE": {
       "DARK_MODE": {
@@ -296,15 +296,15 @@
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "自定义侧边栏"
       },
-      "COMMUNITY_TAB": {
-        "TITLE": "社区功能",
-        "LABEL": "在侧边栏上显示社区，您可以在社区中找到公共文档和学习小组。如果禁用此功能，您仍然可以通过账户导航找到它。"
-      },
       "SORT_SIDEBAR": {
         "TITLE": "侧边栏排序",
         "KEYWORDS": "侧边栏按A-Z字母序排序"
       },
-      "PRIVACY_NOTE": "隐私：请阅读我们的<policyLink>隐私政策</policyLink>，您可以在<hubLink>隐私中心</hubLink>中更改您的设置。"
+      "PRIVACY_NOTE": "隐私：请阅读我们的<policyLink>隐私政策</policyLink>，您可以在<hubLink>隐私中心</hubLink>中更改您的设置。",
+      "COMMUNITY_TAB": {
+        "TITLE": "社区功能",
+        "LABEL": "在侧边栏上显示社区，您可以在社区中找到公共文档和学习小组。如果禁用此功能，您仍然可以通过账户导航找到它。"
+      }
     },
     "NOTIFICATIONS": {
       "ENABLE_PUSH_TITLE": "启用推送通知？",

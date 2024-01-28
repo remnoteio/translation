@@ -201,7 +201,6 @@
       "INVITE_FRIENDS_REMNOTE": "Laden Sie Ihre Freunde zu RemNote ein!",
       "INVITE_FRIENDS_EARN_CREDIT": "Laden Sie Ihre Freunde ein, um Guthaben zu verdienen! Sie erhalten <0>{{monthlyPrice}}</0> als RemNote-Gutschrift, wenn die von Ihnen eingeladene Person sich für ein RemNote-Konto anmeldet und Sie erhalten außerdem auch<0>{{monthlyPrice}}</0> Kredit, um loszulegen.",
       "CREDIT_BALANCE_TEXT": "Sie haben <bold>{{userCredit}}</bold> Restguthaben und <bold> {{userCreditEarned}}</bold> Guthaben insgesamt erhalten. {{months}} verbleibender Monat oder verbleibende Monate RemNote Pro kostenlos.<br /><br /> Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung auf dem Konto erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.",
-      "SUBSCRIBE_NOTICE": "<div><br />Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung ihres Kontos erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.</div>",
       "TOAST_SUBSCRIBE": "Ihr Guthaben wird automatisch angewendet, wenn Sie RemNote Pro abonnieren. Wählen Sie unten einen Plan aus, um loszulegen!",
       "TOAST_RENEW": "Ihr Guthaben wird automatisch angewendet, wenn Ihr aktuelles Abonnement verlängert wird.",
       "APPLY_CREDIT": "Guthaben anwenden",
@@ -220,7 +219,8 @@
       "COPYLINK": "Link kopieren",
       "FRIENDS_TITLE": "Freunde",
       "INVITED_YOU": "(hat dich eingeladen)",
-      "NOT_CONFIRMED_EMAIL": "(hat die E-Mail nicht bestätigt)"
+      "NOT_CONFIRMED_EMAIL": "(hat die E-Mail nicht bestätigt)",
+      "SUBSCRIBE_NOTICE": "<div><br />Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung ihres Kontos erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.</div>"
     },
     "GLOBAL_INTERFACE": {
       "DARK_MODE": {
@@ -238,10 +238,6 @@
       "IN_APP_SUGGESTIONS": {
         "LABEL": "Zeigen Sie oben in Ihrem Dokument Tipps zu RemNote-Funktionen an, die Sie ausprobieren können."
       },
-      "ONBOARDING_TIPS_FEATURES": {
-        "TITLE": "Onboarding-Tipps",
-        "LABEL": "Zeigen Sie Tipps zu den RemNote-Funktionen, die Sie gerade verwenden, in der Ecke des Bildschirms an."
-      },
       "ONBOARDING_TIPS_SHORTCUTS": {
         "TITLE": "Tipps zu Tastaturkürzeln",
         "LABEL": "Zeigen Sie in der Ecke des Bildschirms Tipps zu Tastaturkürzeln an, die Sie gerade verwenden."
@@ -253,6 +249,10 @@
       "INTERFACE": {
         "TITLE": "RemNote Sprache der Benutzeroberfläche(Alpha)",
         "KEYWORDS": "sprache sprache übersetzung i18n"
+      },
+      "ONBOARDING_TIPS_FEATURES": {
+        "TITLE": "Onboarding-Tipps",
+        "LABEL": "Zeigen Sie Tipps zu den RemNote-Funktionen, die Sie gerade verwenden, in der Ecke des Bildschirms an."
       }
     },
     "EDITOR_INTERFACE": {
@@ -275,14 +275,14 @@
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "Passen Sie Seitenleistenabschnitte an"
       },
-      "COMMUNITY_TAB": {
-        "TITLE": "Community-Link in der Seitenleiste",
-        "LABEL": "Zeigen Sie in der Seitenleiste die Registerkarte „Community“ an, auf der Sie öffentliche Dokumente und Lerngruppen finden. Wenn Sie dies deaktivieren, können Sie weiterhin über die Kontokapsel darauf zugreifen."
-      },
       "SORT_SIDEBAR": {
         "TITLE": "Seitenleiste sortieren"
       },
-      "PRIVACY_NOTE": "Datenschutz: Lesen Sie unsere<policyLink>Datenschutzrichtlinie</policyLink> , oder ändern Sie Ihre Einstellungen in unserem<hubLink> Datenschutz-Hub</hubLink> ."
+      "PRIVACY_NOTE": "Datenschutz: Lesen Sie unsere<policyLink>Datenschutzrichtlinie</policyLink> , oder ändern Sie Ihre Einstellungen in unserem<hubLink> Datenschutz-Hub</hubLink> .",
+      "COMMUNITY_TAB": {
+        "TITLE": "Community-Link in der Seitenleiste",
+        "LABEL": "Zeigen Sie in der Seitenleiste die Registerkarte „Community“ an, auf der Sie öffentliche Dokumente und Lerngruppen finden. Wenn Sie dies deaktivieren, können Sie weiterhin über die Kontokapsel darauf zugreifen."
+      }
     },
     "NOTIFICATIONS": {
       "ENABLE_PUSH_TITLE": "Push-Benachrichtigungen aktivieren?",

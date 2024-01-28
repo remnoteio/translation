@@ -46,10 +46,12 @@
         "KEYWORDS": "đồng bộ hóa nhật ký xóa tài khoản thiết lập lại tiến trình hướng dẫn thiết lập lại cài đặt tài khoản nâng cao"
       },
       "NOTIFICATIONS": {
-        "TITLE": "Thông báo chuỗi trên di động"
+        "TITLE": "Thông báo chuỗi trên di động",
+        "DESCRIPTION": "Gửi lời nhắc trên thiết bị di động về chuỗi flashcard hàng ngày của bạn. Lời nhắc sẽ đến vào lúc 6 giờ tối mỗi ngày, theo múi giờ địa phương của bạn."
       },
       "SYNCING": {
-        "TITLE": "Đang đồng bộ hóa"
+        "TITLE": "Đang đồng bộ hóa",
+        "KEYWORDS": "Buộc đồng bộ hình ảnh và tệp PDF"
       },
       "VERSION": {
         "TITLE": "Phiên bản Ứng dụng",
@@ -65,6 +67,9 @@
     },
     "FLASHCARDS": {
       "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "TITLE": "Mục tiêu hàng ngày tối đa"
+        },
         "TODAYS_TARGET": "Mục tiêu hôm nay:"
       },
       "GENERAL": {

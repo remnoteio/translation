@@ -225,7 +225,6 @@
       "INVITE_FRIENDS_EARN_CREDIT": "Convide seus amigos para ganhar créditos! Você receberá <0>{{monthlyPrice}}</0> em crédito RemNote quando a pessoa que você convidou se inscrever com uma conta RemNote, e ele também receberá <0>{{monthlyPrice}}</0> de crédito para começar.",
       "CREDIT_BALANCE": "Balanco de Creditos",
       "CREDIT_BALANCE_TEXT": "Você tem<bold> {{userCredit}}</bold> de créditos restantes e ganhou<bold> {{userCreditEarned}}</bold> de créditos no total. {{months}} mês ou meses restantes de RemNote Pro gratuitamente.<div><br /> Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>",
-      "SUBSCRIBE_NOTICE": "<div><br />Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>",
       "TOAST_SUBSCRIBE": "Seus créditos serão aplicados automaticamente quando você assinar o RemNote Pro. Escolha um plano abaixo para começar!",
       "TOAST_RENEW": "Seus créditos serão aplicados automaticamente quando sua assinatura atual for renovada.",
       "APPLY_CREDIT": "Utilize seu crédito",
@@ -246,7 +245,8 @@
       "COPYLINK": "Copiar Link",
       "FRIENDS_TITLE": "Amigos",
       "INVITED_YOU": "(convidou você)",
-      "NOT_CONFIRMED_EMAIL": "(não confirmou e-mail)"
+      "NOT_CONFIRMED_EMAIL": "(não confirmou e-mail)",
+      "SUBSCRIBE_NOTICE": "<div><br />Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>"
     },
     "GLOBAL_INTERFACE": {
       "DARK_MODE": {
@@ -310,15 +310,15 @@
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "Personalizar Seções da Barra Lateral"
       },
-      "COMMUNITY_TAB": {
-        "TITLE": "Link da Comunidade na Barra Lateral",
-        "LABEL": "Abre a Aba da Comunidade, onde você pode encontrar documentos públicos e grupos de estudo, na barra lateral. Se você desativar isso, ainda poderá navegar até ele por meio do menu de sua conta."
-      },
       "SORT_SIDEBAR": {
         "TITLE": "Ordenar Barra Lateral",
         "KEYWORDS": "Organizar barras-laterais ordernar de-A-a-Z"
       },
-      "PRIVACY_NOTE": "Privacidade: Leia nossa<policyLink>Política de Privacidade</policyLink>, ou altere suas configurações em nosso<hubLink>Centro de privacidade</hubLink> ."
+      "PRIVACY_NOTE": "Privacidade: Leia nossa<policyLink>Política de Privacidade</policyLink>, ou altere suas configurações em nosso<hubLink>Centro de privacidade</hubLink> .",
+      "COMMUNITY_TAB": {
+        "TITLE": "Link da Comunidade na Barra Lateral",
+        "LABEL": "Abre a Aba da Comunidade, onde você pode encontrar documentos públicos e grupos de estudo, na barra lateral. Se você desativar isso, ainda poderá navegar até ele por meio do menu de sua conta."
+      }
     },
     "NOTIFICATIONS": {
       "ENABLE_PUSH_TITLE": "Ativar notificações push?",
