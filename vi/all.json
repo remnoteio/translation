@@ -125,8 +125,40 @@
       }
     }
   },
+  "TABLES": {
+    "MENUS": {
+      "TABLE_CONFIGURATION": {
+        "DELETE_TABLE": "Xóa Bảng",
+        "DELETE_LIST": "Xóa Danh sách"
+      }
+    }
+  },
+  "SIDEBAR": {
+    "LABEL_ALL_NOTES": "Tất cả Ghi chú",
+    "LABEL_TODAYS_NOTE": "Ghi chú Hôm nay",
+    "LABEL_EDIT_LATER": "Chỉnh Sửa Sau",
+    "LABEL_TUTORIALS": "Hướng dẫn",
+    "TOOLTIP_FLASHCARD_HOME": "Đi tới Trang chủ Flashcard"
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "TITLE": "Tất Cả Ghi Chú",
+      "SORT": {
+        "RECENTLY_MODIFIED": "Được sửa gần đây",
+        "RECENTLY_CREATED": "Được tạo gần đây",
+        "OLDEST_FIRST": "Cũ nhất đầu tiên",
+        "BY_CREATION_TIME": "Theo thời gian tạo",
+        "BY_TITLE": "Theo tiêu đề",
+        "BY_MODIFICATION": "Theo sự sửa đổi"
+      }
+    }
+  },
   "SOURCES": {
     "LINK_SOURCE": {
+      "LABEL": "Liên kết",
+      "ENTER_URL": "Nhập URL",
+      "INVALID_URL": "URL không hợp lệ",
+      "OPEN_IN_READER": "Mở trong Reader",
       "LINK_WITH_COUNT_one": "{{count, number}} Liên kết",
       "LINK_WITH_COUNT_other": "{{count, number}} Liên kết"
     },
