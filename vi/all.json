@@ -123,6 +123,17 @@
           "TITLE": "Bật Kiểm Tra Chính Tả"
         }
       }
+    },
+    "EARN_CREDIT": {
+      "INVITE": "Mời",
+      "SHARE_LINK": "Chia sẻ liên kết mời",
+      "COPIED": "Đã sao chép!",
+      "FRIENDS_TITLE": "Bạn bè"
+    },
+    "GLOBAL_INTERFACE": {
+      "DARK_MODE": {
+        "TITLE": "Chế độ Tối"
+      }
     }
   },
   "TABLES": {
