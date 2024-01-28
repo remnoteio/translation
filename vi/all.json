@@ -125,8 +125,44 @@
       }
     }
   },
+  "SOURCES": {
+    "LINK_SOURCE": {
+      "LINK_WITH_COUNT_one": "{{count, number}} Liên kết",
+      "LINK_WITH_COUNT_other": "{{count, number}} Liên kết"
+    },
+    "UPLOAD_SOURCE": {
+      "LABEL": "Tải lên",
+      "SELECT_FILES": "Chọn tệp tin",
+      "SELECT_FILES_TO_UPLOAD": "Chọn file để tải lên",
+      "EMPTY": "Thả các tệp PDF, tài liệu Word, PPT và <moreLink> các loại khác </moreLink> ở đây!",
+      "INVALID": "Định dạng tập tin không chính xác!",
+      "UPLOADING": "Đang tải lên...",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} tệp PDF"
+    }
+  },
   "NOTIFICATIONS": {
+    "INVITE": {
+      "BODY": "đã mời bạn tham gia",
+      "ACCEPT": "Chấp Nhận Lời Mời",
+      "REJECT": "Từ Chối"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "đã theo dõi bạn"
+    },
+    "NEW_LIKE": {
+      "BODY": "đã thích"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "đã được thêm vào"
+    },
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Tài liệu của bạn",
+      "BODY_2": "đã nhận được {{viewCount, number}} lượt xem"
+    },
     "NEW_COMMENT": {
+      "BODY": "bình luận về",
+      "BODY_ARTICLE": "đã bình luận về tài liệu của bạn",
       "BODY_GROUP": "đã gửi một cuộc trò chuyện đến nhóm của bạn"
     },
     "EMPTY_STATE_TITLE": "Bạn không có thông báo gần đây",
