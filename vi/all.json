@@ -68,9 +68,11 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "Mục tiêu hàng ngày tối đa"
+          "TITLE": "Mục tiêu hàng ngày tối đa",
+          "DESCRIPTION": "Giới hạn số lượng thẻ ghi chú RemNote sẽ yêu cầu bạn luyện tập để đạt được mục tiêu hàng ngày ở giá trị này."
         },
-        "TODAYS_TARGET": "Mục tiêu hôm nay:"
+        "TODAYS_TARGET": "Mục tiêu hôm nay:",
+        "TODAYS_TARGET_EXPLANATION": "RemNote cố gắng đặt mục tiêu hàng ngày của bạn để nếu bạn đạt được mục tiêu hàng ngày, bạn sẽ hoàn thành tất cả các thẻ cần xem xét trong 7 ngày tiếp theo. Tuy nhiên, mục tiêu hàng ngày sẽ không bao giờ vượt quá mức tối đa đã đặt ra ở trên."
       },
       "GENERAL": {
         "RESET_ALL": {
@@ -79,7 +81,8 @@
           "CONFIRM_MESSAGE": "Bạn có chắc chắn muốn đặt lại tất cả cài đặt flashcard về giá trị mặc định của chúng không?"
         },
         "NEW_CARDS_PER_DAY": {
-          "TITLE": "Thẻ mới tối đa mỗi ngày"
+          "TITLE": "Thẻ mới tối đa mỗi ngày",
+          "DESCRIPTION": "Đưa tối đa số thẻ flashcard mới được tạo này vào danh sách thẻ flashcard của bạn mỗi ngày. Bằng cách này, các thẻ mới sẽ vào hàng đợi của bạn với tốc độ ổn định hàng ngày, thay vì theo đợt khổng lồ."
         },
         "STALE_CARDS_PER_DAY": {
           "TITLE": "Thẻ cũ tối đa mỗi ngày"
@@ -88,13 +91,19 @@
           "TITLE": "Ngưỡng đỉa"
         },
         "AUTOPLAY_MEDIA": {
-          "TITLE": "Phương tiện tự động phát"
+          "TITLE": "Phương tiện tự động phát",
+          "DESCRIPTION": "Khi hiển thị flashcard, hãy tự động phát bất kỳ âm thanh hoặc video nào trên nó."
         },
         "TYPE_ANSWER": {
-          "TITLE": "Viết câu trả lời"
+          "TITLE": "Viết câu trả lời",
+          "DESCRIPTION": "Hiển thị một hộp văn bản ở mặt trước của mỗi thẻ ghi nhớ và so sánh những gì bạn nhập với câu trả lời ở mặt sau của thẻ."
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
-          "TITLE": "Nút Flashcard đơn giản hóa"
+          "TITLE": "Nút Flashcard đơn giản hóa",
+          "DESCRIPTION": "Chỉ hiển thị các nút phản hồi “Quên” và “Nhớ lại một cách nỗ lực” khi học thẻ ghi chú, thay vì hiển thị cả năm tùy chọn."
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "TITLE": "Ngày Tiếp Theo Bắt Đầu Lúc"
         }
       }
     },
@@ -102,6 +111,16 @@
       "SPLIT_WITH_ALT_ENTER": {
         "TITLE": {
           "PC": "Tách bằng Alt+Enter"
+        }
+      },
+      "ENTER_TO_OUTDENT": {
+        "TITLE": "Nhấn Enter để thụt lùi"
+      }
+    },
+    "EDITOR": {
+      "GENERAL": {
+        "ENABLE_SPELLCHECK": {
+          "TITLE": "Bật Kiểm Tra Chính Tả"
         }
       }
     }
