@@ -128,6 +128,8 @@
   "TABLES": {
     "MENUS": {
       "TABLE_CONFIGURATION": {
+        "DUPLICATE_TABLE_VIEW_TITLE": "Nhân đôi Chế độ xem Bảng",
+        "ADD_TABLE_VIEW_TITLE": "Thêm Chế độ xem Bảng",
         "DELETE_TABLE": "Xóa Bảng",
         "DELETE_LIST": "Xóa Danh sách"
       }
