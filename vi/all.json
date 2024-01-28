@@ -124,5 +124,35 @@
         }
       }
     }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "TABLE_TAG": {
+        "TITLE": "Thẻ & Bảng"
+      },
+      "UPLOAD_FILE": {
+        "TITLE": "Tải Lên và Tệp Chú Thích ",
+        "PAYWALL": "Bạn đã đạt đến giới hạn số PDF được tải lên.",
+        "FEATURE_NAME": "Đánh Dấu PDF"
+      }
+    }
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "0": {
+          "TITLE": "Tạo Một Thư Mục"
+        },
+        "1": {
+          "TITLE": "Thêm một Dấu đầu dòng"
+        },
+        "2": {
+          "TITLE": "Tạo một Flashcard"
+        },
+        "3": {
+          "TITLE": "Sấp Xếp Ghi Chú Bằng Cách Sử Dụng Tab"
+        }
+      }
+    }
   }
 }
