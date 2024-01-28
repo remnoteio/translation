@@ -125,8 +125,31 @@
       }
     }
   },
+  "NOTIFICATIONS": {
+    "NEW_COMMENT": {
+      "BODY_GROUP": "đã gửi một cuộc trò chuyện đến nhóm của bạn"
+    },
+    "EMPTY_STATE_TITLE": "Bạn không có thông báo gần đây",
+    "POPUP_TITLE": "Thông Báo Gần Đây",
+    "ARTICLE_DEFAULT": "Tài liệu của bạn",
+    "GROUP_DEFAULT": "Nhóm của bạn"
+  },
   "POPUPS": {
     "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "TITLE": "Tài Liệu"
+      },
+      "QUICK_ADD": {
+        "TITLE": "Thêm Nhanh",
+        "DESCRIPTION": "Lưu ý tưởng của bạn một cách nhanh chóng!"
+      },
+      "TODAYS_DOCUMENT": {
+        "TITLE": "Tài Liệu Hôm Nay"
+      },
+      "FOLDER": {
+        "TITLE": "Thư Mục",
+        "DESCRIPTION": "Sắp xếp tài liệu vào các thư mục."
+      },
       "TABLE_TAG": {
         "TITLE": "Thẻ & Bảng"
       },
