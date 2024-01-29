@@ -46,10 +46,12 @@
         "KEYWORDS": "đồng bộ hóa nhật ký xóa tài khoản thiết lập lại tiến trình hướng dẫn thiết lập lại cài đặt tài khoản nâng cao"
       },
       "NOTIFICATIONS": {
-        "TITLE": "Thông báo chuỗi trên di động"
+        "TITLE": "Thông báo chuỗi trên di động",
+        "DESCRIPTION": "Gửi lời nhắc trên thiết bị di động về chuỗi flashcard hàng ngày của bạn. Lời nhắc sẽ đến vào lúc 6 giờ tối mỗi ngày, theo múi giờ địa phương của bạn."
       },
       "SYNCING": {
-        "TITLE": "Đang đồng bộ hóa"
+        "TITLE": "Đang đồng bộ hóa",
+        "KEYWORDS": "Buộc đồng bộ hình ảnh và tệp PDF"
       },
       "VERSION": {
         "TITLE": "Phiên bản Ứng dụng",
@@ -65,7 +67,12 @@
     },
     "FLASHCARDS": {
       "DAILY_TARGET": {
-        "TODAYS_TARGET": "Mục tiêu hôm nay:"
+        "MAXIMUM_DAILY_TARGET": {
+          "TITLE": "Mục tiêu hàng ngày tối đa",
+          "DESCRIPTION": "Giới hạn số lượng thẻ ghi chú RemNote sẽ yêu cầu bạn luyện tập để đạt được mục tiêu hàng ngày ở giá trị này."
+        },
+        "TODAYS_TARGET": "Mục tiêu hôm nay:",
+        "TODAYS_TARGET_EXPLANATION": "RemNote cố gắng đặt mục tiêu hàng ngày của bạn để nếu bạn đạt được mục tiêu hàng ngày, bạn sẽ hoàn thành tất cả các thẻ cần xem xét trong 7 ngày tiếp theo. Tuy nhiên, mục tiêu hàng ngày sẽ không bao giờ vượt quá mức tối đa đã đặt ra ở trên."
       },
       "GENERAL": {
         "RESET_ALL": {
@@ -74,7 +81,8 @@
           "CONFIRM_MESSAGE": "Bạn có chắc chắn muốn đặt lại tất cả cài đặt flashcard về giá trị mặc định của chúng không?"
         },
         "NEW_CARDS_PER_DAY": {
-          "TITLE": "Thẻ mới tối đa mỗi ngày"
+          "TITLE": "Thẻ mới tối đa mỗi ngày",
+          "DESCRIPTION": "Đưa tối đa số thẻ flashcard mới được tạo này vào danh sách thẻ flashcard của bạn mỗi ngày. Bằng cách này, các thẻ mới sẽ vào hàng đợi của bạn với tốc độ ổn định hàng ngày, thay vì theo đợt khổng lồ."
         },
         "STALE_CARDS_PER_DAY": {
           "TITLE": "Thẻ cũ tối đa mỗi ngày"
@@ -83,13 +91,19 @@
           "TITLE": "Ngưỡng đỉa"
         },
         "AUTOPLAY_MEDIA": {
-          "TITLE": "Phương tiện tự động phát"
+          "TITLE": "Phương tiện tự động phát",
+          "DESCRIPTION": "Khi hiển thị flashcard, hãy tự động phát bất kỳ âm thanh hoặc video nào trên nó."
         },
         "TYPE_ANSWER": {
-          "TITLE": "Viết câu trả lời"
+          "TITLE": "Viết câu trả lời",
+          "DESCRIPTION": "Hiển thị một hộp văn bản ở mặt trước của mỗi thẻ ghi nhớ và so sánh những gì bạn nhập với câu trả lời ở mặt sau của thẻ."
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
-          "TITLE": "Nút Flashcard đơn giản hóa"
+          "TITLE": "Nút Flashcard đơn giản hóa",
+          "DESCRIPTION": "Chỉ hiển thị các nút phản hồi “Quên” và “Nhớ lại một cách nỗ lực” khi học thẻ ghi chú, thay vì hiển thị cả năm tùy chọn."
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "TITLE": "Ngày Tiếp Theo Bắt Đầu Lúc"
         }
       }
     },
@@ -97,6 +111,150 @@
       "SPLIT_WITH_ALT_ENTER": {
         "TITLE": {
           "PC": "Tách bằng Alt+Enter"
+        }
+      },
+      "ENTER_TO_OUTDENT": {
+        "TITLE": "Nhấn Enter để thụt lùi"
+      }
+    },
+    "EDITOR": {
+      "GENERAL": {
+        "ENABLE_SPELLCHECK": {
+          "TITLE": "Bật Kiểm Tra Chính Tả"
+        }
+      }
+    },
+    "EARN_CREDIT": {
+      "INVITE": "Mời",
+      "SHARE_LINK": "Chia sẻ liên kết mời",
+      "COPIED": "Đã sao chép!",
+      "FRIENDS_TITLE": "Bạn bè"
+    },
+    "GLOBAL_INTERFACE": {
+      "DARK_MODE": {
+        "TITLE": "Chế độ Tối"
+      }
+    }
+  },
+  "TABLES": {
+    "MENUS": {
+      "TABLE_CONFIGURATION": {
+        "DUPLICATE_TABLE_VIEW_TITLE": "Nhân đôi Chế độ xem Bảng",
+        "ADD_TABLE_VIEW_TITLE": "Thêm Chế độ xem Bảng",
+        "DELETE_TABLE": "Xóa Bảng",
+        "DELETE_LIST": "Xóa Danh sách"
+      }
+    }
+  },
+  "SIDEBAR": {
+    "LABEL_ALL_NOTES": "Tất cả Ghi chú",
+    "LABEL_TODAYS_NOTE": "Ghi chú Hôm nay",
+    "LABEL_EDIT_LATER": "Chỉnh Sửa Sau",
+    "LABEL_TUTORIALS": "Hướng dẫn",
+    "TOOLTIP_FLASHCARD_HOME": "Đi tới Trang chủ Flashcard"
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "TITLE": "Tất Cả Ghi Chú",
+      "SORT": {
+        "RECENTLY_MODIFIED": "Được sửa gần đây",
+        "RECENTLY_CREATED": "Được tạo gần đây",
+        "OLDEST_FIRST": "Cũ nhất đầu tiên",
+        "BY_CREATION_TIME": "Theo thời gian tạo",
+        "BY_TITLE": "Theo tiêu đề",
+        "BY_MODIFICATION": "Theo sự sửa đổi"
+      }
+    }
+  },
+  "SOURCES": {
+    "LINK_SOURCE": {
+      "LABEL": "Liên kết",
+      "ENTER_URL": "Nhập URL",
+      "INVALID_URL": "URL không hợp lệ",
+      "OPEN_IN_READER": "Mở trong Reader",
+      "LINK_WITH_COUNT_one": "{{count, number}} Liên kết",
+      "LINK_WITH_COUNT_other": "{{count, number}} Liên kết"
+    },
+    "UPLOAD_SOURCE": {
+      "LABEL": "Tải lên",
+      "SELECT_FILES": "Chọn tệp tin",
+      "SELECT_FILES_TO_UPLOAD": "Chọn file để tải lên",
+      "EMPTY": "Thả các tệp PDF, tài liệu Word, PPT và <moreLink> các loại khác </moreLink> ở đây!",
+      "INVALID": "Định dạng tập tin không chính xác!",
+      "UPLOADING": "Đang tải lên...",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} tệp PDF"
+    }
+  },
+  "NOTIFICATIONS": {
+    "INVITE": {
+      "BODY": "đã mời bạn tham gia",
+      "ACCEPT": "Chấp Nhận Lời Mời",
+      "REJECT": "Từ Chối"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "đã theo dõi bạn"
+    },
+    "NEW_LIKE": {
+      "BODY": "đã thích"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "đã được thêm vào"
+    },
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Tài liệu của bạn",
+      "BODY_2": "đã nhận được {{viewCount, number}} lượt xem"
+    },
+    "NEW_COMMENT": {
+      "BODY": "bình luận về",
+      "BODY_ARTICLE": "đã bình luận về tài liệu của bạn",
+      "BODY_GROUP": "đã gửi một cuộc trò chuyện đến nhóm của bạn"
+    },
+    "EMPTY_STATE_TITLE": "Bạn không có thông báo gần đây",
+    "POPUP_TITLE": "Thông Báo Gần Đây",
+    "ARTICLE_DEFAULT": "Tài liệu của bạn",
+    "GROUP_DEFAULT": "Nhóm của bạn"
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "TITLE": "Tài Liệu"
+      },
+      "QUICK_ADD": {
+        "TITLE": "Thêm Nhanh",
+        "DESCRIPTION": "Lưu ý tưởng của bạn một cách nhanh chóng!"
+      },
+      "TODAYS_DOCUMENT": {
+        "TITLE": "Tài Liệu Hôm Nay"
+      },
+      "FOLDER": {
+        "TITLE": "Thư Mục",
+        "DESCRIPTION": "Sắp xếp tài liệu vào các thư mục."
+      },
+      "TABLE_TAG": {
+        "TITLE": "Thẻ & Bảng"
+      },
+      "UPLOAD_FILE": {
+        "TITLE": "Tải Lên và Tệp Chú Thích ",
+        "PAYWALL": "Bạn đã đạt đến giới hạn số PDF được tải lên.",
+        "FEATURE_NAME": "Đánh Dấu PDF"
+      }
+    }
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "0": {
+          "TITLE": "Tạo Một Thư Mục"
+        },
+        "1": {
+          "TITLE": "Thêm một Dấu đầu dòng"
+        },
+        "2": {
+          "TITLE": "Tạo một Flashcard"
+        },
+        "3": {
+          "TITLE": "Sấp Xếp Ghi Chú Bằng Cách Sử Dụng Tab"
         }
       }
     }
