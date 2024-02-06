@@ -67,6 +67,16 @@
       }
     },
     "FLASHCARDS": {
+      "AI": {
+        "ENABLE": {
+          "TITLE": "Enable AI Features",
+          "DESCRIPTION": "Use AI-based autocompletion, grading, and flashcards generation. Snippets of your notes will be sent to OpenAI when you use many AI features. Find OpenAI's privacy policy at https://openai.com/policies/privacy-policy."
+        },
+        "OPENAI_KEY": {
+          "TITLE": "OpenAI API Key",
+          "DESCRIPTION": "If you find yourself exceeding your monthly quota of AI requests, you can sign up for an API key at https://platform.openai.com/account/api-keys and enter it here to pay for your own usage. Note that this is a beta feature and could be removed at any time."
+        }
+      },
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "Maximum Daily Target",
