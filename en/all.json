@@ -121,7 +121,7 @@
         },
         "NEXT_DAY_STARTS_AT": {
           "TITLE": "Next Day Starts At",
-          "DESCRIPTION": "New cards appear in your queue each day at this time"
+          "DESCRIPTION": "New cards appear in your queue each day at this time."
         }
       },
       "VISUAL": {
@@ -297,12 +297,12 @@
         "KEYWORDS": "tooltips help support learn tutorial"
       },
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
-        "TITLE": "Community Document Search Language",
-        "KEYWORDS": "language community documents search"
+        "TITLE": "Shared Flashcards Search Language",
+        "KEYWORDS": "language community documents search flashcards share shared download find"
       },
       "INTERFACE": {
-        "TITLE": "RemNote Interface Language (Alpha)",
-        "KEYWORDS": "lang language translation i18n"
+        "TITLE": "RemNote Interface Language",
+        "KEYWORDS": "lang language translation translate i18n"
       }
     },
     "EDITOR_INTERFACE": {
@@ -408,9 +408,9 @@
     "TURN_OFF_AUTO_APPLY": "Turn off Auto-Apply",
     "VIEW_CONFIGURATION": "Configure Tag",
     "HIDE_CONFIGURATION": "Hide Configuration",
-    "PROPERTIES_HELP_TEXT": {
-      "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
-    },
+    "PROPERTIES_HELP_TEXT": [
+      "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
+    ],
     "TEMPLATES_HELP_TEXT": "A tag's template is a RemNote document that can be automatically copied to tagged Rems. Add headers, checklists, and more right within your template.",
     "AUTO_APPLY_HELP_TEXT": "This template will be automatically applied to all rows in its table, or all Rems tagged with the template."
   },
