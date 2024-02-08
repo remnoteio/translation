@@ -613,8 +613,8 @@
         "TITLE": "Fazer Upload e Anotar Arquivo",
         "DESCRIPTION": "Grife, anote e faça referência em um PDF ou outro arquivo.",
         "PAYWALL": "Você atingiu seu limite de uploads de PDF.",
-        "todo_for_the_item_below": "mover isso para um objeto nome de recurso global?",
-        "FEATURE_NAME": "Grifos de PDF"
+        "todo_for_the_item_below": "mover isso para um objeto de nome que tem características globais?",
+        "FEATURE_NAME": "Grifar PDF"
       }
     }
   },
