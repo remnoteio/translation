@@ -87,7 +87,7 @@
       },
       "GENERAL": {
         "RESET_ALL": {
-          "TITLE": "Reset All Flashcard Settings",
+          "TITLE": "Reset All Flashcard Settings to Defaults",
           "DESCRIPTION": "Reset all flashcard settings to their default values.",
           "CONFIRM_MESSAGE": "Are you sure you want to reset all flashcard settings to their default values?"
         },
