@@ -364,7 +364,7 @@
     "NOTIFICATIONS": {
       "ENABLE_PUSH_TITLE": "启用推送通知？",
       "ENABLE_PUSH_LABEL": "发送消息通知到您的设备",
-      "ENABLE_DUE_CARDS_TITLE": "启用到期卡片应用角标？",
+      "ENABLE_DUE_CARDS_TITLE": "启用卡片到期角标？",
       "ENABLE_DUE_CARDS_LABEL": "在 RemNote 应用程序图标上以角标形式显示到期卡片总数。",
       "ENABLE_EMAIL_TITLE": "开启电子邮件通知？",
       "ENABLE_EMAIL_LABEL": "发送通知到您的邮箱",
