@@ -111,7 +111,7 @@
         },
         "LEARN_AHEAD_LIMIT": {
           "TITLE": "超前学习限制",
-          "DESCRIPTION": "当您复习到队列末尾时，RemNote 会提前显示未来若干分钟内到期的卡片，以避免在完成队列后又立刻看到到期的卡片。"
+          "DESCRIPTION": "当您复习到队列末尾时，RemNote 会提前显示未来若干分钟内将要到期的卡片，以避免在完成队列后又立刻看到到期的卡片。"
         },
         "AUTOPLAY_MEDIA": {
           "TITLE": "自动播放媒体",
