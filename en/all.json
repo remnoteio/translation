@@ -158,7 +158,7 @@
     "KEYBOARD_SHORTCUTS": {
       "SPLIT_WITH_ALT_ENTER": {
         "TITLE": {
-          "PC": "Split With Alt+Enter",
+          "PC": "软硬换行",
           "MAC": "Split With Opt+Return"
         },
         "DESCRIPTION": {

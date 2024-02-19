@@ -164,12 +164,12 @@
     "KEYBOARD_SHORTCUTS": {
       "SPLIT_WITH_ALT_ENTER": {
         "TITLE": {
-          "PC": "Alt + 回车键拆分文本",
+          "PC": "Alt + Enter 拆分文本",
           "MAC": "Opt + 回车键拆分文本"
         },
         "DESCRIPTION": {
-          "PC": "使用回车键在 Rem 中实现软换行（在当前 Rem 中插入换行符），同时使用 Alt + 回车键将文本拆分成两个独立的 Rem。（默认情况下 Shift + 回车键也能实现行内软换行）",
-          "MAC": "在 Rem 中间按下回车键时，默认会自动换行，而使用 Opt + 回车键则会将文本拆分成两个独立的 Rem。（Shift + 回车键默认实现行内软换行）"
+          "PC": "在 Rem 中使用 Enter 键实现软换行（在当前 Rem 中插入换行符），同时使用 Alt + Enter 键实现硬换行（将文本拆分成两个独立的 Rem）。（默认情况下Shift + Enter 键和 Enter 键分别实现上述行为）",
+          "MAC": "在 Rem 中使用 Return 键实现软换行（在当前 Rem 中插入换行符），同时使用 Opt+ Return 键实现硬换行（将文本拆分成两个独立的 Rem）。（默认情况下Shift + Return 键和 Return 键分别实现上述行为）"
         }
       },
       "ENTER_TO_OUTDENT": {
