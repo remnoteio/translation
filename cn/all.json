@@ -173,7 +173,7 @@
         }
       },
       "ENTER_TO_OUTDENT": {
-        "TITLE": "按回车键取消缩进",
+        "TITLE": "取消缩进",
         "LABEL": "在文档顶层没有内容的 Rem 上按回车键时，将向外缩进一级。(如果禁用，则停留在同一层级并留下一个空的 Rem）。"
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
@@ -181,7 +181,7 @@
         "DESCRIPTION": "编辑 Rem 时使用 // 而非 / 触发命令模式"
       },
       "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
-        "TITLE": "开启旧版快捷键",
+        "TITLE": "启用旧版快捷键",
         "DESCRIPTION": "使用旧版键盘快捷键（2020年8月更新之前）"
       },
       "CHANGE_KEYBOARD_SHORTCUTS": {
