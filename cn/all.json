@@ -25,9 +25,21 @@
         "KEYWORDS": "个人用户资料"
       },
       "IMPORT_EXPORT_TITLE": "导入导出",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
       "NAVIGATION_TITLE": "功能导航",
+      "NAVIGATION": {
+        "KEYWORDS": "导出和备份 垃圾箱 查看已删除的Rem 导入知识库 查看所有卡片 下载每日备份 高级设置 删除所有Rem"
+      },
       "AUTHENTICATION_TITLE": "认证授权",
+      "AUTHENTICATION": {
+        "KEYWORDS": "注销 注销Google 登录方法 添加 断开连接 登录 注册"
+      },
       "ADVANCED_TITLE": "高级设置",
+      "ADVANCED": {
+        "KEYWORDS": "支持 重置搜索 修复错误"
+      },
       "DANGER_ZONE_TITLE": "风险操作",
       "PRIVACY_NOTE": "隐私：请阅读我们的<policyLink>隐私政策</policyLink>，或者在<hubLink>隐私中心</hubLink>中更改您的设置。",
       "DANGER_ZONE": {
@@ -61,6 +73,16 @@
       "ADVANCED_KEYWORDS": "支持 重装 搜索 修复错误"
     },
     "FLASHCARDS": {
+      "AI": {
+        "ENABLE": {
+          "TITLE": "启用人工智能(AI)功能",
+          "DESCRIPTION": "使用基于人工智能的自动补全、分级和生成记忆卡片的功能。当您启用人工智能功能时，您的笔记片段将被发送到 OpenAI。了解 OpenAI 的隐私政策，请访问 https://openai.com/policies/privacy-policy。"
+        },
+        "OPENAI_KEY": {
+          "TITLE": "OpenAI API 密钥",
+          "DESCRIPTION": "如果您发现自己超出每月的人工智能请求配额，您可以在 https://platform.openai.com/account/api-keys 注册一个 API 密钥(按请求次数付费)，然后在此输入。请注意，这是一个测试版功能，随时可能被移除。"
+        }
+      },
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "每日最高目标",
@@ -87,6 +109,10 @@
           "TITLE": "错误阈值",
           "DESCRIPTION": "在记忆卡片中，\"Leeches\"（难题卡片）是指那些您反复学习然后又忘记的困难卡片。如果您在某张卡片上点击了比设定值更多次的\"忘记\"，我们会发出警告，以便您找出并解决难以记住的问题。将此值设定得更高，可以减少难题警告出现的次数。"
         },
+        "LEARN_AHEAD_LIMIT": {
+          "TITLE": "超前学习限制",
+          "DESCRIPTION": "当您复习到队列末尾时，RemNote 会提前显示未来若干分钟内到期的卡片，以避免在完成队列后又立刻看到到期的卡片。"
+        },
         "AUTOPLAY_MEDIA": {
           "TITLE": "自动播放媒体",
           "DESCRIPTION": "在展示记忆卡片时，自动播放卡片上的音频活视频"
@@ -98,6 +124,10 @@
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "TITLE": "简化记忆卡片按钮",
           "DESCRIPTION": "在复习卡片时只显示”忘记“和“努力回忆”的反馈按钮，而不显示剩余的其他五个选项"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "TITLE": "次日起始时间",
+          "DESCRIPTION": "每天此时都会有新卡出现在您的队列中。"
         }
       },
       "VISUAL": {
@@ -265,11 +295,13 @@
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "TITLE": "应用内置教程",
-        "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示。"
+        "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示。",
+        "KEYWORDS": "应用程序内 左侧边栏 教程 工具提示 帮助 支持 学习教程"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
         "TITLE": "键盘快捷键提示键盘快捷键技巧键盘快捷键小贴士键盘快捷键小技巧",
-        "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示。"
+        "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示。",
+        "KEYWORDS": "工具提示 帮助 支持 学习教程"
       },
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
         "TITLE": "社区文档搜索语言",
@@ -332,6 +364,8 @@
     "NOTIFICATIONS": {
       "ENABLE_PUSH_TITLE": "启用推送通知？",
       "ENABLE_PUSH_LABEL": "发送消息通知到您的设备",
+      "ENABLE_DUE_CARDS_TITLE": "启用到期卡片应用角标？",
+      "ENABLE_DUE_CARDS_LABEL": "在 RemNote 应用程序图标上以角标形式显示到期卡片总数。",
       "ENABLE_EMAIL_TITLE": "开启电子邮件通知？",
       "ENABLE_EMAIL_LABEL": "发送通知到您的邮箱",
       "TOGGLE_TITLE": "通知管理",
