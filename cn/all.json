@@ -177,8 +177,8 @@
         "LABEL": "在文档顶层没有内容的 Rem 上按回车键时，将向外缩进一级。(如果禁用，则停留在同一层级并留下一个空的 Rem）"
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
-        "TITLE": "双斜线触发命令菜单",
-        "DESCRIPTION": "编辑 Rem 时使用 // 而非 / 触发命令模式"
+        "TITLE": "命令菜单",
+        "DESCRIPTION": "编辑 Rem 时使用双斜线(//)触发命令模式（默认为单斜线）"
       },
       "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
         "TITLE": "启用旧版快捷键",
