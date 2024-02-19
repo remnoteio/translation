@@ -346,7 +346,7 @@
     "SIDEBAR": {
       "DOCUMENT_STATUSES": {
         "TITLE": "文档状态",
-        "LABEL": "将文档分为草稿、完成和固定三类"
+        "LABEL": "将文档分为草稿、已完成和固定三类"
       },
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "自定义侧边栏"
