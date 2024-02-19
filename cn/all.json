@@ -76,7 +76,7 @@
       "AI": {
         "ENABLE": {
           "TITLE": "启用人工智能(AI)功能",
-          "DESCRIPTION": "使用基于人工智能的自动补全、分级和生成记忆卡片的功能。当您启用人工智能功能时，您的笔记片段将被发送到 OpenAI。了解 OpenAI 的隐私政策，请访问 https://openai.com/policies/privacy-policy。"
+          "DESCRIPTION": "使用基于人工智能的自动补全、分级和生成记忆卡片的功能。当启用人工智能功能后，您的笔记片段将被发送到 OpenAI。了解 OpenAI 的隐私政策，请访问 https://openai.com/policies/privacy-policy。"
         },
         "OPENAI_KEY": {
           "TITLE": "OpenAI API 密钥",
