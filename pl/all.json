@@ -150,7 +150,7 @@
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
         "TITLE": "Podwójny ukośnik dla Menu oleceń",
-        "DESCRIPTION": "Wpisz // zamiast /, aby wywołać polecenia podczas edycji Remów"
+        "DESCRIPTION": "Wpisz // zamiast /, aby wywołać Polecenia podczas edycji Remów"
       }
     },
     "EDITOR": {
