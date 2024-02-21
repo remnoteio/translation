@@ -174,7 +174,9 @@
       "0": "Właściwości opisują tag. Na przykład dla tagu o nazwie „Książka” dodaj właściwości takie jak Autor, Gatunek, Stan Przeczytania i nie tylko!"
     },
     "TEMPLATES_HELP_TEXT": "Szablon taga to dokument RemNote, który można automatycznie skopiować do oznaczonych Remów. Dodaj nagłówki, listy kontrolne i inne elementy bezpośrednio w swoim szablonie.",
-    "AUTO_APPLY_HELP_TEXT": "Ten szablon zostanie automatycznie zastosowany do wszystkich wierszy w jego tabeli lub do wszystkich Remów oznaczonych tym szablonem."
+    "AUTO_APPLY_HELP_TEXT": "Ten szablon zostanie automatycznie zastosowany do wszystkich wierszy w jego tabeli lub do wszystkich Remów oznaczonych tym szablonem.",
+    "ADD_PROPERTY": "Dodaj Właściwość",
+    "NEW_PROPERTY": "Nowa Właściwość"
   },
   "TABLES": {
     "MENUS": {
