@@ -189,7 +189,8 @@
           }
         },
         "INSERT_EMOJIS_AS_REFERENCES": {
-          "TITLE": "Wstaw Emotikony jako Odnośniki"
+          "TITLE": "Wstaw Emotikony jako Odnośniki",
+          "DESCRIPTION": "W Szukaj pisząc %% i wybierając Emotikon zostanie on wstawiony jako Odnośnik."
         }
       }
     },
@@ -215,6 +216,10 @@
       }
     },
     "EDITOR_INTERFACE": {
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "TITLE": "Naciśnij-Raz Odnośnik aby go Otworzyć",
+        "LABEL": "Kiedy klikniesz lub stukniesz na Odnośnik, odrazu otwórz go, zamiast wyświetlać jego Podgląd. (Zawsze możesz wyświetlić jego Podgląd naciskając na niego prawym klawiszem myszki.)"
+      },
       "PREVIEW_REM_ON_HOVER": {
         "TITLE": "Wyświetl Podgląd Odnośnika najeżdżając kursorem",
         "LABEL": "Kiedy najedziesz kursorem na Odnośnik, wyświetl Podgląd jego zawartości."
