@@ -168,16 +168,24 @@
           "DESCRIPTION": "Sprawdź aktualnie aktywowany Rem pod kątem literówek."
         },
         "CAPITALIZE_FROM_SEARCH": {
-          "TITLE": "Zaczynaj pisownie z Wielkiej Litery w Wyszukiwaniu",
+          "TITLE": "Zaczynaj pisownie z Wielkiej Litery w Szukaj",
           "DESCRIPTION": {
-            "PC": "Tworząc Rem naciskając Ctrl+Enter podczas Wyszukiwania, napisz jego nazwę z wielkiej litery.",
-            "MAC": "Tworząc Rem naciskając Cmd+Return podczas Wyszukiwania, napisz jego nazwę z wielkiej litery."
+            "PC": "Tworząc Rem naciskając Ctrl+Enter w Szukaj, napisz jego nazwę z wielkiej litery.",
+            "MAC": "Tworząc Rem naciskając Cmd+Return w Szukaj, napisz jego nazwę z wielkiej litery."
+          }
+        },
+        "CREATE_CONCEPTS_FROM_SEARCH": {
+          "TITLE": "Twórz Konspekt W Szukaj",
+          "DESCRIPTION": {
+            "PC": "Tworząc Rem naciskając Ctrl+Enter w Szukaj, zmień go w Konspekt.",
+            "MAC": "Tworząc Rem naciskając Cmd+Return w Szukaj, zmień go w Konspekt."
           }
         },
         "CREATE_STUBS_FROM_SEARCH": {
+          "TITLE": "Twórz Niedopałki w Szukaj",
           "DESCRIPTION": {
-            "PC": "Tworząc Rem naciskając Ctrl+Enter podczas wyszukiwania, oznacz go Tagiem „Niedopałek”.",
-            "MAC": "Tworząc Rem naciskając Cmd+Return podczas wyszukiwania, oznacz go Tagiem „Niedopałek”."
+            "PC": "Tworząc Rem naciskając Ctrl+Enter w Szukaj, oznacz go Tagiem „Niedopałek”.",
+            "MAC": "Tworząc Rem naciskając Cmd+Return w Szukaj, oznacz go Tagiem „Niedopałek”."
           }
         }
       }
@@ -273,7 +281,7 @@
   },
   "SOURCES": {
     "LINK_SOURCE": {
-      "SEARCH_PLACEHOLDER": "Wklej link lub wyszukaj dnośnik"
+      "SEARCH_PLACEHOLDER": "Wklej link lub wyszukaj Odnośnik"
     },
     "UPLOAD_SOURCE": {
       "LABEL": "Prześli",
