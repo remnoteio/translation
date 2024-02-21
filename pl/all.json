@@ -124,6 +124,16 @@
         "TAG_CLUSTERS": {
           "TITLE": "Zbiory Tagów",
           "DESCRIPTION": "Wolę razem uczyć się Remy z tym samym Tagiem."
+        },
+        "HIERARCHY_CLUSTERS": {
+          "TITLE": "Zbiory Hierarchii",
+          "DESCRIPTION": "Wolą uczyć się Remy powiązane ze sobą hierarchicznie."
+        }
+      },
+      "STATISTICS": {
+        "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
+          "TITLE": "Maksymalny czas odpowiedzi na Fiszkę",
+          "DESCRIPTION": "Jeśli odpowiedź na Fiszkę zajmie Ci więcej czasu (w sekundach), resztę czasu nie zostanie uwzględniona w statystykach."
         }
       }
     },
@@ -139,7 +149,8 @@
         }
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
-        "TITLE": "Podwójny ukośnik dla Menu oleceń"
+        "TITLE": "Podwójny ukośnik dla Menu oleceń",
+        "DESCRIPTION": "Wpisz // zamiast /, aby wywołać polecenia podczas edycji Remów"
       }
     },
     "EDITOR": {
