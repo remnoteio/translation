@@ -91,7 +91,7 @@
         },
         "LEECH_THRESHOLD": {
           "TITLE": "Próg Fiszek Udręki",
-          "DESCRIPTION": "Fiszki Udręki to trudne fiszki, których ciągle się uczysz, a potem znowu zapominasz. Jeśli naciśniesz przycisk „zapomniałem/-am” na fiszce więcej razy niż ta wartość, ostrzeżemy Cię, abyś mógł zastanowić się, dlaczego masz z nią problem. Ustaw tę opcję na wyższe wartości, aby rzadziej wyświetlać ostrzeżenie o Uciażliwej Fiszce."
+          "DESCRIPTION": "Fiszki Udręki to trudne fiszki, których ciągle się uczysz, a potem znowu zapominasz. Jeśli naciśniesz przycisk „zapomniałem/-am” na fiszce więcej razy niż ta wartość, ostrzeżemy Cię, abyś mógł zastanowić się, dlaczego masz z nią problem. Ustaw tę opcję na wyższe wartości, aby rzadziej wyświetlać ostrzeżenie o Fiszce Udręki."
         },
         "AUTOPLAY_MEDIA": {
           "TITLE": "Odtwarzaj automatycznie dźwięk",
@@ -103,13 +103,27 @@
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "TITLE": "Uproszczone przyciski w fiszkach",
-          "DESCRIPTION": "Pokazuj tylko przyciski \"Zapomniałem/-am\" i \"Przypomniałem/-am z trudem\"  podczas nauki fiszek, zamiast wszystkich pięciu opcji."
+          "DESCRIPTION": "Pokazuj tylko przyciski \"Zapomniałem/-am\" i \"Przypomniałem/-am z trudem\" podczas nauki fiszek, zamiast wszystkich pięciu opcji."
         }
       },
       "VISUAL": {
         "SHOW_NEXT_REVIEW_TIMES": {
           "TITLE": "Pokaż Godziny Następnej Powtórki",
           "DESCRIPTION": "Na każdym przycisku odpowiedzi pokaż czas do następnej powtórki."
+        }
+      },
+      "ORDERING": {
+        "DOCUMENT_CLUSTERS": {
+          "TITLE": "Zbiory dokumentów",
+          "DESCRIPTION": "Wolę uczyć się Remów z powiązanych dokumentów razem. "
+        },
+        "REFERENCE_CLUSTERS": {
+          "TITLE": "Zbiory Odnośników",
+          "DESCRIPTION": "Wolę ćwiczyć Remy, które odnoszą się do siebie nawzajem."
+        },
+        "TAG_CLUSTERS": {
+          "TITLE": "Zbiory Tagów",
+          "DESCRIPTION": "Wolę razem uczyć się Remy z tym samym Tagiem."
         }
       }
     },
@@ -126,6 +140,16 @@
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
         "TITLE": "Podwójny ukośnik dla Menu oleceń"
+      }
+    },
+    "EDITOR": {
+      "GENERAL": {
+        "CREATE_STUBS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "PC": "Tworząc Rem naciskając Ctrl+Enter podczas wyszukiwania, oznacz go Tagiem „Niedopałek”.",
+            "MAC": "Tworząc Rem naciskając Cmd+Return podczas wyszukiwania, oznacz go Tagiem „Niedopałek”."
+          }
+        }
       }
     },
     "PLANS": {
@@ -151,7 +175,13 @@
     }
   },
   "TAGS": {
-    "SEARCH_PLACEHOLDER": "Wyszukaj istniejący tag, aby go dodać"
+    "TAG": "Tag",
+    "TAG_WITH_COUNT_one": "{{count, number}} Tag",
+    "TAG_WITH_COUNT_other": "{{count, number}} Tagi/-ów",
+    "PINNED_TAGS": "Przypięte Tagi",
+    "YOUR_TAGS": "Twoje Tagi",
+    "SEARCH_PLACEHOLDER": "Wyszukaj istniejący Tag, aby go dodać",
+    "INSERT_PROPERTIES": "Wstaw Właściwości"
   },
   "TEMPLATES": {
     "TEMPLATE_one": "Szablon",
@@ -171,15 +201,32 @@
     "VIEW_CONFIGURATION": "Skonfiguruj Tag",
     "HIDE_CONFIGURATION": "Ukryj onfigurację",
     "PROPERTIES_HELP_TEXT": {
-      "0": "Właściwości opisują tag. Na przykład dla tagu o nazwie „Książka” dodaj właściwości takie jak Autor, Gatunek, Stan Przeczytania i nie tylko!"
+      "0": "Właściwości opisują Tag. Na przykład dla Tagu o nazwie „Książka” dodaj Właściwości takie jak Autor, Gatunek, Stan Przeczytania i nie tylko!"
     },
-    "TEMPLATES_HELP_TEXT": "Szablon taga to dokument RemNote, który można automatycznie skopiować do oznaczonych Remów. Dodaj nagłówki, listy kontrolne i inne elementy bezpośrednio w swoim szablonie.",
+    "TEMPLATES_HELP_TEXT": "Szablon Tagu to dokument RemNote, który można automatycznie skopiować do oznaczonych Remów. Dodaj nagłówki, listy kontrolne i inne elementy bezpośrednio w swoim szablonie.",
     "AUTO_APPLY_HELP_TEXT": "Ten szablon zostanie automatycznie zastosowany do wszystkich wierszy w jego tabeli lub do wszystkich Remów oznaczonych tym szablonem.",
     "ADD_PROPERTY": "Dodaj Właściwość",
     "NEW_PROPERTY": "Nowa Właściwość"
   },
   "TABLES": {
+    "TABLE_CREATION": {
+      "NEW_TAG": {
+        "TITLE": "Utwórz Nowy {{viewName}} + Tag",
+        "DESCRIPTION": "Zacznij od pustego/-ej  {{viewName}} z nowym tagiem."
+      },
+      "EXISTING_TAG": {
+        "TITLE": "Użyj Istniejącego Tagu",
+        "DESCRIPTION": "Połącz z istniejącym źródłem {{viewName}} ."
+      }
+    },
     "MENUS": {
+      "TAG": {
+        "TAG_TITLE": "Nazwa Tagu",
+        "RENAME_TAG": "Zmień nazwę Tagu",
+        "VIEW_TAG": "Wyświetl Tag",
+        "EDIT_TABLE_NAME": "Edytuj nazwę Tabeli",
+        "PRESS_TO_SAVE": "Naciśnij ↩, aby zapisać"
+      },
       "TABLE_CONFIGURATION": {
         "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Skonfiguruj Tag & Edytuj Szablony",
         "DUPLICATE_TABLE_VIEW_TITLE": "Zduplikuj Widok abeli",
@@ -229,7 +276,8 @@
   "POPUPS": {
     "CREATE_CONTENT_OPTIONS": {
       "TABLE_TAG": {
-        "DESCRIPTION": "Utwórz tag do użycia z tabelami i szablonami."
+        "TITLE": "Tag & Tabela",
+        "DESCRIPTION": "Utwórz Tag do użycia z Tabelami i Szablonami."
       },
       "UPLOAD_FILE": {
         "TITLE": "Prześlij & Obrabiaj Plik",
