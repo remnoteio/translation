@@ -321,12 +321,47 @@
     }
   },
   "NOTIFICATIONS": {
+    "INVITE": {
+      "BODY": "zaprosił/-a cię do dołączenia",
+      "ACCEPT": "Przyjmij Zaproszenie"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "zaobserwował/-a"
+    },
+    "NEW_LIKE": {
+      "BODY": "polubił/-a"
+    },
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Twój dokument"
+    },
+    "IMPORT": {
+      "BODY": "Ktoś zaimportował twój dokument"
+    },
     "NEW_COMMENT": {
-      "BODY_COMMENT": "odpowiedział/-a na Twój komentarz"
-    }
+      "BODY_COMMENT": "odpowiedział/-a na Twój komentarz",
+      "BODY_GROUP": "wyślij czat do swojej grupy"
+    },
+    "EMPTY_STATE_TITLE": "Nie masz żadnych nowych powiadomień",
+    "POPUP_TITLE": "Nowe Powiadomienia",
+    "ARTICLE_DEFAULT": "Twój dokument",
+    "GROUP_DEFAULT": "Twoja grupa"
   },
   "POPUPS": {
     "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "TITLE": "Dokument"
+      },
+      "QUICK_ADD": {
+        "DESCRIPTION": "Uchwyć swoje myśli gdy tego potrzebujesz!"
+      },
+      "TODAYS_DOCUMENT": {
+        "TITLE": "Dzisiejszy Dokument",
+        "DESCRIPTION": "Dokumenty Dnia są idealne do prowadzenia dziennika, tworzenia list do zrobienia i wiele więcej."
+      },
+      "FOLDER": {
+        "TITLE": "Folder",
+        "DESCRIPTION": "Uporządkuj Dokumenty w Foldery."
+      },
       "TABLE_TAG": {
         "TITLE": "Tag & Tabela",
         "DESCRIPTION": "Utwórz Tag do użycia z Tabelami i Szablonami."
