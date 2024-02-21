@@ -115,19 +115,19 @@
       "ORDERING": {
         "DOCUMENT_CLUSTERS": {
           "TITLE": "Zbiory dokumentów",
-          "DESCRIPTION": "Wolę uczyć się Remów z powiązanych dokumentów razem. "
+          "DESCRIPTION": "Wolę uczyć się Remy z powiązanych dokumentów razem. "
         },
         "REFERENCE_CLUSTERS": {
           "TITLE": "Zbiory Odnośników",
-          "DESCRIPTION": "Wolę ćwiczyć Remy, które odnoszą się do siebie nawzajem."
+          "DESCRIPTION": "Wolę uczyć się Remy połączone Odnośnikiem razem."
         },
         "TAG_CLUSTERS": {
           "TITLE": "Zbiory Tagów",
-          "DESCRIPTION": "Wolę razem uczyć się Remy z tym samym Tagiem."
+          "DESCRIPTION": "Wolę uczyć się Remy z tym samym Tagiem razem."
         },
         "HIERARCHY_CLUSTERS": {
           "TITLE": "Zbiory Hierarchii",
-          "DESCRIPTION": "Wolą uczyć się Remy powiązane ze sobą hierarchicznie."
+          "DESCRIPTION": "Wolą uczyć się Remy powiązane ze sobą hierarchicznie razem."
         }
       },
       "STATISTICS": {
@@ -187,6 +187,9 @@
             "PC": "Tworząc Rem naciskając Ctrl+Enter w Szukaj, oznacz go Tagiem „Niedopałek”.",
             "MAC": "Tworząc Rem naciskając Cmd+Return w Szukaj, oznacz go Tagiem „Niedopałek”."
           }
+        },
+        "INSERT_EMOJIS_AS_REFERENCES": {
+          "TITLE": "Wstaw Emotikony jako Odnośniki"
         }
       }
     },
@@ -209,6 +212,12 @@
       "SIMPLIFIED_UI": {
         "TITLE": "Uproszczony interfejs użytkownika",
         "LABEL": "Uprość interfejs użytkownika i ukryj zaawansowane funkcje."
+      }
+    },
+    "EDITOR_INTERFACE": {
+      "PREVIEW_REM_ON_HOVER": {
+        "TITLE": "Wyświetl Podgląd Odnośnika najeżdżając kursorem",
+        "LABEL": "Kiedy najedziesz kursorem na Odnośnik, wyświetl Podgląd jego zawartości."
       }
     }
   },
@@ -319,7 +328,7 @@
       },
       "UPLOAD_FILE": {
         "TITLE": "Prześlij & Obrabiaj Plik",
-        "DESCRIPTION": "Wyróżnij & stwórz Odnośnik do PDF, prezentacji PowerPoint, dkomunetu Word lub innego pliku.",
+        "DESCRIPTION": "Wyróżnij & stwórz Odnośnik do PDF, prezentacji PowerPoint, dokumentu Word lub innego pliku.",
         "PAYWALL": "Osiągnąłeś limit przesyłania plików PDF.",
         "todo_for_the_item_below": "przenieść to do globalnego obiektu nazwy funkcji?",
         "FEATURE_NAME": "Wyróżnianie PDF"
