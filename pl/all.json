@@ -150,11 +150,30 @@
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
         "TITLE": "Podwójny ukośnik dla Menu oleceń",
-        "DESCRIPTION": "Wpisz // zamiast /, aby wywołać Polecenia podczas edycji Remów"
+        "DESCRIPTION": "Wpisz // zamiast /, aby wywołać Polecenia podczas edycji Remów."
+      },
+      "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
+        "TITLE": "Przywróć Domyślne Skróty Klawiszowe",
+        "DESCRIPTION": "Przywróć domyślne skróty klawiszowe (przed aktualizacją z Sierpnia 2020)."
+      },
+      "CHANGE_KEYBOARD_SHORTCUTS": {
+        "TITLE": "Zmień Skróty Klawiszowe",
+        "DESCRIPTION": "Dostosuj skróty klawiszowe przypisując funkcję do innych klawiszy."
       }
     },
     "EDITOR": {
       "GENERAL": {
+        "ENABLE_SPELLCHECK": {
+          "TITLE": "Włącz Sprawdzanie Pisowni",
+          "DESCRIPTION": "Sprawdź aktualnie aktywowany Rem pod kątem literówek."
+        },
+        "CAPITALIZE_FROM_SEARCH": {
+          "TITLE": "Zaczynaj pisownie z Wielkiej Litery w Wyszukiwaniu",
+          "DESCRIPTION": {
+            "PC": "Tworząc Rem naciskając Ctrl+Enter podczas Wyszukiwania, napisz jego nazwę z wielkiej litery.",
+            "MAC": "Tworząc Rem naciskając Cmd+Return podczas Wyszukiwania, napisz jego nazwę z wielkiej litery."
+          }
+        },
         "CREATE_STUBS_FROM_SEARCH": {
           "DESCRIPTION": {
             "PC": "Tworząc Rem naciskając Ctrl+Enter podczas wyszukiwania, oznacz go Tagiem „Niedopałek”.",
