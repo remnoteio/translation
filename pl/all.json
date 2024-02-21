@@ -322,8 +322,9 @@
   },
   "NOTIFICATIONS": {
     "INVITE": {
-      "BODY": "zaprosił/-a cię do dołączenia",
-      "ACCEPT": "Przyjmij Zaproszenie"
+      "BODY": "zaprosił/-a Cię do dołączenia",
+      "ACCEPT": "Przyjmij Zaproszenie",
+      "REJECT": "Odrzuć"
     },
     "NEW_FOLLOWER": {
       "BODY": "zaobserwował/-a"
@@ -331,17 +332,23 @@
     "NEW_LIKE": {
       "BODY": "polubił/-a"
     },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "dodano do"
+    },
     "ARTICLE_VIEWS": {
       "BODY_1": "Twój dokument"
     },
     "IMPORT": {
-      "BODY": "Ktoś zaimportował twój dokument"
+      "BODY": "Ktoś zaimportował Twój dokument"
     },
     "NEW_COMMENT": {
+      "BODY": "odpowiedział/-a na",
+      "BODY_ARTICLE": "odpowiedział/-a na Twój dokument",
       "BODY_COMMENT": "odpowiedział/-a na Twój komentarz",
-      "BODY_GROUP": "wyślij czat do swojej grupy"
+      "BODY_GROUP": "wyślij czat do Twojej grupy"
     },
     "EMPTY_STATE_TITLE": "Nie masz żadnych nowych powiadomień",
+    "EMPTY_STATE_MESSAGE": "Wszystko gotowe! Będziesz otrzymywać powiadomienia, gdy ktoś wejdzie w interakcję z treścią udostępnioną na Twoim koncie<profileLink> profil</profileLink>",
     "POPUP_TITLE": "Nowe Powiadomienia",
     "ARTICLE_DEFAULT": "Twój dokument",
     "GROUP_DEFAULT": "Twoja grupa"
@@ -349,9 +356,11 @@
   "POPUPS": {
     "CREATE_CONTENT_OPTIONS": {
       "DOCUMENT": {
-        "TITLE": "Dokument"
+        "TITLE": "Dokument",
+        "DESCRIPTION": "Uporządkuj notatki z wykładów, źródeł i pomysłów w dokumentach."
       },
       "QUICK_ADD": {
+        "TITLE": "Szybkie Dodawanie",
         "DESCRIPTION": "Uchwyć swoje myśli gdy tego potrzebujesz!"
       },
       "TODAYS_DOCUMENT": {
