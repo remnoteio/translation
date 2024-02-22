@@ -159,7 +159,8 @@
       },
       "CHANGE_KEYBOARD_SHORTCUTS": {
         "TITLE": "Zmień Skróty Klawiszowe",
-        "DESCRIPTION": "Dostosuj skróty klawiszowe przypisując funkcję do innych klawiszy."
+        "DESCRIPTION": "Dostosuj skróty klawiszowe przypisując funkcję do innych klawiszy.",
+        "KEYWORDS": "spersonalizuj skróty klawiszowe mapowanie programowanie klawiszy"
       }
     },
     "EDITOR": {
@@ -193,6 +194,24 @@
           "TITLE": "Wstaw Emotikony jako Odnośniki",
           "DESCRIPTION": "W Szukaj pisząc %% i wybierając Emotikon zostanie on wstawiony jako Odnośnik."
         }
+      },
+      "DATES_AND_TIMES": {
+        "DATE_FORMATTING": {
+          "TITLE": "Formatowanie Daty",
+          "DESCRIPTION": "Format daty będzie załączony z /data w ten sposób. "
+        },
+        "DATE_FORMATTING_CUSTOM": {
+          "TITLE": "Spersonalizuj Formatowanie Daty",
+          "DESCRIPTION": "Sformatuj załączanie daty w sposób najbardziej Ci odpowiadający używając dostępnych funkcji. "
+        },
+        "TIME_FORMATTING": {
+          "TITLE": "Formatowanie Czasu",
+          "DESCRIPTION": "Format czasu będzie załączony z /data w ten sposób. "
+        },
+        "WEEK_STARTS_ON_MONDAY": {
+          "TITLE": "Tydzień Zaczyna się w Poniedziałek",
+          "DESCRIPTION": "Wybierając datę z widoku kalendarza, zaczynaj każdy tydzień od Poniedziałku zamiast Niedzieli."
+        }
       }
     },
     "PLANS": {
@@ -200,6 +219,7 @@
       "KEYWORDS": "zaproś znajomych plan zmień subskrypcję zdobądź kredyty bezpłatny remnote wyślij tweet e-mail wybierz plan uczenia się na zawsze pro spis funkcji opcje cenowe"
     },
     "EARN_CREDIT": {
+      "TITLE": "Zdobywaj",
       "KEYWORDS": "zaproś znajomych zdobądź kredyty plan zmień subskrypcję zdobądź kredyty bezpłatny remnote wyślij tweet e-mail wybierz plan nauki na zawsze pro spis funkcji opcje cenowe",
       "TOAST_SUBSCRIBE": "Twoje kredyty zostaną wykorzystane automatycznie po wykupieniu subskrypcji RemNote Pro. Wybierz plan poniżej, aby rozpocząć!",
       "TOAST_RENEW": "Twoje kredyty zostaną wykorzystane automatycznie po odnowieniu bieżącej subskrypcji.",
