@@ -287,16 +287,34 @@
         "DUPLICATE_VIEW_MESSAGE_COMMON": "Zduplikuj widok, aby zastosować nowy filtr, sortowanie lub więcej! Treść jest współdzielona pomiędzy widokami tego samego źródła, więc nie wystąpią żadne przypadkowe zduplikowane doku.",
         "CELL_LIST_HEIGHT": {
           "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Komórki mogą zawierać wiele punktorów! Ogranicz wysokość komórki, aby ułatwić przeglądanie."
-        }
+        },
+        "DELETE_LIST": "Usuń Listę"
       }
     }
   },
   "SIDEBAR": {
-    "LABEL_COMMUNITY": "Udostępnione iszki"
+    "LABEL_ALL_NOTES": "Wszystkie Notatki",
+    "LABEL_TODAYS_NOTE": "Dzisiejsza Notatka",
+    "LABEL_FLASHCARDS": "Fiszki",
+    "LABEL_EDIT_LATER": "Edytuj Później",
+    "LABEL_COMMUNITY": "Udostępnione iszki",
+    "LABEL_INTERACTIVE_TOUR": "Interaktywny Przewodnik",
+    "LABEL_RESUME_INTERACTIVE_TOUR": "Wznów Interaktywny Przewodnik",
+    "LABEL_TUTORIALS": "Poradniki",
+    "TOOLTIP_FLASHCARD_HOME": "Idź do Centrum Fiszek",
+    "TOOLTIP_EDIT_LATER_QUEUE": "Otwórz Edytuj Póżniej Kolejka"
   },
   "PAGES": {
     "ALL_NOTES": {
+      "TITLE": "Wszystkie Notatki",
       "SORT": {
+        "RECENTLY_MODIFIED": "Od ostatnio zmodyfikowanych",
+        "RECENTLY_CREATED": "Od najnowszych",
+        "OLDEST_FIRST": "Od najstarszych",
+        "BY_CREATION_TIME": "Od czasu utworzenia",
+        "BY_TITLE": "Alfabetycznie",
+        "BY_MODIFICATION": "Od ostatnio zmodyfikowanych",
+        "OLDEST_CREATION_FIRST": "Od najstarszych",
         "ASCENDING": "Od A do Z",
         "DESCENDING": "Od Z do A"
       }
