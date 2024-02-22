@@ -1,7 +1,8 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "Language",
-    "TRANSLATION_INFO_SETTINGS": "Translation is still in progress; you will see a mix of English and the selected language.<br>You can help us translate by reading the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink>."
+    "TRANSLATION_INFO_SETTINGS": "Translation is still in progress; you will see a mix of English and the selected language.<br>You can help us translate by reading the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink>.",
+    "TRANSLATION_IN_PROGRESS": "Translation in progress"
   },
   "COMMON": {
     "ACTIONS": {

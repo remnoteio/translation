@@ -1,7 +1,8 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "Język",
-    "TRANSLATION_INFO_SETTINGS": "Tłumaczenie jest nadal w toku; zobaczysz mieszankę języka angielskiego i wybranego języka.<br> Możesz pomóc nam w tłumaczeniu, czytając<guideLink> instruktaż</guideLink> a następnie skorzystaj z naszego<editorLink> redaktor internetowy</editorLink> ."
+    "TRANSLATION_INFO_SETTINGS": "Tłumaczenie jest nadal w toku; zobaczysz mieszankę języka angielskiego i wybranego języka.<br> Możesz pomóc nam w tłumaczeniu, czytając<guideLink> instruktaż</guideLink> a następnie skorzystaj z naszego<editorLink> redaktor internetowy</editorLink> .",
+    "TRANSLATION_IN_PROGRESS": "Tłumaczenie w toku"
   },
   "COMMON": {
     "ACTIONS": {
@@ -336,7 +337,8 @@
       "BODY": "dodano do"
     },
     "ARTICLE_VIEWS": {
-      "BODY_1": "Twój dokument"
+      "BODY_1": "Twój dokument",
+      "BODY_2": "wyświetlono {{viewCount, number}} raz/-y"
     },
     "IMPORT": {
       "BODY": "Ktoś zaimportował Twój dokument"
