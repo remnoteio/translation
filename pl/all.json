@@ -229,7 +229,14 @@
       "TOAST_SUBSCRIBE": "Twoje kredyty zostaną wykorzystane automatycznie po wykupieniu subskrypcji RemNote Pro. Wybierz plan poniżej, aby rozpocząć!",
       "TOAST_RENEW": "Twoje kredyty zostaną wykorzystane automatycznie po odnowieniu bieżącej subskrypcji.",
       "APPLY_CREDIT": "Wydaj swoje kredyty",
+      "INVITE_TEXT": "Zaproś znajomych i zdobywaj środki",
+      "HANG_ON": "Zaczekaj",
+      "CREATE_ACCOUNT": "Stwórz Konto aby zaprosić znajomych",
+      "ENTER_VALID_EMAIL": "Wprowadź aktywny adres email!",
+      "SEND_INVITE": "Wyślij zaproszenie",
+      "FRIEND_ALREADY_ON_REMNOTE": "Twój znajomy jest już na RemNote",
       "INVITE_ERROR": "Coś poszło nie tak. Spróbuj ponownie później.",
+      "VERIFY_EMAIL": "Aby zaprosić kogoś, zweryfikuj najpierw swój adres email.",
       "EMAIL_PLACEHOLDER": "zaciekawionyprzyjaciel@gmail.com"
     },
     "GLOBAL_INTERFACE": {
