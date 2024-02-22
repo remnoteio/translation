@@ -221,12 +221,27 @@
         "TITLE": "Naciśnij-Raz Odnośnik aby go Otworzyć",
         "LABEL": "Kiedy klikniesz lub stukniesz na Odnośnik, odrazu otwórz go, zamiast wyświetlać jego Podgląd. (Zawsze możesz wyświetlić jego Podgląd naciskając na niego prawym klawiszem myszki.)"
       },
+      "SMOOTHLY_ANIMATE_THE_EDITOR": {
+        "LABEL": "Płynnie wyświetlaj animacje dodawania i usuwania Remów w Edytorze."
+      },
       "PREVIEW_REM_ON_HOVER": {
         "TITLE": "Wyświetl Podgląd Odnośnika najeżdżając kursorem",
         "LABEL": "Kiedy najedziesz kursorem na Odnośnik, wyświetl Podgląd jego zawartości."
+      },
+      "ENTER_TO_OUTDENT": {
+        "TITLE": "Włącz 'Naciśnij Enter aby zmniejszyć Wcięcie'",
+        "LABEL": "Kiedy aktywny jest Potomny Rem, który jest pusty, naciśnięcie Enter zmniejszy wcięcie."
+      },
+      "ENABLE_ZOOM_INTO_BULLET": {
+        "TITLE": "Włącz Przybliżanie Punktatorów",
+        "LABEL": "Kiedy klikniesz na Punktator, wyświetl Rem w widoku pełnoekranowym"
       }
     },
     "SIDEBAR": {
+      "DOCUMENT_STATUSES": {
+        "TITLE": "Stan Dokumentu",
+        "LABEL": "Uporządkuj Dokumenty na Szkice, Skończone oraz Przypięte. "
+      },
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "Spersonalizuj Sekcje Pasku Bocznego"
       },
