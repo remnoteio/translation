@@ -249,6 +249,10 @@
       "NOT_CONFIRMED_EMAIL": "(nie ma zweryfikowanego adresu email)"
     },
     "GLOBAL_INTERFACE": {
+      "DARK_MODE": {
+        "TITLE": "Tryb Ciemny",
+        "LABEL": "Używaj tej palety kolorów."
+      },
       "FULL_WIDTH": {
         "TITLE": "Pełna szerokość"
       },
