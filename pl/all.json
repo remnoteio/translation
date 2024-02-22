@@ -227,6 +227,13 @@
       }
     },
     "SIDEBAR": {
+      "CUSTOMIZE_SIDEBAR_SECTIONS": {
+        "TITLE": "Spersonalizuj Sekcje Pasku Bocznego"
+      },
+      "COMMUNITY_TAB": {
+        "TITLE": "Centrum Społeczności w Pasku Bocznym",
+        "LABEL": "Pokaż Centrum Społeczności, gdzie możesz znaleźć udostępnione dokumenty innych osób oraz grupy naukowe na Pasku Bocznym. Jeżeli to wyłączysz, wciąż będzie możliwe znalezienie Centrum Społeczności w Centrum Konta. "
+      },
       "SORT_SIDEBAR": {
         "TITLE": "Sortuj Pasek Boczny",
         "KEYWORDS": "uporządkuj pasek boczny sortuj od a do z"
