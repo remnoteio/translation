@@ -215,6 +215,11 @@
         "TITLE": "Uproszczony interfejs użytkownika",
         "LABEL": "Uprość interfejs użytkownika i ukryj zaawansowane funkcje."
       },
+      "ONBOARDING_TIPS_SHORTCUTS": {
+        "TITLE": "Wskazówki Skrótów Klawiszowych",
+        "LABEL": "Pokazuj wskazówki skrótów klawiszowych akcji aktualnie wykonywanej w rogu ekranu urządzenia.",
+        "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik"
+      },
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
         "TITLE": "Język wyszukiwania Dokumentów Społeczności",
         "KEYWORDS": "język społeczność dokumenty szukaj"
