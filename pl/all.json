@@ -296,7 +296,12 @@
   },
   "SOURCES": {
     "LINK_SOURCE": {
-      "SEARCH_PLACEHOLDER": "Wklej link lub wyszukaj Odnośnik"
+      "INVALID_URL": "Nieprawidłowy URL",
+      "OPEN_IN_READER": "Wyświetl w Czytniku",
+      "SEARCH_PLACEHOLDER": "Wklej link lub wyszukaj Odnośnik",
+      "LINK": "Link",
+      "LINK_WITH_COUNT_one": "{{count, number}} Link",
+      "LINK_WITH_COUNT_other": "{{count, number}} Linki/-ów"
     },
     "UPLOAD_SOURCE": {
       "LABEL": "Prześli",
@@ -310,12 +315,21 @@
       "PDF_WITH_COUNT_other": "{{count, number}} pliki/-ów PDF"
     }
   },
+  "POWERUPS": {
+    "POWERUP_one": "SuperTag",
+    "POWERUP_other": "SuperTagi"
+  },
   "COMMUNITY": {
     "ARTICLES": {
       "ERRORS": {
         "SHARING": {
+          "NO_TITLE": {
+            "SRC": "Dokument, który próbujesz udostępnić, nie ma tytułu. Musisz go dodać przed opublikowaniem.",
+            "SUBDOCUMENT": "Jeden z Twoich dokumentów podrzędnych nie ma tytułu. Nie zostanie opublikowany, dopóki go nie nazwiesz."
+          },
           "NO_CONTENT": {
-            "SRC": "Dokument, który próbujesz udostępnić, wygląda na nieco pusty. Dodaj co najmniej {{minimum}} remów, a następnie spróbuj ponownie."
+            "SRC": "Dokument, który próbujesz udostępnić, wygląda na nieco pusty. Dodaj co najmniej {{minimum}} remów, a następnie spróbuj ponownie.",
+            "SUBDOCUMENT": "Jeden z Twoich dokumentów podrzędnych wygląda na trochę pusty. Nie zostanie opublikowany, dopóki nie będzie zawierał {{minimum}} Remy."
           }
         }
       }
