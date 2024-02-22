@@ -294,14 +294,24 @@
   "SIDEBAR": {
     "LABEL_COMMUNITY": "Udostępnione iszki"
   },
+  "PAGES": {
+    "ALL_NOTES": {
+      "SORT": {
+        "ASCENDING": "Od A do Z",
+        "DESCENDING": "Od Z do A"
+      }
+    }
+  },
   "SOURCES": {
     "LINK_SOURCE": {
+      "LABEL": "Łącze",
+      "ENTER_URL": "Wprowadź URL",
       "INVALID_URL": "Nieprawidłowy URL",
       "OPEN_IN_READER": "Wyświetl w Czytniku",
       "SEARCH_PLACEHOLDER": "Wklej link lub wyszukaj Odnośnik",
-      "LINK": "Link",
-      "LINK_WITH_COUNT_one": "{{count, number}} Link",
-      "LINK_WITH_COUNT_other": "{{count, number}} Linki/-ów"
+      "LINK": "Łącze",
+      "LINK_WITH_COUNT_one": "{{count, number}} Łącze",
+      "LINK_WITH_COUNT_other": "{{count, number}} Łącza/-y"
     },
     "UPLOAD_SOURCE": {
       "LABEL": "Prześli",
