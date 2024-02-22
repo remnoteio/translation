@@ -215,6 +215,10 @@
         "TITLE": "Uproszczony interfejs użytkownika",
         "LABEL": "Uprość interfejs użytkownika i ukryj zaawansowane funkcje."
       },
+      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
+        "TITLE": "Język wyszukiwania Dokumentów Społeczności",
+        "KEYWORDS": "język społeczność dokumenty szukaj"
+      },
       "INTERFACE": {
         "TITLE": "Język Interfejsu RemNote (Alpha)",
         "KEYWORDS": "język język tłumaczenia i18n"
