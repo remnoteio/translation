@@ -221,6 +221,8 @@
     "EARN_CREDIT": {
       "TITLE": "Zdobywaj",
       "KEYWORDS": "zaproś znajomych zdobądź kredyty plan zmień subskrypcję zdobądź kredyty bezpłatny remnote wyślij tweet e-mail wybierz plan nauki na zawsze pro spis funkcji opcje cenowe",
+      "INVITE_FRIENDS_REMNOTE": "Zaproś swoich znajomych do RemNote!",
+      "INVITE_FRIENDS_EARN_CREDIT": "Zaproś znajomych, aby załadować saldo! Otrzymasz <0> {{monthlyPrice}}</0> w postaci środków RemNote, gdy zaproszona przez Ciebie osoba zarejestruje konto RemNote. Ona również otrzyma <0> {{monthlyPrice}}</0>  na start.",
       "TOAST_SUBSCRIBE": "Twoje kredyty zostaną wykorzystane automatycznie po wykupieniu subskrypcji RemNote Pro. Wybierz plan poniżej, aby rozpocząć!",
       "TOAST_RENEW": "Twoje kredyty zostaną wykorzystane automatycznie po odnowieniu bieżącej subskrypcji.",
       "APPLY_CREDIT": "Wydaj swoje kredyty",
