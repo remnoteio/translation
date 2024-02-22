@@ -225,6 +225,22 @@
         "TITLE": "Wyświetl Podgląd Odnośnika najeżdżając kursorem",
         "LABEL": "Kiedy najedziesz kursorem na Odnośnik, wyświetl Podgląd jego zawartości."
       }
+    },
+    "NOTIFICATIONS": {
+      "DESCRIPTIONS": {
+        "DOCUMENT_ADDED_TO_GROUP": {
+          "TITLE": "Powiadomienia ",
+          "LABEL": "Otrzymaj powiadomienie, gdy nowy dokument zostanie dodany do Twojej Grupy."
+        },
+        "NEW_COMMENT": {
+          "TITLE": "Powiadomienia Komentarzy",
+          "LABEL": "Otrzymaj powiadomienie, gdy ktoś skomentuje Twój udostępniony dokument."
+        },
+        "ARTICLE_VIEWS": {
+          "TITLE": "Powiadomienia Wyświetleń Dokumentu",
+          "LABEL": "Otrzymaj powiadomienie, gdy Twój udostępniony dokument zacznie zdobywać dużą popularność. "
+        }
+      }
     }
   },
   "TAGS": {
@@ -303,6 +319,9 @@
         "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Skonfiguruj Tag & Edytuj Szablony",
         "PROPERTIES_TITLE": "Właściwości",
         "PROPERTIES_CONFIGURATION_TITLE": "Konfiguruj",
+        "OPEN_IN_ANOTHER_PANE_TITLE": "Otwórz w Nowej Karcie",
+        "ZOOM_IN_TO_TABLE_TITLE": "Powiększ Tabelę",
+        "ZOOM_IN_TO_LIST_TITLE": "Powiększ Listę",
         "MOVE_TABLE_TO_TITLE": "Przenieś Tabele Do",
         "MOVE_LIST_TO_TITLE": "Przenieś Listę Do",
         "DUPLICATE_TABLE_VIEW_TITLE": "Zduplikuj Widok abeli",
