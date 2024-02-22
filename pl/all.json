@@ -215,6 +215,19 @@
         "TITLE": "Uproszczony interfejs użytkownika",
         "LABEL": "Uprość interfejs użytkownika i ukryj zaawansowane funkcje."
       },
+      "IN_APP_SUGGESTIONS": {
+        "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik"
+      },
+      "ONBOARDING_TIPS_FEATURES": {
+        "TITLE": "Inteligentne Wskazówki",
+        "LABEL": "Pokazuj wskazówki narzędzi funkcji RemNote aktualnie używanej w rogu ekranu urządzenia.",
+        "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik"
+      },
+      "LEFT_SIDEBAR_TUTORIALS": {
+        "TITLE": "Poradniki Aplikacji",
+        "LABEL": "Pokazuj poradniki funkcji RemNote aktualnie używanej w rogu ekranu urządzenia.",
+        "KEYWORDS": "w aplikacji lewy pasek boczny poradniki wskazówki narzędzi pomoc wsparcie naucz się poradnik"
+      },
       "ONBOARDING_TIPS_SHORTCUTS": {
         "TITLE": "Wskazówki Skrótów Klawiszowych",
         "LABEL": "Pokazuj wskazówki skrótów klawiszowych akcji aktualnie wykonywanej w rogu ekranu urządzenia.",
