@@ -237,7 +237,16 @@
       "FRIEND_ALREADY_ON_REMNOTE": "Twój znajomy jest już na RemNote",
       "INVITE_ERROR": "Coś poszło nie tak. Spróbuj ponownie później.",
       "VERIFY_EMAIL": "Aby zaprosić kogoś, zweryfikuj najpierw swój adres email.",
-      "EMAIL_PLACEHOLDER": "zaciekawionyprzyjaciel@gmail.com"
+      "INVITE_EMAIL": "Zaproś poprzez email",
+      "EMAIL_PLACEHOLDER": "zaciekawionyprzyjaciel@gmail.com",
+      "INVITE": "Zaproś",
+      "SHARE_LINK": "Zaproś poprzez łącze",
+      "COPIED": "Skopiowano!",
+      "INVITE_COPIED": "Skopiowano łącze!",
+      "COPYLINK": "Skopiuj Łącze",
+      "FRIENDS_TITLE": "Znajomi",
+      "INVITED_YOU": "(dodał/-a Cię)",
+      "NOT_CONFIRMED_EMAIL": "(nie ma zweryfikowanego adresu email)"
     },
     "GLOBAL_INTERFACE": {
       "FULL_WIDTH": {
