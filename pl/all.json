@@ -262,6 +262,8 @@
     "NEW_PROPERTY": "Nowa Właściwość"
   },
   "TABLES": {
+    "PRIMARY_COLUMN_TITLE": "Nazwa",
+    "UNTITLED_PROPERTY_TITLE": "Nienazwana Właściwość",
     "TABLE_CREATION": {
       "NEW_TAG": {
         "TITLE": "Utwórz Nowy {{viewName}} + Tag",
@@ -280,14 +282,41 @@
         "EDIT_TABLE_NAME": "Edytuj nazwę Tabeli",
         "PRESS_TO_SAVE": "Naciśnij ↩, aby zapisać"
       },
+      "FILTER": {
+        "FILTER_TITLE": "Filtr",
+        "ADD_ADVANCED_FILTER": "Dodaj Zaawansowany Filtr",
+        "NO_PROPERTIES_AVAILABLE": "Brak Dostępnych Właściwości; Dodaj Nowe!"
+      },
+      "SORT": {
+        "SORT_TITLE": "Sortuj"
+      },
       "TABLE_CONFIGURATION": {
+        "TABLE_CONFIGURATION_TITLE": "Tabelę",
+        "LIST_CONFIGURATION_TITLE": "Listę",
+        "ALL": "Wszystko",
+        "VIEW_AS": {
+          "VIEW_AS_TITLE": "Wyświetl jako",
+          "TABLE_VIEW": "Tabela",
+          "NORMAL_PORTAL_VIEW": "Portal",
+          "LIST_VIEW": "Lista"
+        },
         "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Skonfiguruj Tag & Edytuj Szablony",
+        "PROPERTIES_TITLE": "Właściwości",
+        "PROPERTIES_CONFIGURATION_TITLE": "Konfiguruj",
+        "MOVE_TABLE_TO_TITLE": "Przenieś Tabele Do",
+        "MOVE_LIST_TO_TITLE": "Przenieś Listę Do",
         "DUPLICATE_TABLE_VIEW_TITLE": "Zduplikuj Widok abeli",
         "DUPLICATE_LIST_VIEW_TITLE": "Zduplikuj Widok Listy",
         "DUPLICATE_VIEW_MESSAGE_COMMON": "Zduplikuj widok, aby zastosować nowy filtr, sortowanie lub więcej! Treść jest współdzielona pomiędzy widokami tego samego źródła, więc nie wystąpią żadne przypadkowe zduplikowane doku.",
+        "SHOW_VERTICAL_LINES_TITLE": "Pokaż Linie Pionowe",
         "CELL_LIST_HEIGHT": {
-          "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Komórki mogą zawierać wiele punktorów! Ogranicz wysokość komórki, aby ułatwić przeglądanie."
+          "CELL_LIST_HEIGHT_TITLE": "Wysokość Komórki",
+          "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Komórki mogą zawierać wiele punktorów! Ogranicz wysokość komórki, aby ułatwić przeglądanie.",
+          "COMFORTABLE_TITLE": "Dopasowany",
+          "FULL_TITLE": "Pełny",
+          "COMPACT_TITLE": "Kompaktowy"
         },
+        "DELETE_TABLE": "Usuń Tabelę",
         "DELETE_LIST": "Usuń Listę"
       }
     }
@@ -298,6 +327,7 @@
     "LABEL_FLASHCARDS": "Fiszki",
     "LABEL_EDIT_LATER": "Edytuj Później",
     "LABEL_COMMUNITY": "Udostępnione iszki",
+    "LABEL_ONBOARDING_CALL": "Ustaw Zaplanowane Połączenie",
     "LABEL_INTERACTIVE_TOUR": "Interaktywny Przewodnik",
     "LABEL_RESUME_INTERACTIVE_TOUR": "Wznów Interaktywny Przewodnik",
     "LABEL_TUTORIALS": "Poradniki",
