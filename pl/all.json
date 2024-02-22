@@ -226,8 +226,36 @@
         "LABEL": "Kiedy najedziesz kursorem na Odnośnik, wyświetl Podgląd jego zawartości."
       }
     },
+    "SIDEBAR": {
+      "SORT_SIDEBAR": {
+        "KEYWORDS": "uporządkuj pasek boczny sortuj od a do z"
+      },
+      "PRIVACY_NOTE": "Prywatność: Przeczytaj naszą <policyLink>Politykę Prywatności</policyLink> lub zmień Twoje ustawienia w naszym  <hubLink>Centrum Prywatności</hubLink>."
+    },
     "NOTIFICATIONS": {
+      "ENABLE_PUSH_TITLE": "Czy chcesz otrzymywać powiadomienia Push?",
+      "ENABLE_PUSH_LABEL": "Otrzymuj powiadomienia bezpośrednio na swoje urządzenie",
+      "ENABLE_EMAIL_TITLE": "Czy chcesz otrzymywać powiadomienia email?",
+      "ENABLE_EMAIL_LABEL": "Otrzymuj powiadomienia bezpośrednio do Twojej skrzynki",
+      "TOGGLE_TITLE": "Dostosuj Powiadomienia",
+      "TOGGLE_LABEL": "Wybierz które powiadomienia chcesz otrzymywać bezpośrednio do Twojej skrzynki/ na urządzenie",
       "DESCRIPTIONS": {
+        "STREAK": {
+          "TITLE": "Powiadomienia Passy Nauki",
+          "LABEL": "Otrzymuj codzienne powiadomienia, aby podtrzymać Passę nauki!"
+        },
+        "INVITE": {
+          "TITLE": "Powiadomienia Zaproszeń",
+          "LABEL": "Otrzymaj powiadomienie kiedy zostaniesz zaproszony do grupy."
+        },
+        "NEW_LIKE": {
+          "TITLE": "Powiadomienia Polubień",
+          "LABEL": "Otrzymaj powiadomienie kiedy ktoś polubi Twój udostępniony Dokument."
+        },
+        "NEW_FOLLOWER": {
+          "TITLE": "Powiadomienia Obserwujących",
+          "LABEL": "Otrzymaj powiadomienie kiedy ktoś Cię zaobserwuje"
+        },
         "DOCUMENT_ADDED_TO_GROUP": {
           "TITLE": "Powiadomienia ",
           "LABEL": "Otrzymaj powiadomienie, gdy nowy dokument zostanie dodany do Twojej Grupy."
