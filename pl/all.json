@@ -228,6 +228,7 @@
     },
     "SIDEBAR": {
       "SORT_SIDEBAR": {
+        "TITLE": "Sortuj Pasek Boczny",
         "KEYWORDS": "uporządkuj pasek boczny sortuj od a do z"
       },
       "PRIVACY_NOTE": "Prywatność: Przeczytaj naszą <policyLink>Politykę Prywatności</policyLink> lub zmień Twoje ustawienia w naszym  <hubLink>Centrum Prywatności</hubLink>."
