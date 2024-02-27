@@ -306,6 +306,9 @@
         "TITLE": "Idioma da interface do RemNote",
         "KEYWORDS": "idioma idioma tradução i18n"
       },
+      "ONBOARDING_TIPS_FEATURES": {
+        "TITLE": "Dicas de Onboarding"
+      },
       "ONBOARDING_TIPS": {
         "TITLE": "Dicas de Integração",
         "LABEL": "Mostrar dicas sobre os recursos do RemNote que você está usando no canto da tela.",
