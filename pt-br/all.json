@@ -1,7 +1,7 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "Idioma",
-    "TRANSLATION_INFO_SETTINGS": "A tradução ainda está em andamento.<br> Você pode nos ajudar lendo o<guideLink>tutorial</guideLink> e então usando nosso<editorLink>editor web</editorLink> .",
+    "TRANSLATION_INFO_SETTINGS": "A tradução ainda está em andamento.<br> Você pode nos ajudar lendo o <guideLink>tutorial</guideLink> e então usando nosso <editorLink>editor web</editorLink> .",
     "TRANSLATION_IN_PROGRESS": "A tradução do RemNote ainda está em andamento. <bold>Você pode contribuir com </bold> traduções <editorLink>no Inlang</editorLink>."
   },
   "COMMON": {
@@ -68,6 +68,16 @@
       }
     },
     "FLASHCARDS": {
+      "AI": {
+        "ENABLE": {
+          "TITLE": "Habilitar Recursos de IA",
+          "DESCRIPTION": "Use as opções baseadas em IA de preenchimento automático, atribuição de notas, e geração de flashcards. Pedaços das suas anotações serão enviadas para a OpenAI quando você utilizar muitos recursos de IA. Encontre a política de privacidade da OpenAI em https://openai.com/policies/privacy-policy."
+        },
+        "OPENAI_KEY": {
+          "TITLE": "Chave da API OpenAI",
+          "DESCRIPTION": "Se você acabar excedendo sua cota mensal de requisições IA, você pode se cadastrar para solicitar uma chave API em https://platform.openai.com/account/api-keys e inseri-la aqui, pagando pelo seu próprio uso. Note que isso é um recurso em beta e pode ser removido a qualquer momento."
+        }
+      },
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "Meta Diária Máxima",
