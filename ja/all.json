@@ -178,7 +178,12 @@
         "TAG_TITLE": "タグ名"
       },
       "TABLE_CONFIGURATION": {
+        "PROPERTIES_TITLE": "プロパティ",
+        "PROPERTIES_CONFIGURATION_TITLE": "設定",
+        "OPEN_IN_ANOTHER_PANE_TITLE": "別のタブで開く",
+        "ZOOM_IN_TO_LIST_TITLE": "リストを拡大表示",
         "MOVE_TABLE_TO_TITLE": "テーブルの移動先",
+        "MOVE_LIST_TO_TITLE": "リストの移動先",
         "DUPLICATE_TABLE_VIEW_TITLE": "テーブルビューを複製",
         "ADD_TABLE_VIEW_TITLE": "テーブルビューを追加",
         "ADD_LIST_VIEW_TITLE": "リストビューを追加",
