@@ -121,6 +121,16 @@
       }
     },
     "EARN_CREDIT": {
+      "APPLY_CREDIT": "クレジットを適用する",
+      "INVITE_TEXT": "友達を招待してクレジットを獲得しよう。",
+      "HANG_ON": "ちょっと待って",
+      "CREATE_ACCOUNT": "アカウントを作成して友達を招待する",
+      "ENTER_VALID_EMAIL": "有効な電子メールを入力してください！",
+      "SEND_INVITE": "招待を送る",
+      "FRIEND_ALREADY_ON_REMNOTE": "あなたの友達はすでに RemNote を使用しています。",
+      "INVITE_ERROR": "問題が発生しました。後でもう一度試してください。",
+      "VERIFY_EMAIL": "誰かを招待するには、まずメールアドレスを認証してください。",
+      "INVITE_EMAIL": "メールで招待",
       "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
       "INVITE": "招待する",
       "SHARE_LINK": "招待リンクを共有する",
