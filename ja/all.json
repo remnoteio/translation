@@ -145,6 +145,45 @@
       "DARK_MODE": {
         "TITLE": "ダークモード"
       }
+    },
+    "NOTIFICATIONS": {
+      "ENABLE_EMAIL_TITLE": "電子メール通知を有効にしますか？",
+      "ENABLE_EMAIL_LABEL": "通知を受信ボックスに直接受け取る",
+      "TOGGLE_TITLE": "通知のフィルター",
+      "DESCRIPTIONS": {
+        "STREAK": {
+          "TITLE": "連続通知",
+          "LABEL": "毎日の通知を受け取って学習を継続しよう！"
+        },
+        "INVITE": {
+          "TITLE": "招待通知"
+        }
+      }
+    }
+  },
+  "TEMPLATES": {
+    "ADD_PROPERTY": "プロパティの追加",
+    "NEW_PROPERTY": "新しいプロパティ"
+  },
+  "TABLES": {
+    "PRIMARY_COLUMN_TITLE": "名前",
+    "UNTITLED_PROPERTY_TITLE": "無題のプロパティ",
+    "TABLE_CREATION": {
+      "EXISTING_TAG": {
+        "TITLE": "既存のタグを使用する"
+      }
+    },
+    "MENUS": {
+      "TAG": {
+        "TAG_TITLE": "タグ名"
+      }
+    }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "TITLE": "ドキュメント"
+      }
     }
   }
 }
