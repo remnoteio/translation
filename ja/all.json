@@ -146,22 +146,82 @@
         "TITLE": "ダークモード"
       }
     },
+    "SIDEBAR": {
+      "DOCUMENT_STATUSES": {
+        "LABEL": "ドキュメントを下書き、完了、ピン留めのカテゴリに整理します。"
+      },
+      "CUSTOMIZE_SIDEBAR_SECTIONS": {
+        "TITLE": "サイドバーセクションのカスタマイズ"
+      },
+      "SORT_SIDEBAR": {
+        "TITLE": "サイドバーの並べ替え"
+      }
+    },
     "NOTIFICATIONS": {
+      "ENABLE_PUSH_TITLE": "プッシュ通知を有効にしますか?",
+      "ENABLE_PUSH_LABEL": "デバイスに通知を直接受信",
+      "ENABLE_DUE_CARDS_TITLE": "期限カードバッジを有効にしますか?",
+      "ENABLE_DUE_CARDS_LABEL": "RemNote アプリのアイコンに、期限切れのカードの合計数をバッジとして表示します。",
       "ENABLE_EMAIL_TITLE": "電子メール通知を有効にしますか？",
       "ENABLE_EMAIL_LABEL": "通知を受信ボックスに直接受け取る",
       "TOGGLE_TITLE": "通知のフィルター",
+      "TOGGLE_LABEL": "どの通知をデバイス/受信トレイに直接受信するかを制御します",
       "DESCRIPTIONS": {
         "STREAK": {
           "TITLE": "連続通知",
           "LABEL": "毎日の通知を受け取って学習を継続しよう！"
         },
         "INVITE": {
-          "TITLE": "招待通知"
+          "TITLE": "招待通知",
+          "LABEL": "グループに招待されたときに通知を受け取る"
+        },
+        "NEW_LIKE": {
+          "TITLE": "いいねの通知",
+          "LABEL": "共有したドキュメントが\"いいね\"されたときに通知を受け取る"
+        },
+        "NEW_FOLLOWER": {
+          "TITLE": "フォロワー通知",
+          "LABEL": "誰かがあなたをフォローしたときに通知を受け取る"
+        },
+        "DOCUMENT_ADDED_TO_GROUP": {
+          "TITLE": "グループ通知にドキュメントが追加されました",
+          "LABEL": "ドキュメントがグループに追加されたときに通知を受け取る"
+        },
+        "NEW_COMMENT": {
+          "TITLE": "コメント通知",
+          "LABEL": "誰かが共有ドキュメントにコメントしたときに通知を受け取る"
+        },
+        "ARTICLE_VIEWS": {
+          "TITLE": "ドキュメントビューの通知",
+          "LABEL": "共有ドキュメントが多くのビューを獲得し始めたときに通知を受け取る"
         }
       }
     }
   },
+  "TAGS": {
+    "TAG": "タグ",
+    "TAG_WITH_COUNT_one": "{{count, number}} タグ",
+    "TAG_WITH_COUNT_other": "{{count, number}} タグ",
+    "PINNED_TAGS": "ピン留めされたタグ",
+    "YOUR_TAGS": "あなたのタグ",
+    "SEARCH_PLACEHOLDER": "既存のタグを検索して追加します",
+    "INSERT_PROPERTIES": "プロパティの挿入"
+  },
   "TEMPLATES": {
+    "TEMPLATE_one": "テンプレート",
+    "TEMPLATE_other": "テンプレート",
+    "CREATE_TEMPLATE": "テンプレートの作成",
+    "NEW_TEMPLATE": "新しいテンプレート",
+    "PROPERTY_one": "プロパティ",
+    "PROPERTY_other": "プロパティ",
+    "PROPERTY_WITH_COUNT_one": "{{count, number}} プロパティ",
+    "PROPERTY_WITH_COUNT_other": "{{count, number}} プロパティ",
+    "ADD_NEW_PROPERTY": "新しいプロパティの追加",
+    "AUTO_APPLY": "自動適用",
+    "SET_AS_AUTO_APPLY_TEMPLATE": "自動適用テンプレートとして設定",
+    "TURN_OFF_AUTO_APPLY": "自動適用をオフにする",
+    "VIEW_CONFIGURATION": "タグの設定",
+    "HIDE_CONFIGURATION": "設定を非表示にする",
     "ADD_PROPERTY": "プロパティの追加",
     "NEW_PROPERTY": "新しいプロパティ"
   },
@@ -175,9 +235,31 @@
     },
     "MENUS": {
       "TAG": {
-        "TAG_TITLE": "タグ名"
+        "TAG_TITLE": "タグ名",
+        "RENAME_TAG": "タグ名の変更",
+        "VIEW_TAG": "タグを表示",
+        "EDIT_TABLE_NAME": "テーブル名の編集",
+        "PRESS_TO_SAVE": "↩を押して保存"
+      },
+      "FILTER": {
+        "FILTER_TITLE": "フィルター",
+        "ADD_ADVANCED_FILTER": "高度なフィルターを追加",
+        "NO_PROPERTIES_AVAILABLE": "利用可能なプロパティはありません。新しいものを追加してください！"
+      },
+      "SORT": {
+        "SORT_TITLE": "ソート"
       },
       "TABLE_CONFIGURATION": {
+        "TABLE_CONFIGURATION_TITLE": "テーブル",
+        "LIST_CONFIGURATION_TITLE": "リスト",
+        "ALL": "全て",
+        "VIEW_AS": {
+          "VIEW_AS_TITLE": "として表示",
+          "TABLE_VIEW": "テーブル",
+          "NORMAL_PORTAL_VIEW": "ポータル",
+          "LIST_VIEW": "リスト"
+        },
+        "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "タグの設定とテンプレートの編集",
         "PROPERTIES_TITLE": "プロパティ",
         "PROPERTIES_CONFIGURATION_TITLE": "設定",
         "OPEN_IN_ANOTHER_PANE_TITLE": "別のタブで開く",
