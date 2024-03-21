@@ -120,6 +120,21 @@
         }
       }
     },
+    "KEYBOARD_SHORTCUTS": {
+      "CHANGE_KEYBOARD_SHORTCUTS": {
+        "TITLE": "キーボードショートカットを変更する",
+        "DESCRIPTION": "キーボードショートカットをカスタマイズします。",
+        "KEYWORDS": "キーボードショートカットをカスタマイズ"
+      }
+    },
+    "EDITOR": {
+      "GENERAL": {
+        "ENABLE_SPELLCHECK": {
+          "TITLE": "スペルチェックを有効にする",
+          "DESCRIPTION": "現在選択中のレムにタイプミスがないかチェックします。スペルチェックは、ブラウザまたはOSで選択された言語を使用します。"
+        }
+      }
+    },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "クレジットを適用する",
       "INVITE_TEXT": "友達を招待してクレジットを獲得しよう。",
@@ -143,7 +158,12 @@
     },
     "GLOBAL_INTERFACE": {
       "DARK_MODE": {
-        "TITLE": "ダークモード"
+        "TITLE": "ダークモード",
+        "LABEL": "この配色を使用します。"
+      },
+      "FULL_WIDTH": {
+        "TITLE": "全画面表示",
+        "LABEL": "ドキュメントをスクリーン全体に表示します。"
       },
       "SIMPLIFIED_UI": {
         "TITLE": "簡単なUI",
