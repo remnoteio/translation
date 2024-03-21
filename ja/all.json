@@ -179,7 +179,59 @@
       }
     }
   },
+  "SOURCES": {
+    "WIKIMEDIA_COMMONS": {
+      "LABEL": "画像検索",
+      "SELECT_FILES": "ファイルの選択",
+      "SELECT_FILES_TO_UPLOAD": "アップロードするファイルを選択",
+      "UPLOADING": "アップロード中...",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDF"
+    }
+  },
+  "POWERUPS": {
+    "POWERUP_one": "パワーアップ",
+    "POWERUP_other": "パワーアップ"
+  },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_TITLE": {
+            "SRC": "共有しようとしているドキュメントにはタイトルがありません。公開する前に追加する必要があります。",
+            "SUBDOCUMENT": "サブドキュメントの 1 つにタイトルがありません。追加するまでは公開されません。"
+          }
+        }
+      }
+    }
+  },
   "NOTIFICATIONS": {
+    "INVITE": {
+      "ACCEPT": "招待を受ける",
+      "REJECT": "拒否する"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "あなたをフォロー"
+    },
+    "NEW_LIKE": {
+      "BODY": "いいね"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "に追加されました"
+    },
+    "ARTICLE_VIEWS": {
+      "BODY_1": "あなたのドキュメント"
+    },
+    "IMPORT": {
+      "BODY": "誰かがあなたの文書をインポートしました"
+    },
+    "NEW_COMMENT": {
+      "BODY": "コメントしました",
+      "BODY_ARTICLE": "あなたの文書にコメントしました",
+      "BODY_COMMENT": "あなたのコメントに返信しました"
+    },
+    "EMPTY_STATE_TITLE": "最近の通知はありません",
     "POPUP_TITLE": "最近の通知",
     "ARTICLE_DEFAULT": "あなたのドキュメント",
     "GROUP_DEFAULT": "あなたのグループ"
