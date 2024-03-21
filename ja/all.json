@@ -176,11 +176,39 @@
     "MENUS": {
       "TAG": {
         "TAG_TITLE": "タグ名"
+      },
+      "TABLE_CONFIGURATION": {
+        "MOVE_TABLE_TO_TITLE": "テーブルの移動先",
+        "DUPLICATE_TABLE_VIEW_TITLE": "テーブルビューを複製",
+        "ADD_TABLE_VIEW_TITLE": "テーブルビューを追加",
+        "ADD_LIST_VIEW_TITLE": "リストビューを追加",
+        "DUPLICATE_LIST_VIEW_TITLE": "リストビューを複製",
+        "DUPLICATE_VIEW_MESSAGE_COMMON": "ビューを複製して、新しいフィルターや並べ替えなどを適用します。コンテンツは同じソースのビュー間で共有されるため、偶発的にインスタンスが重複することはありません。",
+        "SHOW_VERTICAL_LINES_TITLE": "縦線を表示",
+        "CELL_LIST_HEIGHT": {
+          "CELL_LIST_HEIGHT_TITLE": "セルの高さ",
+          "COMPACT_TITLE": "圧縮"
+        },
+        "DELETE_TABLE": "テーブルの削除",
+        "DELETE_LIST": "リストの削除"
       }
     }
   },
+  "SIDEBAR": {
+    "LABEL_ALL_NOTES": "すべてのメモ",
+    "LABEL_TODAYS_NOTE": "今日のノート",
+    "LABEL_FLASHCARDS": "フラッシュカード",
+    "LABEL_EDIT_LATER": "後で編集する",
+    "LABEL_COMMUNITY": "共有フラッシュカード",
+    "LABEL_INTERACTIVE_TOUR": "インタラクティブツアー",
+    "LABEL_RESUME_INTERACTIVE_TOUR": "インタラクティブツアーを再開",
+    "LABEL_TUTORIALS": "チュートリアル",
+    "TOOLTIP_FLASHCARD_HOME": "フラッシュカードホームに移動",
+    "TOOLTIP_EDIT_LATER_QUEUE": "後で編集キューを開く"
+  },
   "PAGES": {
     "ALL_NOTES": {
+      "TITLE": "すべてのノート",
       "SORT": {
         "RECENTLY_MODIFIED": "最近変更された",
         "RECENTLY_CREATED": "最近作成された",
