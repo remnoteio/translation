@@ -33,21 +33,48 @@
       },
       "AUTHENTICATION_TITLE": "認証",
       "ADVANCED_TITLE": "詳細設定",
+      "ADVANCED": {
+        "KEYWORDS": "サポート 再接続 検索 修正 バグ"
+      },
       "DANGER_ZONE_TITLE": "棄権ゾーン",
       "PRIVACY_NOTE": "プライバシーについて: <policyLink>プライバシーポリシー</policyLink>を読み、必要に応じて設定を変更してください<hubLink>プライバシーハブ</hubLink>。",
       "DANGER_ZONE": {
-        "TITLE": "危険 ゾーン"
+        "TITLE": "危険 ゾーン",
+        "KEYWORDS": "同期 ログ 削除 アカウント リセット ウォークスルー 進捗 リセット"
       },
       "NOTIFICATIONS": {
         "TITLE": "モバイル ストリーク 通知"
       },
       "SYNCING": {
-        "TITLE": "同期しています"
+        "TITLE": "同期しています",
+        "KEYWORDS": "画像とPDFを強制的に同期"
+      },
+      "VERSION": {
+        "TITLE": "アプリケーションのバージョン",
+        "KEYWORDS": "バージョン"
+      },
+      "SUPPORT": {
+        "TITLE": "サポート",
+        "KEYWORDS": "サポート チケット 実行 ヘルプ"
+      },
+      "PRIVACY": {
+        "TITLE": "プライバシー",
+        "KEYWORDS": "プライバシー"
       }
     },
     "FLASHCARDS": {
+      "AI": {
+        "ENABLE": {
+          "TITLE": "AI 機能を有効にする",
+          "DESCRIPTION": "AIベースのオートコンプリート、採点、フラッシュカード生成を使用します。多くのAI機能を使用すると、ノートのスニペットがOpenAIに送信されます。OpenAIのプライバシーポリシーはhttps://openai.com/policies/privacy-policyをご確認ください。"
+        },
+        "OPENAI_KEY": {
+          "TITLE": "OpenAI APIキー"
+        }
+      },
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
+          "TITLE": "1 日の最大目標",
           "DESCRIPTION": "RemNote が毎日の目標を達成するために練習するよう求めるフラッシュカードの枚数をこの値に制限します。"
         },
         "TODAYS_TARGET": "今日の目標:",
@@ -55,27 +82,58 @@
       },
       "GENERAL": {
         "RESET_ALL": {
+          "TITLE": "すべてのフラッシュカード設定をデフォルトにリセット",
+          "DESCRIPTION": "すべてのフラッシュカード設定をデフォルト値にリセットします。",
           "CONFIRM_MESSAGE": "すべてのフラッシュカード設定をデフォルト値にリセットしてもよろしいですか?"
         },
         "NEW_CARDS_PER_DAY": {
+          "TITLE": "1 日あたりの最大新規カード数",
           "DESCRIPTION": "毎日最大でこの数の新しく作成されたフラッシュカードをフラッシュカード キューに追加します。こうすることで、新しいカードが大量にではなく、毎日一定の割合でキューに追加されます。"
         },
         "STALE_CARDS_PER_DAY": {
+          "TITLE": "1 日あたりの古いカードの最大数",
           "DESCRIPTION": "毎日、多くてもこの枚数の古いフラッシュカードをフラッシュカードのキューに再導入します。古くなったカードとは、長い間学習しておらず、一度にすべてを再学習するのは大変なため、一時的にキューから保留されているカードです。"
         },
         "LEECH_THRESHOLD": {
+          "TITLE": "リーチ閾値",
           "DESCRIPTION": "リーチは、覚えてはまた忘れてしまう難しいカードです。カードの「忘れた」をこれ以上押した場合は警告が表示されるので、問題の原因を突き止めて問題を解決できます。これをより高い値に設定すると、リーチの警告が表示される頻度が低くなります。"
         },
+        "LEARN_AHEAD_LIMIT": {
+          "TITLE": "先行学習を制限",
+          "DESCRIPTION": "キューの最後に到達すると、RemNote は期限が切れる数分前までにカードを表示します。これにより、キューを終えた直後にカードが再び期限切れになることはありません。"
+        },
         "AUTOPLAY_MEDIA": {
-          "TITLE": "自動再生 メディア"
+          "TITLE": "自動再生 メディア",
+          "DESCRIPTION": "フラッシュカードを表示すると、そこにある音声またはビデオが自動的に再生されます。"
         },
         "TYPE_ANSWER": {
+          "TITLE": "答えを入力",
           "DESCRIPTION": "各フラッシュカードの表面にテキスト ボックスを表示し、入力した内容とカード裏面の答えを比較します。"
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "TITLE": "簡略化 フラッシュカード ボタン",
           "DESCRIPTION": "フラッシュカードを学習するときは、5 つの選択肢すべてではなく、「忘れた」と「頑張って思い出した」の応答ボタンのみを表示します。"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "TITLE": "次の日の開始時刻",
+          "DESCRIPTION": "毎日この時間に、新しいカードがキューに表示されます。"
         }
+      }
+    },
+    "EARN_CREDIT": {
+      "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
+      "INVITE": "招待する",
+      "SHARE_LINK": "招待リンクを共有する",
+      "COPIED": "コピーしました！",
+      "INVITE_COPIED": "招待リンクをコピーしました！",
+      "COPYLINK": "リンクをコピー",
+      "FRIENDS_TITLE": "友達",
+      "INVITED_YOU": " （あなたを招待しました）",
+      "NOT_CONFIRMED_EMAIL": " (メールを確認できません)"
+    },
+    "GLOBAL_INTERFACE": {
+      "DARK_MODE": {
+        "TITLE": "ダークモード"
       }
     }
   }
