@@ -1,7 +1,8 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "言語",
-    "TRANSLATION_INFO_SETTINGS": "翻訳はまだ進行中です。英語と選択した言語が混在して表示されます。<br><editorLink>ウェブエディター</editorLink>から翻訳にご協力ください。また、必ず<guideLink>チュートリアル</guideLink>を一読してください。"
+    "TRANSLATION_INFO_SETTINGS": "翻訳はまだ進行中です。英語と選択した言語が混在して表示されます。<br><editorLink>ウェブエディター</editorLink>から翻訳にご協力ください。また、必ず<guideLink>チュートリアル</guideLink>を一読してください。",
+    "TRANSLATION_IN_PROGRESS": "翻訳は途中段階です。"
   },
   "COMMON": {
     "ACTIONS": {
@@ -32,6 +33,9 @@
         "KEYWORDS": "エクスポート と バックアップ ゴミ箱 ビュー 削除済み Rem インポート ナレッジ ベース ビュー 全て カード ダウンロード 1つの デイリー バックアップ アドバンス 設定 削除 全て Rem"
       },
       "AUTHENTICATION_TITLE": "認証",
+      "AUTHENTICATION": {
+        "KEYWORDS": "ログアウト ログ アウト Google ログイン 方法 追加 切断 サイン イン サイン アップ"
+      },
       "ADVANCED_TITLE": "詳細設定",
       "ADVANCED": {
         "KEYWORDS": "サポート 再接続 検索 修正 バグ"
@@ -43,7 +47,8 @@
         "KEYWORDS": "同期 ログ 削除 アカウント リセット ウォークスルー 進捗 リセット"
       },
       "NOTIFICATIONS": {
-        "TITLE": "モバイル ストリーク 通知"
+        "TITLE": "モバイル ストリーク 通知",
+        "DESCRIPTION": "毎日のフラッシュカードの連続記録についてモバイルプッシュ通知を送信します。リマインダーは、日本時間の毎日午後 6 時に届きます。"
       },
       "SYNCING": {
         "TITLE": "同期しています",
@@ -117,6 +122,11 @@
         "NEXT_DAY_STARTS_AT": {
           "TITLE": "次の日の開始時刻",
           "DESCRIPTION": "毎日この時間に、新しいカードがキューに表示されます。"
+        }
+      },
+      "VISUAL": {
+        "SHOW_NEXT_REVIEW_TIMES": {
+          "TITLE": "次のレビュー時間を表示"
         }
       }
     },
@@ -370,12 +380,18 @@
     },
     "UPLOAD_SOURCE": {
       "LABEL": "アップロード",
-      "SELECT_FILES": "ファイルの選択"
+      "SELECT_FILES": "ファイルの選択",
+      "INVALID": "ファイル形式が間違っています！",
+      "UPLOADING": "アップロード中...",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDF"
     },
     "WIKIMEDIA_COMMONS": {
       "LABEL": "画像検索",
       "SELECT_FILES": "ファイルの選択",
       "SELECT_FILES_TO_UPLOAD": "アップロードするファイルを選択",
+      "INVALID": "ファイル形式が間違っています！",
       "UPLOADING": "アップロード中...",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
