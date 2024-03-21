@@ -126,7 +126,19 @@
       },
       "VISUAL": {
         "SHOW_NEXT_REVIEW_TIMES": {
-          "TITLE": "次のレビュー時間を表示"
+          "TITLE": "次のレビュー時間を表示",
+          "DESCRIPTION": "解答ボタンに次のレビューまでの時間を表示します。"
+        }
+      },
+      "ORDERING": {
+        "DOCUMENT_CLUSTERS": {
+          "TITLE": "ドキュメントクラスター"
+        },
+        "REFERENCE_CLUSTERS": {
+          "TITLE": "参照クラスター"
+        },
+        "TAG_CLUSTERS": {
+          "TITLE": "タグクラスター"
         }
       }
     },
@@ -146,6 +158,8 @@
       }
     },
     "EARN_CREDIT": {
+      "TITLE": "クレジットを獲得する",
+      "INVITE_FRIENDS_REMNOTE": "友達をRemNoteに招待しましょう！",
       "APPLY_CREDIT": "クレジットを適用する",
       "INVITE_TEXT": "友達を招待してクレジットを獲得しよう。",
       "HANG_ON": "ちょっと待って",
