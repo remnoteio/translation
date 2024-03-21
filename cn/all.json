@@ -30,15 +30,15 @@
       },
       "NAVIGATION_TITLE": "功能导航",
       "NAVIGATION": {
-        "KEYWORDS": "导出和备份 回收站 查看已删除的Rem 导入知识库 查看所有卡片 下载每日备份 高级设置 删除所有Rem"
+        "KEYWORDS": "导出和备份 垃圾箱 查看已删除的Rem 导入知识库 查看所有卡片 下载每日备份 高级设置 删除所有Rem"
       },
       "AUTHENTICATION_TITLE": "认证授权",
       "AUTHENTICATION": {
-        "KEYWORDS": "注销 退出Google登录 添加 断开连接 登录 注册"
+        "KEYWORDS": "注销 注销Google 登录方法 添加 断开连接 登录 注册"
       },
       "ADVANCED_TITLE": "高级设置",
       "ADVANCED": {
-        "KEYWORDS": "支持 重连 搜索 修复错误"
+        "KEYWORDS": "支持 重置搜索 修复错误"
       },
       "DANGER_ZONE_TITLE": "风险操作",
       "PRIVACY_NOTE": "隐私：请阅读我们的<policyLink>隐私政策</policyLink>，或者在<hubLink>隐私中心</hubLink>中更改您的设置。",
@@ -75,12 +75,12 @@
     "FLASHCARDS": {
       "AI": {
         "ENABLE": {
-          "TITLE": "启用 AI 功能",
-          "DESCRIPTION": "当您使用更多AI 功能时，会将您的笔记片段发送给 OpenAI 以进行基于 AI 的自动完成、分级和制作闪卡。了解更多信息，请参阅 OpenAI 的隐私政策，网址：https://openai.com/policies/privacy-policy。"
+          "TITLE": "启用人工智能(AI)功能",
+          "DESCRIPTION": "使用基于人工智能的自动补全、分级和生成记忆卡片的功能。当启用人工智能功能后，您的笔记片段将被发送到 OpenAI。了解 OpenAI 的隐私政策，请访问 https://openai.com/policies/privacy-policy。"
         },
         "OPENAI_KEY": {
           "TITLE": "OpenAI API 密钥",
-          "DESCRIPTION": "若您发现自己超过了每月 AI 使用限额，您可以在 https://platform.openai.com/account/api-keys 注册一个 API 密钥，并在此输入以支付您自己的使用费用。请注意，这是一个测试版功能，随时可能被移除。"
+          "DESCRIPTION": "如果您发现自己超出每月的人工智能请求配额，您可以在 https://platform.openai.com/account/api-keys 注册一个 API 密钥(按请求次数付费)，然后在此输入。请注意，这是一个测试版功能，随时可能被移除。"
         }
       },
       "DAILY_TARGET": {
@@ -110,8 +110,8 @@
           "DESCRIPTION": "在记忆卡片中，\"Leeches\"（难题卡片）是指那些您反复学习然后又忘记的困难卡片。如果您在某张卡片上点击了比设定值更多次的\"忘记\"，我们会发出警告，以便您找出并解决难以记住的问题。将此值设定得更高，可以减少难题警告出现的次数。"
         },
         "LEARN_AHEAD_LIMIT": {
-          "TITLE": "学前限制",
-          "DESCRIPTION": "当您完成队列中的所有卡片后，RemNote会显示卡片到期时间，避免您在完成队列后立即面临再次到期的卡片。"
+          "TITLE": "超前学习限制",
+          "DESCRIPTION": "当您复习到队列末尾时，RemNote 会提前显示未来若干分钟内将要到期的卡片，以避免在完成队列后又立刻看到到期的卡片。"
         },
         "AUTOPLAY_MEDIA": {
           "TITLE": "自动播放媒体",
@@ -126,8 +126,8 @@
           "DESCRIPTION": "在复习卡片时只显示”忘记“和“努力回忆”的反馈按钮，而不显示剩余的其他五个选项"
         },
         "NEXT_DAY_STARTS_AT": {
-          "TITLE": "下一天开始于..",
-          "DESCRIPTION": "每天在这个时间，新的卡片会出现在您的队列中。"
+          "TITLE": "次日起始时间",
+          "DESCRIPTION": "每天此时都会有新卡出现在您的队列中。"
         }
       },
       "VISUAL": {
@@ -164,24 +164,24 @@
     "KEYBOARD_SHORTCUTS": {
       "SPLIT_WITH_ALT_ENTER": {
         "TITLE": {
-          "PC": "Alt + 回车键拆分文本",
+          "PC": "Alt + Enter 拆分文本",
           "MAC": "Opt + 回车键拆分文本"
         },
         "DESCRIPTION": {
-          "PC": "在 Rem 中间按下回车键时，默认会自动换行，而使用 Alt + 回车键则会将文本拆分成两个独立的 Rem。（Shift + 回车键默认实现行内软换行）",
-          "MAC": "在 Rem 中间按下回车键时，默认会自动换行，而使用 Opt + 回车键则会将文本拆分成两个独立的 Rem。（Shift + 回车键默认实现行内软换行）"
+          "PC": "在 Rem 中使用 Enter 键实现软换行（在当前 Rem 中插入换行符），同时使用 Alt + Enter 键实现硬换行（将文本拆分成两个独立的 Rem）。（默认情况下Shift + Enter 键和 Enter 键分别实现上述行为）",
+          "MAC": "在 Rem 中使用 Return 键实现软换行（在当前 Rem 中插入换行符），同时使用 Opt+ Return 键实现硬换行（将文本拆分成两个独立的 Rem）。（默认情况下Shift + Return 键和 Return 键分别实现上述行为）"
         }
       },
       "ENTER_TO_OUTDENT": {
-        "TITLE": "按回车键取消缩进",
-        "LABEL": "在文档顶层没有内容的 Rem 上按回车键时，将向外缩进一级。(如果禁用，则停留在同一层级并留下一个空的 Rem）。"
+        "TITLE": "取消缩进",
+        "LABEL": "在文档顶层没有内容的 Rem 上按回车键时，将向外缩进一级（如果禁用，则停留在同一层级并留下一个空的 Rem）"
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
-        "TITLE": "双斜线触发命令菜单",
-        "DESCRIPTION": "编辑 Rem 时使用 // 而非 / 触发命令模式"
+        "TITLE": "命令菜单",
+        "DESCRIPTION": "编辑 Rem 时使用 // 触发命令模式（默认为单斜线）"
       },
       "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
-        "TITLE": "开启旧版快捷键",
+        "TITLE": "启用旧版快捷键",
         "DESCRIPTION": "使用旧版键盘快捷键（2020年8月更新之前）"
       },
       "CHANGE_KEYBOARD_SHORTCUTS": {
@@ -295,13 +295,13 @@
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "TITLE": "应用内置教程",
-        "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示。",
-        "KEYWORDS": "应用程序左侧边栏教程工具提示帮助支持学习教程"
+        "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示",
+        "KEYWORDS": "应用程序内 左侧边栏 教程 工具提示 帮助 支持 学习教程"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
-        "TITLE": "键盘快捷键提示键盘快捷键技巧键盘快捷键小贴士键盘快捷键小技巧",
-        "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示。",
-        "KEYWORDS": "工具提示将帮助您学习使用教程"
+        "TITLE": "键盘快捷键提示",
+        "LABEL": "在屏幕一角显示您当前使用的键盘快捷键提示",
+        "KEYWORDS": "工具提示 帮助 支持 学习教程"
       },
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
         "TITLE": "社区文档搜索语言",
@@ -313,7 +313,7 @@
       },
       "ONBOARDING_TIPS_FEATURES": {
         "TITLE": "功能提示",
-        "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示。"
+        "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示"
       },
       "ONBOARDING_TIPS": {
         "TITLE": "引导提示",
@@ -346,7 +346,7 @@
     "SIDEBAR": {
       "DOCUMENT_STATUSES": {
         "TITLE": "文档状态",
-        "LABEL": "将文档分为草稿、完成和固定三类"
+        "LABEL": "将文档分为草稿、已完成和固定三类"
       },
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "自定义侧边栏"
@@ -362,17 +362,17 @@
       }
     },
     "NOTIFICATIONS": {
-      "ENABLE_PUSH_TITLE": "启用推送通知？",
-      "ENABLE_PUSH_LABEL": "发送消息通知到您的设备",
-      "ENABLE_DUE_CARDS_TITLE": "启用到期卡片徽标？",
-      "ENABLE_DUE_CARDS_LABEL": "在 RemNote 应用图标上显示到期卡片的总数徽标。",
+      "ENABLE_PUSH_TITLE": "启用推送通知",
+      "ENABLE_PUSH_LABEL": "开启后，发送消息通知到您的设备",
+      "ENABLE_DUE_CARDS_TITLE": "启用卡片到期角标",
+      "ENABLE_DUE_CARDS_LABEL": "开启后，在 RemNote 应用程序图标上以角标形式显示到期卡片总数",
       "ENABLE_EMAIL_TITLE": "开启电子邮件通知？",
       "ENABLE_EMAIL_LABEL": "发送通知到您的邮箱",
       "TOGGLE_TITLE": "通知管理",
       "TOGGLE_LABEL": "管理发送到您的设备或邮箱的通知",
       "DESCRIPTIONS": {
         "STREAK": {
-          "TITLE": "连续通知",
+          "TITLE": "持续通知",
           "LABEL": "好好学习，天天通知！"
         },
         "INVITE": {
