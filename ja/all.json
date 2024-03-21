@@ -144,10 +144,38 @@
     "GLOBAL_INTERFACE": {
       "DARK_MODE": {
         "TITLE": "ダークモード"
+      },
+      "SIMPLIFIED_UI": {
+        "TITLE": "簡単なUI",
+        "LABEL": "UI を簡素化し、高度な機能を非表示にします。"
+      },
+      "LEFT_SIDEBAR_TUTORIALS": {
+        "TITLE": "アプリ内チュートリアル",
+        "LABEL": "現在使用している RemNote の機能に関するチュートリアルを画面の隅に表示します。",
+        "KEYWORDS": "アプリ内の左側のサイドバー チュートリアル ツールチップ ヘルプ サポート チュートリアルを学ぶ"
+      },
+      "ONBOARDING_TIPS_SHORTCUTS": {
+        "TITLE": "キーボード ショートカットのヒント",
+        "LABEL": "現在使用しているキーボード ショートカットに関するヒントを画面の隅に表示します。",
+        "KEYWORDS": "ツールチップ ヘルプ サポート 学習チュートリアル"
+      },
+      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
+        "TITLE": "共有フラッシュカードの検索言語"
+      },
+      "INTERFACE": {
+        "TITLE": "RemNote 表示言語",
+        "KEYWORDS": "言語 言語 翻訳 翻訳 i18n"
+      }
+    },
+    "EDITOR_INTERFACE": {
+      "ENABLE_ZOOM_INTO_BULLET": {
+        "TITLE": "箇条書きへのズームを有効にする",
+        "LABEL": "箇条書きポインタをクリックすると、レムがページ全体として表示されます"
       }
     },
     "SIDEBAR": {
       "DOCUMENT_STATUSES": {
+        "TITLE": "ドキュメントのステータス",
         "LABEL": "ドキュメントを下書き、完了、ピン留めのカテゴリに整理します。"
       },
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
