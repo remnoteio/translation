@@ -179,10 +179,54 @@
       }
     }
   },
+  "NOTIFICATIONS": {
+    "POPUP_TITLE": "最近の通知",
+    "ARTICLE_DEFAULT": "あなたのドキュメント",
+    "GROUP_DEFAULT": "あなたのグループ"
+  },
   "POPUPS": {
     "CREATE_CONTENT_OPTIONS": {
       "DOCUMENT": {
-        "TITLE": "ドキュメント"
+        "TITLE": "ドキュメント",
+        "DESCRIPTION": "講義、情報源、アイデアに関するメモを文書に整理します。"
+      },
+      "QUICK_ADD": {
+        "TITLE": "クイック追加"
+      },
+      "TODAYS_DOCUMENT": {
+        "TITLE": "今日のドキュメント",
+        "DESCRIPTION": "Daily Document は、日記やTo-Doリストなどに最適です。"
+      },
+      "FOLDER": {
+        "TITLE": "フォルダー",
+        "DESCRIPTION": "ドキュメントをフォルダーに整理します。"
+      },
+      "TABLE_TAG": {
+        "TITLE": "タグとテーブル"
+      },
+      "UPLOAD_FILE": {
+        "TITLE": "ファイルのアップロードと注釈付け",
+        "DESCRIPTION": "PDF、PowerPoint、Word ドキュメント、またはその他のファイルをハイライト表示して参照します。",
+        "PAYWALL": "PDF アップロードの制限に達しました。",
+        "FEATURE_NAME": "PDF ハイライト"
+      }
+    }
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "0": {
+          "TITLE": "フォルダーを作成"
+        },
+        "1": {
+          "TITLE": "箇条書きを追加"
+        },
+        "2": {
+          "TITLE": "フラッシュカードを作成"
+        },
+        "3": {
+          "TITLE": "\"Tab\"を使用してメモを構造化する"
+        }
       }
     }
   }
