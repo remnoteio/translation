@@ -1,7 +1,8 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "Language",
-    "TRANSLATION_INFO_SETTINGS": "Translation is still in progress; you will see a mix of English and the selected language.<br>You can help us translate by reading the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink>."
+    "TRANSLATION_INFO_SETTINGS": "Translation is still in progress; you will see a mix of English and the selected language.<br>You can help us translate by reading the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink>.",
+    "TRANSLATION_IN_PROGRESS": "Translation in progress"
   },
   "COMMON": {
     "ACTIONS": {
@@ -412,7 +413,9 @@
       "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
     },
     "TEMPLATES_HELP_TEXT": "A tag's template is a RemNote document that can be automatically copied to tagged Rems. Add headers, checklists, and more right within your template.",
-    "AUTO_APPLY_HELP_TEXT": "This template will be automatically applied to all rows in its table, or all Rems tagged with the template."
+    "AUTO_APPLY_HELP_TEXT": "This template will be automatically applied to all rows in its table, or all Rems tagged with the template.",
+    "ADD_PROPERTY": "Add Property",
+    "NEW_PROPERTY": "New Property"
   },
   "TABLES": {
     "PRIMARY_COLUMN_TITLE": "Name",
