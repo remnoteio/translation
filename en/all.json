@@ -68,6 +68,16 @@
       }
     },
     "FLASHCARDS": {
+      "AI": {
+        "ENABLE": {
+          "TITLE": "Enable AI Features",
+          "DESCRIPTION": "Use AI-based autocompletion, grading, and flashcards generation. Snippets of your notes will be sent to OpenAI when you use many AI features. Find OpenAI's privacy policy at https://openai.com/policies/privacy-policy."
+        },
+        "OPENAI_KEY": {
+          "TITLE": "OpenAI API Key",
+          "DESCRIPTION": "If you find yourself exceeding your monthly quota of AI requests, you can sign up for an API key at https://platform.openai.com/account/api-keys and enter it here to pay for your own usage. Note that this is a beta feature and could be removed at any time."
+        }
+      },
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "Maximum Daily Target",
@@ -78,7 +88,7 @@
       },
       "GENERAL": {
         "RESET_ALL": {
-          "TITLE": "Reset All Flashcard Settings",
+          "TITLE": "Reset All Flashcard Settings to Defaults",
           "DESCRIPTION": "Reset all flashcard settings to their default values.",
           "CONFIRM_MESSAGE": "Are you sure you want to reset all flashcard settings to their default values?"
         },
@@ -94,6 +104,10 @@
           "TITLE": "Leech Threshold",
           "DESCRIPTION": "Leeches are difficult cards that you keep learning and then forgetting again. If you press “forgot” on a card more times than this, we'll warn you so you can figure out why you're struggling and fix the problem. Set this to higher values to see the leech warning less often."
         },
+        "LEARN_AHEAD_LIMIT": {
+          "TITLE": "Learn Ahead Limit",
+          "DESCRIPTION": "When you reach the end of your queue, RemNote will show you cards up to this many minutes before they are due, so that you don't end up with cards due again immediately after finishing your queue."
+        },
         "AUTOPLAY_MEDIA": {
           "TITLE": "Autoplay Media",
           "DESCRIPTION": "When showing a flashcard, automatically play any audio or video on it."
@@ -105,6 +119,10 @@
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "TITLE": "Simplified Flashcard Buttons",
           "DESCRIPTION": "Show only the “Forgot” and “Recalled with effort” response buttons when studying flashcards, instead of all five options."
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "TITLE": "Next Day Starts At",
+          "DESCRIPTION": "New cards appear in your queue each day at this time."
         }
       },
       "VISUAL": {
@@ -141,13 +159,17 @@
     "KEYBOARD_SHORTCUTS": {
       "SPLIT_WITH_ALT_ENTER": {
         "TITLE": {
-          "PC": "Split With Alt+Enter",
+          "PC": "软硬换行",
           "MAC": "Split With Opt+Return"
         },
         "DESCRIPTION": {
           "PC": "When you press Enter in the middle of a Rem, create a line break within that Rem, and instead use Alt+Enter to break the text into two separate Rems. (By default, Shift+Enter and Enter alone, respectively, serve these functions.)",
           "MAC": "When you press Return in the middle of a Rem, create a line break within that Rem, and instead use Opt+Return to break the text into two separate Rems. (By default, Shift+Return and Return alone, respectively, serve these functions.)"
         }
+      },
+      "ENTER_TO_OUTDENT": {
+        "TITLE": "Press Enter to Outdent",
+        "LABEL": "When pressing Enter on a Rem with no content that is not at the top level of the document, outdent one level. (If disabled, stay at the same level and leave an empty Rem.)"
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
         "TITLE": "Double Slash For Command Menu",
@@ -167,7 +189,7 @@
       "GENERAL": {
         "ENABLE_SPELLCHECK": {
           "TITLE": "Enable Spellcheck",
-          "DESCRIPTION": "Check the currently focused Rem for typos."
+          "DESCRIPTION": "Check the currently focused Rem for typos. Spellcheck uses the language(s) selected in your browser or operating system."
         },
         "CAPITALIZE_FROM_SEARCH": {
           "TITLE": "Capitalize From Search",
@@ -198,7 +220,7 @@
       "DATES_AND_TIMES": {
         "DATE_FORMATTING": {
           "TITLE": "Date Formatting",
-          "DESCRIPTION": "Format dates inserted with /date like this."
+          "DESCRIPTION": "Format Daily Document titles and dates inserted with /date like this."
         },
         "DATE_FORMATTING_CUSTOM": {
           "TITLE": "Custom Date Formatting",
@@ -219,13 +241,12 @@
       "KEYWORDS": "invite friends plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options"
     },
     "EARN_CREDIT": {
-      "TITLE": "Earn Credit",
+      "TITLE": "Earn Credits",
       "KEYWORDS": "invite friends earn credit plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options",
       "INVITE_FRIENDS_REMNOTE": "Invite your friends to RemNote!",
       "INVITE_FRIENDS_EARN_CREDIT": "Invite your friends to earn credit! You'll receive <0>{{monthlyPrice}}</0> in RemNote credit when the person you invite signs up for a RemNote account, and they'll also get <0>{{monthlyPrice}}</0> credit to get started.",
       "CREDIT_BALANCE": "Credit Balance",
       "CREDIT_BALANCE_TEXT": "You have <bold>{{userCredit}}</bold> credit remaining and have earned <bold>{{userCreditEarned}}</bold> credit in total. {{months}} remaining month or months of RemNote Pro for free.<br /><br />Subscribe to Pro to start using your credit! You won't be charged until your credit runs out.",
-      "SUBSCRIBE_NOTICE": "<div><br />Subscribe to Pro to start using your credit! You won't be charged until your credit runs out.</div>",
       "TOAST_SUBSCRIBE": "Your credits will be applied automatically when you subscribe to RemNote Pro. Choose a plan below to get started!",
       "TOAST_RENEW": "Your credits will be applied automatically when your current subscription renews.",
       "APPLY_CREDIT": "Apply your credit",
@@ -266,13 +287,8 @@
         "LABEL": "Show tips on RemNote features you could try at the top of your document.",
         "KEYWORDS": "tooltips help support learn tutorial"
       },
-      "ONBOARDING_TIPS_FEATURES": {
-        "TITLE": "Onboarding Tips",
-        "LABEL": "Show tips on RemNote features you're currently using in the corner of the screen.",
-        "KEYWORDS": "tooltips help support learn tutorial"
-      },
       "LEFT_SIDEBAR_TUTORIALS": {
-        "TITLE": "In App Tutorials",
+        "TITLE": "In-App Tutorials",
         "LABEL": "Show tutorials on RemNote features you're currently using in the corner of the screen.",
         "KEYWORDS": "in app left sidebar tutorials tooltips help support learn tutorial"
       },
@@ -282,12 +298,12 @@
         "KEYWORDS": "tooltips help support learn tutorial"
       },
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
-        "TITLE": "Community Document Search Language",
-        "KEYWORDS": "language community documents search"
+        "TITLE": "Shared Flashcards Search Language",
+        "KEYWORDS": "language community documents search flashcards share shared download find"
       },
       "INTERFACE": {
-        "TITLE": "RemNote Interface Language (Alpha)",
-        "KEYWORDS": "lang language translation i18n"
+        "TITLE": "RemNote Interface Language",
+        "KEYWORDS": "lang language translation translate i18n"
       }
     },
     "EDITOR_INTERFACE": {
@@ -297,7 +313,7 @@
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
         "TITLE": "Scale Collapsed Rem Bullets",
-        "LABEL": "When a Rem is collapsed, make the ring around its bullet larger or smaller based on its total number of descendants.."
+        "LABEL": "When a Rem is collapsed, make the ring around its bullet larger or smaller based on its total number of descendants."
       },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
         "TITLE": "Smoothly Animate The Editor",
@@ -306,10 +322,6 @@
       "PREVIEW_REM_ON_HOVER": {
         "TITLE": "Preview References on Hover",
         "LABEL": "When you hover over a Reference, show a preview of its contents."
-      },
-      "ENTER_TO_OUTDENT": {
-        "TITLE": "Enable 'Press Enter to Outdent'",
-        "LABEL": "When you're focused at the last child rem and if the rem is empty, pressing Enter will outdent the rem."
       },
       "ENABLE_ZOOM_INTO_BULLET": {
         "TITLE": "Enable Zooming into Bullet",
@@ -324,10 +336,6 @@
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "Customize Sidebar Sections"
       },
-      "COMMUNITY_TAB": {
-        "TITLE": "Community Link in Sidebar",
-        "LABEL": "Show the Community Tab, where you can find public documents and study groups, in the sidebar. If you disable this you'll still be able to navigate to it via the account capsule."
-      },
       "SORT_SIDEBAR": {
         "TITLE": "Sort Sidebar",
         "KEYWORDS": "organize sidebars sort a-to-z"
@@ -337,6 +345,8 @@
     "NOTIFICATIONS": {
       "ENABLE_PUSH_TITLE": "Enable push notifications?",
       "ENABLE_PUSH_LABEL": "Receive notifications directly to your device",
+      "ENABLE_DUE_CARDS_TITLE": "Enable due cards badge?",
+      "ENABLE_DUE_CARDS_LABEL": "Show the total number of due cards as a badge on the RemNote app icon.",
       "ENABLE_EMAIL_TITLE": "Enable email notifications?",
       "ENABLE_EMAIL_LABEL": "Receive notifications directly to your inbox",
       "TOGGLE_TITLE": "Filter notifications",
@@ -455,6 +465,8 @@
         "MOVE_TABLE_TO_TITLE": "Move Table To",
         "MOVE_LIST_TO_TITLE": "Move List To",
         "DUPLICATE_TABLE_VIEW_TITLE": "Duplicate Table View",
+        "ADD_TABLE_VIEW_TITLE": "Add Table View",
+        "ADD_LIST_VIEW_TITLE": "Add List View",
         "DUPLICATE_LIST_VIEW_TITLE": "Duplicate List View",
         "DUPLICATE_VIEW_MESSAGE_COMMON": "Duplicate a view to apply a new filter, sort, or more! Content is shared between views of the same source, so you won't end up with any accidental duplicate instances.",
         "SHOW_VERTICAL_LINES_TITLE": "Show Vertical Lines",
@@ -513,6 +525,17 @@
     },
     "UPLOAD_SOURCE": {
       "LABEL": "Upload",
+      "SELECT_FILES": "Select files",
+      "SELECT_FILES_TO_UPLOAD": "Select files to upload",
+      "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
+      "INVALID": "Incorrect file format!",
+      "UPLOADING": "Uploading...",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs"
+    },
+    "WIKIMEDIA_COMMONS": {
+      "LABEL": "Image Search",
       "SELECT_FILES": "Select files",
       "SELECT_FILES_TO_UPLOAD": "Select files to upload",
       "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
@@ -605,6 +628,24 @@
         "PAYWALL": "You have reached your limit for PDF uploads.",
         "todo_for_the_item_below": "move this into a global feature name object?",
         "FEATURE_NAME": "PDF Highlighting"
+      }
+    }
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "0": {
+          "TITLE": "Create A Folder"
+        },
+        "1": {
+          "TITLE": "Add a Bullet"
+        },
+        "2": {
+          "TITLE": "Create a Flashcard"
+        },
+        "3": {
+          "TITLE": "Structure Notes Using Tab"
+        }
       }
     }
   }
