@@ -179,7 +179,36 @@
       }
     }
   },
+  "PAGES": {
+    "ALL_NOTES": {
+      "SORT": {
+        "RECENTLY_MODIFIED": "最近変更された",
+        "RECENTLY_CREATED": "最近作成された",
+        "OLDEST_FIRST": "古い順",
+        "BY_CREATION_TIME": "作成時間",
+        "BY_TITLE": "タイトル",
+        "BY_MODIFICATION": "編集",
+        "OLDEST_CREATION_FIRST": "最も古い作成物を最初に表示",
+        "ASCENDING": "アルファベット順(A -> Z)",
+        "DESCENDING": "逆アルファベット順(Z -> A)"
+      }
+    }
+  },
   "SOURCES": {
+    "LINK_SOURCE": {
+      "LABEL": "リンク",
+      "ENTER_URL": "URLを入力",
+      "INVALID_URL": "無効なURL",
+      "OPEN_IN_READER": "リーダーで開く",
+      "SEARCH_PLACEHOLDER": "リンクを貼り付けるか、リファレンスを検索してください",
+      "LINK": "リンク",
+      "LINK_WITH_COUNT_one": "{{count, number}} リンク",
+      "LINK_WITH_COUNT_other": "{{count, number}} リンク"
+    },
+    "UPLOAD_SOURCE": {
+      "LABEL": "アップロード",
+      "SELECT_FILES": "ファイルの選択"
+    },
     "WIKIMEDIA_COMMONS": {
       "LABEL": "画像検索",
       "SELECT_FILES": "ファイルの選択",
