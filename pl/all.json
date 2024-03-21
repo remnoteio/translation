@@ -225,7 +225,6 @@
       "INVITE_FRIENDS_EARN_CREDIT": "Zaproś znajomych, aby załadować saldo! Otrzymasz <0> {{monthlyPrice}}</0> w postaci środków RemNote, gdy zaproszona przez Ciebie osoba zarejestruje konto RemNote. Ona również otrzyma <0> {{monthlyPrice}}</0>  na start.",
       "CREDIT_BALANCE": "Stan Środków",
       "CREDIT_BALANCE_TEXT": "Masz <bold> {{userCredit}}<bold> niewykorzystanych środków i <bold>{{userCreditEarned}}<bold> zdobytych na koncie.  {{months}} pozostały miesiąc lub miesiące RemNote Pro za darmo.<br /><br />Przejdź na plan Pro aby zacząć używać swoje saldo! Opłata nie zostanie pobrana, dopóki nie wyczerpią się środki w aplikacji.",
-      "SUBSCRIBE_NOTICE": "<div><br />Przejdź na plan Pro aby zacząć używać swoje saldo! Opłata nie zostanie pobrana, dopóki nie wyczerpią się środki w aplikacji.</div>",
       "TOAST_SUBSCRIBE": "Twoje kredyty zostaną wykorzystane automatycznie po wykupieniu subskrypcji RemNote Pro. Wybierz plan poniżej, aby rozpocząć!",
       "TOAST_RENEW": "Twoje kredyty zostaną wykorzystane automatycznie po odnowieniu bieżącej subskrypcji.",
       "APPLY_CREDIT": "Wydaj swoje kredyty",
@@ -246,7 +245,8 @@
       "COPYLINK": "Skopiuj Łącze",
       "FRIENDS_TITLE": "Znajomi",
       "INVITED_YOU": "(dodał/-a Cię)",
-      "NOT_CONFIRMED_EMAIL": "(nie ma zweryfikowanego adresu email)"
+      "NOT_CONFIRMED_EMAIL": "(nie ma zweryfikowanego adresu email)",
+      "SUBSCRIBE_NOTICE": "<div><br />Przejdź na plan Pro aby zacząć używać swoje saldo! Opłata nie zostanie pobrana, dopóki nie wyczerpią się środki w aplikacji.</div>"
     },
     "GLOBAL_INTERFACE": {
       "DARK_MODE": {
@@ -261,11 +261,6 @@
         "LABEL": "Uprość interfejs użytkownika i ukryj zaawansowane funkcje."
       },
       "IN_APP_SUGGESTIONS": {
-        "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik"
-      },
-      "ONBOARDING_TIPS_FEATURES": {
-        "TITLE": "Inteligentne Wskazówki",
-        "LABEL": "Pokazuj wskazówki narzędzi funkcji RemNote aktualnie używanej w rogu ekranu urządzenia.",
         "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
@@ -285,6 +280,11 @@
       "INTERFACE": {
         "TITLE": "Język Interfejsu RemNote (Alpha)",
         "KEYWORDS": "język język tłumaczenia i18n"
+      },
+      "ONBOARDING_TIPS_FEATURES": {
+        "TITLE": "Inteligentne Wskazówki",
+        "LABEL": "Pokazuj wskazówki narzędzi funkcji RemNote aktualnie używanej w rogu ekranu urządzenia.",
+        "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik"
       }
     },
     "EDITOR_INTERFACE": {
@@ -304,13 +304,13 @@
         "TITLE": "Wyświetl Podgląd Odnośnika najeżdżając kursorem",
         "LABEL": "Kiedy najedziesz kursorem na Odnośnik, wyświetl Podgląd jego zawartości."
       },
-      "ENTER_TO_OUTDENT": {
-        "TITLE": "Włącz 'Naciśnij Enter aby zmniejszyć Wcięcie'",
-        "LABEL": "Kiedy aktywny jest Potomny Rem, który jest pusty, naciśnięcie Enter zmniejszy wcięcie."
-      },
       "ENABLE_ZOOM_INTO_BULLET": {
         "TITLE": "Włącz Przybliżanie Punktorów",
         "LABEL": "Kiedy klikniesz na Punktor, wyświetl Rem w widoku pełnoekranowym"
+      },
+      "ENTER_TO_OUTDENT": {
+        "TITLE": "Włącz 'Naciśnij Enter aby zmniejszyć Wcięcie'",
+        "LABEL": "Kiedy aktywny jest Potomny Rem, który jest pusty, naciśnięcie Enter zmniejszy wcięcie."
       }
     },
     "SIDEBAR": {
@@ -321,15 +321,15 @@
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "Spersonalizuj Sekcje Pasku Bocznego"
       },
-      "COMMUNITY_TAB": {
-        "TITLE": "Centrum Społeczności w Pasku Bocznym",
-        "LABEL": "Pokaż Centrum Społeczności, gdzie możesz znaleźć udostępnione dokumenty innych osób oraz grupy naukowe na Pasku Bocznym. Jeżeli to wyłączysz, wciąż będzie możliwe znalezienie Centrum Społeczności w Centrum Konta. "
-      },
       "SORT_SIDEBAR": {
         "TITLE": "Sortuj Pasek Boczny",
         "KEYWORDS": "uporządkuj pasek boczny sortuj od a do z"
       },
-      "PRIVACY_NOTE": "Prywatność: Przeczytaj naszą <policyLink>Politykę Prywatności</policyLink> lub zmień Twoje ustawienia w naszym  <hubLink>Centrum Prywatności</hubLink>."
+      "PRIVACY_NOTE": "Prywatność: Przeczytaj naszą <policyLink>Politykę Prywatności</policyLink> lub zmień Twoje ustawienia w naszym  <hubLink>Centrum Prywatności</hubLink>.",
+      "COMMUNITY_TAB": {
+        "TITLE": "Centrum Społeczności w Pasku Bocznym",
+        "LABEL": "Pokaż Centrum Społeczności, gdzie możesz znaleźć udostępnione dokumenty innych osób oraz grupy naukowe na Pasku Bocznym. Jeżeli to wyłączysz, wciąż będzie możliwe znalezienie Centrum Społeczności w Centrum Konta. "
+      }
     },
     "NOTIFICATIONS": {
       "ENABLE_PUSH_TITLE": "Czy chcesz otrzymywać powiadomienia Push?",
