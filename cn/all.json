@@ -553,6 +553,17 @@
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDF"
+    },
+    "WIKIMEDIA_COMMONS": {
+      "LABEL": "图片搜索",
+      "SELECT_FILES": "选择文件",
+      "SELECT_FILES_TO_UPLOAD": "选择上传的文件",
+      "EMPTY": "将 PDF、Word 文档、PPT 和 <moreLink>more</moreLink> 文件拖放到这里！",
+      "INVALID": "文件格式不正确！",
+      "UPLOADING": "正在上传",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs"
     }
   },
   "POWERUPS": {
