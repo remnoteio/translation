@@ -199,22 +199,22 @@
         "CAPITALIZE_FROM_SEARCH": {
           "TITLE": "搜索中创建 Rem",
           "DESCRIPTION": {
-            "PC": "在搜索中使用 Ctrl + 回车键创建 Rem 时将首字母大写",
-            "MAC": "在搜索中使用 Cmd + 回车键创建 Rem 时将首字母大写"
+            "PC": "搜索中按下 Ctrl + Enter 键创建 Rem 时自动将首字母大写",
+            "MAC": "搜索中使用 Cmd + Enter 创建 Rem 时自动将首字母大写"
           }
         },
         "CREATE_CONCEPTS_FROM_SEARCH": {
           "TITLE": "搜索中创建概念",
           "DESCRIPTION": {
-            "PC": "在搜索中使用 Ctrl + 回车键创建 Rem 时将其转化为概念",
-            "MAC": "在搜索中使用 Ctrl + 回车键创建 Rem 时将其转化为概念"
+            "PC": "搜索中按下 Ctrl + Enter 键创建 Rem 时自动转化为概念(Concept)",
+            "MAC": "搜索中按下 Cmd+ Enter 键创建 Rem 时自动转化为概念(Concept)"
           }
         },
         "CREATE_STUBS_FROM_SEARCH": {
           "TITLE": "搜索中创建 Stub",
           "DESCRIPTION": {
-            "PC": "在搜索中使用 Ctrl + 回车键创建 Rem 时将其打上“Stub”标签",
-            "MAC": "在搜索中使用 Cmd + 回车键创建 Rem 时将其打上“Stub”标签"
+            "PC": "搜索中按下 Ctrl + Enter 键创建 Rem 时自动打上“Stub”标签",
+            "MAC": "搜索中使用 Cmd + Enter 键创建 Rem 时自动打上“Stub”标签"
           }
         },
         "INSERT_EMOJIS_AS_REFERENCES": {
@@ -324,7 +324,7 @@
     "EDITOR_INTERFACE": {
       "SINGLE_CLICK_REFERENCES_TO_OPEN": {
         "TITLE": "单击打开引用",
-        "LABEL": "当您点击引用时，会立即跳转到被引用的内容，而不是打开引用菜单。（您总是可以通过右键单击调出引用菜单）"
+        "LABEL": "点击引用会立即跳转到被引用的内容，而不是打开引用菜单。（您总是可以通过右键单击调出引用菜单）"
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
         "TITLE": "自动缩放项目符号",
@@ -336,7 +336,7 @@
       },
       "PREVIEW_REM_ON_HOVER": {
         "TITLE": "预览引用内容",
-        "LABEL": "当鼠标悬停在引用上时，显示其引用内容的预览"
+        "LABEL": "鼠标悬停在引用上显示其引用内容的预览"
       },
       "ENABLE_ZOOM_INTO_BULLET": {
         "TITLE": "启用缩放项目符号",
@@ -549,7 +549,7 @@
       "SELECT_FILES_TO_UPLOAD": "选择上传文件",
       "EMPTY": "请将文件拖放到这里!（支持 PDF、Word 文档、PPT 以及<moreLink>更多</moreLink>类型）",
       "INVALID": "无效文件格式！",
-      "UPLOADING": "上传中...",
+      "UPLOADING": "正在上传",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDF"
