@@ -1,7 +1,7 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "语言",
-    "TRANSLATION_INFO_SETTINGS": "翻译正在进行中，<br>您可以先阅读<guideLink>教程</guideLink>，并使用<editorLink>网络编辑器</editorLink>来加速翻译。",
+    "TRANSLATION_INFO_SETTINGS": "翻译正在进行中，您将看到英语和所选语言的混合。<br>您可以先阅读<guideLink>教程</guideLink>，然后使用<editorLink>网络编辑器</editorLink>帮我们加速翻译。",
     "TRANSLATION_IN_PROGRESS": "RemNote 的翻译仍然在进行中。您可以在<editorLink>on inlang</editorLink>上<bold>贡献翻译</bold>。"
   },
   "COMMON": {
@@ -20,7 +20,7 @@
   "SETTINGS": {
     "ACCOUNT": {
       "PROFILE_TITLE": "个人资料",
-      "MY_PROFILE": "我的个人资料",
+      "MY_PROFILE": "我的资料",
       "PROFILE": {
         "KEYWORDS": "个人用户资料"
       },
@@ -30,18 +30,18 @@
       },
       "NAVIGATION_TITLE": "功能导航",
       "NAVIGATION": {
-        "KEYWORDS": "导出和备份 垃圾箱 查看已删除的Rem 导入知识库 查看所有卡片 下载每日备份 高级设置 删除所有Rem"
+        "KEYWORDS": "导出和备份 垃圾箱 查看已删除的Rem 导入知识库 查看所有记忆卡片 下载每日备份 高级设置 删除所有Rem"
       },
       "AUTHENTICATION_TITLE": "认证授权",
       "AUTHENTICATION": {
-        "KEYWORDS": "注销 注销Google 登录方法 添加 断开连接 登录 注册"
+        "KEYWORDS": "注销 注销 Google 登录方法 添加 断开连接 登录 注册"
       },
       "ADVANCED_TITLE": "高级设置",
       "ADVANCED": {
         "KEYWORDS": "支持 重置搜索 修复错误"
       },
       "DANGER_ZONE_TITLE": "风险操作",
-      "PRIVACY_NOTE": "隐私：请阅读我们的<policyLink>隐私政策</policyLink>，或者在<hubLink>隐私中心</hubLink>中更改您的设置。",
+      "PRIVACY_NOTE": "隐私：阅读我们的<policyLink>隐私政策</policyLink>，或在我们的<hubLink>隐私中心</hubLink>中更改您的设置。",
       "DANGER_ZONE": {
         "TITLE": "风险操作",
         "KEYWORDS": "同步日志 删除账户 重置演示进度 重置导引 高级账户设置"
@@ -59,7 +59,7 @@
         "KEYWORDS": "版本"
       },
       "SUPPORT": {
-        "TITLE": "获得帮助",
+        "TITLE": "技术支持",
         "KEYWORDS": "支持单 运行 帮助"
       },
       "PRIVACY": {
@@ -76,17 +76,17 @@
       "AI": {
         "ENABLE": {
           "TITLE": "启用人工智能(AI)功能",
-          "DESCRIPTION": "使用基于人工智能的自动补全、分级和生成记忆卡片的功能。当启用人工智能功能后，您的笔记片段将被发送到 OpenAI。了解 OpenAI 的隐私政策，请访问 https://openai.com/policies/privacy-policy。"
+          "DESCRIPTION": "使用基于人工智能的自动补全、评分和生成记忆卡片的功能。当您启用人工智能功能后，您的笔记片段将被发送到 OpenAI。请访问 https://openai.com/policies/privacy-policy 浏览 Open AI 的隐私政策。"
         },
         "OPENAI_KEY": {
           "TITLE": "OpenAI API 密钥",
-          "DESCRIPTION": "如果您发现自己超出每月的人工智能请求配额，您可以在 https://platform.openai.com/account/api-keys 注册一个 API 密钥(按请求次数付费)，然后在此输入。请注意，这是一个测试版功能，随时可能被移除。"
+          "DESCRIPTION": "如果您发现使用量超出每月的 AI 请求配额，您可以在 https://platform.openai.com/account/api-keys 注册 API 密钥(按请求次数付费)并在此输入。请注意，这是一个测试版功能，未来随时可能被移除。"
         }
       },
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "每日最高目标",
-          "DESCRIPTION": "设置每日可以复习的最大记忆卡片数量"
+          "DESCRIPTION": "限制 RemNote 要求每天复习的最大记忆卡片数量"
         },
         "TODAYS_TARGET": "今日目标：",
         "TODAYS_TARGET_EXPLANATION": "如果您每天都能达到预定目标，RemNote 会尝试自动设置您的每日目标，以便在接下来的 7 天内完成复习所有需要复习的卡片。注意，自动设置的目标值永远不会超过上述每日最高目标。"
@@ -168,8 +168,8 @@
           "MAC": "Opt + 回车键拆分文本"
         },
         "DESCRIPTION": {
-          "PC": "在 Rem 中使用 Enter 键实现软换行（在当前 Rem 中插入换行符），同时使用 Alt + Enter 键实现硬换行（将文本拆分成两个独立的 Rem）。（默认情况下Shift + Enter 键和 Enter 键分别实现上述行为）",
-          "MAC": "在 Rem 中使用 Return 键实现软换行（在当前 Rem 中插入换行符），同时使用 Opt+ Return 键实现硬换行（将文本拆分成两个独立的 Rem）。（默认情况下Shift + Return 键和 Return 键分别实现上述行为）"
+          "PC": "在 Rem 中按 Enter 键实现软换行（在当前 Rem 中插入换行符），同时使用 Alt + Enter 键实现硬换行（将文本拆分成两个独立的 Rem）。（默认情况下Shift + Enter 键和 Enter 键分别实现上述行为）",
+          "MAC": "在 Rem 中按 Return 键实现软换行（在当前 Rem 中插入换行符），同时按 Opt+ Return 键实现硬换行（将文本拆分成两个独立的 Rem）。（默认情况下Shift + Return 键和 Return 键分别实现上述行为）"
         }
       },
       "ENTER_TO_OUTDENT": {
@@ -199,22 +199,22 @@
         "CAPITALIZE_FROM_SEARCH": {
           "TITLE": "搜索中创建 Rem",
           "DESCRIPTION": {
-            "PC": "搜索中按下 Ctrl + Enter 键创建 Rem 时自动将首字母大写",
-            "MAC": "搜索中使用 Cmd + Enter 创建 Rem 时自动将首字母大写"
+            "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时自动将首字母大写",
+            "MAC": "搜索中按 Cmd + Enter 创建 Rem 时自动将首字母大写"
           }
         },
         "CREATE_CONCEPTS_FROM_SEARCH": {
           "TITLE": "搜索中创建概念",
           "DESCRIPTION": {
-            "PC": "搜索中按下 Ctrl + Enter 键创建 Rem 时自动转化为概念(Concept)",
-            "MAC": "搜索中按下 Cmd+ Enter 键创建 Rem 时自动转化为概念(Concept)"
+            "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时自动转化为概念(Concept)",
+            "MAC": "搜索中按 Cmd+ Enter 键创建 Rem 时自动转化为概念(Concept)"
           }
         },
         "CREATE_STUBS_FROM_SEARCH": {
           "TITLE": "搜索中创建 Stub",
           "DESCRIPTION": {
-            "PC": "搜索中按下 Ctrl + Enter 键创建 Rem 时自动打上“Stub”标签",
-            "MAC": "搜索中使用 Cmd + Enter 键创建 Rem 时自动打上“Stub”标签"
+            "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时自动打上“Stub”标签",
+            "MAC": "搜索中按 Cmd + Enter 键创建 Rem 时自动打上“Stub”标签"
           }
         },
         "INSERT_EMOJIS_AS_REFERENCES": {
