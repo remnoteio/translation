@@ -431,8 +431,8 @@
     "PROPERTIES_HELP_TEXT": {
       "0": "属性用于描述标签。例如，在名为\"图书\"的标签中，可以添加作者、流派、阅读进度等属性！"
     },
-    "TEMPLATES_HELP_TEXT": "标签的模板是一个 RemNote 文档，它可以自动复制模板中的内容到使用它作为标签的 Rem 中。你可以在模板中添加标题、清单以及其他更多内容。",
-    "AUTO_APPLY_HELP_TEXT": "此模板将自动应用到表格的所有行中，或者所有使用此模板的 Rem 中。",
+    "TEMPLATES_HELP_TEXT": "标签模板是 RemNote 文档，可以自动复制其内容到使用该标签的 Rem 中。可以在模板中直接添加标题、清单等内容。",
+    "AUTO_APPLY_HELP_TEXT": "此模板将自动应用到表格的所有行中，或用此模板的标记的所有 Rem 中。",
     "ADD_PROPERTY": "添加属性",
     "NEW_PROPERTY": "新属性"
   },
@@ -441,12 +441,12 @@
     "UNTITLED_PROPERTY_TITLE": "未命名属性",
     "TABLE_CREATION": {
       "NEW_TAG": {
-        "TITLE": "创建一个新的 {{viewName}} + 标签",
-        "DESCRIPTION": "从一个带有新标签的空白 {{viewName}} 开始"
+        "TITLE": "创建新的 {{viewName}} 和标签",
+        "DESCRIPTION": "从带有新标签的空白 {{viewName}} 开始"
       },
       "EXISTING_TAG": {
-        "TITLE": "应用标签",
-        "DESCRIPTION": "链接到一个 {{viewName}} 源"
+        "TITLE": "使用现有标签",
+        "DESCRIPTION": "链接到现有的 {{viewName}} 源"
       }
     },
     "MENUS": {
@@ -455,12 +455,12 @@
         "RENAME_TAG": "重命名标签",
         "VIEW_TAG": "查看标签",
         "EDIT_TABLE_NAME": "编辑表格名",
-        "PRESS_TO_SAVE": "按 ↩ 保存"
+        "PRESS_TO_SAVE": "按 Enter 键保存"
       },
       "FILTER": {
         "FILTER_TITLE": "筛选",
         "ADD_ADVANCED_FILTER": "添加高级筛选条件",
-        "NO_PROPERTIES_AVAILABLE": "无可用属性，请先添加新属性",
+        "NO_PROPERTIES_AVAILABLE": "无可用属性，请添加新属性",
         "NO_FILTER": "无筛选条件"
       },
       "SORT": {
@@ -488,15 +488,15 @@
         "ADD_TABLE_VIEW_TITLE": "添加表格视图",
         "ADD_LIST_VIEW_TITLE": "添加列表视图",
         "DUPLICATE_LIST_VIEW_TITLE": "创建副本",
-        "DUPLICATE_VIEW_MESSAGE_COMMON": "创建视图副本以使用新的筛选条件、排序以及其他功能！由于视图(副本)间共享同一来源的内容，因而任何操作都不会产生非预期的重复实例。",
+        "DUPLICATE_VIEW_MESSAGE_COMMON": "创建视图副本以应用新的筛选器、排序以及其他功能！内容在同源视图之间共享，因此不会出现任何意外的重复实例。",
         "SHOW_VERTICAL_LINES_TITLE": "显示垂直网格线",
-        "INCLUDE_NESTED_DESCENDANTS": "包含嵌套的元素",
+        "INCLUDE_NESTED_DESCENDANTS": "包含嵌套后代",
         "CELL_LIST_HEIGHT": {
           "CELL_LIST_HEIGHT_TITLE": "单元格高度",
-          "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "单元格中可以包含多个项目符号！请调整单元格高度以便于查看内容。",
+          "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "单元格可包含多个项目符号！请调整单元格高度以便于查看内容。",
           "COMFORTABLE_TITLE": "适中",
           "FULL_TITLE": "填充",
-          "COMPACT_TITLE": "压缩"
+          "COMPACT_TITLE": "紧凑"
         },
         "DELETE_TABLE": "删除表格",
         "DELETE_LIST": "删除大纲"
@@ -508,12 +508,12 @@
     "LABEL_TODAYS_NOTE": "今日笔记",
     "LABEL_FLASHCARDS": "记忆卡片",
     "LABEL_EDIT_LATER": "稍后编辑",
-    "LABEL_COMMUNITY": "社区",
-    "LABEL_ONBOARDING_CALL": "发起一个新用户引导电话",
+    "LABEL_COMMUNITY": "共享记忆卡片",
+    "LABEL_ONBOARDING_CALL": "发起新用户使用导览",
     "LABEL_INTERACTIVE_TOUR": "互动导览",
     "LABEL_RESUME_INTERACTIVE_TOUR": "恢复互动导览",
     "LABEL_TUTORIALS": "教程",
-    "TOOLTIP_FLASHCARD_HOME": "前往记忆卡片首页",
+    "TOOLTIP_FLASHCARD_HOME": "前往记忆卡片主页",
     "TOOLTIP_EDIT_LATER_QUEUE": "打开稍后编辑队列"
   },
   "PAGES": {
@@ -575,12 +575,12 @@
       "ERRORS": {
         "SHARING": {
           "NO_TITLE": {
-            "SRC": "您要共享的文档没有标题，请在发布前添加一个标题",
+            "SRC": "您要共享的文档没有标题，请在发布前添加标题",
             "SUBDOCUMENT": "您的一个子文档没有标题，请在发布前添加一个标题"
           },
           "NO_CONTENT": {
-            "SRC": "您要共享的文件 Rem 数量不达标，请至少添加 {{minimum}} 个 Rem 后再试一次",
-            "SUBDOCUMENT": "您的某个子文档 Rem 数量不达标，文档只有达到 {{minimum}} 个 Rem 后才能发布"
+            "SRC": "您要共享的文件内部 Rem 数量不达标，请至少添加 {{minimum}} 个 Rem 后再试一次",
+            "SUBDOCUMENT": "您的某个子文档内部 Rem 数量不达标，文档只有达到 {{minimum}} 个 Rem 后才能发布"
           }
         }
       }
@@ -640,12 +640,12 @@
       },
       "TABLE_TAG": {
         "TITLE": "表格和标签",
-        "DESCRIPTION": "创建表格、模板和数据库"
+        "DESCRIPTION": "创建用于表格和模板的标签"
       },
       "UPLOAD_FILE": {
         "TITLE": "上传并标注文件",
-        "DESCRIPTION": "高亮、标注和引用 PDF 等",
-        "PAYWALL": "您已达到 PDF 上传限制",
+        "DESCRIPTION": "高亮并引用 PDF、PowerPoint、Word 文档或其他文件",
+        "PAYWALL": "您的 PDF 上传量已达到上限",
         "todo_for_the_item_below": "是否将其移动到全局功能名称对象中？",
         "FEATURE_NAME": "PDF 高亮"
       }
@@ -664,7 +664,7 @@
           "TITLE": "创建记忆卡片"
         },
         "3": {
-          "TITLE": "使用“Tab”键结构化笔记"
+          "TITLE": "使用 Tab 键结构化笔记"
         }
       }
     }
