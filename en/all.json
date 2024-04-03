@@ -277,10 +277,6 @@
         "TITLE": "Full Width",
         "LABEL": "Expand documents to use the full width of the screen."
       },
-      "SIMPLIFIED_UI": {
-        "TITLE": "Simplified UI",
-        "LABEL": "Simplify the UI and hide advanced features."
-      },
       "IN_APP_SUGGESTIONS": {
         "TITLE": "Top-of-Document Onboarding Tips",
         "LABEL": "Show tips on RemNote features you could try at the top of your document.",
