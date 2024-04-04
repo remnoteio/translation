@@ -546,7 +546,15 @@
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs"
     },
     "WIKIMEDIA_COMMONS": {
-      "LABEL": "Pesquisar imagem"
+      "LABEL": "Pesquisar imagem",
+      "SELECT_FILES": "Escolher arquivos",
+      "SELECT_FILES_TO_UPLOAD": "Escolher arquivos para enviar",
+      "EMPTY": "Solte PDFs, docs do Word, PPTs e<moreLink> mais</moreLink> aqui!",
+      "INVALID": "Formato de arquivo incorreto!",
+      "UPLOADING": "Enviando...",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs"
     }
   },
   "POWERUPS": {
