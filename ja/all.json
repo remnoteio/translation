@@ -189,10 +189,6 @@
         "TITLE": "全画面表示",
         "LABEL": "ドキュメントをスクリーン全体に表示します。"
       },
-      "SIMPLIFIED_UI": {
-        "TITLE": "簡単なUI",
-        "LABEL": "UI を簡素化し、高度な機能を非表示にします。"
-      },
       "LEFT_SIDEBAR_TUTORIALS": {
         "TITLE": "アプリ内チュートリアル",
         "LABEL": "現在使用している RemNote の機能に関するチュートリアルを画面の隅に表示します。",
@@ -209,6 +205,10 @@
       "INTERFACE": {
         "TITLE": "RemNote 表示言語",
         "KEYWORDS": "言語 言語 翻訳 翻訳 i18n"
+      },
+      "SIMPLIFIED_UI": {
+        "TITLE": "簡単なUI",
+        "LABEL": "UI を簡素化し、高度な機能を非表示にします。"
       }
     },
     "EDITOR_INTERFACE": {

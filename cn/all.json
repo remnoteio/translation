@@ -284,10 +284,6 @@
         "TITLE": "全屏显示",
         "LABEL": "全屏显示文档内容"
       },
-      "SIMPLIFIED_UI": {
-        "TITLE": "界面简化",
-        "LABEL": "简化界面显示并隐藏高级功能"
-      },
       "IN_APP_SUGGESTIONS": {
         "TITLE": "顶级文档 使用技巧",
         "LABEL": "在文档顶部显示可以试用的 RemNote 功能提示",
@@ -310,6 +306,10 @@
       "INTERFACE": {
         "TITLE": "RemNote 界面语言",
         "KEYWORDS": "语言 语言 翻译 i18n"
+      },
+      "SIMPLIFIED_UI": {
+        "TITLE": "界面简化",
+        "LABEL": "简化界面显示并隐藏高级功能"
       },
       "ONBOARDING_TIPS_FEATURES": {
         "TITLE": "功能提示",

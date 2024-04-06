@@ -279,10 +279,6 @@
         "TITLE": "Largura Completa ",
         "LABEL": "Expanda os documentos para usar toda a largura da tela."
       },
-      "SIMPLIFIED_UI": {
-        "TITLE": "IU Simplificada",
-        "LABEL": "Simplifique a interface e oculte recursos avançados."
-      },
       "IN_APP_SUGGESTIONS": {
         "TITLE": "Dicas de Integração na Topo do Documento",
         "LABEL": "Mostre dicas sobre os recursos do RemNote na parte superior do seu documento.",
@@ -305,6 +301,10 @@
       "INTERFACE": {
         "TITLE": "Idioma da interface do RemNote",
         "KEYWORDS": "idioma idioma tradução i18n"
+      },
+      "SIMPLIFIED_UI": {
+        "TITLE": "IU Simplificada",
+        "LABEL": "Simplifique a interface e oculte recursos avançados."
       },
       "ONBOARDING_TIPS_FEATURES": {
         "TITLE": "Dicas de Onboarding"
