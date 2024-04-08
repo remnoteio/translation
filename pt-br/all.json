@@ -1,8 +1,7 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "Idioma",
-    "TRANSLATION_INFO_SETTINGS": "A tradução ainda está em andamento.<br> Você pode nos ajudar lendo o <guideLink>tutorial</guideLink> e então usando nosso <editorLink>editor web</editorLink> .",
-    "TRANSLATION_IN_PROGRESS": "A tradução do RemNote ainda está em andamento. <bold>Você pode contribuir com </bold> traduções <editorLink>no Inlang</editorLink>."
+    "TRANSLATION_INFO_SETTINGS": "A tradução ainda está em andamento.<br> Você pode nos ajudar lendo o <guideLink>tutorial</guideLink> e então usando nosso <editorLink>editor web</editorLink> ."
   },
   "COMMON": {
     "ACTIONS": {
@@ -267,8 +266,7 @@
       "COPYLINK": "Copiar Link",
       "FRIENDS_TITLE": "Amigos",
       "INVITED_YOU": "(convidou você)",
-      "NOT_CONFIRMED_EMAIL": "(não confirmou e-mail)",
-      "SUBSCRIBE_NOTICE": "<div><br />Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>"
+      "NOT_CONFIRMED_EMAIL": "(não confirmou e-mail)"
     },
     "GLOBAL_INTERFACE": {
       "DARK_MODE": {
@@ -278,10 +276,6 @@
       "FULL_WIDTH": {
         "TITLE": "Largura Completa ",
         "LABEL": "Expanda os documentos para usar toda a largura da tela."
-      },
-      "SIMPLIFIED_UI": {
-        "TITLE": "IU Simplificada",
-        "LABEL": "Simplifique a interface e oculte recursos avançados."
       },
       "IN_APP_SUGGESTIONS": {
         "TITLE": "Dicas de Integração na Topo do Documento",
@@ -305,14 +299,6 @@
       "INTERFACE": {
         "TITLE": "Idioma da interface do RemNote",
         "KEYWORDS": "idioma idioma tradução i18n"
-      },
-      "ONBOARDING_TIPS_FEATURES": {
-        "TITLE": "Dicas de Onboarding"
-      },
-      "ONBOARDING_TIPS": {
-        "TITLE": "Dicas de Integração",
-        "LABEL": "Mostrar dicas sobre os recursos do RemNote que você está usando no canto da tela.",
-        "KEYWORDS": "dicas ajuda suporte aprender tutorial"
       }
     },
     "EDITOR_INTERFACE": {
@@ -349,11 +335,7 @@
         "TITLE": "Ordenar Barra Lateral",
         "KEYWORDS": "Organizar barras-laterais ordernar de-A-a-Z"
       },
-      "PRIVACY_NOTE": "Privacidade: Leia nossa<policyLink>Política de Privacidade</policyLink>, ou altere suas configurações em nosso<hubLink>Centro de privacidade</hubLink> .",
-      "COMMUNITY_TAB": {
-        "TITLE": "Link da Comunidade na Barra Lateral",
-        "LABEL": "Abre a Aba da Comunidade, onde você pode encontrar documentos públicos e grupos de estudo, na barra lateral. Se você desativar isso, ainda poderá navegar até ele por meio do menu de sua conta."
-      }
+      "PRIVACY_NOTE": "Privacidade: Leia nossa<policyLink>Política de Privacidade</policyLink>, ou altere suas configurações em nosso<hubLink>Centro de privacidade</hubLink> ."
     },
     "NOTIFICATIONS": {
       "ENABLE_PUSH_TITLE": "Ativar notificações flutuantes?",
@@ -540,6 +522,17 @@
       "SELECT_FILES_TO_UPLOAD": "Selecione arquivos para fazer upload",
       "EMPTY": "Arraste PDFs, documentos de Word, PPTs e <moreLink>mais</moreLink> aqui!",
       "INVALID": "Formato incorreto de arquivo",
+      "UPLOADING": "Enviando...",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs"
+    },
+    "WIKIMEDIA_COMMONS": {
+      "LABEL": "Pesquisar imagem",
+      "SELECT_FILES": "Escolher arquivos",
+      "SELECT_FILES_TO_UPLOAD": "Escolher arquivos para enviar",
+      "EMPTY": "Solte PDFs, docs do Word, PPTs e<moreLink> mais</moreLink> aqui!",
+      "INVALID": "Formato de arquivo incorreto!",
       "UPLOADING": "Enviando...",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",

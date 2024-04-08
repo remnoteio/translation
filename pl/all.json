@@ -256,10 +256,6 @@
       "FULL_WIDTH": {
         "TITLE": "Pełna szerokość"
       },
-      "SIMPLIFIED_UI": {
-        "TITLE": "Uproszczony interfejs użytkownika",
-        "LABEL": "Uprość interfejs użytkownika i ukryj zaawansowane funkcje."
-      },
       "IN_APP_SUGGESTIONS": {
         "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik"
       },
@@ -280,6 +276,10 @@
       "INTERFACE": {
         "TITLE": "Język Interfejsu RemNote (Alpha)",
         "KEYWORDS": "język język tłumaczenia i18n"
+      },
+      "SIMPLIFIED_UI": {
+        "TITLE": "Uproszczony interfejs użytkownika",
+        "LABEL": "Uprość interfejs użytkownika i ukryj zaawansowane funkcje."
       },
       "ONBOARDING_TIPS_FEATURES": {
         "TITLE": "Inteligentne Wskazówki",
