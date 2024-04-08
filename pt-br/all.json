@@ -299,6 +299,18 @@
       "INTERFACE": {
         "TITLE": "Idioma da interface do RemNote",
         "KEYWORDS": "idioma idioma tradução i18n"
+      },
+      "SIMPLIFIED_UI": {
+        "TITLE": "IU Simplificada",
+        "LABEL": "Simplifique a interface e oculte recursos avançados."
+      },
+      "ONBOARDING_TIPS_FEATURES": {
+        "TITLE": "Dicas de Onboarding"
+      },
+      "ONBOARDING_TIPS": {
+        "TITLE": "Dicas de Integração",
+        "LABEL": "Mostrar dicas sobre os recursos do RemNote que você está usando no canto da tela.",
+        "KEYWORDS": "dicas ajuda suporte aprender tutorial"
       }
     },
     "EDITOR_INTERFACE": {

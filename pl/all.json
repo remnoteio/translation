@@ -68,6 +68,16 @@
       }
     },
     "FLASHCARDS": {
+      "AI": {
+        "ENABLE": {
+          "TITLE": "Włącz funkcje AI",
+          "DESCRIPTION": "Korzystaj z autouzupełniania, oceniania i generowania fiszek w oparciu o sztuczną inteligencję. Fragmenty Twoich notatek zostaną wysłane do OpenAI, jeśli będziesz korzystać z wielu funkcji AI. Politykę prywatności OpenAI znajdziesz na https://openai.com/policies/privacy-policy."
+        },
+        "OPENAI_KEY": {
+          "TITLE": "Klucz API OpenAI",
+          "DESCRIPTION": "Jeśli przekroczysz miesięczny limit żądań AI, możesz zarejestrować się w celu uzyskania klucza API na stronie https://platform.openai.com/account/api-keys i wprowadzić go tutaj. Należy pamiętać, że jest to funkcja w wersji beta i może zostać usunięta w dowolnym momencie."
+        }
+      },
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "Maksymalny Dzienny Cel",
@@ -94,6 +104,9 @@
           "TITLE": "Próg Fiszek Udręki",
           "DESCRIPTION": "Fiszki Udręki to trudne fiszki, których ciągle się uczysz, a potem znowu zapominasz. Jeśli naciśniesz przycisk „zapomniałem/-am” na fiszce więcej razy niż ta wartość, ostrzeżemy Cię, abyś mógł zastanowić się, dlaczego masz z nią problem. Ustaw tę opcję na wyższe wartości, aby rzadziej wyświetlać ostrzeżenie o Fiszce Udręki."
         },
+        "LEARN_AHEAD_LIMIT": {
+          "TITLE": "Limit nauki z wyprzedzeniem"
+        },
         "AUTOPLAY_MEDIA": {
           "TITLE": "Odtwarzaj automatycznie dźwięk",
           "DESCRIPTION": "Podczas pokazywania fiszki automatycznie odtwarzaj każdą ścieżkę dźwiękową lub wideo na niej."
@@ -105,6 +118,10 @@
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "TITLE": "Uproszczone przyciski w fiszkach",
           "DESCRIPTION": "Pokazuj tylko przyciski \"Zapomniałem/-am\" i \"Przypomniałem/-am z trudem\" podczas nauki fiszek, zamiast wszystkich pięciu opcji."
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "TITLE": "Następny dzień zaczyna się o",
+          "DESCRIPTION": "O tej porze każdego dnia w Twojej kolejce pojawiają się nowe karty."
         }
       },
       "VISUAL": {
@@ -148,6 +165,9 @@
           "PC": "Kiedy naciśniesz  Enter w środku Rem, utwórz podział wiersza w tym Rem i zamiast tego użyj Alt+Enter, aby podzielić tekst na dwa oddzielne Remy. (Domyślnie te funkcje pełnią odpowiednio Shift+Enter i sam klawisz Enter.)",
           "MAC": "Kiedy naciśniesz  Return w środku Rem, utwórz podział wiersza w tym Rem i zamiast tego użyj Opt+Return, aby podzielić tekst na dwa osobne Remy. (Domyślnie te funkcje pełnią odpowiednio Shift+Return i sam klawisz Return.)"
         }
+      },
+      "ENTER_TO_OUTDENT": {
+        "TITLE": "Naciśnij Enter, aby zmniejszyć wcięcie"
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
         "TITLE": "Podwójny ukośnik dla Menu oleceń",
@@ -254,9 +274,11 @@
         "LABEL": "Używaj tej palety kolorów."
       },
       "FULL_WIDTH": {
-        "TITLE": "Pełna szerokość"
+        "TITLE": "Pełna szerokość",
+        "LABEL": "Rozwiń dokumenty, aby wykorzystać całą szerokość ekranu."
       },
       "IN_APP_SUGGESTIONS": {
+        "LABEL": "Pokaż wskazówki dotyczące funkcji RemNote, które możesz wypróbować na górze dokumentu.",
         "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
@@ -452,9 +474,12 @@
         "MOVE_TABLE_TO_TITLE": "Przenieś Tabele Do",
         "MOVE_LIST_TO_TITLE": "Przenieś Listę Do",
         "DUPLICATE_TABLE_VIEW_TITLE": "Zduplikuj Widok abeli",
+        "ADD_TABLE_VIEW_TITLE": "Dodaj widok tabeli",
+        "ADD_LIST_VIEW_TITLE": "Dodaj widok listy",
         "DUPLICATE_LIST_VIEW_TITLE": "Zduplikuj Widok Listy",
         "DUPLICATE_VIEW_MESSAGE_COMMON": "Zduplikuj widok, aby zastosować nowy filtr, sortowanie lub więcej! Treść jest współdzielona pomiędzy widokami tego samego źródła, więc nie wystąpią żadne przypadkowe zduplikowane doku.",
         "SHOW_VERTICAL_LINES_TITLE": "Pokaż Linie Pionowe",
+        "INCLUDE_NESTED_DESCENDANTS": "Uwzględnij zagnieżdżonych potomków",
         "CELL_LIST_HEIGHT": {
           "CELL_LIST_HEIGHT_TITLE": "Wysokość Komórki",
           "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Komórki mogą zawierać wiele punktorów! Ogranicz wysokość komórki, aby ułatwić przeglądanie.",
@@ -517,6 +542,17 @@
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} pliki/-ów PDF"
+    },
+    "WIKIMEDIA_COMMONS": {
+      "LABEL": "Wyszukiwanie obrazka",
+      "SELECT_FILES": "Wybierz pliki",
+      "SELECT_FILES_TO_UPLOAD": "Wybierz pliki do przesłania",
+      "EMPTY": "Upuść pliki PDF, dokumenty Word, PPT i <moreLink>więcej</moreLink> Tutaj!",
+      "INVALID": "Nieprawidłowy format pliku!",
+      "UPLOADING": "Przesyłanie...",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} plik PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} pliki PDF"
     }
   },
   "POWERUPS": {
@@ -601,6 +637,24 @@
         "PAYWALL": "Osiągnąłeś limit przesyłania plików PDF.",
         "todo_for_the_item_below": "przenieść to do globalnego obiektu nazwy funkcji?",
         "FEATURE_NAME": "Wyróżnianie PDF"
+      }
+    }
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "0": {
+          "TITLE": "Utwórz folder"
+        },
+        "1": {
+          "TITLE": "Dodaj punktor"
+        },
+        "2": {
+          "TITLE": "Utwórz fiszkę"
+        },
+        "3": {
+          "TITLE": "Porządkuj notatki urzywając Tab"
+        }
       }
     }
   }
