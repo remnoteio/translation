@@ -29,7 +29,7 @@
       },
       "NAVIGATION_TITLE": "Navegação",
       "NAVIGATION": {
-        "KEYWORDS": "Exportação e Backup Lixeira Exibir Deleteado Rem Importar Base de Conhecimento Exibir Todos os Cartões Baixar um Backup Diário Configurações Avançadas Excluir Todos Rem"
+        "KEYWORDS": "Exportação e Backup Lixeira Exibir Deleteado Rem Importar Base de Conhecimento Exibir Todos os Cartões Baixar um Backup Diário Configurações Avançadas Excluir Todos os Rem"
       },
       "AUTHENTICATION_TITLE": "Autenticação",
       "AUTHENTICATION": {
@@ -46,8 +46,8 @@
         "KEYWORDS": "sincronizar log excluir conta redefinir passo a passo progresso redefinir onboarding avançadas conta configurações "
       },
       "NOTIFICATIONS": {
-        "TITLE": "Notificações de Celular de Sequência de Meta",
-        "DESCRIPTION": "Enviar lembretes sobre sua sequência de metas diárias de flashcards. Os lembretes são enviados às 18h todos os dias, no seu fuso horário local."
+        "TITLE": "Notificações de Sequência para o Celular",
+        "DESCRIPTION": "Enviar lembretes sobre sua sequência diária de flashcards. Os lembretes são enviados às 18h todos os dias, no seu fuso horário local."
       },
       "SYNCING": {
         "TITLE": "Sincronizando",
@@ -74,7 +74,7 @@
         },
         "OPENAI_KEY": {
           "TITLE": "Chave da API OpenAI",
-          "DESCRIPTION": "Se você acabar excedendo sua cota mensal de requisições IA, você pode se cadastrar para solicitar uma chave API em https://platform.openai.com/account/api-keys e inseri-la aqui, pagando pelo seu próprio uso. Note que isso é um recurso em beta e pode ser removido a qualquer momento."
+          "DESCRIPTION": "Se você acabar excedendo sua cota mensal de requisições de IA, você pode se cadastrar para solicitar uma chave API em https://platform.openai.com/account/api-keys e inseri-la aqui, pagando pelo seu próprio uso. Note que isso é um recurso em beta e pode ser removido a qualquer momento."
         }
       },
       "DAILY_TARGET": {
@@ -93,14 +93,14 @@
         },
         "NEW_CARDS_PER_DAY": {
           "TITLE": "Máximo de Novos Cards por Dia",
-          "DESCRIPTION": "Inclua no máximo esta quantidade de flashcards novos em sua revisão dia a cada dia. Dessa forma, novos cartões entrarão na sua fila a uma taxa diária constante, em vez de em um lote gigante."
+          "DESCRIPTION": "Inclua uma quantidade máxima de flashcards novos em sua revisão a cada dia. Dessa forma, novos cartões serão inseridos em sua fila a uma taxa diária constante, em vez de entrar tudo de uma vez."
         },
         "STALE_CARDS_PER_DAY": {
           "TITLE": "Máximo de Cards Obsoletos por Dia",
-          "DESCRIPTION": "Reintroduza no máximo esta quantidade de flashcards obsoletos em sua fila de flashcards todos os dias. Cards obsoletos são aqueles que são temporariamente retidos da fila porque você não os estuda há muito tempo e reaprende-los todos de uma vez seria exaustivo."
+          "DESCRIPTION": "Defina a quantidade máxima de flashcards obsoletos que você quer que sejam reintroduzidos aos poucos em sua fila de revisão diariamente. Cartões obsoletos são aqueles que são temporariamente retidos da fila porque você passou muito tempo sem estudá-los e reaprende-los todos de uma vez seria exaustivo."
         },
         "LEECH_THRESHOLD": {
-          "TITLE": "Limiar de Sanguessuga",
+          "TITLE": "Limite para Sanguessugas",
           "DESCRIPTION": "Sanguessugas são cartas difíceis que você continua aprendendo e depois esquecendo novamente. Se você pressionar “esqueci” em um cartão mais vezes do que o este valor, iremos avisá-lo para que você possa descobrir por que está tendo dificuldades neste card e resolver este problema. Defina valores mais altos para ver o aviso de sanguessuga com menos frequência."
         },
         "LEARN_AHEAD_LIMIT": {
@@ -112,12 +112,12 @@
           "DESCRIPTION": "Ao mostrar um flashcard, reproduz automaticamente qualquer áudio ou vídeo contido nele."
         },
         "TYPE_ANSWER": {
-          "TITLE": "Digitar Respostas",
+          "TITLE": "Digitar Resposta",
           "DESCRIPTION": "Mostra uma caixa de texto na frente de cada cartão e compara o que você digitou com a resposta no verso do cartão."
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "TITLE": "Botões dos Flashcard Simplificados ",
-          "DESCRIPTION": "Mostrar apenas os botões de resposta “Esqueci” e “Recuperei com esforço” ao estudar os flashcards, em vez de todas as cinco opções."
+          "DESCRIPTION": "Mostrar apenas os botões de resposta “Esqueci” e “Lembrei com esforço” ao estudar os flashcards, em vez de todas as cinco opções."
         },
         "NEXT_DAY_STARTS_AT": {
           "TITLE": "O próximo dia começa em",
@@ -140,18 +140,18 @@
           "DESCRIPTION": "Dar preferência para praticar juntos Rems que tenham referenciais entre si."
         },
         "TAG_CLUSTERS": {
-          "TITLE": "Agrumaento de Tags",
+          "TITLE": "Agrupamento de Tags",
           "DESCRIPTION": "Dar preferência para praticar juntos os Rems que tenham a mesma tag."
         },
         "HIERARCHY_CLUSTERS": {
           "TITLE": "Agrupamento de Hierarquia",
-          "DESCRIPTION": "Dar preferência para praticar juntos Rems relacinados pela sua hierarquia ."
+          "DESCRIPTION": "Dar preferência para praticar juntos Rems relacinados pela sua hierarquia."
         }
       },
       "STATISTICS": {
         "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
           "TITLE": "Tempo Máximo de Resposta do Flashcard",
-          "DESCRIPTION": "Se você demorar mais tempo que isso (em segundos) para responder um flashcard, deixará o resto do tempo fora de suas estatísticas."
+          "DESCRIPTION": "Se você demorar mais tempo que esse valor (em segundos) para responder um flashcard, esse tempo excedido ficará fora das suas estatísticas."
         }
       }
     },
@@ -188,20 +188,20 @@
       "GENERAL": {
         "ENABLE_SPELLCHECK": {
           "TITLE": "Ativar Verificação Ortográfica",
-          "DESCRIPTION": "Verifica se há erros de digitação no Rem que estiver em foco."
+          "DESCRIPTION": "Verifica se há erros de digitação no Rem que estiver em foco. A verificação ortográfica utiliza a linguagem padrão do seu navegador ou do sistema operacional."
         },
         "CAPITALIZE_FROM_SEARCH": {
-          "TITLE": "Capitalizar a Partir da Pesquisa",
+          "TITLE": "Alterar pra letra maiúscula a partir da Pesquisa",
           "DESCRIPTION": {
-            "PC": "Ao criar um Rem pressionando Ctrl+Enter em uma pesquisa, capitaliza as palavras do nome deste Rem.",
-            "MAC": "Ao criar um Rem pressionando Cmd+Return em uma pesquisa, capitaliza as palavras do nome deste Rem."
+            "PC": "Ao criar um Rem pressionando Ctrl+Enter em uma pesquisa, coloca o nome deste Rem em letras maiúsculas.",
+            "MAC": "Ao criar um Rem pressionando Cmd+Return em uma pesquisa, coloca o nome deste Rem em letras maiúsculas."
           }
         },
         "CREATE_CONCEPTS_FROM_SEARCH": {
           "TITLE": "Crie conceitos a partir da pesquisa",
           "DESCRIPTION": {
-            "PC": "Ao criar um Rem pressionando Ctrl+Enter em uma pesquisa, transforme-o em um Conceito.",
-            "MAC": "Ao criar um Rem pressionando Cmd+Return em uma pesquisa, transforme-o em um Conceito."
+            "PC": "Ao criar um Rem pressionando Ctrl+Enter em uma pesquisa, transforma ele em um Conceito.",
+            "MAC": "Ao criar um Rem pressionando Cmd+Return em uma pesquisa, transforma ele em um Conceito."
           }
         },
         "CREATE_STUBS_FROM_SEARCH": {
@@ -237,14 +237,14 @@
     },
     "PLANS": {
       "TITLE": "Planos",
-      "KEYWORDS": "convidar amigos plano alterar assinatura ganhar créditos grátis remnote enviar tweet email escolher plano vida-toda aprendizagem pro recursos detalhamento preços opções"
+      "KEYWORDS": "convidar amigos plano alterar assinatura ganhar créditos grátis remnote enviar tweet email escolher plano aprendizado vitalício pro recursos detalhamento preços opções"
     },
     "EARN_CREDIT": {
       "TITLE": "Ganhe Créditos",
-      "KEYWORDS": "convidar amigos ganhar créditos plano mudar assinatura ganhar créditos grátis remnote enviar tweet email escolher plano vida-toda aprendizagem pro recursos detalhamento preços opções",
+      "KEYWORDS": "convidar amigos ganhar créditos plano mudar assinatura ganhar créditos grátis remnote enviar tweet email escolher plano aprendizado vitalício pro recursos detalhamento preços opções",
       "INVITE_FRIENDS_REMNOTE": "Convide seus amigos para o RemNote!",
       "INVITE_FRIENDS_EARN_CREDIT": "Convide seus amigos para ganhar créditos! Você receberá <0>{{monthlyPrice}}</0> em crédito RemNote quando a pessoa que você convidou se inscrever com uma conta RemNote, e ele também receberá <0>{{monthlyPrice}}</0> de crédito para começar.",
-      "CREDIT_BALANCE": "Balanco de Creditos",
+      "CREDIT_BALANCE": "Balanço de Creditos",
       "CREDIT_BALANCE_TEXT": "Você tem<bold> {{userCredit}}</bold> de créditos restantes e ganhou<bold> {{userCreditEarned}}</bold> de créditos no total. {{months}} mês ou meses restantes de RemNote Pro gratuitamente.<div><br /> Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>",
       "TOAST_SUBSCRIBE": "Seus créditos serão aplicados automaticamente quando você assinar o RemNote Pro. Escolha um plano abaixo para começar!",
       "TOAST_RENEW": "Seus créditos serão aplicados automaticamente quando sua assinatura atual for renovada.",
@@ -360,7 +360,7 @@
       "TOGGLE_LABEL": "Controle quais notificações você deseja receber diretamente em seu dispositivo/e-mail",
       "DESCRIPTIONS": {
         "STREAK": {
-          "TITLE": "Notificações de Sequencia da Meta Diária",
+          "TITLE": "Notificações de Sequencia Diária",
           "LABEL": "Receba notificações diárias para manter sua sequência de estudos!"
         },
         "INVITE": {
@@ -413,7 +413,7 @@
     "ADD_NEW_PROPERTY": "Adicionar Propriedade Nova",
     "AUTO_APPLY": "Autoaplicar",
     "SET_AS_AUTO_APPLY_TEMPLATE": "Definir como Modelo Autoaplicável",
-    "TURN_OFF_AUTO_APPLY": "Desativar Autoaplicabilidade",
+    "TURN_OFF_AUTO_APPLY": "Desativar Aplicar Automaticamente",
     "VIEW_CONFIGURATION": "Configurar Tag",
     "HIDE_CONFIGURATION": "Ocultar Configurações",
     "PROPERTIES_HELP_TEXT": {
