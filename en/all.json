@@ -45,10 +45,6 @@
         "TITLE": "Danger Zone",
         "KEYWORDS": "sync log delete account reset walkthrough progress reset onboarding advanced account settings"
       },
-      "NOTIFICATIONS": {
-        "TITLE": "Mobile Streak Notifications",
-        "DESCRIPTION": "Send mobile push reminders about your daily flashcard streak. Reminders come at 6pm each day, in your local timezone."
-      },
       "SYNCING": {
         "TITLE": "Syncing",
         "KEYWORDS": "Force Sync Images & PDFs"
@@ -328,11 +324,17 @@
       "PRIVACY_NOTE": "Privacy: Read our <policyLink>Privacy Policy</policyLink>, or change your settings in our <hubLink>Privacy Hub</hubLink>."
     },
     "NOTIFICATIONS": {
+      "PUSH_ENABLE_MESSAGE": "Push notifications aren't configured on this device. Click here to set them up!",
+      "ENABLE_STREAK_TITLE": "Mobile Streak Notifications",
+      "ENABLE_STREAK_DESCRIPTION": "Receive daily reminders at 6pm about your flashcard streak",
+      "ENABLE_COMMUNITY_TITLE": "Shared Flashcards Notifications",
+      "ENABLE_COMMUNITY_LABEL": "Receive instant notifications when someone interacts with your shared content",
+      "TOGGLE_LABEL": "Control which notifications you want to receive directly to your device",
       "ENABLE_PUSH_TITLE": "Push notifications",
       "ENABLE_PUSH_LABEL": "Receive notifications directly to your device",
-      "ENABLE_DUE_CARDS_TITLE": "Due cards badge on mobile iOS",
-      "ENABLE_DUE_CARDS_LABEL": "Show the total number of due cards as a badge on the RemNote app icon",
-      "ENABLE_EMAIL_TITLE": "Enable email notifications?",
+      "ENABLE_DUE_CARDS_TITLE": "Due cards badge on iOS",
+      "ENABLE_DUE_CARDS_LABEL": "Show the total number of due cards as a badge on the RemNote app icon on your home screen",
+      "ENABLE_EMAIL_TITLE": "Enable email community notifications",
       "ENABLE_EMAIL_LABEL": "Receive notifications directly to your inbox",
       "TOGGLE_TITLE": "Notify me, when:",
       "DESCRIPTIONS": {
