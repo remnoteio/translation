@@ -45,10 +45,6 @@
         "TITLE": "Zona de Perigo",
         "KEYWORDS": "sincronizar log excluir conta redefinir passo a passo progresso redefinir onboarding avançadas conta configurações "
       },
-      "NOTIFICATIONS": {
-        "TITLE": "Notificações de Sequência para o Celular",
-        "DESCRIPTION": "Enviar lembretes sobre sua sequência diária de flashcards. Os lembretes são enviados às 18h todos os dias, no seu fuso horário local."
-      },
       "SYNCING": {
         "TITLE": "Sincronizando",
         "KEYWORDS": "forçar a sincronização de todos os arquivos"
@@ -64,19 +60,13 @@
       "PRIVACY": {
         "TITLE": "Privacidade",
         "KEYWORDS": "privacidade"
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "Notificações de Sequência para o Celular",
+        "DESCRIPTION": "Enviar lembretes sobre sua sequência diária de flashcards. Os lembretes são enviados às 18h todos os dias, no seu fuso horário local."
       }
     },
     "FLASHCARDS": {
-      "AI": {
-        "ENABLE": {
-          "TITLE": "Habilitar Recursos de IA",
-          "DESCRIPTION": "Use as opções baseadas em IA de preenchimento automático, atribuição de notas, e geração de flashcards. Pedaços das suas anotações serão enviadas para a OpenAI quando você utilizar muitos recursos de IA. Encontre a política de privacidade da OpenAI em https://openai.com/policies/privacy-policy."
-        },
-        "OPENAI_KEY": {
-          "TITLE": "Chave da API OpenAI",
-          "DESCRIPTION": "Se você acabar excedendo sua cota mensal de requisições de IA, você pode se cadastrar para solicitar uma chave API em https://platform.openai.com/account/api-keys e inseri-la aqui, pagando pelo seu próprio uso. Note que isso é um recurso em beta e pode ser removido a qualquer momento."
-        }
-      },
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "Meta Diária Máxima",
@@ -152,6 +142,16 @@
         "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
           "TITLE": "Tempo Máximo de Resposta do Flashcard",
           "DESCRIPTION": "Se você demorar mais tempo que esse valor (em segundos) para responder um flashcard, esse tempo excedido ficará fora das suas estatísticas."
+        }
+      },
+      "AI": {
+        "ENABLE": {
+          "TITLE": "Habilitar Recursos de IA",
+          "DESCRIPTION": "Use as opções baseadas em IA de preenchimento automático, atribuição de notas, e geração de flashcards. Pedaços das suas anotações serão enviadas para a OpenAI quando você utilizar muitos recursos de IA. Encontre a política de privacidade da OpenAI em https://openai.com/policies/privacy-policy."
+        },
+        "OPENAI_KEY": {
+          "TITLE": "Chave da API OpenAI",
+          "DESCRIPTION": "Se você acabar excedendo sua cota mensal de requisições de IA, você pode se cadastrar para solicitar uma chave API em https://platform.openai.com/account/api-keys e inseri-la aqui, pagando pelo seu próprio uso. Note que isso é um recurso em beta e pode ser removido a qualquer momento."
         }
       }
     },
@@ -350,6 +350,7 @@
       "PRIVACY_NOTE": "Privacidade: Leia nossa<policyLink>Política de Privacidade</policyLink>, ou altere suas configurações em nosso<hubLink>Centro de privacidade</hubLink> ."
     },
     "NOTIFICATIONS": {
+      "TOGGLE_LABEL": "Controle quais notificações você deseja receber diretamente em seu dispositivo/e-mail",
       "ENABLE_PUSH_TITLE": "Ativar notificações flutuantes?",
       "ENABLE_PUSH_LABEL": "Receba notificações diretamente no seu dispositivo móvel",
       "ENABLE_DUE_CARDS_TITLE": "Ativar emblema de notificação para cartões à revisar?",
@@ -357,7 +358,6 @@
       "ENABLE_EMAIL_TITLE": "Ativar notificações por e-mail?",
       "ENABLE_EMAIL_LABEL": "Receba notificações diretamente em seu e-mail",
       "TOGGLE_TITLE": "Filtrar notificações",
-      "TOGGLE_LABEL": "Controle quais notificações você deseja receber diretamente em seu dispositivo/e-mail",
       "DESCRIPTIONS": {
         "STREAK": {
           "TITLE": "Notificações de Sequencia Diária",

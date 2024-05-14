@@ -46,10 +46,6 @@
         "TITLE": "风险操作",
         "KEYWORDS": "同步日志 删除账户 重置演示进度 重置导引 高级账户设置"
       },
-      "NOTIFICATIONS": {
-        "TITLE": "通知推送",
-        "DESCRIPTION": "在当地时区的每天下午6点，自动向您的手机发送记忆卡片的复习提醒。"
-      },
       "SYNCING": {
         "TITLE": "数据同步",
         "KEYWORDS": "强制同步全部文件"
@@ -66,6 +62,10 @@
         "TITLE": "隐私",
         "KEYWORDS": "隐私"
       },
+      "NOTIFICATIONS": {
+        "TITLE": "通知推送",
+        "DESCRIPTION": "在当地时区的每天下午6点，自动向您的手机发送记忆卡片的复习提醒。"
+      },
       "PROFILE_KEYWORDS": "个人用户资料",
       "EXPORT_IMPORT_KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian",
       "NAVIGATION_KEYWORDS": "导出备份 回收站 查看已删除Rem 导入知识库 查看全部卡片 下载每日备份 高级设置 删除全部Rem",
@@ -73,16 +73,6 @@
       "ADVANCED_KEYWORDS": "支持 重装 搜索 修复错误"
     },
     "FLASHCARDS": {
-      "AI": {
-        "ENABLE": {
-          "TITLE": "启用人工智能(AI)功能",
-          "DESCRIPTION": "使用基于人工智能的自动补全、评分和生成记忆卡片的功能。当您启用人工智能功能后，您的笔记片段将被发送到 OpenAI。请访问 https://openai.com/policies/privacy-policy 浏览 Open AI 的隐私政策。"
-        },
-        "OPENAI_KEY": {
-          "TITLE": "OpenAI API 密钥",
-          "DESCRIPTION": "如果您发现使用量超出每月的 AI 请求配额，您可以在 https://platform.openai.com/account/api-keys 注册 API 密钥(按请求次数付费)并在此输入。请注意，这是一个测试版功能，未来随时可能被移除。"
-        }
-      },
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "每日最高目标",
@@ -158,6 +148,16 @@
         "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
           "TITLE": "最大记忆卡片回答时间",
           "DESCRIPTION": "如果您在卡片上回答所需的时间超过此值（以秒为单位），则超出的时间不会记录在统计数据中。"
+        }
+      },
+      "AI": {
+        "ENABLE": {
+          "TITLE": "启用人工智能(AI)功能",
+          "DESCRIPTION": "使用基于人工智能的自动补全、评分和生成记忆卡片的功能。当您启用人工智能功能后，您的笔记片段将被发送到 OpenAI。请访问 https://openai.com/policies/privacy-policy 浏览 Open AI 的隐私政策。"
+        },
+        "OPENAI_KEY": {
+          "TITLE": "OpenAI API 密钥",
+          "DESCRIPTION": "如果您发现使用量超出每月的 AI 请求配额，您可以在 https://platform.openai.com/account/api-keys 注册 API 密钥(按请求次数付费)并在此输入。请注意，这是一个测试版功能，未来随时可能被移除。"
         }
       }
     },
@@ -362,6 +362,7 @@
       }
     },
     "NOTIFICATIONS": {
+      "TOGGLE_LABEL": "管理发送到您的设备或邮箱的通知",
       "ENABLE_PUSH_TITLE": "启用推送通知",
       "ENABLE_PUSH_LABEL": "开启后，发送消息通知到您的设备",
       "ENABLE_DUE_CARDS_TITLE": "启用卡片到期角标",
@@ -369,7 +370,6 @@
       "ENABLE_EMAIL_TITLE": "开启电子邮件通知？",
       "ENABLE_EMAIL_LABEL": "发送通知到您的邮箱",
       "TOGGLE_TITLE": "通知管理",
-      "TOGGLE_LABEL": "管理发送到您的设备或邮箱的通知",
       "DESCRIPTIONS": {
         "STREAK": {
           "TITLE": "持续通知",

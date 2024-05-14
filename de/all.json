@@ -46,10 +46,6 @@
         "TITLE": "Gefahrenzone",
         "KEYWORDS": "Protokoll synchronisieren, Konto löschen, Rundgang zurücksetzen, Fortschritt zurücksetzen, Einarbeitung, erweiterte Kontoeinstellungen"
       },
-      "NOTIFICATIONS": {
-        "TITLE": "Mobile Erfolgsserie Benachrichtigungen",
-        "DESCRIPTION": "Senden Sie mobile Push-Erinnerungen über Ihre tägliche Lernkarten Erfolgsserie. Die Erinnerungen kommen jeden Tag um 18:00 Uhr in Ihrer lokalen Zeitzone."
-      },
       "SYNCING": {
         "TITLE": "Synchronisierung",
         "KEYWORDS": "Synchronisierung von Bildern und PDFs erzwingen"
@@ -65,6 +61,10 @@
       "PRIVACY": {
         "TITLE": "Privatsphäre",
         "KEYWORDS": "Privatsphäre"
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "Mobile Erfolgsserie Benachrichtigungen",
+        "DESCRIPTION": "Senden Sie mobile Push-Erinnerungen über Ihre tägliche Lernkarten Erfolgsserie. Die Erinnerungen kommen jeden Tag um 18:00 Uhr in Ihrer lokalen Zeitzone."
       }
     },
     "FLASHCARDS": {
@@ -285,12 +285,12 @@
       }
     },
     "NOTIFICATIONS": {
+      "TOGGLE_LABEL": "Steuern Sie, welche Benachrichtigungen Sie direkt auf Ihrem Gerät/Posteingang erhalten möchten",
       "ENABLE_PUSH_TITLE": "Push-Benachrichtigungen aktivieren?",
       "ENABLE_PUSH_LABEL": "Erhalten Sie Benachrichtigungen direkt auf Ihr Gerät",
       "ENABLE_EMAIL_TITLE": "E-Mail-Benachrichtigungen aktivieren?",
       "ENABLE_EMAIL_LABEL": "Erhalten Sie Benachrichtigungen direkt in Ihren Posteingang",
       "TOGGLE_TITLE": "Benachrichtigungen filtern",
-      "TOGGLE_LABEL": "Steuern Sie, welche Benachrichtigungen Sie direkt auf Ihrem Gerät/Posteingang erhalten möchten",
       "DESCRIPTIONS": {
         "STREAK": {
           "TITLE": "Strähne-Benachrichtigungen",
