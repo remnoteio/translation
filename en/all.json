@@ -97,6 +97,14 @@
           "TITLE": "Autoplay Media",
           "DESCRIPTION": "Automatically play audio or video content on flashcards."
         },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "TITLE": "Autoplay Text to Speech",
+          "DESCRIPTION": "When showing a flashcard, automatically play the text to speech audio for the front of card, and the back of card once revealed."
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "TITLE": "Text to Speech Voice",
+          "DESCRIPTION": "The voice used for text to speech. Note that some voices only work for certain languages."
+        },
         "TYPE_ANSWER": {
           "TITLE": "Type Answer",
           "DESCRIPTION": "Show a text box on the front of each flashcard and compare what you type to the answer on the back of the card."
