@@ -46,10 +46,6 @@
         "TITLE": "Strefa niebezpieczeństwa",
         "KEYWORDS": "synchronizacja dziennika usuwanie konta resetowanie przewodnik postęp resetowanie wprowadzania zaawansowanych ustawień konta"
       },
-      "NOTIFICATIONS": {
-        "TITLE": "Powiadomienia Passy na urządzeniu mobilnym",
-        "DESCRIPTION": "Wysyłaj mobilne przypomnienia push o codziennej passie fiszek. Przypomnienia pojawiają się codziennie o 18:00 w Twojej lokalnej strefie czasowej."
-      },
       "SYNCING": {
         "TITLE": "Synchronizowanie",
         "KEYWORDS": "Wymuś synchronizację Obrazów i plików PDF"
@@ -65,19 +61,13 @@
       "PRIVACY": {
         "TITLE": "Prywatność",
         "KEYWORDS": "prywatność"
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "Powiadomienia Passy na urządzeniu mobilnym",
+        "DESCRIPTION": "Wysyłaj mobilne przypomnienia push o codziennej passie fiszek. Przypomnienia pojawiają się codziennie o 18:00 w Twojej lokalnej strefie czasowej."
       }
     },
     "FLASHCARDS": {
-      "AI": {
-        "ENABLE": {
-          "TITLE": "Włącz funkcje AI",
-          "DESCRIPTION": "Korzystaj z autouzupełniania, oceniania i generowania fiszek w oparciu o sztuczną inteligencję. Fragmenty Twoich notatek zostaną wysłane do OpenAI, jeśli będziesz korzystać z wielu funkcji AI. Politykę prywatności OpenAI znajdziesz na https://openai.com/policies/privacy-policy."
-        },
-        "OPENAI_KEY": {
-          "TITLE": "Klucz API OpenAI",
-          "DESCRIPTION": "Jeśli przekroczysz miesięczny limit żądań AI, możesz zarejestrować się w celu uzyskania klucza API na stronie https://platform.openai.com/account/api-keys i wprowadzić go tutaj. Należy pamiętać, że jest to funkcja w wersji beta i może zostać usunięta w dowolnym momencie."
-        }
-      },
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "Maksymalny Dzienny Cel",
@@ -152,6 +142,16 @@
         "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
           "TITLE": "Maksymalny czas odpowiedzi na Fiszkę",
           "DESCRIPTION": "Jeśli odpowiedź na Fiszkę zajmie Ci więcej czasu (w sekundach), resztę czasu nie zostanie uwzględniona w statystykach."
+        }
+      },
+      "AI": {
+        "ENABLE": {
+          "TITLE": "Włącz funkcje AI",
+          "DESCRIPTION": "Korzystaj z autouzupełniania, oceniania i generowania fiszek w oparciu o sztuczną inteligencję. Fragmenty Twoich notatek zostaną wysłane do OpenAI, jeśli będziesz korzystać z wielu funkcji AI. Politykę prywatności OpenAI znajdziesz na https://openai.com/policies/privacy-policy."
+        },
+        "OPENAI_KEY": {
+          "TITLE": "Klucz API OpenAI",
+          "DESCRIPTION": "Jeśli przekroczysz miesięczny limit żądań AI, możesz zarejestrować się w celu uzyskania klucza API na stronie https://platform.openai.com/account/api-keys i wprowadzić go tutaj. Należy pamiętać, że jest to funkcja w wersji beta i może zostać usunięta w dowolnym momencie."
         }
       }
     },
@@ -354,12 +354,12 @@
       }
     },
     "NOTIFICATIONS": {
+      "TOGGLE_LABEL": "Wybierz które powiadomienia chcesz otrzymywać bezpośrednio do Twojej skrzynki/ na urządzenie",
       "ENABLE_PUSH_TITLE": "Czy chcesz otrzymywać powiadomienia Push?",
       "ENABLE_PUSH_LABEL": "Otrzymuj powiadomienia bezpośrednio na swoje urządzenie",
       "ENABLE_EMAIL_TITLE": "Czy chcesz otrzymywać powiadomienia email?",
       "ENABLE_EMAIL_LABEL": "Otrzymuj powiadomienia bezpośrednio do Twojej skrzynki",
       "TOGGLE_TITLE": "Dostosuj Powiadomienia",
-      "TOGGLE_LABEL": "Wybierz które powiadomienia chcesz otrzymywać bezpośrednio do Twojej skrzynki/ na urządzenie",
       "DESCRIPTIONS": {
         "STREAK": {
           "TITLE": "Powiadomienia Passy Nauki",

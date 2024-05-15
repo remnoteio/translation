@@ -45,10 +45,6 @@
         "TITLE": "Khu vực nguy hiểm",
         "KEYWORDS": "đồng bộ hóa nhật ký xóa tài khoản thiết lập lại tiến trình hướng dẫn thiết lập lại cài đặt tài khoản nâng cao"
       },
-      "NOTIFICATIONS": {
-        "TITLE": "Thông báo chuỗi trên di động",
-        "DESCRIPTION": "Gửi lời nhắc trên thiết bị di động về chuỗi flashcard hàng ngày của bạn. Lời nhắc sẽ đến vào lúc 6 giờ tối mỗi ngày, theo múi giờ địa phương của bạn."
-      },
       "SYNCING": {
         "TITLE": "Đang đồng bộ hóa",
         "KEYWORDS": "Buộc đồng bộ hình ảnh và tệp PDF"
@@ -63,6 +59,10 @@
       "PRIVACY": {
         "TITLE": "Sự riêng tư",
         "KEYWORDS": "sự riêng tư"
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "Thông báo chuỗi trên di động",
+        "DESCRIPTION": "Gửi lời nhắc trên thiết bị di động về chuỗi flashcard hàng ngày của bạn. Lời nhắc sẽ đến vào lúc 6 giờ tối mỗi ngày, theo múi giờ địa phương của bạn."
       }
     },
     "FLASHCARDS": {

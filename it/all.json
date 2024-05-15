@@ -49,16 +49,6 @@
       }
     },
     "FLASHCARDS": {
-      "AI": {
-        "ENABLE": {
-          "TITLE": "Abilita funzionalità AI",
-          "DESCRIPTION": "Utilizza il completamento automatico, la valutazione e la generazione di flashcard basati sull'intelligenza artificiale. Frammenti delle tue note verranno inviati a OpenAI quando utilizzi molte delle funzionalità AI. Trova l'informativa sulla privacy di OpenAI su https://openai.com/policies/privacy-policy."
-        },
-        "OPENAI_KEY": {
-          "TITLE": "Chiave API OpenAI",
-          "DESCRIPTION": "Se ti ritrovi a superare la quota mensile di richieste AI, puoi registrarti per una chiave API su https://platform.openai.com/account/api-keys e inserirla qui per pagare il tuo utilizzo. Tieni presente che questa è una funzionalità beta e potrebbe essere rimossa in qualsiasi momento."
-        }
-      },
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "Obiettivo giornaliero massimo",
@@ -98,6 +88,16 @@
         "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
           "TITLE": "Tempo massimo di risposta della Flashcard",
           "DESCRIPTION": "Se impieghi più tempo per rispondere a una flashcard (in secondi), lascia il resto del tempo fuori dalle tue statistiche."
+        }
+      },
+      "AI": {
+        "ENABLE": {
+          "TITLE": "Abilita funzionalità AI",
+          "DESCRIPTION": "Utilizza il completamento automatico, la valutazione e la generazione di flashcard basati sull'intelligenza artificiale. Frammenti delle tue note verranno inviati a OpenAI quando utilizzi molte delle funzionalità AI. Trova l'informativa sulla privacy di OpenAI su https://openai.com/policies/privacy-policy."
+        },
+        "OPENAI_KEY": {
+          "TITLE": "Chiave API OpenAI",
+          "DESCRIPTION": "Se ti ritrovi a superare la quota mensile di richieste AI, puoi registrarti per una chiave API su https://platform.openai.com/account/api-keys e inserirla qui per pagare il tuo utilizzo. Tieni presente che questa è una funzionalità beta e potrebbe essere rimossa in qualsiasi momento."
         }
       }
     },
@@ -247,12 +247,12 @@
       "PRIVACY_NOTE": "Privacy: Leggi la nostra<policyLink>politica sulla riservatezza</policyLink> o modifica le tue impostazioni nel nostro<hubLink>Centro della privacy</hubLink>."
     },
     "NOTIFICATIONS": {
+      "TOGGLE_LABEL": "Controlla quali notifiche desideri ricevere direttamente sul tuo dispositivo/posta in arrivo",
       "ENABLE_PUSH_TITLE": "Abilitare le notifiche push?",
       "ENABLE_PUSH_LABEL": "Ricevi notifiche direttamente sul tuo dispositivo",
       "ENABLE_EMAIL_TITLE": "Abilitare le notifiche email?",
       "ENABLE_EMAIL_LABEL": "Ricevi notifiche direttamente nella tua casella di posta",
       "TOGGLE_TITLE": "Filtra le notifiche",
-      "TOGGLE_LABEL": "Controlla quali notifiche desideri ricevere direttamente sul tuo dispositivo/posta in arrivo",
       "DESCRIPTIONS": {
         "INVITE": {
           "TITLE": "Notifiche di invito",
