@@ -49,6 +49,14 @@
         "TITLE": "Syncing",
         "KEYWORDS": "Force Sync Images & PDFs"
       },
+      "CACHING": {
+        "TITLE": "Caching",
+        "DESCRIPTION": "Cache images when they are loaded so they can be viewed offline.",
+        "TOGGLE_TITLE": "Enable Cache",
+        "TOGGLE_DESCRIPTION": "When disabled, any cached images will be cleared.",
+        "NUMBER_TITLE": "Maximum Cached Images",
+        "NUMBER_DESCRIPTION": "Set the maximum number of images to cache. When the limit is reached the oldest images will be cleared from the cache."
+      },
       "VERSION": {
         "TITLE": "Application Version",
         "KEYWORDS": "version"
@@ -403,9 +411,9 @@
     "TURN_OFF_AUTO_APPLY": "Turn off Auto-Apply",
     "VIEW_CONFIGURATION": "Configure Tag",
     "HIDE_CONFIGURATION": "Hide Configuration",
-    "PROPERTIES_HELP_TEXT": {
-      "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
-    },
+    "PROPERTIES_HELP_TEXT": [
+      "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
+    ],
     "TEMPLATES_HELP_TEXT": "A tag's template is a RemNote document that can be automatically copied to tagged Rems. Add headers, checklists, and more right within your template.",
     "AUTO_APPLY_HELP_TEXT": "This template will be automatically applied to all rows in its table, or all Rems tagged with the template."
   },
