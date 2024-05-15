@@ -24,21 +24,9 @@
         "KEYWORDS": "Personal User Profile"
       },
       "IMPORT_EXPORT_TITLE": "Import and Export",
-      "EXPORT_IMPORT": {
-        "KEYWORDS": "Export Backup Export Roam Dynalist Logseq Notion Evernote Obsidian"
-      },
       "NAVIGATION_TITLE": "Navigation",
-      "NAVIGATION": {
-        "KEYWORDS": "Export and Backup Trash View Deleted Rem Import Knowledge Base View All Cards  Download a Daily Backup Advanced Settings Delete All Rem"
-      },
       "AUTHENTICATION_TITLE": "Authentication",
-      "AUTHENTICATION": {
-        "KEYWORDS": "Logout Log out Google Login Method Add Disconnect Sign In Sign Up"
-      },
       "ADVANCED_TITLE": "Advanced Settings",
-      "ADVANCED": {
-        "KEYWORDS": "Support Rewire Search Fix Bug"
-      },
       "DANGER_ZONE_TITLE": "Danger Zone",
       "PRIVACY_NOTE": "Privacy: Read our <policyLink>Privacy Policy</policyLink>, or change your settings in our <hubLink>Privacy Hub</hubLink>.",
       "DANGER_ZONE": {
@@ -64,19 +52,21 @@
       "PRIVACY": {
         "TITLE": "Privacy",
         "KEYWORDS": "privacy"
+      },
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Export Backup Export Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "NAVIGATION": {
+        "KEYWORDS": "Export and Backup Trash View Deleted Rem Import Knowledge Base View All Cards  Download a Daily Backup Advanced Settings Delete All Rem"
+      },
+      "AUTHENTICATION": {
+        "KEYWORDS": "Logout Log out Google Login Method Add Disconnect Sign In Sign Up"
+      },
+      "ADVANCED": {
+        "KEYWORDS": "Support Rewire Search Fix Bug"
       }
     },
     "FLASHCARDS": {
-      "AI": {
-        "ENABLE": {
-          "TITLE": "Enable AI Features",
-          "DESCRIPTION": "Use AI-based autocompletion, grading, and flashcards generation. Snippets of your notes will be sent to OpenAI when you use many AI features. Find OpenAI's privacy policy at https://openai.com/policies/privacy-policy."
-        },
-        "OPENAI_KEY": {
-          "TITLE": "OpenAI API Key",
-          "DESCRIPTION": "If you find yourself exceeding your monthly quota of AI requests, you can sign up for an API key at https://platform.openai.com/account/api-keys and enter it here to pay for your own usage. Note that this is a beta feature and could be removed at any time."
-        }
-      },
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "Maximum Daily Target",
@@ -103,10 +93,6 @@
           "TITLE": "Leech Threshold",
           "DESCRIPTION": "Leeches are difficult cards that you keep learning and then forgetting again. If you press “forgot” on a card more times than this, we'll warn you so you can figure out why you're struggling and fix the problem. Set this to higher values to see the leech warning less often."
         },
-        "LEARN_AHEAD_LIMIT": {
-          "TITLE": "Learn Ahead Limit",
-          "DESCRIPTION": "When you reach the end of your queue, RemNote will show you cards up to this many minutes before they are due, so that you don't end up with cards due again immediately after finishing your queue."
-        },
         "AUTOPLAY_MEDIA": {
           "TITLE": "Autoplay Media",
           "DESCRIPTION": "When showing a flashcard, automatically play any audio or video on it."
@@ -118,6 +104,10 @@
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "TITLE": "Simplified Flashcard Buttons",
           "DESCRIPTION": "Show only the “Forgot” and “Recalled with effort” response buttons when studying flashcards, instead of all five options."
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "TITLE": "Learn Ahead Limit",
+          "DESCRIPTION": "When you reach the end of your queue, RemNote will show you cards up to this many minutes before they are due, so that you don't end up with cards due again immediately after finishing your queue."
         },
         "NEXT_DAY_STARTS_AT": {
           "TITLE": "Next Day Starts At",
@@ -152,6 +142,16 @@
         "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
           "TITLE": "Maximum Flashcard Response Time",
           "DESCRIPTION": "If you take longer to answer a flashcard than this (in seconds), leave the rest of the time out of your statistics."
+        }
+      },
+      "AI": {
+        "ENABLE": {
+          "TITLE": "Enable AI Features",
+          "DESCRIPTION": "Use AI-based autocompletion, grading, and flashcards generation. Snippets of your notes will be sent to OpenAI when you use many AI features. Find OpenAI's privacy policy at https://openai.com/policies/privacy-policy."
+        },
+        "OPENAI_KEY": {
+          "TITLE": "OpenAI API Key",
+          "DESCRIPTION": "If you find yourself exceeding your monthly quota of AI requests, you can sign up for an API key at https://platform.openai.com/account/api-keys and enter it here to pay for your own usage. Note that this is a beta feature and could be removed at any time."
         }
       }
     },
@@ -344,8 +344,6 @@
     "NOTIFICATIONS": {
       "ENABLE_PUSH_TITLE": "Enable push notifications?",
       "ENABLE_PUSH_LABEL": "Receive notifications directly to your device",
-      "ENABLE_DUE_CARDS_TITLE": "Enable due cards badge?",
-      "ENABLE_DUE_CARDS_LABEL": "Show the total number of due cards as a badge on the RemNote app icon.",
       "ENABLE_EMAIL_TITLE": "Enable email notifications?",
       "ENABLE_EMAIL_LABEL": "Receive notifications directly to your inbox",
       "TOGGLE_TITLE": "Filter notifications",
@@ -379,7 +377,9 @@
           "TITLE": "Document views notifications",
           "LABEL": "Get notified when your shared document starts gaining significant views"
         }
-      }
+      },
+      "ENABLE_DUE_CARDS_TITLE": "Enable due cards badge?",
+      "ENABLE_DUE_CARDS_LABEL": "Show the total number of due cards as a badge on the RemNote app icon."
     }
   },
   "TAGS": {
@@ -408,9 +408,9 @@
     "TURN_OFF_AUTO_APPLY": "Turn off Auto-Apply",
     "VIEW_CONFIGURATION": "Configure Tag",
     "HIDE_CONFIGURATION": "Hide Configuration",
-    "PROPERTIES_HELP_TEXT": [
-      "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
-    ],
+    "PROPERTIES_HELP_TEXT": {
+      "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
+    },
     "TEMPLATES_HELP_TEXT": "A tag's template is a RemNote document that can be automatically copied to tagged Rems. Add headers, checklists, and more right within your template.",
     "AUTO_APPLY_HELP_TEXT": "This template will be automatically applied to all rows in its table, or all Rems tagged with the template."
   },
