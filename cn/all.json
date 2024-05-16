@@ -1,7 +1,7 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "语言",
-    "TRANSLATION_INFO_SETTINGS": "翻译正在进行中，<br>您可以先阅读<guideLink>教程</guideLink>，并使用<editorLink>网络编辑器</editorLink>来加速翻译。",
+    "TRANSLATION_INFO_SETTINGS": "翻译正在进行中，您将看到英语和所选语言的混合。<br>您可以先阅读<guideLink>教程</guideLink>，然后使用<editorLink>网络编辑器</editorLink>帮我们加速翻译。",
     "TRANSLATION_IN_PROGRESS": "RemNote 的翻译仍然在进行中。您可以在<editorLink>on inlang</editorLink>上<bold>贡献翻译</bold>。"
   },
   "COMMON": {
@@ -20,23 +20,31 @@
   "SETTINGS": {
     "ACCOUNT": {
       "PROFILE_TITLE": "个人资料",
-      "MY_PROFILE": "我的个人资料",
+      "MY_PROFILE": "我的资料",
       "PROFILE": {
         "KEYWORDS": "个人用户资料"
       },
       "IMPORT_EXPORT_TITLE": "导入导出",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
       "NAVIGATION_TITLE": "功能导航",
+      "NAVIGATION": {
+        "KEYWORDS": "导出和备份 垃圾箱 查看已删除的Rem 导入知识库 查看所有记忆卡片 下载每日备份 高级设置 删除所有Rem"
+      },
       "AUTHENTICATION_TITLE": "认证授权",
+      "AUTHENTICATION": {
+        "KEYWORDS": "注销 注销 Google 登录方法 添加 断开连接 登录 注册"
+      },
       "ADVANCED_TITLE": "高级设置",
+      "ADVANCED": {
+        "KEYWORDS": "支持 重置搜索 修复错误"
+      },
       "DANGER_ZONE_TITLE": "风险操作",
-      "PRIVACY_NOTE": "隐私：请阅读我们的<policyLink>隐私政策</policyLink>，或者在<hubLink>隐私中心</hubLink>中更改您的设置。",
+      "PRIVACY_NOTE": "隐私：阅读我们的<policyLink>隐私政策</policyLink>，或在我们的<hubLink>隐私中心</hubLink>中更改您的设置。",
       "DANGER_ZONE": {
         "TITLE": "风险操作",
         "KEYWORDS": "同步日志 删除账户 重置演示进度 重置导引 高级账户设置"
-      },
-      "NOTIFICATIONS": {
-        "TITLE": "通知推送",
-        "DESCRIPTION": "在当地时区的每天下午6点，自动向您的手机发送记忆卡片的复习提醒。"
       },
       "SYNCING": {
         "TITLE": "数据同步",
@@ -47,12 +55,16 @@
         "KEYWORDS": "版本"
       },
       "SUPPORT": {
-        "TITLE": "获得帮助",
+        "TITLE": "技术支持",
         "KEYWORDS": "支持单 运行 帮助"
       },
       "PRIVACY": {
         "TITLE": "隐私",
         "KEYWORDS": "隐私"
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "通知推送",
+        "DESCRIPTION": "在当地时区的每天下午6点，自动向您的手机发送记忆卡片的复习提醒。"
       },
       "PROFILE_KEYWORDS": "个人用户资料",
       "EXPORT_IMPORT_KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian",
@@ -64,7 +76,7 @@
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "每日最高目标",
-          "DESCRIPTION": "设置每日可以复习的最大记忆卡片数量"
+          "DESCRIPTION": "限制 RemNote 要求每天复习的最大记忆卡片数量"
         },
         "TODAYS_TARGET": "今日目标：",
         "TODAYS_TARGET_EXPLANATION": "如果您每天都能达到预定目标，RemNote 会尝试自动设置您的每日目标，以便在接下来的 7 天内完成复习所有需要复习的卡片。注意，自动设置的目标值永远不会超过上述每日最高目标。"
@@ -87,6 +99,10 @@
           "TITLE": "错误阈值",
           "DESCRIPTION": "在记忆卡片中，\"Leeches\"（难题卡片）是指那些您反复学习然后又忘记的困难卡片。如果您在某张卡片上点击了比设定值更多次的\"忘记\"，我们会发出警告，以便您找出并解决难以记住的问题。将此值设定得更高，可以减少难题警告出现的次数。"
         },
+        "LEARN_AHEAD_LIMIT": {
+          "TITLE": "超前学习限制",
+          "DESCRIPTION": "当您复习到队列末尾时，RemNote 会提前显示未来若干分钟内将要到期的卡片，以避免在完成队列后又立刻看到到期的卡片。"
+        },
         "AUTOPLAY_MEDIA": {
           "TITLE": "自动播放媒体",
           "DESCRIPTION": "在展示记忆卡片时，自动播放卡片上的音频活视频"
@@ -98,6 +114,10 @@
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "TITLE": "简化记忆卡片按钮",
           "DESCRIPTION": "在复习卡片时只显示”忘记“和“努力回忆”的反馈按钮，而不显示剩余的其他五个选项"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "TITLE": "次日起始时间",
+          "DESCRIPTION": "每天此时都会有新卡出现在您的队列中。"
         }
       },
       "VISUAL": {
@@ -129,29 +149,39 @@
           "TITLE": "最大记忆卡片回答时间",
           "DESCRIPTION": "如果您在卡片上回答所需的时间超过此值（以秒为单位），则超出的时间不会记录在统计数据中。"
         }
+      },
+      "AI": {
+        "ENABLE": {
+          "TITLE": "启用人工智能(AI)功能",
+          "DESCRIPTION": "使用基于人工智能的自动补全、评分和生成记忆卡片的功能。当您启用人工智能功能后，您的笔记片段将被发送到 OpenAI。请访问 https://openai.com/policies/privacy-policy 浏览 Open AI 的隐私政策。"
+        },
+        "OPENAI_KEY": {
+          "TITLE": "OpenAI API 密钥",
+          "DESCRIPTION": "如果您发现使用量超出每月的 AI 请求配额，您可以在 https://platform.openai.com/account/api-keys 注册 API 密钥(按请求次数付费)并在此输入。请注意，这是一个测试版功能，未来随时可能被移除。"
+        }
       }
     },
     "KEYBOARD_SHORTCUTS": {
       "SPLIT_WITH_ALT_ENTER": {
         "TITLE": {
-          "PC": "Alt + 回车键拆分文本",
+          "PC": "Alt + Enter 拆分文本",
           "MAC": "Opt + 回车键拆分文本"
         },
         "DESCRIPTION": {
-          "PC": "在 Rem 中间按下回车键时，默认会自动换行，而使用 Alt + 回车键则会将文本拆分成两个独立的 Rem。（Shift + 回车键默认实现行内软换行）",
-          "MAC": "在 Rem 中间按下回车键时，默认会自动换行，而使用 Opt + 回车键则会将文本拆分成两个独立的 Rem。（Shift + 回车键默认实现行内软换行）"
+          "PC": "在 Rem 中按 Enter 键实现软换行（在当前 Rem 中插入换行符），同时使用 Alt + Enter 键实现硬换行（将文本拆分成两个独立的 Rem）。（默认情况下Shift + Enter 键和 Enter 键分别实现上述行为）",
+          "MAC": "在 Rem 中按 Return 键实现软换行（在当前 Rem 中插入换行符），同时按 Opt+ Return 键实现硬换行（将文本拆分成两个独立的 Rem）。（默认情况下Shift + Return 键和 Return 键分别实现上述行为）"
         }
       },
       "ENTER_TO_OUTDENT": {
-        "TITLE": "按回车键取消缩进",
-        "LABEL": "在文档顶层没有内容的 Rem 上按回车键时，将向外缩进一级。(如果禁用，则停留在同一层级并留下一个空的 Rem）。"
+        "TITLE": "取消缩进",
+        "LABEL": "在文档顶层没有内容的 Rem 上按回车键时，将向外缩进一级（如果禁用，则停留在同一层级并留下一个空的 Rem）"
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
-        "TITLE": "双斜线触发命令菜单",
-        "DESCRIPTION": "编辑 Rem 时使用 // 而非 / 触发命令模式"
+        "TITLE": "命令菜单",
+        "DESCRIPTION": "编辑 Rem 时使用 // 触发命令模式（默认为单斜线）"
       },
       "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
-        "TITLE": "开启旧版快捷键",
+        "TITLE": "启用旧版快捷键",
         "DESCRIPTION": "使用旧版键盘快捷键（2020年8月更新之前）"
       },
       "CHANGE_KEYBOARD_SHORTCUTS": {
@@ -169,22 +199,22 @@
         "CAPITALIZE_FROM_SEARCH": {
           "TITLE": "搜索中创建 Rem",
           "DESCRIPTION": {
-            "PC": "在搜索中使用 Ctrl + 回车键创建 Rem 时将首字母大写",
-            "MAC": "在搜索中使用 Cmd + 回车键创建 Rem 时将首字母大写"
+            "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时自动将首字母大写",
+            "MAC": "搜索中按 Cmd + Enter 创建 Rem 时自动将首字母大写"
           }
         },
         "CREATE_CONCEPTS_FROM_SEARCH": {
           "TITLE": "搜索中创建概念",
           "DESCRIPTION": {
-            "PC": "在搜索中使用 Ctrl + 回车键创建 Rem 时将其转化为概念",
-            "MAC": "在搜索中使用 Ctrl + 回车键创建 Rem 时将其转化为概念"
+            "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时自动转化为概念(Concept)",
+            "MAC": "搜索中按 Cmd+ Enter 键创建 Rem 时自动转化为概念(Concept)"
           }
         },
         "CREATE_STUBS_FROM_SEARCH": {
           "TITLE": "搜索中创建 Stub",
           "DESCRIPTION": {
-            "PC": "在搜索中使用 Ctrl + 回车键创建 Rem 时将其打上“Stub”标签",
-            "MAC": "在搜索中使用 Cmd + 回车键创建 Rem 时将其打上“Stub”标签"
+            "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时自动打上“Stub”标签",
+            "MAC": "搜索中按 Cmd + Enter 键创建 Rem 时自动打上“Stub”标签"
           }
         },
         "INSERT_EMOJIS_AS_REFERENCES": {
@@ -254,10 +284,6 @@
         "TITLE": "全屏显示",
         "LABEL": "全屏显示文档内容"
       },
-      "SIMPLIFIED_UI": {
-        "TITLE": "界面简化",
-        "LABEL": "简化界面显示并隐藏高级功能"
-      },
       "IN_APP_SUGGESTIONS": {
         "TITLE": "顶级文档 使用技巧",
         "LABEL": "在文档顶部显示可以试用的 RemNote 功能提示",
@@ -265,11 +291,13 @@
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "TITLE": "应用内置教程",
-        "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示。"
+        "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示",
+        "KEYWORDS": "应用程序内 左侧边栏 教程 工具提示 帮助 支持 学习教程"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
-        "TITLE": "键盘快捷键提示键盘快捷键技巧键盘快捷键小贴士键盘快捷键小技巧",
-        "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示。"
+        "TITLE": "键盘快捷键提示",
+        "LABEL": "在屏幕一角显示您当前使用的键盘快捷键提示",
+        "KEYWORDS": "工具提示 帮助 支持 学习教程"
       },
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
         "TITLE": "社区文档搜索语言",
@@ -279,9 +307,13 @@
         "TITLE": "RemNote 界面语言",
         "KEYWORDS": "语言 语言 翻译 i18n"
       },
+      "SIMPLIFIED_UI": {
+        "TITLE": "界面简化",
+        "LABEL": "简化界面显示并隐藏高级功能"
+      },
       "ONBOARDING_TIPS_FEATURES": {
         "TITLE": "功能提示",
-        "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示。"
+        "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示"
       },
       "ONBOARDING_TIPS": {
         "TITLE": "引导提示",
@@ -292,7 +324,7 @@
     "EDITOR_INTERFACE": {
       "SINGLE_CLICK_REFERENCES_TO_OPEN": {
         "TITLE": "单击打开引用",
-        "LABEL": "当您点击引用时，会立即跳转到被引用的内容，而不是打开引用菜单。（您总是可以通过右键单击调出引用菜单）"
+        "LABEL": "点击引用会立即跳转到被引用的内容，而不是打开引用菜单。（您总是可以通过右键单击调出引用菜单）"
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
         "TITLE": "自动缩放项目符号",
@@ -304,7 +336,7 @@
       },
       "PREVIEW_REM_ON_HOVER": {
         "TITLE": "预览引用内容",
-        "LABEL": "当鼠标悬停在引用上时，显示其引用内容的预览"
+        "LABEL": "鼠标悬停在引用上显示其引用内容的预览"
       },
       "ENABLE_ZOOM_INTO_BULLET": {
         "TITLE": "启用缩放项目符号",
@@ -314,7 +346,7 @@
     "SIDEBAR": {
       "DOCUMENT_STATUSES": {
         "TITLE": "文档状态",
-        "LABEL": "将文档分为草稿、完成和固定三类"
+        "LABEL": "将文档分为草稿、已完成和固定三类"
       },
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "自定义侧边栏"
@@ -330,15 +362,17 @@
       }
     },
     "NOTIFICATIONS": {
-      "ENABLE_PUSH_TITLE": "启用推送通知？",
-      "ENABLE_PUSH_LABEL": "发送消息通知到您的设备",
+      "TOGGLE_LABEL": "管理发送到您的设备或邮箱的通知",
+      "ENABLE_PUSH_TITLE": "启用推送通知",
+      "ENABLE_PUSH_LABEL": "开启后，发送消息通知到您的设备",
+      "ENABLE_DUE_CARDS_TITLE": "启用卡片到期角标",
+      "ENABLE_DUE_CARDS_LABEL": "开启后，在 RemNote 应用程序图标上以角标形式显示到期卡片总数",
       "ENABLE_EMAIL_TITLE": "开启电子邮件通知？",
       "ENABLE_EMAIL_LABEL": "发送通知到您的邮箱",
       "TOGGLE_TITLE": "通知管理",
-      "TOGGLE_LABEL": "管理发送到您的设备或邮箱的通知",
       "DESCRIPTIONS": {
         "STREAK": {
-          "TITLE": "连续通知",
+          "TITLE": "持续通知",
           "LABEL": "好好学习，天天通知！"
         },
         "INVITE": {
@@ -397,8 +431,8 @@
     "PROPERTIES_HELP_TEXT": {
       "0": "属性用于描述标签。例如，在名为\"图书\"的标签中，可以添加作者、流派、阅读进度等属性！"
     },
-    "TEMPLATES_HELP_TEXT": "标签的模板是一个 RemNote 文档，它可以自动复制模板中的内容到使用它作为标签的 Rem 中。你可以在模板中添加标题、清单以及其他更多内容。",
-    "AUTO_APPLY_HELP_TEXT": "此模板将自动应用到表格的所有行中，或者所有使用此模板的 Rem 中。",
+    "TEMPLATES_HELP_TEXT": "标签模板是 RemNote 文档，可以自动复制其内容到使用该标签的 Rem 中。可以在模板中直接添加标题、清单等内容。",
+    "AUTO_APPLY_HELP_TEXT": "此模板将自动应用到表格的所有行中，或用此模板的标记的所有 Rem 中。",
     "ADD_PROPERTY": "添加属性",
     "NEW_PROPERTY": "新属性"
   },
@@ -407,12 +441,12 @@
     "UNTITLED_PROPERTY_TITLE": "未命名属性",
     "TABLE_CREATION": {
       "NEW_TAG": {
-        "TITLE": "创建一个新的 {{viewName}} + 标签",
-        "DESCRIPTION": "从一个带有新标签的空白 {{viewName}} 开始"
+        "TITLE": "创建新的 {{viewName}} 和标签",
+        "DESCRIPTION": "从带有新标签的空白 {{viewName}} 开始"
       },
       "EXISTING_TAG": {
-        "TITLE": "应用标签",
-        "DESCRIPTION": "链接到一个 {{viewName}} 源"
+        "TITLE": "使用现有标签",
+        "DESCRIPTION": "链接到现有的 {{viewName}} 源"
       }
     },
     "MENUS": {
@@ -421,12 +455,12 @@
         "RENAME_TAG": "重命名标签",
         "VIEW_TAG": "查看标签",
         "EDIT_TABLE_NAME": "编辑表格名",
-        "PRESS_TO_SAVE": "按 ↩ 保存"
+        "PRESS_TO_SAVE": "按 Enter 键保存"
       },
       "FILTER": {
         "FILTER_TITLE": "筛选",
         "ADD_ADVANCED_FILTER": "添加高级筛选条件",
-        "NO_PROPERTIES_AVAILABLE": "无可用属性，请先添加新属性",
+        "NO_PROPERTIES_AVAILABLE": "无可用属性，请添加新属性",
         "NO_FILTER": "无筛选条件"
       },
       "SORT": {
@@ -454,15 +488,15 @@
         "ADD_TABLE_VIEW_TITLE": "添加表格视图",
         "ADD_LIST_VIEW_TITLE": "添加列表视图",
         "DUPLICATE_LIST_VIEW_TITLE": "创建副本",
-        "DUPLICATE_VIEW_MESSAGE_COMMON": "创建视图副本以使用新的筛选条件、排序以及其他功能！由于视图(副本)间共享同一来源的内容，因而任何操作都不会产生非预期的重复实例。",
+        "DUPLICATE_VIEW_MESSAGE_COMMON": "创建视图副本以应用新的筛选器、排序以及其他功能！内容在同源视图之间共享，因此不会出现任何意外的重复实例。",
         "SHOW_VERTICAL_LINES_TITLE": "显示垂直网格线",
-        "INCLUDE_NESTED_DESCENDANTS": "包含嵌套的元素",
+        "INCLUDE_NESTED_DESCENDANTS": "包含嵌套后代",
         "CELL_LIST_HEIGHT": {
           "CELL_LIST_HEIGHT_TITLE": "单元格高度",
-          "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "单元格中可以包含多个项目符号！请调整单元格高度以便于查看内容。",
+          "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "单元格可包含多个项目符号！请调整单元格高度以便于查看内容。",
           "COMFORTABLE_TITLE": "适中",
           "FULL_TITLE": "填充",
-          "COMPACT_TITLE": "压缩"
+          "COMPACT_TITLE": "紧凑"
         },
         "DELETE_TABLE": "删除表格",
         "DELETE_LIST": "删除大纲"
@@ -474,12 +508,12 @@
     "LABEL_TODAYS_NOTE": "今日笔记",
     "LABEL_FLASHCARDS": "记忆卡片",
     "LABEL_EDIT_LATER": "稍后编辑",
-    "LABEL_COMMUNITY": "社区",
-    "LABEL_ONBOARDING_CALL": "发起一个新用户引导电话",
+    "LABEL_COMMUNITY": "共享记忆卡片",
+    "LABEL_ONBOARDING_CALL": "发起新用户使用导览",
     "LABEL_INTERACTIVE_TOUR": "互动导览",
     "LABEL_RESUME_INTERACTIVE_TOUR": "恢复互动导览",
     "LABEL_TUTORIALS": "教程",
-    "TOOLTIP_FLASHCARD_HOME": "前往记忆卡片首页",
+    "TOOLTIP_FLASHCARD_HOME": "前往记忆卡片主页",
     "TOOLTIP_EDIT_LATER_QUEUE": "打开稍后编辑队列"
   },
   "PAGES": {
@@ -515,10 +549,21 @@
       "SELECT_FILES_TO_UPLOAD": "选择上传文件",
       "EMPTY": "请将文件拖放到这里!（支持 PDF、Word 文档、PPT 以及<moreLink>更多</moreLink>类型）",
       "INVALID": "无效文件格式！",
-      "UPLOADING": "上传中...",
+      "UPLOADING": "正在上传",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDF"
+    },
+    "WIKIMEDIA_COMMONS": {
+      "LABEL": "图片搜索",
+      "SELECT_FILES": "选择文件",
+      "SELECT_FILES_TO_UPLOAD": "选择上传的文件",
+      "EMPTY": "将 PDF、Word 文档、PPT 和 <moreLink>more</moreLink> 文件拖放到这里！",
+      "INVALID": "文件格式不正确！",
+      "UPLOADING": "正在上传",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs"
     }
   },
   "POWERUPS": {
@@ -530,12 +575,12 @@
       "ERRORS": {
         "SHARING": {
           "NO_TITLE": {
-            "SRC": "您要共享的文档没有标题，请在发布前添加一个标题",
+            "SRC": "您要共享的文档没有标题，请在发布前添加标题",
             "SUBDOCUMENT": "您的一个子文档没有标题，请在发布前添加一个标题"
           },
           "NO_CONTENT": {
-            "SRC": "您要共享的文件 Rem 数量不达标，请至少添加 {{minimum}} 个 Rem 后再试一次",
-            "SUBDOCUMENT": "您的某个子文档 Rem 数量不达标，文档只有达到 {{minimum}} 个 Rem 后才能发布"
+            "SRC": "您要共享的文件内部 Rem 数量不达标，请至少添加 {{minimum}} 个 Rem 后再试一次",
+            "SUBDOCUMENT": "您的某个子文档内部 Rem 数量不达标，文档只有达到 {{minimum}} 个 Rem 后才能发布"
           }
         }
       }
@@ -595,12 +640,12 @@
       },
       "TABLE_TAG": {
         "TITLE": "表格和标签",
-        "DESCRIPTION": "创建表格、模板和数据库"
+        "DESCRIPTION": "创建用于表格和模板的标签"
       },
       "UPLOAD_FILE": {
         "TITLE": "上传并标注文件",
-        "DESCRIPTION": "高亮、标注和引用 PDF 等",
-        "PAYWALL": "您已达到 PDF 上传限制",
+        "DESCRIPTION": "高亮并引用 PDF、PowerPoint、Word 文档或其他文件",
+        "PAYWALL": "您的 PDF 上传量已达到上限",
         "todo_for_the_item_below": "是否将其移动到全局功能名称对象中？",
         "FEATURE_NAME": "PDF 高亮"
       }
@@ -619,7 +664,7 @@
           "TITLE": "创建记忆卡片"
         },
         "3": {
-          "TITLE": "使用“Tab”键结构化笔记"
+          "TITLE": "使用 Tab 键结构化笔记"
         }
       }
     }

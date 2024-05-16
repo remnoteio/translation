@@ -1,7 +1,7 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "Language",
-    "TRANSLATION_INFO_SETTINGS": "Translation is still in progress; you will see a mix of English and the selected language.<br>You can help us translate by reading the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink>."
+    "TRANSLATION_INFO_SETTINGS": "Translation is still in progress; you will encounter a mix of English and the selected language.<br>You can contribute by reviewing the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink> to assist with translations."
   },
   "COMMON": {
     "ACTIONS": {
@@ -33,13 +33,17 @@
         "TITLE": "Danger Zone",
         "KEYWORDS": "sync log delete account reset walkthrough progress reset onboarding advanced account settings"
       },
-      "NOTIFICATIONS": {
-        "TITLE": "Mobile Streak Notifications",
-        "DESCRIPTION": "Send mobile push reminders about your daily flashcard streak. Reminders come at 6pm each day, in your local timezone."
-      },
       "SYNCING": {
         "TITLE": "Syncing",
         "KEYWORDS": "Force Sync Images & PDFs"
+      },
+      "CACHING": {
+        "TITLE": "Caching",
+        "DESCRIPTION": "Cache images when they are loaded so they can be viewed offline.",
+        "TOGGLE_TITLE": "Enable Cache",
+        "TOGGLE_DESCRIPTION": "When disabled, any cached images will be cleared.",
+        "NUMBER_TITLE": "Maximum Cached Images",
+        "NUMBER_DESCRIPTION": "Set the maximum number of images to cache. When the limit is reached the oldest images will be cleared from the cache."
       },
       "VERSION": {
         "TITLE": "Application Version",
@@ -70,15 +74,15 @@
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "Maximum Daily Target",
-          "DESCRIPTION": "Cap the number of flashcards RemNote will ask you to practice to meet your daily target at this value."
+          "DESCRIPTION": "RemNote will prompt you to practice this many flashcards per day."
         },
         "TODAYS_TARGET": "Today's Target:",
         "TODAYS_TARGET_EXPLANATION": "RemNote tries to set your daily target so that, if you reach the target every day, you'll complete all cards due for review during the next 7 days. However, the daily target will never be more than the maximum set above."
       },
       "GENERAL": {
         "RESET_ALL": {
-          "TITLE": "Reset All Flashcard Settings to Defaults",
-          "DESCRIPTION": "Reset all flashcard settings to their default values.",
+          "TITLE": "Reset Flashcard Settings",
+          "DESCRIPTION": "Restore all flashcard settings to their default values.",
           "CONFIRM_MESSAGE": "Are you sure you want to reset all flashcard settings to their default values?"
         },
         "NEW_CARDS_PER_DAY": {
@@ -91,11 +95,23 @@
         },
         "LEECH_THRESHOLD": {
           "TITLE": "Leech Threshold",
-          "DESCRIPTION": "Leeches are difficult cards that you keep learning and then forgetting again. If you press “forgot” on a card more times than this, we'll warn you so you can figure out why you're struggling and fix the problem. Set this to higher values to see the leech warning less often."
+          "DESCRIPTION": "Issue a warning after you press Forgot this many times on a difficult card. <leechArticle>Read more about leeches.</leechArticle>"
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "TITLE": "Learn Ahead Limit",
+          "DESCRIPTION": "When you've practiced all cards that are due, how far from the future can we take cards that aren't due yet? This helps you avoid needing to practice again very soon."
         },
         "AUTOPLAY_MEDIA": {
           "TITLE": "Autoplay Media",
-          "DESCRIPTION": "When showing a flashcard, automatically play any audio or video on it."
+          "DESCRIPTION": "Automatically play audio or video content on flashcards."
+        },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "TITLE": "Autoplay Text to Speech",
+          "DESCRIPTION": "When showing a flashcard, automatically play the text to speech audio for the front of card, and the back of card once revealed."
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "TITLE": "Text to Speech Voice",
+          "DESCRIPTION": "The voice used for text to speech. Note that some voices only work for certain languages."
         },
         "TYPE_ANSWER": {
           "TITLE": "Type Answer",
@@ -103,7 +119,7 @@
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "TITLE": "Simplified Flashcard Buttons",
-          "DESCRIPTION": "Show only the “Forgot” and “Recalled with effort” response buttons when studying flashcards, instead of all five options."
+          "DESCRIPTION": "Show only “Forgot” and “Recalled With Effort” buttons for flashcards."
         },
         "LEARN_AHEAD_LIMIT": {
           "TITLE": "Learn Ahead Limit",
@@ -111,13 +127,13 @@
         },
         "NEXT_DAY_STARTS_AT": {
           "TITLE": "Next Day Starts At",
-          "DESCRIPTION": "New cards appear in your queue each day at this time."
+          "DESCRIPTION": "Set the time when new cards will appear in your queue each day."
         }
       },
       "VISUAL": {
         "SHOW_NEXT_REVIEW_TIMES": {
           "TITLE": "Show Next Review Times",
-          "DESCRIPTION": "Show the amount of time until the next review on each answer button."
+          "DESCRIPTION": "Display the time until the next review on each answer button."
         }
       },
       "ORDERING": {
@@ -140,8 +156,8 @@
       },
       "STATISTICS": {
         "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
-          "TITLE": "Maximum Flashcard Response Time",
-          "DESCRIPTION": "If you take longer to answer a flashcard than this (in seconds), leave the rest of the time out of your statistics."
+          "TITLE": "Flashcard Response Time Limit",
+          "DESCRIPTION": "Set the maximum answer time (in seconds) per card that will be counted in your statistics."
         }
       },
       "AI": {
@@ -162,8 +178,8 @@
           "MAC": "Split With Opt+Return"
         },
         "DESCRIPTION": {
-          "PC": "When you press Enter in the middle of a Rem, create a line break within that Rem, and instead use Alt+Enter to break the text into two separate Rems. (By default, Shift+Enter and Enter alone, respectively, serve these functions.)",
-          "MAC": "When you press Return in the middle of a Rem, create a line break within that Rem, and instead use Opt+Return to break the text into two separate Rems. (By default, Shift+Return and Return alone, respectively, serve these functions.)"
+          "PC": "Split text into separate Rems when pressing Alt+Enter from middle of Rem.",
+          "MAC": "Split text into separate Rems when pressing Opt+Return from middle of Rem."
         }
       },
       "ENTER_TO_OUTDENT": {
@@ -213,13 +229,13 @@
         },
         "INSERT_EMOJIS_AS_REFERENCES": {
           "TITLE": "Insert Emoji As References",
-          "DESCRIPTION": "When searching with %% and selecting an emoji, it will be inserted as a reference."
+          "DESCRIPTION": "Create a reference when selecting an emoji from %% search."
         }
       },
       "DATES_AND_TIMES": {
         "DATE_FORMATTING": {
           "TITLE": "Date Formatting",
-          "DESCRIPTION": "Format Daily Document titles and dates inserted with /date like this."
+          "DESCRIPTION": "Show dates throughout RemNote in this format."
         },
         "DATE_FORMATTING_CUSTOM": {
           "TITLE": "Custom Date Formatting",
@@ -243,13 +259,13 @@
       "TITLE": "Earn Credits",
       "KEYWORDS": "invite friends earn credit plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options",
       "INVITE_FRIENDS_REMNOTE": "Invite your friends to RemNote!",
-      "INVITE_FRIENDS_EARN_CREDIT": "Invite your friends to earn credit! You'll receive <0>{{monthlyPrice}}</0> in RemNote credit when the person you invite signs up for a RemNote account, and they'll also get <0>{{monthlyPrice}}</0> credit to get started.",
+      "INVITE_FRIENDS_EARN_CREDIT": "Earn {{monthlyPrice}} RemNote credit for each friend you invite! They'll also get {{monthlyPrice}} credit to start.",
       "CREDIT_BALANCE": "Credit Balance",
       "CREDIT_BALANCE_TEXT": "You have <bold>{{userCredit}}</bold> credit remaining and have earned <bold>{{userCreditEarned}}</bold> credit in total. {{months}} remaining month or months of RemNote Pro for free.<br /><br />Subscribe to Pro to start using your credit! You won't be charged until your credit runs out.",
       "TOAST_SUBSCRIBE": "Your credits will be applied automatically when you subscribe to RemNote Pro. Choose a plan below to get started!",
       "TOAST_RENEW": "Your credits will be applied automatically when your current subscription renews.",
       "APPLY_CREDIT": "Apply your credit",
-      "INVITE_TEXT": "Invite friends and earn credit",
+      "INVITE_TEXT": "Invite Friends",
       "HANG_ON": "Hang on",
       "CREATE_ACCOUNT": "Create an account to invite friends",
       "ENTER_VALID_EMAIL": "Enter valid email!",
@@ -260,7 +276,7 @@
       "INVITE_EMAIL": "Invite via email",
       "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
       "INVITE": "Invite",
-      "SHARE_LINK": "Share invite link",
+      "SHARE_LINK": "Share link",
       "COPIED": "Copied!",
       "INVITE_COPIED": "Invite link copied!",
       "COPYLINK": "Copy Link",
@@ -277,10 +293,6 @@
         "TITLE": "Full Width",
         "LABEL": "Expand documents to use the full width of the screen."
       },
-      "SIMPLIFIED_UI": {
-        "TITLE": "Simplified UI",
-        "LABEL": "Simplify the UI and hide advanced features."
-      },
       "IN_APP_SUGGESTIONS": {
         "TITLE": "Top-of-Document Onboarding Tips",
         "LABEL": "Show tips on RemNote features you could try at the top of your document.",
@@ -288,7 +300,7 @@
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "TITLE": "In-App Tutorials",
-        "LABEL": "Show tutorials on RemNote features you're currently using in the corner of the screen.",
+        "LABEL": "Show tutorials on RemNote features at the bottom of your sidebar.",
         "KEYWORDS": "in app left sidebar tutorials tooltips help support learn tutorial"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
@@ -312,11 +324,11 @@
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
         "TITLE": "Scale Collapsed Rem Bullets",
-        "LABEL": "When a Rem is collapsed, make the ring around its bullet larger or smaller based on its total number of descendants."
+        "LABEL": "Make ring around bullet larger or smaller based on no. of descendants."
       },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
         "TITLE": "Smoothly Animate The Editor",
-        "LABEL": "Smoothly animate adding and deleting Rems in the editor."
+        "LABEL": "Animate adding or deleting Rems in the editor."
       },
       "PREVIEW_REM_ON_HOVER": {
         "TITLE": "Preview References on Hover",
@@ -333,7 +345,7 @@
         "LABEL": "Organize documents into Draft, Finished, and Pinned categories."
       },
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
-        "TITLE": "Customize Sidebar Sections"
+        "TITLE": "Sidebar Organization"
       },
       "SORT_SIDEBAR": {
         "TITLE": "Sort Sidebar",
@@ -342,12 +354,19 @@
       "PRIVACY_NOTE": "Privacy: Read our <policyLink>Privacy Policy</policyLink>, or change your settings in our <hubLink>Privacy Hub</hubLink>."
     },
     "NOTIFICATIONS": {
-      "ENABLE_PUSH_TITLE": "Enable push notifications?",
+      "PUSH_ENABLE_MESSAGE": "Push notifications aren't configured on this device. Click here to set them up!",
+      "ENABLE_STREAK_TITLE": "Mobile Streak Notifications",
+      "ENABLE_STREAK_DESCRIPTION": "Receive daily reminders at 6pm about your flashcard streak",
+      "ENABLE_COMMUNITY_TITLE": "Shared Flashcards Notifications",
+      "ENABLE_COMMUNITY_LABEL": "Receive instant notifications when someone interacts with your shared content",
+      "TOGGLE_LABEL": "Control which notifications you want to receive directly to your device",
+      "ENABLE_PUSH_TITLE": "Push notifications",
       "ENABLE_PUSH_LABEL": "Receive notifications directly to your device",
-      "ENABLE_EMAIL_TITLE": "Enable email notifications?",
+      "ENABLE_DUE_CARDS_TITLE": "Due cards badge on iOS",
+      "ENABLE_DUE_CARDS_LABEL": "Show the total number of due cards as a badge on the RemNote app icon on your home screen",
+      "ENABLE_EMAIL_TITLE": "Enable email community notifications",
       "ENABLE_EMAIL_LABEL": "Receive notifications directly to your inbox",
-      "TOGGLE_TITLE": "Filter notifications",
-      "TOGGLE_LABEL": "Control which notifications you want to receive directly to your device/inbox",
+      "TOGGLE_TITLE": "Notify me, when:",
       "DESCRIPTIONS": {
         "STREAK": {
           "TITLE": "Streak notifications",
@@ -530,6 +549,17 @@
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs"
+    },
+    "WIKIMEDIA_COMMONS": {
+      "LABEL": "Image Search",
+      "SELECT_FILES": "Select files",
+      "SELECT_FILES_TO_UPLOAD": "Select files to upload",
+      "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
+      "INVALID": "Incorrect file format!",
+      "UPLOADING": "Uploading...",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs"
     }
   },
   "POWERUPS": {
@@ -590,7 +620,7 @@
     "CREATE_CONTENT_OPTIONS": {
       "DOCUMENT": {
         "TITLE": "Document",
-        "DESCRIPTION": "Organize notes on lectures, sources, or ideas into documents."
+        "DESCRIPTION": "Organize flashcards and notes into documents."
       },
       "QUICK_ADD": {
         "TITLE": "Quick Add",
@@ -610,7 +640,7 @@
       },
       "UPLOAD_FILE": {
         "TITLE": "Upload & Annotate File",
-        "DESCRIPTION": "Highlight & reference a PDF, PowerPoint, Word document, or other file.",
+        "DESCRIPTION": "Highlight & reference PDFs, PPTs, Word docs, etc.",
         "PAYWALL": "You have reached your limit for PDF uploads.",
         "todo_for_the_item_below": "move this into a global feature name object?",
         "FEATURE_NAME": "PDF Highlighting"
