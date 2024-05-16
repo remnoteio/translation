@@ -24,21 +24,9 @@
         "KEYWORDS": "Hồ sơ người dùng cá nhân"
       },
       "IMPORT_EXPORT_TITLE": "Nhập và xuất",
-      "EXPORT_IMPORT": {
-        "KEYWORDS": "Xuất bản Sao lưu Xuất Roam Dynalist Logseq Notion Evernote Obsidian"
-      },
       "NAVIGATION_TITLE": "Điều hướng",
-      "NAVIGATION": {
-        "KEYWORDS": "Xuất và Sao lưu Thùng rác Xem Đã xóa Rem Nhập cơ sở kiến thức Xem tất cả thẻ  Tải xuống bản sao lưu hàng ngày Cài đặt nâng cao Xóa tất cả Rem"
-      },
       "AUTHENTICATION_TITLE": "Xác thực",
-      "AUTHENTICATION": {
-        "KEYWORDS": "Đăng xuất Đăng xuất Phương thức đăng nhập Google Thêm Ngắt kết nối Đăng nhập Đăng ký"
-      },
       "ADVANCED_TITLE": "Cài đặt nâng cao",
-      "ADVANCED": {
-        "KEYWORDS": "Hỗ trợ Rewire Tìm kiếm Sửa lỗi"
-      },
       "DANGER_ZONE_TITLE": "Khu vực nguy hiểm",
       "PRIVACY_NOTE": "Quyền riêng tư: Đọc <policyLink>Chính sách bảo mật</policyLink> của chúng tôi hoặc thay đổi cài đặt của bạn trong <hubLink>Trung tâm quyền riêng tư</hubLink>.",
       "DANGER_ZONE": {
@@ -59,6 +47,18 @@
       "PRIVACY": {
         "TITLE": "Sự riêng tư",
         "KEYWORDS": "sự riêng tư"
+      },
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Xuất bản Sao lưu Xuất Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "NAVIGATION": {
+        "KEYWORDS": "Xuất và Sao lưu Thùng rác Xem Đã xóa Rem Nhập cơ sở kiến thức Xem tất cả thẻ  Tải xuống bản sao lưu hàng ngày Cài đặt nâng cao Xóa tất cả Rem"
+      },
+      "AUTHENTICATION": {
+        "KEYWORDS": "Đăng xuất Đăng xuất Phương thức đăng nhập Google Thêm Ngắt kết nối Đăng nhập Đăng ký"
+      },
+      "ADVANCED": {
+        "KEYWORDS": "Hỗ trợ Rewire Tìm kiếm Sửa lỗi"
       },
       "NOTIFICATIONS": {
         "TITLE": "Thông báo chuỗi trên di động",

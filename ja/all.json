@@ -25,9 +25,6 @@
         "KEYWORDS": "個人ユーザーのプロフィール"
       },
       "IMPORT_EXPORT_TITLE": "インポートとエクスポート",
-      "EXPORT_IMPORT": {
-        "KEYWORDS": "エクスポート バックアップ エクスポート Roam Dynalist Logseq Notion Evernote Obsidian"
-      },
       "NAVIGATION_TITLE": "ナビゲーション",
       "NAVIGATION": {
         "KEYWORDS": "エクスポート バックアップ ごみ箱 削除したレムを見る インポート ナレッジベース すべてのカードを見る ダウンロード 毎日のバックアップ 詳細設定 すべてのレムを削除する"
@@ -65,6 +62,15 @@
       "NOTIFICATIONS": {
         "TITLE": "モバイルの連続記録の通知",
         "DESCRIPTION": "毎日のフラッシュカードの連続記録についてモバイルプッシュ通知を送信します。リマインダーは、毎日午後 6 時（日本時間）に届きます。"
+      },
+      "SYNCING": {
+        "TITLE": "同期しています"
+      },
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "エクスポート バックアップ エクスポート Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "NAVIGATION": {
+        "KEYWORDS": "エクスポート と バックアップ ゴミ箱 ビュー 削除済み Rem インポート ナレッジ ベース ビュー 全て カード ダウンロード 1つの デイリー バックアップ アドバンス 設定 削除 全て Rem"
       },
       "PROFILE_KEYWORDS": "ユーザー個人情報",
       "EXPORT_IMPORT_KEYWORDS": "エクスポート バックアップ エクスポート Roam Dynalist Logseq Notion Evernote Obsidian",

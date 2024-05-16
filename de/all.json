@@ -25,21 +25,9 @@
         "KEYWORDS": "Persönliches Benutzerprofil"
       },
       "IMPORT_EXPORT_TITLE": "Import und Export",
-      "EXPORT_IMPORT": {
-        "KEYWORDS": "Exportiere Sicherung Exportiere Roam Dynalist Logseq Notion Evernote Obsidian"
-      },
       "NAVIGATION_TITLE": "Navigation",
-      "NAVIGATION": {
-        "KEYWORDS": "Exportieren und Sichere Papierkorb Gelöschte Rem Wissensdatenbank importieren Alle Karten anzeigen  Tägliches Backup herunterladen Erweiterte Einstellungen  Alle Rem löschen"
-      },
       "AUTHENTICATION_TITLE": "Authentifizierung",
-      "AUTHENTICATION": {
-        "KEYWORDS": "Abmelden Abmelden Google-Anmeldemethode Hinzufügen Trennen Anmelden Registrieren"
-      },
       "ADVANCED_TITLE": "Erweiterte Einstellungen",
-      "ADVANCED": {
-        "KEYWORDS": "Unterstützung neu verdrahten Suche Fehlerbeheben"
-      },
       "DANGER_ZONE_TITLE": "Gefahrenzone",
       "PRIVACY_NOTE": "Datenschutz: Lies unsere <policyLink>Datenschutzerklärung</policyLink>, oder ändere deine Einstellungen im <hubLink>Privacy Hub</hubLink>.",
       "DANGER_ZONE": {
@@ -61,6 +49,18 @@
       "PRIVACY": {
         "TITLE": "Privatsphäre",
         "KEYWORDS": "Privatsphäre"
+      },
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Exportiere Sicherung Exportiere Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "NAVIGATION": {
+        "KEYWORDS": "Exportieren und Sichere Papierkorb Gelöschte Rem Wissensdatenbank importieren Alle Karten anzeigen  Tägliches Backup herunterladen Erweiterte Einstellungen  Alle Rem löschen"
+      },
+      "AUTHENTICATION": {
+        "KEYWORDS": "Abmelden Abmelden Google-Anmeldemethode Hinzufügen Trennen Anmelden Registrieren"
+      },
+      "ADVANCED": {
+        "KEYWORDS": "Unterstützung neu verdrahten Suche Fehlerbeheben"
       },
       "NOTIFICATIONS": {
         "TITLE": "Mobile Erfolgsserie Benachrichtigungen",

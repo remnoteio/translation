@@ -24,21 +24,12 @@
         "KEYWORDS": "Perfil de Usuário Pessoal"
       },
       "IMPORT_EXPORT_TITLE": "Importar e Exportar",
-      "EXPORT_IMPORT": {
-        "KEYWORDS": "Exportar Backup Exportar Roam Dynalist Logseq Notion Evernote Obsidian"
-      },
       "NAVIGATION_TITLE": "Navegação",
       "NAVIGATION": {
         "KEYWORDS": "Exportação e Backup Lixeira Exibir Deleteado Rem Importar Base de Conhecimento Exibir Todos os Cartões Baixar um Backup Diário Configurações Avançadas Excluir Todos os Rem"
       },
       "AUTHENTICATION_TITLE": "Autenticação",
-      "AUTHENTICATION": {
-        "KEYWORDS": "Sair Sair Método de Login do Google Adicionar Desconectar Entrar Cadastrar-se"
-      },
       "ADVANCED_TITLE": "Configurações Avançadas",
-      "ADVANCED": {
-        "KEYWORDS": "Suporte Religar Buscar Consertar Bug"
-      },
       "DANGER_ZONE_TITLE": "Área de Perigo",
       "PRIVACY_NOTE": "Privacidade: Leia nossa <policyLink>Política de Privacidade</policyLink>, ou mude suas configurações em nosso <hubLink>Centro de Privacidade</hubLink>.",
       "DANGER_ZONE": {
@@ -60,6 +51,18 @@
       "PRIVACY": {
         "TITLE": "Privacidade",
         "KEYWORDS": "privacidade"
+      },
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Exportar Backup Exportar Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "NAVIGATION": {
+        "KEYWORDS": "Exportação e Backup Lixeira Exibir Deleteado Rem Importar Base de Conhecimento Exibir Todos os Cartões Baixar um Backup Diário Configurações Avançadas Excluir Todos Rem"
+      },
+      "AUTHENTICATION": {
+        "KEYWORDS": "Sair Sair Método de Login do Google Adicionar Desconectar Entrar Cadastrar-se"
+      },
+      "ADVANCED": {
+        "KEYWORDS": "Suporte Religar Buscar Consertar Bug"
       },
       "NOTIFICATIONS": {
         "TITLE": "Notificações de Sequência para o Celular",
@@ -93,10 +96,6 @@
           "TITLE": "Limite para Sanguessugas",
           "DESCRIPTION": "Sanguessugas são cartas difíceis que você continua aprendendo e depois esquecendo novamente. Se você pressionar “esqueci” em um cartão mais vezes do que o este valor, iremos avisá-lo para que você possa descobrir por que está tendo dificuldades neste card e resolver este problema. Defina valores mais altos para ver o aviso de sanguessuga com menos frequência."
         },
-        "LEARN_AHEAD_LIMIT": {
-          "TITLE": "Aprender além do limite",
-          "DESCRIPTION": "Quando você finalizar todos os cartões na sua fila prioritária de revisão, o Remnote imediatamente já vai te mostrar cartões secundários que estão para vencer. Com isso, você não vai ficar com cartões pendentes pra revisar logo após terminar as revisões da sua fila prioritária."
-        },
         "AUTOPLAY_MEDIA": {
           "TITLE": "Reprodução Automática de Mídia ",
           "DESCRIPTION": "Ao mostrar um flashcard, reproduz automaticamente qualquer áudio ou vídeo contido nele."
@@ -108,6 +107,10 @@
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "TITLE": "Botões dos Flashcard Simplificados ",
           "DESCRIPTION": "Mostrar apenas os botões de resposta “Esqueci” e “Lembrei com esforço” ao estudar os flashcards, em vez de todas as cinco opções."
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "TITLE": "Aprender além do limite",
+          "DESCRIPTION": "Quando você finalizar todos os cartões na sua fila prioritária de revisão, o Remnote imediatamente já vai te mostrar cartões secundários que estão para vencer. Com isso, você não vai ficar com cartões pendentes pra revisar logo após terminar as revisões da sua fila prioritária."
         },
         "NEXT_DAY_STARTS_AT": {
           "TITLE": "O próximo dia começa em",
@@ -353,8 +356,6 @@
       "TOGGLE_LABEL": "Controle quais notificações você deseja receber diretamente em seu dispositivo/e-mail",
       "ENABLE_PUSH_TITLE": "Ativar notificações flutuantes?",
       "ENABLE_PUSH_LABEL": "Receba notificações diretamente no seu dispositivo móvel",
-      "ENABLE_DUE_CARDS_TITLE": "Ativar emblema de notificação para cartões à revisar?",
-      "ENABLE_DUE_CARDS_LABEL": "Exibe a quantidade total de cartões à revisar como um pequeno emblema no ícone do aplicativo do Remnote.",
       "ENABLE_EMAIL_TITLE": "Ativar notificações por e-mail?",
       "ENABLE_EMAIL_LABEL": "Receba notificações diretamente em seu e-mail",
       "TOGGLE_TITLE": "Filtrar notificações",
@@ -387,7 +388,9 @@
           "TITLE": "Notificações de visualizações de artigos",
           "LABEL": "Seja notificado quando seu artigo começar a obter várias visualizações "
         }
-      }
+      },
+      "ENABLE_DUE_CARDS_TITLE": "Ativar emblema de notificação para cartões à revisar?",
+      "ENABLE_DUE_CARDS_LABEL": "Exibe a quantidade total de cartões à revisar como um pequeno emblema no ícone do aplicativo do Remnote."
     }
   },
   "TAGS": {
