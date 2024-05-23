@@ -348,7 +348,7 @@
       "TOGGLE_LABEL": "Control which notifications you want to receive directly to your device",
       "ENABLE_PUSH_TITLE": "Push notifications",
       "ENABLE_PUSH_LABEL": "Receive notifications directly to your device",
-      "ENABLE_DUE_CARDS_TITLE": "Due cards badge on iOS",
+      "ENABLE_DUE_CARDS_TITLE": "Due cards badge",
       "ENABLE_DUE_CARDS_LABEL": "Show the total number of due cards as a badge on the RemNote app icon on your home screen",
       "ENABLE_EMAIL_TITLE": "Enable email community notifications",
       "ENABLE_EMAIL_LABEL": "Receive notifications directly to your inbox",
