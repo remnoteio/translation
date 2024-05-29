@@ -16,6 +16,8 @@
       "AI_FLASHCARDS": "AI Flashcards"
     },
     "GENERAL": {
+      "FLASHCARD_one": "Flashcard",
+      "FLASHCARD_other": "Flashcards",
       "NOTE_one": "note",
       "NOTE_other": "notes"
     },
@@ -35,6 +37,48 @@
           }
         }
       }
+    }
+  },
+  "DOCUMENT": {
+    "DIALOGS": {
+      "DELETE_ALSO_UNSHARE": "Do you want to unshare the document as well?",
+      "DELETE_CONFIRM_DIALOG": "Are you sure you want to delete this document?",
+      "DELETE_UNSHARE_ERROR": "There was an error unsharing this document. Please unshare it manually.",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "You are offline. Please unshare the document manually when you are back online."
+    },
+    "MENU": {
+      "ADD_NESTED_DOCUMENT": "Add Nested Document",
+      "CHANGE_DOCUMENT_STATUS": "Change Document Status",
+      "CUSTOMIZE_SPACED_REPETITION": "Customize Spaced Repetition",
+      "DELETE": "Delete",
+      "EDIT_MODE": {
+        "READ": "Read Only Mode",
+        "WRITE": "Edit Mode"
+      },
+      "EXPORT": "Export",
+      "FIND_OR_FILTER": "Find or Filter",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "This option is deprecated and it is recommended that you use the alternative method of pressing <keycode /> and then searching for text references instead.",
+        "LABEL": "Find Text References"
+      },
+      "MARK_AS_DOCUMENT": "Mark as Document",
+      "MOVE": "Move",
+      "OPEN_IN_ANOTHER_PANE": "Open in Another Pane",
+      "PIN_TO_SIDEBAR": "Pin to Sidebar",
+      "PRINT": "Print",
+      "RENAME": "Rename",
+      "SHOW_STUDY_BUTTON": "Show Study Button",
+      "STATS": "Stats",
+      "UNDO": "Undo",
+      "UNPIN_FROM_SIDEBAR": "Unpin from Sidebar",
+      "UNSHARE_DOCUMENT": "Unshare Document",
+      "VIEW_GRAPH": "View Graph",
+      "VIEW_TRASH": "View Trash"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "Draft",
+      "FINISHED": "Finished",
+      "PINNED": "Pinned"
     }
   },
   "FILE_UPLOADING": {
