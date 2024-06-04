@@ -776,6 +776,7 @@
         "CONCEPT_CARDS_TOOLTIP": "選択したテキストから、概念記述フラッシュカードを作成します。",
         "GENERATE_SECTION": "生成"
       },
+      "CLOZE_BTN_TOOLTIP": "穴埋めフラッシュカード",
       "COPY_IMAGE": "画像をコピー",
       "COPY_TEXT": "プレーンテキストとしてコピー",
       "HIGHLIGHT": "ハイライト"
