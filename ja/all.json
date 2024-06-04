@@ -536,10 +536,10 @@
     }
   },
   "SIDEBAR": {
-    "LABEL_ALL_NOTES": "すべてのメモ",
+    "LABEL_ALL_NOTES": "すべてのノート",
     "LABEL_TODAYS_NOTE": "今日のノート",
-    "LABEL_FLASHCARDS": "フラッシュカード",
-    "LABEL_EDIT_LATER": "後で編集する",
+    "LABEL_FLASHCARDS": "カード",
+    "LABEL_EDIT_LATER": "あとで編集",
     "LABEL_COMMUNITY": "共有フラッシュカード",
     "LABEL_ONBOARDING_CALL": "オンボーディングコールを設定する",
     "LABEL_INTERACTIVE_TOUR": "インタラクティブツアー",
@@ -756,7 +756,7 @@
     "PUBLISH_STATUS": {
       "DRAFT": "下書き",
       "FINISHED": "完了",
-      "PINNED": "計画済み"
+      "PINNED": "ピン"
     }
   },
   "FILE_UPLOADING": {
