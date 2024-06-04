@@ -198,6 +198,10 @@
         "TITLE": "Intera larghezza",
         "LABEL": "Espandi i documenti per utilizzare l'intera larghezza dello schermo."
       },
+      "SIMPLIFIED_UI": {
+        "TITLE": "Interfaccia utente semplificata",
+        "LABEL": "Semplifica l'interfaccia utente e nascondi funzionalità avanzate."
+      },
       "IN_APP_SUGGESTIONS": {
         "LABEL": "Mostra suggerimenti sulle funzionalità di RemNote che potresti provare nella parte superiore del documento."
       },
@@ -211,10 +215,6 @@
       },
       "INTERFACE": {
         "TITLE": "Linguaggio dell'interfaccia di RemNote"
-      },
-      "SIMPLIFIED_UI": {
-        "TITLE": "Interfaccia utente semplificata",
-        "LABEL": "Semplifica l'interfaccia utente e nascondi funzionalità avanzate."
       }
     },
     "EDITOR_INTERFACE": {

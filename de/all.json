@@ -34,6 +34,10 @@
         "TITLE": "Gefahrenzone",
         "KEYWORDS": "Protokoll synchronisieren, Konto löschen, Rundgang zurücksetzen, Fortschritt zurücksetzen, Einarbeitung, erweiterte Kontoeinstellungen"
       },
+      "NOTIFICATIONS": {
+        "TITLE": "Mobile Erfolgsserie Benachrichtigungen",
+        "DESCRIPTION": "Senden Sie mobile Push-Erinnerungen über Ihre tägliche Lernkarten Erfolgsserie. Die Erinnerungen kommen jeden Tag um 18:00 Uhr in Ihrer lokalen Zeitzone."
+      },
       "SYNCING": {
         "TITLE": "Synchronisierung",
         "KEYWORDS": "Synchronisierung von Bildern und PDFs erzwingen"
@@ -61,10 +65,6 @@
       },
       "ADVANCED": {
         "KEYWORDS": "Unterstützung neu verdrahten Suche Fehlerbeheben"
-      },
-      "NOTIFICATIONS": {
-        "TITLE": "Mobile Erfolgsserie Benachrichtigungen",
-        "DESCRIPTION": "Senden Sie mobile Push-Erinnerungen über Ihre tägliche Lernkarten Erfolgsserie. Die Erinnerungen kommen jeden Tag um 18:00 Uhr in Ihrer lokalen Zeitzone."
       }
     },
     "FLASHCARDS": {
@@ -231,6 +231,10 @@
         "TITLE": "Gesamtbreite",
         "LABEL": "Erweitern Sie Dokumente, um die volle Breite des Bildschirms zu nutzen."
       },
+      "SIMPLIFIED_UI": {
+        "TITLE": "Vereinfachte Benutzeroberfläche",
+        "LABEL": "Vereinfachen Sie die Benutzeroberfläche und blenden Sie erweiterte Funktionen aus."
+      },
       "IN_APP_SUGGESTIONS": {
         "LABEL": "Zeigen Sie oben in Ihrem Dokument Tipps zu RemNote-Funktionen an, die Sie ausprobieren können."
       },
@@ -245,10 +249,6 @@
       "INTERFACE": {
         "TITLE": "RemNote Sprache der Benutzeroberfläche(Alpha)",
         "KEYWORDS": "sprache sprache übersetzung i18n"
-      },
-      "SIMPLIFIED_UI": {
-        "TITLE": "Vereinfachte Benutzeroberfläche",
-        "LABEL": "Vereinfachen Sie die Benutzeroberfläche und blenden Sie erweiterte Funktionen aus."
       },
       "ONBOARDING_TIPS_FEATURES": {
         "TITLE": "Onboarding-Tipps",

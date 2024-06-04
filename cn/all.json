@@ -25,26 +25,18 @@
         "KEYWORDS": "个人用户资料"
       },
       "IMPORT_EXPORT_TITLE": "导入导出",
-      "EXPORT_IMPORT": {
-        "KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian"
-      },
       "NAVIGATION_TITLE": "功能导航",
-      "NAVIGATION": {
-        "KEYWORDS": "导出和备份 垃圾箱 查看已删除的Rem 导入知识库 查看所有记忆卡片 下载每日备份 高级设置 删除所有Rem"
-      },
       "AUTHENTICATION_TITLE": "认证授权",
-      "AUTHENTICATION": {
-        "KEYWORDS": "注销 注销 Google 登录方法 添加 断开连接 登录 注册"
-      },
       "ADVANCED_TITLE": "高级设置",
-      "ADVANCED": {
-        "KEYWORDS": "支持 重置搜索 修复错误"
-      },
       "DANGER_ZONE_TITLE": "风险操作",
       "PRIVACY_NOTE": "隐私：阅读我们的<policyLink>隐私政策</policyLink>，或在我们的<hubLink>隐私中心</hubLink>中更改您的设置。",
       "DANGER_ZONE": {
         "TITLE": "风险操作",
         "KEYWORDS": "同步日志 删除账户 重置演示进度 重置导引 高级账户设置"
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "通知推送",
+        "DESCRIPTION": "在当地时区的每天下午6点，自动向您的手机发送记忆卡片的复习提醒。"
       },
       "SYNCING": {
         "TITLE": "数据同步",
@@ -62,9 +54,17 @@
         "TITLE": "隐私",
         "KEYWORDS": "隐私"
       },
-      "NOTIFICATIONS": {
-        "TITLE": "通知推送",
-        "DESCRIPTION": "在当地时区的每天下午6点，自动向您的手机发送记忆卡片的复习提醒。"
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "NAVIGATION": {
+        "KEYWORDS": "导出和备份 垃圾箱 查看已删除的Rem 导入知识库 查看所有记忆卡片 下载每日备份 高级设置 删除所有Rem"
+      },
+      "AUTHENTICATION": {
+        "KEYWORDS": "注销 注销 Google 登录方法 添加 断开连接 登录 注册"
+      },
+      "ADVANCED": {
+        "KEYWORDS": "支持 重置搜索 修复错误"
       },
       "PROFILE_KEYWORDS": "个人用户资料",
       "EXPORT_IMPORT_KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian",
@@ -99,10 +99,6 @@
           "TITLE": "错误阈值",
           "DESCRIPTION": "在记忆卡片中，\"Leeches\"（难题卡片）是指那些您反复学习然后又忘记的困难卡片。如果您在某张卡片上点击了比设定值更多次的\"忘记\"，我们会发出警告，以便您找出并解决难以记住的问题。将此值设定得更高，可以减少难题警告出现的次数。"
         },
-        "LEARN_AHEAD_LIMIT": {
-          "TITLE": "超前学习限制",
-          "DESCRIPTION": "当您复习到队列末尾时，RemNote 会提前显示未来若干分钟内将要到期的卡片，以避免在完成队列后又立刻看到到期的卡片。"
-        },
         "AUTOPLAY_MEDIA": {
           "TITLE": "自动播放媒体",
           "DESCRIPTION": "在展示记忆卡片时，自动播放卡片上的音频活视频"
@@ -114,6 +110,10 @@
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "TITLE": "简化记忆卡片按钮",
           "DESCRIPTION": "在复习卡片时只显示”忘记“和“努力回忆”的反馈按钮，而不显示剩余的其他五个选项"
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "TITLE": "超前学习限制",
+          "DESCRIPTION": "当您复习到队列末尾时，RemNote 会提前显示未来若干分钟内将要到期的卡片，以避免在完成队列后又立刻看到到期的卡片。"
         },
         "NEXT_DAY_STARTS_AT": {
           "TITLE": "次日起始时间",
@@ -284,6 +284,10 @@
         "TITLE": "全屏显示",
         "LABEL": "全屏显示文档内容"
       },
+      "SIMPLIFIED_UI": {
+        "TITLE": "界面简化",
+        "LABEL": "简化界面显示并隐藏高级功能"
+      },
       "IN_APP_SUGGESTIONS": {
         "TITLE": "顶级文档 使用技巧",
         "LABEL": "在文档顶部显示可以试用的 RemNote 功能提示",
@@ -306,10 +310,6 @@
       "INTERFACE": {
         "TITLE": "RemNote 界面语言",
         "KEYWORDS": "语言 语言 翻译 i18n"
-      },
-      "SIMPLIFIED_UI": {
-        "TITLE": "界面简化",
-        "LABEL": "简化界面显示并隐藏高级功能"
       },
       "ONBOARDING_TIPS_FEATURES": {
         "TITLE": "功能提示",
