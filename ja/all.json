@@ -85,7 +85,10 @@
       "CACHING": {
         "DESCRIPTION": "画像が読み込まれたときにキャッシュするため、オフラインで見ることができます。",
         "NUMBER_DESCRIPTION": "キャッシュする画像の最大数を設定します。上限に達すると、最も古い画像がキャッシュからクリアされます。",
-        "NUMBER_TITLE": "最大キャッシュ画像数"
+        "NUMBER_TITLE": "最大キャッシュ画像数",
+        "TITLE": "キャッシュ",
+        "TOGGLE_DESCRIPTION": "無効にすると、キャッシュされた画像はすべて消去されます。",
+        "TOGGLE_TITLE": "キャッシュを有効にする"
       }
     },
     "FLASHCARDS": {
@@ -136,6 +139,7 @@
           "DESCRIPTION": "毎日この時間に、新しいカードがキューに表示されます。"
         },
         "AUTOPLAY_TEXT_TO_SPEECH": {
+          "DESCRIPTION": "フラッシュカードを表示する際、カードの表と裏の音声を自動的に再生します。",
           "TITLE": "テキストから音声への自動再生"
         },
         "TEXT_TO_SPEECH_VOICE": {
@@ -779,10 +783,42 @@
       "CLOZE_BTN_TOOLTIP": "穴埋めフラッシュカード",
       "COPY_IMAGE": "画像をコピー",
       "COPY_TEXT": "プレーンテキストとしてコピー",
-      "HIGHLIGHT": "ハイライト"
+      "HIGHLIGHT": "ハイライト",
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "画像穴埋めフラッシュカードをつくる",
+      "NO_TEXT_IN_PDF_WARN": "このファイルにはテキストレイヤーは含まれていませんが、エリアハイライトを使って注釈を付けることはできます。",
+      "NOTE_BTN_TOOLTIP": "ノート"
+    },
+    "EDIT_ANNOTATIONS": {
+      "DELETE_WARNING": "このハイライトはnotesCount, number notesWordを持っています。本当に削除しますか？",
+      "TURN_INTO_CONCEPT": "コンセプトに変更",
+      "VIEW_REFERENCES": "参考文献を見る"
+    },
+    "HEADER": {
+      "AREA_HIGHLIGHT_TOOLTIP": "エリアハイライト ({{keyName}} + Drag)",
+      "NUMBER_OF_PAGES_TOOLTIP": "ページ数",
+      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "デフォルトドキュメントの切り替え"
     },
     "PDF_OPTIONS": {
+      "CHANGE_THEME": "テーマの変更",
+      "DOWNLOAD_PDF": "PDFをダウンロード",
+      "LEARN_MORE": "さらに詳しく",
+      "OPEN_WEBPAGE_EXTERNALLY": "ウェブページを外部で開く",
+      "PDF_SETTINGS": "設定",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "自動ハイライト",
+        "AUTO_HIGHLIGHT_TOOLTIP": "テキスト選択後、自動的にハイライトを作成",
+        "DISABLE_HEADER_BUTTONS": "ヘッダーボタンを無効にする",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "ヘッダーボタン («) がリーダーに表示されないようにする。",
+        "SNAP_HIGHLIGHT_TO_WORDS": "単語にスナップハイライト",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "新しいハイライトを作成する際、単語全体のみを選択します。"
+      },
+      "REFETCH_PAGE": "ページの再取得",
+      "REFETCH_PAGE_TOOLTIP": "既存のハイライトがある場合、このページをリフェッチすることはできません。",
+      "SEARCH_IN_PDF": "PDF内検索",
+      "SPLIT_PANES": "タブの分割",
+      "SPLIT_PANES_TOOLTIP": "エディタとPDFビューアを別々のタブに分割します。",
       "THEMES": {
+        "CLASSIC_INVERT": "クラシック・インバート",
         "DARK": "ダークモード",
         "LIGHT": "ライトモード",
         "SOLARISED": "ソーラー化",
