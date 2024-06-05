@@ -25,9 +25,6 @@
       },
       "IMPORT_EXPORT_TITLE": "Importar e Exportar",
       "NAVIGATION_TITLE": "Navegação",
-      "NAVIGATION": {
-        "KEYWORDS": "Exportação e Backup Lixeira Exibir Deleteado Rem Importar Base de Conhecimento Exibir Todos os Cartões Baixar um Backup Diário Configurações Avançadas Excluir Todos os Rem"
-      },
       "AUTHENTICATION_TITLE": "Autenticação",
       "ADVANCED_TITLE": "Configurações Avançadas",
       "DANGER_ZONE_TITLE": "Área de Perigo",
@@ -35,6 +32,10 @@
       "DANGER_ZONE": {
         "TITLE": "Zona de Perigo",
         "KEYWORDS": "sincronizar log excluir conta redefinir passo a passo progresso redefinir onboarding avançadas conta configurações "
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "Notificações de Sequência para o Celular",
+        "DESCRIPTION": "Enviar lembretes sobre sua sequência diária de flashcards. Os lembretes são enviados às 18h todos os dias, no seu fuso horário local."
       },
       "SYNCING": {
         "TITLE": "Sincronizando",
@@ -63,10 +64,6 @@
       },
       "ADVANCED": {
         "KEYWORDS": "Suporte Religar Buscar Consertar Bug"
-      },
-      "NOTIFICATIONS": {
-        "TITLE": "Notificações de Sequência para o Celular",
-        "DESCRIPTION": "Enviar lembretes sobre sua sequência diária de flashcards. Os lembretes são enviados às 18h todos os dias, no seu fuso horário local."
       }
     },
     "FLASHCARDS": {
@@ -280,6 +277,10 @@
         "TITLE": "Largura Completa ",
         "LABEL": "Expanda os documentos para usar toda a largura da tela."
       },
+      "SIMPLIFIED_UI": {
+        "TITLE": "IU Simplificada",
+        "LABEL": "Simplifique a interface e oculte recursos avançados."
+      },
       "IN_APP_SUGGESTIONS": {
         "TITLE": "Dicas de Integração na Topo do Documento",
         "LABEL": "Mostre dicas sobre os recursos do RemNote na parte superior do seu documento.",
@@ -302,10 +303,6 @@
       "INTERFACE": {
         "TITLE": "Idioma da interface do RemNote",
         "KEYWORDS": "idioma idioma tradução i18n"
-      },
-      "SIMPLIFIED_UI": {
-        "TITLE": "IU Simplificada",
-        "LABEL": "Simplifique a interface e oculte recursos avançados."
       },
       "ONBOARDING_TIPS_FEATURES": {
         "TITLE": "Dicas de Onboarding"
@@ -356,6 +353,8 @@
       "TOGGLE_LABEL": "Controle quais notificações você deseja receber diretamente em seu dispositivo/e-mail",
       "ENABLE_PUSH_TITLE": "Ativar notificações flutuantes?",
       "ENABLE_PUSH_LABEL": "Receba notificações diretamente no seu dispositivo móvel",
+      "ENABLE_DUE_CARDS_TITLE": "Ativar emblema de notificação para cartões à revisar?",
+      "ENABLE_DUE_CARDS_LABEL": "Exibe a quantidade total de cartões à revisar como um pequeno emblema no ícone do aplicativo do Remnote.",
       "ENABLE_EMAIL_TITLE": "Ativar notificações por e-mail?",
       "ENABLE_EMAIL_LABEL": "Receba notificações diretamente em seu e-mail",
       "TOGGLE_TITLE": "Filtrar notificações",
@@ -388,9 +387,7 @@
           "TITLE": "Notificações de visualizações de artigos",
           "LABEL": "Seja notificado quando seu artigo começar a obter várias visualizações "
         }
-      },
-      "ENABLE_DUE_CARDS_TITLE": "Ativar emblema de notificação para cartões à revisar?",
-      "ENABLE_DUE_CARDS_LABEL": "Exibe a quantidade total de cartões à revisar como um pequeno emblema no ícone do aplicativo do Remnote."
+      }
     }
   },
   "TAGS": {
