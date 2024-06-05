@@ -169,13 +169,13 @@
       "AI_DROPDOWN": {
         "BASIC_CARDS": "Basic Cards",
         "BASIC_CARDS_TOOLTIP": "Generate basic question-answer flashcards from the selected text.",
-        "CLOZE_CARDS": "Cloze Cards",
+        "CLOZE_CARDS": "Cloze (Fill-in-the-Blank) Cards",
         "CLOZE_CARDS_TOOLTIP": "Generate cloze flashcards from the selected text.",
         "CONCEPT_CARDS": "Concept Cards",
         "CONCEPT_CARDS_TOOLTIP": "Generate concept-descriptor flashcards from the selected text.",
         "GENERATE_SECTION": "GENERATE"
       },
-      "CLOZE_BTN_TOOLTIP": "Cloze (Fill in the Blank) Flashcard",
+      "CLOZE_BTN_TOOLTIP": "Cloze (Fill-in-the-Blank) Flashcard",
       "COPY_IMAGE": "Copy Image",
       "COPY_TEXT": "Copy as Plain Text",
       "HIGHLIGHT": "Highlight",
@@ -420,8 +420,8 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "DESCRIPTION": "Practice at least this many flashcards every day to build streaks.",
-          "TITLE": "Target"
+          "TITLE": "Target",
+          "DESCRIPTION": "Practice at least this many flashcards every day to build streaks."
         },
         "TODAYS_TARGET": "Today's Smoothed Target:",
         "TODAYS_TARGET_EXPLANATION": "If RemNote predicts that, over the next week, you'll have fewer cards due for practice on average than your configured daily target, we'll temporarily reduce your daily target so you have a roughly equal number of cards each day, rather than a lot at the beginning and fewer at the end."
@@ -759,9 +759,9 @@
     "CREATE_TEMPLATE": "Create Template",
     "HIDE_CONFIGURATION": "Hide Configuration",
     "NEW_TEMPLATE": "New Template",
-    "PROPERTIES_HELP_TEXT": {
-      "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
-    },
+    "PROPERTIES_HELP_TEXT": [
+      "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
+    ],
     "PROPERTY_one": "Property",
     "PROPERTY_other": "Properties",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Property",
