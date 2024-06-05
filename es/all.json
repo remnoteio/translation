@@ -1,282 +1,282 @@
 {
+  "COMMON": {
+    "ACTIONS": {
+      "APPLY": "Aplicar",
+      "CREATE": "Crear",
+      "DELETE": "Eliminar",
+      "DUPLICATE": "Duplicar",
+      "EDIT": "Editar",
+      "HIDE": "Ocultar",
+      "REMOVE": "Remover",
+      "UPDATE": "Actualizar",
+      "VIEW": "Ver"
+    }
+  },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Idioma",
     "TRANSLATION_INFO_SETTINGS": "La traducción aún está en curso; verá una combinación de inglés y el idioma seleccionado.<br>Puede ayudarnos a traducir leyendo el <guideLink>tutorial</guideLink> y luego usando nuestro <editorLink>editor web</editorLink>."
   },
-  "COMMON": {
-    "ACTIONS": {
-      "CREATE": "Crear",
-      "REMOVE": "Remover",
-      "DELETE": "Eliminar",
-      "EDIT": "Editar",
-      "DUPLICATE": "Duplicar",
-      "APPLY": "Aplicar",
-      "UPDATE": "Actualizar",
-      "VIEW": "Ver",
-      "HIDE": "Ocultar"
-    }
-  },
   "SETTINGS": {
     "ACCOUNT": {
-      "PROFILE_TITLE": "Perfil",
+      "ADVANCED_TITLE": "Configuración Avanzada",
+      "AUTHENTICATION_TITLE": "Autenticación",
+      "DANGER_ZONE": {
+        "KEYWORDS": "registro de sincronización eliminar cuenta reiniciar tutorial reiniciar introducción configuración avanzada de la cuenta",
+        "TITLE": "Zona de Peligro"
+      },
+      "DANGER_ZONE_TITLE": "Zona de Peligro",
+      "IMPORT_EXPORT_TITLE": "Importar y Exportar",
       "MY_PROFILE": "Mi Perfil",
+      "NAVIGATION_TITLE": "Navegación",
+      "NOTIFICATIONS": {
+        "DESCRIPTION": "Envíar recordatorios móviles sobre tu racha diaria de tarjetas de estudio. Los recordatorios llegan a las 6 p.m. cada día, en tu zona horaria local.",
+        "TITLE": "Notificaciones Móviles de Racha"
+      },
+      "PRIVACY": {
+        "KEYWORDS": "privacidad",
+        "TITLE": "Privacidad"
+      },
+      "PRIVACY_NOTE": "Privacidad: Lea nuestra <policyLink>Política de Privacidad</policyLink> o cambie su configuración en nuestro <hubLink>Centro de Privacidad</hubLink>.",
       "PROFILE": {
         "KEYWORDS": "Perfil de Usuario Personal"
       },
-      "IMPORT_EXPORT_TITLE": "Importar y Exportar",
-      "NAVIGATION_TITLE": "Navegación",
-      "AUTHENTICATION_TITLE": "Autenticación",
-      "ADVANCED_TITLE": "Configuración Avanzada",
-      "DANGER_ZONE_TITLE": "Zona de Peligro",
-      "PRIVACY_NOTE": "Privacidad: Lea nuestra <policyLink>Política de Privacidad</policyLink> o cambie su configuración en nuestro <hubLink>Centro de Privacidad</hubLink>.",
-      "DANGER_ZONE": {
-        "TITLE": "Zona de Peligro",
-        "KEYWORDS": "registro de sincronización eliminar cuenta reiniciar tutorial reiniciar introducción configuración avanzada de la cuenta"
-      },
-      "NOTIFICATIONS": {
-        "TITLE": "Notificaciones Móviles de Racha",
-        "DESCRIPTION": "Envíar recordatorios móviles sobre tu racha diaria de tarjetas de estudio. Los recordatorios llegan a las 6 p.m. cada día, en tu zona horaria local."
+      "PROFILE_TITLE": "Perfil",
+      "SUPPORT": {
+        "KEYWORDS": "solicitar soporte, ejecutar ayuda",
+        "TITLE": "Soporte"
       },
       "SYNCING": {
-        "TITLE": "Sincronizando",
-        "KEYWORDS": "Sincronizar Imágenes y PDFs Forzosamente"
+        "KEYWORDS": "Sincronizar Imágenes y PDFs Forzosamente",
+        "TITLE": "Sincronizando"
       },
       "VERSION": {
-        "TITLE": "Versión de la Aplicación",
-        "KEYWORDS": "versión"
-      },
-      "SUPPORT": {
-        "TITLE": "Soporte",
-        "KEYWORDS": "solicitar soporte, ejecutar ayuda"
-      },
-      "PRIVACY": {
-        "TITLE": "Privacidad",
-        "KEYWORDS": "privacidad"
+        "KEYWORDS": "versión",
+        "TITLE": "Versión de la Aplicación"
       }
-    },
-    "FLASHCARDS": {
-      "DAILY_TARGET": {
-        "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "Objetivo Diario Máximo",
-          "DESCRIPTION": "Limita la cantidad de tarjetas de estudio que RemNote te pedirá practicar para alcanzar tu objetivo diario a este valor."
-        },
-        "TODAYS_TARGET": "Objetivo de Hoy:",
-        "TODAYS_TARGET_EXPLANATION": "RemNote intenta establecer tu objetivo diario de manera que, si lo alcanzas cada día, completarás todas las tarjetas pendientes de repaso durante los próximos 7 días. Sin embargo, el objetivo diario nunca será mayor que el máximo establecido anteriormente."
-      },
-      "GENERAL": {
-        "RESET_ALL": {
-          "TITLE": "Restablecer toda la configuración de tarjetas de estudio a los valores predeterminados",
-          "DESCRIPTION": "Restablecer todos los ajustes de las tarjetas de estudio a sus valores predeterminados.",
-          "CONFIRM_MESSAGE": "¿Estás seguro de que quieres restablecer todos los ajustes de las tarjetas de estudio a sus valores predeterminados?"
-        },
-        "NEW_CARDS_PER_DAY": {
-          "TITLE": "Máximo de Tarjetas Nuevas por Día",
-          "DESCRIPTION": "Incluye como máximo esta cantidad de tarjetas de estudio recién creadas en tu cola de estudio cada día. De esta manera, las tarjetas nuevas entrarán en tu cola a un ritmo diario constante, en lugar de en un lote gigante."
-        },
-        "STALE_CARDS_PER_DAY": {
-          "TITLE": "Máximo de Tarjetas Atrasadas por Día",
-          "DESCRIPTION": "Reintroduce como máximo esta cantidad de tarjetas de estudio atrasadas en tu cola de estudio cada día. Las tarjetas atrasadas son aquellas que se retienen temporalmente de la cola porque no las has estudiado en mucho tiempo y volver a aprenderlas todas a la vez sería agotador."
-        },
-        "LEECH_THRESHOLD": {
-          "TITLE": "Umbral de tarjetas problemáticas",
-          "DESCRIPTION": "Las tarjetas problemáticas son aquellas que aprendes y olvidas repetidamente. Si marcas una tarjeta como 'Olvidé' más veces que este valor, te avisaremos para que puedas identificar por qué tienes dificultades y solucionar el problema. Establece un valor más alto para ver el aviso de tarjeta problemática con menos frecuencia."
-        },
-        "AUTOPLAY_MEDIA": {
-          "TITLE": "Reproducción Automática de Multimedia",
-          "DESCRIPTION": "Al mostrar una tarjeta de estudio, reproduce automáticamente cualquier audio o video en ella."
-        },
-        "TYPE_ANSWER": {
-          "TITLE": "Escribir Respuesta",
-          "DESCRIPTION": "Mostrar un cuadro de texto en el frente de cada tarjeta de estudio y comparar lo que escribes con la respuesta en el reverso de la tarjeta."
-        },
-        "SIMPLIFIED_FLASHCARD_BUTTONS": {
-          "TITLE": "Botones Simplificados de Tarjetas de Estudio",
-          "DESCRIPTION": "Mostrar solo los botones de respuesta \"Olvidé\" y \"Recordé con esfuerzo\" al estudiar las tarjetas de estudio, en lugar de las cinco opciones."
-        }
-      },
-      "VISUAL": {
-        "SHOW_NEXT_REVIEW_TIMES": {
-          "TITLE": "Mostrar Tiempos de Próximo Repaso",
-          "DESCRIPTION": "Mostrar el tiempo hasta el próximo repaso en cada botón de respuesta."
-        }
-      },
-      "ORDERING": {
-        "DOCUMENT_CLUSTERS": {
-          "TITLE": "Agrupación de Documentos",
-          "DESCRIPTION": "Preferir practicar Rems de documentos conectados juntos."
-        },
-        "REFERENCE_CLUSTERS": {
-          "TITLE": "Agrupaciones de Referencias",
-          "DESCRIPTION": "Preferir practicar Rems que se referencian entre sí juntos."
-        },
-        "TAG_CLUSTERS": {
-          "TITLE": "Agrupaciones por Etiquetas",
-          "DESCRIPTION": "Preferir practicar Rems con la misma etiqueta juntos."
-        },
-        "HIERARCHY_CLUSTERS": {
-          "TITLE": "Agrupaciones por Jerarquía",
-          "DESCRIPTION": "Preferir practicar Rems relacionados entre sí jerárquicamente juntos."
-        }
-      },
-      "STATISTICS": {
-        "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
-          "TITLE": "Tiempo Máximo de Respuesta en Tarjetas de Estudio",
-          "DESCRIPTION": "Si tardas más que esto (en segundos) en responder a una tarjeta de estudio, el resto del tiempo no se incluirá en tus estadísticas."
-        }
-      }
-    },
-    "KEYBOARD_SHORTCUTS": {
-      "SPLIT_WITH_ALT_ENTER": {
-        "TITLE": {
-          "PC": "Dividir línea con Alt+Enter",
-          "MAC": "Dividir línea con Opt+Return"
-        },
-        "DESCRIPTION": {
-          "PC": "Al presionar Enter en medio de un Rem, crea un salto de línea dentro de ese Rem, y utiliza Alt+Enter para dividir el texto en dos Rems separados. (Por defecto, Mayús+Enter y Enter solo, respectivamente, realizan estas funciones).",
-          "MAC": "Al presionar Return en medio de un Rem, se crea un salto de línea dentro de ese Rem. Para dividir el texto en dos Rems separados, utiliza Opt+Return (por defecto, Mayús+Return y Return solo, respectivamente, realizan estas funciones)."
-        }
-      },
-      "ENTER_TO_OUTDENT": {
-        "TITLE": "Presionar Enter para Desindentar",
-        "LABEL": "Al presionar Enter en un Rem sin contenido y que no esté en el nivel superior del documento, disminuir un nivel de sangría. (Si está desactivado, permanecer en el mismo nivel y dejar un Rem vacío)."
-      },
-      "DOUBLE_SLASH_FOR_COMMAND_MENU": {
-        "TITLE": "Doble Barra para el Menú de Comandos",
-        "DESCRIPTION": "Escribir // en lugar de / para activar comandos mientras se editan Rems."
-      },
-      "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
-        "TITLE": "Usar Atajos de Teclado Clásicos por Defecto",
-        "DESCRIPTION": "Usar por defecto los atajos de teclado clásicos (anteriores a la actualización de agosto de 2020)."
-      },
-      "CHANGE_KEYBOARD_SHORTCUTS": {
-        "TITLE": "Cambiar Atajos de Teclado",
-        "DESCRIPTION": "Personalizar atajos de teclado, mapeo de teclas.",
-        "KEYWORDS": "personalizar atajos de teclado, mapeo de teclas"
-      }
-    },
-    "EDITOR": {
-      "GENERAL": {
-        "ENABLE_SPELLCHECK": {
-          "TITLE": "Activar Corrector Ortográfico",
-          "DESCRIPTION": "Revisar el Rem seleccionado actualmente en busca de errores ortográficos. El corrector ortográfico utiliza el/los idioma(s) seleccionado(s) en tu navegador o sistema operativo."
-        },
-        "CAPITALIZE_FROM_SEARCH": {
-          "TITLE": "Utilizar Mayúsculas a Partir de la Búsqueda",
-          "DESCRIPTION": {
-            "PC": "Al crear un Rem presionando Ctrl+Enter en una búsqueda, poner en mayúscula su nombre.",
-            "MAC": "Al crear un Rem presionando Cmd+Return en una búsqueda, poner en mayúscula su nombre."
-          }
-        },
-        "CREATE_CONCEPTS_FROM_SEARCH": {
-          "TITLE": "Crear Conceptos desde la Búsqueda",
-          "DESCRIPTION": {
-            "PC": "Al crear un Rem presionando Ctrl+Enter en una búsqueda, convertirlo en un Concepto.",
-            "MAC": "Al crear un Rem presionando Cmd+Return en una búsqueda, convertirlo en un Concepto."
-          }
-        },
-        "CREATE_STUBS_FROM_SEARCH": {
-          "TITLE": "Crear Bocetos desde la Búsqueda",
-          "DESCRIPTION": {
-            "PC": "Al crear un Rem presionando Ctrl+Enter en una búsqueda, etiquetarlo con \"Boceto\".",
-            "MAC": "Al crear un Rem presionando Cmd+Return en una búsqueda, etiquetarlo con \"Boceto\"."
-          }
-        },
-        "INSERT_EMOJIS_AS_REFERENCES": {
-          "TITLE": "Insertar Emojis como Referencias",
-          "DESCRIPTION": "Al buscar con %% y seleccionar un emoji, se insertará como una referencia."
-        }
-      },
-      "DATES_AND_TIMES": {
-        "DATE_FORMATTING": {
-          "TITLE": "Formato de Fecha",
-          "DESCRIPTION": "Dar formato a los títulos de Documentos Diarios y las fechas insertadas con /fecha de esta manera."
-        },
-        "DATE_FORMATTING_CUSTOM": {
-          "TITLE": "Formato de Fecha Personalizado",
-          "DESCRIPTION": "Dar formato a la fecha como desees utilizando las opciones proporcionadas."
-        },
-        "TIME_FORMATTING": {
-          "TITLE": "Formato de Hora",
-          "DESCRIPTION": "Dar formato a las horas insertadas con /hora de esta manera."
-        },
-        "WEEK_STARTS_ON_MONDAY": {
-          "TITLE": "La Semana Comienza el Lunes",
-          "DESCRIPTION": "Al seleccionar fechas en un selector de fechas, comenzar cada fila del calendario con el lunes en lugar del domingo."
-        }
-      }
-    },
-    "PLANS": {
-      "TITLE": "Planes",
-      "KEYWORDS": "invitar amigos plan cambiar suscripción ganar créditos remnote gratis enviar tweet email elegir plan aprendizaje de por vida pro desglose de funciones opciones de precios"
     },
     "EARN_CREDIT": {
-      "TITLE": "Obtener créditos",
-      "KEYWORDS": "invitar amigos obtener créditos plan cambiar suscripción remnote gratis enviar tweet email elegir plan aprendizaje de por vida pro desglose de funciones opciones de precios",
-      "INVITE_FRIENDS_REMNOTE": "¡Invita a tus amigos a RemNote!",
-      "INVITE_FRIENDS_EARN_CREDIT": "¡Invita a tus amigos a RemNote y gana créditos! Recibirás <0>{{monthlyPrice}}</0> en crédito RemNote cuando la persona que invites se registre para una cuenta, y ellos también recibirán <0>{{monthlyPrice}}</0> en crédito para empezar.",
+      "APPLY_CREDIT": "Aplicar tu crédito",
+      "COPIED": "¡Copiado!",
+      "COPYLINK": "Copiar enlace",
+      "CREATE_ACCOUNT": "Crea una cuenta para invitar a tus amigos",
       "CREDIT_BALANCE": "Saldo de Crédito",
       "CREDIT_BALANCE_TEXT": "Tienes <bold>{{userCredit}}</bold> de crédito restante y has ganado <bold>{{userCreditEarned}}</bold> de crédito en total. {{months}}restantes de RemNote Pro gratis. <br /><br />¡Suscríbete a Pro para empezar a usar tu crédito! No se te cobrará hasta que tu crédito se agote.",
-      "TOAST_SUBSCRIBE": "Tus créditos se aplicarán automáticamente al suscribirte a RemNote Pro. ¡Elige un plan a continuación para comenzar!",
-      "TOAST_RENEW": "Tus créditos se aplicarán automáticamente al renovar tu suscripción actual.",
-      "APPLY_CREDIT": "Aplicar tu crédito",
-      "INVITE_TEXT": "Invita amigos y obtén crédito",
-      "HANG_ON": "Un momento",
-      "CREATE_ACCOUNT": "Crea una cuenta para invitar a tus amigos",
-      "ENTER_VALID_EMAIL": "¡Ingresa un correo electrónico válido!",
-      "SEND_INVITE": "Enviar invitación",
-      "FRIEND_ALREADY_ON_REMNOTE": "Tu amigo ya está en RemNote.",
-      "INVITE_ERROR": "Algo salió mal. Por favor, inténtalo de nuevo más tarde.",
-      "VERIFY_EMAIL": "Para invitar a alguien, verifica primero tu correo electrónico.",
-      "INVITE_EMAIL": "Invitar por correo electrónico",
       "EMAIL_PLACEHOLDER": "amigocurioso@gmail.com",
-      "INVITE": "Invitar",
-      "SHARE_LINK": "Compartir enlace de invitación",
-      "COPIED": "¡Copiado!",
-      "INVITE_COPIED": "¡Enlace de invitación copiado!",
-      "COPYLINK": "Copiar enlace",
+      "ENTER_VALID_EMAIL": "¡Ingresa un correo electrónico válido!",
+      "FRIEND_ALREADY_ON_REMNOTE": "Tu amigo ya está en RemNote.",
       "FRIENDS_TITLE": "Amigos",
+      "HANG_ON": "Un momento",
+      "INVITE": "Invitar",
+      "INVITE_COPIED": "¡Enlace de invitación copiado!",
+      "INVITE_EMAIL": "Invitar por correo electrónico",
+      "INVITE_ERROR": "Algo salió mal. Por favor, inténtalo de nuevo más tarde.",
+      "INVITE_FRIENDS_EARN_CREDIT": "¡Invita a tus amigos a RemNote y gana créditos! Recibirás <0>{{monthlyPrice}}</0> en crédito RemNote cuando la persona que invites se registre para una cuenta, y ellos también recibirán <0>{{monthlyPrice}}</0> en crédito para empezar.",
+      "INVITE_FRIENDS_REMNOTE": "¡Invita a tus amigos a RemNote!",
+      "INVITE_TEXT": "Invita amigos y obtén crédito",
       "INVITED_YOU": "(te invitó)",
-      "NOT_CONFIRMED_EMAIL": "(no ha confirmado el correo electrónico)"
+      "KEYWORDS": "invitar amigos obtener créditos plan cambiar suscripción remnote gratis enviar tweet email elegir plan aprendizaje de por vida pro desglose de funciones opciones de precios",
+      "NOT_CONFIRMED_EMAIL": "(no ha confirmado el correo electrónico)",
+      "SEND_INVITE": "Enviar invitación",
+      "SHARE_LINK": "Compartir enlace de invitación",
+      "TITLE": "Obtener créditos",
+      "TOAST_RENEW": "Tus créditos se aplicarán automáticamente al renovar tu suscripción actual.",
+      "TOAST_SUBSCRIBE": "Tus créditos se aplicarán automáticamente al suscribirte a RemNote Pro. ¡Elige un plan a continuación para comenzar!",
+      "VERIFY_EMAIL": "Para invitar a alguien, verifica primero tu correo electrónico."
     },
-    "GLOBAL_INTERFACE": {
-      "DARK_MODE": {
-        "TITLE": "Modo Oscuro",
-        "LABEL": "Usar este esquema de colores."
+    "EDITOR": {
+      "DATES_AND_TIMES": {
+        "DATE_FORMATTING": {
+          "DESCRIPTION": "Dar formato a los títulos de Documentos Diarios y las fechas insertadas con /fecha de esta manera.",
+          "TITLE": "Formato de Fecha"
+        },
+        "DATE_FORMATTING_CUSTOM": {
+          "DESCRIPTION": "Dar formato a la fecha como desees utilizando las opciones proporcionadas.",
+          "TITLE": "Formato de Fecha Personalizado"
+        },
+        "TIME_FORMATTING": {
+          "DESCRIPTION": "Dar formato a las horas insertadas con /hora de esta manera.",
+          "TITLE": "Formato de Hora"
+        },
+        "WEEK_STARTS_ON_MONDAY": {
+          "DESCRIPTION": "Al seleccionar fechas en un selector de fechas, comenzar cada fila del calendario con el lunes en lugar del domingo.",
+          "TITLE": "La Semana Comienza el Lunes"
+        }
       },
-      "FULL_WIDTH": {
-        "TITLE": "Ancho Completo",
-        "LABEL": "Expandir los documentos para utilizar el ancho completo de la pantalla."
-      },
-      "SIMPLIFIED_UI": {
-        "TITLE": "Interfaz de Usuario Simplificada",
-        "LABEL": "Simplificar la interfaz de usuario y ocultar funciones avanzadas."
-      },
-      "IN_APP_SUGGESTIONS": {
-        "TITLE": "Consejos de Introducción en la Parte Superior del Documento",
-        "LABEL": "Mostrar consejos sobre funciones de RemNote que podrías probar en la parte superior de tu documento.",
-        "KEYWORDS": "descripciones emergentes ayuda soporte aprender tutorial"
-      },
-      "LEFT_SIDEBAR_TUTORIALS": {
-        "TITLE": "Tutoriales Interactivos",
-        "LABEL": "Mostrar tutoriales sobre las funciones de RemNote que estás usando actualmente en la esquina de la pantalla."
-      },
-      "ONBOARDING_TIPS_SHORTCUTS": {
-        "TITLE": "Consejos de Atajos de Teclado",
-        "LABEL": "Mostrar consejos sobre los atajos de teclado que estás usando actualmente en la esquina de la pantalla."
-      },
-      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
-        "TITLE": "Idioma de Búsqueda de Tarjetas de Estudio Compartidas",
-        "KEYWORDS": "idioma comunidad documentos buscar tarjetas de estudio compartir compartido descargar encontrar"
-      },
-      "INTERFACE": {
-        "TITLE": "Idioma de la Interfaz de RemNote",
-        "KEYWORDS": "idioma lenguaje traducción traducir i18n"
+      "GENERAL": {
+        "CAPITALIZE_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Al crear un Rem presionando Cmd+Return en una búsqueda, poner en mayúscula su nombre.",
+            "PC": "Al crear un Rem presionando Ctrl+Enter en una búsqueda, poner en mayúscula su nombre."
+          },
+          "TITLE": "Utilizar Mayúsculas a Partir de la Búsqueda"
+        },
+        "CREATE_CONCEPTS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Al crear un Rem presionando Cmd+Return en una búsqueda, convertirlo en un Concepto.",
+            "PC": "Al crear un Rem presionando Ctrl+Enter en una búsqueda, convertirlo en un Concepto."
+          },
+          "TITLE": "Crear Conceptos desde la Búsqueda"
+        },
+        "CREATE_STUBS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Al crear un Rem presionando Cmd+Return en una búsqueda, etiquetarlo con \"Boceto\".",
+            "PC": "Al crear un Rem presionando Ctrl+Enter en una búsqueda, etiquetarlo con \"Boceto\"."
+          },
+          "TITLE": "Crear Bocetos desde la Búsqueda"
+        },
+        "ENABLE_SPELLCHECK": {
+          "DESCRIPTION": "Revisar el Rem seleccionado actualmente en busca de errores ortográficos. El corrector ortográfico utiliza el/los idioma(s) seleccionado(s) en tu navegador o sistema operativo.",
+          "TITLE": "Activar Corrector Ortográfico"
+        },
+        "INSERT_EMOJIS_AS_REFERENCES": {
+          "DESCRIPTION": "Al buscar con %% y seleccionar un emoji, se insertará como una referencia.",
+          "TITLE": "Insertar Emojis como Referencias"
+        }
       }
     },
     "EDITOR_INTERFACE": {
       "SINGLE_CLICK_REFERENCES_TO_OPEN": {
         "TITLE": "Abrir Referencias con un Solo Clic"
       }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "DESCRIPTION": "Limita la cantidad de tarjetas de estudio que RemNote te pedirá practicar para alcanzar tu objetivo diario a este valor.",
+          "TITLE": "Objetivo Diario Máximo"
+        },
+        "TODAYS_TARGET": "Objetivo de Hoy:",
+        "TODAYS_TARGET_EXPLANATION": "RemNote intenta establecer tu objetivo diario de manera que, si lo alcanzas cada día, completarás todas las tarjetas pendientes de repaso durante los próximos 7 días. Sin embargo, el objetivo diario nunca será mayor que el máximo establecido anteriormente."
+      },
+      "GENERAL": {
+        "AUTOPLAY_MEDIA": {
+          "DESCRIPTION": "Al mostrar una tarjeta de estudio, reproduce automáticamente cualquier audio o video en ella.",
+          "TITLE": "Reproducción Automática de Multimedia"
+        },
+        "LEECH_THRESHOLD": {
+          "DESCRIPTION": "Las tarjetas problemáticas son aquellas que aprendes y olvidas repetidamente. Si marcas una tarjeta como 'Olvidé' más veces que este valor, te avisaremos para que puedas identificar por qué tienes dificultades y solucionar el problema. Establece un valor más alto para ver el aviso de tarjeta problemática con menos frecuencia.",
+          "TITLE": "Umbral de tarjetas problemáticas"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "DESCRIPTION": "Incluye como máximo esta cantidad de tarjetas de estudio recién creadas en tu cola de estudio cada día. De esta manera, las tarjetas nuevas entrarán en tu cola a un ritmo diario constante, en lugar de en un lote gigante.",
+          "TITLE": "Máximo de Tarjetas Nuevas por Día"
+        },
+        "RESET_ALL": {
+          "CONFIRM_MESSAGE": "¿Estás seguro de que quieres restablecer todos los ajustes de las tarjetas de estudio a sus valores predeterminados?",
+          "DESCRIPTION": "Restablecer todos los ajustes de las tarjetas de estudio a sus valores predeterminados.",
+          "TITLE": "Restablecer toda la configuración de tarjetas de estudio a los valores predeterminados"
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "DESCRIPTION": "Mostrar solo los botones de respuesta \"Olvidé\" y \"Recordé con esfuerzo\" al estudiar las tarjetas de estudio, en lugar de las cinco opciones.",
+          "TITLE": "Botones Simplificados de Tarjetas de Estudio"
+        },
+        "STALE_CARDS_PER_DAY": {
+          "DESCRIPTION": "Reintroduce como máximo esta cantidad de tarjetas de estudio atrasadas en tu cola de estudio cada día. Las tarjetas atrasadas son aquellas que se retienen temporalmente de la cola porque no las has estudiado en mucho tiempo y volver a aprenderlas todas a la vez sería agotador.",
+          "TITLE": "Máximo de Tarjetas Atrasadas por Día"
+        },
+        "TYPE_ANSWER": {
+          "DESCRIPTION": "Mostrar un cuadro de texto en el frente de cada tarjeta de estudio y comparar lo que escribes con la respuesta en el reverso de la tarjeta.",
+          "TITLE": "Escribir Respuesta"
+        }
+      },
+      "ORDERING": {
+        "DOCUMENT_CLUSTERS": {
+          "DESCRIPTION": "Preferir practicar Rems de documentos conectados juntos.",
+          "TITLE": "Agrupación de Documentos"
+        },
+        "HIERARCHY_CLUSTERS": {
+          "DESCRIPTION": "Preferir practicar Rems relacionados entre sí jerárquicamente juntos.",
+          "TITLE": "Agrupaciones por Jerarquía"
+        },
+        "REFERENCE_CLUSTERS": {
+          "DESCRIPTION": "Preferir practicar Rems que se referencian entre sí juntos.",
+          "TITLE": "Agrupaciones de Referencias"
+        },
+        "TAG_CLUSTERS": {
+          "DESCRIPTION": "Preferir practicar Rems con la misma etiqueta juntos.",
+          "TITLE": "Agrupaciones por Etiquetas"
+        }
+      },
+      "STATISTICS": {
+        "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
+          "DESCRIPTION": "Si tardas más que esto (en segundos) en responder a una tarjeta de estudio, el resto del tiempo no se incluirá en tus estadísticas.",
+          "TITLE": "Tiempo Máximo de Respuesta en Tarjetas de Estudio"
+        }
+      },
+      "VISUAL": {
+        "SHOW_NEXT_REVIEW_TIMES": {
+          "DESCRIPTION": "Mostrar el tiempo hasta el próximo repaso en cada botón de respuesta.",
+          "TITLE": "Mostrar Tiempos de Próximo Repaso"
+        }
+      }
+    },
+    "GLOBAL_INTERFACE": {
+      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
+        "KEYWORDS": "idioma comunidad documentos buscar tarjetas de estudio compartir compartido descargar encontrar",
+        "TITLE": "Idioma de Búsqueda de Tarjetas de Estudio Compartidas"
+      },
+      "DARK_MODE": {
+        "LABEL": "Usar este esquema de colores.",
+        "TITLE": "Modo Oscuro"
+      },
+      "FULL_WIDTH": {
+        "LABEL": "Expandir los documentos para utilizar el ancho completo de la pantalla.",
+        "TITLE": "Ancho Completo"
+      },
+      "IN_APP_SUGGESTIONS": {
+        "KEYWORDS": "descripciones emergentes ayuda soporte aprender tutorial",
+        "LABEL": "Mostrar consejos sobre funciones de RemNote que podrías probar en la parte superior de tu documento.",
+        "TITLE": "Consejos de Introducción en la Parte Superior del Documento"
+      },
+      "INTERFACE": {
+        "KEYWORDS": "idioma lenguaje traducción traducir i18n",
+        "TITLE": "Idioma de la Interfaz de RemNote"
+      },
+      "LEFT_SIDEBAR_TUTORIALS": {
+        "LABEL": "Mostrar tutoriales sobre las funciones de RemNote que estás usando actualmente en la esquina de la pantalla.",
+        "TITLE": "Tutoriales Interactivos"
+      },
+      "ONBOARDING_TIPS_SHORTCUTS": {
+        "LABEL": "Mostrar consejos sobre los atajos de teclado que estás usando actualmente en la esquina de la pantalla.",
+        "TITLE": "Consejos de Atajos de Teclado"
+      },
+      "SIMPLIFIED_UI": {
+        "LABEL": "Simplificar la interfaz de usuario y ocultar funciones avanzadas.",
+        "TITLE": "Interfaz de Usuario Simplificada"
+      }
+    },
+    "KEYBOARD_SHORTCUTS": {
+      "CHANGE_KEYBOARD_SHORTCUTS": {
+        "DESCRIPTION": "Personalizar atajos de teclado, mapeo de teclas.",
+        "KEYWORDS": "personalizar atajos de teclado, mapeo de teclas",
+        "TITLE": "Cambiar Atajos de Teclado"
+      },
+      "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
+        "DESCRIPTION": "Usar por defecto los atajos de teclado clásicos (anteriores a la actualización de agosto de 2020).",
+        "TITLE": "Usar Atajos de Teclado Clásicos por Defecto"
+      },
+      "DOUBLE_SLASH_FOR_COMMAND_MENU": {
+        "DESCRIPTION": "Escribir // en lugar de / para activar comandos mientras se editan Rems.",
+        "TITLE": "Doble Barra para el Menú de Comandos"
+      },
+      "ENTER_TO_OUTDENT": {
+        "LABEL": "Al presionar Enter en un Rem sin contenido y que no esté en el nivel superior del documento, disminuir un nivel de sangría. (Si está desactivado, permanecer en el mismo nivel y dejar un Rem vacío).",
+        "TITLE": "Presionar Enter para Desindentar"
+      },
+      "SPLIT_WITH_ALT_ENTER": {
+        "DESCRIPTION": {
+          "MAC": "Al presionar Return en medio de un Rem, se crea un salto de línea dentro de ese Rem. Para dividir el texto en dos Rems separados, utiliza Opt+Return (por defecto, Mayús+Return y Return solo, respectivamente, realizan estas funciones).",
+          "PC": "Al presionar Enter en medio de un Rem, crea un salto de línea dentro de ese Rem, y utiliza Alt+Enter para dividir el texto en dos Rems separados. (Por defecto, Mayús+Enter y Enter solo, respectivamente, realizan estas funciones)."
+        },
+        "TITLE": {
+          "MAC": "Dividir línea con Opt+Return",
+          "PC": "Dividir línea con Alt+Enter"
+        }
+      }
+    },
+    "PLANS": {
+      "KEYWORDS": "invitar amigos plan cambiar suscripción ganar créditos remnote gratis enviar tweet email elegir plan aprendizaje de por vida pro desglose de funciones opciones de precios",
+      "TITLE": "Planes"
     }
   }
 }

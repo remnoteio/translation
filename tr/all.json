@@ -1,169 +1,169 @@
 {
+  "COMMON": {
+    "ACTIONS": {
+      "APPLY": "Uygula",
+      "CREATE": "Oluştur",
+      "DELETE": "Sil",
+      "DUPLICATE": "Çoğalt",
+      "EDIT": "Düzenle",
+      "HIDE": "Gizle",
+      "REMOVE": "Kaldır",
+      "UPDATE": "Güncelle",
+      "VIEW": "Bak"
+    }
+  },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Dil",
     "TRANSLATION_IN_PROGRESS": "RemNote'un çevirisi hala devam ediyor. <0>Inlang'da</0> çevirilere katkıda bulunabilirsiniz."
   },
-  "COMMON": {
-    "ACTIONS": {
-      "CREATE": "Oluştur",
-      "REMOVE": "Kaldır",
-      "DELETE": "Sil",
-      "EDIT": "Düzenle",
-      "DUPLICATE": "Çoğalt",
-      "APPLY": "Uygula",
-      "UPDATE": "Güncelle",
-      "VIEW": "Bak",
-      "HIDE": "Gizle"
+  "PAGES": {
+    "ALL_NOTES": {
+      "SORT": {
+        "ASCENDING": "A -> Z",
+        "BY_CREATION_TIME": "Oluşturma zamanına göre",
+        "BY_MODIFICATION": "Düzenlemeye göre",
+        "BY_TITLE": "Başlığa göre",
+        "DESCENDING": "Z -> A",
+        "OLDEST_CREATION_FIRST": "Önce en eski oluşturulan",
+        "OLDEST_FIRST": "Önce en yaşlı",
+        "RECENTLY_CREATED": "Yeni oluşturulmuş",
+        "RECENTLY_MODIFIED": "Yeni değiştirilmiş"
+      },
+      "TITLE": "Tüm Notlar"
     }
+  },
+  "POWERUPS": {
+    "POWERUP_one": "Güçlendirme",
+    "POWERUP_other": "Güçlendirmeler"
   },
   "SETTINGS": {
     "ACCOUNT": {
-      "PROFILE_TITLE": "Profil",
+      "ADVANCED_TITLE": "Gelişmiş Ayarlar",
+      "AUTHENTICATION_TITLE": "Doğrulama",
+      "DANGER_ZONE_TITLE": "Tehlikeli bölge",
       "IMPORT_EXPORT_TITLE": "İçe aktar ve dışa aktar",
       "NAVIGATION_TITLE": "Navigasyon",
-      "AUTHENTICATION_TITLE": "Doğrulama",
-      "ADVANCED_TITLE": "Gelişmiş Ayarlar",
-      "DANGER_ZONE_TITLE": "Tehlikeli bölge",
-      "PRIVACY_NOTE": "Gizlilik: <policyLink>Gizlilik Politikamızı</policyLink> okuyun veya <hubLink>Gizlilik Merkezimizde</hubLink> ayarlarınızı değiştirin."
+      "PRIVACY_NOTE": "Gizlilik: <policyLink>Gizlilik Politikamızı</policyLink> okuyun veya <hubLink>Gizlilik Merkezimizde</hubLink> ayarlarınızı değiştirin.",
+      "PROFILE_TITLE": "Profil"
     }
   },
-  "TAGS": {
-    "TAG": "Etiket",
-    "TAG_WITH_COUNT_one": "{{count, number}} Etiket",
-    "TAG_WITH_COUNT_other": "{{count, number}} Etiketler",
-    "PINNED_TAGS": "Sabitlenmiş Etiketler",
-    "YOUR_TAGS": "Etiketleriniz",
-    "SEARCH_PLACEHOLDER": "Eklemek için varolan etiketi arayın",
-    "INSERT_PROPERTIES": "Özellikleri Ekle"
+  "SIDEBAR": {
+    "LABEL_ALL_NOTES": "Tüm Notlar",
+    "LABEL_COMMUNITY": "Topluluk",
+    "LABEL_EDIT_LATER": "Sonra Düzenle",
+    "LABEL_FLASHCARDS": "Bilgi Kartları",
+    "LABEL_INTERACTIVE_TOUR": "İnteraktif Tur",
+    "LABEL_RESUME_INTERACTIVE_TOUR": "İnteraktif Tura Devam Et",
+    "LABEL_TODAYS_NOTE": "Bugünün Notu",
+    "LABEL_TUTORIALS": "Öğreticiler"
   },
-  "TEMPLATES": {
-    "TEMPLATE_one": "Şablon",
-    "TEMPLATE_other": "Şablonlar",
-    "TEMPLATE_WITH_COUNT_one": "{{count, number}} Şablon",
-    "TEMPLATE_WITH_COUNT_other": "{{count, number}} Şablonlar",
-    "CREATE_TEMPLATE": "Şablon Oluştur",
-    "NEW_TEMPLATE": "Yeni şablon",
-    "PROPERTY_one": "Özellik",
-    "PROPERTY_other": "Özellikler",
-    "PROPERTY_WITH_COUNT_one": "{{count, number}} Özellik",
-    "PROPERTY_WITH_COUNT_other": "{{count, number}} Özellikler",
-    "ADD_NEW_PROPERTY": "Yeni Özellik Ekle",
-    "AUTO_APPLY": "Otomatik uygula",
-    "SET_AS_AUTO_APPLY_TEMPLATE": "Otomatik Uygulama Şablonu Olarak Ayarla",
-    "TURN_OFF_AUTO_APPLY": "Otomatik Uygulamayı kapat",
-    "VIEW_CONFIGURATION": "Etiketi Yapılandır",
-    "HIDE_CONFIGURATION": "Yapılandırmayı Gizle",
-    "PROPERTIES_HELP_TEXT": {
-      "0": "Özellikler bir etiketi tanımlar. Örneğin, \"Kitap\" adlı bir etiket için Yazar, Tür, Okuma Durumu ve daha pek çok özellik ekleyin!"
+  "SOURCES": {
+    "LINK_SOURCE": {
+      "ENTER_URL": "URL girin",
+      "INVALID_URL": "Geçersiz URL",
+      "LABEL": "Bağlantı Kaynağı",
+      "LINK": "Bağlantı",
+      "LINK_WITH_COUNT_one": "{{count, number}} Bağlantı",
+      "LINK_WITH_COUNT_other": "{{count, number}} Bağlantılar",
+      "OPEN_IN_READER": "Okuyucuda aç",
+      "SEARCH_PLACEHOLDER": "Bir bağlantı yapıştırın veya bir Referans arayın"
     },
-    "TEMPLATES_HELP_TEXT": "Bir etiketin şablonu, etiketli Rem'e otomatik olarak kopyalanabilen bir RemNote belgesidir. Başlıkları, kontrol listelerini ve daha fazlasını doğrudan şablonunuzun içine ekleyin.",
-    "AUTO_APPLY_HELP_TEXT": "Bu şablon, tablosundaki tüm satırlara veya şablonla etiketlenen tüm Rem'lere otomatik olarak uygulanacaktır."
+    "UPLOAD_SOURCE": {
+      "EMPTY": "PDF'leri, Word belgelerini, PPT'leri ve <moreLink>fazlasını</moreLink> buraya bırakın!",
+      "INVALID": "Yanlış dosya formatı!",
+      "LABEL": "Kaynak Yükle",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFler",
+      "SELECT_FILES": "Dosyaları seç",
+      "SELECT_FILES_TO_UPLOAD": "Yüklenecek dosyaları seçin",
+      "UPLOADING": "Karşıya Yükleniyor..."
+    }
   },
   "TABLES": {
-    "PRIMARY_COLUMN_TITLE": "İsim",
-    "UNTITLED_PROPERTY_TITLE": "İsimsiz Özellik",
     "MENUS": {
-      "TAG": {
-        "TAG_TITLE": "Etiket adı",
-        "RENAME_TAG": "Etiketi Yeniden Adlandır",
-        "VIEW_TAG": "Etiketi Görüntüle",
-        "EDIT_TABLE_NAME": "Tablo Adını Düzenle",
-        "PRESS_TO_SAVE": "Kaydetmek için ↩ tuşuna basın"
-      },
       "FILTER": {
-        "FILTER_TITLE": "Filtre",
         "ADD_ADVANCED_FILTER": "Gelişmiş Filtre Ekle",
+        "FILTER_TITLE": "Filtre",
         "NO_PROPERTIES_AVAILABLE": "Hiçbir Özellik Mevcut Değil; Yeni Birini Ekleyin!"
       },
       "SORT": {
         "SORT_TITLE": "Sırala"
       },
       "TABLE_CONFIGURATION": {
-        "TABLE_CONFIGURATION_TITLE": "Tablo",
-        "LIST_CONFIGURATION_TITLE": "Liste",
         "ALL": "Hepsi",
-        "VIEW_AS": {
-          "VIEW_AS_TITLE": "Olarak görüntüle",
-          "TABLE_VIEW": "Tablo",
-          "NORMAL_PORTAL_VIEW": "Portal",
-          "LIST_VIEW": "Liste"
-        },
-        "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Etiketi Yapılandırın & Şablonları Düzenleyin",
-        "PROPERTIES_TITLE": "Özellikler",
-        "PROPERTIES_CONFIGURATION_TITLE": "Yapılandır",
-        "OPEN_IN_ANOTHER_PANE_TITLE": "Diğer Bölmede Aç",
-        "ZOOM_IN_TO_TABLE_TITLE": "Tabloyu Yakınlaştır",
-        "ZOOM_IN_TO_LIST_TITLE": "Listeye Yakınlaştır",
-        "MOVE_TABLE_TO_TITLE": "Tabloyu Taşı",
-        "MOVE_LIST_TO_TITLE": "Listeyi Taşı",
-        "DUPLICATE_TABLE_VIEW_TITLE": "Tablo Görünümünü Çoğalt",
-        "DUPLICATE_LIST_VIEW_TITLE": "Liste Görünümünü Çoğalt",
-        "DUPLICATE_VIEW_MESSAGE_COMMON": "Yeni bir filtre, sıralama veya daha fazlasını uygulamak için bir görünümü çoğaltın! İçerik, aynı kaynağın görünümleri arasında paylaşılır, böylece yanlışlıkla yinelenen örneklerle karşılaşmazsınız.",
-        "SHOW_VERTICAL_LINES_TITLE": "Dikey Çizgileri Göster",
-        "INCLUDE_NESTED_DESCENDANTS": "İç İçe Alt Öğeleri Dahil Et",
         "CELL_LIST_HEIGHT": {
           "CELL_LIST_HEIGHT_TITLE": "Hücre Listesi Yüksekliği",
           "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Hücreler birden fazla madde içerebilir! Daha kolay görüntüleme için hücre yüksekliğini sınırlayın.",
           "COMFORTABLE_TITLE": "Rahat",
-          "FULL_TITLE": "Tam",
-          "COMPACT_TITLE": "Kompakt"
+          "COMPACT_TITLE": "Kompakt",
+          "FULL_TITLE": "Tam"
         },
+        "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Etiketi Yapılandırın & Şablonları Düzenleyin",
+        "DELETE_LIST": "Listeyi Sil",
         "DELETE_TABLE": "Tabloyu Sil",
-        "DELETE_LIST": "Listeyi Sil"
+        "DUPLICATE_LIST_VIEW_TITLE": "Liste Görünümünü Çoğalt",
+        "DUPLICATE_TABLE_VIEW_TITLE": "Tablo Görünümünü Çoğalt",
+        "DUPLICATE_VIEW_MESSAGE_COMMON": "Yeni bir filtre, sıralama veya daha fazlasını uygulamak için bir görünümü çoğaltın! İçerik, aynı kaynağın görünümleri arasında paylaşılır, böylece yanlışlıkla yinelenen örneklerle karşılaşmazsınız.",
+        "INCLUDE_NESTED_DESCENDANTS": "İç İçe Alt Öğeleri Dahil Et",
+        "LIST_CONFIGURATION_TITLE": "Liste",
+        "MOVE_LIST_TO_TITLE": "Listeyi Taşı",
+        "MOVE_TABLE_TO_TITLE": "Tabloyu Taşı",
+        "OPEN_IN_ANOTHER_PANE_TITLE": "Diğer Bölmede Aç",
+        "PROPERTIES_CONFIGURATION_TITLE": "Yapılandır",
+        "PROPERTIES_TITLE": "Özellikler",
+        "SHOW_VERTICAL_LINES_TITLE": "Dikey Çizgileri Göster",
+        "TABLE_CONFIGURATION_TITLE": "Tablo",
+        "VIEW_AS": {
+          "LIST_VIEW": "Liste",
+          "NORMAL_PORTAL_VIEW": "Portal",
+          "TABLE_VIEW": "Tablo",
+          "VIEW_AS_TITLE": "Olarak görüntüle"
+        },
+        "ZOOM_IN_TO_LIST_TITLE": "Listeye Yakınlaştır",
+        "ZOOM_IN_TO_TABLE_TITLE": "Tabloyu Yakınlaştır"
+      },
+      "TAG": {
+        "EDIT_TABLE_NAME": "Tablo Adını Düzenle",
+        "PRESS_TO_SAVE": "Kaydetmek için ↩ tuşuna basın",
+        "RENAME_TAG": "Etiketi Yeniden Adlandır",
+        "TAG_TITLE": "Etiket adı",
+        "VIEW_TAG": "Etiketi Görüntüle"
       }
-    }
-  },
-  "SIDEBAR": {
-    "LABEL_ALL_NOTES": "Tüm Notlar",
-    "LABEL_TODAYS_NOTE": "Bugünün Notu",
-    "LABEL_FLASHCARDS": "Bilgi Kartları",
-    "LABEL_EDIT_LATER": "Sonra Düzenle",
-    "LABEL_COMMUNITY": "Topluluk",
-    "LABEL_INTERACTIVE_TOUR": "İnteraktif Tur",
-    "LABEL_RESUME_INTERACTIVE_TOUR": "İnteraktif Tura Devam Et",
-    "LABEL_TUTORIALS": "Öğreticiler"
-  },
-  "PAGES": {
-    "ALL_NOTES": {
-      "TITLE": "Tüm Notlar",
-      "SORT": {
-        "RECENTLY_MODIFIED": "Yeni değiştirilmiş",
-        "RECENTLY_CREATED": "Yeni oluşturulmuş",
-        "OLDEST_FIRST": "Önce en yaşlı",
-        "BY_CREATION_TIME": "Oluşturma zamanına göre",
-        "BY_TITLE": "Başlığa göre",
-        "BY_MODIFICATION": "Düzenlemeye göre",
-        "OLDEST_CREATION_FIRST": "Önce en eski oluşturulan",
-        "ASCENDING": "A -> Z",
-        "DESCENDING": "Z -> A"
-      }
-    }
-  },
-  "SOURCES": {
-    "LINK_SOURCE": {
-      "LABEL": "Bağlantı Kaynağı",
-      "ENTER_URL": "URL girin",
-      "INVALID_URL": "Geçersiz URL",
-      "OPEN_IN_READER": "Okuyucuda aç",
-      "SEARCH_PLACEHOLDER": "Bir bağlantı yapıştırın veya bir Referans arayın",
-      "LINK": "Bağlantı",
-      "LINK_WITH_COUNT_one": "{{count, number}} Bağlantı",
-      "LINK_WITH_COUNT_other": "{{count, number}} Bağlantılar"
     },
-    "UPLOAD_SOURCE": {
-      "LABEL": "Kaynak Yükle",
-      "SELECT_FILES": "Dosyaları seç",
-      "SELECT_FILES_TO_UPLOAD": "Yüklenecek dosyaları seçin",
-      "EMPTY": "PDF'leri, Word belgelerini, PPT'leri ve <moreLink>fazlasını</moreLink> buraya bırakın!",
-      "INVALID": "Yanlış dosya formatı!",
-      "UPLOADING": "Karşıya Yükleniyor...",
-      "PDF": "PDF",
-      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
-      "PDF_WITH_COUNT_other": "{{count, number}} PDFler"
-    }
+    "PRIMARY_COLUMN_TITLE": "İsim",
+    "UNTITLED_PROPERTY_TITLE": "İsimsiz Özellik"
   },
-  "POWERUPS": {
-    "POWERUP_one": "Güçlendirme",
-    "POWERUP_other": "Güçlendirmeler"
+  "TAGS": {
+    "INSERT_PROPERTIES": "Özellikleri Ekle",
+    "PINNED_TAGS": "Sabitlenmiş Etiketler",
+    "SEARCH_PLACEHOLDER": "Eklemek için varolan etiketi arayın",
+    "TAG": "Etiket",
+    "TAG_WITH_COUNT_one": "{{count, number}} Etiket",
+    "TAG_WITH_COUNT_other": "{{count, number}} Etiketler",
+    "YOUR_TAGS": "Etiketleriniz"
+  },
+  "TEMPLATES": {
+    "ADD_NEW_PROPERTY": "Yeni Özellik Ekle",
+    "AUTO_APPLY": "Otomatik uygula",
+    "AUTO_APPLY_HELP_TEXT": "Bu şablon, tablosundaki tüm satırlara veya şablonla etiketlenen tüm Rem'lere otomatik olarak uygulanacaktır.",
+    "CREATE_TEMPLATE": "Şablon Oluştur",
+    "HIDE_CONFIGURATION": "Yapılandırmayı Gizle",
+    "NEW_TEMPLATE": "Yeni şablon",
+    "PROPERTIES_HELP_TEXT": {
+      "0": "Özellikler bir etiketi tanımlar. Örneğin, \"Kitap\" adlı bir etiket için Yazar, Tür, Okuma Durumu ve daha pek çok özellik ekleyin!"
+    },
+    "PROPERTY_one": "Özellik",
+    "PROPERTY_other": "Özellikler",
+    "PROPERTY_WITH_COUNT_one": "{{count, number}} Özellik",
+    "PROPERTY_WITH_COUNT_other": "{{count, number}} Özellikler",
+    "SET_AS_AUTO_APPLY_TEMPLATE": "Otomatik Uygulama Şablonu Olarak Ayarla",
+    "TEMPLATE_one": "Şablon",
+    "TEMPLATE_other": "Şablonlar",
+    "TEMPLATE_WITH_COUNT_one": "{{count, number}} Şablon",
+    "TEMPLATE_WITH_COUNT_other": "{{count, number}} Şablonlar",
+    "TEMPLATES_HELP_TEXT": "Bir etiketin şablonu, etiketli Rem'e otomatik olarak kopyalanabilen bir RemNote belgesidir. Başlıkları, kontrol listelerini ve daha fazlasını doğrudan şablonunuzun içine ekleyin.",
+    "TURN_OFF_AUTO_APPLY": "Otomatik Uygulamayı kapat",
+    "VIEW_CONFIGURATION": "Etiketi Yapılandır"
   }
 }

@@ -1,601 +1,57 @@
 {
-  "LANGUAGE": {
-    "LANGUAGE_WORD": "Język",
-    "TRANSLATION_INFO_SETTINGS": "Tłumaczenie jest nadal w toku; zobaczysz mieszankę języka angielskiego i wybranego języka.<br> Możesz pomóc nam w tłumaczeniu, czytając<guideLink> instruktaż</guideLink> a następnie skorzystaj z naszego<editorLink> redaktor internetowy</editorLink> .",
-    "TRANSLATION_IN_PROGRESS": "Tłumaczenie w toku"
-  },
   "COMMON": {
     "ACTIONS": {
-      "CREATE": "Utwórz",
-      "REMOVE": "Wytnij",
-      "DELETE": "Usuń",
-      "EDIT": "Edytuj",
-      "DUPLICATE": "Duplikuj\n",
       "APPLY": "Zatwierdź",
+      "CREATE": "Utwórz",
+      "DELETE": "Usuń",
+      "DUPLICATE": "Duplikuj\n",
+      "EDIT": "Edytuj",
+      "HIDE": "Ukryj",
+      "REMOVE": "Wytnij",
       "UPDATE": "Aktualizuj",
-      "VIEW": "Widok",
-      "HIDE": "Ukryj"
+      "VIEW": "Widok"
     }
-  },
-  "SETTINGS": {
-    "ACCOUNT": {
-      "PROFILE_TITLE": "Profil",
-      "MY_PROFILE": "Mój Profil",
-      "PROFILE": {
-        "KEYWORDS": "Osobisty Profil Użytkownika"
-      },
-      "IMPORT_EXPORT_TITLE": "Importuj i Eksportuj",
-      "NAVIGATION_TITLE": "Nawigacja",
-      "AUTHENTICATION_TITLE": "Uwierzytelnianie",
-      "ADVANCED_TITLE": "Zaawansowane Ustawienia",
-      "DANGER_ZONE_TITLE": "Strefa niebezpieczeństwa",
-      "PRIVACY_NOTE": "Prywatność: Przeczytaj nasze<policyLink> Polityka prywatności</policyLink> lub zmień ustawienia w naszym<hubLink> Centrum prywatności</hubLink> .",
-      "DANGER_ZONE": {
-        "TITLE": "Strefa niebezpieczeństwa",
-        "KEYWORDS": "synchronizacja dziennika usuwanie konta resetowanie przewodnik postęp resetowanie wprowadzania zaawansowanych ustawień konta"
-      },
-      "NOTIFICATIONS": {
-        "TITLE": "Powiadomienia Passy na urządzeniu mobilnym",
-        "DESCRIPTION": "Wysyłaj mobilne przypomnienia push o codziennej passie fiszek. Przypomnienia pojawiają się codziennie o 18:00 w Twojej lokalnej strefie czasowej."
-      },
-      "SYNCING": {
-        "TITLE": "Synchronizowanie",
-        "KEYWORDS": "Wymuś synchronizację Obrazów i plików PDF"
-      },
-      "VERSION": {
-        "TITLE": "Wersja Aplikacji",
-        "KEYWORDS": "wersja"
-      },
-      "SUPPORT": {
-        "TITLE": "Wsparcie",
-        "KEYWORDS": "Złóż Wniosek do Wsparcia Pomoc"
-      },
-      "PRIVACY": {
-        "TITLE": "Prywatność",
-        "KEYWORDS": "prywatność"
-      },
-      "EXPORT_IMPORT": {
-        "KEYWORDS": "Eksportuj kopię zapasową Eksportuj Roam Dynalist Logseq Notion Evernote Obsidian"
-      },
-      "NAVIGATION": {
-        "KEYWORDS": "Eksportuj i twórz kopie zapasowe Zobacz usunięte Rem Importuj Bazę Wiedzy Wyświetl wszystkie Fiszki Pobierz Codzienną Kopię Zapasową Ustawienia zaawansowane Usuń wszystkie Rem"
-      },
-      "AUTHENTICATION": {
-        "KEYWORDS": "Wyloguj się Wyloguj się Metoda logowania Google Dodaj Rozłącz Zaloguj się Zarejestruj się"
-      },
-      "ADVANCED": {
-        "KEYWORDS": "Wsparcie Podłącz na nowo Szukaj Napraw Błąd"
-      }
-    },
-    "FLASHCARDS": {
-      "DAILY_TARGET": {
-        "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "Maksymalny Dzienny Cel",
-          "DESCRIPTION": "Ogranicz liczbę fiszek RemNote przypomni Ci o nauce, aby osiągnąć Twój dzienny cel przy tej wartości."
-        },
-        "TODAYS_TARGET": "Dzisiejszy Cel:",
-        "TODAYS_TARGET_EXPLANATION": "RemNote stara się określić Twój dzienny cel i jeżeli go osiągniesz każdego dnia, to przerobisz wszystkie fiszki zaplanowane na następne 7 dni. Natomiast, cel dzienny nigdy nie będzie większy niż maksymalny zbiór powyżej."
-      },
-      "GENERAL": {
-        "RESET_ALL": {
-          "TITLE": "Zresetuj wszystkie ustawienia fiszek",
-          "DESCRIPTION": "Zresetuj wszystkie ustawienia fiszek do wartości domyślnych.",
-          "CONFIRM_MESSAGE": "Czy na pewno chcesz zresetować wszystkie ustawienia fiszek do wartości domyślnych?"
-        },
-        "NEW_CARDS_PER_DAY": {
-          "TITLE": "Maksymalna liczba nowych kart dziennie",
-          "DESCRIPTION": "Codziennie dodawaj maksymalnie tyle nowo utworzonych fiszek do swojej kolejki fiszek. W ten sposób nowe karty będą pojawiać się w Twojej kolejce ze stałą stawką dzienną, a nie gigantyczną partią."
-        },
-        "STALE_CARDS_PER_DAY": {
-          "TITLE": "Maksymalna liczba Zaległych fiszek dziennie",
-          "DESCRIPTION": "Każdego dnia wprowadzaj ponownie maksymalnie tyle zaległych fiszek do swojej kolejki fiszek. Zaległe fiszki to takie, które są tymczasowo wstrzymywane z kolejki, ponieważ nie uczyłeś się ich przez długi czas i ponowne uczenie się ich wszystkich na raz byłoby wyczerpujące."
-        },
-        "LEECH_THRESHOLD": {
-          "TITLE": "Próg Fiszek Udręki",
-          "DESCRIPTION": "Fiszki Udręki to trudne fiszki, których ciągle się uczysz, a potem znowu zapominasz. Jeśli naciśniesz przycisk „zapomniałem/-am” na fiszce więcej razy niż ta wartość, ostrzeżemy Cię, abyś mógł zastanowić się, dlaczego masz z nią problem. Ustaw tę opcję na wyższe wartości, aby rzadziej wyświetlać ostrzeżenie o Fiszce Udręki."
-        },
-        "AUTOPLAY_MEDIA": {
-          "TITLE": "Odtwarzaj automatycznie dźwięk",
-          "DESCRIPTION": "Podczas pokazywania fiszki automatycznie odtwarzaj każdą ścieżkę dźwiękową lub wideo na niej."
-        },
-        "TYPE_ANSWER": {
-          "TITLE": "Wpisz odpowiedź",
-          "DESCRIPTION": "Pokaż pole tekstowe z przodu każdej fiszki i porównaj to, co wpisałeś z odpowiedzią na odwrocie fiszki."
-        },
-        "SIMPLIFIED_FLASHCARD_BUTTONS": {
-          "TITLE": "Uproszczone przyciski w fiszkach",
-          "DESCRIPTION": "Pokazuj tylko przyciski \"Zapomniałem/-am\" i \"Przypomniałem/-am z trudem\" podczas nauki fiszek, zamiast wszystkich pięciu opcji."
-        },
-        "LEARN_AHEAD_LIMIT": {
-          "TITLE": "Limit nauki z wyprzedzeniem"
-        },
-        "NEXT_DAY_STARTS_AT": {
-          "TITLE": "Następny dzień zaczyna się o",
-          "DESCRIPTION": "O tej porze każdego dnia w Twojej kolejce pojawiają się nowe karty."
-        }
-      },
-      "VISUAL": {
-        "SHOW_NEXT_REVIEW_TIMES": {
-          "TITLE": "Pokaż Godziny Następnej Powtórki",
-          "DESCRIPTION": "Na każdym przycisku odpowiedzi pokaż czas do następnej powtórki."
-        }
-      },
-      "ORDERING": {
-        "DOCUMENT_CLUSTERS": {
-          "TITLE": "Zbiory dokumentów",
-          "DESCRIPTION": "Wolę uczyć się Remy z powiązanych dokumentów razem. "
-        },
-        "REFERENCE_CLUSTERS": {
-          "TITLE": "Zbiory Odnośników",
-          "DESCRIPTION": "Wolę uczyć się Remy połączone Odnośnikiem razem."
-        },
-        "TAG_CLUSTERS": {
-          "TITLE": "Zbiory Tagów",
-          "DESCRIPTION": "Wolę uczyć się Remy z tym samym Tagiem razem."
-        },
-        "HIERARCHY_CLUSTERS": {
-          "TITLE": "Zbiory Hierarchii",
-          "DESCRIPTION": "Wolą uczyć się Remy powiązane ze sobą hierarchicznie razem."
-        }
-      },
-      "STATISTICS": {
-        "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
-          "TITLE": "Maksymalny czas odpowiedzi na Fiszkę",
-          "DESCRIPTION": "Jeśli odpowiedź na Fiszkę zajmie Ci więcej czasu (w sekundach), resztę czasu nie zostanie uwzględniona w statystykach."
-        }
-      },
-      "AI": {
-        "ENABLE": {
-          "TITLE": "Włącz funkcje AI",
-          "DESCRIPTION": "Korzystaj z autouzupełniania, oceniania i generowania fiszek w oparciu o sztuczną inteligencję. Fragmenty Twoich notatek zostaną wysłane do OpenAI, jeśli będziesz korzystać z wielu funkcji AI. Politykę prywatności OpenAI znajdziesz na https://openai.com/policies/privacy-policy."
-        },
-        "OPENAI_KEY": {
-          "TITLE": "Klucz API OpenAI",
-          "DESCRIPTION": "Jeśli przekroczysz miesięczny limit żądań AI, możesz zarejestrować się w celu uzyskania klucza API na stronie https://platform.openai.com/account/api-keys i wprowadzić go tutaj. Należy pamiętać, że jest to funkcja w wersji beta i może zostać usunięta w dowolnym momencie."
-        }
-      }
-    },
-    "KEYBOARD_SHORTCUTS": {
-      "SPLIT_WITH_ALT_ENTER": {
-        "TITLE": {
-          "PC": "Rozdziel Z Alt+Enter",
-          "MAC": "Rozdziel Z Opt-Return"
-        },
-        "DESCRIPTION": {
-          "PC": "Kiedy naciśniesz  Enter w środku Rem, utwórz podział wiersza w tym Rem i zamiast tego użyj Alt+Enter, aby podzielić tekst na dwa oddzielne Remy. (Domyślnie te funkcje pełnią odpowiednio Shift+Enter i sam klawisz Enter.)",
-          "MAC": "Kiedy naciśniesz  Return w środku Rem, utwórz podział wiersza w tym Rem i zamiast tego użyj Opt+Return, aby podzielić tekst na dwa osobne Remy. (Domyślnie te funkcje pełnią odpowiednio Shift+Return i sam klawisz Return.)"
-        }
-      },
-      "ENTER_TO_OUTDENT": {
-        "TITLE": "Naciśnij Enter, aby zmniejszyć wcięcie"
-      },
-      "DOUBLE_SLASH_FOR_COMMAND_MENU": {
-        "TITLE": "Podwójny ukośnik dla Menu oleceń",
-        "DESCRIPTION": "Wpisz // zamiast /, aby wywołać Polecenia podczas edycji Remów."
-      },
-      "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
-        "TITLE": "Przywróć Domyślne Skróty Klawiszowe",
-        "DESCRIPTION": "Przywróć domyślne skróty klawiszowe (przed aktualizacją z Sierpnia 2020)."
-      },
-      "CHANGE_KEYBOARD_SHORTCUTS": {
-        "TITLE": "Zmień Skróty Klawiszowe",
-        "DESCRIPTION": "Dostosuj skróty klawiszowe przypisując funkcję do innych klawiszy.",
-        "KEYWORDS": "spersonalizuj skróty klawiszowe mapowanie programowanie klawiszy"
-      }
-    },
-    "EDITOR": {
-      "GENERAL": {
-        "ENABLE_SPELLCHECK": {
-          "TITLE": "Włącz Sprawdzanie Pisowni",
-          "DESCRIPTION": "Sprawdź aktualnie aktywowany Rem pod kątem literówek."
-        },
-        "CAPITALIZE_FROM_SEARCH": {
-          "TITLE": "Zaczynaj pisownie z Wielkiej Litery w Szukaj",
-          "DESCRIPTION": {
-            "PC": "Tworząc Rem naciskając Ctrl+Enter w Szukaj, napisz jego nazwę z wielkiej litery.",
-            "MAC": "Tworząc Rem naciskając Cmd+Return w Szukaj, napisz jego nazwę z wielkiej litery."
-          }
-        },
-        "CREATE_CONCEPTS_FROM_SEARCH": {
-          "TITLE": "Twórz Konspekt W Szukaj",
-          "DESCRIPTION": {
-            "PC": "Tworząc Rem naciskając Ctrl+Enter w Szukaj, zmień go w Konspekt.",
-            "MAC": "Tworząc Rem naciskając Cmd+Return w Szukaj, zmień go w Konspekt."
-          }
-        },
-        "CREATE_STUBS_FROM_SEARCH": {
-          "TITLE": "Twórz Niedopałki w Szukaj",
-          "DESCRIPTION": {
-            "PC": "Tworząc Rem naciskając Ctrl+Enter w Szukaj, oznacz go Tagiem „Niedopałek”.",
-            "MAC": "Tworząc Rem naciskając Cmd+Return w Szukaj, oznacz go Tagiem „Niedopałek”."
-          }
-        },
-        "INSERT_EMOJIS_AS_REFERENCES": {
-          "TITLE": "Wstaw Emotikony jako Odnośniki",
-          "DESCRIPTION": "W Szukaj pisząc %% i wybierając Emotikon zostanie on wstawiony jako Odnośnik."
-        }
-      },
-      "DATES_AND_TIMES": {
-        "DATE_FORMATTING": {
-          "TITLE": "Formatowanie Daty",
-          "DESCRIPTION": "Format daty będzie załączony z /data w ten sposób. "
-        },
-        "DATE_FORMATTING_CUSTOM": {
-          "TITLE": "Spersonalizuj Formatowanie Daty",
-          "DESCRIPTION": "Sformatuj załączanie daty w sposób najbardziej Ci odpowiadający używając dostępnych funkcji. "
-        },
-        "TIME_FORMATTING": {
-          "TITLE": "Formatowanie Czasu",
-          "DESCRIPTION": "Format czasu będzie załączony z /data w ten sposób. "
-        },
-        "WEEK_STARTS_ON_MONDAY": {
-          "TITLE": "Tydzień Zaczyna się w Poniedziałek",
-          "DESCRIPTION": "Wybierając datę z widoku kalendarza, zaczynaj każdy tydzień od Poniedziałku zamiast Niedzieli."
-        }
-      }
-    },
-    "PLANS": {
-      "TITLE": "Plany",
-      "KEYWORDS": "zaproś znajomych plan zmień subskrypcję zdobądź kredyty bezpłatny remnote wyślij tweet e-mail wybierz plan uczenia się na zawsze pro spis funkcji opcje cenowe"
-    },
-    "EARN_CREDIT": {
-      "TITLE": "Zdobywaj",
-      "KEYWORDS": "zaproś znajomych zdobądź kredyty plan zmień subskrypcję zdobądź kredyty bezpłatny remnote wyślij tweet e-mail wybierz plan nauki na zawsze pro spis funkcji opcje cenowe",
-      "INVITE_FRIENDS_REMNOTE": "Zaproś swoich znajomych do RemNote!",
-      "INVITE_FRIENDS_EARN_CREDIT": "Zaproś znajomych, aby załadować saldo! Otrzymasz <0> {{monthlyPrice}}</0> w postaci środków RemNote, gdy zaproszona przez Ciebie osoba zarejestruje konto RemNote. Ona również otrzyma <0> {{monthlyPrice}}</0>  na start.",
-      "CREDIT_BALANCE": "Stan Środków",
-      "CREDIT_BALANCE_TEXT": "Masz <bold> {{userCredit}}<bold> niewykorzystanych środków i <bold>{{userCreditEarned}}<bold> zdobytych na koncie.  {{months}} pozostały miesiąc lub miesiące RemNote Pro za darmo.<br /><br />Przejdź na plan Pro aby zacząć używać swoje saldo! Opłata nie zostanie pobrana, dopóki nie wyczerpią się środki w aplikacji.",
-      "TOAST_SUBSCRIBE": "Twoje kredyty zostaną wykorzystane automatycznie po wykupieniu subskrypcji RemNote Pro. Wybierz plan poniżej, aby rozpocząć!",
-      "TOAST_RENEW": "Twoje kredyty zostaną wykorzystane automatycznie po odnowieniu bieżącej subskrypcji.",
-      "APPLY_CREDIT": "Wydaj swoje kredyty",
-      "INVITE_TEXT": "Zaproś znajomych i zdobywaj środki",
-      "HANG_ON": "Zaczekaj",
-      "CREATE_ACCOUNT": "Stwórz Konto aby zaprosić znajomych",
-      "ENTER_VALID_EMAIL": "Wprowadź aktywny adres email!",
-      "SEND_INVITE": "Wyślij zaproszenie",
-      "FRIEND_ALREADY_ON_REMNOTE": "Twój znajomy jest już na RemNote",
-      "INVITE_ERROR": "Coś poszło nie tak. Spróbuj ponownie później.",
-      "VERIFY_EMAIL": "Aby zaprosić kogoś, zweryfikuj najpierw swój adres email.",
-      "INVITE_EMAIL": "Zaproś poprzez email",
-      "EMAIL_PLACEHOLDER": "zaciekawionyprzyjaciel@gmail.com",
-      "INVITE": "Zaproś",
-      "SHARE_LINK": "Zaproś poprzez łącze",
-      "COPIED": "Skopiowano!",
-      "INVITE_COPIED": "Skopiowano łącze!",
-      "COPYLINK": "Skopiuj Łącze",
-      "FRIENDS_TITLE": "Znajomi",
-      "INVITED_YOU": "(dodał/-a Cię)",
-      "NOT_CONFIRMED_EMAIL": "(nie ma zweryfikowanego adresu email)",
-      "SUBSCRIBE_NOTICE": "<div><br />Przejdź na plan Pro aby zacząć używać swoje saldo! Opłata nie zostanie pobrana, dopóki nie wyczerpią się środki w aplikacji.</div>"
-    },
-    "GLOBAL_INTERFACE": {
-      "DARK_MODE": {
-        "TITLE": "Tryb Ciemny",
-        "LABEL": "Używaj tej palety kolorów."
-      },
-      "FULL_WIDTH": {
-        "TITLE": "Pełna szerokość",
-        "LABEL": "Rozwiń dokumenty, aby wykorzystać całą szerokość ekranu."
-      },
-      "SIMPLIFIED_UI": {
-        "TITLE": "Uproszczony interfejs użytkownika",
-        "LABEL": "Uprość interfejs użytkownika i ukryj zaawansowane funkcje."
-      },
-      "IN_APP_SUGGESTIONS": {
-        "LABEL": "Pokaż wskazówki dotyczące funkcji RemNote, które możesz wypróbować na górze dokumentu.",
-        "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik"
-      },
-      "LEFT_SIDEBAR_TUTORIALS": {
-        "TITLE": "Poradniki Aplikacji",
-        "LABEL": "Pokazuj poradniki funkcji RemNote aktualnie używanej w rogu ekranu urządzenia.",
-        "KEYWORDS": "w aplikacji lewy pasek boczny poradniki wskazówki narzędzi pomoc wsparcie naucz się poradnik"
-      },
-      "ONBOARDING_TIPS_SHORTCUTS": {
-        "TITLE": "Wskazówki Skrótów Klawiszowych",
-        "LABEL": "Pokazuj wskazówki skrótów klawiszowych akcji aktualnie wykonywanej w rogu ekranu urządzenia.",
-        "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik"
-      },
-      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
-        "TITLE": "Język wyszukiwania Dokumentów Społeczności",
-        "KEYWORDS": "język społeczność dokumenty szukaj"
-      },
-      "INTERFACE": {
-        "TITLE": "Język Interfejsu RemNote (Alpha)",
-        "KEYWORDS": "język język tłumaczenia i18n"
-      },
-      "ONBOARDING_TIPS_FEATURES": {
-        "TITLE": "Inteligentne Wskazówki",
-        "LABEL": "Pokazuj wskazówki narzędzi funkcji RemNote aktualnie używanej w rogu ekranu urządzenia.",
-        "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik"
-      }
-    },
-    "EDITOR_INTERFACE": {
-      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
-        "TITLE": "Naciśnij-Raz Odnośnik aby go Otworzyć",
-        "LABEL": "Kiedy klikniesz lub stukniesz na Odnośnik, odrazu otwórz go, zamiast wyświetlać jego Podgląd. (Zawsze możesz wyświetlić jego Podgląd naciskając na niego prawym klawiszem myszki.)"
-      },
-      "SCALE_COLLAPSED_REM_BULLETS": {
-        "TITLE": "Skaluj Zwinięte Punktory Remów",
-        "LABEL": "Kiedy Rem jest Zwinięty, wyświetlaj pierścień wokół jego Punktora jako większy lub mniejszy w zależności od liczby jego Potomków"
-      },
-      "SMOOTHLY_ANIMATE_THE_EDITOR": {
-        "TITLE": "Płynnie wyświetlaj animacje w Edytorze",
-        "LABEL": "Płynnie wyświetlaj animacje dodawania i usuwania Remów w Edytorze."
-      },
-      "PREVIEW_REM_ON_HOVER": {
-        "TITLE": "Wyświetl Podgląd Odnośnika najeżdżając kursorem",
-        "LABEL": "Kiedy najedziesz kursorem na Odnośnik, wyświetl Podgląd jego zawartości."
-      },
-      "ENABLE_ZOOM_INTO_BULLET": {
-        "TITLE": "Włącz Przybliżanie Punktorów",
-        "LABEL": "Kiedy klikniesz na Punktor, wyświetl Rem w widoku pełnoekranowym"
-      },
-      "ENTER_TO_OUTDENT": {
-        "TITLE": "Włącz 'Naciśnij Enter aby zmniejszyć Wcięcie'",
-        "LABEL": "Kiedy aktywny jest Potomny Rem, który jest pusty, naciśnięcie Enter zmniejszy wcięcie."
-      }
-    },
-    "SIDEBAR": {
-      "DOCUMENT_STATUSES": {
-        "TITLE": "Stan Dokumentu",
-        "LABEL": "Uporządkuj Dokumenty na Szkice, Skończone oraz Przypięte. "
-      },
-      "CUSTOMIZE_SIDEBAR_SECTIONS": {
-        "TITLE": "Spersonalizuj Sekcje Pasku Bocznego"
-      },
-      "SORT_SIDEBAR": {
-        "TITLE": "Sortuj Pasek Boczny",
-        "KEYWORDS": "uporządkuj pasek boczny sortuj od a do z"
-      },
-      "PRIVACY_NOTE": "Prywatność: Przeczytaj naszą <policyLink>Politykę Prywatności</policyLink> lub zmień Twoje ustawienia w naszym  <hubLink>Centrum Prywatności</hubLink>.",
-      "COMMUNITY_TAB": {
-        "TITLE": "Centrum Społeczności w Pasku Bocznym",
-        "LABEL": "Pokaż Centrum Społeczności, gdzie możesz znaleźć udostępnione dokumenty innych osób oraz grupy naukowe na Pasku Bocznym. Jeżeli to wyłączysz, wciąż będzie możliwe znalezienie Centrum Społeczności w Centrum Konta. "
-      }
-    },
-    "NOTIFICATIONS": {
-      "TOGGLE_LABEL": "Wybierz które powiadomienia chcesz otrzymywać bezpośrednio do Twojej skrzynki/ na urządzenie",
-      "ENABLE_PUSH_TITLE": "Czy chcesz otrzymywać powiadomienia Push?",
-      "ENABLE_PUSH_LABEL": "Otrzymuj powiadomienia bezpośrednio na swoje urządzenie",
-      "ENABLE_EMAIL_TITLE": "Czy chcesz otrzymywać powiadomienia email?",
-      "ENABLE_EMAIL_LABEL": "Otrzymuj powiadomienia bezpośrednio do Twojej skrzynki",
-      "TOGGLE_TITLE": "Dostosuj Powiadomienia",
-      "DESCRIPTIONS": {
-        "STREAK": {
-          "TITLE": "Powiadomienia Passy Nauki",
-          "LABEL": "Otrzymuj codzienne powiadomienia, aby podtrzymać Passę nauki!"
-        },
-        "INVITE": {
-          "TITLE": "Powiadomienia Zaproszeń",
-          "LABEL": "Otrzymaj powiadomienie kiedy zostaniesz zaproszony do grupy."
-        },
-        "NEW_LIKE": {
-          "TITLE": "Powiadomienia Polubień",
-          "LABEL": "Otrzymaj powiadomienie kiedy ktoś polubi Twój udostępniony Dokument."
-        },
-        "NEW_FOLLOWER": {
-          "TITLE": "Powiadomienia Obserwujących",
-          "LABEL": "Otrzymaj powiadomienie kiedy ktoś Cię zaobserwuje"
-        },
-        "DOCUMENT_ADDED_TO_GROUP": {
-          "TITLE": "Powiadomienia ",
-          "LABEL": "Otrzymaj powiadomienie, gdy nowy dokument zostanie dodany do Twojej Grupy."
-        },
-        "NEW_COMMENT": {
-          "TITLE": "Powiadomienia Komentarzy",
-          "LABEL": "Otrzymaj powiadomienie, gdy ktoś skomentuje Twój udostępniony dokument."
-        },
-        "ARTICLE_VIEWS": {
-          "TITLE": "Powiadomienia Wyświetleń Dokumentu",
-          "LABEL": "Otrzymaj powiadomienie, gdy Twój udostępniony dokument zacznie zdobywać dużą popularność. "
-        }
-      }
-    }
-  },
-  "TAGS": {
-    "TAG": "Tag",
-    "TAG_WITH_COUNT_one": "{{count, number}} Tag",
-    "TAG_WITH_COUNT_other": "{{count, number}} Tagi/-ów",
-    "PINNED_TAGS": "Przypięte Tagi",
-    "YOUR_TAGS": "Twoje Tagi",
-    "SEARCH_PLACEHOLDER": "Wyszukaj istniejący Tag, aby go dodać",
-    "INSERT_PROPERTIES": "Wstaw Właściwości"
-  },
-  "TEMPLATES": {
-    "TEMPLATE_one": "Szablon",
-    "TEMPLATE_other": "Szablony",
-    "TEMPLATE_WITH_COUNT_one": " {{count, number}} Szablon",
-    "TEMPLATE_WITH_COUNT_other": "{{count, number}} Szablony/-ów",
-    "CREATE_TEMPLATE": "Utwórz zablon",
-    "NEW_TEMPLATE": "Nowy zablon",
-    "PROPERTY_one": "Właściwość",
-    "PROPERTY_other": "Właściwości",
-    "PROPERTY_WITH_COUNT_one": "{{count, number}} Właściwość",
-    "PROPERTY_WITH_COUNT_other": "{{count, number}} Właściwości",
-    "ADD_NEW_PROPERTY": "Dodaj nową Właściwość",
-    "AUTO_APPLY": "Zastosuj Automatycznie",
-    "SET_AS_AUTO_APPLY_TEMPLATE": "Ustaw jako Szablon Automatycznego Stosowania",
-    "TURN_OFF_AUTO_APPLY": "Wyłącz Zastosuj Automatycznie",
-    "VIEW_CONFIGURATION": "Skonfiguruj Tag",
-    "HIDE_CONFIGURATION": "Ukryj onfigurację",
-    "PROPERTIES_HELP_TEXT": {
-      "0": "Właściwości opisują Tag. Na przykład dla Tagu o nazwie „Książka” dodaj Właściwości takie jak Autor, Gatunek, Stan Przeczytania i nie tylko!"
-    },
-    "TEMPLATES_HELP_TEXT": "Szablon Tagu to dokument RemNote, który można automatycznie skopiować do oznaczonych Remów. Dodaj nagłówki, listy kontrolne i inne elementy bezpośrednio w swoim szablonie.",
-    "AUTO_APPLY_HELP_TEXT": "Ten szablon zostanie automatycznie zastosowany do wszystkich wierszy w jego tabeli lub do wszystkich Remów oznaczonych tym szablonem.",
-    "ADD_PROPERTY": "Dodaj Właściwość",
-    "NEW_PROPERTY": "Nowa Właściwość"
-  },
-  "TABLES": {
-    "PRIMARY_COLUMN_TITLE": "Nazwa",
-    "UNTITLED_PROPERTY_TITLE": "Nienazwana Właściwość",
-    "TABLE_CREATION": {
-      "NEW_TAG": {
-        "TITLE": "Utwórz Nowy {{viewName}} + Tag",
-        "DESCRIPTION": "Zacznij od pustego/-ej  {{viewName}} z nowym tagiem."
-      },
-      "EXISTING_TAG": {
-        "TITLE": "Użyj Istniejącego Tagu",
-        "DESCRIPTION": "Połącz z istniejącym źródłem {{viewName}} ."
-      }
-    },
-    "MENUS": {
-      "TAG": {
-        "TAG_TITLE": "Nazwa Tagu",
-        "RENAME_TAG": "Zmień nazwę Tagu",
-        "VIEW_TAG": "Wyświetl Tag",
-        "EDIT_TABLE_NAME": "Edytuj nazwę Tabeli",
-        "PRESS_TO_SAVE": "Naciśnij ↩, aby zapisać"
-      },
-      "FILTER": {
-        "FILTER_TITLE": "Filtr",
-        "ADD_ADVANCED_FILTER": "Dodaj Zaawansowany Filtr",
-        "NO_PROPERTIES_AVAILABLE": "Brak Dostępnych Właściwości; Dodaj Nowe!"
-      },
-      "SORT": {
-        "SORT_TITLE": "Sortuj"
-      },
-      "TABLE_CONFIGURATION": {
-        "TABLE_CONFIGURATION_TITLE": "Tabelę",
-        "LIST_CONFIGURATION_TITLE": "Listę",
-        "ALL": "Wszystko",
-        "VIEW_AS": {
-          "VIEW_AS_TITLE": "Wyświetl jako",
-          "TABLE_VIEW": "Tabela",
-          "NORMAL_PORTAL_VIEW": "Portal",
-          "LIST_VIEW": "Lista"
-        },
-        "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Skonfiguruj Tag & Edytuj Szablony",
-        "PROPERTIES_TITLE": "Właściwości",
-        "PROPERTIES_CONFIGURATION_TITLE": "Konfiguruj",
-        "OPEN_IN_ANOTHER_PANE_TITLE": "Otwórz w Nowej Karcie",
-        "ZOOM_IN_TO_TABLE_TITLE": "Powiększ Tabelę",
-        "ZOOM_IN_TO_LIST_TITLE": "Powiększ Listę",
-        "MOVE_TABLE_TO_TITLE": "Przenieś Tabele Do",
-        "MOVE_LIST_TO_TITLE": "Przenieś Listę Do",
-        "DUPLICATE_TABLE_VIEW_TITLE": "Zduplikuj Widok abeli",
-        "ADD_TABLE_VIEW_TITLE": "Dodaj widok tabeli",
-        "ADD_LIST_VIEW_TITLE": "Dodaj widok listy",
-        "DUPLICATE_LIST_VIEW_TITLE": "Zduplikuj Widok Listy",
-        "DUPLICATE_VIEW_MESSAGE_COMMON": "Zduplikuj widok, aby zastosować nowy filtr, sortowanie lub więcej! Treść jest współdzielona pomiędzy widokami tego samego źródła, więc nie wystąpią żadne przypadkowe zduplikowane doku.",
-        "SHOW_VERTICAL_LINES_TITLE": "Pokaż Linie Pionowe",
-        "INCLUDE_NESTED_DESCENDANTS": "Uwzględnij zagnieżdżonych potomków",
-        "CELL_LIST_HEIGHT": {
-          "CELL_LIST_HEIGHT_TITLE": "Wysokość Komórki",
-          "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Komórki mogą zawierać wiele punktorów! Ogranicz wysokość komórki, aby ułatwić przeglądanie.",
-          "COMFORTABLE_TITLE": "Dopasowany",
-          "FULL_TITLE": "Pełny",
-          "COMPACT_TITLE": "Kompaktowy"
-        },
-        "DELETE_TABLE": "Usuń Tabelę",
-        "DELETE_LIST": "Usuń Listę"
-      }
-    }
-  },
-  "SIDEBAR": {
-    "LABEL_ALL_NOTES": "Wszystkie Notatki",
-    "LABEL_TODAYS_NOTE": "Dzisiejsza Notatka",
-    "LABEL_FLASHCARDS": "Fiszki",
-    "LABEL_EDIT_LATER": "Edytuj Później",
-    "LABEL_COMMUNITY": "Udostępnione iszki",
-    "LABEL_ONBOARDING_CALL": "Ustaw Zaplanowane Połączenie",
-    "LABEL_INTERACTIVE_TOUR": "Interaktywny Przewodnik",
-    "LABEL_RESUME_INTERACTIVE_TOUR": "Wznów Interaktywny Przewodnik",
-    "LABEL_TUTORIALS": "Poradniki",
-    "TOOLTIP_FLASHCARD_HOME": "Idź do Centrum Fiszek",
-    "TOOLTIP_EDIT_LATER_QUEUE": "Otwórz Edytuj Póżniej Kolejka"
-  },
-  "PAGES": {
-    "ALL_NOTES": {
-      "TITLE": "Wszystkie Notatki",
-      "SORT": {
-        "RECENTLY_MODIFIED": "Od ostatnio zmodyfikowanych",
-        "RECENTLY_CREATED": "Od najnowszych",
-        "OLDEST_FIRST": "Od najstarszych",
-        "BY_CREATION_TIME": "Od czasu utworzenia",
-        "BY_TITLE": "Alfabetycznie",
-        "BY_MODIFICATION": "Od ostatnio zmodyfikowanych",
-        "OLDEST_CREATION_FIRST": "Od najstarszych",
-        "ASCENDING": "Od A do Z",
-        "DESCENDING": "Od Z do A"
-      }
-    }
-  },
-  "SOURCES": {
-    "LINK_SOURCE": {
-      "LABEL": "Łącze",
-      "ENTER_URL": "Wprowadź URL",
-      "INVALID_URL": "Nieprawidłowy URL",
-      "OPEN_IN_READER": "Wyświetl w Czytniku",
-      "SEARCH_PLACEHOLDER": "Wklej link lub wyszukaj Odnośnik",
-      "LINK": "Łącze",
-      "LINK_WITH_COUNT_one": "{{count, number}} Łącze",
-      "LINK_WITH_COUNT_other": "{{count, number}} Łącza/-y"
-    },
-    "UPLOAD_SOURCE": {
-      "LABEL": "Prześli",
-      "SELECT_FILES": "Wybierz pliki",
-      "SELECT_FILES_TO_UPLOAD": "Wybierz pliki do przesłania",
-      "EMPTY": "Upuść pliki PDF, dokumenty Word, PPT i<moreLink> więcej</moreLink> Tutaj!",
-      "INVALID": "Nieprawidłowy format pliku!",
-      "UPLOADING": "Przesyłanie...",
-      "PDF": "PDF",
-      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
-      "PDF_WITH_COUNT_other": "{{count, number}} pliki/-ów PDF"
-    },
-    "WIKIMEDIA_COMMONS": {
-      "LABEL": "Wyszukiwanie obrazka",
-      "SELECT_FILES": "Wybierz pliki",
-      "SELECT_FILES_TO_UPLOAD": "Wybierz pliki do przesłania",
-      "EMPTY": "Upuść pliki PDF, dokumenty Word, PPT i <moreLink>więcej</moreLink> Tutaj!",
-      "INVALID": "Nieprawidłowy format pliku!",
-      "UPLOADING": "Przesyłanie...",
-      "PDF": "PDF",
-      "PDF_WITH_COUNT_one": "{{count, number}} plik PDF",
-      "PDF_WITH_COUNT_other": "{{count, number}} pliki PDF"
-    }
-  },
-  "POWERUPS": {
-    "POWERUP_one": "SuperTag",
-    "POWERUP_other": "SuperTagi"
   },
   "COMMUNITY": {
     "ARTICLES": {
       "ERRORS": {
         "SHARING": {
-          "NO_TITLE": {
-            "SRC": "Dokument, który próbujesz udostępnić, nie ma tytułu. Musisz go dodać przed opublikowaniem.",
-            "SUBDOCUMENT": "Jeden z Twoich dokumentów podrzędnych nie ma tytułu. Nie zostanie opublikowany, dopóki go nie nazwiesz."
-          },
           "NO_CONTENT": {
             "SRC": "Dokument, który próbujesz udostępnić, wygląda na nieco pusty. Dodaj co najmniej {{minimum}} remów, a następnie spróbuj ponownie.",
             "SUBDOCUMENT": "Jeden z Twoich dokumentów podrzędnych wygląda na trochę pusty. Nie zostanie opublikowany, dopóki nie będzie zawierał {{minimum}} Remy."
+          },
+          "NO_TITLE": {
+            "SRC": "Dokument, który próbujesz udostępnić, nie ma tytułu. Musisz go dodać przed opublikowaniem.",
+            "SUBDOCUMENT": "Jeden z Twoich dokumentów podrzędnych nie ma tytułu. Nie zostanie opublikowany, dopóki go nie nazwiesz."
           }
         }
       }
     }
   },
+  "LANGUAGE": {
+    "LANGUAGE_WORD": "Język",
+    "TRANSLATION_IN_PROGRESS": "Tłumaczenie w toku",
+    "TRANSLATION_INFO_SETTINGS": "Tłumaczenie jest nadal w toku; zobaczysz mieszankę języka angielskiego i wybranego języka.<br> Możesz pomóc nam w tłumaczeniu, czytając<guideLink> instruktaż</guideLink> a następnie skorzystaj z naszego<editorLink> redaktor internetowy</editorLink> ."
+  },
   "NOTIFICATIONS": {
-    "INVITE": {
-      "BODY": "zaprosił/-a Cię do dołączenia",
-      "ACCEPT": "Przyjmij Zaproszenie",
-      "REJECT": "Odrzuć"
-    },
-    "NEW_FOLLOWER": {
-      "BODY": "zaobserwował/-a"
-    },
-    "NEW_LIKE": {
-      "BODY": "polubił/-a"
-    },
-    "DOCUMENT_ADDED_TO_GROUP": {
-      "BODY": "dodano do"
-    },
+    "ARTICLE_DEFAULT": "Twój dokument",
     "ARTICLE_VIEWS": {
       "BODY_1": "Twój dokument",
       "BODY_2": "wyświetlono {{viewCount, number}} raz/-y"
     },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "dodano do"
+    },
+    "EMPTY_STATE_MESSAGE": "Wszystko gotowe! Będziesz otrzymywać powiadomienia, gdy ktoś wejdzie w interakcję z treścią udostępnioną na Twoim koncie<profileLink> profil</profileLink>",
+    "EMPTY_STATE_TITLE": "Nie masz żadnych nowych powiadomień",
+    "GROUP_DEFAULT": "Twoja grupa",
     "IMPORT": {
       "BODY": "Ktoś zaimportował Twój dokument"
+    },
+    "INVITE": {
+      "ACCEPT": "Przyjmij Zaproszenie",
+      "BODY": "zaprosił/-a Cię do dołączenia",
+      "REJECT": "Odrzuć"
     },
     "NEW_COMMENT": {
       "BODY": "odpowiedział/-a na",
@@ -603,42 +59,13 @@
       "BODY_COMMENT": "odpowiedział/-a na Twój komentarz",
       "BODY_GROUP": "wyślij czat do Twojej grupy"
     },
-    "EMPTY_STATE_TITLE": "Nie masz żadnych nowych powiadomień",
-    "EMPTY_STATE_MESSAGE": "Wszystko gotowe! Będziesz otrzymywać powiadomienia, gdy ktoś wejdzie w interakcję z treścią udostępnioną na Twoim koncie<profileLink> profil</profileLink>",
-    "POPUP_TITLE": "Nowe Powiadomienia",
-    "ARTICLE_DEFAULT": "Twój dokument",
-    "GROUP_DEFAULT": "Twoja grupa"
-  },
-  "POPUPS": {
-    "CREATE_CONTENT_OPTIONS": {
-      "DOCUMENT": {
-        "TITLE": "Dokument",
-        "DESCRIPTION": "Uporządkuj notatki z wykładów, źródeł i pomysłów w dokumentach."
-      },
-      "QUICK_ADD": {
-        "TITLE": "Szybkie Dodawanie",
-        "DESCRIPTION": "Uchwyć swoje myśli gdy tego potrzebujesz!"
-      },
-      "TODAYS_DOCUMENT": {
-        "TITLE": "Dzisiejszy Dokument",
-        "DESCRIPTION": "Dokumenty Dnia są idealne do prowadzenia dziennika, tworzenia list do zrobienia i wiele więcej."
-      },
-      "FOLDER": {
-        "TITLE": "Folder",
-        "DESCRIPTION": "Uporządkuj Dokumenty w Foldery."
-      },
-      "TABLE_TAG": {
-        "TITLE": "Tag & Tabela",
-        "DESCRIPTION": "Utwórz Tag do użycia z Tabelami i Szablonami."
-      },
-      "UPLOAD_FILE": {
-        "TITLE": "Prześlij & Obrabiaj Plik",
-        "DESCRIPTION": "Wyróżnij & stwórz Odnośnik do PDF, prezentacji PowerPoint, dokumentu Word lub innego pliku.",
-        "PAYWALL": "Osiągnąłeś limit przesyłania plików PDF.",
-        "todo_for_the_item_below": "przenieść to do globalnego obiektu nazwy funkcji?",
-        "FEATURE_NAME": "Wyróżnianie PDF"
-      }
-    }
+    "NEW_FOLLOWER": {
+      "BODY": "zaobserwował/-a"
+    },
+    "NEW_LIKE": {
+      "BODY": "polubił/-a"
+    },
+    "POPUP_TITLE": "Nowe Powiadomienia"
   },
   "ONBOARDING": {
     "SIDEBAR": {
@@ -657,5 +84,578 @@
         }
       }
     }
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "SORT": {
+        "ASCENDING": "Od A do Z",
+        "BY_CREATION_TIME": "Od czasu utworzenia",
+        "BY_MODIFICATION": "Od ostatnio zmodyfikowanych",
+        "BY_TITLE": "Alfabetycznie",
+        "DESCENDING": "Od Z do A",
+        "OLDEST_CREATION_FIRST": "Od najstarszych",
+        "OLDEST_FIRST": "Od najstarszych",
+        "RECENTLY_CREATED": "Od najnowszych",
+        "RECENTLY_MODIFIED": "Od ostatnio zmodyfikowanych"
+      },
+      "TITLE": "Wszystkie Notatki"
+    }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "DESCRIPTION": "Uporządkuj notatki z wykładów, źródeł i pomysłów w dokumentach.",
+        "TITLE": "Dokument"
+      },
+      "FOLDER": {
+        "DESCRIPTION": "Uporządkuj Dokumenty w Foldery.",
+        "TITLE": "Folder"
+      },
+      "QUICK_ADD": {
+        "DESCRIPTION": "Uchwyć swoje myśli gdy tego potrzebujesz!",
+        "TITLE": "Szybkie Dodawanie"
+      },
+      "TABLE_TAG": {
+        "DESCRIPTION": "Utwórz Tag do użycia z Tabelami i Szablonami.",
+        "TITLE": "Tag & Tabela"
+      },
+      "TODAYS_DOCUMENT": {
+        "DESCRIPTION": "Dokumenty Dnia są idealne do prowadzenia dziennika, tworzenia list do zrobienia i wiele więcej.",
+        "TITLE": "Dzisiejszy Dokument"
+      },
+      "UPLOAD_FILE": {
+        "DESCRIPTION": "Wyróżnij & stwórz Odnośnik do PDF, prezentacji PowerPoint, dokumentu Word lub innego pliku.",
+        "FEATURE_NAME": "Wyróżnianie PDF",
+        "PAYWALL": "Osiągnąłeś limit przesyłania plików PDF.",
+        "TITLE": "Prześlij & Obrabiaj Plik",
+        "todo_for_the_item_below": "przenieść to do globalnego obiektu nazwy funkcji?"
+      }
+    }
+  },
+  "POWERUPS": {
+    "POWERUP_one": "SuperTag",
+    "POWERUP_other": "SuperTagi"
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "ADVANCED": {
+        "KEYWORDS": "Wsparcie Podłącz na nowo Szukaj Napraw Błąd"
+      },
+      "ADVANCED_TITLE": "Zaawansowane Ustawienia",
+      "AUTHENTICATION": {
+        "KEYWORDS": "Wyloguj się Wyloguj się Metoda logowania Google Dodaj Rozłącz Zaloguj się Zarejestruj się"
+      },
+      "AUTHENTICATION_TITLE": "Uwierzytelnianie",
+      "DANGER_ZONE": {
+        "KEYWORDS": "synchronizacja dziennika usuwanie konta resetowanie przewodnik postęp resetowanie wprowadzania zaawansowanych ustawień konta",
+        "TITLE": "Strefa niebezpieczeństwa"
+      },
+      "DANGER_ZONE_TITLE": "Strefa niebezpieczeństwa",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Eksportuj kopię zapasową Eksportuj Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "IMPORT_EXPORT_TITLE": "Importuj i Eksportuj",
+      "MY_PROFILE": "Mój Profil",
+      "NAVIGATION": {
+        "KEYWORDS": "Eksportuj i twórz kopie zapasowe Zobacz usunięte Rem Importuj Bazę Wiedzy Wyświetl wszystkie Fiszki Pobierz Codzienną Kopię Zapasową Ustawienia zaawansowane Usuń wszystkie Rem"
+      },
+      "NAVIGATION_TITLE": "Nawigacja",
+      "NOTIFICATIONS": {
+        "DESCRIPTION": "Wysyłaj mobilne przypomnienia push o codziennej passie fiszek. Przypomnienia pojawiają się codziennie o 18:00 w Twojej lokalnej strefie czasowej.",
+        "TITLE": "Powiadomienia Passy na urządzeniu mobilnym"
+      },
+      "PRIVACY": {
+        "KEYWORDS": "prywatność",
+        "TITLE": "Prywatność"
+      },
+      "PRIVACY_NOTE": "Prywatność: Przeczytaj nasze<policyLink> Polityka prywatności</policyLink> lub zmień ustawienia w naszym<hubLink> Centrum prywatności</hubLink> .",
+      "PROFILE": {
+        "KEYWORDS": "Osobisty Profil Użytkownika"
+      },
+      "PROFILE_TITLE": "Profil",
+      "SUPPORT": {
+        "KEYWORDS": "Złóż Wniosek do Wsparcia Pomoc",
+        "TITLE": "Wsparcie"
+      },
+      "SYNCING": {
+        "KEYWORDS": "Wymuś synchronizację Obrazów i plików PDF",
+        "TITLE": "Synchronizowanie"
+      },
+      "VERSION": {
+        "KEYWORDS": "wersja",
+        "TITLE": "Wersja Aplikacji"
+      }
+    },
+    "EARN_CREDIT": {
+      "APPLY_CREDIT": "Wydaj swoje kredyty",
+      "COPIED": "Skopiowano!",
+      "COPYLINK": "Skopiuj Łącze",
+      "CREATE_ACCOUNT": "Stwórz Konto aby zaprosić znajomych",
+      "CREDIT_BALANCE": "Stan Środków",
+      "CREDIT_BALANCE_TEXT": "Masz <bold> {{userCredit}}<bold> niewykorzystanych środków i <bold>{{userCreditEarned}}<bold> zdobytych na koncie.  {{months}} pozostały miesiąc lub miesiące RemNote Pro za darmo.<br /><br />Przejdź na plan Pro aby zacząć używać swoje saldo! Opłata nie zostanie pobrana, dopóki nie wyczerpią się środki w aplikacji.",
+      "EMAIL_PLACEHOLDER": "zaciekawionyprzyjaciel@gmail.com",
+      "ENTER_VALID_EMAIL": "Wprowadź aktywny adres email!",
+      "FRIEND_ALREADY_ON_REMNOTE": "Twój znajomy jest już na RemNote",
+      "FRIENDS_TITLE": "Znajomi",
+      "HANG_ON": "Zaczekaj",
+      "INVITE": "Zaproś",
+      "INVITE_COPIED": "Skopiowano łącze!",
+      "INVITE_EMAIL": "Zaproś poprzez email",
+      "INVITE_ERROR": "Coś poszło nie tak. Spróbuj ponownie później.",
+      "INVITE_FRIENDS_EARN_CREDIT": "Zaproś znajomych, aby załadować saldo! Otrzymasz <0> {{monthlyPrice}}</0> w postaci środków RemNote, gdy zaproszona przez Ciebie osoba zarejestruje konto RemNote. Ona również otrzyma <0> {{monthlyPrice}}</0>  na start.",
+      "INVITE_FRIENDS_REMNOTE": "Zaproś swoich znajomych do RemNote!",
+      "INVITE_TEXT": "Zaproś znajomych i zdobywaj środki",
+      "INVITED_YOU": "(dodał/-a Cię)",
+      "KEYWORDS": "zaproś znajomych zdobądź kredyty plan zmień subskrypcję zdobądź kredyty bezpłatny remnote wyślij tweet e-mail wybierz plan nauki na zawsze pro spis funkcji opcje cenowe",
+      "NOT_CONFIRMED_EMAIL": "(nie ma zweryfikowanego adresu email)",
+      "SEND_INVITE": "Wyślij zaproszenie",
+      "SHARE_LINK": "Zaproś poprzez łącze",
+      "SUBSCRIBE_NOTICE": "<div><br />Przejdź na plan Pro aby zacząć używać swoje saldo! Opłata nie zostanie pobrana, dopóki nie wyczerpią się środki w aplikacji.</div>",
+      "TITLE": "Zdobywaj",
+      "TOAST_RENEW": "Twoje kredyty zostaną wykorzystane automatycznie po odnowieniu bieżącej subskrypcji.",
+      "TOAST_SUBSCRIBE": "Twoje kredyty zostaną wykorzystane automatycznie po wykupieniu subskrypcji RemNote Pro. Wybierz plan poniżej, aby rozpocząć!",
+      "VERIFY_EMAIL": "Aby zaprosić kogoś, zweryfikuj najpierw swój adres email."
+    },
+    "EDITOR": {
+      "DATES_AND_TIMES": {
+        "DATE_FORMATTING": {
+          "DESCRIPTION": "Format daty będzie załączony z /data w ten sposób. ",
+          "TITLE": "Formatowanie Daty"
+        },
+        "DATE_FORMATTING_CUSTOM": {
+          "DESCRIPTION": "Sformatuj załączanie daty w sposób najbardziej Ci odpowiadający używając dostępnych funkcji. ",
+          "TITLE": "Spersonalizuj Formatowanie Daty"
+        },
+        "TIME_FORMATTING": {
+          "DESCRIPTION": "Format czasu będzie załączony z /data w ten sposób. ",
+          "TITLE": "Formatowanie Czasu"
+        },
+        "WEEK_STARTS_ON_MONDAY": {
+          "DESCRIPTION": "Wybierając datę z widoku kalendarza, zaczynaj każdy tydzień od Poniedziałku zamiast Niedzieli.",
+          "TITLE": "Tydzień Zaczyna się w Poniedziałek"
+        }
+      },
+      "GENERAL": {
+        "CAPITALIZE_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Tworząc Rem naciskając Cmd+Return w Szukaj, napisz jego nazwę z wielkiej litery.",
+            "PC": "Tworząc Rem naciskając Ctrl+Enter w Szukaj, napisz jego nazwę z wielkiej litery."
+          },
+          "TITLE": "Zaczynaj pisownie z Wielkiej Litery w Szukaj"
+        },
+        "CREATE_CONCEPTS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Tworząc Rem naciskając Cmd+Return w Szukaj, zmień go w Konspekt.",
+            "PC": "Tworząc Rem naciskając Ctrl+Enter w Szukaj, zmień go w Konspekt."
+          },
+          "TITLE": "Twórz Konspekt W Szukaj"
+        },
+        "CREATE_STUBS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Tworząc Rem naciskając Cmd+Return w Szukaj, oznacz go Tagiem „Niedopałek”.",
+            "PC": "Tworząc Rem naciskając Ctrl+Enter w Szukaj, oznacz go Tagiem „Niedopałek”."
+          },
+          "TITLE": "Twórz Niedopałki w Szukaj"
+        },
+        "ENABLE_SPELLCHECK": {
+          "DESCRIPTION": "Sprawdź aktualnie aktywowany Rem pod kątem literówek.",
+          "TITLE": "Włącz Sprawdzanie Pisowni"
+        },
+        "INSERT_EMOJIS_AS_REFERENCES": {
+          "DESCRIPTION": "W Szukaj pisząc %% i wybierając Emotikon zostanie on wstawiony jako Odnośnik.",
+          "TITLE": "Wstaw Emotikony jako Odnośniki"
+        }
+      }
+    },
+    "EDITOR_INTERFACE": {
+      "ENABLE_ZOOM_INTO_BULLET": {
+        "LABEL": "Kiedy klikniesz na Punktor, wyświetl Rem w widoku pełnoekranowym",
+        "TITLE": "Włącz Przybliżanie Punktorów"
+      },
+      "ENTER_TO_OUTDENT": {
+        "LABEL": "Kiedy aktywny jest Potomny Rem, który jest pusty, naciśnięcie Enter zmniejszy wcięcie.",
+        "TITLE": "Włącz 'Naciśnij Enter aby zmniejszyć Wcięcie'"
+      },
+      "PREVIEW_REM_ON_HOVER": {
+        "LABEL": "Kiedy najedziesz kursorem na Odnośnik, wyświetl Podgląd jego zawartości.",
+        "TITLE": "Wyświetl Podgląd Odnośnika najeżdżając kursorem"
+      },
+      "SCALE_COLLAPSED_REM_BULLETS": {
+        "LABEL": "Kiedy Rem jest Zwinięty, wyświetlaj pierścień wokół jego Punktora jako większy lub mniejszy w zależności od liczby jego Potomków",
+        "TITLE": "Skaluj Zwinięte Punktory Remów"
+      },
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "LABEL": "Kiedy klikniesz lub stukniesz na Odnośnik, odrazu otwórz go, zamiast wyświetlać jego Podgląd. (Zawsze możesz wyświetlić jego Podgląd naciskając na niego prawym klawiszem myszki.)",
+        "TITLE": "Naciśnij-Raz Odnośnik aby go Otworzyć"
+      },
+      "SMOOTHLY_ANIMATE_THE_EDITOR": {
+        "LABEL": "Płynnie wyświetlaj animacje dodawania i usuwania Remów w Edytorze.",
+        "TITLE": "Płynnie wyświetlaj animacje w Edytorze"
+      }
+    },
+    "FLASHCARDS": {
+      "AI": {
+        "ENABLE": {
+          "DESCRIPTION": "Korzystaj z autouzupełniania, oceniania i generowania fiszek w oparciu o sztuczną inteligencję. Fragmenty Twoich notatek zostaną wysłane do OpenAI, jeśli będziesz korzystać z wielu funkcji AI. Politykę prywatności OpenAI znajdziesz na https://openai.com/policies/privacy-policy.",
+          "TITLE": "Włącz funkcje AI"
+        },
+        "OPENAI_KEY": {
+          "DESCRIPTION": "Jeśli przekroczysz miesięczny limit żądań AI, możesz zarejestrować się w celu uzyskania klucza API na stronie https://platform.openai.com/account/api-keys i wprowadzić go tutaj. Należy pamiętać, że jest to funkcja w wersji beta i może zostać usunięta w dowolnym momencie.",
+          "TITLE": "Klucz API OpenAI"
+        }
+      },
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "DESCRIPTION": "Ogranicz liczbę fiszek RemNote przypomni Ci o nauce, aby osiągnąć Twój dzienny cel przy tej wartości.",
+          "TITLE": "Maksymalny Dzienny Cel"
+        },
+        "TODAYS_TARGET": "Dzisiejszy Cel:",
+        "TODAYS_TARGET_EXPLANATION": "RemNote stara się określić Twój dzienny cel i jeżeli go osiągniesz każdego dnia, to przerobisz wszystkie fiszki zaplanowane na następne 7 dni. Natomiast, cel dzienny nigdy nie będzie większy niż maksymalny zbiór powyżej."
+      },
+      "GENERAL": {
+        "AUTOPLAY_MEDIA": {
+          "DESCRIPTION": "Podczas pokazywania fiszki automatycznie odtwarzaj każdą ścieżkę dźwiękową lub wideo na niej.",
+          "TITLE": "Odtwarzaj automatycznie dźwięk"
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "TITLE": "Limit nauki z wyprzedzeniem"
+        },
+        "LEECH_THRESHOLD": {
+          "DESCRIPTION": "Fiszki Udręki to trudne fiszki, których ciągle się uczysz, a potem znowu zapominasz. Jeśli naciśniesz przycisk „zapomniałem/-am” na fiszce więcej razy niż ta wartość, ostrzeżemy Cię, abyś mógł zastanowić się, dlaczego masz z nią problem. Ustaw tę opcję na wyższe wartości, aby rzadziej wyświetlać ostrzeżenie o Fiszce Udręki.",
+          "TITLE": "Próg Fiszek Udręki"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "DESCRIPTION": "Codziennie dodawaj maksymalnie tyle nowo utworzonych fiszek do swojej kolejki fiszek. W ten sposób nowe karty będą pojawiać się w Twojej kolejce ze stałą stawką dzienną, a nie gigantyczną partią.",
+          "TITLE": "Maksymalna liczba nowych kart dziennie"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "DESCRIPTION": "O tej porze każdego dnia w Twojej kolejce pojawiają się nowe karty.",
+          "TITLE": "Następny dzień zaczyna się o"
+        },
+        "RESET_ALL": {
+          "CONFIRM_MESSAGE": "Czy na pewno chcesz zresetować wszystkie ustawienia fiszek do wartości domyślnych?",
+          "DESCRIPTION": "Zresetuj wszystkie ustawienia fiszek do wartości domyślnych.",
+          "TITLE": "Zresetuj wszystkie ustawienia fiszek"
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "DESCRIPTION": "Pokazuj tylko przyciski \"Zapomniałem/-am\" i \"Przypomniałem/-am z trudem\" podczas nauki fiszek, zamiast wszystkich pięciu opcji.",
+          "TITLE": "Uproszczone przyciski w fiszkach"
+        },
+        "STALE_CARDS_PER_DAY": {
+          "DESCRIPTION": "Każdego dnia wprowadzaj ponownie maksymalnie tyle zaległych fiszek do swojej kolejki fiszek. Zaległe fiszki to takie, które są tymczasowo wstrzymywane z kolejki, ponieważ nie uczyłeś się ich przez długi czas i ponowne uczenie się ich wszystkich na raz byłoby wyczerpujące.",
+          "TITLE": "Maksymalna liczba Zaległych fiszek dziennie"
+        },
+        "TYPE_ANSWER": {
+          "DESCRIPTION": "Pokaż pole tekstowe z przodu każdej fiszki i porównaj to, co wpisałeś z odpowiedzią na odwrocie fiszki.",
+          "TITLE": "Wpisz odpowiedź"
+        }
+      },
+      "ORDERING": {
+        "DOCUMENT_CLUSTERS": {
+          "DESCRIPTION": "Wolę uczyć się Remy z powiązanych dokumentów razem. ",
+          "TITLE": "Zbiory dokumentów"
+        },
+        "HIERARCHY_CLUSTERS": {
+          "DESCRIPTION": "Wolą uczyć się Remy powiązane ze sobą hierarchicznie razem.",
+          "TITLE": "Zbiory Hierarchii"
+        },
+        "REFERENCE_CLUSTERS": {
+          "DESCRIPTION": "Wolę uczyć się Remy połączone Odnośnikiem razem.",
+          "TITLE": "Zbiory Odnośników"
+        },
+        "TAG_CLUSTERS": {
+          "DESCRIPTION": "Wolę uczyć się Remy z tym samym Tagiem razem.",
+          "TITLE": "Zbiory Tagów"
+        }
+      },
+      "STATISTICS": {
+        "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
+          "DESCRIPTION": "Jeśli odpowiedź na Fiszkę zajmie Ci więcej czasu (w sekundach), resztę czasu nie zostanie uwzględniona w statystykach.",
+          "TITLE": "Maksymalny czas odpowiedzi na Fiszkę"
+        }
+      },
+      "VISUAL": {
+        "SHOW_NEXT_REVIEW_TIMES": {
+          "DESCRIPTION": "Na każdym przycisku odpowiedzi pokaż czas do następnej powtórki.",
+          "TITLE": "Pokaż Godziny Następnej Powtórki"
+        }
+      }
+    },
+    "GLOBAL_INTERFACE": {
+      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
+        "KEYWORDS": "język społeczność dokumenty szukaj",
+        "TITLE": "Język wyszukiwania Dokumentów Społeczności"
+      },
+      "DARK_MODE": {
+        "LABEL": "Używaj tej palety kolorów.",
+        "TITLE": "Tryb Ciemny"
+      },
+      "FULL_WIDTH": {
+        "LABEL": "Rozwiń dokumenty, aby wykorzystać całą szerokość ekranu.",
+        "TITLE": "Pełna szerokość"
+      },
+      "IN_APP_SUGGESTIONS": {
+        "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik",
+        "LABEL": "Pokaż wskazówki dotyczące funkcji RemNote, które możesz wypróbować na górze dokumentu."
+      },
+      "INTERFACE": {
+        "KEYWORDS": "język język tłumaczenia i18n",
+        "TITLE": "Język Interfejsu RemNote (Alpha)"
+      },
+      "LEFT_SIDEBAR_TUTORIALS": {
+        "KEYWORDS": "w aplikacji lewy pasek boczny poradniki wskazówki narzędzi pomoc wsparcie naucz się poradnik",
+        "LABEL": "Pokazuj poradniki funkcji RemNote aktualnie używanej w rogu ekranu urządzenia.",
+        "TITLE": "Poradniki Aplikacji"
+      },
+      "ONBOARDING_TIPS_FEATURES": {
+        "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik",
+        "LABEL": "Pokazuj wskazówki narzędzi funkcji RemNote aktualnie używanej w rogu ekranu urządzenia.",
+        "TITLE": "Inteligentne Wskazówki"
+      },
+      "ONBOARDING_TIPS_SHORTCUTS": {
+        "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik",
+        "LABEL": "Pokazuj wskazówki skrótów klawiszowych akcji aktualnie wykonywanej w rogu ekranu urządzenia.",
+        "TITLE": "Wskazówki Skrótów Klawiszowych"
+      },
+      "SIMPLIFIED_UI": {
+        "LABEL": "Uprość interfejs użytkownika i ukryj zaawansowane funkcje.",
+        "TITLE": "Uproszczony interfejs użytkownika"
+      }
+    },
+    "KEYBOARD_SHORTCUTS": {
+      "CHANGE_KEYBOARD_SHORTCUTS": {
+        "DESCRIPTION": "Dostosuj skróty klawiszowe przypisując funkcję do innych klawiszy.",
+        "KEYWORDS": "spersonalizuj skróty klawiszowe mapowanie programowanie klawiszy",
+        "TITLE": "Zmień Skróty Klawiszowe"
+      },
+      "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
+        "DESCRIPTION": "Przywróć domyślne skróty klawiszowe (przed aktualizacją z Sierpnia 2020).",
+        "TITLE": "Przywróć Domyślne Skróty Klawiszowe"
+      },
+      "DOUBLE_SLASH_FOR_COMMAND_MENU": {
+        "DESCRIPTION": "Wpisz // zamiast /, aby wywołać Polecenia podczas edycji Remów.",
+        "TITLE": "Podwójny ukośnik dla Menu oleceń"
+      },
+      "ENTER_TO_OUTDENT": {
+        "TITLE": "Naciśnij Enter, aby zmniejszyć wcięcie"
+      },
+      "SPLIT_WITH_ALT_ENTER": {
+        "DESCRIPTION": {
+          "MAC": "Kiedy naciśniesz  Return w środku Rem, utwórz podział wiersza w tym Rem i zamiast tego użyj Opt+Return, aby podzielić tekst na dwa osobne Remy. (Domyślnie te funkcje pełnią odpowiednio Shift+Return i sam klawisz Return.)",
+          "PC": "Kiedy naciśniesz  Enter w środku Rem, utwórz podział wiersza w tym Rem i zamiast tego użyj Alt+Enter, aby podzielić tekst na dwa oddzielne Remy. (Domyślnie te funkcje pełnią odpowiednio Shift+Enter i sam klawisz Enter.)"
+        },
+        "TITLE": {
+          "MAC": "Rozdziel Z Opt-Return",
+          "PC": "Rozdziel Z Alt+Enter"
+        }
+      }
+    },
+    "NOTIFICATIONS": {
+      "DESCRIPTIONS": {
+        "ARTICLE_VIEWS": {
+          "LABEL": "Otrzymaj powiadomienie, gdy Twój udostępniony dokument zacznie zdobywać dużą popularność. ",
+          "TITLE": "Powiadomienia Wyświetleń Dokumentu"
+        },
+        "DOCUMENT_ADDED_TO_GROUP": {
+          "LABEL": "Otrzymaj powiadomienie, gdy nowy dokument zostanie dodany do Twojej Grupy.",
+          "TITLE": "Powiadomienia "
+        },
+        "INVITE": {
+          "LABEL": "Otrzymaj powiadomienie kiedy zostaniesz zaproszony do grupy.",
+          "TITLE": "Powiadomienia Zaproszeń"
+        },
+        "NEW_COMMENT": {
+          "LABEL": "Otrzymaj powiadomienie, gdy ktoś skomentuje Twój udostępniony dokument.",
+          "TITLE": "Powiadomienia Komentarzy"
+        },
+        "NEW_FOLLOWER": {
+          "LABEL": "Otrzymaj powiadomienie kiedy ktoś Cię zaobserwuje",
+          "TITLE": "Powiadomienia Obserwujących"
+        },
+        "NEW_LIKE": {
+          "LABEL": "Otrzymaj powiadomienie kiedy ktoś polubi Twój udostępniony Dokument.",
+          "TITLE": "Powiadomienia Polubień"
+        },
+        "STREAK": {
+          "LABEL": "Otrzymuj codzienne powiadomienia, aby podtrzymać Passę nauki!",
+          "TITLE": "Powiadomienia Passy Nauki"
+        }
+      },
+      "ENABLE_EMAIL_LABEL": "Otrzymuj powiadomienia bezpośrednio do Twojej skrzynki",
+      "ENABLE_EMAIL_TITLE": "Czy chcesz otrzymywać powiadomienia email?",
+      "ENABLE_PUSH_LABEL": "Otrzymuj powiadomienia bezpośrednio na swoje urządzenie",
+      "ENABLE_PUSH_TITLE": "Czy chcesz otrzymywać powiadomienia Push?",
+      "TOGGLE_LABEL": "Wybierz które powiadomienia chcesz otrzymywać bezpośrednio do Twojej skrzynki/ na urządzenie",
+      "TOGGLE_TITLE": "Dostosuj Powiadomienia"
+    },
+    "PLANS": {
+      "KEYWORDS": "zaproś znajomych plan zmień subskrypcję zdobądź kredyty bezpłatny remnote wyślij tweet e-mail wybierz plan uczenia się na zawsze pro spis funkcji opcje cenowe",
+      "TITLE": "Plany"
+    },
+    "SIDEBAR": {
+      "COMMUNITY_TAB": {
+        "LABEL": "Pokaż Centrum Społeczności, gdzie możesz znaleźć udostępnione dokumenty innych osób oraz grupy naukowe na Pasku Bocznym. Jeżeli to wyłączysz, wciąż będzie możliwe znalezienie Centrum Społeczności w Centrum Konta. ",
+        "TITLE": "Centrum Społeczności w Pasku Bocznym"
+      },
+      "CUSTOMIZE_SIDEBAR_SECTIONS": {
+        "TITLE": "Spersonalizuj Sekcje Pasku Bocznego"
+      },
+      "DOCUMENT_STATUSES": {
+        "LABEL": "Uporządkuj Dokumenty na Szkice, Skończone oraz Przypięte. ",
+        "TITLE": "Stan Dokumentu"
+      },
+      "PRIVACY_NOTE": "Prywatność: Przeczytaj naszą <policyLink>Politykę Prywatności</policyLink> lub zmień Twoje ustawienia w naszym  <hubLink>Centrum Prywatności</hubLink>.",
+      "SORT_SIDEBAR": {
+        "KEYWORDS": "uporządkuj pasek boczny sortuj od a do z",
+        "TITLE": "Sortuj Pasek Boczny"
+      }
+    }
+  },
+  "SIDEBAR": {
+    "LABEL_ALL_NOTES": "Wszystkie Notatki",
+    "LABEL_COMMUNITY": "Udostępnione iszki",
+    "LABEL_EDIT_LATER": "Edytuj Później",
+    "LABEL_FLASHCARDS": "Fiszki",
+    "LABEL_INTERACTIVE_TOUR": "Interaktywny Przewodnik",
+    "LABEL_ONBOARDING_CALL": "Ustaw Zaplanowane Połączenie",
+    "LABEL_RESUME_INTERACTIVE_TOUR": "Wznów Interaktywny Przewodnik",
+    "LABEL_TODAYS_NOTE": "Dzisiejsza Notatka",
+    "LABEL_TUTORIALS": "Poradniki",
+    "TOOLTIP_EDIT_LATER_QUEUE": "Otwórz Edytuj Póżniej Kolejka",
+    "TOOLTIP_FLASHCARD_HOME": "Idź do Centrum Fiszek"
+  },
+  "SOURCES": {
+    "LINK_SOURCE": {
+      "ENTER_URL": "Wprowadź URL",
+      "INVALID_URL": "Nieprawidłowy URL",
+      "LABEL": "Łącze",
+      "LINK": "Łącze",
+      "LINK_WITH_COUNT_one": "{{count, number}} Łącze",
+      "LINK_WITH_COUNT_other": "{{count, number}} Łącza/-y",
+      "OPEN_IN_READER": "Wyświetl w Czytniku",
+      "SEARCH_PLACEHOLDER": "Wklej link lub wyszukaj Odnośnik"
+    },
+    "UPLOAD_SOURCE": {
+      "EMPTY": "Upuść pliki PDF, dokumenty Word, PPT i<moreLink> więcej</moreLink> Tutaj!",
+      "INVALID": "Nieprawidłowy format pliku!",
+      "LABEL": "Prześli",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} pliki/-ów PDF",
+      "SELECT_FILES": "Wybierz pliki",
+      "SELECT_FILES_TO_UPLOAD": "Wybierz pliki do przesłania",
+      "UPLOADING": "Przesyłanie..."
+    },
+    "WIKIMEDIA_COMMONS": {
+      "EMPTY": "Upuść pliki PDF, dokumenty Word, PPT i <moreLink>więcej</moreLink> Tutaj!",
+      "INVALID": "Nieprawidłowy format pliku!",
+      "LABEL": "Wyszukiwanie obrazka",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} plik PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} pliki PDF",
+      "SELECT_FILES": "Wybierz pliki",
+      "SELECT_FILES_TO_UPLOAD": "Wybierz pliki do przesłania",
+      "UPLOADING": "Przesyłanie..."
+    }
+  },
+  "TABLES": {
+    "MENUS": {
+      "FILTER": {
+        "ADD_ADVANCED_FILTER": "Dodaj Zaawansowany Filtr",
+        "FILTER_TITLE": "Filtr",
+        "NO_PROPERTIES_AVAILABLE": "Brak Dostępnych Właściwości; Dodaj Nowe!"
+      },
+      "SORT": {
+        "SORT_TITLE": "Sortuj"
+      },
+      "TABLE_CONFIGURATION": {
+        "ADD_LIST_VIEW_TITLE": "Dodaj widok listy",
+        "ADD_TABLE_VIEW_TITLE": "Dodaj widok tabeli",
+        "ALL": "Wszystko",
+        "CELL_LIST_HEIGHT": {
+          "CELL_LIST_HEIGHT_TITLE": "Wysokość Komórki",
+          "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Komórki mogą zawierać wiele punktorów! Ogranicz wysokość komórki, aby ułatwić przeglądanie.",
+          "COMFORTABLE_TITLE": "Dopasowany",
+          "COMPACT_TITLE": "Kompaktowy",
+          "FULL_TITLE": "Pełny"
+        },
+        "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Skonfiguruj Tag & Edytuj Szablony",
+        "DELETE_LIST": "Usuń Listę",
+        "DELETE_TABLE": "Usuń Tabelę",
+        "DUPLICATE_LIST_VIEW_TITLE": "Zduplikuj Widok Listy",
+        "DUPLICATE_TABLE_VIEW_TITLE": "Zduplikuj Widok abeli",
+        "DUPLICATE_VIEW_MESSAGE_COMMON": "Zduplikuj widok, aby zastosować nowy filtr, sortowanie lub więcej! Treść jest współdzielona pomiędzy widokami tego samego źródła, więc nie wystąpią żadne przypadkowe zduplikowane doku.",
+        "INCLUDE_NESTED_DESCENDANTS": "Uwzględnij zagnieżdżonych potomków",
+        "LIST_CONFIGURATION_TITLE": "Listę",
+        "MOVE_LIST_TO_TITLE": "Przenieś Listę Do",
+        "MOVE_TABLE_TO_TITLE": "Przenieś Tabele Do",
+        "OPEN_IN_ANOTHER_PANE_TITLE": "Otwórz w Nowej Karcie",
+        "PROPERTIES_CONFIGURATION_TITLE": "Konfiguruj",
+        "PROPERTIES_TITLE": "Właściwości",
+        "SHOW_VERTICAL_LINES_TITLE": "Pokaż Linie Pionowe",
+        "TABLE_CONFIGURATION_TITLE": "Tabelę",
+        "VIEW_AS": {
+          "LIST_VIEW": "Lista",
+          "NORMAL_PORTAL_VIEW": "Portal",
+          "TABLE_VIEW": "Tabela",
+          "VIEW_AS_TITLE": "Wyświetl jako"
+        },
+        "ZOOM_IN_TO_LIST_TITLE": "Powiększ Listę",
+        "ZOOM_IN_TO_TABLE_TITLE": "Powiększ Tabelę"
+      },
+      "TAG": {
+        "EDIT_TABLE_NAME": "Edytuj nazwę Tabeli",
+        "PRESS_TO_SAVE": "Naciśnij ↩, aby zapisać",
+        "RENAME_TAG": "Zmień nazwę Tagu",
+        "TAG_TITLE": "Nazwa Tagu",
+        "VIEW_TAG": "Wyświetl Tag"
+      }
+    },
+    "PRIMARY_COLUMN_TITLE": "Nazwa",
+    "TABLE_CREATION": {
+      "EXISTING_TAG": {
+        "DESCRIPTION": "Połącz z istniejącym źródłem {{viewName}} .",
+        "TITLE": "Użyj Istniejącego Tagu"
+      },
+      "NEW_TAG": {
+        "DESCRIPTION": "Zacznij od pustego/-ej  {{viewName}} z nowym tagiem.",
+        "TITLE": "Utwórz Nowy {{viewName}} + Tag"
+      }
+    },
+    "UNTITLED_PROPERTY_TITLE": "Nienazwana Właściwość"
+  },
+  "TAGS": {
+    "INSERT_PROPERTIES": "Wstaw Właściwości",
+    "PINNED_TAGS": "Przypięte Tagi",
+    "SEARCH_PLACEHOLDER": "Wyszukaj istniejący Tag, aby go dodać",
+    "TAG": "Tag",
+    "TAG_WITH_COUNT_one": "{{count, number}} Tag",
+    "TAG_WITH_COUNT_other": "{{count, number}} Tagi/-ów",
+    "YOUR_TAGS": "Twoje Tagi"
+  },
+  "TEMPLATES": {
+    "ADD_NEW_PROPERTY": "Dodaj nową Właściwość",
+    "ADD_PROPERTY": "Dodaj Właściwość",
+    "AUTO_APPLY": "Zastosuj Automatycznie",
+    "AUTO_APPLY_HELP_TEXT": "Ten szablon zostanie automatycznie zastosowany do wszystkich wierszy w jego tabeli lub do wszystkich Remów oznaczonych tym szablonem.",
+    "CREATE_TEMPLATE": "Utwórz zablon",
+    "HIDE_CONFIGURATION": "Ukryj onfigurację",
+    "NEW_PROPERTY": "Nowa Właściwość",
+    "NEW_TEMPLATE": "Nowy zablon",
+    "PROPERTIES_HELP_TEXT": {
+      "0": "Właściwości opisują Tag. Na przykład dla Tagu o nazwie „Książka” dodaj Właściwości takie jak Autor, Gatunek, Stan Przeczytania i nie tylko!"
+    },
+    "PROPERTY_one": "Właściwość",
+    "PROPERTY_other": "Właściwości",
+    "PROPERTY_WITH_COUNT_one": "{{count, number}} Właściwość",
+    "PROPERTY_WITH_COUNT_other": "{{count, number}} Właściwości",
+    "SET_AS_AUTO_APPLY_TEMPLATE": "Ustaw jako Szablon Automatycznego Stosowania",
+    "TEMPLATE_one": "Szablon",
+    "TEMPLATE_other": "Szablony",
+    "TEMPLATE_WITH_COUNT_one": " {{count, number}} Szablon",
+    "TEMPLATE_WITH_COUNT_other": "{{count, number}} Szablony/-ów",
+    "TEMPLATES_HELP_TEXT": "Szablon Tagu to dokument RemNote, który można automatycznie skopiować do oznaczonych Remów. Dodaj nagłówki, listy kontrolne i inne elementy bezpośrednio w swoim szablonie.",
+    "TURN_OFF_AUTO_APPLY": "Wyłącz Zastosuj Automatycznie",
+    "VIEW_CONFIGURATION": "Skonfiguruj Tag"
   }
 }
