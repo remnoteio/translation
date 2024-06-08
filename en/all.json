@@ -468,6 +468,10 @@
           "DESCRIPTION": "The voice used for text to speech. Note that some voices only work for certain languages.",
           "TITLE": "Text to Speech Voice"
         },
+        "TEXT_TO_SPEECH_SPEED": {
+          "DESCRIPTION": "The rate at which flashcard text is spoken.",
+          "TITLE": "Text to Speech Speed"
+        },
         "TYPE_ANSWER": {
           "DESCRIPTION": "Show a text box on the front of each flashcard and compare what you type to the answer on the back of the card.",
           "TITLE": "Type Answer"
@@ -656,7 +660,8 @@
     },
     "UPLOAD_SOURCE": {
       "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
-      "INVALID": "Incorrect file format!",
+      "INVALID": "Sorry, RemNote cannot accept file uploads of this type.",
+      "IMPORT_INSTEAD": "RemNote cannot accept file uploads of this type. However, we might be able to import the notes or flashcards in this file! Try choosing “Import” from the upper-left account menu.",
       "LABEL": "Upload",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
