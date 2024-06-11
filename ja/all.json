@@ -33,11 +33,11 @@
       "ADVANCED_TITLE": "詳細設定",
       "AUTHENTICATION_TITLE": "認証",
       "DANGER_ZONE": {
-        "KEYWORDS": "同期 ログ 削除 アカウント リセット ウォークスルー 進捗 リセット オンボーディング 詳細アカウント設定",
+        "KEYWORDS": "同期 ログ 削除 アカウント リセット ウォークスルー 進捗 リセット オンボーディング 詳細 アカウント 設定",
         "TITLE": "危険 ゾーン"
       },
       "DANGER_ZONE_TITLE": "危険ゾーン",
-      "IMPORT_EXPORT_TITLE": "インポートとエクスポート",
+      "IMPORT_EXPORT_TITLE": "インポート と エクスポート",
       "MY_PROFILE": "私のプロフィール",
       "NAVIGATION_TITLE": "ナビゲーション",
       "NOTIFICATIONS": {
@@ -107,7 +107,7 @@
       "INVITE_COPIED": "招待リンクをコピーしました！",
       "INVITE_EMAIL": "メールで招待",
       "INVITE_ERROR": "問題が発生しました。後でもう一度試してください。",
-      "INVITE_FRIENDS_EARN_CREDIT": "招待した友達ごとに{{monthlyPrice}} RemNote クレジットを獲得できます。招待した友達も、開始時に{{monthlyPrice}}のクレジットを獲得できます。",
+      "INVITE_FRIENDS_EARN_CREDIT": "招待した友達ごとに{{monthlyPrice}} RemNote クレジットを獲得できます。\n招待した友達も、開始時に{{monthlyPrice}}のクレジットを獲得できます。",
       "INVITE_FRIENDS_REMNOTE": "友達をRemNoteに招待しましょう！",
       "INVITE_TEXT": "友達を招待する",
       "INVITED_YOU": " （あなたを招待しました）",
@@ -132,7 +132,7 @@
           "TITLE": "カスタム日付書式"
         },
         "TIME_FORMATTING": {
-          "DESCRIPTION": "/timeで挿入された時刻をこのようにフォーマットします。",
+          "DESCRIPTION": "/timeで追加された時刻をこのようにフォーマットします。",
           "TITLE": "時刻の書式"
         },
         "WEEK_STARTS_ON_MONDAY": {
