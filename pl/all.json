@@ -374,10 +374,6 @@
       "TOGGLE_TITLE": "Dostosuj Powiadomienia"
     },
     "SIDEBAR": {
-      "COMMUNITY_TAB": {
-        "LABEL": "Pokaż Centrum Społeczności, gdzie możesz znaleźć udostępnione dokumenty innych osób oraz grupy naukowe na Pasku Bocznym. Jeżeli to wyłączysz, wciąż będzie możliwe znalezienie Centrum Społeczności w Centrum Konta. ",
-        "TITLE": "Centrum Społeczności w Pasku Bocznym"
-      },
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "Spersonalizuj Sekcje Pasku Bocznego"
       },
@@ -389,6 +385,10 @@
       "SORT_SIDEBAR": {
         "KEYWORDS": "uporządkuj pasek boczny sortuj od a do z",
         "TITLE": "Sortuj Pasek Boczny"
+      },
+      "COMMUNITY_TAB": {
+        "LABEL": "Pokaż Centrum Społeczności, gdzie możesz znaleźć udostępnione dokumenty innych osób oraz grupy naukowe na Pasku Bocznym. Jeżeli to wyłączysz, wciąż będzie możliwe znalezienie Centrum Społeczności w Centrum Konta. ",
+        "TITLE": "Centrum Społeczności w Pasku Bocznym"
       }
     }
   },
@@ -635,12 +635,10 @@
   },
   "TEMPLATES": {
     "ADD_NEW_PROPERTY": "Dodaj nową Właściwość",
-    "ADD_PROPERTY": "Dodaj Właściwość",
     "AUTO_APPLY": "Zastosuj Automatycznie",
     "AUTO_APPLY_HELP_TEXT": "Ten szablon zostanie automatycznie zastosowany do wszystkich wierszy w jego tabeli lub do wszystkich Remów oznaczonych tym szablonem.",
     "CREATE_TEMPLATE": "Utwórz zablon",
     "HIDE_CONFIGURATION": "Ukryj onfigurację",
-    "NEW_PROPERTY": "Nowa Właściwość",
     "NEW_TEMPLATE": "Nowy zablon",
     "PROPERTIES_HELP_TEXT": {
       "0": "Właściwości opisują Tag. Na przykład dla Tagu o nazwie „Książka” dodaj Właściwości takie jak Autor, Gatunek, Stan Przeczytania i nie tylko!"
@@ -656,6 +654,8 @@
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} Szablony/-ów",
     "TEMPLATES_HELP_TEXT": "Szablon Tagu to dokument RemNote, który można automatycznie skopiować do oznaczonych Remów. Dodaj nagłówki, listy kontrolne i inne elementy bezpośrednio w swoim szablonie.",
     "TURN_OFF_AUTO_APPLY": "Wyłącz Zastosuj Automatycznie",
-    "VIEW_CONFIGURATION": "Skonfiguruj Tag"
+    "VIEW_CONFIGURATION": "Skonfiguruj Tag",
+    "ADD_PROPERTY": "Dodaj Właściwość",
+    "NEW_PROPERTY": "Nowa Właściwość"
   }
 }

@@ -388,7 +388,10 @@
       "TOGGLE_LABEL": "Controlar qué notificaciones quieres recibir directamente en tu dispositivo",
       "TOGGLE_TITLE": "Notificarme cuando:",
       "ENABLE_COMMUNITY_LABEL": "Recibe notificaciones instantáneas cuando alguien interactúe con tu contenido compartido.",
-      "ENABLE_COMMUNITY_TITLE": "Notificaciones de las Flashcards Compartidas"
+      "ENABLE_COMMUNITY_TITLE": "Notificaciones de las Flashcards Compartidas",
+      "ENABLE_STREAK_DESCRIPTION": "Recibe recordatorios diarios a las 6 p. m. sobre tu racha de tarjetas de estudio",
+      "ENABLE_STREAK_TITLE": "Notificaciones Móviles de Rachas",
+      "PUSH_ENABLE_MESSAGE": "Las notificaciones push no están configuradas en este dispositivo. ¡Haz clic aquí para configurarlas!"
     },
     "SIDEBAR": {
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
@@ -557,7 +560,8 @@
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Seleccionar archivos",
       "SELECT_FILES_TO_UPLOAD": "Seleccionar archivos para subir",
-      "UPLOADING": "Subiendo..."
+      "UPLOADING": "Subiendo...",
+      "IMPORT_INSTEAD": "RemNote no puede aceptar archivos de este tipo. Sin embargo, ¡podríamos importar las notas o tarjetas de estudio contenidas en este archivo! Intenta seleccionar \"Importar\" desde el menú de la cuenta en la esquina superior izquierda."
     },
     "WIKIMEDIA_COMMONS": {
       "EMPTY": "¡Suelta aquí archivos PDF, Word, PPT y <moreLink>más</moreLink>!",
