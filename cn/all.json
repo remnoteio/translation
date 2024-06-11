@@ -57,18 +57,18 @@
       "ADVANCED": {
         "KEYWORDS": "支持 重置搜索 修复错误"
       },
-      "ADVANCED_KEYWORDS": "支持 重装 搜索 修复错误",
       "AUTHENTICATION": {
         "KEYWORDS": "注销 注销 Google 登录方法 添加 断开连接 登录 注册"
       },
-      "AUTHENTICATION_KEYWORDS": "退出 退出Google登录 添加 断开连接 登录 注册",
       "EXPORT_IMPORT": {
         "KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian"
       },
-      "EXPORT_IMPORT_KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian",
       "NAVIGATION": {
         "KEYWORDS": "导出和备份 垃圾箱 查看已删除的Rem 导入知识库 查看所有记忆卡片 下载每日备份 高级设置 删除所有Rem"
       },
+      "ADVANCED_KEYWORDS": "支持 重装 搜索 修复错误",
+      "AUTHENTICATION_KEYWORDS": "退出 退出Google登录 添加 断开连接 登录 注册",
+      "EXPORT_IMPORT_KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian",
       "NAVIGATION_KEYWORDS": "导出备份 回收站 查看已删除Rem 导入知识库 查看全部卡片 下载每日备份 高级设置 删除全部Rem",
       "PROFILE_KEYWORDS": "个人用户资料"
     },
@@ -384,10 +384,6 @@
       "TOGGLE_TITLE": "通知管理"
     },
     "SIDEBAR": {
-      "COMMUNITY_TAB": {
-        "LABEL": "在侧边栏上显示社区，您可以在社区中找到公共文档和学习小组。如果禁用此功能，您仍然可以通过账户导航找到它。",
-        "TITLE": "社区功能"
-      },
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "自定义侧边栏"
       },
@@ -399,6 +395,10 @@
       "SORT_SIDEBAR": {
         "KEYWORDS": "侧边栏按A-Z字母序排序",
         "TITLE": "侧边栏排序"
+      },
+      "COMMUNITY_TAB": {
+        "LABEL": "在侧边栏上显示社区，您可以在社区中找到公共文档和学习小组。如果禁用此功能，您仍然可以通过账户导航找到它。",
+        "TITLE": "社区功能"
       }
     }
   },
@@ -416,22 +416,6 @@
           }
         }
       }
-    }
-  },
-  "COMMUNITY_NOTIFICATIONS": {
-    "DOCUMENT_ADDED_TO_GROUP": {
-      "BODY": "被添加到"
-    },
-    "INVITE": {
-      "ACCEPT": "接受邀请",
-      "BODY": "已邀请您加入",
-      "REJECT": "拒绝"
-    },
-    "NEW_FOLLOWER": {
-      "BODY": "关注了您"
-    },
-    "NEW_LIKE": {
-      "BODY": "喜欢"
     }
   },
   "NOTIFICATIONS": {
@@ -589,8 +573,8 @@
       "FILTER": {
         "ADD_ADVANCED_FILTER": "添加高级筛选条件",
         "FILTER_TITLE": "筛选",
-        "NO_FILTER": "无筛选条件",
-        "NO_PROPERTIES_AVAILABLE": "无可用属性，请添加新属性"
+        "NO_PROPERTIES_AVAILABLE": "无可用属性，请添加新属性",
+        "NO_FILTER": "无筛选条件"
       },
       "SORT": {
         "SORT_TITLE": "排序"
@@ -662,12 +646,10 @@
   },
   "TEMPLATES": {
     "ADD_NEW_PROPERTY": "添加新属性",
-    "ADD_PROPERTY": "添加属性",
     "AUTO_APPLY": "自动应用",
     "AUTO_APPLY_HELP_TEXT": "此模板将自动应用到表格的所有行中，或用此模板的标记的所有 Rem 中。",
     "CREATE_TEMPLATE": "创建模板",
     "HIDE_CONFIGURATION": "隐藏配置",
-    "NEW_PROPERTY": "新属性",
     "NEW_TEMPLATE": "新模板",
     "PROPERTIES_HELP_TEXT": {
       "0": "属性用于描述标签。例如，在名为\"图书\"的标签中，可以添加作者、流派、阅读进度等属性！"
@@ -683,6 +665,24 @@
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} 模板",
     "TEMPLATES_HELP_TEXT": "标签模板是 RemNote 文档，可以自动复制其内容到使用该标签的 Rem 中。可以在模板中直接添加标题、清单等内容。",
     "TURN_OFF_AUTO_APPLY": "关闭自动应用",
-    "VIEW_CONFIGURATION": "设置标签"
+    "VIEW_CONFIGURATION": "设置标签",
+    "ADD_PROPERTY": "添加属性",
+    "NEW_PROPERTY": "新属性"
+  },
+  "COMMUNITY_NOTIFICATIONS": {
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "被添加到"
+    },
+    "INVITE": {
+      "ACCEPT": "接受邀请",
+      "BODY": "已邀请您加入",
+      "REJECT": "拒绝"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "关注了您"
+    },
+    "NEW_LIKE": {
+      "BODY": "喜欢"
+    }
   }
 }

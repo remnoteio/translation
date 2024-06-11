@@ -68,20 +68,15 @@
       "ADVANCED": {
         "KEYWORDS": "サポート 再接続 検索 修正 バグ"
       },
-      "ADVANCED_KEYWORDS": "サポート 再インストール 検索 バグの修正",
       "AUTHENTICATION": {
         "KEYWORDS": "ログアウト ログ アウト Google ログイン 方法 追加 切断 サイン イン サイン アップ"
       },
-      "AUTHENTICATION_KEYWORDS": "ログアウト Googleからログアウト サインイン 接続解除を追加 サインイン 登録",
       "EXPORT_IMPORT": {
         "KEYWORDS": "エクスポート バックアップ エクスポート Roam Dynalist Logseq Notion Evernote Obsidian"
       },
-      "EXPORT_IMPORT_KEYWORDS": "エクスポート バックアップ エクスポート Roam Dynalist Logseq Notion Evernote Obsidian",
       "NAVIGATION": {
         "KEYWORDS": "エクスポート と バックアップ ゴミ箱 ビュー 削除済み Rem インポート ナレッジ ベース ビュー 全て カード ダウンロード 1つの デイリー バックアップ アドバンス 設定 削除 全て Rem"
       },
-      "NAVIGATION_KEYWORDS": "エクスポート バックアップ ごみ箱 削除したレムを見る インポート ナレッジベース すべてのカードを見る ダウンロード 毎日のバックアップ 詳細設定 すべてのレムを削除する",
-      "PROFILE_KEYWORDS": "ユーザー個人情報",
       "CACHING": {
         "DESCRIPTION": "画像が読み込まれたときにキャッシュするため、オフラインで見ることができます。",
         "NUMBER_DESCRIPTION": "キャッシュする画像の最大数を設定します。上限に達すると、最も古い画像がキャッシュからクリアされます。",
@@ -89,7 +84,12 @@
         "TITLE": "キャッシュ",
         "TOGGLE_DESCRIPTION": "無効にすると、キャッシュされた画像はすべて消去されます。",
         "TOGGLE_TITLE": "キャッシュを有効にする"
-      }
+      },
+      "ADVANCED_KEYWORDS": "サポート 再インストール 検索 バグの修正",
+      "AUTHENTICATION_KEYWORDS": "ログアウト Googleからログアウト サインイン 接続解除を追加 サインイン 登録",
+      "EXPORT_IMPORT_KEYWORDS": "エクスポート バックアップ エクスポート Roam Dynalist Logseq Notion Evernote Obsidian",
+      "NAVIGATION_KEYWORDS": "エクスポート バックアップ ごみ箱 削除したレムを見る インポート ナレッジベース すべてのカードを見る ダウンロード 毎日のバックアップ 詳細設定 すべてのレムを削除する",
+      "PROFILE_KEYWORDS": "ユーザー個人情報"
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "クレジットを適用する",
@@ -248,6 +248,10 @@
         "TEXT_TO_SPEECH_VOICE": {
           "DESCRIPTION": "音声合成に使用する音声。一部の音声は特定の言語でのみ動作することに注意してください。",
           "TITLE": "音声合成ボイス"
+        },
+        "TEXT_TO_SPEECH_SPEED": {
+          "DESCRIPTION": "フラッシュカードのテキストが読み上げられる速度。",
+          "TITLE": "テキスト読み上げ速度"
         }
       },
       "ORDERING": {
@@ -416,10 +420,6 @@
       "PUSH_ENABLE_MESSAGE": "このデバイスではプッシュ通知が設定されていません。設定するにはここをクリックしてください！"
     },
     "SIDEBAR": {
-      "COMMUNITY_TAB": {
-        "LABEL": "サイドバーの「コミュニティ」タブを表示すると、公開文書や学習グループが表示されます。これを無効にしても、アカウントからアクセスできます。",
-        "TITLE": "コミュニティ"
-      },
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "サイドバーセクションのカスタマイズ"
       },
@@ -431,6 +431,10 @@
       "SORT_SIDEBAR": {
         "KEYWORDS": "サイドバーを整理する A-Zソート",
         "TITLE": "サイドバーの並べ替え"
+      },
+      "COMMUNITY_TAB": {
+        "LABEL": "サイドバーの「コミュニティ」タブを表示すると、公開文書や学習グループが表示されます。これを無効にしても、アカウントからアクセスできます。",
+        "TITLE": "コミュニティ"
       }
     }
   },
@@ -448,22 +452,6 @@
           }
         }
       }
-    }
-  },
-  "COMMUNITY_NOTIFICATIONS": {
-    "DOCUMENT_ADDED_TO_GROUP": {
-      "BODY": "がグループにドキュメントを追加しました。"
-    },
-    "INVITE": {
-      "ACCEPT": "招待を受ける",
-      "BODY": "ぜひご参加ください。",
-      "REJECT": "拒否する"
-    },
-    "NEW_FOLLOWER": {
-      "BODY": "があなたをフォローしました。"
-    },
-    "NEW_LIKE": {
-      "BODY": "がいいねしました。"
     }
   },
   "NOTIFICATIONS": {
@@ -602,7 +590,8 @@
       "PDF_WITH_COUNT_other": "{{count, number}} PDF",
       "SELECT_FILES": "ファイルの選択",
       "SELECT_FILES_TO_UPLOAD": "アップロードするファイルを選択してください",
-      "UPLOADING": "アップロード中..."
+      "UPLOADING": "アップロード中...",
+      "IMPORT_INSTEAD": "RemNoteではこのようなファイルのアップロードは受け付けていません。しかし、このファイルのノートやフラッシュカードをインポートできるかもしれません。左上のアカウントメニューから「インポート」を選択してみてください。"
     },
     "WIKIMEDIA_COMMONS": {
       "EMPTY": "PDF、Word ドキュメント、PowerPoint、<moreLink>その他</moreLink>ファイルををここにドロップしてください。",
@@ -621,8 +610,8 @@
       "FILTER": {
         "ADD_ADVANCED_FILTER": "高度なフィルターを追加",
         "FILTER_TITLE": "フィルター",
-        "NO_FILTER": "条件なし",
-        "NO_PROPERTIES_AVAILABLE": "利用可能なプロパティはありません。新しいものを追加してください！"
+        "NO_PROPERTIES_AVAILABLE": "利用可能なプロパティはありません。新しいものを追加してください！",
+        "NO_FILTER": "条件なし"
       },
       "SORT": {
         "SORT_TITLE": "ソート"
@@ -694,12 +683,10 @@
   },
   "TEMPLATES": {
     "ADD_NEW_PROPERTY": "新しいプロパティの追加",
-    "ADD_PROPERTY": "プロパティの追加",
     "AUTO_APPLY": "自動適用",
     "AUTO_APPLY_HELP_TEXT": "このテンプレートは、テーブル内のすべての行、またはテンプレートでタグ付けされたすべてのRemに自動的に適用されます。",
     "CREATE_TEMPLATE": "テンプレートの作成",
     "HIDE_CONFIGURATION": "設定を非表示にする",
-    "NEW_PROPERTY": "新しいプロパティ",
     "NEW_TEMPLATE": "新しいテンプレート",
     "PROPERTIES_HELP_TEXT": {
       "0": "プロパティはタグを説明するものです。例えば、「本」というタグには、著者、ジャンル、読書状況などのプロパティを追加してください！"
@@ -715,7 +702,9 @@
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} テンプレート",
     "TEMPLATES_HELP_TEXT": "タグのテンプレートは、タグ付けされたRemに自動的にコピーされるRemNoteドキュメントです。テンプレート内にヘッダーやチェックリストなどを追加できます。",
     "TURN_OFF_AUTO_APPLY": "自動適用をオフにする",
-    "VIEW_CONFIGURATION": "タグの設定"
+    "VIEW_CONFIGURATION": "タグの設定",
+    "ADD_PROPERTY": "プロパティの追加",
+    "NEW_PROPERTY": "新しいプロパティ"
   },
   "DOCUMENT": {
     "DIALOGS": {
@@ -774,6 +763,7 @@
     "ADD_ANNOTATIONS": {
       "AI_DROPDOWN": {
         "BASIC_CARDS": "ベーシック・カード",
+        "BASIC_CARDS_TOOLTIP": "選択したテキストから基本的な質問と回答のフラッシュカードを作成します。",
         "CLOZE_CARDS": "穴埋めカード",
         "CLOZE_CARDS_TOOLTIP": "選択したテキストから穴埋めフラッシュカードを作成します。",
         "CONCEPT_CARDS": "コンセプトカード",
@@ -789,6 +779,7 @@
       "NOTE_BTN_TOOLTIP": "ノート"
     },
     "EDIT_ANNOTATIONS": {
+      "ADVANCED_LINKING_OPTIONS": "高度なリンクオプション",
       "DELETE_WARNING": "このハイライトはnotesCount, number notesWordを持っています。本当に削除しますか？",
       "TURN_INTO_CONCEPT": "コンセプトに変更",
       "VIEW_REFERENCES": "参考文献を見る"
@@ -828,6 +819,22 @@
     "SEARCH_CTRL_F": {
       "DONE": "完了",
       "INPUT_PLACEHOLDER": "検索"
+    }
+  },
+  "COMMUNITY_NOTIFICATIONS": {
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "がグループにドキュメントを追加しました。"
+    },
+    "INVITE": {
+      "ACCEPT": "招待を受ける",
+      "BODY": "ぜひご参加ください。",
+      "REJECT": "拒否する"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "があなたをフォローしました。"
+    },
+    "NEW_LIKE": {
+      "BODY": "がいいねしました。"
     }
   }
 }
