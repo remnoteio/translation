@@ -16,6 +16,126 @@
     "LANGUAGE_WORD": "Ngôn ngữ",
     "TRANSLATION_INFO_SETTINGS": "Bản dịch vẫn đang được tiến hành; bạn sẽ thấy sự kết hợp giữa tiếng Anh và ngôn ngữ đã chọn.<br> Bạn có thể giúp chúng tôi dịch bằng cách đọc <guideLink>hướng dẫn</guideLink>, sau đó sử dụng <editorLink>trình biên tập web</editorLink> của chúng tôi."
   },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "ADVANCED_TITLE": "Cài đặt nâng cao",
+      "AUTHENTICATION_TITLE": "Xác thực",
+      "DANGER_ZONE": {
+        "KEYWORDS": "đồng bộ hóa nhật ký xóa tài khoản thiết lập lại tiến trình hướng dẫn thiết lập lại cài đặt tài khoản nâng cao",
+        "TITLE": "Khu vực nguy hiểm"
+      },
+      "DANGER_ZONE_TITLE": "Khu vực nguy hiểm",
+      "IMPORT_EXPORT_TITLE": "Nhập và xuất",
+      "MY_PROFILE": "Thông tin của tôi",
+      "NAVIGATION_TITLE": "Điều hướng",
+      "NOTIFICATIONS": {
+        "DESCRIPTION": "Gửi lời nhắc trên thiết bị di động về chuỗi flashcard hàng ngày của bạn. Lời nhắc sẽ đến vào lúc 6 giờ tối mỗi ngày, theo múi giờ địa phương của bạn.",
+        "TITLE": "Thông báo chuỗi trên di động"
+      },
+      "PRIVACY": {
+        "KEYWORDS": "sự riêng tư",
+        "TITLE": "Sự riêng tư"
+      },
+      "PRIVACY_NOTE": "Quyền riêng tư: Đọc <policyLink>Chính sách bảo mật</policyLink> của chúng tôi hoặc thay đổi cài đặt của bạn trong <hubLink>Trung tâm quyền riêng tư</hubLink>.",
+      "PROFILE": {
+        "KEYWORDS": "Hồ sơ người dùng cá nhân"
+      },
+      "PROFILE_TITLE": "Hồ sơ",
+      "SUPPORT": {
+        "TITLE": "Ủng hộ"
+      },
+      "SYNCING": {
+        "KEYWORDS": "Buộc đồng bộ hình ảnh và tệp PDF",
+        "TITLE": "Đang đồng bộ hóa"
+      },
+      "VERSION": {
+        "KEYWORDS": "phiên bản",
+        "TITLE": "Phiên bản Ứng dụng"
+      },
+      "ADVANCED": {
+        "KEYWORDS": "Hỗ trợ Rewire Tìm kiếm Sửa lỗi"
+      },
+      "AUTHENTICATION": {
+        "KEYWORDS": "Đăng xuất Đăng xuất Phương thức đăng nhập Google Thêm Ngắt kết nối Đăng nhập Đăng ký"
+      },
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Xuất bản Sao lưu Xuất Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "NAVIGATION": {
+        "KEYWORDS": "Xuất và Sao lưu Thùng rác Xem Đã xóa Rem Nhập cơ sở kiến thức Xem tất cả thẻ  Tải xuống bản sao lưu hàng ngày Cài đặt nâng cao Xóa tất cả Rem"
+      }
+    },
+    "EARN_CREDIT": {
+      "COPIED": "Đã sao chép!",
+      "FRIENDS_TITLE": "Bạn bè",
+      "INVITE": "Mời",
+      "SHARE_LINK": "Chia sẻ liên kết mời"
+    },
+    "EDITOR": {
+      "GENERAL": {
+        "ENABLE_SPELLCHECK": {
+          "TITLE": "Bật Kiểm Tra Chính Tả"
+        }
+      }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "DESCRIPTION": "Giới hạn số lượng thẻ ghi chú RemNote sẽ yêu cầu bạn luyện tập để đạt được mục tiêu hàng ngày ở giá trị này.",
+          "TITLE": "Mục tiêu hàng ngày tối đa"
+        },
+        "TODAYS_TARGET": "Mục tiêu hôm nay:",
+        "TODAYS_TARGET_EXPLANATION": "RemNote cố gắng đặt mục tiêu hàng ngày của bạn để nếu bạn đạt được mục tiêu hàng ngày, bạn sẽ hoàn thành tất cả các thẻ cần xem xét trong 7 ngày tiếp theo. Tuy nhiên, mục tiêu hàng ngày sẽ không bao giờ vượt quá mức tối đa đã đặt ra ở trên."
+      },
+      "GENERAL": {
+        "AUTOPLAY_MEDIA": {
+          "DESCRIPTION": "Khi hiển thị flashcard, hãy tự động phát bất kỳ âm thanh hoặc video nào trên nó.",
+          "TITLE": "Phương tiện tự động phát"
+        },
+        "LEECH_THRESHOLD": {
+          "TITLE": "Ngưỡng đỉa"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "DESCRIPTION": "Đưa tối đa số thẻ flashcard mới được tạo này vào danh sách thẻ flashcard của bạn mỗi ngày. Bằng cách này, các thẻ mới sẽ vào hàng đợi của bạn với tốc độ ổn định hàng ngày, thay vì theo đợt khổng lồ.",
+          "TITLE": "Thẻ mới tối đa mỗi ngày"
+        },
+        "RESET_ALL": {
+          "CONFIRM_MESSAGE": "Bạn có chắc chắn muốn đặt lại tất cả cài đặt flashcard về giá trị mặc định của chúng không?",
+          "DESCRIPTION": "Đặt lại tất cả cài đặt flashcard về giá trị mặc định của chúng.",
+          "TITLE": "Đặt lại tất cả cài đặt Flashcard"
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "DESCRIPTION": "Chỉ hiển thị các nút phản hồi “Quên” và “Nhớ lại một cách nỗ lực” khi học thẻ ghi chú, thay vì hiển thị cả năm tùy chọn.",
+          "TITLE": "Nút Flashcard đơn giản hóa"
+        },
+        "STALE_CARDS_PER_DAY": {
+          "TITLE": "Thẻ cũ tối đa mỗi ngày"
+        },
+        "TYPE_ANSWER": {
+          "DESCRIPTION": "Hiển thị một hộp văn bản ở mặt trước của mỗi thẻ ghi nhớ và so sánh những gì bạn nhập với câu trả lời ở mặt sau của thẻ.",
+          "TITLE": "Viết câu trả lời"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "TITLE": "Ngày Tiếp Theo Bắt Đầu Lúc"
+        }
+      }
+    },
+    "GLOBAL_INTERFACE": {
+      "DARK_MODE": {
+        "TITLE": "Chế độ Tối"
+      }
+    },
+    "KEYBOARD_SHORTCUTS": {
+      "ENTER_TO_OUTDENT": {
+        "TITLE": "Nhấn Enter để thụt lùi"
+      },
+      "SPLIT_WITH_ALT_ENTER": {
+        "TITLE": {
+          "PC": "Tách bằng Alt+Enter"
+        }
+      }
+    }
+  },
   "NOTIFICATIONS": {
     "ARTICLE_DEFAULT": "Tài liệu của bạn",
     "ARTICLE_VIEWS": {
@@ -99,126 +219,6 @@
         "FEATURE_NAME": "Đánh Dấu PDF",
         "PAYWALL": "Bạn đã đạt đến giới hạn số PDF được tải lên.",
         "TITLE": "Tải Lên và Tệp Chú Thích "
-      }
-    }
-  },
-  "SETTINGS": {
-    "ACCOUNT": {
-      "ADVANCED": {
-        "KEYWORDS": "Hỗ trợ Rewire Tìm kiếm Sửa lỗi"
-      },
-      "ADVANCED_TITLE": "Cài đặt nâng cao",
-      "AUTHENTICATION": {
-        "KEYWORDS": "Đăng xuất Đăng xuất Phương thức đăng nhập Google Thêm Ngắt kết nối Đăng nhập Đăng ký"
-      },
-      "AUTHENTICATION_TITLE": "Xác thực",
-      "DANGER_ZONE": {
-        "KEYWORDS": "đồng bộ hóa nhật ký xóa tài khoản thiết lập lại tiến trình hướng dẫn thiết lập lại cài đặt tài khoản nâng cao",
-        "TITLE": "Khu vực nguy hiểm"
-      },
-      "DANGER_ZONE_TITLE": "Khu vực nguy hiểm",
-      "EXPORT_IMPORT": {
-        "KEYWORDS": "Xuất bản Sao lưu Xuất Roam Dynalist Logseq Notion Evernote Obsidian"
-      },
-      "IMPORT_EXPORT_TITLE": "Nhập và xuất",
-      "MY_PROFILE": "Thông tin của tôi",
-      "NAVIGATION": {
-        "KEYWORDS": "Xuất và Sao lưu Thùng rác Xem Đã xóa Rem Nhập cơ sở kiến thức Xem tất cả thẻ  Tải xuống bản sao lưu hàng ngày Cài đặt nâng cao Xóa tất cả Rem"
-      },
-      "NAVIGATION_TITLE": "Điều hướng",
-      "NOTIFICATIONS": {
-        "DESCRIPTION": "Gửi lời nhắc trên thiết bị di động về chuỗi flashcard hàng ngày của bạn. Lời nhắc sẽ đến vào lúc 6 giờ tối mỗi ngày, theo múi giờ địa phương của bạn.",
-        "TITLE": "Thông báo chuỗi trên di động"
-      },
-      "PRIVACY": {
-        "KEYWORDS": "sự riêng tư",
-        "TITLE": "Sự riêng tư"
-      },
-      "PRIVACY_NOTE": "Quyền riêng tư: Đọc <policyLink>Chính sách bảo mật</policyLink> của chúng tôi hoặc thay đổi cài đặt của bạn trong <hubLink>Trung tâm quyền riêng tư</hubLink>.",
-      "PROFILE": {
-        "KEYWORDS": "Hồ sơ người dùng cá nhân"
-      },
-      "PROFILE_TITLE": "Hồ sơ",
-      "SUPPORT": {
-        "TITLE": "Ủng hộ"
-      },
-      "SYNCING": {
-        "KEYWORDS": "Buộc đồng bộ hình ảnh và tệp PDF",
-        "TITLE": "Đang đồng bộ hóa"
-      },
-      "VERSION": {
-        "KEYWORDS": "phiên bản",
-        "TITLE": "Phiên bản Ứng dụng"
-      }
-    },
-    "EARN_CREDIT": {
-      "COPIED": "Đã sao chép!",
-      "FRIENDS_TITLE": "Bạn bè",
-      "INVITE": "Mời",
-      "SHARE_LINK": "Chia sẻ liên kết mời"
-    },
-    "EDITOR": {
-      "GENERAL": {
-        "ENABLE_SPELLCHECK": {
-          "TITLE": "Bật Kiểm Tra Chính Tả"
-        }
-      }
-    },
-    "FLASHCARDS": {
-      "DAILY_TARGET": {
-        "MAXIMUM_DAILY_TARGET": {
-          "DESCRIPTION": "Giới hạn số lượng thẻ ghi chú RemNote sẽ yêu cầu bạn luyện tập để đạt được mục tiêu hàng ngày ở giá trị này.",
-          "TITLE": "Mục tiêu hàng ngày tối đa"
-        },
-        "TODAYS_TARGET": "Mục tiêu hôm nay:",
-        "TODAYS_TARGET_EXPLANATION": "RemNote cố gắng đặt mục tiêu hàng ngày của bạn để nếu bạn đạt được mục tiêu hàng ngày, bạn sẽ hoàn thành tất cả các thẻ cần xem xét trong 7 ngày tiếp theo. Tuy nhiên, mục tiêu hàng ngày sẽ không bao giờ vượt quá mức tối đa đã đặt ra ở trên."
-      },
-      "GENERAL": {
-        "AUTOPLAY_MEDIA": {
-          "DESCRIPTION": "Khi hiển thị flashcard, hãy tự động phát bất kỳ âm thanh hoặc video nào trên nó.",
-          "TITLE": "Phương tiện tự động phát"
-        },
-        "LEECH_THRESHOLD": {
-          "TITLE": "Ngưỡng đỉa"
-        },
-        "NEW_CARDS_PER_DAY": {
-          "DESCRIPTION": "Đưa tối đa số thẻ flashcard mới được tạo này vào danh sách thẻ flashcard của bạn mỗi ngày. Bằng cách này, các thẻ mới sẽ vào hàng đợi của bạn với tốc độ ổn định hàng ngày, thay vì theo đợt khổng lồ.",
-          "TITLE": "Thẻ mới tối đa mỗi ngày"
-        },
-        "NEXT_DAY_STARTS_AT": {
-          "TITLE": "Ngày Tiếp Theo Bắt Đầu Lúc"
-        },
-        "RESET_ALL": {
-          "CONFIRM_MESSAGE": "Bạn có chắc chắn muốn đặt lại tất cả cài đặt flashcard về giá trị mặc định của chúng không?",
-          "DESCRIPTION": "Đặt lại tất cả cài đặt flashcard về giá trị mặc định của chúng.",
-          "TITLE": "Đặt lại tất cả cài đặt Flashcard"
-        },
-        "SIMPLIFIED_FLASHCARD_BUTTONS": {
-          "DESCRIPTION": "Chỉ hiển thị các nút phản hồi “Quên” và “Nhớ lại một cách nỗ lực” khi học thẻ ghi chú, thay vì hiển thị cả năm tùy chọn.",
-          "TITLE": "Nút Flashcard đơn giản hóa"
-        },
-        "STALE_CARDS_PER_DAY": {
-          "TITLE": "Thẻ cũ tối đa mỗi ngày"
-        },
-        "TYPE_ANSWER": {
-          "DESCRIPTION": "Hiển thị một hộp văn bản ở mặt trước của mỗi thẻ ghi nhớ và so sánh những gì bạn nhập với câu trả lời ở mặt sau của thẻ.",
-          "TITLE": "Viết câu trả lời"
-        }
-      }
-    },
-    "GLOBAL_INTERFACE": {
-      "DARK_MODE": {
-        "TITLE": "Chế độ Tối"
-      }
-    },
-    "KEYBOARD_SHORTCUTS": {
-      "ENTER_TO_OUTDENT": {
-        "TITLE": "Nhấn Enter để thụt lùi"
-      },
-      "SPLIT_WITH_ALT_ENTER": {
-        "TITLE": {
-          "PC": "Tách bằng Alt+Enter"
-        }
       }
     }
   },

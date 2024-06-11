@@ -12,130 +12,22 @@
       "VIEW": "Ansicht"
     }
   },
-  "COMMUNITY": {
-    "ARTICLES": {
-      "ERRORS": {
-        "SHARING": {
-          "NO_CONTENT": {
-            "SRC": "Das Dokument, das Sie teilen möchten, sieht etwas leer aus. Bitte fügen Sie mindestens {{minimum}} Rems hinzu und versuchen Sie es dann erneut.",
-            "SUBDOCUMENT": "Eines Ihrer Unterdokumente sehen etwas leer aus. Es wird erst veröffentlicht, wenn es {{minimum}} Rems hat."
-          },
-          "NO_TITLE": {
-            "SRC": "Das Dokument, das Sie teilen möchten, hat keinen Titel. Sie müssen einhinzufügen, bevor Sie es veröffentlichen.",
-            "SUBDOCUMENT": "Eines Ihrer Unterdokumente hat keinen Titel. Es wird erst veröffentlicht, wenn es eines hat."
-          }
-        }
-      }
-    }
-  },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Sprache",
-    "TRANSLATION_IN_PROGRESS": "Die Übersetzungen sind noch nicht vollständig. Du kannst uns <0>auf Inlang</0> dabei helfen.",
-    "TRANSLATION_INFO_SETTINGS": "Die Übersetzung ist noch in Arbeit; Sie sehen eine Mischung aus Englisch und der ausgewählten Sprache.<br> Sie können uns beim Übersetzen helfen, indem Sie die <guideLink>Anleitung</guideLink> lesen und dann unserem<editorLink>Web-Editor</editorLink> nutzen."
-  },
-  "NOTIFICATIONS": {
-    "ARTICLE_DEFAULT": "Ihr Dokument",
-    "ARTICLE_VIEWS": {
-      "BODY_1": "Ihr Dokument",
-      "BODY_2": "hat {{viewCount, number}} Aufrufe erhalten"
-    },
-    "DOCUMENT_ADDED_TO_GROUP": {
-      "BODY": "wurde hinzugefügt zu"
-    },
-    "EMPTY_STATE_MESSAGE": "Sie sind auf den neusten Stand! Sie erhalten Benachrichtigungen, wenn jemand mit den auf Ihrem freigegebenen Inhalten auf ihren <profileLink>Profil</profileLink> interagiert .",
-    "EMPTY_STATE_TITLE": "Sie haben keine aktuellen Benachrichtigungen",
-    "GROUP_DEFAULT": "Deine Gruppe",
-    "IMPORT": {
-      "BODY": "Jemand hat Ihr Dokument importiert"
-    },
-    "INVITE": {
-      "ACCEPT": "Einladung annehmen",
-      "BODY": "hat Sie zur Teilnahme eingeladen",
-      "REJECT": "Ablehnen"
-    },
-    "NEW_COMMENT": {
-      "BODY": "kommentiert",
-      "BODY_ARTICLE": "hat auf Ihr Dokument kommentiert",
-      "BODY_COMMENT": "hat auf deinen Kommentar geantwortet"
-    },
-    "NEW_FOLLOWER": {
-      "BODY": "gefolgt"
-    },
-    "POPUP_TITLE": "Aktuelle Benachrichtigungen"
-  },
-  "PAGES": {
-    "ALL_NOTES": {
-      "SORT": {
-        "ASCENDING": "A -> Z",
-        "BY_CREATION_TIME": "Zum Erstellungszeitpunkt",
-        "BY_MODIFICATION": "Nach Ä",
-        "BY_TITLE": "Nach Titel",
-        "DESCENDING": "Z -> A",
-        "OLDEST_CREATION_FIRST": "Älteste erstellung zuerst",
-        "OLDEST_FIRST": "Ältesten zuerst",
-        "RECENTLY_CREATED": "Kürzlich erstellt",
-        "RECENTLY_MODIFIED": "Kürzlich geändert"
-      },
-      "TITLE": "Alle Notizen"
-    }
-  },
-  "POPUPS": {
-    "CREATE_CONTENT_OPTIONS": {
-      "DOCUMENT": {
-        "DESCRIPTION": "Organisieren Sie Notizen zu Lehrveranstaltungen, Quellen oder Ideen in Dokumenten.",
-        "TITLE": "Dokument"
-      },
-      "FOLDER": {
-        "DESCRIPTION": "Organisieren Sie Dokumente in Ordnern.",
-        "TITLE": "Ordner"
-      },
-      "QUICK_ADD": {
-        "DESCRIPTION": "Erfassen Sie Ihre Ideen im Handumdrehen!",
-        "TITLE": "Schnelles hinzufügen"
-      },
-      "TABLE_TAG": {
-        "DESCRIPTION": "Erstellen Sie ein Etikett zur Verwendung mit Tabellen und Vorlagen.",
-        "TITLE": "Etikett & Tabelle"
-      },
-      "TODAYS_DOCUMENT": {
-        "DESCRIPTION": "Tägliche Dokumente eignen sich perfekt für Tagebuchführung, To-Do-Listen und mehr.",
-        "TITLE": "Das heutige Dokument"
-      },
-      "UPLOAD_FILE": {
-        "DESCRIPTION": "Markieren und referenzieren Sie ein PDF-, PowerPoint-, Word-Dokument oder eine andere Datei.",
-        "FEATURE_NAME": "PDF-Hervorhebung",
-        "PAYWALL": "Sie haben Ihr Limit für PDF-Uploads erreicht.",
-        "TITLE": "Datei hochladen und mit Anmerkungen versehen",
-        "todo_for_the_item_below": "Dies in ein globales Feature-Name-Objekt verschieben?"
-      }
-    }
-  },
-  "POWERUPS": {
-    "POWERUP_one": "Einschalten"
+    "TRANSLATION_INFO_SETTINGS": "Die Übersetzung ist noch in Arbeit; Sie sehen eine Mischung aus Englisch und der ausgewählten Sprache.<br> Sie können uns beim Übersetzen helfen, indem Sie die <guideLink>Anleitung</guideLink> lesen und dann unserem<editorLink>Web-Editor</editorLink> nutzen.",
+    "TRANSLATION_IN_PROGRESS": "Die Übersetzungen sind noch nicht vollständig. Du kannst uns <0>auf Inlang</0> dabei helfen."
   },
   "SETTINGS": {
     "ACCOUNT": {
-      "ADVANCED": {
-        "KEYWORDS": "Unterstützung neu verdrahten Suche Fehlerbeheben"
-      },
       "ADVANCED_TITLE": "Erweiterte Einstellungen",
-      "AUTHENTICATION": {
-        "KEYWORDS": "Abmelden Abmelden Google-Anmeldemethode Hinzufügen Trennen Anmelden Registrieren"
-      },
       "AUTHENTICATION_TITLE": "Authentifizierung",
       "DANGER_ZONE": {
         "KEYWORDS": "Protokoll synchronisieren, Konto löschen, Rundgang zurücksetzen, Fortschritt zurücksetzen, Einarbeitung, erweiterte Kontoeinstellungen",
         "TITLE": "Gefahrenzone"
       },
       "DANGER_ZONE_TITLE": "Gefahrenzone",
-      "EXPORT_IMPORT": {
-        "KEYWORDS": "Exportiere Sicherung Exportiere Roam Dynalist Logseq Notion Evernote Obsidian"
-      },
       "IMPORT_EXPORT_TITLE": "Import und Export",
       "MY_PROFILE": "Mein Profil",
-      "NAVIGATION": {
-        "KEYWORDS": "Exportieren und Sichere Papierkorb Gelöschte Rem Wissensdatenbank importieren Alle Karten anzeigen  Tägliches Backup herunterladen Erweiterte Einstellungen  Alle Rem löschen"
-      },
       "NAVIGATION_TITLE": "Navigation",
       "NOTIFICATIONS": {
         "DESCRIPTION": "Senden Sie mobile Push-Erinnerungen über Ihre tägliche Lernkarten Erfolgsserie. Die Erinnerungen kommen jeden Tag um 18:00 Uhr in Ihrer lokalen Zeitzone.",
@@ -161,6 +53,18 @@
       "VERSION": {
         "KEYWORDS": "Version",
         "TITLE": "Anwendungsversion"
+      },
+      "ADVANCED": {
+        "KEYWORDS": "Unterstützung neu verdrahten Suche Fehlerbeheben"
+      },
+      "AUTHENTICATION": {
+        "KEYWORDS": "Abmelden Abmelden Google-Anmeldemethode Hinzufügen Trennen Anmelden Registrieren"
+      },
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Exportiere Sicherung Exportiere Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "NAVIGATION": {
+        "KEYWORDS": "Exportieren und Sichere Papierkorb Gelöschte Rem Wissensdatenbank importieren Alle Karten anzeigen  Tägliches Backup herunterladen Erweiterte Einstellungen  Alle Rem löschen"
       }
     },
     "EARN_CREDIT": {
@@ -184,11 +88,11 @@
       "KEYWORDS": "Freunde einladen und Guthaben verdienen Tarif Abonnement ändern",
       "NOT_CONFIRMED_EMAIL": "(hat die E-Mail nicht bestätigt)",
       "SHARE_LINK": "Einladungslink teilen",
-      "SUBSCRIBE_NOTICE": "<div><br />Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung ihres Kontos erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.</div>",
       "TITLE": "Guthaben verdienen",
       "TOAST_RENEW": "Ihr Guthaben wird automatisch angewendet, wenn Ihr aktuelles Abonnement verlängert wird.",
       "TOAST_SUBSCRIBE": "Ihr Guthaben wird automatisch angewendet, wenn Sie RemNote Pro abonnieren. Wählen Sie unten einen Plan aus, um loszulegen!",
-      "VERIFY_EMAIL": "Um jemanden einzuladen, bestätigen Sie zunächst Ihre E-Mail-Adresse."
+      "VERIFY_EMAIL": "Um jemanden einzuladen, bestätigen Sie zunächst Ihre E-Mail-Adresse.",
+      "SUBSCRIBE_NOTICE": "<div><br />Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung ihres Kontos erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.</div>"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -228,16 +132,16 @@
       }
     },
     "EDITOR_INTERFACE": {
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "TITLE": "Referenzen mit einem Klick zum Öffnen",
+        "LABEL": "Wenn Sie auf eine Referenz klicken oder tippen, gelangen Sie sofort zu ihrem Ziel, anstatt das Referenzmenü zu öffnen. (Sie können das Referenzmenü jederzeit durch einen Rechtsklick anzeigen.)"
+      },
       "ENABLE_ZOOM_INTO_BULLET": {
         "LABEL": "Wenn Sie auf den Aufzählungszeiger klicken, wird der Rest als ganze Seite angezeigt",
         "TITLE": "Aktivieren Sie „In Bullet hineinzoomen“."
       },
       "PREVIEW_REM_ON_HOVER": {
         "LABEL": "Wenn Sie mit der Maus über eine Referenz fahren, wird eine Vorschau ihres Inhalts angezeigt."
-      },
-      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
-        "LABEL": "Wenn Sie auf eine Referenz klicken oder tippen, gelangen Sie sofort zu ihrem Ziel, anstatt das Referenzmenü zu öffnen. (Sie können das Referenzmenü jederzeit durch einen Rechtsklick anzeigen.)",
-        "TITLE": "Referenzen mit einem Klick zum Öffnen"
       }
     },
     "FLASHCARDS": {
@@ -331,10 +235,6 @@
         "KEYWORDS": "sprache sprache übersetzung i18n",
         "TITLE": "RemNote Sprache der Benutzeroberfläche(Alpha)"
       },
-      "ONBOARDING_TIPS_FEATURES": {
-        "LABEL": "Zeigen Sie Tipps zu den RemNote-Funktionen, die Sie gerade verwenden, in der Ecke des Bildschirms an.",
-        "TITLE": "Onboarding-Tipps"
-      },
       "ONBOARDING_TIPS_SHORTCUTS": {
         "LABEL": "Zeigen Sie in der Ecke des Bildschirms Tipps zu Tastaturkürzeln an, die Sie gerade verwenden.",
         "TITLE": "Tipps zu Tastaturkürzeln"
@@ -342,6 +242,10 @@
       "SIMPLIFIED_UI": {
         "LABEL": "Vereinfachen Sie die Benutzeroberfläche und blenden Sie erweiterte Funktionen aus.",
         "TITLE": "Vereinfachte Benutzeroberfläche"
+      },
+      "ONBOARDING_TIPS_FEATURES": {
+        "LABEL": "Zeigen Sie Tipps zu den RemNote-Funktionen, die Sie gerade verwenden, in der Ecke des Bildschirms an.",
+        "TITLE": "Onboarding-Tipps"
       }
     },
     "KEYBOARD_SHORTCUTS": {
@@ -359,6 +263,10 @@
           "PC": "Mit Alt+Enter auteilen"
         }
       }
+    },
+    "PLANS": {
+      "KEYWORDS": "Freunde einladen Tarif Abonnement ändern Guthaben verdienen kostenlos remnote verschicke twitter Nachricht wähle einen Tarif Lebenslanges lernen pro Aufschlüsselung der Funktionen Preisoptionen",
+      "TITLE": "Tarife"
     },
     "NOTIFICATIONS": {
       "DESCRIPTIONS": {
@@ -395,10 +303,6 @@
       "TOGGLE_LABEL": "Steuern Sie, welche Benachrichtigungen Sie direkt auf Ihrem Gerät/Posteingang erhalten möchten",
       "TOGGLE_TITLE": "Benachrichtigungen filtern"
     },
-    "PLANS": {
-      "KEYWORDS": "Freunde einladen Tarif Abonnement ändern Guthaben verdienen kostenlos remnote verschicke twitter Nachricht wähle einen Tarif Lebenslanges lernen pro Aufschlüsselung der Funktionen Preisoptionen",
-      "TITLE": "Tarife"
-    },
     "SIDEBAR": {
       "COMMUNITY_TAB": {
         "LABEL": "Zeigen Sie in der Seitenleiste die Registerkarte „Community“ an, auf der Sie öffentliche Dokumente und Lerngruppen finden. Wenn Sie dies deaktivieren, können Sie weiterhin über die Kontokapsel darauf zugreifen.",
@@ -415,6 +319,102 @@
         "TITLE": "Seitenleiste sortieren"
       }
     }
+  },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_CONTENT": {
+            "SRC": "Das Dokument, das Sie teilen möchten, sieht etwas leer aus. Bitte fügen Sie mindestens {{minimum}} Rems hinzu und versuchen Sie es dann erneut.",
+            "SUBDOCUMENT": "Eines Ihrer Unterdokumente sehen etwas leer aus. Es wird erst veröffentlicht, wenn es {{minimum}} Rems hat."
+          },
+          "NO_TITLE": {
+            "SRC": "Das Dokument, das Sie teilen möchten, hat keinen Titel. Sie müssen einhinzufügen, bevor Sie es veröffentlichen.",
+            "SUBDOCUMENT": "Eines Ihrer Unterdokumente hat keinen Titel. Es wird erst veröffentlicht, wenn es eines hat."
+          }
+        }
+      }
+    }
+  },
+  "NOTIFICATIONS": {
+    "ARTICLE_DEFAULT": "Ihr Dokument",
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Ihr Dokument",
+      "BODY_2": "hat {{viewCount, number}} Aufrufe erhalten"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "wurde hinzugefügt zu"
+    },
+    "EMPTY_STATE_MESSAGE": "Sie sind auf den neusten Stand! Sie erhalten Benachrichtigungen, wenn jemand mit den auf Ihrem freigegebenen Inhalten auf ihren <profileLink>Profil</profileLink> interagiert .",
+    "EMPTY_STATE_TITLE": "Sie haben keine aktuellen Benachrichtigungen",
+    "GROUP_DEFAULT": "Deine Gruppe",
+    "IMPORT": {
+      "BODY": "Jemand hat Ihr Dokument importiert"
+    },
+    "INVITE": {
+      "ACCEPT": "Einladung annehmen",
+      "BODY": "hat Sie zur Teilnahme eingeladen",
+      "REJECT": "Ablehnen"
+    },
+    "NEW_COMMENT": {
+      "BODY": "kommentiert",
+      "BODY_ARTICLE": "hat auf Ihr Dokument kommentiert",
+      "BODY_COMMENT": "hat auf deinen Kommentar geantwortet"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "gefolgt"
+    },
+    "POPUP_TITLE": "Aktuelle Benachrichtigungen"
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "SORT": {
+        "ASCENDING": "A -> Z",
+        "BY_CREATION_TIME": "Zum Erstellungszeitpunkt",
+        "BY_MODIFICATION": "Nach Ä",
+        "BY_TITLE": "Nach Titel",
+        "DESCENDING": "Z -> A",
+        "OLDEST_CREATION_FIRST": "Älteste erstellung zuerst",
+        "OLDEST_FIRST": "Ältesten zuerst",
+        "RECENTLY_CREATED": "Kürzlich erstellt",
+        "RECENTLY_MODIFIED": "Kürzlich geändert"
+      },
+      "TITLE": "Alle Notizen"
+    }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "DESCRIPTION": "Organisieren Sie Notizen zu Lehrveranstaltungen, Quellen oder Ideen in Dokumenten.",
+        "TITLE": "Dokument"
+      },
+      "FOLDER": {
+        "DESCRIPTION": "Organisieren Sie Dokumente in Ordnern.",
+        "TITLE": "Ordner"
+      },
+      "QUICK_ADD": {
+        "DESCRIPTION": "Erfassen Sie Ihre Ideen im Handumdrehen!",
+        "TITLE": "Schnelles hinzufügen"
+      },
+      "TABLE_TAG": {
+        "DESCRIPTION": "Erstellen Sie ein Etikett zur Verwendung mit Tabellen und Vorlagen.",
+        "TITLE": "Etikett & Tabelle"
+      },
+      "TODAYS_DOCUMENT": {
+        "DESCRIPTION": "Tägliche Dokumente eignen sich perfekt für Tagebuchführung, To-Do-Listen und mehr.",
+        "TITLE": "Das heutige Dokument"
+      },
+      "UPLOAD_FILE": {
+        "DESCRIPTION": "Markieren und referenzieren Sie ein PDF-, PowerPoint-, Word-Dokument oder eine andere Datei.",
+        "FEATURE_NAME": "PDF-Hervorhebung",
+        "PAYWALL": "Sie haben Ihr Limit für PDF-Uploads erreicht.",
+        "TITLE": "Datei hochladen und mit Anmerkungen versehen",
+        "todo_for_the_item_below": "Dies in ein globales Feature-Name-Objekt verschieben?"
+      }
+    }
+  },
+  "POWERUPS": {
+    "POWERUP_one": "Einschalten"
   },
   "SIDEBAR": {
     "LABEL_ALL_NOTES": "Alle Notizen",
