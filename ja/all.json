@@ -2,7 +2,6 @@
   "COMMON": {
     "ACTIONS": {
       "APPLY": "適用",
-      "COPY": "コピー",
       "CREATE": "作成",
       "DELETE": "削除",
       "DUPLICATE": "複製",
@@ -10,7 +9,8 @@
       "HIDE": "非表示",
       "REMOVE": "削除",
       "UPDATE": "更新",
-      "VIEW": "ビュー"
+      "VIEW": "ビュー",
+      "COPY": "コピー"
     },
     "AI": {
       "AI_FLASHCARDS": "AIフラッシュカード"
@@ -22,6 +22,417 @@
       "NOTE_other": "ノート"
     },
     "NEW": "新"
+  },
+  "LANGUAGE": {
+    "LANGUAGE_WORD": "言語",
+    "TRANSLATION_INFO_SETTINGS": "翻訳はまだ進行中です。英語と選択した言語が混在して表示されます。<br><editorLink>ウェブエディター</editorLink>から翻訳にご協力ください。また、必ず<guideLink>チュートリアル</guideLink>を一読してください。",
+    "TRANSLATION_IN_PROGRESS": "RemNoteの翻訳はまだ進行中です。<editorLink>inlang</editorLink>で<bold>翻訳に貢献してください</bold>。 "
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "ADVANCED_TITLE": "詳細設定",
+      "AUTHENTICATION_TITLE": "認証",
+      "DANGER_ZONE": {
+        "KEYWORDS": "同期 ログ 削除 アカウント リセット ウォークスルー 進捗 リセット オンボーディング 詳細アカウント設定",
+        "TITLE": "危険 ゾーン"
+      },
+      "DANGER_ZONE_TITLE": "危険ゾーン",
+      "IMPORT_EXPORT_TITLE": "インポートとエクスポート",
+      "MY_PROFILE": "私のプロフィール",
+      "NAVIGATION_TITLE": "ナビゲーション",
+      "NOTIFICATIONS": {
+        "DESCRIPTION": "毎日のフラッシュカードの連続記録についてモバイルプッシュ通知を送信します。リマインダーは、毎日午後 6 時（日本時間）に届きます。",
+        "TITLE": "モバイルの連続記録の通知"
+      },
+      "PRIVACY": {
+        "KEYWORDS": "プライバシー",
+        "TITLE": "プライバシー"
+      },
+      "PRIVACY_NOTE": "プライバシー: <policyLink>プライバシーポリシー</policyLink>をお読みいただくか、<hubLink>プライバシーハブ</hubLink>で設定を変更してください。",
+      "PROFILE": {
+        "KEYWORDS": "個人ユーザーのプロフィール"
+      },
+      "PROFILE_TITLE": "プロフィール",
+      "SUPPORT": {
+        "KEYWORDS": "サポート チケット 実行 ヘルプ",
+        "TITLE": "サポート"
+      },
+      "SYNCING": {
+        "KEYWORDS": "画像とPDFを強制的に同期",
+        "TITLE": "同期しています"
+      },
+      "VERSION": {
+        "KEYWORDS": "バージョン",
+        "TITLE": "アプリケーションのバージョン"
+      },
+      "ADVANCED": {
+        "KEYWORDS": "サポート 再接続 検索 修正 バグ"
+      },
+      "ADVANCED_KEYWORDS": "サポート 再インストール 検索 バグの修正",
+      "AUTHENTICATION": {
+        "KEYWORDS": "ログアウト ログ アウト Google ログイン 方法 追加 切断 サイン イン サイン アップ"
+      },
+      "AUTHENTICATION_KEYWORDS": "ログアウト Googleからログアウト サインイン 接続解除を追加 サインイン 登録",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "エクスポート バックアップ エクスポート Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "EXPORT_IMPORT_KEYWORDS": "エクスポート バックアップ エクスポート Roam Dynalist Logseq Notion Evernote Obsidian",
+      "NAVIGATION": {
+        "KEYWORDS": "エクスポート と バックアップ ゴミ箱 ビュー 削除済み Rem インポート ナレッジ ベース ビュー 全て カード ダウンロード 1つの デイリー バックアップ アドバンス 設定 削除 全て Rem"
+      },
+      "NAVIGATION_KEYWORDS": "エクスポート バックアップ ごみ箱 削除したレムを見る インポート ナレッジベース すべてのカードを見る ダウンロード 毎日のバックアップ 詳細設定 すべてのレムを削除する",
+      "PROFILE_KEYWORDS": "ユーザー個人情報",
+      "CACHING": {
+        "DESCRIPTION": "画像が読み込まれたときにキャッシュするため、オフラインで見ることができます。",
+        "NUMBER_DESCRIPTION": "キャッシュする画像の最大数を設定します。上限に達すると、最も古い画像がキャッシュからクリアされます。",
+        "NUMBER_TITLE": "最大キャッシュ画像数",
+        "TITLE": "キャッシュ",
+        "TOGGLE_DESCRIPTION": "無効にすると、キャッシュされた画像はすべて消去されます。",
+        "TOGGLE_TITLE": "キャッシュを有効にする"
+      }
+    },
+    "EARN_CREDIT": {
+      "APPLY_CREDIT": "クレジットを適用する",
+      "COPIED": "コピーしました！",
+      "COPYLINK": "リンクをコピー",
+      "CREATE_ACCOUNT": "アカウントを作成して友達を招待する",
+      "CREDIT_BALANCE": "クレジット残高",
+      "CREDIT_BALANCE_TEXT": "あなたの<bold>{{userCredit}}</bold>クレジットの残りと獲得している<bold>{{userCreditEarned}}</bold>クレジットの合計です。RemNote Proを{{months}}ヶ月分無料でご利用いただけます。<br /><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。",
+      "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
+      "ENTER_VALID_EMAIL": "有効な電子メールを入力してください！",
+      "FRIEND_ALREADY_ON_REMNOTE": "あなたの友達はすでに RemNote を使用しています。",
+      "FRIENDS_TITLE": "友達",
+      "HANG_ON": "ちょっと待って",
+      "INVITE": "招待する",
+      "INVITE_COPIED": "招待リンクをコピーしました！",
+      "INVITE_EMAIL": "メールで招待",
+      "INVITE_ERROR": "問題が発生しました。後でもう一度試してください。",
+      "INVITE_FRIENDS_EARN_CREDIT": "招待した友達ごとに{{monthlyPrice}} RemNote クレジットを獲得できます。招待した友達も、開始時に{{monthlyPrice}}のクレジットを獲得できます。",
+      "INVITE_FRIENDS_REMNOTE": "友達をRemNoteに招待しましょう！",
+      "INVITE_TEXT": "友達を招待する",
+      "INVITED_YOU": " （あなたを招待しました）",
+      "KEYWORDS": "友達を招待する クレジットを獲得する プランを変更する クレジットを獲得する 無料 remnote ツイートメールを送信する プランを選択する 生涯学習プロ 機能の内訳 価格オプション",
+      "NOT_CONFIRMED_EMAIL": " (メールを確認できません)",
+      "SEND_INVITE": "招待を送る",
+      "SHARE_LINK": "招待リンクを共有する",
+      "TITLE": "クレジットを獲得する",
+      "TOAST_RENEW": "クレジットは、現在のサブスクリプションの更新時に自動的に適用されます。",
+      "TOAST_SUBSCRIBE": "クレジットはRemNote Proをご契約いただくと自動的に適用されます。下記よりプランをお選びください！",
+      "VERIFY_EMAIL": "誰かを招待するには、まずメールアドレスを認証してください。",
+      "SUBSCRIBE_NOTICE": "<div><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。</div>"
+    },
+    "EDITOR": {
+      "DATES_AND_TIMES": {
+        "DATE_FORMATTING": {
+          "DESCRIPTION": "RemNote全体にこの形式で日付を表示します。",
+          "TITLE": "日付の書式"
+        },
+        "DATE_FORMATTING_CUSTOM": {
+          "DESCRIPTION": "与えられた書式で日付をフォーマットします。",
+          "TITLE": "カスタム日付書式"
+        },
+        "TIME_FORMATTING": {
+          "DESCRIPTION": "/timeで挿入された時刻をこのようにフォーマットします。",
+          "TITLE": "時刻の書式"
+        },
+        "WEEK_STARTS_ON_MONDAY": {
+          "DESCRIPTION": "日付ピッカーで日付を選択する場合、カレンダーの各週は日曜日ではなく月曜日から始めます。",
+          "TITLE": "週を月曜日から始める"
+        }
+      },
+      "GENERAL": {
+        "CAPITALIZE_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "検索からCmd+Returnキーを押してRemを新規作成するときは、その名前の先頭文字を大文字にします。",
+            "PC": "検索からCtrl+Enterキーを押してRemを新規作成するときは、その名前の先頭文字を大文字にします。"
+          },
+          "TITLE": "検索の先頭文字を大文字にする"
+        },
+        "CREATE_CONCEPTS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "検索でCmd+Returnキーを押して作成したRemをコンセプトにします。",
+            "PC": "検索でCtrl+Enterキーを押して作成したRemをコンセプトにします。"
+          },
+          "TITLE": "検索からコンセプトを作成する"
+        },
+        "CREATE_STUBS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "検索でCmd+Returnキーを押して作成したRemを\"Stub \"とタグ付けします。",
+            "PC": "検索でCtrl+Enterキーを押して作成したRemを\"Stub \"とタグ付けします。"
+          },
+          "TITLE": "検索からスタブを作成する"
+        },
+        "ENABLE_SPELLCHECK": {
+          "DESCRIPTION": "現在選択中のレムにタイプミスがないかチェックします。スペルチェックは、ブラウザまたはOSで選択された言語を使用します。",
+          "TITLE": "スペルチェックを有効にする"
+        },
+        "INSERT_EMOJIS_AS_REFERENCES": {
+          "DESCRIPTION": "%%を用いた検索から絵文字を選択する際に参照を作成します。",
+          "TITLE": "絵文字を参照として挿入する"
+        }
+      }
+    },
+    "EDITOR_INTERFACE": {
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "TITLE": "シングルクリックでレファレンスを開く",
+        "LABEL": "リファレンスをクリックまたはタップすると、リファレンスメニューを開くのではなく、すぐにそのターゲットに移動します。(リファレンスメニューは右クリックでいつでも表示できます)。"
+      },
+      "ENABLE_ZOOM_INTO_BULLET": {
+        "LABEL": "箇条書きポインタをクリックすると、レムがページ全体として表示されます",
+        "TITLE": "箇条書きへのズームを有効にする"
+      },
+      "PREVIEW_REM_ON_HOVER": {
+        "LABEL": "リファレンスにカーソルを合わせると、その内容のプレビューが表示されます。",
+        "TITLE": "ホバー時のレファレンスのプレビュー表示"
+      },
+      "SCALE_COLLAPSED_REM_BULLETS": {
+        "LABEL": "下位の要素に応じて箇条書きの周りのリングを拡大/縮小します。",
+        "TITLE": "畳まれた箇条書きの拡大/縮小"
+      },
+      "SMOOTHLY_ANIMATE_THE_EDITOR": {
+        "LABEL": "エディターでRemを追加/削除するときにアニメーションします。",
+        "TITLE": "エディターのアニメーションを滑らかにする"
+      }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "DESCRIPTION": "RemNoteが1日にこれだけのフラッシュカードを学習するように促します。",
+          "TITLE": "1 日の最大目標"
+        },
+        "TODAYS_TARGET": "今日の目標:",
+        "TODAYS_TARGET_EXPLANATION": "RemNote は 1 日の目標を設定しようとします。毎日目標を達成すると、次の 7 日間にレビュー期限のカードをすべて完了することになります。ただし、1 日の目標が上記で設定した最大値を超えることはありません。"
+      },
+      "GENERAL": {
+        "AUTOPLAY_MEDIA": {
+          "DESCRIPTION": "フラッシュカードを表示すると、そこにある音声またはビデオが自動的に再生されます。",
+          "TITLE": "自動再生 メディア"
+        },
+        "LEECH_THRESHOLD": {
+          "DESCRIPTION": "難しいカードで何度も「忘れた」を押すと警告します。<leechArticle>リーチについてもっと読む</leechArticle>",
+          "TITLE": "リーチ閾値"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "DESCRIPTION": "毎日最大でこの数の新しく作成されたフラッシュカードをフラッシュカード キューに追加します。こうすることで、新しいカードが大量にではなく、毎日一定の割合でキューに追加されます。",
+          "TITLE": "1 日あたりの最大新規カード数"
+        },
+        "RESET_ALL": {
+          "CONFIRM_MESSAGE": "すべてのフラッシュカード設定をデフォルト値にリセットしてもよろしいですか?",
+          "DESCRIPTION": "すべてのフラッシュカード設定をデフォルト値にリセットします。",
+          "TITLE": "すべてのフラッシュカード設定をデフォルトにリセット"
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "DESCRIPTION": "フラッシュカードを学習するときは、5 つの選択肢すべてではなく、「忘れた」と「頑張って思い出した」の応答ボタンのみを表示します。",
+          "TITLE": "簡略化 フラッシュカード ボタン"
+        },
+        "STALE_CARDS_PER_DAY": {
+          "DESCRIPTION": "毎日、多くてもこの枚数の古いフラッシュカードをフラッシュカードのキューに再導入します。古くなったカードとは、長い間学習しておらず、一度にすべてを再学習するのは大変なため、一時的にキューから保留されているカードです。",
+          "TITLE": "1 日あたりの古いカードの最大数"
+        },
+        "TYPE_ANSWER": {
+          "DESCRIPTION": "各フラッシュカードの表面にテキスト ボックスを表示し、入力した内容とカード裏面の答えを比較します。",
+          "TITLE": "答えを入力"
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "DESCRIPTION": "キューの最後に到達すると、RemNote は期限が切れる数分前までにカードを表示します。これにより、キューを終えた直後にカードが再び期限切れになることはありません。",
+          "TITLE": "先行学習を制限"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "DESCRIPTION": "毎日この時間に、新しいカードがキューに表示されます。",
+          "TITLE": "次の日の開始時刻"
+        },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "DESCRIPTION": "フラッシュカードを表示する際、カードの表と裏の音声を自動的に再生します。",
+          "TITLE": "テキストから音声への自動再生"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "音声合成に使用する音声。一部の音声は特定の言語でのみ動作することに注意してください。",
+          "TITLE": "音声合成ボイス"
+        }
+      },
+      "ORDERING": {
+        "DOCUMENT_CLUSTERS": {
+          "DESCRIPTION": "接続されたドキュメントからRemを一緒に学習するようにします。",
+          "TITLE": "ドキュメントクラスター"
+        },
+        "HIERARCHY_CLUSTERS": {
+          "DESCRIPTION": "Rem同士が階層的に関連しているものと一緒に学習するようにします。",
+          "TITLE": "階層クラスター"
+        },
+        "REFERENCE_CLUSTERS": {
+          "DESCRIPTION": "Rem同士が互いに参照しているものを一緒に学習するようにします。",
+          "TITLE": "参照クラスター"
+        },
+        "TAG_CLUSTERS": {
+          "DESCRIPTION": "同じタグのRemを一緒に学習するようにします。",
+          "TITLE": "タグクラスター"
+        }
+      },
+      "STATISTICS": {
+        "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
+          "DESCRIPTION": "統計にカウントされるカードごとの最大回答時間（秒）を設定します。",
+          "TITLE": "フラッシュカードの回答時間制限"
+        }
+      },
+      "VISUAL": {
+        "SHOW_NEXT_REVIEW_TIMES": {
+          "DESCRIPTION": "解答ボタンに次のレビューまでの時間を表示します。",
+          "TITLE": "次のレビュー時間を表示"
+        }
+      },
+      "AI": {
+        "ENABLE": {
+          "DESCRIPTION": "AIベースのオートコンプリート、採点、フラッシュカード生成を使用します。多くのAI機能を使用すると、ノートのスニペットがOpenAIに送信されます。OpenAIのプライバシーポリシーはhttps://openai.com/policies/privacy-policyをご確認ください。",
+          "TITLE": "AI 機能を有効にする"
+        },
+        "OPENAI_KEY": {
+          "DESCRIPTION": "ご利用が月々のAIリクエスト枠を超えた場合は、https://platform.openai.com/account/api-keys（リクエストごとに有料）でAPIキーを登録し、こちらに入力してください。 これはベータ版機能であり、今後いつでも削除される可能性があることにご注意ください。",
+          "TITLE": "OpenAI APIキー"
+        }
+      }
+    },
+    "GLOBAL_INTERFACE": {
+      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
+        "KEYWORDS": "言語 コミュニティ 文書 検索 フラッシュカード 共有 ダウンロード 見つける",
+        "TITLE": "共有フラッシュカードの検索言語"
+      },
+      "DARK_MODE": {
+        "LABEL": "この配色を使用します。",
+        "TITLE": "ダークモード"
+      },
+      "FULL_WIDTH": {
+        "LABEL": "ドキュメントをスクリーン全体に表示します。",
+        "TITLE": "全画面表示"
+      },
+      "IN_APP_SUGGESTIONS": {
+        "KEYWORDS": "ツールチップ ヘルプ サポート 学習 チュートリアル",
+        "LABEL": "文書の上部にRemNoteの機能のヒントを表示します。",
+        "TITLE": "文書の先頭のオンボーディングヒント"
+      },
+      "INTERFACE": {
+        "KEYWORDS": "言語 言語 翻訳 翻訳 i18n",
+        "TITLE": "RemNote 表示言語"
+      },
+      "LEFT_SIDEBAR_TUTORIALS": {
+        "LABEL": "現在使用している RemNote の機能に関するチュートリアルを画面の隅に表示します。",
+        "TITLE": "アプリ内チュートリアル",
+        "KEYWORDS": "アプリ内の左側のサイドバー チュートリアル ツールチップ ヘルプ サポート チュートリアルを学ぶ"
+      },
+      "ONBOARDING_TIPS_SHORTCUTS": {
+        "LABEL": "現在使用しているキーボード ショートカットに関するヒントを画面の隅に表示します。",
+        "TITLE": "キーボード ショートカットのヒント",
+        "KEYWORDS": "ツールチップ ヘルプ サポート 学習チュートリアル"
+      },
+      "SIMPLIFIED_UI": {
+        "LABEL": "UI を簡素化し、高度な機能を非表示にします。",
+        "TITLE": "UIの簡素化"
+      },
+      "ONBOARDING_TIPS": {
+        "KEYWORDS": "ヒント 学習をサポートするチュートリアル",
+        "LABEL": "現在使用中のRemNote機能のヒントを画面の隅に表示する",
+        "TITLE": "オンボーディングのヒント"
+      },
+      "ONBOARDING_TIPS_FEATURES": {
+        "LABEL": "現在使用しているRemNote機能のヒントを画面の隅に表示します。",
+        "TITLE": "機能のオンボーディングのヒント"
+      }
+    },
+    "KEYBOARD_SHORTCUTS": {
+      "CHANGE_KEYBOARD_SHORTCUTS": {
+        "DESCRIPTION": "キーボードショートカットをカスタマイズします。",
+        "KEYWORDS": "キーボードショートカットをカスタマイズ",
+        "TITLE": "キーボードショートカットを変更する"
+      },
+      "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
+        "DESCRIPTION": "レガシーキーボードショートカットをデフォルトにします（2020年8月のアップデート以前）。",
+        "TITLE": "レガシーキーボードショートカットのデフォルト"
+      },
+      "DOUBLE_SLASH_FOR_COMMAND_MENU": {
+        "DESCRIPTION": "Remの編集中に/の代わりに//でコマンドをトリガーします。",
+        "TITLE": "スラッシュ2個でコマンドメニュー"
+      },
+      "ENTER_TO_OUTDENT": {
+        "LABEL": "ドキュメントのトップレベルでない空のRemでのEnterキーを押して、1レベルアウトデントします。(無効の場合は、同じレベルのままで空のRemを残します)。",
+        "TITLE": "Enterでアウトデントする"
+      },
+      "SPLIT_WITH_ALT_ENTER": {
+        "DESCRIPTION": {
+          "MAC": "Remの途中でOpt+Returnキーを押してテキストを別々のRemに分割します。",
+          "PC": "Remの途中でAlt+Enterキーを押してテキストを別々のRemに分割します。"
+        },
+        "TITLE": {
+          "MAC": "Opt+Returnキーで分割",
+          "PC": "Alt+Enterキーで分割"
+        }
+      }
+    },
+    "PLANS": {
+      "KEYWORDS": "友達を招待する プランを変更する サブスクリプション クレジットを獲得する 無料 remnote ツイートメールを送信する プランを選択する 生涯学習プロ 機能の内訳 価格オプション",
+      "TITLE": "プラン"
+    },
+    "NOTIFICATIONS": {
+      "DESCRIPTIONS": {
+        "ARTICLE_VIEWS": {
+          "LABEL": "共有ドキュメントの閲覧数が増え始めたら通知を受け取る",
+          "TITLE": "ドキュメントビューの通知"
+        },
+        "DOCUMENT_ADDED_TO_GROUP": {
+          "LABEL": "ドキュメントがグループに追加されたときに通知を受け取る",
+          "TITLE": "グループへのドキュメント追加の通知"
+        },
+        "INVITE": {
+          "LABEL": "グループに招待されたときに通知を受け取る",
+          "TITLE": "招待の通知"
+        },
+        "NEW_COMMENT": {
+          "LABEL": "誰かが共有ドキュメントにコメントしたときに通知を受け取る",
+          "TITLE": "コメントの通知"
+        },
+        "NEW_FOLLOWER": {
+          "LABEL": "誰かがあなたをフォローしたときに通知を受け取る",
+          "TITLE": "フォロワーの通知"
+        },
+        "NEW_LIKE": {
+          "LABEL": "共有したドキュメントが\"いいね\"されたときに通知を受け取る",
+          "TITLE": "いいねの通知"
+        },
+        "STREAK": {
+          "LABEL": "毎日の通知を受け取って学習を継続しよう！",
+          "TITLE": "連続記録の通知"
+        }
+      },
+      "ENABLE_DUE_CARDS_LABEL": "ホーム画面のRemNoteアプリのアイコンに、期限切れカードの総数をバッジで表示する",
+      "ENABLE_DUE_CARDS_TITLE": "iOSでの期限付きカードのバッジ",
+      "ENABLE_EMAIL_LABEL": "受信トレイに直接通知を受け取る",
+      "ENABLE_EMAIL_TITLE": "Eメールによるコミュニティ通知を有効にする",
+      "ENABLE_PUSH_LABEL": "デバイスに直接通知を受け取る",
+      "ENABLE_PUSH_TITLE": "プッシュ通知",
+      "TOGGLE_LABEL": "デバイスに直接受信したい通知をコントロールする",
+      "TOGGLE_TITLE": "以下のときに通知する:",
+      "ENABLE_COMMUNITY_LABEL": "共有したコンテンツに誰かがアクセスしたとき通知を受け取る",
+      "ENABLE_COMMUNITY_TITLE": "共有フラッシュカードの通知",
+      "ENABLE_STREAK_DESCRIPTION": "毎日午後 6 時にフラッシュカードの連続記録に関するリマインダーを受け取る",
+      "ENABLE_STREAK_TITLE": "モバイルの連続記録の通知",
+      "PUSH_ENABLE_MESSAGE": "このデバイスではプッシュ通知が設定されていません。設定するにはここをクリックしてください！"
+    },
+    "SIDEBAR": {
+      "COMMUNITY_TAB": {
+        "LABEL": "サイドバーの「コミュニティ」タブを表示すると、公開文書や学習グループが表示されます。これを無効にしても、アカウントからアクセスできます。",
+        "TITLE": "コミュニティ"
+      },
+      "CUSTOMIZE_SIDEBAR_SECTIONS": {
+        "TITLE": "サイドバーセクションのカスタマイズ"
+      },
+      "DOCUMENT_STATUSES": {
+        "LABEL": "ドキュメントを下書き、完了、ピン留めのカテゴリに整理します。",
+        "TITLE": "ドキュメントのステータス"
+      },
+      "PRIVACY_NOTE": "プライバシー: <policyLink>プライバシーポリシー</policyLink>をお読みいただくか、<hubLink>プライバシーハブ</hubLink>で設定を変更してください。",
+      "SORT_SIDEBAR": {
+        "KEYWORDS": "サイドバーを整理する A-Zソート",
+        "TITLE": "サイドバーの並べ替え"
+      }
+    }
   },
   "COMMUNITY": {
     "ARTICLES": {
@@ -54,64 +465,6 @@
     "NEW_LIKE": {
       "BODY": "がいいねしました。"
     }
-  },
-  "DOCUMENT": {
-    "DIALOGS": {
-      "DELETE_ALSO_UNSHARE": "ドキュメントも共有解除しますか？",
-      "DELETE_CONFIRM_DIALOG": "本当にこのドキュメントを削除しますか？",
-      "DELETE_UNSHARE_ERROR": "このドキュメントの共有解除にエラーが発生しました。手動で共有を解除してください。",
-      "DELETE_UNSHARE_OFFLINE_ERROR": "あなたはオフラインです。オンラインに戻ったら、手動でドキュメントの共有を解除してください。"
-    },
-    "MENU": {
-      "ADD_NESTED_DOCUMENT": "入れ子ドキュメントの追加",
-      "CHANGE_DOCUMENT_STATUS": "ドキュメントのステータスを変更",
-      "CUSTOMIZE_SPACED_REPETITION": "間隔反復練習のカスタマイズ",
-      "DELETE": "削除",
-      "EDIT_MODE": {
-        "READ": "表示限定モード",
-        "WRITE": "編集モード"
-      },
-      "EXPORT": "エクスポート",
-      "FIND_OR_FILTER": "検索もしくはフィルター",
-      "FIND_TEXT_REFERENCES": {
-        "DEPRECATION_WARNING": "このオプションは非推奨であり、代わりに<keycode />を押してテキスト参照を検索する方法が推奨されます。",
-        "LABEL": "テキストの参照を検索"
-      },
-      "MARK_AS_DOCUMENT": "ドキュメントとしてマーク",
-      "MOVE": "移動",
-      "OPEN_IN_ANOTHER_PANE": "他のタブで開く",
-      "PIN_TO_SIDEBAR": "サイドバーにピン留め",
-      "PRINT": "印刷",
-      "RENAME": "名前の変更",
-      "SHOW_STUDY_BUTTON": "勉強ボタンを表示",
-      "STATS": "統計情報",
-      "UNDO": "戻る",
-      "UNPIN_FROM_SIDEBAR": "サイドバーから削除",
-      "UNSHARE_DOCUMENT": "ドキュメントの共有を取り下げる",
-      "VIEW_GRAPH": "グラフを見る",
-      "VIEW_TRASH": "ゴミ箱を見る"
-    },
-    "PUBLISH_STATUS": {
-      "DRAFT": "下書き",
-      "FINISHED": "完了",
-      "PINNED": "ピン"
-    }
-  },
-  "FILE_UPLOADING": {
-    "CACHED_INFO": "このファイルはオフライン表示用にキャッシュされており、まだアップロードされていない可能性があります。",
-    "LOCAL_ONLY_WARN": "このファイルは正常にアップロードされず、お使いのコンピュータに一時的に保存されています。",
-    "LOCAL_WAITING_FOR_UPLOAD_WARN": "このファイルはまだアップロードされておらず、ローカルにのみ保存されています。",
-    "NOT_FOUND": "このファイルは見つかりません。",
-    "NOT_YET_UPLOADED": "このファイルはまだアップロードされていません。",
-    "SNIPPING": {
-      "NON_PDF": "別のスニッピング/ペーストツールを試すか、サポートにお問い合わせください。",
-      "PDF": "サポートまでご連絡ください。"
-    }
-  },
-  "LANGUAGE": {
-    "LANGUAGE_WORD": "言語",
-    "TRANSLATION_IN_PROGRESS": "RemNoteの翻訳はまだ進行中です。<editorLink>inlang</editorLink>で<bold>翻訳に貢献してください</bold>。 ",
-    "TRANSLATION_INFO_SETTINGS": "翻訳はまだ進行中です。英語と選択した言語が混在して表示されます。<br><editorLink>ウェブエディター</editorLink>から翻訳にご協力ください。また、必ず<guideLink>チュートリアル</guideLink>を一読してください。"
   },
   "NOTIFICATIONS": {
     "ARTICLE_DEFAULT": "あなたのドキュメント",
@@ -181,66 +534,6 @@
       "TITLE": "すべてのノート"
     }
   },
-  "PDF": {
-    "ADD_ANNOTATIONS": {
-      "AI_DROPDOWN": {
-        "BASIC_CARDS": "ベーシック・カード",
-        "CLOZE_CARDS": "穴埋めカード",
-        "CLOZE_CARDS_TOOLTIP": "選択したテキストから穴埋めフラッシュカードを作成します。",
-        "CONCEPT_CARDS": "コンセプトカード",
-        "CONCEPT_CARDS_TOOLTIP": "選択したテキストから、概念記述フラッシュカードを作成します。",
-        "GENERATE_SECTION": "生成"
-      },
-      "CLOZE_BTN_TOOLTIP": "穴埋めフラッシュカード",
-      "COPY_IMAGE": "画像をコピー",
-      "COPY_TEXT": "プレーンテキストとしてコピー",
-      "HIGHLIGHT": "ハイライト",
-      "MAKE_IMG_OCC_BTN_TOOLTIP": "画像穴埋めフラッシュカードをつくる",
-      "NO_TEXT_IN_PDF_WARN": "このファイルにはテキストレイヤーは含まれていませんが、エリアハイライトを使って注釈を付けることはできます。",
-      "NOTE_BTN_TOOLTIP": "ノート"
-    },
-    "EDIT_ANNOTATIONS": {
-      "DELETE_WARNING": "このハイライトはnotesCount, number notesWordを持っています。本当に削除しますか？",
-      "TURN_INTO_CONCEPT": "コンセプトに変更",
-      "VIEW_REFERENCES": "参考文献を見る"
-    },
-    "HEADER": {
-      "AREA_HIGHLIGHT_TOOLTIP": "エリアハイライト ({{keyName}} + Drag)",
-      "NUMBER_OF_PAGES_TOOLTIP": "ページ数",
-      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "デフォルトドキュメントの切り替え"
-    },
-    "PDF_OPTIONS": {
-      "CHANGE_THEME": "テーマの変更",
-      "DOWNLOAD_PDF": "PDFをダウンロード",
-      "LEARN_MORE": "さらに詳しく",
-      "OPEN_WEBPAGE_EXTERNALLY": "ウェブページを外部で開く",
-      "PDF_SETTINGS": "設定",
-      "PDF_SETTINGS_MENU": {
-        "AUTO_HIGHLIGHT": "自動ハイライト",
-        "AUTO_HIGHLIGHT_TOOLTIP": "テキスト選択後、自動的にハイライトを作成",
-        "DISABLE_HEADER_BUTTONS": "ヘッダーボタンを無効にする",
-        "DISABLE_HEADER_BUTTONS_TOOLTIP": "ヘッダーボタン («) がリーダーに表示されないようにする。",
-        "SNAP_HIGHLIGHT_TO_WORDS": "単語にスナップハイライト",
-        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "新しいハイライトを作成する際、単語全体のみを選択します。"
-      },
-      "REFETCH_PAGE": "ページの再取得",
-      "REFETCH_PAGE_TOOLTIP": "既存のハイライトがある場合、このページをリフェッチすることはできません。",
-      "SEARCH_IN_PDF": "PDF内検索",
-      "SPLIT_PANES": "タブの分割",
-      "SPLIT_PANES_TOOLTIP": "エディタとPDFビューアを別々のタブに分割します。",
-      "THEMES": {
-        "CLASSIC_INVERT": "クラシック・インバート",
-        "DARK": "ダークモード",
-        "LIGHT": "ライトモード",
-        "SOLARISED": "ソーラー化",
-        "USE_REMNOTE_THEME": "RemNoteのデフォルトテーマを使う"
-      }
-    },
-    "SEARCH_CTRL_F": {
-      "DONE": "完了",
-      "INPUT_PLACEHOLDER": "検索"
-    }
-  },
   "POPUPS": {
     "CREATE_CONTENT_OPTIONS": {
       "DOCUMENT": {
@@ -275,412 +568,6 @@
   "POWERUPS": {
     "POWERUP_one": "パワーアップ",
     "POWERUP_other": "パワーアップ"
-  },
-  "SETTINGS": {
-    "ACCOUNT": {
-      "ADVANCED": {
-        "KEYWORDS": "サポート 再接続 検索 修正 バグ"
-      },
-      "ADVANCED_KEYWORDS": "サポート 再インストール 検索 バグの修正",
-      "ADVANCED_TITLE": "詳細設定",
-      "AUTHENTICATION": {
-        "KEYWORDS": "ログアウト ログ アウト Google ログイン 方法 追加 切断 サイン イン サイン アップ"
-      },
-      "AUTHENTICATION_KEYWORDS": "ログアウト Googleからログアウト サインイン 接続解除を追加 サインイン 登録",
-      "AUTHENTICATION_TITLE": "認証",
-      "CACHING": {
-        "DESCRIPTION": "画像が読み込まれたときにキャッシュするため、オフラインで見ることができます。",
-        "NUMBER_DESCRIPTION": "キャッシュする画像の最大数を設定します。上限に達すると、最も古い画像がキャッシュからクリアされます。",
-        "NUMBER_TITLE": "最大キャッシュ画像数",
-        "TITLE": "キャッシュ",
-        "TOGGLE_DESCRIPTION": "無効にすると、キャッシュされた画像はすべて消去されます。",
-        "TOGGLE_TITLE": "キャッシュを有効にする"
-      },
-      "DANGER_ZONE": {
-        "KEYWORDS": "同期 ログ 削除 アカウント リセット ウォークスルー 進捗 リセット オンボーディング 詳細アカウント設定",
-        "TITLE": "危険 ゾーン"
-      },
-      "DANGER_ZONE_TITLE": "危険ゾーン",
-      "EXPORT_IMPORT": {
-        "KEYWORDS": "エクスポート バックアップ エクスポート Roam Dynalist Logseq Notion Evernote Obsidian"
-      },
-      "EXPORT_IMPORT_KEYWORDS": "エクスポート バックアップ エクスポート Roam Dynalist Logseq Notion Evernote Obsidian",
-      "IMPORT_EXPORT_TITLE": "インポートとエクスポート",
-      "MY_PROFILE": "私のプロフィール",
-      "NAVIGATION": {
-        "KEYWORDS": "エクスポート と バックアップ ゴミ箱 ビュー 削除済み Rem インポート ナレッジ ベース ビュー 全て カード ダウンロード 1つの デイリー バックアップ アドバンス 設定 削除 全て Rem"
-      },
-      "NAVIGATION_KEYWORDS": "エクスポート バックアップ ごみ箱 削除したレムを見る インポート ナレッジベース すべてのカードを見る ダウンロード 毎日のバックアップ 詳細設定 すべてのレムを削除する",
-      "NAVIGATION_TITLE": "ナビゲーション",
-      "NOTIFICATIONS": {
-        "DESCRIPTION": "毎日のフラッシュカードの連続記録についてモバイルプッシュ通知を送信します。リマインダーは、毎日午後 6 時（日本時間）に届きます。",
-        "TITLE": "モバイルの連続記録の通知"
-      },
-      "PRIVACY": {
-        "KEYWORDS": "プライバシー",
-        "TITLE": "プライバシー"
-      },
-      "PRIVACY_NOTE": "プライバシー: <policyLink>プライバシーポリシー</policyLink>をお読みいただくか、<hubLink>プライバシーハブ</hubLink>で設定を変更してください。",
-      "PROFILE": {
-        "KEYWORDS": "個人ユーザーのプロフィール"
-      },
-      "PROFILE_KEYWORDS": "ユーザー個人情報",
-      "PROFILE_TITLE": "プロフィール",
-      "SUPPORT": {
-        "KEYWORDS": "サポート チケット 実行 ヘルプ",
-        "TITLE": "サポート"
-      },
-      "SYNCING": {
-        "KEYWORDS": "画像とPDFを強制的に同期",
-        "TITLE": "同期しています"
-      },
-      "VERSION": {
-        "KEYWORDS": "バージョン",
-        "TITLE": "アプリケーションのバージョン"
-      }
-    },
-    "EARN_CREDIT": {
-      "APPLY_CREDIT": "クレジットを適用する",
-      "COPIED": "コピーしました！",
-      "COPYLINK": "リンクをコピー",
-      "CREATE_ACCOUNT": "アカウントを作成して友達を招待する",
-      "CREDIT_BALANCE": "クレジット残高",
-      "CREDIT_BALANCE_TEXT": "あなたの<bold>{{userCredit}}</bold>クレジットの残りと獲得している<bold>{{userCreditEarned}}</bold>クレジットの合計です。RemNote Proを{{months}}ヶ月分無料でご利用いただけます。<br /><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。",
-      "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
-      "ENTER_VALID_EMAIL": "有効な電子メールを入力してください！",
-      "FRIEND_ALREADY_ON_REMNOTE": "あなたの友達はすでに RemNote を使用しています。",
-      "FRIENDS_TITLE": "友達",
-      "HANG_ON": "ちょっと待って",
-      "INVITE": "招待する",
-      "INVITE_COPIED": "招待リンクをコピーしました！",
-      "INVITE_EMAIL": "メールで招待",
-      "INVITE_ERROR": "問題が発生しました。後でもう一度試してください。",
-      "INVITE_FRIENDS_EARN_CREDIT": "招待した友達ごとに{{monthlyPrice}} RemNote クレジットを獲得できます。招待した友達も、開始時に{{monthlyPrice}}のクレジットを獲得できます。",
-      "INVITE_FRIENDS_REMNOTE": "友達をRemNoteに招待しましょう！",
-      "INVITE_TEXT": "友達を招待する",
-      "INVITED_YOU": " （あなたを招待しました）",
-      "KEYWORDS": "友達を招待する クレジットを獲得する プランを変更する クレジットを獲得する 無料 remnote ツイートメールを送信する プランを選択する 生涯学習プロ 機能の内訳 価格オプション",
-      "NOT_CONFIRMED_EMAIL": " (メールを確認できません)",
-      "SEND_INVITE": "招待を送る",
-      "SHARE_LINK": "招待リンクを共有する",
-      "SUBSCRIBE_NOTICE": "<div><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。</div>",
-      "TITLE": "クレジットを獲得する",
-      "TOAST_RENEW": "クレジットは、現在のサブスクリプションの更新時に自動的に適用されます。",
-      "TOAST_SUBSCRIBE": "クレジットはRemNote Proをご契約いただくと自動的に適用されます。下記よりプランをお選びください！",
-      "VERIFY_EMAIL": "誰かを招待するには、まずメールアドレスを認証してください。"
-    },
-    "EDITOR": {
-      "DATES_AND_TIMES": {
-        "DATE_FORMATTING": {
-          "DESCRIPTION": "RemNote全体にこの形式で日付を表示します。",
-          "TITLE": "日付の書式"
-        },
-        "DATE_FORMATTING_CUSTOM": {
-          "DESCRIPTION": "与えられた書式で日付をフォーマットします。",
-          "TITLE": "カスタム日付書式"
-        },
-        "TIME_FORMATTING": {
-          "DESCRIPTION": "/timeで挿入された時刻をこのようにフォーマットします。",
-          "TITLE": "時刻の書式"
-        },
-        "WEEK_STARTS_ON_MONDAY": {
-          "DESCRIPTION": "日付ピッカーで日付を選択する場合、カレンダーの各週は日曜日ではなく月曜日から始めます。",
-          "TITLE": "週を月曜日から始める"
-        }
-      },
-      "GENERAL": {
-        "CAPITALIZE_FROM_SEARCH": {
-          "DESCRIPTION": {
-            "MAC": "検索からCmd+Returnキーを押してRemを新規作成するときは、その名前の先頭文字を大文字にします。",
-            "PC": "検索からCtrl+Enterキーを押してRemを新規作成するときは、その名前の先頭文字を大文字にします。"
-          },
-          "TITLE": "検索の先頭文字を大文字にする"
-        },
-        "CREATE_CONCEPTS_FROM_SEARCH": {
-          "DESCRIPTION": {
-            "MAC": "検索でCmd+Returnキーを押して作成したRemをコンセプトにします。",
-            "PC": "検索でCtrl+Enterキーを押して作成したRemをコンセプトにします。"
-          },
-          "TITLE": "検索からコンセプトを作成する"
-        },
-        "CREATE_STUBS_FROM_SEARCH": {
-          "DESCRIPTION": {
-            "MAC": "検索でCmd+Returnキーを押して作成したRemを\"Stub \"とタグ付けします。",
-            "PC": "検索でCtrl+Enterキーを押して作成したRemを\"Stub \"とタグ付けします。"
-          },
-          "TITLE": "検索からスタブを作成する"
-        },
-        "ENABLE_SPELLCHECK": {
-          "DESCRIPTION": "現在選択中のレムにタイプミスがないかチェックします。スペルチェックは、ブラウザまたはOSで選択された言語を使用します。",
-          "TITLE": "スペルチェックを有効にする"
-        },
-        "INSERT_EMOJIS_AS_REFERENCES": {
-          "DESCRIPTION": "%%を用いた検索から絵文字を選択する際に参照を作成します。",
-          "TITLE": "絵文字を参照として挿入する"
-        }
-      }
-    },
-    "EDITOR_INTERFACE": {
-      "ENABLE_ZOOM_INTO_BULLET": {
-        "LABEL": "箇条書きポインタをクリックすると、レムがページ全体として表示されます",
-        "TITLE": "箇条書きへのズームを有効にする"
-      },
-      "PREVIEW_REM_ON_HOVER": {
-        "LABEL": "リファレンスにカーソルを合わせると、その内容のプレビューが表示されます。",
-        "TITLE": "ホバー時のレファレンスのプレビュー表示"
-      },
-      "SCALE_COLLAPSED_REM_BULLETS": {
-        "LABEL": "下位の要素に応じて箇条書きの周りのリングを拡大/縮小します。",
-        "TITLE": "畳まれた箇条書きの拡大/縮小"
-      },
-      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
-        "LABEL": "リファレンスをクリックまたはタップすると、リファレンスメニューを開くのではなく、すぐにそのターゲットに移動します。(リファレンスメニューは右クリックでいつでも表示できます)。",
-        "TITLE": "シングルクリックでレファレンスを開く"
-      },
-      "SMOOTHLY_ANIMATE_THE_EDITOR": {
-        "LABEL": "エディターでRemを追加/削除するときにアニメーションします。",
-        "TITLE": "エディターのアニメーションを滑らかにする"
-      }
-    },
-    "FLASHCARDS": {
-      "AI": {
-        "ENABLE": {
-          "DESCRIPTION": "AIベースのオートコンプリート、採点、フラッシュカード生成を使用します。多くのAI機能を使用すると、ノートのスニペットがOpenAIに送信されます。OpenAIのプライバシーポリシーはhttps://openai.com/policies/privacy-policyをご確認ください。",
-          "TITLE": "AI 機能を有効にする"
-        },
-        "OPENAI_KEY": {
-          "DESCRIPTION": "ご利用が月々のAIリクエスト枠を超えた場合は、https://platform.openai.com/account/api-keys（リクエストごとに有料）でAPIキーを登録し、こちらに入力してください。 これはベータ版機能であり、今後いつでも削除される可能性があることにご注意ください。",
-          "TITLE": "OpenAI APIキー"
-        }
-      },
-      "DAILY_TARGET": {
-        "MAXIMUM_DAILY_TARGET": {
-          "DESCRIPTION": "RemNoteが1日にこれだけのフラッシュカードを学習するように促します。",
-          "TITLE": "1 日の最大目標"
-        },
-        "TODAYS_TARGET": "今日の目標:",
-        "TODAYS_TARGET_EXPLANATION": "RemNote は 1 日の目標を設定しようとします。毎日目標を達成すると、次の 7 日間にレビュー期限のカードをすべて完了することになります。ただし、1 日の目標が上記で設定した最大値を超えることはありません。"
-      },
-      "GENERAL": {
-        "AUTOPLAY_MEDIA": {
-          "DESCRIPTION": "フラッシュカードを表示すると、そこにある音声またはビデオが自動的に再生されます。",
-          "TITLE": "自動再生 メディア"
-        },
-        "AUTOPLAY_TEXT_TO_SPEECH": {
-          "DESCRIPTION": "フラッシュカードを表示する際、カードの表と裏の音声を自動的に再生します。",
-          "TITLE": "テキストから音声への自動再生"
-        },
-        "LEARN_AHEAD_LIMIT": {
-          "DESCRIPTION": "キューの最後に到達すると、RemNote は期限が切れる数分前までにカードを表示します。これにより、キューを終えた直後にカードが再び期限切れになることはありません。",
-          "TITLE": "先行学習を制限"
-        },
-        "LEECH_THRESHOLD": {
-          "DESCRIPTION": "難しいカードで何度も「忘れた」を押すと警告します。<leechArticle>リーチについてもっと読む</leechArticle>",
-          "TITLE": "リーチ閾値"
-        },
-        "NEW_CARDS_PER_DAY": {
-          "DESCRIPTION": "毎日最大でこの数の新しく作成されたフラッシュカードをフラッシュカード キューに追加します。こうすることで、新しいカードが大量にではなく、毎日一定の割合でキューに追加されます。",
-          "TITLE": "1 日あたりの最大新規カード数"
-        },
-        "NEXT_DAY_STARTS_AT": {
-          "DESCRIPTION": "毎日この時間に、新しいカードがキューに表示されます。",
-          "TITLE": "次の日の開始時刻"
-        },
-        "RESET_ALL": {
-          "CONFIRM_MESSAGE": "すべてのフラッシュカード設定をデフォルト値にリセットしてもよろしいですか?",
-          "DESCRIPTION": "すべてのフラッシュカード設定をデフォルト値にリセットします。",
-          "TITLE": "すべてのフラッシュカード設定をデフォルトにリセット"
-        },
-        "SIMPLIFIED_FLASHCARD_BUTTONS": {
-          "DESCRIPTION": "フラッシュカードを学習するときは、5 つの選択肢すべてではなく、「忘れた」と「頑張って思い出した」の応答ボタンのみを表示します。",
-          "TITLE": "簡略化 フラッシュカード ボタン"
-        },
-        "STALE_CARDS_PER_DAY": {
-          "DESCRIPTION": "毎日、多くてもこの枚数の古いフラッシュカードをフラッシュカードのキューに再導入します。古くなったカードとは、長い間学習しておらず、一度にすべてを再学習するのは大変なため、一時的にキューから保留されているカードです。",
-          "TITLE": "1 日あたりの古いカードの最大数"
-        },
-        "TEXT_TO_SPEECH_VOICE": {
-          "DESCRIPTION": "音声合成に使用する音声。一部の音声は特定の言語でのみ動作することに注意してください。",
-          "TITLE": "音声合成ボイス"
-        },
-        "TYPE_ANSWER": {
-          "DESCRIPTION": "各フラッシュカードの表面にテキスト ボックスを表示し、入力した内容とカード裏面の答えを比較します。",
-          "TITLE": "答えを入力"
-        }
-      },
-      "ORDERING": {
-        "DOCUMENT_CLUSTERS": {
-          "DESCRIPTION": "接続されたドキュメントからRemを一緒に学習するようにします。",
-          "TITLE": "ドキュメントクラスター"
-        },
-        "HIERARCHY_CLUSTERS": {
-          "DESCRIPTION": "Rem同士が階層的に関連しているものと一緒に学習するようにします。",
-          "TITLE": "階層クラスター"
-        },
-        "REFERENCE_CLUSTERS": {
-          "DESCRIPTION": "Rem同士が互いに参照しているものを一緒に学習するようにします。",
-          "TITLE": "参照クラスター"
-        },
-        "TAG_CLUSTERS": {
-          "DESCRIPTION": "同じタグのRemを一緒に学習するようにします。",
-          "TITLE": "タグクラスター"
-        }
-      },
-      "STATISTICS": {
-        "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
-          "DESCRIPTION": "統計にカウントされるカードごとの最大回答時間（秒）を設定します。",
-          "TITLE": "フラッシュカードの回答時間制限"
-        }
-      },
-      "VISUAL": {
-        "SHOW_NEXT_REVIEW_TIMES": {
-          "DESCRIPTION": "解答ボタンに次のレビューまでの時間を表示します。",
-          "TITLE": "次のレビュー時間を表示"
-        }
-      }
-    },
-    "GLOBAL_INTERFACE": {
-      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
-        "KEYWORDS": "言語 コミュニティ 文書 検索 フラッシュカード 共有 ダウンロード 見つける",
-        "TITLE": "共有フラッシュカードの検索言語"
-      },
-      "DARK_MODE": {
-        "LABEL": "この配色を使用します。",
-        "TITLE": "ダークモード"
-      },
-      "FULL_WIDTH": {
-        "LABEL": "ドキュメントをスクリーン全体に表示します。",
-        "TITLE": "全画面表示"
-      },
-      "IN_APP_SUGGESTIONS": {
-        "KEYWORDS": "ツールチップ ヘルプ サポート 学習 チュートリアル",
-        "LABEL": "文書の上部にRemNoteの機能のヒントを表示します。",
-        "TITLE": "文書の先頭のオンボーディングヒント"
-      },
-      "INTERFACE": {
-        "KEYWORDS": "言語 言語 翻訳 翻訳 i18n",
-        "TITLE": "RemNote 表示言語"
-      },
-      "LEFT_SIDEBAR_TUTORIALS": {
-        "KEYWORDS": "アプリ内の左側のサイドバー チュートリアル ツールチップ ヘルプ サポート チュートリアルを学ぶ",
-        "LABEL": "現在使用している RemNote の機能に関するチュートリアルを画面の隅に表示します。",
-        "TITLE": "アプリ内チュートリアル"
-      },
-      "ONBOARDING_TIPS": {
-        "KEYWORDS": "ヒント 学習をサポートするチュートリアル",
-        "LABEL": "現在使用中のRemNote機能のヒントを画面の隅に表示する",
-        "TITLE": "オンボーディングのヒント"
-      },
-      "ONBOARDING_TIPS_FEATURES": {
-        "LABEL": "現在使用しているRemNote機能のヒントを画面の隅に表示します。",
-        "TITLE": "機能のオンボーディングのヒント"
-      },
-      "ONBOARDING_TIPS_SHORTCUTS": {
-        "KEYWORDS": "ツールチップ ヘルプ サポート 学習チュートリアル",
-        "LABEL": "現在使用しているキーボード ショートカットに関するヒントを画面の隅に表示します。",
-        "TITLE": "キーボード ショートカットのヒント"
-      },
-      "SIMPLIFIED_UI": {
-        "LABEL": "UI を簡素化し、高度な機能を非表示にします。",
-        "TITLE": "UIの簡素化"
-      }
-    },
-    "KEYBOARD_SHORTCUTS": {
-      "CHANGE_KEYBOARD_SHORTCUTS": {
-        "DESCRIPTION": "キーボードショートカットをカスタマイズします。",
-        "KEYWORDS": "キーボードショートカットをカスタマイズ",
-        "TITLE": "キーボードショートカットを変更する"
-      },
-      "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
-        "DESCRIPTION": "レガシーキーボードショートカットをデフォルトにします（2020年8月のアップデート以前）。",
-        "TITLE": "レガシーキーボードショートカットのデフォルト"
-      },
-      "DOUBLE_SLASH_FOR_COMMAND_MENU": {
-        "DESCRIPTION": "Remの編集中に/の代わりに//でコマンドをトリガーします。",
-        "TITLE": "スラッシュ2個でコマンドメニュー"
-      },
-      "ENTER_TO_OUTDENT": {
-        "LABEL": "ドキュメントのトップレベルでない空のRemでのEnterキーを押して、1レベルアウトデントします。(無効の場合は、同じレベルのままで空のRemを残します)。",
-        "TITLE": "Enterでアウトデントする"
-      },
-      "SPLIT_WITH_ALT_ENTER": {
-        "DESCRIPTION": {
-          "MAC": "Remの途中でOpt+Returnキーを押してテキストを別々のRemに分割します。",
-          "PC": "Remの途中でAlt+Enterキーを押してテキストを別々のRemに分割します。"
-        },
-        "TITLE": {
-          "MAC": "Opt+Returnキーで分割",
-          "PC": "Alt+Enterキーで分割"
-        }
-      }
-    },
-    "NOTIFICATIONS": {
-      "DESCRIPTIONS": {
-        "ARTICLE_VIEWS": {
-          "LABEL": "共有ドキュメントの閲覧数が増え始めたら通知を受け取る",
-          "TITLE": "ドキュメントビューの通知"
-        },
-        "DOCUMENT_ADDED_TO_GROUP": {
-          "LABEL": "ドキュメントがグループに追加されたときに通知を受け取る",
-          "TITLE": "グループへのドキュメント追加の通知"
-        },
-        "INVITE": {
-          "LABEL": "グループに招待されたときに通知を受け取る",
-          "TITLE": "招待の通知"
-        },
-        "NEW_COMMENT": {
-          "LABEL": "誰かが共有ドキュメントにコメントしたときに通知を受け取る",
-          "TITLE": "コメントの通知"
-        },
-        "NEW_FOLLOWER": {
-          "LABEL": "誰かがあなたをフォローしたときに通知を受け取る",
-          "TITLE": "フォロワーの通知"
-        },
-        "NEW_LIKE": {
-          "LABEL": "共有したドキュメントが\"いいね\"されたときに通知を受け取る",
-          "TITLE": "いいねの通知"
-        },
-        "STREAK": {
-          "LABEL": "毎日の通知を受け取って学習を継続しよう！",
-          "TITLE": "連続記録の通知"
-        }
-      },
-      "ENABLE_COMMUNITY_LABEL": "共有したコンテンツに誰かがアクセスしたとき通知を受け取る",
-      "ENABLE_COMMUNITY_TITLE": "共有フラッシュカードの通知",
-      "ENABLE_DUE_CARDS_LABEL": "ホーム画面のRemNoteアプリのアイコンに、期限切れカードの総数をバッジで表示する",
-      "ENABLE_DUE_CARDS_TITLE": "iOSでの期限付きカードのバッジ",
-      "ENABLE_EMAIL_LABEL": "受信トレイに直接通知を受け取る",
-      "ENABLE_EMAIL_TITLE": "Eメールによるコミュニティ通知を有効にする",
-      "ENABLE_PUSH_LABEL": "デバイスに直接通知を受け取る",
-      "ENABLE_PUSH_TITLE": "プッシュ通知",
-      "ENABLE_STREAK_DESCRIPTION": "毎日午後 6 時にフラッシュカードの連続記録に関するリマインダーを受け取る",
-      "ENABLE_STREAK_TITLE": "モバイルの連続記録の通知",
-      "PUSH_ENABLE_MESSAGE": "このデバイスではプッシュ通知が設定されていません。設定するにはここをクリックしてください！",
-      "TOGGLE_LABEL": "デバイスに直接受信したい通知をコントロールする",
-      "TOGGLE_TITLE": "以下のときに通知する:"
-    },
-    "PLANS": {
-      "KEYWORDS": "友達を招待する プランを変更する サブスクリプション クレジットを獲得する 無料 remnote ツイートメールを送信する プランを選択する 生涯学習プロ 機能の内訳 価格オプション",
-      "TITLE": "プラン"
-    },
-    "SIDEBAR": {
-      "COMMUNITY_TAB": {
-        "LABEL": "サイドバーの「コミュニティ」タブを表示すると、公開文書や学習グループが表示されます。これを無効にしても、アカウントからアクセスできます。",
-        "TITLE": "コミュニティ"
-      },
-      "CUSTOMIZE_SIDEBAR_SECTIONS": {
-        "TITLE": "サイドバーセクションのカスタマイズ"
-      },
-      "DOCUMENT_STATUSES": {
-        "LABEL": "ドキュメントを下書き、完了、ピン留めのカテゴリに整理します。",
-        "TITLE": "ドキュメントのステータス"
-      },
-      "PRIVACY_NOTE": "プライバシー: <policyLink>プライバシーポリシー</policyLink>をお読みいただくか、<hubLink>プライバシーハブ</hubLink>で設定を変更してください。",
-      "SORT_SIDEBAR": {
-        "KEYWORDS": "サイドバーを整理する A-Zソート",
-        "TITLE": "サイドバーの並べ替え"
-      }
-    }
   },
   "SIDEBAR": {
     "LABEL_ALL_NOTES": "すべてのノート",
@@ -829,5 +716,118 @@
     "TEMPLATES_HELP_TEXT": "タグのテンプレートは、タグ付けされたRemに自動的にコピーされるRemNoteドキュメントです。テンプレート内にヘッダーやチェックリストなどを追加できます。",
     "TURN_OFF_AUTO_APPLY": "自動適用をオフにする",
     "VIEW_CONFIGURATION": "タグの設定"
+  },
+  "DOCUMENT": {
+    "DIALOGS": {
+      "DELETE_ALSO_UNSHARE": "ドキュメントも共有解除しますか？",
+      "DELETE_CONFIRM_DIALOG": "本当にこのドキュメントを削除しますか？",
+      "DELETE_UNSHARE_ERROR": "このドキュメントの共有解除にエラーが発生しました。手動で共有を解除してください。",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "あなたはオフラインです。オンラインに戻ったら、手動でドキュメントの共有を解除してください。"
+    },
+    "MENU": {
+      "ADD_NESTED_DOCUMENT": "入れ子ドキュメントの追加",
+      "CHANGE_DOCUMENT_STATUS": "ドキュメントのステータスを変更",
+      "CUSTOMIZE_SPACED_REPETITION": "間隔反復練習のカスタマイズ",
+      "DELETE": "削除",
+      "EDIT_MODE": {
+        "READ": "表示限定モード",
+        "WRITE": "編集モード"
+      },
+      "EXPORT": "エクスポート",
+      "FIND_OR_FILTER": "検索もしくはフィルター",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "このオプションは非推奨であり、代わりに<keycode />を押してテキスト参照を検索する方法が推奨されます。",
+        "LABEL": "テキストの参照を検索"
+      },
+      "MARK_AS_DOCUMENT": "ドキュメントとしてマーク",
+      "MOVE": "移動",
+      "OPEN_IN_ANOTHER_PANE": "他のタブで開く",
+      "PIN_TO_SIDEBAR": "サイドバーにピン留め",
+      "PRINT": "印刷",
+      "RENAME": "名前の変更",
+      "SHOW_STUDY_BUTTON": "勉強ボタンを表示",
+      "STATS": "統計情報",
+      "UNDO": "戻る",
+      "UNPIN_FROM_SIDEBAR": "サイドバーから削除",
+      "UNSHARE_DOCUMENT": "ドキュメントの共有を取り下げる",
+      "VIEW_GRAPH": "グラフを見る",
+      "VIEW_TRASH": "ゴミ箱を見る"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "下書き",
+      "FINISHED": "完了",
+      "PINNED": "ピン"
+    }
+  },
+  "FILE_UPLOADING": {
+    "CACHED_INFO": "このファイルはオフライン表示用にキャッシュされており、まだアップロードされていない可能性があります。",
+    "LOCAL_ONLY_WARN": "このファイルは正常にアップロードされず、お使いのコンピュータに一時的に保存されています。",
+    "LOCAL_WAITING_FOR_UPLOAD_WARN": "このファイルはまだアップロードされておらず、ローカルにのみ保存されています。",
+    "NOT_FOUND": "このファイルは見つかりません。",
+    "NOT_YET_UPLOADED": "このファイルはまだアップロードされていません。",
+    "SNIPPING": {
+      "NON_PDF": "別のスニッピング/ペーストツールを試すか、サポートにお問い合わせください。",
+      "PDF": "サポートまでご連絡ください。"
+    }
+  },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "AI_DROPDOWN": {
+        "BASIC_CARDS": "ベーシック・カード",
+        "CLOZE_CARDS": "穴埋めカード",
+        "CLOZE_CARDS_TOOLTIP": "選択したテキストから穴埋めフラッシュカードを作成します。",
+        "CONCEPT_CARDS": "コンセプトカード",
+        "CONCEPT_CARDS_TOOLTIP": "選択したテキストから、概念記述フラッシュカードを作成します。",
+        "GENERATE_SECTION": "生成"
+      },
+      "CLOZE_BTN_TOOLTIP": "穴埋めフラッシュカード",
+      "COPY_IMAGE": "画像をコピー",
+      "COPY_TEXT": "プレーンテキストとしてコピー",
+      "HIGHLIGHT": "ハイライト",
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "画像穴埋めフラッシュカードをつくる",
+      "NO_TEXT_IN_PDF_WARN": "このファイルにはテキストレイヤーは含まれていませんが、エリアハイライトを使って注釈を付けることはできます。",
+      "NOTE_BTN_TOOLTIP": "ノート"
+    },
+    "EDIT_ANNOTATIONS": {
+      "DELETE_WARNING": "このハイライトはnotesCount, number notesWordを持っています。本当に削除しますか？",
+      "TURN_INTO_CONCEPT": "コンセプトに変更",
+      "VIEW_REFERENCES": "参考文献を見る"
+    },
+    "HEADER": {
+      "AREA_HIGHLIGHT_TOOLTIP": "エリアハイライト ({{keyName}} + Drag)",
+      "NUMBER_OF_PAGES_TOOLTIP": "ページ数",
+      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "デフォルトドキュメントの切り替え"
+    },
+    "PDF_OPTIONS": {
+      "CHANGE_THEME": "テーマの変更",
+      "DOWNLOAD_PDF": "PDFをダウンロード",
+      "LEARN_MORE": "さらに詳しく",
+      "OPEN_WEBPAGE_EXTERNALLY": "ウェブページを外部で開く",
+      "PDF_SETTINGS": "設定",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "自動ハイライト",
+        "AUTO_HIGHLIGHT_TOOLTIP": "テキスト選択後、自動的にハイライトを作成",
+        "DISABLE_HEADER_BUTTONS": "ヘッダーボタンを無効にする",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "ヘッダーボタン («) がリーダーに表示されないようにする。",
+        "SNAP_HIGHLIGHT_TO_WORDS": "単語にスナップハイライト",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "新しいハイライトを作成する際、単語全体のみを選択します。"
+      },
+      "REFETCH_PAGE": "ページの再取得",
+      "REFETCH_PAGE_TOOLTIP": "既存のハイライトがある場合、このページをリフェッチすることはできません。",
+      "SEARCH_IN_PDF": "PDF内検索",
+      "SPLIT_PANES": "タブの分割",
+      "SPLIT_PANES_TOOLTIP": "エディタとPDFビューアを別々のタブに分割します。",
+      "THEMES": {
+        "CLASSIC_INVERT": "クラシック・インバート",
+        "DARK": "ダークモード",
+        "LIGHT": "ライトモード",
+        "SOLARISED": "ソーラー化",
+        "USE_REMNOTE_THEME": "RemNoteのデフォルトテーマを使う"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "DONE": "完了",
+      "INPUT_PLACEHOLDER": "検索"
+    }
   }
 }
