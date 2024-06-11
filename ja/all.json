@@ -319,7 +319,7 @@
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "LABEL": "現在使用しているRemNoteの機能に関するチュートリアルを、画面の下側に表示します。",
-        "TITLE": "アプリ内チュートリアル",
+        "TITLE": "アプリ内チュートリアルの表示",
         "KEYWORDS": "アプリ内の左側のサイドバー チュートリアル ツールチップ ヘルプ サポート チュートリアルを学ぶ"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
@@ -406,7 +406,7 @@
         }
       },
       "ENABLE_DUE_CARDS_LABEL": "ホーム画面のRemNoteアプリのアイコンに、期限切れカードの総数をバッジで表示する",
-      "ENABLE_DUE_CARDS_TITLE": "iOSでの期限付きカードのバッジ",
+      "ENABLE_DUE_CARDS_TITLE": "期限付きカードのバッジ表示",
       "ENABLE_EMAIL_LABEL": "受信トレイに直接通知を受け取る",
       "ENABLE_EMAIL_TITLE": "Eメールによるコミュニティ通知を有効にする",
       "ENABLE_PUSH_LABEL": "デバイスに直接通知を受け取る",
@@ -762,7 +762,7 @@
   "PDF": {
     "ADD_ANNOTATIONS": {
       "AI_DROPDOWN": {
-        "BASIC_CARDS": "ベーシック・カード",
+        "BASIC_CARDS": "ベーシックカード",
         "BASIC_CARDS_TOOLTIP": "選択したテキストから基本的な質問と回答のフラッシュカードを作成します。",
         "CLOZE_CARDS": "穴埋めカード",
         "CLOZE_CARDS_TOOLTIP": "選択したテキストから穴埋めフラッシュカードを作成します。",
