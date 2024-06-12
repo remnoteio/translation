@@ -304,10 +304,6 @@
       "TOGGLE_TITLE": "Benachrichtigungen filtern"
     },
     "SIDEBAR": {
-      "COMMUNITY_TAB": {
-        "LABEL": "Zeigen Sie in der Seitenleiste die Registerkarte „Community“ an, auf der Sie öffentliche Dokumente und Lerngruppen finden. Wenn Sie dies deaktivieren, können Sie weiterhin über die Kontokapsel darauf zugreifen.",
-        "TITLE": "Community-Link in der Seitenleiste"
-      },
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "Passen Sie Seitenleistenabschnitte an"
       },
@@ -317,6 +313,10 @@
       "PRIVACY_NOTE": "Datenschutz: Lesen Sie unsere<policyLink>Datenschutzrichtlinie</policyLink> , oder ändern Sie Ihre Einstellungen in unserem<hubLink> Datenschutz-Hub</hubLink> .",
       "SORT_SIDEBAR": {
         "TITLE": "Seitenleiste sortieren"
+      },
+      "COMMUNITY_TAB": {
+        "LABEL": "Zeigen Sie in der Seitenleiste die Registerkarte „Community“ an, auf der Sie öffentliche Dokumente und Lerngruppen finden. Wenn Sie dies deaktivieren, können Sie weiterhin über die Kontokapsel darauf zugreifen.",
+        "TITLE": "Community-Link in der Seitenleiste"
       }
     }
   },
