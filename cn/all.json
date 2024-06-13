@@ -69,13 +69,13 @@
         "KEYWORDS": "支持 重置搜索 修复错误"
       },
       "AUTHENTICATION": {
-        "KEYWORDS": "注销 注销 Google 登录方法 添加 断开连接 登录 注册"
+        "KEYWORDS": "退出 登出 Google 登录方式 添加 断开连接 登录 注册"
       },
       "EXPORT_IMPORT": {
         "KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian"
       },
       "NAVIGATION": {
-        "KEYWORDS": "导出和备份 垃圾箱 查看已删除的Rem 导入知识库 查看所有记忆卡片 下载每日备份 高级设置 删除所有Rem"
+        "KEYWORDS": "导出和备份 回收站 查看已删除的 Rem 导入知识库 查看所有卡片 下载每日备份 高级设置 删除所有 Rem"
       },
       "CACHING": {
         "DESCRIPTION": "加载图像时同时进行缓存，以便离线查看。",
@@ -97,7 +97,7 @@
       "COPYLINK": "复制链接",
       "CREATE_ACCOUNT": "创建账户并邀请好友",
       "CREDIT_BALANCE": "积分详情",
-      "CREDIT_BALANCE_TEXT": "您当前剩余 <bold>{{userCredit}}</bold> 积分，总共获得过 <bold>{{userCreditEarned}}</bold> 积分，还可以免费使用 {{months}} 个月的 RemNote Pro 订阅计划。<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>",
+      "CREDIT_BALANCE_TEXT": "您当前剩余 <bold>{{userCredit}}</bold> 积分，已累计获得 <bold>{{userCreditEarned}}</bold> 积分，可免费使用 {{months}} 个月的 RemNote Pro 订阅计划。<div><br />使用积分订阅 RemNote Pro！在您的积分用完之前，我们不会向您收取任何费用。</div>",
       "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
       "ENTER_VALID_EMAIL": "请输入有效的电子邮件地址！",
       "FRIEND_ALREADY_ON_REMNOTE": "您的朋友已在使用 RemNote",
