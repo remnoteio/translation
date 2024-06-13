@@ -175,7 +175,12 @@
         "TITLE": "Aktivieren Sie „In Bullet hineinzoomen“."
       },
       "PREVIEW_REM_ON_HOVER": {
-        "LABEL": "Wenn Sie mit der Maus über eine Referenz fahren, wird eine Vorschau ihres Inhalts angezeigt."
+        "LABEL": "Wenn Sie mit der Maus über eine Referenz fahren, wird eine Vorschau ihres Inhalts angezeigt.",
+        "TITLE": "Vorschau der Referenzen beim Hovern"
+      },
+      "SMOOTHLY_ANIMATE_THE_EDITOR": {
+        "LABEL": "Animieren Sie beim Hinzufügen oder Entfernen von Rems im Editor.",
+        "TITLE": "Animieren Sie den Editor fließend"
       }
     },
     "FLASHCARDS": {
@@ -216,6 +221,26 @@
         "TYPE_ANSWER": {
           "DESCRIPTION": "Zeigen Sie auf der Vorderseite jeder Karteikarte ein Textfeld an und vergleichen Sie Ihre Eingabe mit der Antwort auf der Rückseite der Karte.",
           "TITLE": "Antwort eingeben"
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "DESCRIPTION": "Wenn Sie alle Karten, die heute fällig sind, geübt haben, inwieweit können wir in Zukunft Karten nehmen, die noch nicht fällig sind? So können Sie vermeiden, dass Sie zu früh wieder üben müssen.",
+          "TITLE": "Vorauslerngrenze"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "DESCRIPTION": "Legen Sie die Zeit fest, zu der jeden Tag neue Karten in Ihrer Warteschlange erscheinen.",
+          "TITLE": "Der nächste Tag beginnt um"
+        },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "DESCRIPTION": "Wenn eine Karteikarte gezeigt wird, wird automatisch die Sprachausgabe für die Vorderseite der Karte und die Rückseite der Karte abgespielt.",
+          "TITLE": "Automatische Wiedergabe von Text in Sprache"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "Die Stimme, die für Text in Sprache verwendet wird. Beachten Sie, dass einige Stimmen nur für bestimmte Sprachen funktionieren.",
+          "TITLE": "Stimme für Text in Sprache"
+        },
+        "TEXT_TO_SPEECH_SPEED": {
+          "DESCRIPTION": "Die Geschwindigkeit, in der der Text auf den Karteikarten gesprochen wird.",
+          "TITLE": "Text to Speech Geschwindigkeit"
         }
       },
       "ORDERING": {
