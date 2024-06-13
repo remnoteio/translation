@@ -25,7 +25,7 @@
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "语言",
-    "TRANSLATION_INFO_SETTINGS": "翻译正在进行中，您将看到英语和所选语言的混合。<br>您可以先阅读<guideLink>教程</guideLink>，然后使用<editorLink>网络编辑器</editorLink>帮我们加速翻译。",
+    "TRANSLATION_INFO_SETTINGS": "翻译仍在进行中，您将看到英语和所选语言的混合展示。<br>您可以先阅读<guideLink>教程</guideLink>，然后使用我们的<editorLink>网页编辑器</editorLink>来协助翻译。",
     "TRANSLATION_IN_PROGRESS": "RemNote 的翻译仍然在进行中。您可以在<editorLink>on inlang</editorLink>上<bold>贡献翻译</bold>。"
   },
   "SETTINGS": {
@@ -33,7 +33,7 @@
       "ADVANCED_TITLE": "高级设置",
       "AUTHENTICATION_TITLE": "认证授权",
       "DANGER_ZONE": {
-        "KEYWORDS": "同步日志 删除账户 重置演示进度 重置导引 高级账户设置",
+        "KEYWORDS": "删除账户 重置进度 重置入门指南 高级账户设置",
         "TITLE": "风险操作"
       },
       "DANGER_ZONE_TITLE": "风险操作",
