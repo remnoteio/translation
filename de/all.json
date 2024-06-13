@@ -9,8 +9,19 @@
       "HIDE": "Verstecken",
       "REMOVE": "Entfernen",
       "UPDATE": "Aktualisieren",
-      "VIEW": "Ansicht"
-    }
+      "VIEW": "Ansicht",
+      "COPY": "Kopieren"
+    },
+    "AI": {
+      "AI_FLASHCARDS": "KI-Karteikarten"
+    },
+    "GENERAL": {
+      "FLASHCARD_one": "Karteikarte",
+      "FLASHCARD_other": "Karteikarten",
+      "NOTE_one": "Notiz",
+      "NOTE_other": "Notizen"
+    },
+    "NEW": "Neu"
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Sprache",
@@ -65,6 +76,14 @@
       },
       "NAVIGATION": {
         "KEYWORDS": "Exportieren und Sichere Papierkorb Gelöschte Rem Wissensdatenbank importieren Alle Karten anzeigen  Tägliches Backup herunterladen Erweiterte Einstellungen  Alle Rem löschen"
+      },
+      "CACHING": {
+        "DESCRIPTION": "Speichert Bilder beim Hochladen zwischen, sodass sie offline angezeigt werden können.",
+        "NUMBER_DESCRIPTION": "Legt die maximale Anzahl von Bildern fest, die zwischengespeichert werden sollen. Wenn das Limit erreicht ist, werden die ältesten Bilder aus dem Cache entfernt.",
+        "NUMBER_TITLE": "Maximale Anzahl an Bildern im Cache",
+        "TITLE": "Cache",
+        "TOGGLE_DESCRIPTION": "Bei Deaktivierung werden alle zwischengespeicherten Bilder gelöscht.",
+        "TOGGLE_TITLE": "Cache aktivieren"
       }
     },
     "EARN_CREDIT": {
@@ -72,11 +91,13 @@
       "COPIED": "Kopiert!",
       "COPYLINK": "Link kopieren",
       "CREATE_ACCOUNT": "Erstellen Sie ein Konto, um Freunde einzuladen",
+      "CREDIT_BALANCE": "Kontostand",
       "CREDIT_BALANCE_TEXT": "Sie haben <bold>{{userCredit}}</bold> Restguthaben und <bold> {{userCreditEarned}}</bold> Guthaben insgesamt erhalten. {{months}} verbleibender Monat oder verbleibende Monate RemNote Pro kostenlos.<br /><br /> Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung auf dem Konto erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.",
       "EMAIL_PLACEHOLDER": "neugierigfreund@gmail.com",
       "ENTER_VALID_EMAIL": "Geben Sie eine gültige E-Mail-Adresse ein!",
       "FRIEND_ALREADY_ON_REMNOTE": "Ihr Freund ist bereits auf RemNote",
       "FRIENDS_TITLE": "Freunde",
+      "HANG_ON": "Einen Moment",
       "INVITE": "Einladen",
       "INVITE_COPIED": "Einladungslink kopiert!",
       "INVITE_EMAIL": "Per E-Mail einladen",
@@ -87,6 +108,7 @@
       "INVITED_YOU": "(hat dich eingeladen)",
       "KEYWORDS": "Freunde einladen und Guthaben verdienen Tarif Abonnement ändern",
       "NOT_CONFIRMED_EMAIL": "(hat die E-Mail nicht bestätigt)",
+      "SEND_INVITE": "Einladung senden",
       "SHARE_LINK": "Einladungslink teilen",
       "TITLE": "Guthaben verdienen",
       "TOAST_RENEW": "Ihr Guthaben wird automatisch angewendet, wenn Ihr aktuelles Abonnement verlängert wird.",
@@ -114,12 +136,24 @@
         }
       },
       "GENERAL": {
+        "CAPITALIZE_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Wenn Sie einen Rem durch Drücken von Cmd+Return in einer Suche erstellen, schreiben Sie seinen Namen groß.",
+            "PC": "Wenn Sie einen Rem durch Drücken von Strg+Eingabe in einer Suche erstellen, schreiben Sie seinen Namen groß."
+          },
+          "TITLE": "Verwenden Sie Großbuchstaben aus der Suche"
+        },
         "CREATE_CONCEPTS_FROM_SEARCH": {
           "DESCRIPTION": {
             "MAC": "Wenn Sie ein Rem durch Drücken von Cmd+Return in einer Suche erstellen, machen Sie daraus ein Konzept.",
             "PC": "Wenn Sie ein Rem erstellen, indem Sie in einer Suche Strg+Eingabe drücken, machen Sie daraus ein Konzept."
           },
           "TITLE": "Erstellen Sie Konzepte von der Suche aus"
+        },
+        "CREATE_STUBS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Wenn Sie ein Rem durch Drücken von Cmd+Return in einer Suche erstellen, beschriften Sie es mit „Skizze“."
+          }
         },
         "ENABLE_SPELLCHECK": {
           "DESCRIPTION": "Überprüfen Sie das aktuell fokussierte Rem auf Tippfehler.",
