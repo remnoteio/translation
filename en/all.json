@@ -2,7 +2,6 @@
   "COMMON": {
     "ACTIONS": {
       "APPLY": "Apply",
-      "COPY": "Copy",
       "CREATE": "Create",
       "DELETE": "Delete",
       "DUPLICATE": "Duplicate",
@@ -10,7 +9,8 @@
       "HIDE": "Hide",
       "REMOVE": "Remove",
       "UPDATE": "Update",
-      "VIEW": "View"
+      "VIEW": "View",
+      "COPY": "Copy"
     },
     "AI": {
       "AI_FLASHCARDS": "AI Flashcards"
@@ -23,275 +23,21 @@
     },
     "NEW": "New"
   },
-  "COMMUNITY": {
-    "ARTICLES": {
-      "ERRORS": {
-        "SHARING": {
-          "NO_CONTENT": {
-            "SRC": "The document you are trying to share looks a bit empty. Please add at least {{minimum}} rems, then try again.",
-            "SUBDOCUMENT": "One of your subdocuments looks a bit empty. It won't be published until it has {{minimum}} rems."
-          },
-          "NO_TITLE": {
-            "SRC": "The document you are trying to share doesn't have a title. You need to add one before publishing it.",
-            "SUBDOCUMENT": "One of your subdocuments doesn't have a title. It won't be published until it has one."
-          }
-        }
-      }
-    }
-  },
-  "DOCUMENT": {
-    "DIALOGS": {
-      "DELETE_ALSO_UNSHARE": "Do you want to unshare the document as well?",
-      "DELETE_CONFIRM_DIALOG": "Are you sure you want to delete this document?",
-      "DELETE_UNSHARE_ERROR": "There was an error unsharing this document. Please unshare it manually.",
-      "DELETE_UNSHARE_OFFLINE_ERROR": "You are offline. Please unshare the document manually when you are back online."
-    },
-    "MENU": {
-      "ADD_NESTED_DOCUMENT": "Add Nested Document",
-      "CHANGE_DOCUMENT_STATUS": "Change Document Status",
-      "CUSTOMIZE_SPACED_REPETITION": "Customize Spaced Repetition",
-      "DELETE": "Delete",
-      "EDIT_MODE": {
-        "READ": "Read Only Mode",
-        "WRITE": "Edit Mode"
-      },
-      "EXPORT": "Export",
-      "FIND_OR_FILTER": "Find or Filter",
-      "FIND_TEXT_REFERENCES": {
-        "DEPRECATION_WARNING": "This option is deprecated and it is recommended that you use the alternative method of pressing <keycode /> and then searching for text references instead.",
-        "LABEL": "Find Text References"
-      },
-      "MARK_AS_DOCUMENT": "Mark as Document",
-      "MOVE": "Move",
-      "OPEN_IN_ANOTHER_PANE": "Open in Another Pane",
-      "PIN_TO_SIDEBAR": "Pin to Sidebar",
-      "PRINT": "Print",
-      "RENAME": "Rename",
-      "SHOW_STUDY_BUTTON": "Show Study Button",
-      "STATS": "Stats",
-      "UNDO": "Undo",
-      "UNPIN_FROM_SIDEBAR": "Unpin from Sidebar",
-      "UNSHARE_DOCUMENT": "Unshare Document",
-      "VIEW_GRAPH": "View Graph",
-      "VIEW_TRASH": "View Trash"
-    },
-    "PUBLISH_STATUS": {
-      "DRAFT": "Draft",
-      "FINISHED": "Finished",
-      "PINNED": "Pinned"
-    }
-  },
-  "FILE_UPLOADING": {
-    "CACHED_INFO": "This file is cached for offline viewing and may not have been uploaded yet.",
-    "LOCAL_ONLY_WARN": "This file was not uploaded successfully, and is stored temporarily on your computer.",
-    "LOCAL_WAITING_FOR_UPLOAD_WARN": "This file has not been uploaded yet, and is only stored locally.",
-    "NOT_FOUND": "This file cannot be found.",
-    "NOT_YET_UPLOADED": "This file has not been uploaded yet.",
-    "SNIPPING": {
-      "NON_PDF": "Please try a different snipping/pasting tool, or contact support.",
-      "PDF": "Please contact support."
-    }
-  },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Language",
     "TRANSLATION_INFO_SETTINGS": "Translation is still in progress; you will encounter a mix of English and the selected language.<br>You can contribute by reviewing the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink> to assist with translations."
   },
-  "NOTIFICATIONS": {
-    "ARTICLE_DEFAULT": "Your document",
-    "ARTICLE_VIEWS": {
-      "BODY_1": "Your document",
-      "BODY_2": "has gotten {{viewCount, number}} views"
-    },
-    "DOCUMENT_ADDED_TO_GROUP": {
-      "BODY": "was added to"
-    },
-    "EMPTY_STATE_MESSAGE": "You're all caught up! You'll receive notifications when someone interacts with the content shared on your <profileLink>profile</profileLink>",
-    "EMPTY_STATE_TITLE": "You have no recent notifications",
-    "GROUP_DEFAULT": "Your group",
-    "IMPORT": {
-      "BODY": "Someone imported your document"
-    },
-    "INVITE": {
-      "ACCEPT": "Accept Invite",
-      "BODY": "has invited you to join",
-      "REJECT": "Reject"
-    },
-    "NEW_COMMENT": {
-      "BODY": "commented on",
-      "BODY_ARTICLE": "commented on your document",
-      "BODY_COMMENT": "replied to your comment",
-      "BODY_GROUP": "sent a chat to your group"
-    },
-    "NEW_FOLLOWER": {
-      "BODY": "followed you"
-    },
-    "NEW_LIKE": {
-      "BODY": "liked"
-    },
-    "POPUP_TITLE": "Recent Notifications"
-  },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "0": {
-          "TITLE": "Create A Folder"
-        },
-        "1": {
-          "TITLE": "Add a Bullet"
-        },
-        "2": {
-          "TITLE": "Create a Flashcard"
-        },
-        "3": {
-          "TITLE": "Structure Notes Using Tab"
-        }
-      }
-    }
-  },
-  "PAGES": {
-    "ALL_NOTES": {
-      "SORT": {
-        "ASCENDING": "A -> Z",
-        "BY_CREATION_TIME": "By creation time",
-        "BY_MODIFICATION": "By modification",
-        "BY_TITLE": "By title",
-        "DESCENDING": "Z -> A",
-        "OLDEST_CREATION_FIRST": "Oldest creation first",
-        "OLDEST_FIRST": "Oldest first",
-        "RECENTLY_CREATED": "Recently created",
-        "RECENTLY_MODIFIED": "Recently modified"
-      },
-      "TITLE": "All Notes"
-    }
-  },
-  "PDF": {
-    "ADD_ANNOTATIONS": {
-      "AI_DROPDOWN": {
-        "BASIC_CARDS": "Basic Cards",
-        "BASIC_CARDS_TOOLTIP": "Generate basic question-answer flashcards from the selected text.",
-        "CLOZE_CARDS": "Cloze (Fill-in-the-Blank) Cards",
-        "CLOZE_CARDS_TOOLTIP": "Generate cloze flashcards from the selected text.",
-        "CONCEPT_CARDS": "Concept Cards",
-        "CONCEPT_CARDS_TOOLTIP": "Generate concept-descriptor flashcards from the selected text.",
-        "GENERATE_SECTION": "GENERATE"
-      },
-      "CLOZE_BTN_TOOLTIP": "Cloze (Fill-in-the-Blank) Flashcard",
-      "COPY_IMAGE": "Copy Image",
-      "COPY_TEXT": "Copy as Plain Text",
-      "HIGHLIGHT": "Highlight",
-      "MAKE_IMG_OCC_BTN_TOOLTIP": "Make Image Occlusion Flashcards",
-      "NO_TEXT_IN_PDF_WARN": "This file does not contain a text layer, but you can still use area highlights to annotate.",
-      "NOTE_BTN_TOOLTIP": "Note"
-    },
-    "EDIT_ANNOTATIONS": {
-      "ADVANCED_LINKING_OPTIONS": "Advanced Linking Options",
-      "DELETE_WARNING": "This highlight has {{notesCount, number}} {{ notesWord }}. Are you sure you want to delete it?",
-      "TURN_INTO_CONCEPT": "Turn into Concept",
-      "VIEW_REFERENCES": "View References"
-    },
-    "HEADER": {
-      "AREA_HIGHLIGHT_TOOLTIP": "Area Highlight ({{keyName}} + Drag)",
-      "NUMBER_OF_PAGES_TOOLTIP": "number of pages",
-      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "Toggle Default Document"
-    },
-    "PDF_OPTIONS": {
-      "CHANGE_THEME": "Change theme",
-      "DOWNLOAD_PDF": "Download PDF",
-      "LEARN_MORE": "Learn more",
-      "OPEN_WEBPAGE_EXTERNALLY": "Open webpage externally",
-      "PDF_SETTINGS": "Settings",
-      "PDF_SETTINGS_MENU": {
-        "AUTO_HIGHLIGHT": "Auto highlight",
-        "AUTO_HIGHLIGHT_TOOLTIP": "Automatically create highlights after text is selected.",
-        "DISABLE_HEADER_BUTTONS": "Disable header buttons",
-        "DISABLE_HEADER_BUTTONS_TOOLTIP": "Disable header buttons («) from appearing in the reader.",
-        "SNAP_HIGHLIGHT_TO_WORDS": "Snap highlight to words",
-        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "When making new highlights, only select entire words."
-      },
-      "REFETCH_PAGE": "Refetch page",
-      "REFETCH_PAGE_TOOLTIP": "This page cannot be refetched if it has existing highlights.",
-      "SEARCH_IN_PDF": "Search in PDF",
-      "SPLIT_PANES": "Split panes",
-      "SPLIT_PANES_TOOLTIP": "Split the editor and PDF viewer into separate panes.",
-      "THEMES": {
-        "CLASSIC_INVERT": "Classic Invert",
-        "DARK": "Dark",
-        "LIGHT": "Light",
-        "SOLARISED": "Solarised",
-        "USE_REMNOTE_THEME": "Use RemNote theme"
-      }
-    },
-    "SEARCH_CTRL_F": {
-      "DONE": "Done",
-      "INPUT_PLACEHOLDER": "Search"
-    }
-  },
-  "POPUPS": {
-    "CREATE_CONTENT_OPTIONS": {
-      "DOCUMENT": {
-        "DESCRIPTION": "Organize flashcards and notes into documents.",
-        "TITLE": "Document"
-      },
-      "FOLDER": {
-        "DESCRIPTION": "Organize documents into folders.",
-        "TITLE": "Folder"
-      },
-      "QUICK_ADD": {
-        "DESCRIPTION": "Capture your ideas on the fly!",
-        "TITLE": "Quick Add"
-      },
-      "TABLE_TAG": {
-        "DESCRIPTION": "Create a tag for use with tables and templates.",
-        "TITLE": "Tag & Table"
-      },
-      "TODAYS_DOCUMENT": {
-        "DESCRIPTION": "Daily Documents are perfect for journaling, to-do lists and more.",
-        "TITLE": "Today's Document"
-      },
-      "UPLOAD_FILE": {
-        "DESCRIPTION": "Highlight & reference PDFs, PPTs, Word docs, etc.",
-        "FEATURE_NAME": "PDF Highlighting",
-        "PAYWALL": "You have reached your limit for PDF uploads.",
-        "TITLE": "Upload & Annotate File",
-        "todo_for_the_item_below": "move this into a global feature name object?"
-      }
-    }
-  },
-  "POWERUPS": {
-    "POWERUP_one": "Powerup",
-    "POWERUP_other": "Powerups"
-  },
   "SETTINGS": {
     "ACCOUNT": {
-      "ADVANCED": {
-        "KEYWORDS": "Support Rewire Search Fix Bug"
-      },
       "ADVANCED_TITLE": "Advanced Settings",
-      "AUTHENTICATION": {
-        "KEYWORDS": "Logout Log out Google Login Method Add Disconnect Sign In Sign Up"
-      },
       "AUTHENTICATION_TITLE": "Authentication",
-      "CACHING": {
-        "DESCRIPTION": "Cache images when they are loaded so they can be viewed offline.",
-        "NUMBER_DESCRIPTION": "Set the maximum number of images to cache. When the limit is reached the oldest images will be cleared from the cache.",
-        "NUMBER_TITLE": "Maximum Cached Images",
-        "TITLE": "Caching",
-        "TOGGLE_DESCRIPTION": "When disabled, any cached images will be cleared.",
-        "TOGGLE_TITLE": "Enable Cache"
-      },
       "DANGER_ZONE": {
         "KEYWORDS": "sync log delete account reset walkthrough progress reset onboarding advanced account settings",
         "TITLE": "Danger Zone"
       },
       "DANGER_ZONE_TITLE": "Danger Zone",
-      "EXPORT_IMPORT": {
-        "KEYWORDS": "Export Backup Export Roam Dynalist Logseq Notion Evernote Obsidian"
-      },
       "IMPORT_EXPORT_TITLE": "Import and Export",
       "MY_PROFILE": "My Profile",
-      "NAVIGATION": {
-        "KEYWORDS": "Export and Backup Trash View Deleted Rem Import Knowledge Base View All Cards  Download a Daily Backup Advanced Settings Delete All Rem"
-      },
       "NAVIGATION_TITLE": "Navigation",
       "PRIVACY": {
         "KEYWORDS": "privacy",
@@ -313,6 +59,26 @@
       "VERSION": {
         "KEYWORDS": "version",
         "TITLE": "Application Version"
+      },
+      "ADVANCED": {
+        "KEYWORDS": "Support Rewire Search Fix Bug"
+      },
+      "AUTHENTICATION": {
+        "KEYWORDS": "Logout Log out Google Login Method Add Disconnect Sign In Sign Up"
+      },
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Export Backup Export Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "NAVIGATION": {
+        "KEYWORDS": "Export and Backup Trash View Deleted Rem Import Knowledge Base View All Cards  Download a Daily Backup Advanced Settings Delete All Rem"
+      },
+      "CACHING": {
+        "DESCRIPTION": "Cache images when they are loaded so they can be viewed offline.",
+        "NUMBER_DESCRIPTION": "Set the maximum number of images to cache. When the limit is reached the oldest images will be cleared from the cache.",
+        "NUMBER_TITLE": "Maximum Cached Images",
+        "TITLE": "Caching",
+        "TOGGLE_DESCRIPTION": "When disabled, any cached images will be cleared.",
+        "TOGGLE_TITLE": "Enable Cache"
       }
     },
     "EARN_CREDIT": {
@@ -396,6 +162,10 @@
       }
     },
     "EDITOR_INTERFACE": {
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "TITLE": "Single-Click References to Open",
+        "LABEL": "When you click or tap on a Reference, immediately go to its target, rather than opening the reference menu. (You can always show the reference menu by right-clicking.)"
+      },
       "ENABLE_ZOOM_INTO_BULLET": {
         "LABEL": "When you click on the bullet pointer, show the rem as a full page",
         "TITLE": "Enable Zooming into Bullet"
@@ -408,10 +178,6 @@
         "LABEL": "Make ring around bullet larger or smaller based on no. of descendants.",
         "TITLE": "Scale Collapsed Rem Bullets"
       },
-      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
-        "LABEL": "When you click or tap on a Reference, immediately go to its target, rather than opening the reference menu. (You can always show the reference menu by right-clicking.)",
-        "TITLE": "Single-Click References to Open"
-      },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
         "LABEL": "Animate adding or deleting Rems in the editor.",
         "TITLE": "Smoothly Animate The Editor"
@@ -420,8 +186,8 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "Target",
-          "DESCRIPTION": "Practice at least this many flashcards every day to build streaks."
+          "DESCRIPTION": "Practice at least this many flashcards every day to build streaks.",
+          "TITLE": "Target"
         },
         "TODAYS_TARGET": "Today's Smoothed Target:",
         "TODAYS_TARGET_EXPLANATION": "If RemNote predicts that, over the next week, you'll have fewer cards due for practice on average than your configured daily target, we'll temporarily reduce your daily target so you have a roughly equal number of cards each day, rather than a lot at the beginning and fewer at the end."
@@ -431,14 +197,6 @@
           "DESCRIPTION": "Automatically play audio or video content on flashcards.",
           "TITLE": "Autoplay Media"
         },
-        "AUTOPLAY_TEXT_TO_SPEECH": {
-          "DESCRIPTION": "When showing a flashcard, automatically play the text to speech audio for the front of card, and the back of card once revealed.",
-          "TITLE": "Autoplay Text to Speech"
-        },
-        "LEARN_AHEAD_LIMIT": {
-          "DESCRIPTION": "When you've practiced all cards that are due, how far from the future can we take cards that aren't due yet? This helps you avoid needing to practice again very soon.",
-          "TITLE": "Learn Ahead Limit"
-        },
         "LEECH_THRESHOLD": {
           "DESCRIPTION": "Issue a warning after you press Forgot this many times on a difficult card. <leechArticle>Read more about leeches.</leechArticle>",
           "TITLE": "Leech Threshold"
@@ -446,10 +204,6 @@
         "NEW_CARDS_PER_DAY": {
           "DESCRIPTION": "Include at most this many newly created flashcards in your flashcard queue each day. This way, new cards will enter your queue at a steady daily rate, rather than in a giant batch.",
           "TITLE": "Max New Cards Per Day"
-        },
-        "NEXT_DAY_STARTS_AT": {
-          "DESCRIPTION": "Set the time when new cards will appear in your queue each day.",
-          "TITLE": "Next Day Starts At"
         },
         "RESET_ALL": {
           "CONFIRM_MESSAGE": "Are you sure you want to reset all flashcard settings to their default values?",
@@ -464,6 +218,22 @@
           "DESCRIPTION": "Reintroduce at most this many stale flashcards into your flashcard queue each day. Stale cards are ones which are temporarily withheld from the queue because you haven't studied them in a long time and relearning them all at once would be exhausting.",
           "TITLE": "Max Stale Cards Per Day"
         },
+        "TYPE_ANSWER": {
+          "DESCRIPTION": "Show a text box on the front of each flashcard and compare what you type to the answer on the back of the card.",
+          "TITLE": "Type Answer"
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "DESCRIPTION": "When you've practiced all cards that are due, how far from the future can we take cards that aren't due yet? This helps you avoid needing to practice again very soon.",
+          "TITLE": "Learn Ahead Limit"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "DESCRIPTION": "Set the time when new cards will appear in your queue each day.",
+          "TITLE": "Next Day Starts At"
+        },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "DESCRIPTION": "When showing a flashcard, automatically play the text to speech audio for the front of card, and the back of card once revealed.",
+          "TITLE": "Autoplay Text to Speech"
+        },
         "TEXT_TO_SPEECH_VOICE": {
           "DESCRIPTION": "The voice used for text to speech. Note that some voices only work for certain languages.",
           "TITLE": "Text to Speech Voice"
@@ -471,10 +241,6 @@
         "TEXT_TO_SPEECH_SPEED": {
           "DESCRIPTION": "The rate at which flashcard text is spoken.",
           "TITLE": "Text to Speech Speed"
-        },
-        "TYPE_ANSWER": {
-          "DESCRIPTION": "Show a text box on the front of each flashcard and compare what you type to the answer on the back of the card.",
-          "TITLE": "Type Answer"
         }
       },
       "ORDERING": {
@@ -531,14 +297,14 @@
         "TITLE": "RemNote Interface Language"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
-        "KEYWORDS": "in app left sidebar tutorials tooltips help support learn tutorial",
         "LABEL": "Show tutorials on RemNote features at the bottom of your sidebar.",
-        "TITLE": "In-App Tutorials"
+        "TITLE": "In-App Tutorials",
+        "KEYWORDS": "in app left sidebar tutorials tooltips help support learn tutorial"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
-        "KEYWORDS": "tooltips help support learn tutorial",
         "LABEL": "Show tips on keyboard shortcuts you're currently using in the corner of the screen.",
-        "TITLE": "Keyboard Shortcut Tips"
+        "TITLE": "Keyboard Shortcut Tips",
+        "KEYWORDS": "tooltips help support learn tutorial"
       }
     },
     "KEYBOARD_SHORTCUTS": {
@@ -569,6 +335,10 @@
           "PC": "Split With Alt+Enter"
         }
       }
+    },
+    "PLANS": {
+      "KEYWORDS": "invite friends plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options",
+      "TITLE": "Plans"
     },
     "NOTIFICATIONS": {
       "DESCRIPTIONS": {
@@ -601,23 +371,19 @@
           "TITLE": "Streak notifications"
         }
       },
-      "ENABLE_COMMUNITY_LABEL": "Receive instant notifications when someone interacts with your shared content",
-      "ENABLE_COMMUNITY_TITLE": "Shared Flashcards Notifications",
       "ENABLE_DUE_CARDS_LABEL": "Show the total number of due cards as a badge on the RemNote app icon on your home screen",
       "ENABLE_DUE_CARDS_TITLE": "Due cards badge",
       "ENABLE_EMAIL_LABEL": "Receive notifications directly to your inbox",
       "ENABLE_EMAIL_TITLE": "Enable email community notifications",
       "ENABLE_PUSH_LABEL": "Receive notifications directly to your device",
       "ENABLE_PUSH_TITLE": "Push notifications",
+      "TOGGLE_LABEL": "Control which notifications you want to receive directly to your device",
+      "TOGGLE_TITLE": "Notify me, when:",
+      "ENABLE_COMMUNITY_LABEL": "Receive instant notifications when someone interacts with your shared content",
+      "ENABLE_COMMUNITY_TITLE": "Shared Flashcards Notifications",
       "ENABLE_STREAK_DESCRIPTION": "Receive daily reminders at 6pm about your flashcard streak",
       "ENABLE_STREAK_TITLE": "Mobile Streak Notifications",
-      "PUSH_ENABLE_MESSAGE": "Push notifications aren't configured on this device. Click here to set them up!",
-      "TOGGLE_LABEL": "Control which notifications you want to receive directly to your device",
-      "TOGGLE_TITLE": "Notify me, when:"
-    },
-    "PLANS": {
-      "KEYWORDS": "invite friends plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options",
-      "TITLE": "Plans"
+      "PUSH_ENABLE_MESSAGE": "Push notifications aren't configured on this device. Click here to set them up!"
     },
     "SIDEBAR": {
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
@@ -633,6 +399,125 @@
         "TITLE": "Sort Sidebar"
       }
     }
+  },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_CONTENT": {
+            "SRC": "The document you are trying to share looks a bit empty. Please add at least {{minimum}} rems, then try again.",
+            "SUBDOCUMENT": "One of your subdocuments looks a bit empty. It won't be published until it has {{minimum}} rems."
+          },
+          "NO_TITLE": {
+            "SRC": "The document you are trying to share doesn't have a title. You need to add one before publishing it.",
+            "SUBDOCUMENT": "One of your subdocuments doesn't have a title. It won't be published until it has one."
+          }
+        }
+      }
+    }
+  },
+  "NOTIFICATIONS": {
+    "ARTICLE_DEFAULT": "Your document",
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Your document",
+      "BODY_2": "has gotten {{viewCount, number}} views"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "was added to"
+    },
+    "EMPTY_STATE_MESSAGE": "You're all caught up! You'll receive notifications when someone interacts with the content shared on your <profileLink>profile</profileLink>",
+    "EMPTY_STATE_TITLE": "You have no recent notifications",
+    "GROUP_DEFAULT": "Your group",
+    "IMPORT": {
+      "BODY": "Someone imported your document"
+    },
+    "INVITE": {
+      "ACCEPT": "Accept Invite",
+      "BODY": "has invited you to join",
+      "REJECT": "Reject"
+    },
+    "NEW_COMMENT": {
+      "BODY": "commented on",
+      "BODY_ARTICLE": "commented on your document",
+      "BODY_COMMENT": "replied to your comment",
+      "BODY_GROUP": "sent a chat to your group"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "followed you"
+    },
+    "NEW_LIKE": {
+      "BODY": "liked"
+    },
+    "POPUP_TITLE": "Recent Notifications"
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "0": {
+          "TITLE": "Create A Folder"
+        },
+        "1": {
+          "TITLE": "Add a Bullet"
+        },
+        "2": {
+          "TITLE": "Create a Flashcard"
+        },
+        "3": {
+          "TITLE": "Structure Notes Using Tab"
+        }
+      }
+    }
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "SORT": {
+        "ASCENDING": "A -> Z",
+        "BY_CREATION_TIME": "By creation time",
+        "BY_MODIFICATION": "By modification",
+        "BY_TITLE": "By title",
+        "DESCENDING": "Z -> A",
+        "OLDEST_CREATION_FIRST": "Oldest creation first",
+        "OLDEST_FIRST": "Oldest first",
+        "RECENTLY_CREATED": "Recently created",
+        "RECENTLY_MODIFIED": "Recently modified"
+      },
+      "TITLE": "All Notes"
+    }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "DESCRIPTION": "Organize flashcards and notes into documents.",
+        "TITLE": "Document"
+      },
+      "FOLDER": {
+        "DESCRIPTION": "Organize documents into folders.",
+        "TITLE": "Folder"
+      },
+      "QUICK_ADD": {
+        "DESCRIPTION": "Capture your ideas on the fly!",
+        "TITLE": "Quick Add"
+      },
+      "TABLE_TAG": {
+        "DESCRIPTION": "Create a tag for use with tables and templates.",
+        "TITLE": "Tag & Table"
+      },
+      "TODAYS_DOCUMENT": {
+        "DESCRIPTION": "Daily Documents are perfect for journaling, to-do lists and more.",
+        "TITLE": "Today's Document"
+      },
+      "UPLOAD_FILE": {
+        "DESCRIPTION": "Highlight & reference PDFs, PPTs, Word docs, etc.",
+        "FEATURE_NAME": "PDF Highlighting",
+        "PAYWALL": "You have reached your limit for PDF uploads.",
+        "TITLE": "Upload & Annotate File",
+        "todo_for_the_item_below": "move this into a global feature name object?"
+      }
+    }
+  },
+  "POWERUPS": {
+    "POWERUP_one": "Powerup",
+    "POWERUP_other": "Powerups"
   },
   "SIDEBAR": {
     "LABEL_ALL_NOTES": "All Notes",
@@ -661,14 +546,14 @@
     "UPLOAD_SOURCE": {
       "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
       "INVALID": "Sorry, RemNote cannot accept file uploads of this type.",
-      "IMPORT_INSTEAD": "RemNote cannot accept file uploads of this type. However, we might be able to import the notes or flashcards in this file! Try choosing “Import” from the upper-left account menu.",
       "LABEL": "Upload",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Select files",
       "SELECT_FILES_TO_UPLOAD": "Select files to upload",
-      "UPLOADING": "Uploading..."
+      "UPLOADING": "Uploading...",
+      "IMPORT_INSTEAD": "RemNote cannot accept file uploads of this type. However, we might be able to import the notes or flashcards in this file! Try choosing “Import” from the upper-left account menu."
     },
     "WIKIMEDIA_COMMONS": {
       "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
@@ -764,9 +649,9 @@
     "CREATE_TEMPLATE": "Create Template",
     "HIDE_CONFIGURATION": "Hide Configuration",
     "NEW_TEMPLATE": "New Template",
-    "PROPERTIES_HELP_TEXT": [
-      "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
-    ],
+    "PROPERTIES_HELP_TEXT": {
+      "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
+    },
     "PROPERTY_one": "Property",
     "PROPERTY_other": "Properties",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Property",
@@ -779,5 +664,120 @@
     "TEMPLATES_HELP_TEXT": "A tag's template is a RemNote document that can be automatically copied to tagged Rems. Add headers, checklists, and more right within your template.",
     "TURN_OFF_AUTO_APPLY": "Turn off Auto-Apply",
     "VIEW_CONFIGURATION": "Configure Tag"
+  },
+  "DOCUMENT": {
+    "DIALOGS": {
+      "DELETE_ALSO_UNSHARE": "Do you want to unshare the document as well?",
+      "DELETE_CONFIRM_DIALOG": "Are you sure you want to delete this document?",
+      "DELETE_UNSHARE_ERROR": "There was an error unsharing this document. Please unshare it manually.",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "You are offline. Please unshare the document manually when you are back online."
+    },
+    "MENU": {
+      "ADD_NESTED_DOCUMENT": "Add Nested Document",
+      "CHANGE_DOCUMENT_STATUS": "Change Document Status",
+      "CUSTOMIZE_SPACED_REPETITION": "Customize Spaced Repetition",
+      "DELETE": "Delete",
+      "EDIT_MODE": {
+        "READ": "Read Only Mode",
+        "WRITE": "Edit Mode"
+      },
+      "EXPORT": "Export",
+      "FIND_OR_FILTER": "Find or Filter",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "This option is deprecated and it is recommended that you use the alternative method of pressing <keycode /> and then searching for text references instead.",
+        "LABEL": "Find Text References"
+      },
+      "MARK_AS_DOCUMENT": "Mark as Document",
+      "MOVE": "Move",
+      "OPEN_IN_ANOTHER_PANE": "Open in Another Pane",
+      "PIN_TO_SIDEBAR": "Pin to Sidebar",
+      "PRINT": "Print",
+      "RENAME": "Rename",
+      "SHOW_STUDY_BUTTON": "Show Study Button",
+      "STATS": "Stats",
+      "UNDO": "Undo",
+      "UNPIN_FROM_SIDEBAR": "Unpin from Sidebar",
+      "UNSHARE_DOCUMENT": "Unshare Document",
+      "VIEW_GRAPH": "View Graph",
+      "VIEW_TRASH": "View Trash"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "Draft",
+      "FINISHED": "Finished",
+      "PINNED": "Pinned"
+    }
+  },
+  "FILE_UPLOADING": {
+    "CACHED_INFO": "This file is cached for offline viewing and may not have been uploaded yet.",
+    "LOCAL_ONLY_WARN": "This file was not uploaded successfully, and is stored temporarily on your computer.",
+    "LOCAL_WAITING_FOR_UPLOAD_WARN": "This file has not been uploaded yet, and is only stored locally.",
+    "NOT_FOUND": "This file cannot be found.",
+    "NOT_YET_UPLOADED": "This file has not been uploaded yet.",
+    "SNIPPING": {
+      "NON_PDF": "Please try a different snipping/pasting tool, or contact support.",
+      "PDF": "Please contact support."
+    }
+  },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "AI_DROPDOWN": {
+        "BASIC_CARDS": "Basic Cards",
+        "BASIC_CARDS_TOOLTIP": "Generate basic question-answer flashcards from the selected text.",
+        "CLOZE_CARDS": "Cloze (Fill-in-the-Blank) Cards",
+        "CLOZE_CARDS_TOOLTIP": "Generate cloze flashcards from the selected text.",
+        "CONCEPT_CARDS": "Concept Cards",
+        "CONCEPT_CARDS_TOOLTIP": "Generate concept-descriptor flashcards from the selected text.",
+        "GENERATE_SECTION": "GENERATE"
+      },
+      "CLOZE_BTN_TOOLTIP": "Cloze (Fill-in-the-Blank) Flashcard",
+      "COPY_IMAGE": "Copy Image",
+      "COPY_TEXT": "Copy as Plain Text",
+      "HIGHLIGHT": "Highlight",
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "Make Image Occlusion Flashcards",
+      "NO_TEXT_IN_PDF_WARN": "This file does not contain a text layer, but you can still use area highlights to annotate.",
+      "NOTE_BTN_TOOLTIP": "Note"
+    },
+    "EDIT_ANNOTATIONS": {
+      "ADVANCED_LINKING_OPTIONS": "Advanced Linking Options",
+      "DELETE_WARNING": "This highlight has {{notesCount, number}} {{ notesWord }}. Are you sure you want to delete it?",
+      "TURN_INTO_CONCEPT": "Turn into Concept",
+      "VIEW_REFERENCES": "View References"
+    },
+    "HEADER": {
+      "AREA_HIGHLIGHT_TOOLTIP": "Area Highlight ({{keyName}} + Drag)",
+      "NUMBER_OF_PAGES_TOOLTIP": "number of pages",
+      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "Toggle Default Document"
+    },
+    "PDF_OPTIONS": {
+      "CHANGE_THEME": "Change theme",
+      "DOWNLOAD_PDF": "Download PDF",
+      "LEARN_MORE": "Learn more",
+      "OPEN_WEBPAGE_EXTERNALLY": "Open webpage externally",
+      "PDF_SETTINGS": "Settings",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "Auto highlight",
+        "AUTO_HIGHLIGHT_TOOLTIP": "Automatically create highlights after text is selected.",
+        "DISABLE_HEADER_BUTTONS": "Disable header buttons",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "Disable header buttons («) from appearing in the reader.",
+        "SNAP_HIGHLIGHT_TO_WORDS": "Snap highlight to words",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "When making new highlights, only select entire words."
+      },
+      "REFETCH_PAGE": "Refetch page",
+      "REFETCH_PAGE_TOOLTIP": "This page cannot be refetched if it has existing highlights.",
+      "SEARCH_IN_PDF": "Search in PDF",
+      "SPLIT_PANES": "Split panes",
+      "SPLIT_PANES_TOOLTIP": "Split the editor and PDF viewer into separate panes.",
+      "THEMES": {
+        "CLASSIC_INVERT": "Classic Invert",
+        "DARK": "Dark",
+        "LIGHT": "Light",
+        "SOLARISED": "Solarised",
+        "USE_REMNOTE_THEME": "Use RemNote theme"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "DONE": "Done",
+      "INPUT_PLACEHOLDER": "Search"
+    }
   }
 }
