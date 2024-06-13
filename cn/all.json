@@ -106,25 +106,25 @@
       "INVITE": "邀请",
       "INVITE_COPIED": "已复制邀请链接！",
       "INVITE_EMAIL": "通过电子邮件邀请",
-      "INVITE_ERROR": "暂时出问题了，请稍后再试。",
-      "INVITE_FRIENDS_EARN_CREDIT": "邀请好友赚积分！每成功通过邀请链接完成注册，双方均可获得  <0>{{monthlyPrice}}</0> 的 RemNote 积分。",
+      "INVITE_ERROR": "出了点问题，请稍后再试。",
+      "INVITE_FRIENDS_EARN_CREDIT": "每邀请一个朋友，您将获得 {{monthlyPrice}} 的 RemNote 积分！他们也将获得 {{monthlyPrice}} 的积分。",
       "INVITE_FRIENDS_REMNOTE": "邀请您的朋友加入 RemNote！",
-      "INVITE_TEXT": "邀请赚积分",
+      "INVITE_TEXT": "邀请朋友",
       "INVITED_YOU": "(邀请您)",
-      "KEYWORDS": "邀请朋友 赚取积分计划 更改订阅 赚取积分 免费RemNote 发送推文 电子邮件 选择计划 终身学习 专业功能细分 定价选项",
+      "KEYWORDS": "邀请朋友赚取积分 订阅计划 更改订阅 赚取积分 免费 RemNote 发送推文 邮件 选择计划 终身学习 Pro 功能详解 定价选项",
       "NOT_CONFIRMED_EMAIL": "(未确认邮件地址)",
       "SEND_INVITE": "发送邀请",
       "SHARE_LINK": "分享邀请链接",
       "TITLE": "赚取积分",
-      "TOAST_RENEW": "当您续订当前订阅计划时，会先自动消耗您的积分。",
-      "TOAST_SUBSCRIBE": "当您订阅 RemNote Pro 时，会先自动消耗您的积分。请选择以下计划，然后开始使用吧！",
+      "TOAST_RENEW": "您的积分将在当前订阅续订时自动应用。",
+      "TOAST_SUBSCRIBE": "您的积分将在您订阅 RemNote Pro 时自动应用，选择下面的计划开始吧！",
       "VERIFY_EMAIL": "请先验证您的电子邮件，才能邀请他人",
       "SUBSCRIBE_NOTICE": "<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
         "DATE_FORMATTING": {
-          "DESCRIPTION": "设置 /date 命令插入的日期格式",
+          "DESCRIPTION": "设置 RemNote 中显示的日期格式",
           "TITLE": "日期格式"
         },
         "DATE_FORMATTING_CUSTOM": {
@@ -132,7 +132,7 @@
           "TITLE": "自定义日期格式"
         },
         "TIME_FORMATTING": {
-          "DESCRIPTION": "设置 /time 命令插入的日期格式",
+          "DESCRIPTION": "设置 /time 命令插入的时间格式",
           "TITLE": "时间格式"
         },
         "WEEK_STARTS_ON_MONDAY": {
