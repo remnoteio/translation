@@ -146,24 +146,24 @@
             "MAC": "搜索中按 Cmd + Enter 创建 Rem 时自动将首字母大写",
             "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时自动将首字母大写"
           },
-          "TITLE": "搜索中创建 Rem"
+          "TITLE": "从搜索中创建 Rem"
         },
         "CREATE_CONCEPTS_FROM_SEARCH": {
           "DESCRIPTION": {
             "MAC": "搜索中按 Cmd+ Enter 键创建 Rem 时自动转化为概念(Concept)",
             "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时自动转化为概念(Concept)"
           },
-          "TITLE": "搜索中创建概念"
+          "TITLE": "从搜索中创建概念"
         },
         "CREATE_STUBS_FROM_SEARCH": {
           "DESCRIPTION": {
             "MAC": "搜索中按 Cmd + Enter 键创建 Rem 时自动打上“Stub”标签",
-            "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时自动打上“Stub”标签"
+            "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时自动应用“Stub”标签"
           },
-          "TITLE": "搜索中创建 Stub"
+          "TITLE": "从搜索中创建 Stub"
         },
         "ENABLE_SPELLCHECK": {
-          "DESCRIPTION": "检查当前聚焦的 Rem 是否存在拼写错误",
+          "DESCRIPTION": "检查当前聚焦的 Rem 是否有拼写错误。拼写检查使用您浏览器或操作系统中选择的语言。",
           "TITLE": "启用拼写检查"
         },
         "INSERT_EMOJIS_AS_REFERENCES": {
@@ -175,18 +175,18 @@
     "EDITOR_INTERFACE": {
       "SINGLE_CLICK_REFERENCES_TO_OPEN": {
         "TITLE": "单击打开引用",
-        "LABEL": "点击引用会立即跳转到被引用的内容，而不是打开引用菜单。（您总是可以通过右键单击调出引用菜单）"
+        "LABEL": "点击或轻触引用时立即跳转到目标内容，而不是打开引用菜单。（您始终可以通过右键单击来显示引用菜单）"
       },
       "ENABLE_ZOOM_INTO_BULLET": {
-        "LABEL": "当您单击项目符号时，将 rem 作为整个页面显示。",
-        "TITLE": "启用缩放项目符号"
+        "LABEL": "当您单击项目符号时，将 rem 作为全页显示。",
+        "TITLE": "启用项目符号缩放"
       },
       "PREVIEW_REM_ON_HOVER": {
-        "LABEL": "鼠标悬停在引用上显示其引用内容的预览",
-        "TITLE": "预览引用内容"
+        "LABEL": "鼠标悬停在引用上显示其内容的预览",
+        "TITLE": "悬停预览引用"
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
-        "LABEL": "当 Rem 被折叠后，根据其子 Rem 数量自动放大或缩小项目符号",
+        "LABEL": "根据后代数量自动缩放项目符号。",
         "TITLE": "自动缩放项目符号"
       },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
@@ -197,23 +197,23 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "DESCRIPTION": "限制 RemNote 要求每天复习的最大记忆卡片数量",
-          "TITLE": "每日最高目标"
+          "DESCRIPTION": "设置每天至少练习的记忆卡片数量，以建立连续练习的记录。",
+          "TITLE": "目标"
         },
         "TODAYS_TARGET": "今日目标：",
-        "TODAYS_TARGET_EXPLANATION": "如果您每天都能达到预定目标，RemNote 会尝试自动设置您的每日目标，以便在接下来的 7 天内完成复习所有需要复习的卡片。注意，自动设置的目标值永远不会超过上述每日最高目标。"
+        "TODAYS_TARGET_EXPLANATION": "如果 RemNote 预测到，在接下来的一周里，你平均每天需要练习的卡片数少于你设定的每日目标，我们将暂时调整你的每日目标，以确保你每天的卡片数大致相等，而不是前期很多，后期较少。"
       },
       "GENERAL": {
         "AUTOPLAY_MEDIA": {
-          "DESCRIPTION": "在展示记忆卡片时，自动播放卡片上的音频活视频",
+          "DESCRIPTION": "自动播放记忆卡片上的音频或视频内容。",
           "TITLE": "自动播放媒体"
         },
         "LEECH_THRESHOLD": {
-          "DESCRIPTION": "在记忆卡片中，\"Leeches\"（难题卡片）是指那些您反复学习然后又忘记的困难卡片。如果您在某张卡片上点击了比设定值更多次的\"忘记\"，我们会发出警告，以便您找出并解决难以记住的问题。将此值设定得更高，可以减少难题警告出现的次数。",
-          "TITLE": "错误阈值"
+          "DESCRIPTION": "设置在困难卡片上按下“忘记”时发出警告的次数阈值。 <leechArticle>了解更多关于卡片标记的信息。</leechArticle>",
+          "TITLE": "遗忘阈值"
         },
         "NEW_CARDS_PER_DAY": {
-          "DESCRIPTION": "设置每天允许加入记忆卡片队列的新卡片数量，因此新卡片每天会以稳定的速度加入您的卡片队列，而不是一次性大批量地加入队列。",
+          "DESCRIPTION": "设置每天允许加入记忆卡片队列的新卡片数量，因此新卡片以每天稳定的速度加入您的卡片队列，而不是一次性大批量地加入队列。",
           "TITLE": "每日最大新卡数量"
         },
         "RESET_ALL": {
@@ -222,23 +222,23 @@
           "TITLE": "重置全部记忆卡片设置"
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
-          "DESCRIPTION": "在复习卡片时只显示”忘记“和“努力回忆”的反馈按钮，而不显示剩余的其他五个选项",
+          "DESCRIPTION": "在记忆卡片上只显示”忘记“和“部分记得”的反馈按钮。",
           "TITLE": "简化记忆卡片按钮"
         },
         "STALE_CARDS_PER_DAY": {
-          "DESCRIPTION": "设置每天允许重新加入记忆卡片队列的旧卡片数量，旧卡片是暂时被排除在卡片队列之外的卡片。因为您很久没有复习过它们，一次性重新加入复习队列会让您筋疲力尽。",
-          "TITLE": "每日最大过期卡片数量"
+          "DESCRIPTION": "设置每天允许加入记忆卡片队列的过期卡片数量，过期卡片是因为您很长时间没有学习它们而被暂时从队列中撤回的卡片，一次性重新学习它们会很耗费精力。",
+          "TITLE": "每日最多过期卡片数"
         },
         "TYPE_ANSWER": {
-          "DESCRIPTION": "在每张卡片的正面显示一个文本框，自动将您输入的内容与卡片背面的答案进行比较",
+          "DESCRIPTION": "在每张记忆卡片的正面显示一个文本框，并将您输入的内容与卡片背面的答案进行比较。",
           "TITLE": "输入答案"
         },
         "LEARN_AHEAD_LIMIT": {
-          "DESCRIPTION": "当您复习到队列末尾时，RemNote 会提前显示未来若干分钟内将要到期的卡片，以避免在完成队列后又立刻看到到期的卡片。",
+          "DESCRIPTION": "当您已经练习了所有到期的卡片后，我们可以从未到期的卡片中选取未来到期的卡片，这有助于您避免很快需要再次练习。",
           "TITLE": "超前学习限制"
         },
         "NEXT_DAY_STARTS_AT": {
-          "DESCRIPTION": "每天此时都会有新卡出现在您的队列中。",
+          "DESCRIPTION": "设置每天新卡片加入在您的队列中的时间。",
           "TITLE": "次日起始时间"
         },
         "AUTOPLAY_TEXT_TO_SPEECH": {
