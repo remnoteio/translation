@@ -9,8 +9,19 @@
       "HIDE": "隐藏",
       "REMOVE": "移除",
       "UPDATE": "更新",
-      "VIEW": "查看"
-    }
+      "VIEW": "查看",
+      "COPY": "复制"
+    },
+    "AI": {
+      "AI_FLASHCARDS": "AI 记忆卡片"
+    },
+    "GENERAL": {
+      "FLASHCARD_one": "记忆卡片",
+      "FLASHCARD_other": "记忆卡片",
+      "NOTE_one": "笔记",
+      "NOTE_other": "笔记"
+    },
+    "NEW": "新建"
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "语言",
@@ -65,6 +76,14 @@
       },
       "NAVIGATION": {
         "KEYWORDS": "导出和备份 垃圾箱 查看已删除的Rem 导入知识库 查看所有记忆卡片 下载每日备份 高级设置 删除所有Rem"
+      },
+      "CACHING": {
+        "DESCRIPTION": "加载图像时同时进行缓存，以便离线查看。",
+        "NUMBER_DESCRIPTION": "设置要缓存的最大图像数。当达到限制时，将从缓存中清除最旧的图像。",
+        "NUMBER_TITLE": "最大缓存图像数量",
+        "TITLE": "缓存",
+        "TOGGLE_DESCRIPTION": "禁用后，所有缓存的图像都将被清除。",
+        "TOGGLE_TITLE": "启用缓存"
       },
       "ADVANCED_KEYWORDS": "支持 重装 搜索 修复错误",
       "AUTHENTICATION_KEYWORDS": "退出 退出Google登录 添加 断开连接 登录 注册",
@@ -221,6 +240,18 @@
         "NEXT_DAY_STARTS_AT": {
           "DESCRIPTION": "每天此时都会有新卡出现在您的队列中。",
           "TITLE": "次日起始时间"
+        },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "DESCRIPTION": "当记忆卡片展示时，自动播放卡片正面的文字语音音频，同时显示卡片背面一次。",
+          "TITLE": "自动播放文本转语音"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "用于文本转语音的声音。请注意某些声音仅适用于某些语言。",
+          "TITLE": "文本转语音"
+        },
+        "TEXT_TO_SPEECH_SPEED": {
+          "DESCRIPTION": "朗读记忆卡片的速度",
+          "TITLE": "文本转语音的速度"
         }
       },
       "ORDERING": {
@@ -381,7 +412,12 @@
       "ENABLE_PUSH_LABEL": "开启后，发送消息通知到您的设备",
       "ENABLE_PUSH_TITLE": "启用推送通知",
       "TOGGLE_LABEL": "管理发送到您的设备或邮箱的通知",
-      "TOGGLE_TITLE": "通知管理"
+      "TOGGLE_TITLE": "通知管理",
+      "ENABLE_COMMUNITY_LABEL": "当有人与您分享的内容互动时，立即接收通知。",
+      "ENABLE_COMMUNITY_TITLE": "共享记忆卡片通知",
+      "ENABLE_STREAK_DESCRIPTION": "每天晚上6点接收关于您记忆卡片连续使用情况的提醒。",
+      "ENABLE_STREAK_TITLE": "移动端连续使用提醒",
+      "PUSH_ENABLE_MESSAGE": "此设备尚未配置推送通知。点击这里进行设置！"
     },
     "SIDEBAR": {
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
@@ -554,7 +590,8 @@
       "PDF_WITH_COUNT_other": "{{count, number}} PDF",
       "SELECT_FILES": "选择文件",
       "SELECT_FILES_TO_UPLOAD": "选择上传文件",
-      "UPLOADING": "正在上传"
+      "UPLOADING": "正在上传",
+      "IMPORT_INSTEAD": "RemNote 无法接受此类型的文件上传，但可以导入此文件中的笔记或记忆卡片！请尝试从左上角的账户菜单中选择‘导入’。"
     },
     "WIKIMEDIA_COMMONS": {
       "EMPTY": "将 PDF、Word 文档、PPT 和 <moreLink>more</moreLink> 文件拖放到这里！",
@@ -668,6 +705,121 @@
     "VIEW_CONFIGURATION": "设置标签",
     "ADD_PROPERTY": "添加属性",
     "NEW_PROPERTY": "新属性"
+  },
+  "DOCUMENT": {
+    "DIALOGS": {
+      "DELETE_ALSO_UNSHARE": "您是否也想取消共享该文档？",
+      "DELETE_CONFIRM_DIALOG": "您确定要删除该文档吗？",
+      "DELETE_UNSHARE_ERROR": "取消共享此文档时出错，请手动取消共享。",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "您当前处于离线状态，请在联网后手动取消共享该文档。"
+    },
+    "MENU": {
+      "ADD_NESTED_DOCUMENT": "添加嵌套文档",
+      "CHANGE_DOCUMENT_STATUS": "更改文档状态",
+      "CUSTOMIZE_SPACED_REPETITION": "自定义间隔重复",
+      "DELETE": "删除",
+      "EDIT_MODE": {
+        "READ": "只读模式",
+        "WRITE": "编辑模式"
+      },
+      "EXPORT": "导出",
+      "FIND_OR_FILTER": "查找或筛选",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "此选项已弃用，建议您使用替代方法：按下 <keycode /> 键，然后搜索文本引用。",
+        "LABEL": "查找文本引用"
+      },
+      "MARK_AS_DOCUMENT": "标记为文档",
+      "MOVE": "移动",
+      "OPEN_IN_ANOTHER_PANE": "在新窗格中打开",
+      "PIN_TO_SIDEBAR": "固定到侧边栏",
+      "PRINT": "打印",
+      "RENAME": "重命名",
+      "SHOW_STUDY_BUTTON": "显示学习按钮",
+      "STATS": "统计",
+      "UNDO": "撤销",
+      "UNPIN_FROM_SIDEBAR": "从侧边栏取消固定",
+      "UNSHARE_DOCUMENT": "取消文档共享",
+      "VIEW_GRAPH": "查看图谱",
+      "VIEW_TRASH": "查看回收站"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "草稿",
+      "FINISHED": "已完成",
+      "PINNED": "已固定"
+    }
+  },
+  "FILE_UPLOADING": {
+    "CACHED_INFO": "此文件尚未上传，已缓存用于离线查看。",
+    "LOCAL_ONLY_WARN": "此文件未成功上传，暂时存储在您的计算机上。",
+    "LOCAL_WAITING_FOR_UPLOAD_WARN": "此文件尚未上传，仅存储在本地。",
+    "NOT_FOUND": "找不到此文件。",
+    "NOT_YET_UPLOADED": "此文件尚未上传。",
+    "SNIPPING": {
+      "NON_PDF": "请尝试使用其他截图/粘贴工具，或联系支持人员。",
+      "PDF": "请联系支持人员。"
+    }
+  },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "AI_DROPDOWN": {
+        "BASIC_CARDS": "基础卡片",
+        "BASIC_CARDS_TOOLTIP": "从选定文本生成问答形式基础记忆卡片。",
+        "CLOZE_CARDS": "完形填空卡片",
+        "CLOZE_CARDS_TOOLTIP": "从选定文本生成完形填空记忆卡片。",
+        "CONCEPT_CARDS": "概念卡片",
+        "CONCEPT_CARDS_TOOLTIP": "从选定文本生成概念-描述记忆卡片。",
+        "GENERATE_SECTION": "生成"
+      },
+      "CLOZE_BTN_TOOLTIP": "完形填空记忆卡片",
+      "COPY_IMAGE": "复制图像",
+      "COPY_TEXT": "复制为纯文本",
+      "HIGHLIGHT": "高亮",
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "制作图像遮蔽记忆卡片",
+      "NO_TEXT_IN_PDF_WARN": "此文件不包含文本层，但您仍然可以使用区域高亮来注解。",
+      "NOTE_BTN_TOOLTIP": "笔记"
+    },
+    "EDIT_ANNOTATIONS": {
+      "ADVANCED_LINKING_OPTIONS": "高级链接选项",
+      "DELETE_WARNING": "此高亮包含 {{notesCount, number}} {{ notesWord }}。您确定要删除它吗？",
+      "TURN_INTO_CONCEPT": "转换为概念",
+      "VIEW_REFERENCES": "查看引用"
+    },
+    "HEADER": {
+      "AREA_HIGHLIGHT_TOOLTIP": "区域高亮 ({{keyName}} + 拖动)",
+      "NUMBER_OF_PAGES_TOOLTIP": "页数",
+      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "切换默认文档"
+    },
+    "PDF_OPTIONS": {
+      "CHANGE_THEME": "更改主题",
+      "DOWNLOAD_PDF": "下载 PDF",
+      "LEARN_MORE": "了解更多",
+      "OPEN_WEBPAGE_EXTERNALLY": "在应用外打开网页",
+      "PDF_SETTINGS": "设置",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "自动高亮",
+        "AUTO_HIGHLIGHT_TOOLTIP": "选中文本后自动创建高亮。",
+        "DISABLE_HEADER_BUTTONS": "禁用标题按钮",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "在阅读器中隐藏标题按钮（«）。",
+        "SNAP_HIGHLIGHT_TO_WORDS": "高亮自动对齐到单词",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "创建高亮时，仅选择完整单词。"
+      },
+      "REFETCH_PAGE": "重新获取页面",
+      "REFETCH_PAGE_TOOLTIP": "如果页面已有高亮标记，将无法重新获取该页面。",
+      "SEARCH_IN_PDF": "在 PDF 中搜索",
+      "SPLIT_PANES": "拆分窗格",
+      "SPLIT_PANES_TOOLTIP": "将编辑器和 PDF 阅读器拆分到不同的窗格中。",
+      "THEMES": {
+        "CLASSIC_INVERT": "经典主题色反转",
+        "DARK": "暗黑",
+        "LIGHT": "明亮",
+        "SOLARISED": "Solarised",
+        "USE_REMNOTE_THEME": "使用 RemNote 主题"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "DONE": "完成",
+      "INPUT_PLACEHOLDER": "搜索"
+    }
   },
   "COMMUNITY_NOTIFICATIONS": {
     "DOCUMENT_ADDED_TO_GROUP": {
