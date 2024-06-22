@@ -466,7 +466,8 @@
         },
         "TEXT_TO_SPEECH_VOICE": {
           "DESCRIPTION": "The voice used for text to speech. Note that some voices only work for certain languages.",
-          "TITLE": "Text to Speech Voice"
+          "TITLE": "Text to Speech Voice",
+          "SAMPLE": "The mitochondria is the powerhouse of the cell."
         },
         "TEXT_TO_SPEECH_SPEED": {
           "DESCRIPTION": "The rate at which flashcard text is spoken.",
