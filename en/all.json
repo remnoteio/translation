@@ -420,11 +420,11 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "Target",
+          "TITLE": "Goal",
           "DESCRIPTION": "Practice at least this many flashcards every day to build streaks."
         },
-        "TODAYS_TARGET": "Today's Smoothed Target:",
-        "TODAYS_TARGET_EXPLANATION": "If RemNote predicts that, over the next week, you'll have fewer cards due for practice on average than your configured daily target, we'll temporarily reduce your daily target so you have a roughly equal number of cards each day, rather than a lot at the beginning and fewer at the end."
+        "TODAYS_TARGET": "Today's Smoothed Goal:",
+        "TODAYS_TARGET_EXPLANATION": "If RemNote predicts that, over the next week, you'll have fewer cards due for practice on average than your configured daily goal, we'll temporarily reduce your daily goal so you have a roughly equal number of cards each day, rather than a lot at the beginning and fewer at the end."
       },
       "GENERAL": {
         "AUTOPLAY_MEDIA": {
