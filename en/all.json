@@ -504,7 +504,7 @@
       },
       "VISUAL": {
         "SHOW_NEXT_REVIEW_TIMES": {
-          "DESCRIPTION": "Display the time until the next review on each answer button.",
+          "DESCRIPTION": "When practicing with spaced repetition, show the time until the next review on each answer button.",
           "TITLE": "Show Next Review Times"
         }
       }
