@@ -445,16 +445,16 @@
   "ONBOARDING": {
     "SIDEBAR": {
       "INITIAL": {
-        "0": {
+        "PAGE_0": {
           "TITLE": "Utwórz folder"
         },
-        "1": {
+        "PAGE_1": {
           "TITLE": "Dodaj punktor"
         },
-        "2": {
+        "PAGE_2": {
           "TITLE": "Utwórz fiszkę"
         },
-        "3": {
+        "PAGE_3": {
           "TITLE": "Porządkuj notatki urzywając Tab"
         }
       }

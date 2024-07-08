@@ -168,16 +168,16 @@
   "ONBOARDING": {
     "SIDEBAR": {
       "INITIAL": {
-        "0": {
+        "PAGE_0": {
           "TITLE": "Tạo Một Thư Mục"
         },
-        "1": {
+        "PAGE_1": {
           "TITLE": "Thêm một Dấu đầu dòng"
         },
-        "2": {
+        "PAGE_2": {
           "TITLE": "Tạo một Flashcard"
         },
-        "3": {
+        "PAGE_3": {
           "TITLE": "Sấp Xếp Ghi Chú Bằng Cách Sử Dụng Tab"
         }
       }

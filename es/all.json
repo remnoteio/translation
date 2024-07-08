@@ -461,16 +461,16 @@
   "ONBOARDING": {
     "SIDEBAR": {
       "INITIAL": {
-        "0": {
+        "PAGE_0": {
           "TITLE": "Crear una Carpeta "
         },
-        "1": {
+        "PAGE_1": {
           "TITLE": "Agregar una viñeta"
         },
-        "2": {
+        "PAGE_2": {
           "TITLE": "Crear una Flashcard"
         },
-        "3": {
+        "PAGE_3": {
           "TITLE": "Organizar notas usando Tab"
         }
       }

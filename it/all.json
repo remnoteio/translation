@@ -331,13 +331,13 @@
   "ONBOARDING": {
     "SIDEBAR": {
       "INITIAL": {
-        "0": {
+        "PAGE_0": {
           "TITLE": "Crea una cartella"
         },
-        "1": {
+        "PAGE_1": {
           "TITLE": "Aggiungi un punto elenco"
         },
-        "2": {
+        "PAGE_2": {
           "TITLE": "Crea una Flashcard"
         }
       }
