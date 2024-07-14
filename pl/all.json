@@ -177,6 +177,30 @@
       "TITLE": "Wszystkie Notatki"
     }
   },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "AI_DROPDOWN": {
+        "BASIC_CARDS": "Podstawowe Fiszki",
+        "BASIC_CARDS_TOOLTIP": "Stwórz podstawowe fiszki pytań i odpowiedzi z zaznaczonego tekstu.",
+        "CLOZE_CARDS": "Fiszki z Tekstem do Uzupełnienia",
+        "CLOZE_CARDS_TOOLTIP": "Stwórz fiszki z tekstem do uzupełnienia korzystając z obecnie zaznaczonego tekstu",
+        "CONCEPT_CARDS": "Fiszki Pojęć",
+        "CONCEPT_CARDS_TOOLTIP": "Stwórz fiszki pojęć-deskryptorów z zaznaczonego tekstu.",
+        "GENERATE_SECTION": "GENERUJ"
+      },
+      "CLOZE_BTN_TOOLTIP": "Fiszka z Tekstem do Uzupełnienia",
+      "COPY_IMAGE": "Skopiuj Zdjęcie",
+      "COPY_TEXT": "Skopiuj jako Zwykły Tekst",
+      "HIGHLIGHT": "Wyróżnij",
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "Stwórz Fiszki Zasłoniętych Zdjęć",
+      "NO_TEXT_IN_PDF_WARN": "Ten plik nie zawiera warstwy tekstowej, ale nadal możesz używać wyróżnień obszarów do dodawania adnotacji.",
+      "NOTE_BTN_TOOLTIP": "Notatka"
+    },
+    "EDIT_ANNOTATIONS": {
+      "ADVANCED_LINKING_OPTIONS": "Zaawansowane Opcje Łączenia",
+      "DELETE_WARNING": "To wyróżnienie ma {{notesCount, number}} {{ notesWord }}. Czy na pewno chcesz je usunąć?"
+    }
+  },
   "POPUPS": {
     "CREATE_CONTENT_OPTIONS": {
       "DOCUMENT": {
