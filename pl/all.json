@@ -137,6 +137,15 @@
         "0": {
           "TITLE": "Stwórz Folder"
         },
+        "1": {
+          "TITLE": "Dodaj Punkt"
+        },
+        "2": {
+          "TITLE": "Stwórz Fiszkę"
+        },
+        "3": {
+          "TITLE": "Uporządkuj Notatki Korzystając z klawisza Tab"
+        },
         "PAGE_0": {
           "TITLE": "Utwórz folder"
         },
@@ -155,15 +164,15 @@
   "PAGES": {
     "ALL_NOTES": {
       "SORT": {
-        "ASCENDING": "Od A do Z",
-        "BY_CREATION_TIME": "Od czasu utworzenia",
-        "BY_MODIFICATION": "Od ostatnio zmodyfikowanych",
-        "BY_TITLE": "Alfabetycznie",
-        "DESCENDING": "Od Z do A",
-        "OLDEST_CREATION_FIRST": "Od najstarszych",
-        "OLDEST_FIRST": "Od najstarszych",
-        "RECENTLY_CREATED": "Od najnowszych",
-        "RECENTLY_MODIFIED": "Od ostatnio zmodyfikowanych"
+        "ASCENDING": "A -> Z",
+        "BY_CREATION_TIME": "Według czasu utworzenia",
+        "BY_MODIFICATION": "Według modyfikacji",
+        "BY_TITLE": "Według tytułu",
+        "DESCENDING": "Z -> A",
+        "OLDEST_CREATION_FIRST": "Najpierw najdawniej utworzone",
+        "OLDEST_FIRST": "Najpierw najstarsze",
+        "RECENTLY_CREATED": "Niedawno utworzone",
+        "RECENTLY_MODIFIED": "Niedawno zmodyfikowane"
       },
       "TITLE": "Wszystkie Notatki"
     }
