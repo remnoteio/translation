@@ -118,18 +118,39 @@
       "REJECT": "Odrzuć"
     },
     "NEW_COMMENT": {
-      "BODY": "odpowiedział/-a na",
-      "BODY_ARTICLE": "odpowiedział/-a na Twój dokument",
+      "BODY": "skomentował/-a na",
+      "BODY_ARTICLE": "skomentował/-a na Twój dokument",
       "BODY_COMMENT": "odpowiedział/-a na Twój komentarz",
-      "BODY_GROUP": "wyślij czat do Twojej grupy"
+      "BODY_GROUP": "wysłał/-a wiadomość do Twojej grupy"
     },
     "NEW_FOLLOWER": {
-      "BODY": "zaobserwował/-a"
+      "BODY": "zaobserwował/-a Cię"
     },
     "NEW_LIKE": {
       "BODY": "polubił/-a"
     },
     "POPUP_TITLE": "Nowe Powiadomienia"
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "0": {
+          "TITLE": "Stwórz Folder"
+        },
+        "PAGE_0": {
+          "TITLE": "Utwórz folder"
+        },
+        "PAGE_1": {
+          "TITLE": "Dodaj punktor"
+        },
+        "PAGE_2": {
+          "TITLE": "Utwórz fiszkę"
+        },
+        "PAGE_3": {
+          "TITLE": "Porządkuj notatki urzywając Tab"
+        }
+      }
+    }
   },
   "PAGES": {
     "ALL_NOTES": {
@@ -703,23 +724,5 @@
     "VIEW_CONFIGURATION": "Skonfiguruj Tag",
     "ADD_PROPERTY": "Dodaj Właściwość",
     "NEW_PROPERTY": "Nowa Właściwość"
-  },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "PAGE_0": {
-          "TITLE": "Utwórz folder"
-        },
-        "PAGE_1": {
-          "TITLE": "Dodaj punktor"
-        },
-        "PAGE_2": {
-          "TITLE": "Utwórz fiszkę"
-        },
-        "PAGE_3": {
-          "TITLE": "Porządkuj notatki urzywając Tab"
-        }
-      }
-    }
   }
 }
