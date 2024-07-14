@@ -2,14 +2,52 @@
   "COMMON": {
     "ACTIONS": {
       "APPLY": "Zatwierdź",
+      "COPY": "Skopiuj",
       "CREATE": "Utwórz",
-      "DELETE": "Usuń",
+      "DELETE": "Skasuj",
       "DUPLICATE": "Duplikuj\n",
       "EDIT": "Edytuj",
       "HIDE": "Ukryj",
-      "REMOVE": "Wytnij",
+      "REMOVE": "Usuń",
       "UPDATE": "Aktualizuj",
       "VIEW": "Widok"
+    },
+    "AI": {
+      "AI_FLASHCARDS": "Fiszki AI"
+    },
+    "GENERAL": {
+      "FLASHCARD_one": "Fiszka",
+      "FLASHCARD_other": "Fiszki",
+      "NOTE_one": "notatka",
+      "NOTE_other": "notatki"
+    },
+    "NEW": "Nowy"
+  },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_CONTENT": {
+            "SRC": "Dokument, który próbujesz udostępnić, wygląda na nieco pusty. Dodaj co najmniej {{minimum}} remów, a następnie spróbuj ponownie.",
+            "SUBDOCUMENT": "Jeden z Twoich dokumentów podrzędnych wygląda na trochę pusty. Nie zostanie opublikowany, dopóki nie będzie zawierał {{minimum}} remów."
+          },
+          "NO_TITLE": {
+            "SRC": "Dokument, który próbujesz udostępnić, nie ma tytułu. Musisz dodać go przed jego opublikowaniem.",
+            "SUBDOCUMENT": "Jeden z Twoich dokumentów podrzędnych nie ma tytułu. Nie zostanie opublikowany, dopóki go nie nazwiesz."
+          }
+        }
+      }
+    }
+  },
+  "DOCUMENT": {
+    "DIALOGS": {
+      "DELETE_ALSO_UNSHARE": "Czy chcesz zrezygnować z udostępniania również tego dokumentu?",
+      "DELETE_CONFIRM_DIALOG": "Czy jesteś pewny, że chcesz skasować ten dokument?",
+      "DELETE_UNSHARE_ERROR": "W trakcie rezygnacji z udostępniania wystąpił problem. Spróbuj zrezygnować z udostępnienia samodzielnie.",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "Jesteś offline. Proszę, zrezygnuj z udostępnienia dokumentu samodzielnie, kiedy jesteś z powrotem online."
+    },
+    "MENU": {
+      "ADD_NESTED_DOCUMENT": "Dodaj Zagnieżdżony Dokument"
     }
   },
   "LANGUAGE": {
@@ -17,22 +55,115 @@
     "TRANSLATION_INFO_SETTINGS": "Tłumaczenie jest nadal w toku; zobaczysz mieszankę języka angielskiego i wybranego języka.<br> Możesz pomóc nam w tłumaczeniu, czytając<guideLink> instruktaż</guideLink> a następnie skorzystaj z naszego<editorLink> redaktor internetowy</editorLink> .",
     "TRANSLATION_IN_PROGRESS": "Tłumaczenie w toku"
   },
+  "NOTIFICATIONS": {
+    "ARTICLE_DEFAULT": "Twój dokument",
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Twój dokument",
+      "BODY_2": "wyświetlono {{viewCount, number}} raz/-y"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "dodano do"
+    },
+    "EMPTY_STATE_MESSAGE": "Wszystko gotowe! Będziesz otrzymywać powiadomienia, gdy ktoś wejdzie w interakcję z treścią udostępnioną na Twoim koncie<profileLink> profil</profileLink>",
+    "EMPTY_STATE_TITLE": "Nie masz żadnych nowych powiadomień",
+    "GROUP_DEFAULT": "Twoja grupa",
+    "IMPORT": {
+      "BODY": "Ktoś zaimportował Twój dokument"
+    },
+    "INVITE": {
+      "ACCEPT": "Przyjmij Zaproszenie",
+      "BODY": "zaprosił/-a Cię do dołączenia",
+      "REJECT": "Odrzuć"
+    },
+    "NEW_COMMENT": {
+      "BODY": "odpowiedział/-a na",
+      "BODY_ARTICLE": "odpowiedział/-a na Twój dokument",
+      "BODY_COMMENT": "odpowiedział/-a na Twój komentarz",
+      "BODY_GROUP": "wyślij czat do Twojej grupy"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "zaobserwował/-a"
+    },
+    "NEW_LIKE": {
+      "BODY": "polubił/-a"
+    },
+    "POPUP_TITLE": "Nowe Powiadomienia"
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "SORT": {
+        "ASCENDING": "Od A do Z",
+        "BY_CREATION_TIME": "Od czasu utworzenia",
+        "BY_MODIFICATION": "Od ostatnio zmodyfikowanych",
+        "BY_TITLE": "Alfabetycznie",
+        "DESCENDING": "Od Z do A",
+        "OLDEST_CREATION_FIRST": "Od najstarszych",
+        "OLDEST_FIRST": "Od najstarszych",
+        "RECENTLY_CREATED": "Od najnowszych",
+        "RECENTLY_MODIFIED": "Od ostatnio zmodyfikowanych"
+      },
+      "TITLE": "Wszystkie Notatki"
+    }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "DESCRIPTION": "Uporządkuj notatki z wykładów, źródeł i pomysłów w dokumentach.",
+        "TITLE": "Dokument"
+      },
+      "FOLDER": {
+        "DESCRIPTION": "Uporządkuj Dokumenty w Foldery.",
+        "TITLE": "Folder"
+      },
+      "QUICK_ADD": {
+        "DESCRIPTION": "Uchwyć swoje myśli gdy tego potrzebujesz!",
+        "TITLE": "Szybkie Dodawanie"
+      },
+      "TABLE_TAG": {
+        "DESCRIPTION": "Utwórz Tag do użycia z Tabelami i Szablonami.",
+        "TITLE": "Tag & Tabela"
+      },
+      "TODAYS_DOCUMENT": {
+        "DESCRIPTION": "Dokumenty Dnia są idealne do prowadzenia dziennika, tworzenia list do zrobienia i wiele więcej.",
+        "TITLE": "Dzisiejszy Dokument"
+      },
+      "UPLOAD_FILE": {
+        "DESCRIPTION": "Wyróżnij & stwórz Odnośnik do PDF, prezentacji PowerPoint, dokumentu Word lub innego pliku.",
+        "FEATURE_NAME": "Wyróżnianie PDF",
+        "PAYWALL": "Osiągnąłeś limit przesyłania plików PDF.",
+        "TITLE": "Prześlij & Obrabiaj Plik",
+        "todo_for_the_item_below": "przenieść to do globalnego obiektu nazwy funkcji?"
+      }
+    }
+  },
+  "POWERUPS": {
+    "POWERUP_one": "SuperTag",
+    "POWERUP_other": "SuperTagi"
+  },
   "SETTINGS": {
     "ACCOUNT": {
+      "ADVANCED": {
+        "KEYWORDS": "Wsparcie Podłącz na nowo Szukaj Napraw Błąd"
+      },
       "ADVANCED_TITLE": "Zaawansowane Ustawienia",
+      "AUTHENTICATION": {
+        "KEYWORDS": "Wyloguj się Wyloguj się Metoda logowania Google Dodaj Rozłącz Zaloguj się Zarejestruj się"
+      },
       "AUTHENTICATION_TITLE": "Uwierzytelnianie",
       "DANGER_ZONE": {
         "KEYWORDS": "synchronizacja dziennika usuwanie konta resetowanie przewodnik postęp resetowanie wprowadzania zaawansowanych ustawień konta",
         "TITLE": "Strefa niebezpieczeństwa"
       },
       "DANGER_ZONE_TITLE": "Strefa niebezpieczeństwa",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Eksportuj kopię zapasową Eksportuj Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
       "IMPORT_EXPORT_TITLE": "Importuj i Eksportuj",
       "MY_PROFILE": "Mój Profil",
-      "NAVIGATION_TITLE": "Nawigacja",
-      "NOTIFICATIONS": {
-        "DESCRIPTION": "Wysyłaj mobilne przypomnienia push o codziennej passie fiszek. Przypomnienia pojawiają się codziennie o 18:00 w Twojej lokalnej strefie czasowej.",
-        "TITLE": "Powiadomienia Passy na urządzeniu mobilnym"
+      "NAVIGATION": {
+        "KEYWORDS": "Eksportuj i twórz kopie zapasowe Zobacz usunięte Rem Importuj Bazę Wiedzy Wyświetl wszystkie Fiszki Pobierz Codzienną Kopię Zapasową Ustawienia zaawansowane Usuń wszystkie Rem"
       },
+      "NAVIGATION_TITLE": "Nawigacja",
       "PRIVACY": {
         "KEYWORDS": "prywatność",
         "TITLE": "Prywatność"
@@ -54,17 +185,9 @@
         "KEYWORDS": "wersja",
         "TITLE": "Wersja Aplikacji"
       },
-      "ADVANCED": {
-        "KEYWORDS": "Wsparcie Podłącz na nowo Szukaj Napraw Błąd"
-      },
-      "AUTHENTICATION": {
-        "KEYWORDS": "Wyloguj się Wyloguj się Metoda logowania Google Dodaj Rozłącz Zaloguj się Zarejestruj się"
-      },
-      "EXPORT_IMPORT": {
-        "KEYWORDS": "Eksportuj kopię zapasową Eksportuj Roam Dynalist Logseq Notion Evernote Obsidian"
-      },
-      "NAVIGATION": {
-        "KEYWORDS": "Eksportuj i twórz kopie zapasowe Zobacz usunięte Rem Importuj Bazę Wiedzy Wyświetl wszystkie Fiszki Pobierz Codzienną Kopię Zapasową Ustawienia zaawansowane Usuń wszystkie Rem"
+      "NOTIFICATIONS": {
+        "DESCRIPTION": "Wysyłaj mobilne przypomnienia push o codziennej passie fiszek. Przypomnienia pojawiają się codziennie o 18:00 w Twojej lokalnej strefie czasowej.",
+        "TITLE": "Powiadomienia Passy na urządzeniu mobilnym"
       }
     },
     "EARN_CREDIT": {
@@ -149,10 +272,6 @@
       }
     },
     "EDITOR_INTERFACE": {
-      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
-        "TITLE": "Naciśnij-Raz Odnośnik aby go Otworzyć",
-        "LABEL": "Kiedy klikniesz lub stukniesz na Odnośnik, odrazu otwórz go, zamiast wyświetlać jego Podgląd. (Zawsze możesz wyświetlić jego Podgląd naciskając na niego prawym klawiszem myszki.)"
-      },
       "ENABLE_ZOOM_INTO_BULLET": {
         "LABEL": "Kiedy klikniesz na Punktor, wyświetl Rem w widoku pełnoekranowym",
         "TITLE": "Włącz Przybliżanie Punktorów"
@@ -164,6 +283,10 @@
       "SCALE_COLLAPSED_REM_BULLETS": {
         "LABEL": "Kiedy Rem jest Zwinięty, wyświetlaj pierścień wokół jego Punktora jako większy lub mniejszy w zależności od liczby jego Potomków",
         "TITLE": "Skaluj Zwinięte Punktory Remów"
+      },
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "LABEL": "Kiedy klikniesz lub stukniesz na Odnośnik, odrazu otwórz go, zamiast wyświetlać jego Podgląd. (Zawsze możesz wyświetlić jego Podgląd naciskając na niego prawym klawiszem myszki.)",
+        "TITLE": "Naciśnij-Raz Odnośnik aby go Otworzyć"
       },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
         "LABEL": "Płynnie wyświetlaj animacje dodawania i usuwania Remów w Edytorze.",
@@ -177,8 +300,8 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "DESCRIPTION": "Ogranicz liczbę fiszek RemNote przypomni Ci o nauce, aby osiągnąć Twój dzienny cel przy tej wartości.",
-          "TITLE": "Maksymalny Dzienny Cel"
+          "TITLE": "Maksymalny Dzienny Cel",
+          "DESCRIPTION": "Ogranicz liczbę fiszek RemNote przypomni Ci o nauce, aby osiągnąć Twój dzienny cel przy tej wartości."
         },
         "TODAYS_TARGET": "Dzisiejszy Cel:",
         "TODAYS_TARGET_EXPLANATION": "RemNote stara się określić Twój dzienny cel i jeżeli go osiągniesz każdego dnia, to przerobisz wszystkie fiszki zaplanowane na następne 7 dni. Natomiast, cel dzienny nigdy nie będzie większy niż maksymalny zbiór powyżej."
@@ -188,6 +311,9 @@
           "DESCRIPTION": "Podczas pokazywania fiszki automatycznie odtwarzaj każdą ścieżkę dźwiękową lub wideo na niej.",
           "TITLE": "Odtwarzaj automatycznie dźwięk"
         },
+        "LEARN_AHEAD_LIMIT": {
+          "TITLE": "Limit nauki z wyprzedzeniem"
+        },
         "LEECH_THRESHOLD": {
           "DESCRIPTION": "Fiszki Udręki to trudne fiszki, których ciągle się uczysz, a potem znowu zapominasz. Jeśli naciśniesz przycisk „zapomniałem/-am” na fiszce więcej razy niż ta wartość, ostrzeżemy Cię, abyś mógł zastanowić się, dlaczego masz z nią problem. Ustaw tę opcję na wyższe wartości, aby rzadziej wyświetlać ostrzeżenie o Fiszce Udręki.",
           "TITLE": "Próg Fiszek Udręki"
@@ -195,6 +321,10 @@
         "NEW_CARDS_PER_DAY": {
           "DESCRIPTION": "Codziennie dodawaj maksymalnie tyle nowo utworzonych fiszek do swojej kolejki fiszek. W ten sposób nowe karty będą pojawiać się w Twojej kolejce ze stałą stawką dzienną, a nie gigantyczną partią.",
           "TITLE": "Maksymalna liczba nowych kart dziennie"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "DESCRIPTION": "O tej porze każdego dnia w Twojej kolejce pojawiają się nowe karty.",
+          "TITLE": "Następny dzień zaczyna się o"
         },
         "RESET_ALL": {
           "CONFIRM_MESSAGE": "Czy na pewno chcesz zresetować wszystkie ustawienia fiszek do wartości domyślnych?",
@@ -212,13 +342,6 @@
         "TYPE_ANSWER": {
           "DESCRIPTION": "Pokaż pole tekstowe z przodu każdej fiszki i porównaj to, co wpisałeś z odpowiedzią na odwrocie fiszki.",
           "TITLE": "Wpisz odpowiedź"
-        },
-        "LEARN_AHEAD_LIMIT": {
-          "TITLE": "Limit nauki z wyprzedzeniem"
-        },
-        "NEXT_DAY_STARTS_AT": {
-          "DESCRIPTION": "O tej porze każdego dnia w Twojej kolejce pojawiają się nowe karty.",
-          "TITLE": "Następny dzień zaczyna się o"
         }
       },
       "ORDERING": {
@@ -284,14 +407,14 @@
         "TITLE": "Język Interfejsu RemNote (Alpha)"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
+        "KEYWORDS": "w aplikacji lewy pasek boczny poradniki wskazówki narzędzi pomoc wsparcie naucz się poradnik",
         "LABEL": "Pokazuj poradniki funkcji RemNote aktualnie używanej w rogu ekranu urządzenia.",
-        "TITLE": "Poradniki Aplikacji",
-        "KEYWORDS": "w aplikacji lewy pasek boczny poradniki wskazówki narzędzi pomoc wsparcie naucz się poradnik"
+        "TITLE": "Poradniki Aplikacji"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
+        "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik",
         "LABEL": "Pokazuj wskazówki skrótów klawiszowych akcji aktualnie wykonywanej w rogu ekranu urządzenia.",
-        "TITLE": "Wskazówki Skrótów Klawiszowych",
-        "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik"
+        "TITLE": "Wskazówki Skrótów Klawiszowych"
       },
       "SIMPLIFIED_UI": {
         "LABEL": "Uprość interfejs użytkownika i ukryj zaawansowane funkcje.",
@@ -331,10 +454,6 @@
         }
       }
     },
-    "PLANS": {
-      "KEYWORDS": "zaproś znajomych plan zmień subskrypcję zdobądź kredyty bezpłatny remnote wyślij tweet e-mail wybierz plan uczenia się na zawsze pro spis funkcji opcje cenowe",
-      "TITLE": "Plany"
-    },
     "NOTIFICATIONS": {
       "DESCRIPTIONS": {
         "ARTICLE_VIEWS": {
@@ -373,6 +492,10 @@
       "TOGGLE_LABEL": "Wybierz które powiadomienia chcesz otrzymywać bezpośrednio do Twojej skrzynki/ na urządzenie",
       "TOGGLE_TITLE": "Dostosuj Powiadomienia"
     },
+    "PLANS": {
+      "KEYWORDS": "zaproś znajomych plan zmień subskrypcję zdobądź kredyty bezpłatny remnote wyślij tweet e-mail wybierz plan uczenia się na zawsze pro spis funkcji opcje cenowe",
+      "TITLE": "Plany"
+    },
     "SIDEBAR": {
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "Spersonalizuj Sekcje Pasku Bocznego"
@@ -391,125 +514,6 @@
         "TITLE": "Centrum Społeczności w Pasku Bocznym"
       }
     }
-  },
-  "COMMUNITY": {
-    "ARTICLES": {
-      "ERRORS": {
-        "SHARING": {
-          "NO_CONTENT": {
-            "SRC": "Dokument, który próbujesz udostępnić, wygląda na nieco pusty. Dodaj co najmniej {{minimum}} remów, a następnie spróbuj ponownie.",
-            "SUBDOCUMENT": "Jeden z Twoich dokumentów podrzędnych wygląda na trochę pusty. Nie zostanie opublikowany, dopóki nie będzie zawierał {{minimum}} Remy."
-          },
-          "NO_TITLE": {
-            "SRC": "Dokument, który próbujesz udostępnić, nie ma tytułu. Musisz go dodać przed opublikowaniem.",
-            "SUBDOCUMENT": "Jeden z Twoich dokumentów podrzędnych nie ma tytułu. Nie zostanie opublikowany, dopóki go nie nazwiesz."
-          }
-        }
-      }
-    }
-  },
-  "NOTIFICATIONS": {
-    "ARTICLE_DEFAULT": "Twój dokument",
-    "ARTICLE_VIEWS": {
-      "BODY_1": "Twój dokument",
-      "BODY_2": "wyświetlono {{viewCount, number}} raz/-y"
-    },
-    "DOCUMENT_ADDED_TO_GROUP": {
-      "BODY": "dodano do"
-    },
-    "EMPTY_STATE_MESSAGE": "Wszystko gotowe! Będziesz otrzymywać powiadomienia, gdy ktoś wejdzie w interakcję z treścią udostępnioną na Twoim koncie<profileLink> profil</profileLink>",
-    "EMPTY_STATE_TITLE": "Nie masz żadnych nowych powiadomień",
-    "GROUP_DEFAULT": "Twoja grupa",
-    "IMPORT": {
-      "BODY": "Ktoś zaimportował Twój dokument"
-    },
-    "INVITE": {
-      "ACCEPT": "Przyjmij Zaproszenie",
-      "BODY": "zaprosił/-a Cię do dołączenia",
-      "REJECT": "Odrzuć"
-    },
-    "NEW_COMMENT": {
-      "BODY": "odpowiedział/-a na",
-      "BODY_ARTICLE": "odpowiedział/-a na Twój dokument",
-      "BODY_COMMENT": "odpowiedział/-a na Twój komentarz",
-      "BODY_GROUP": "wyślij czat do Twojej grupy"
-    },
-    "NEW_FOLLOWER": {
-      "BODY": "zaobserwował/-a"
-    },
-    "NEW_LIKE": {
-      "BODY": "polubił/-a"
-    },
-    "POPUP_TITLE": "Nowe Powiadomienia"
-  },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "PAGE_0": {
-          "TITLE": "Utwórz folder"
-        },
-        "PAGE_1": {
-          "TITLE": "Dodaj punktor"
-        },
-        "PAGE_2": {
-          "TITLE": "Utwórz fiszkę"
-        },
-        "PAGE_3": {
-          "TITLE": "Porządkuj notatki urzywając Tab"
-        }
-      }
-    }
-  },
-  "PAGES": {
-    "ALL_NOTES": {
-      "SORT": {
-        "ASCENDING": "Od A do Z",
-        "BY_CREATION_TIME": "Od czasu utworzenia",
-        "BY_MODIFICATION": "Od ostatnio zmodyfikowanych",
-        "BY_TITLE": "Alfabetycznie",
-        "DESCENDING": "Od Z do A",
-        "OLDEST_CREATION_FIRST": "Od najstarszych",
-        "OLDEST_FIRST": "Od najstarszych",
-        "RECENTLY_CREATED": "Od najnowszych",
-        "RECENTLY_MODIFIED": "Od ostatnio zmodyfikowanych"
-      },
-      "TITLE": "Wszystkie Notatki"
-    }
-  },
-  "POPUPS": {
-    "CREATE_CONTENT_OPTIONS": {
-      "DOCUMENT": {
-        "DESCRIPTION": "Uporządkuj notatki z wykładów, źródeł i pomysłów w dokumentach.",
-        "TITLE": "Dokument"
-      },
-      "FOLDER": {
-        "DESCRIPTION": "Uporządkuj Dokumenty w Foldery.",
-        "TITLE": "Folder"
-      },
-      "QUICK_ADD": {
-        "DESCRIPTION": "Uchwyć swoje myśli gdy tego potrzebujesz!",
-        "TITLE": "Szybkie Dodawanie"
-      },
-      "TABLE_TAG": {
-        "DESCRIPTION": "Utwórz Tag do użycia z Tabelami i Szablonami.",
-        "TITLE": "Tag & Tabela"
-      },
-      "TODAYS_DOCUMENT": {
-        "DESCRIPTION": "Dokumenty Dnia są idealne do prowadzenia dziennika, tworzenia list do zrobienia i wiele więcej.",
-        "TITLE": "Dzisiejszy Dokument"
-      },
-      "UPLOAD_FILE": {
-        "DESCRIPTION": "Wyróżnij & stwórz Odnośnik do PDF, prezentacji PowerPoint, dokumentu Word lub innego pliku.",
-        "FEATURE_NAME": "Wyróżnianie PDF",
-        "PAYWALL": "Osiągnąłeś limit przesyłania plików PDF.",
-        "TITLE": "Prześlij & Obrabiaj Plik",
-        "todo_for_the_item_below": "przenieść to do globalnego obiektu nazwy funkcji?"
-      }
-    }
-  },
-  "POWERUPS": {
-    "POWERUP_one": "SuperTag",
-    "POWERUP_other": "SuperTagi"
   },
   "SIDEBAR": {
     "LABEL_ALL_NOTES": "Wszystkie Notatki",
@@ -657,5 +661,23 @@
     "VIEW_CONFIGURATION": "Skonfiguruj Tag",
     "ADD_PROPERTY": "Dodaj Właściwość",
     "NEW_PROPERTY": "Nowa Właściwość"
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "Utwórz folder"
+        },
+        "PAGE_1": {
+          "TITLE": "Dodaj punktor"
+        },
+        "PAGE_2": {
+          "TITLE": "Utwórz fiszkę"
+        },
+        "PAGE_3": {
+          "TITLE": "Porządkuj notatki urzywając Tab"
+        }
+      }
+    }
   }
 }
