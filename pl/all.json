@@ -47,7 +47,49 @@
       "DELETE_UNSHARE_OFFLINE_ERROR": "Jesteś offline. Proszę, zrezygnuj z udostępnienia dokumentu samodzielnie, kiedy jesteś z powrotem online."
     },
     "MENU": {
-      "ADD_NESTED_DOCUMENT": "Dodaj Zagnieżdżony Dokument"
+      "ADD_NESTED_DOCUMENT": "Dodaj Zagnieżdżony Dokument",
+      "CHANGE_DOCUMENT_STATUS": "Zmień Status Dokumentu",
+      "CUSTOMIZE_SPACED_REPETITION": "Spersonalizuj Spaced Repetition",
+      "DELETE": "Skasuj",
+      "EDIT_MODE": {
+        "READ": "Tryb Tylko Do Odczytu",
+        "WRITE": "Tryb Edycji"
+      },
+      "EXPORT": "Eksportuj",
+      "FIND_OR_FILTER": "Znajdź lub Filtruj",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "Ta opcja jest przestarzała i zaleca się użycie alternatywnej metody. Naciśnij <keycode />, a następnie szukaj wzmianek tekstowych.",
+        "LABEL": "Znajdź Wzmianki Tekstowe"
+      },
+      "MARK_AS_DOCUMENT": "Oznacz jako Dokument",
+      "MOVE": "Przenieś",
+      "OPEN_IN_ANOTHER_PANE": "Otwórz w Innym Okienku",
+      "PIN_TO_SIDEBAR": "Przypnij do Paska Bocznego",
+      "PRINT": "Drukuj",
+      "RENAME": "Zmień Nazwę",
+      "SHOW_STUDY_BUTTON": "Pokaż Przycisk Nauki",
+      "STATS": "Satystyki",
+      "UNDO": "Cofnij",
+      "UNPIN_FROM_SIDEBAR": "Usuń Przypięcie z Paska Bocznego",
+      "UNSHARE_DOCUMENT": "Zrezygnuj z Udostępniania Dokumentu",
+      "VIEW_GRAPH": "Zobacz Graf",
+      "VIEW_TRASH": "Zobacz Kosz"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "Szkic",
+      "FINISHED": "Ukończony",
+      "PINNED": "Przypięty"
+    }
+  },
+  "FILE_UPLOADING": {
+    "CACHED_INFO": "Ten plik jest przechowywany w pamięci podręcznej do przeglądania w trybie offline i mógł jeszcze nie zostać przesłany.",
+    "LOCAL_ONLY_WARN": "Ten plik nie został pomyślnie przesłany i jest tymczasowo przechowywany na Twoim komputerze.",
+    "LOCAL_WAITING_FOR_UPLOAD_WARN": "Ten plik nie został jeszcze przesłany i jest przechowywany wyłącznie lokalnie.",
+    "NOT_FOUND": "Nie można znaleźć tego pliku.",
+    "NOT_YET_UPLOADED": "Ten plik nie został jeszcze przesłany.",
+    "SNIPPING": {
+      "NON_PDF": "Wypróbuj inne narzędzie do wycinania/wklejania lub skontaktuj się z pomocą techniczną.",
+      "PDF": "Proszę, skontaktuj się z pomocą techniczną."
     }
   },
   "LANGUAGE": {
