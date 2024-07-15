@@ -352,7 +352,7 @@
       "INVITE_FRIENDS_REMNOTE": "Zaproś swoich znajomych do RemNote!",
       "INVITE_TEXT": "Zaproś znajomych",
       "INVITED_YOU": "(zaprosił/-a Cię)",
-      "KEYWORDS": "Zaproś znajomych Zdobywaj punkty poleceń Zmień plan Subskrypcja Bezpłatnie Za darmo RemNote Wyślij Tweet E-mail Wybierz Plan nauki na całe życie Pro Spis Funkcji Cennik Cena Ceny",
+      "KEYWORDS": "Zaproś znajomych Zdobywaj punkty poleceń Zmień plan Subskrypcja Bezpłatnie Za darmo RemNote Wyślij Tweet E-mail Wybierz Plan nauki na całe życie Pro Spis funkcjonalności Cennik Cena Ceny",
       "NOT_CONFIRMED_EMAIL": "(dotychczas nie zweryfikował adresu email)",
       "SEND_INVITE": "Wyślij zaproszenie",
       "SHARE_LINK": "Zaproś poprzez linka",
@@ -462,15 +462,15 @@
           "TITLE": "Limit nauki z wyprzedzeniem"
         },
         "LEECH_THRESHOLD": {
-          "DESCRIPTION": "Wyświetl ostrzeżenie po wielokrotnym naciśnięciu przycisku „Zapomniałem” w przypadku trudnej fiszki.<leechArticle>Przeczytaj więcej o trudnych fiszkch.</leechArticle>",
-          "TITLE": "Próg Fiszek Udręki"
+          "DESCRIPTION": "Wyświetl ostrzeżenie po wielokrotnym naciśnięciu przycisku „Zapomniałem” w przypadku trudnej fiszki.<leechArticle>Przeczytaj więcej o fiszkach udręki.</leechArticle>",
+          "TITLE": "Próg fiszek udręki"
         },
         "NEW_CARDS_PER_DAY": {
-          "DESCRIPTION": "Codziennie dodawaj maksymalnie tyle nowo utworzonych fiszek do swojej kolejki fiszek. W ten sposób nowe karty będą pojawiać się w Twojej kolejce ze stałą stawką dzienną, a nie gigantyczną partią.",
+          "DESCRIPTION": "Codziennie dodawaj maksymalnie tyle nowo utworzonych fiszek do swojej kolejki fiszek. Dzięki temu nowe karty będą pojawiać się w Twojej kolejce w stałym dziennym tempie, zamiast w gigantycznej partii.",
           "TITLE": "Maksymalna liczba nowych kart dziennie"
         },
         "NEXT_DAY_STARTS_AT": {
-          "DESCRIPTION": "O tej porze każdego dnia w Twojej kolejce pojawiają się nowe karty.",
+          "DESCRIPTION": "Ustaw godzinę, o której każdego dnia w Twojej kolejce będą pojawiać się nowe karty.",
           "TITLE": "Następny dzień zaczyna się o"
         },
         "RESET_ALL": {
@@ -480,11 +480,20 @@
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "DESCRIPTION": "Pokazuj tylko przyciski \"Zapomniałem/-am\" i \"Przypomniałem/-am z trudem\" podczas nauki fiszek, zamiast wszystkich pięciu opcji.",
-          "TITLE": "Uproszczone przyciski w fiszkach"
+          "TITLE": "Uproszczone przyciski oceny fiszek"
         },
         "STALE_CARDS_PER_DAY": {
-          "DESCRIPTION": "Każdego dnia wprowadzaj ponownie maksymalnie tyle zaległych fiszek do swojej kolejki fiszek. Zaległe fiszki to takie, które są tymczasowo wstrzymywane z kolejki, ponieważ nie uczyłeś się ich przez długi czas i ponowne uczenie się ich wszystkich na raz byłoby wyczerpujące.",
-          "TITLE": "Maksymalna liczba Zaległych fiszek dziennie"
+          "DESCRIPTION": "Każdego dnia wprowadzaj ponownie maksymalnie tyle przestarzałych fiszek do swojej kolejki fiszek. Przestarzałe fiszki to takie, które są tymczasowo wstrzymywane z kolejki, ponieważ nie uczyłeś się ich przez długi czas i ponowne uczenie się ich wszystkich na raz byłoby wyczerpujące.",
+          "TITLE": "Maksymalna liczba przestarzałych fiszek dziennie"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "Głos używany do zamiany tekstu na mowę. Pamiętaj, że niektóre głosy działają tylko w niektórych językach.",
+          "TITLE": "Głos syntezatora mowy",
+          "SAMPLE": "Mitochondrium jest elektrownią komórki."
+        },
+        "TEXT_TO_SPEECH_SPEED": {
+          "DESCRIPTION": "Szybkość, z jaką syntezator mowy czyta tekst z fiszki.",
+          "TITLE": "Szybkość syntezatora mowy"
         },
         "TYPE_ANSWER": {
           "DESCRIPTION": "Pokaż pole tekstowe z przodu każdej fiszki i porównaj to, co wpisałeś z odpowiedzią na odwrocie fiszki.",
@@ -493,32 +502,32 @@
       },
       "ORDERING": {
         "DOCUMENT_CLUSTERS": {
-          "DESCRIPTION": "Wolę uczyć się Remy z powiązanych dokumentów razem. ",
+          "DESCRIPTION": "Wolę razem uczyć się Remów z powiązanych wzajemnie dokumentów. ",
           "TITLE": "Zbiory dokumentów"
         },
         "HIERARCHY_CLUSTERS": {
-          "DESCRIPTION": "Wolą uczyć się Remy powiązane ze sobą hierarchicznie razem.",
-          "TITLE": "Zbiory Hierarchii"
+          "DESCRIPTION": "Wolą razem uczyć się Remów powiązanych ze sobą hierarchicznie.",
+          "TITLE": "Zbiory hierarchii"
         },
         "REFERENCE_CLUSTERS": {
-          "DESCRIPTION": "Wolę uczyć się Remy połączone Odnośnikiem razem.",
+          "DESCRIPTION": "Wolę razem uczyć się Remów powiązanych ze sobą Odnośnikiem.",
           "TITLE": "Zbiory Odnośników"
         },
         "TAG_CLUSTERS": {
-          "DESCRIPTION": "Wolę uczyć się Remy z tym samym Tagiem razem.",
+          "DESCRIPTION": "Wolę razem uczyć się Remów z tym samym Tagiem.",
           "TITLE": "Zbiory Tagów"
         }
       },
       "STATISTICS": {
         "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
-          "DESCRIPTION": "Jeśli odpowiedź na Fiszkę zajmie Ci więcej czasu (w sekundach), resztę czasu nie zostanie uwzględniona w statystykach.",
-          "TITLE": "Maksymalny czas odpowiedzi na Fiszkę"
+          "DESCRIPTION": "Ustaw maksymalny czas odpowiedzi (w sekundach) na fiszkę, który będzie uwzględniony w statystykach.",
+          "TITLE": "Maksymalny czas odpowiedzi na fiszkę"
         }
       },
       "VISUAL": {
         "SHOW_NEXT_REVIEW_TIMES": {
           "DESCRIPTION": "Na każdym przycisku odpowiedzi pokaż czas do następnej powtórki.",
-          "TITLE": "Pokaż Godziny Następnej Powtórki"
+          "TITLE": "Pokaż czas pozostały do kolejnej powtórki"
         }
       },
       "AI": {
@@ -534,8 +543,8 @@
     },
     "GLOBAL_INTERFACE": {
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
-        "KEYWORDS": "język społeczność dokumenty szukaj",
-        "TITLE": "Język wyszukiwania Dokumentów Społeczności"
+        "KEYWORDS": "Język Społeczność Dokumenty Szukaj Wyszukiwanie Udostępnij Udostępnione Pobierz Znajdź",
+        "TITLE": "Udostępnione fiszki Język wyszukiwania"
       },
       "DARK_MODE": {
         "LABEL": "Używaj tej palety kolorów.",
@@ -546,22 +555,23 @@
         "TITLE": "Pełna szerokość"
       },
       "IN_APP_SUGGESTIONS": {
-        "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik",
-        "LABEL": "Pokaż wskazówki dotyczące funkcji RemNote, które możesz wypróbować na górze dokumentu."
+        "KEYWORDS": "Wskazówki Tooltipy Tooltips Pomoc Wsparcie Poradnik",
+        "LABEL": "Pokaż wskazówki dotyczące funkcjonalności RemNote, które możesz wypróbować na górze dokumentu.",
+        "TITLE": "Wskazówki wprowadzające na górze dokumentu."
       },
       "INTERFACE": {
-        "KEYWORDS": "język język tłumaczenia i18n",
+        "KEYWORDS": "lang language translation translate i18n Język Tłumacz Tłumaczenie",
         "TITLE": "Język Interfejsu RemNote (Alpha)"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
-        "KEYWORDS": "w aplikacji lewy pasek boczny poradniki wskazówki narzędzi pomoc wsparcie naucz się poradnik",
-        "LABEL": "Pokazuj poradniki funkcji RemNote aktualnie używanej w rogu ekranu urządzenia.",
-        "TITLE": "Poradniki Aplikacji"
+        "KEYWORDS": "W aplikacji Lewy Pasek boczny Poradniki Wskazówki Pomoc techniczna Wsparcie techniczne Poradnik",
+        "LABEL": "Pokazuj poradniki dotyczące aktualnie używanych funkcjonalności RemNote na dole paska bocznego.",
+        "TITLE": "Poradniki w aplikacji"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
-        "KEYWORDS": "wskazówki narzędzi pomoc wsparcie naucz się poradnik",
-        "LABEL": "Pokazuj wskazówki skrótów klawiszowych akcji aktualnie wykonywanej w rogu ekranu urządzenia.",
-        "TITLE": "Wskazówki Skrótów Klawiszowych"
+        "KEYWORDS": "Wskazówki Pomoc Wsparcie Poradnik",
+        "LABEL": "Pokazuj wskazówki na temat wykorzystywanych skrótów klawiszowych w rogu ekranu.",
+        "TITLE": "Wskazówki skrótów klawiszowych"
       },
       "SIMPLIFIED_UI": {
         "LABEL": "Uprość interfejs użytkownika i ukryj zaawansowane funkcje.",
@@ -575,8 +585,8 @@
     },
     "KEYBOARD_SHORTCUTS": {
       "CHANGE_KEYBOARD_SHORTCUTS": {
-        "DESCRIPTION": "Dostosuj skróty klawiszowe przypisując funkcję do innych klawiszy.",
-        "KEYWORDS": "spersonalizuj skróty klawiszowe mapowanie programowanie klawiszy",
+        "DESCRIPTION": "Dostosuj skróty klawiszowe, przypisując funkcje do innych klawiszy.",
+        "KEYWORDS": "Spersonalizuj Personalizacja Skróty klawiszowe Mapowanie",
         "TITLE": "Zmień Skróty Klawiszowe"
       },
       "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
