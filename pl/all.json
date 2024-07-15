@@ -284,18 +284,26 @@
         "KEYWORDS": "Wylogowanie Wyloguj się Metoda Metodę Logowania Google Dodaj Rozłącz Zalogowanie Zaloguj się Zarejestruj się"
       },
       "AUTHENTICATION_TITLE": "Uwierzytelnianie",
-      "DANGER_ZONE": {
-        "KEYWORDS": "synchronizacja dziennika usuwanie konta resetowanie przewodnik postęp resetowanie wprowadzania zaawansowanych ustawień konta",
-        "TITLE": "Strefa niebezpieczeństwa"
+      "CACHING": {
+        "DESCRIPTION": "Zapisuj obrazy w pamięci podręcznej po ich załadowaniu, aby można je było przeglądać w trybie offline.",
+        "NUMBER_DESCRIPTION": "Ustaw maksymalną liczbę obrazów do zapisania w pamięci podręcznej. Po osiągnięciu limitu najstarsze obrazy zostaną usunięte z pamięci podręcznej.",
+        "NUMBER_TITLE": "Maksymalna liczba obrazów zapisanych w pamięci podręcznej",
+        "TITLE": "Zapisywanie w pamięci podręcznej",
+        "TOGGLE_DESCRIPTION": "Po wyłączeniu tej opcji wszystkie obrazy z pamięci podręcznej zostaną usunięte.",
+        "TOGGLE_TITLE": "Włącz pamięć podręczną"
       },
-      "DANGER_ZONE_TITLE": "Strefa niebezpieczeństwa",
+      "DANGER_ZONE": {
+        "KEYWORDS": "synchronizacja log usuń konto usuwanie konta skasuj konto skasowanie konta reset przewodnik postęp wprowadzenie zaawansowane ustawienia konta konto",
+        "TITLE": "Strefa niebezpieczna"
+      },
+      "DANGER_ZONE_TITLE": "Strefa niebezpieczna",
       "EXPORT_IMPORT": {
-        "KEYWORDS": "Eksportuj kopię zapasową Eksportuj Roam Dynalist Logseq Notion Evernote Obsidian"
+        "KEYWORDS": "Eksportuj kopię zapasową Kopia zapasowa Roam Dynalist Logseq Notion Evernote Obsidian"
       },
       "IMPORT_EXPORT_TITLE": "Importuj i Eksportuj",
       "MY_PROFILE": "Mój Profil",
       "NAVIGATION": {
-        "KEYWORDS": "Eksportuj i twórz kopie zapasowe Zobacz usunięte Rem Importuj Bazę Wiedzy Wyświetl wszystkie Fiszki Pobierz Codzienną Kopię Zapasową Ustawienia zaawansowane Usuń wszystkie Rem"
+        "KEYWORDS": "Eksportuj i twórz kopie zapasowe Eksportowanie i kopia zapasowa Kosz Widok Skasowane remy Importuj Bazę Wiedzy Wyświetl wszystkie fiszki Pobierz codzienną kopię zapasową Zaawansowane ustawienia Skasuj wszystkie Remy"
       },
       "NAVIGATION_TITLE": "Nawigacja",
       "PRIVACY": {
