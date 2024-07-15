@@ -198,52 +198,90 @@
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "Zaawansowane Opcje Łączenia",
-      "DELETE_WARNING": "To wyróżnienie ma {{notesCount, number}} {{ notesWord }}. Czy na pewno chcesz je usunąć?"
+      "DELETE_WARNING": "To wyróżnienie ma {{notesCount, number}} {{ notesWord }}. Czy na pewno chcesz je usunąć?",
+      "TURN_INTO_CONCEPT": "Zmień w Pojęcie",
+      "VIEW_REFERENCES": "Sprawdź"
+    },
+    "HEADER": {
+      "AREA_HIGHLIGHT_TOOLTIP": "Wyróżnij Obszar ({{keyName}} + Przeciągnij)",
+      "NUMBER_OF_PAGES_TOOLTIP": "Liczba stron",
+      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "Włącz Dokument Domyślny"
+    },
+    "PDF_OPTIONS": {
+      "CHANGE_THEME": "Zmień motyw",
+      "DOWNLOAD_PDF": "Pobierz PDF",
+      "LEARN_MORE": "Dowiedz się więcej",
+      "OPEN_WEBPAGE_EXTERNALLY": "Otwórz zewnętrzną stronę internetową",
+      "PDF_SETTINGS": "Ustawienia",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "Automatyczne wyróżnianie",
+        "AUTO_HIGHLIGHT_TOOLTIP": "Automatycznie twórz wyróżnienia po zaznaczeniu tekstu.",
+        "DISABLE_HEADER_BUTTONS": "Wyłącz przyciski nagłówka",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "Wyłącz wyświetlanie przycisków nagłówka («) w czytniku.",
+        "SNAP_HIGHLIGHT_TO_WORDS": "Wyróżniaj słowa",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "Tworząc nowe wyróżnienia, zaznaczaj tylko całe słowa."
+      },
+      "REFETCH_PAGE": "Ponownie pobierz stronę",
+      "REFETCH_PAGE_TOOLTIP": "Tej strony nie można pobrać ponownie, jeśli zawiera już wyróżnienia.",
+      "SEARCH_IN_PDF": "Znajdź w pliku PDF",
+      "SPLIT_PANES": "Rozłącz okna",
+      "SPLIT_PANES_TOOLTIP": "Podziel edytor i przeglądarkę plików PDF na osobne okna.",
+      "THEMES": {
+        "CLASSIC_INVERT": "Klasyczna inwersja",
+        "DARK": "Ciemny",
+        "LIGHT": "Jasny",
+        "SOLARISED": "Solarized",
+        "USE_REMNOTE_THEME": "Użyj motywu RemNote"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "DONE": "Gotowe",
+      "INPUT_PLACEHOLDER": "Szukaj"
     }
   },
   "POPUPS": {
     "CREATE_CONTENT_OPTIONS": {
       "DOCUMENT": {
-        "DESCRIPTION": "Uporządkuj notatki z wykładów, źródeł i pomysłów w dokumentach.",
+        "DESCRIPTION": "Uporządkuj fiszki i notatki korzystając z dokumentów.",
         "TITLE": "Dokument"
       },
       "FOLDER": {
-        "DESCRIPTION": "Uporządkuj Dokumenty w Foldery.",
+        "DESCRIPTION": "Uporządkuj dokumenty w folderach.",
         "TITLE": "Folder"
       },
       "QUICK_ADD": {
-        "DESCRIPTION": "Uchwyć swoje myśli gdy tego potrzebujesz!",
+        "DESCRIPTION": "Uchwyć swoje myśli w locie!",
         "TITLE": "Szybkie Dodawanie"
       },
       "TABLE_TAG": {
-        "DESCRIPTION": "Utwórz Tag do użycia z Tabelami i Szablonami.",
-        "TITLE": "Tag & Tabela"
+        "DESCRIPTION": "Stwórz Tag do użycia z tabelami i szablonami.",
+        "TITLE": "Tag i Tabela"
       },
       "TODAYS_DOCUMENT": {
-        "DESCRIPTION": "Dokumenty Dnia są idealne do prowadzenia dziennika, tworzenia list do zrobienia i wiele więcej.",
+        "DESCRIPTION": "Dokumenty dnia są idealne do prowadzenia dziennika, tworzenia list rzeczy do zrobienia i nie tylko.",
         "TITLE": "Dzisiejszy Dokument"
       },
       "UPLOAD_FILE": {
-        "DESCRIPTION": "Wyróżnij & stwórz Odnośnik do PDF, prezentacji PowerPoint, dokumentu Word lub innego pliku.",
+        "DESCRIPTION": "Wyróżniaj i twórz odnośniki w plikach PDF, prezentacja PPTs, dokumentach Word, itp.",
         "FEATURE_NAME": "Wyróżnianie PDF",
-        "PAYWALL": "Osiągnąłeś limit przesyłania plików PDF.",
-        "TITLE": "Prześlij & Obrabiaj Plik",
-        "todo_for_the_item_below": "przenieść to do globalnego obiektu nazwy funkcji?"
+        "PAYWALL": "Osiągnąłeś swój limit przesyłania plików PDF.",
+        "TITLE": "Prześlij & Adnotuj Plik",
+        "todo_for_the_item_below": "przenieść to do obiektu globalnej nazwy funkcji?"
       }
     }
   },
   "POWERUPS": {
-    "POWERUP_one": "SuperTag",
-    "POWERUP_other": "SuperTagi"
+    "POWERUP_one": "Powerup",
+    "POWERUP_other": "Powerupy"
   },
   "SETTINGS": {
     "ACCOUNT": {
       "ADVANCED": {
-        "KEYWORDS": "Wsparcie Podłącz na nowo Szukaj Napraw Błąd"
+        "KEYWORDS": "Wsparcie Pomoc Techniczna Szukaj Wyszukiwanie Napraw Błąd Błędy Bug"
       },
       "ADVANCED_TITLE": "Zaawansowane Ustawienia",
       "AUTHENTICATION": {
-        "KEYWORDS": "Wyloguj się Wyloguj się Metoda logowania Google Dodaj Rozłącz Zaloguj się Zarejestruj się"
+        "KEYWORDS": "Wylogowanie Wyloguj się Metoda Metodę Logowania Google Dodaj Rozłącz Zalogowanie Zaloguj się Zarejestruj się"
       },
       "AUTHENTICATION_TITLE": "Uwierzytelnianie",
       "DANGER_ZONE": {
