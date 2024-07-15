@@ -603,69 +603,76 @@
       },
       "SPLIT_WITH_ALT_ENTER": {
         "DESCRIPTION": {
-          "MAC": "Kiedy naciśniesz  Return w środku Rem, utwórz podział wiersza w tym Rem i zamiast tego użyj Opt+Return, aby podzielić tekst na dwa osobne Remy. (Domyślnie te funkcje pełnią odpowiednio Shift+Return i sam klawisz Return.)",
-          "PC": "Kiedy naciśniesz  Enter w środku Rem, utwórz podział wiersza w tym Rem i zamiast tego użyj Alt+Enter, aby podzielić tekst na dwa oddzielne Remy. (Domyślnie te funkcje pełnią odpowiednio Shift+Enter i sam klawisz Enter.)"
+          "MAC": "Podziel tekst na osobne Remy, naciskając Opt+Return w środku Remu.",
+          "PC": "Podziel tekst na osobne Remy, naciskając Alt+Enter w środku Remu."
         },
         "TITLE": {
-          "MAC": "Rozdziel Z Opt-Return",
-          "PC": "Rozdziel Z Alt+Enter"
+          "MAC": "Rozdziel z Opt+Return",
+          "PC": "Rozdziel z Alt+Enter"
         }
       }
     },
     "NOTIFICATIONS": {
       "DESCRIPTIONS": {
         "ARTICLE_VIEWS": {
-          "LABEL": "Otrzymaj powiadomienie, gdy Twój udostępniony dokument zacznie zdobywać dużą popularność. ",
-          "TITLE": "Powiadomienia Wyświetleń Dokumentu"
+          "LABEL": "Otrzymaj powiadomienie, gdy Twój udostępniony dokument zacznie zdobywać znaczącą popularność. ",
+          "TITLE": "Powiadomienia wyświetleń dokumentu"
         },
         "DOCUMENT_ADDED_TO_GROUP": {
-          "LABEL": "Otrzymaj powiadomienie, gdy nowy dokument zostanie dodany do Twojej Grupy.",
-          "TITLE": "Powiadomienia "
+          "LABEL": "Otrzymaj powiadomienie, gdy nowy dokument zostanie dodany do Twojej grupy.",
+          "TITLE": "Dokument dodany do powiadomienia grupowego"
         },
         "INVITE": {
-          "LABEL": "Otrzymaj powiadomienie kiedy zostaniesz zaproszony do grupy.",
-          "TITLE": "Powiadomienia Zaproszeń"
+          "LABEL": "Otrzymaj powiadomienie, kiedy zostaniesz zaproszony do grupy.",
+          "TITLE": "Powiadomienia zaproszeń"
         },
         "NEW_COMMENT": {
           "LABEL": "Otrzymaj powiadomienie, gdy ktoś skomentuje Twój udostępniony dokument.",
-          "TITLE": "Powiadomienia Komentarzy"
+          "TITLE": "Powiadomienia komentarzy"
         },
         "NEW_FOLLOWER": {
           "LABEL": "Otrzymaj powiadomienie kiedy ktoś Cię zaobserwuje",
-          "TITLE": "Powiadomienia Obserwujących"
+          "TITLE": "Powiadomienia obserwujących"
         },
         "NEW_LIKE": {
           "LABEL": "Otrzymaj powiadomienie kiedy ktoś polubi Twój udostępniony Dokument.",
-          "TITLE": "Powiadomienia Polubień"
+          "TITLE": "Powiadomienia polubień"
         },
         "STREAK": {
-          "LABEL": "Otrzymuj codzienne powiadomienia, aby podtrzymać Passę nauki!",
-          "TITLE": "Powiadomienia Passy Nauki"
+          "LABEL": "Otrzymuj codzienne powiadomienia, aby podtrzymać serię nauki!",
+          "TITLE": "Powiadomienia serii nauki"
         }
       },
+      "ENABLE_COMMUNITY_LABEL": "Otrzymuj natychmiastowe powiadomienia, gdy ktoś wejdzie w interakcję z udostępnionymi przez Ciebie treściami",
+      "ENABLE_COMMUNITY_TITLE": "Powiadomienia udostępnionych fiszek",
+      "ENABLE_DUE_CARDS_LABEL": "Pokaż całkowitą liczbę zaległych fiszek jako plakietkę na ikonie aplikacji RemNote na ekranie głównym",
+      "ENABLE_DUE_CARDS_TITLE": "Plakietka zaległych fiszek",
       "ENABLE_EMAIL_LABEL": "Otrzymuj powiadomienia bezpośrednio do Twojej skrzynki",
-      "ENABLE_EMAIL_TITLE": "Czy chcesz otrzymywać powiadomienia email?",
+      "ENABLE_EMAIL_TITLE": "Włącz otrzymywanie powiadomień społeczności poprzez email",
       "ENABLE_PUSH_LABEL": "Otrzymuj powiadomienia bezpośrednio na swoje urządzenie",
-      "ENABLE_PUSH_TITLE": "Czy chcesz otrzymywać powiadomienia Push?",
-      "TOGGLE_LABEL": "Wybierz które powiadomienia chcesz otrzymywać bezpośrednio do Twojej skrzynki/ na urządzenie",
-      "TOGGLE_TITLE": "Dostosuj Powiadomienia"
+      "ENABLE_PUSH_TITLE": "Powiadomienia push",
+      "ENABLE_STREAK_DESCRIPTION": "Otrzymuj codzienne przypomnienia o 18:00 na temat Twojej serii fiszek",
+      "ENABLE_STREAK_TITLE": "Powiadomienia serii na urządzeniach mobilnych",
+      "PUSH_ENABLE_MESSAGE": "Powiadomienia push nie są skonfigurowane na tym urządzeniu. Kliknij tutaj, aby je ustawić!",
+      "TOGGLE_LABEL": "Wybierz które powiadomienia chcesz otrzymywać bezpośrednio na swoje urządzenie",
+      "TOGGLE_TITLE": "Powiadom mnie, gdy:"
     },
     "PLANS": {
-      "KEYWORDS": "zaproś znajomych plan zmień subskrypcję zdobądź kredyty bezpłatny remnote wyślij tweet e-mail wybierz plan uczenia się na zawsze pro spis funkcji opcje cenowe",
+      "KEYWORDS": "Zaproś znajomych Plan Zmień subskrypcję Zdobądź punkty poleceń Bezpłatny remnote Wyślij Tweet Email Wybierz Plan nauki do końca życia Nauka Pro Spis funkcjonalności Cenning",
       "TITLE": "Plany"
     },
     "SIDEBAR": {
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
-        "TITLE": "Spersonalizuj Sekcje Pasku Bocznego"
+        "TITLE": "Uporządkowanie paska bocznego"
       },
       "DOCUMENT_STATUSES": {
-        "LABEL": "Uporządkuj Dokumenty na Szkice, Skończone oraz Przypięte. ",
-        "TITLE": "Stan Dokumentu"
+        "LABEL": "Uporządkuj Dokumenty w kategoriach Draft (Szkice), Finished (Ukończone) oraz Pinned (Przypięte). ",
+        "TITLE": "Statusy Dokumentu"
       },
-      "PRIVACY_NOTE": "Prywatność: Przeczytaj naszą <policyLink>Politykę Prywatności</policyLink> lub zmień Twoje ustawienia w naszym  <hubLink>Centrum Prywatności</hubLink>.",
+      "PRIVACY_NOTE": "Prywatność: Przeczytaj naszą <policyLink>Politykę Prywatności</policyLink> lub zmień Twoje ustawienia w naszym <hubLink>Centrum Prywatności</hubLink>.",
       "SORT_SIDEBAR": {
         "KEYWORDS": "uporządkuj pasek boczny sortuj od a do z",
-        "TITLE": "Sortuj Pasek Boczny"
+        "TITLE": "Sortuj pasek boczny"
       },
       "COMMUNITY_TAB": {
         "LABEL": "Pokaż Centrum Społeczności, gdzie możesz znaleźć udostępnione dokumenty innych osób oraz grupy naukowe na Pasku Bocznym. Jeżeli to wyłączysz, wciąż będzie możliwe znalezienie Centrum Społeczności w Centrum Konta. ",
@@ -674,14 +681,14 @@
     }
   },
   "SIDEBAR": {
-    "LABEL_ALL_NOTES": "Wszystkie Notatki",
-    "LABEL_COMMUNITY": "Udostępnione iszki",
+    "LABEL_ALL_NOTES": "Wszystkie notatki",
+    "LABEL_COMMUNITY": "Udostępnione fiszki",
     "LABEL_EDIT_LATER": "Edytuj Później",
     "LABEL_FLASHCARDS": "Fiszki",
-    "LABEL_INTERACTIVE_TOUR": "Interaktywny Przewodnik",
-    "LABEL_ONBOARDING_CALL": "Ustaw Zaplanowane Połączenie",
-    "LABEL_RESUME_INTERACTIVE_TOUR": "Wznów Interaktywny Przewodnik",
-    "LABEL_TODAYS_NOTE": "Dzisiejsza Notatka",
+    "LABEL_INTERACTIVE_TOUR": "Interaktywny przewodnik",
+    "LABEL_ONBOARDING_CALL": "Zapisz się na rozmowę wprowadzającą",
+    "LABEL_RESUME_INTERACTIVE_TOUR": "Wznów interaktywny przewodnik",
+    "LABEL_TODAYS_NOTE": "Dzisiejsza notatka",
     "LABEL_TUTORIALS": "Poradniki",
     "TOOLTIP_EDIT_LATER_QUEUE": "Otwórz Edytuj Póżniej Kolejka",
     "TOOLTIP_FLASHCARD_HOME": "Idź do Centrum Fiszek"
