@@ -310,18 +310,18 @@
         "KEYWORDS": "prywatność",
         "TITLE": "Prywatność"
       },
-      "PRIVACY_NOTE": "Prywatność: Przeczytaj nasze<policyLink> Polityka prywatności</policyLink> lub zmień ustawienia w naszym<hubLink> Centrum prywatności</hubLink> .",
+      "PRIVACY_NOTE": "Prywatność: Przeczytaj naszą<policyLink> Politykę prywatności</policyLink> lub zmień ustawienia w naszym<hubLink>Centrum prywatności</hubLink>.",
       "PROFILE": {
         "KEYWORDS": "Osobisty Profil Użytkownika"
       },
       "PROFILE_TITLE": "Profil",
       "SUPPORT": {
-        "KEYWORDS": "Złóż Wniosek do Wsparcia Pomoc",
-        "TITLE": "Wsparcie"
+        "KEYWORDS": "Pomoc techniczna Wsparcie techniczne Zgłoszenie Zgłoś Uruchom ticket",
+        "TITLE": "Pomoc"
       },
       "SYNCING": {
         "KEYWORDS": "Wymuś synchronizację Obrazów i plików PDF",
-        "TITLE": "Synchronizowanie"
+        "TITLE": "Synchronizacja"
       },
       "VERSION": {
         "KEYWORDS": "wersja",
@@ -333,27 +333,27 @@
       }
     },
     "EARN_CREDIT": {
-      "APPLY_CREDIT": "Wydaj swoje kredyty",
+      "APPLY_CREDIT": "Wydaj swoje punkty poleceń",
       "COPIED": "Skopiowano!",
-      "COPYLINK": "Skopiuj Łącze",
-      "CREATE_ACCOUNT": "Stwórz Konto aby zaprosić znajomych",
-      "CREDIT_BALANCE": "Stan Środków",
-      "CREDIT_BALANCE_TEXT": "Masz <bold> {{userCredit}}<bold> niewykorzystanych środków i <bold>{{userCreditEarned}}<bold> zdobytych na koncie.  {{months}} pozostały miesiąc lub miesiące RemNote Pro za darmo.<br /><br />Przejdź na plan Pro aby zacząć używać swoje saldo! Opłata nie zostanie pobrana, dopóki nie wyczerpią się środki w aplikacji.",
+      "COPYLINK": "Skopiuj link",
+      "CREATE_ACCOUNT": "Stwórz konto, aby zapraszać znajomych",
+      "CREDIT_BALANCE": "Stan punktów poleceń",
+      "CREDIT_BALANCE_TEXT": "Masz <bold>{{userCredit}}<bold> w niewykorzystanych punktach poleceń, razem zdobyłeś <bold>{{userCreditEarned}}<bold> w punktach poleceń. {{months}} pozostały miesiąc lub miesiące RemNote Pro za darmo.<br /><br />Przejdź na plan Pro, aby zacząć używać punktów poleceń! Opłata nie zostanie pobrana, dopóki nie wyczerpią się punkty poleceń w aplikacji.",
       "EMAIL_PLACEHOLDER": "zaciekawionyprzyjaciel@gmail.com",
-      "ENTER_VALID_EMAIL": "Wprowadź aktywny adres email!",
-      "FRIEND_ALREADY_ON_REMNOTE": "Twój znajomy jest już na RemNote",
+      "ENTER_VALID_EMAIL": "Wprowadź poprawny adres email!",
+      "FRIEND_ALREADY_ON_REMNOTE": "Twój znajomy korzysta już z RemNote",
       "FRIENDS_TITLE": "Znajomi",
       "HANG_ON": "Zaczekaj",
       "INVITE": "Zaproś",
-      "INVITE_COPIED": "Skopiowano łącze!",
+      "INVITE_COPIED": "Skopiowano link!",
       "INVITE_EMAIL": "Zaproś poprzez email",
       "INVITE_ERROR": "Coś poszło nie tak. Spróbuj ponownie później.",
-      "INVITE_FRIENDS_EARN_CREDIT": "Zaproś znajomych, aby załadować saldo! Otrzymasz <0> {{monthlyPrice}}</0> w postaci środków RemNote, gdy zaproszona przez Ciebie osoba zarejestruje konto RemNote. Ona również otrzyma <0> {{monthlyPrice}}</0>  na start.",
+      "INVITE_FRIENDS_EARN_CREDIT": "Zdobywaj {{monthlyPrice}} w punktach poleceń RemNote za każdego zaproszonego znajomego! Zaproszeni również otrzymają {{monthlyPrice}} w punktach poleceń.",
       "INVITE_FRIENDS_REMNOTE": "Zaproś swoich znajomych do RemNote!",
-      "INVITE_TEXT": "Zaproś znajomych i zdobywaj środki",
-      "INVITED_YOU": "(dodał/-a Cię)",
-      "KEYWORDS": "zaproś znajomych zdobądź kredyty plan zmień subskrypcję zdobądź kredyty bezpłatny remnote wyślij tweet e-mail wybierz plan nauki na zawsze pro spis funkcji opcje cenowe",
-      "NOT_CONFIRMED_EMAIL": "(nie ma zweryfikowanego adresu email)",
+      "INVITE_TEXT": "Zaproś znajomych",
+      "INVITED_YOU": "(zaprosił/-a Cię)",
+      "KEYWORDS": "Zaproś znajomych Zdobywaj punkty poleceń Zmień plan Subskrypcja Bezpłatnie Za darmo RemNote Wyślij Tweet E-mail Wybierz Plan nauki na całe życie Pro Spis Funkcji Cennik Cena Ceny",
+      "NOT_CONFIRMED_EMAIL": "(dotychczas nie zweryfikował adresu email)",
       "SEND_INVITE": "Wyślij zaproszenie",
       "SHARE_LINK": "Zaproś poprzez łącze",
       "TITLE": "Zdobywaj",
