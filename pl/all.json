@@ -355,29 +355,29 @@
       "KEYWORDS": "Zaproś znajomych Zdobywaj punkty poleceń Zmień plan Subskrypcja Bezpłatnie Za darmo RemNote Wyślij Tweet E-mail Wybierz Plan nauki na całe życie Pro Spis Funkcji Cennik Cena Ceny",
       "NOT_CONFIRMED_EMAIL": "(dotychczas nie zweryfikował adresu email)",
       "SEND_INVITE": "Wyślij zaproszenie",
-      "SHARE_LINK": "Zaproś poprzez łącze",
-      "TITLE": "Zdobywaj",
-      "TOAST_RENEW": "Twoje kredyty zostaną wykorzystane automatycznie po odnowieniu bieżącej subskrypcji.",
-      "TOAST_SUBSCRIBE": "Twoje kredyty zostaną wykorzystane automatycznie po wykupieniu subskrypcji RemNote Pro. Wybierz plan poniżej, aby rozpocząć!",
-      "VERIFY_EMAIL": "Aby zaprosić kogoś, zweryfikuj najpierw swój adres email.",
+      "SHARE_LINK": "Zaproś poprzez linka",
+      "TITLE": "Zdobywaj punkty poleceń",
+      "TOAST_RENEW": "Twoje punkty poleceń zostaną wykorzystane automatycznie po odnowieniu bieżącej subskrypcji.",
+      "TOAST_SUBSCRIBE": "Twoje punkty poleceń zostaną wykorzystane automatycznie po wykupieniu subskrypcji RemNote Pro. Wybierz plan poniżej, aby rozpocząć!",
+      "VERIFY_EMAIL": "Aby kogoś zaprosić, zweryfikuj najpierw swój adres email.",
       "SUBSCRIBE_NOTICE": "<div><br />Przejdź na plan Pro aby zacząć używać swoje saldo! Opłata nie zostanie pobrana, dopóki nie wyczerpią się środki w aplikacji.</div>"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
         "DATE_FORMATTING": {
-          "DESCRIPTION": "Format daty będzie załączony z /data w ten sposób. ",
-          "TITLE": "Formatowanie Daty"
+          "DESCRIPTION": "Wyświetlaj daty w tym formacie.",
+          "TITLE": "Formatowanie dat"
         },
         "DATE_FORMATTING_CUSTOM": {
-          "DESCRIPTION": "Sformatuj załączanie daty w sposób najbardziej Ci odpowiadający używając dostępnych funkcji. ",
+          "DESCRIPTION": "Sformatuj daty, w sposób najbardziej Ci odpowiadający, używając dostępnych opcji.",
           "TITLE": "Spersonalizuj Formatowanie Daty"
         },
         "TIME_FORMATTING": {
-          "DESCRIPTION": "Format czasu będzie załączony z /data w ten sposób. ",
-          "TITLE": "Formatowanie Czasu"
+          "DESCRIPTION": "Sformatuj czas wstawiony za pomocą /time w ten sposób.",
+          "TITLE": "Formatowanie czasu"
         },
         "WEEK_STARTS_ON_MONDAY": {
-          "DESCRIPTION": "Wybierając datę z widoku kalendarza, zaczynaj każdy tydzień od Poniedziałku zamiast Niedzieli.",
+          "DESCRIPTION": "Wybierając datę z widoku kalendarza, zaczynaj każdy tydzień od poniedziałku, zamiast niedzieli.",
           "TITLE": "Tydzień Zaczyna się w Poniedziałek"
         }
       },
