@@ -12,9 +12,108 @@
       "VIEW": "Mostra"
     }
   },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_CONTENT": {
+            "SRC": "Il documento che stai tentando di condividere sembra un po' vuoto. Aggiungi almeno {{minimum}} rem, quindi riprova.",
+            "SUBDOCUMENT": "Uno dei tuoi documenti secondari sembra un po' vuoto. Non verrà pubblicato finché non avrà {{minimum}} rem."
+          },
+          "NO_TITLE": {
+            "SRC": "Il documento che stai tentando di condividere non ha un titolo. È necessario aggiungerne uno prima di pubblicarlo.",
+            "SUBDOCUMENT": "Uno dei tuoi documenti secondari non ha un titolo. Non sarà pubblicato finché non ne avrà uno."
+          }
+        }
+      }
+    }
+  },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Lingua",
     "TRANSLATION_INFO_SETTINGS": "La traduzione è ancora in corso; vedrai un mix di inglese e la lingua selezionata.<br> Puoi aiutarci a tradurre leggendo il<guideLink> tutorial</guideLink> e quindi utilizzando il nostro<editorLink> redattore web</editorLink>."
+  },
+  "NOTIFICATIONS": {
+    "ARTICLE_DEFAULT": "Il tuo documento",
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Il tuo documento",
+      "BODY_2": "ha ottenuto {{viewCount, number}} visualizzazioni"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "è stato aggiunto a"
+    },
+    "EMPTY_STATE_TITLE": "Non hai notifiche recenti",
+    "GROUP_DEFAULT": "Il tuo gruppo",
+    "IMPORT": {
+      "BODY": "Qualcuno ha importato il tuo documento"
+    },
+    "INVITE": {
+      "ACCEPT": "Accetta l'invito",
+      "BODY": "ti ha invitato a iscriverti",
+      "REJECT": "Rifiuta"
+    },
+    "NEW_COMMENT": {
+      "BODY": "ha commentato",
+      "BODY_ARTICLE": "ha commentato il tuo documento",
+      "BODY_COMMENT": "ha risposto al tuo commento",
+      "BODY_GROUP": "ha inviato una chat al tuo gruppo"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "ti segue"
+    },
+    "NEW_LIKE": {
+      "BODY": "ha messo un Like"
+    },
+    "POPUP_TITLE": "Notifiche recenti"
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "SORT": {
+        "ASCENDING": "A -> Z",
+        "BY_CREATION_TIME": "Per ora della creazione",
+        "BY_MODIFICATION": "Per modifica",
+        "BY_TITLE": "Per titolo",
+        "DESCENDING": "Z -> A",
+        "OLDEST_CREATION_FIRST": "Prima la creazione più vecchia",
+        "OLDEST_FIRST": "Prima i più vecchi",
+        "RECENTLY_CREATED": "Creato di recente",
+        "RECENTLY_MODIFIED": "Modificato di recente"
+      },
+      "TITLE": "Tutte le Note"
+    }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "DESCRIPTION": "Organizza appunti su lezioni, fonti o idee nei documenti.",
+        "TITLE": "Documento"
+      },
+      "FOLDER": {
+        "DESCRIPTION": "Organizza i documenti in cartelle.",
+        "TITLE": "Cartella"
+      },
+      "QUICK_ADD": {
+        "DESCRIPTION": "Cattura le tue idee al volo!",
+        "TITLE": "Aggiunta rapida"
+      },
+      "TABLE_TAG": {
+        "DESCRIPTION": "Crea un tag da utilizzare con tabelle e modelli.",
+        "TITLE": "Etichetta & Tabella"
+      },
+      "TODAYS_DOCUMENT": {
+        "DESCRIPTION": "I documenti giornalieri sono perfetti per un diario, elenchi di cose da fare e altro ancora.",
+        "TITLE": "Documento di Oggi"
+      },
+      "UPLOAD_FILE": {
+        "DESCRIPTION": "Evidenzia e referenzia un PDF, PowerPoint, documento Word o altro file.",
+        "FEATURE_NAME": "Evidenziazione PDF",
+        "PAYWALL": "Hai raggiunto il limite per i caricamenti di PDF.",
+        "TITLE": "Carica e annota il file"
+      }
+    }
+  },
+  "POWERUPS": {
+    "POWERUP_one": "Powerup",
+    "POWERUP_other": "Powerup"
   },
   "SETTINGS": {
     "ACCOUNT": {
@@ -112,9 +211,6 @@
       }
     },
     "EDITOR_INTERFACE": {
-      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
-        "TITLE": "Apri i Riferimenti con un solo click"
-      },
       "ENABLE_ZOOM_INTO_BULLET": {
         "LABEL": "Quando fai clic sul punto elenco, mostra il rem come una pagina intera",
         "TITLE": "Abilita lo zoom nel punto elenco"
@@ -125,13 +221,16 @@
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
         "LABEL": "Quando un Rem è compresso, allarga o rimpicciolisci l'anello attorno al suo punto elenco in base al numero totale di figli."
+      },
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "TITLE": "Apri i Riferimenti con un solo click"
       }
     },
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "DESCRIPTION": "Limita il numero di flashcard sulle quali RemNote ti chiederà di esercitarti per raggiungere il tuo obiettivo giornaliero a questo valore.",
-          "TITLE": "Obiettivo giornaliero massimo"
+          "TITLE": "Obiettivo giornaliero massimo",
+          "DESCRIPTION": "Limita il numero di flashcard sulle quali RemNote ti chiederà di esercitarti per raggiungere il tuo obiettivo giornaliero a questo valore."
         },
         "TODAYS_TARGET": "Obiettivo di oggi:",
         "TODAYS_TARGET_EXPLANATION": "RemNote tenta di impostare il tuo obiettivo giornaliero in modo tale che, se raggiungi l'obiettivo ogni giorno, completerai tutte le carte destinate alla revisione nei prossimi 7 giorni. Tuttavia, l'obiettivo giornaliero non sarà mai superiore al massimo sopra impostato."
@@ -145,6 +244,10 @@
           "DESCRIPTION": "Includi al massimo questo numero di flashcard appena create nella tua coda di flashcard ogni giorno. In questo modo, le nuove carte entreranno nella tua coda a una velocità giornaliera costante, anziché tutte insieme.",
           "TITLE": "Numero massimo di nuove carte al giorno"
         },
+        "NEXT_DAY_STARTS_AT": {
+          "DESCRIPTION": "Nuove carte appaiono nella tua coda ogni giorno in questo momento.",
+          "TITLE": "Il giorno successivo inizia alle"
+        },
         "RESET_ALL": {
           "CONFIRM_MESSAGE": "Sei sicuro di voler ripristinare tutte le impostazioni sulle flashcard ai valori predefiniti?",
           "DESCRIPTION": "Ripristina tutte le impostazioni sulle flashcard ai valori predefiniti.",
@@ -157,10 +260,6 @@
         "TYPE_ANSWER": {
           "DESCRIPTION": "Mostra una casella di testo sulla parte anteriore di ciascuna flashcard e confronta ciò che scrivi con la risposta sul retro della carta.",
           "TITLE": "Digita la risposta"
-        },
-        "NEXT_DAY_STARTS_AT": {
-          "DESCRIPTION": "Nuove carte appaiono nella tua coda ogni giorno in questo momento.",
-          "TITLE": "Il giorno successivo inizia alle"
         }
       },
       "STATISTICS": {
@@ -230,9 +329,6 @@
         }
       }
     },
-    "PLANS": {
-      "TITLE": "Piani"
-    },
     "NOTIFICATIONS": {
       "DESCRIPTIONS": {
         "ARTICLE_VIEWS": {
@@ -265,6 +361,9 @@
       "TOGGLE_LABEL": "Controlla quali notifiche desideri ricevere direttamente sul tuo dispositivo/posta in arrivo",
       "TOGGLE_TITLE": "Filtra le notifiche"
     },
+    "PLANS": {
+      "TITLE": "Piani"
+    },
     "SIDEBAR": {
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "Personalizza le sezioni della barra laterale"
@@ -278,120 +377,6 @@
         "TITLE": "Ordina la barra laterale"
       }
     }
-  },
-  "COMMUNITY": {
-    "ARTICLES": {
-      "ERRORS": {
-        "SHARING": {
-          "NO_CONTENT": {
-            "SRC": "Il documento che stai tentando di condividere sembra un po' vuoto. Aggiungi almeno {{minimum}} rem, quindi riprova.",
-            "SUBDOCUMENT": "Uno dei tuoi documenti secondari sembra un po' vuoto. Non verrà pubblicato finché non avrà {{minimum}} rem."
-          },
-          "NO_TITLE": {
-            "SRC": "Il documento che stai tentando di condividere non ha un titolo. È necessario aggiungerne uno prima di pubblicarlo.",
-            "SUBDOCUMENT": "Uno dei tuoi documenti secondari non ha un titolo. Non sarà pubblicato finché non ne avrà uno."
-          }
-        }
-      }
-    }
-  },
-  "NOTIFICATIONS": {
-    "ARTICLE_DEFAULT": "Il tuo documento",
-    "ARTICLE_VIEWS": {
-      "BODY_1": "Il tuo documento",
-      "BODY_2": "ha ottenuto {{viewCount, number}} visualizzazioni"
-    },
-    "DOCUMENT_ADDED_TO_GROUP": {
-      "BODY": "è stato aggiunto a"
-    },
-    "EMPTY_STATE_TITLE": "Non hai notifiche recenti",
-    "GROUP_DEFAULT": "Il tuo gruppo",
-    "IMPORT": {
-      "BODY": "Qualcuno ha importato il tuo documento"
-    },
-    "INVITE": {
-      "ACCEPT": "Accetta l'invito",
-      "BODY": "ti ha invitato a iscriverti",
-      "REJECT": "Rifiuta"
-    },
-    "NEW_COMMENT": {
-      "BODY": "ha commentato",
-      "BODY_ARTICLE": "ha commentato il tuo documento",
-      "BODY_COMMENT": "ha risposto al tuo commento",
-      "BODY_GROUP": "ha inviato una chat al tuo gruppo"
-    },
-    "NEW_FOLLOWER": {
-      "BODY": "ti segue"
-    },
-    "NEW_LIKE": {
-      "BODY": "ha messo un Like"
-    },
-    "POPUP_TITLE": "Notifiche recenti"
-  },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "PAGE_0": {
-          "TITLE": "Crea una cartella"
-        },
-        "PAGE_1": {
-          "TITLE": "Aggiungi un punto elenco"
-        },
-        "PAGE_2": {
-          "TITLE": "Crea una Flashcard"
-        }
-      }
-    }
-  },
-  "PAGES": {
-    "ALL_NOTES": {
-      "SORT": {
-        "ASCENDING": "A -> Z",
-        "BY_CREATION_TIME": "Per ora della creazione",
-        "BY_MODIFICATION": "Per modifica",
-        "BY_TITLE": "Per titolo",
-        "DESCENDING": "Z -> A",
-        "OLDEST_CREATION_FIRST": "Prima la creazione più vecchia",
-        "OLDEST_FIRST": "Prima i più vecchi",
-        "RECENTLY_CREATED": "Creato di recente",
-        "RECENTLY_MODIFIED": "Modificato di recente"
-      },
-      "TITLE": "Tutte le Note"
-    }
-  },
-  "POPUPS": {
-    "CREATE_CONTENT_OPTIONS": {
-      "DOCUMENT": {
-        "DESCRIPTION": "Organizza appunti su lezioni, fonti o idee nei documenti.",
-        "TITLE": "Documento"
-      },
-      "FOLDER": {
-        "DESCRIPTION": "Organizza i documenti in cartelle.",
-        "TITLE": "Cartella"
-      },
-      "QUICK_ADD": {
-        "DESCRIPTION": "Cattura le tue idee al volo!",
-        "TITLE": "Aggiunta rapida"
-      },
-      "TABLE_TAG": {
-        "DESCRIPTION": "Crea un tag da utilizzare con tabelle e modelli.",
-        "TITLE": "Etichetta & Tabella"
-      },
-      "TODAYS_DOCUMENT": {
-        "DESCRIPTION": "I documenti giornalieri sono perfetti per un diario, elenchi di cose da fare e altro ancora.",
-        "TITLE": "Documento di Oggi"
-      },
-      "UPLOAD_FILE": {
-        "DESCRIPTION": "Evidenzia e referenzia un PDF, PowerPoint, documento Word o altro file.",
-        "FEATURE_NAME": "Evidenziazione PDF",
-        "PAYWALL": "Hai raggiunto il limite per i caricamenti di PDF.",
-        "TITLE": "Carica e annota il file"
-      }
-    }
-  },
-  "POWERUPS": {
-    "POWERUP_one": "Powerup",
-    "POWERUP_other": "Powerup"
   },
   "SIDEBAR": {
     "LABEL_ALL_NOTES": "Tutte le Note",
@@ -530,5 +515,20 @@
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} Modelli",
     "TURN_OFF_AUTO_APPLY": "Disattiva l'applicazione automatica",
     "VIEW_CONFIGURATION": "Configura etichetta"
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "Crea una cartella"
+        },
+        "PAGE_1": {
+          "TITLE": "Aggiungi un punto elenco"
+        },
+        "PAGE_2": {
+          "TITLE": "Crea una Flashcard"
+        }
+      }
+    }
   }
 }

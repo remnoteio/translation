@@ -2,6 +2,7 @@
   "COMMON": {
     "ACTIONS": {
       "APPLY": "应用",
+      "COPY": "复制",
       "CREATE": "创建",
       "DELETE": "删除",
       "DUPLICATE": "创建副本",
@@ -9,8 +10,7 @@
       "HIDE": "隐藏",
       "REMOVE": "移除",
       "UPDATE": "更新",
-      "VIEW": "查看",
-      "COPY": "复制"
+      "VIEW": "查看"
     },
     "AI": {
       "AI_FLASHCARDS": "AI 记忆卡片"
@@ -23,27 +23,259 @@
     },
     "NEW": "新建"
   },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_CONTENT": {
+            "SRC": "您要共享的文件内部 Rem 数量不达标，请至少添加 {{minimum}} 个 Rem 后再试一次",
+            "SUBDOCUMENT": "您的某个子文档内部 Rem 数量不达标，文档只有达到 {{minimum}} 个 Rem 后才能发布"
+          },
+          "NO_TITLE": {
+            "SRC": "您要共享的文档没有标题，请在发布前添加标题",
+            "SUBDOCUMENT": "您的一个子文档没有标题，请在发布前添加一个标题"
+          }
+        }
+      }
+    }
+  },
+  "DOCUMENT": {
+    "DIALOGS": {
+      "DELETE_ALSO_UNSHARE": "您是否也想取消共享该文档？",
+      "DELETE_CONFIRM_DIALOG": "您确定要删除该文档吗？",
+      "DELETE_UNSHARE_ERROR": "取消共享此文档时出错，请手动取消共享。",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "您当前处于离线状态，请在联网后手动取消共享该文档。"
+    },
+    "MENU": {
+      "ADD_NESTED_DOCUMENT": "添加嵌套文档",
+      "CHANGE_DOCUMENT_STATUS": "更改文档状态",
+      "CUSTOMIZE_SPACED_REPETITION": "自定义间隔重复",
+      "DELETE": "删除",
+      "EDIT_MODE": {
+        "READ": "只读模式",
+        "WRITE": "编辑模式"
+      },
+      "EXPORT": "导出",
+      "FIND_OR_FILTER": "查找或筛选",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "此选项已弃用，建议您使用替代方法：按下 <keycode /> 键，然后搜索文本引用。",
+        "LABEL": "查找文本引用"
+      },
+      "MARK_AS_DOCUMENT": "标记为文档",
+      "MOVE": "移动",
+      "OPEN_IN_ANOTHER_PANE": "在新窗格中打开",
+      "PIN_TO_SIDEBAR": "固定到侧边栏",
+      "PRINT": "打印",
+      "RENAME": "重命名",
+      "SHOW_STUDY_BUTTON": "显示学习按钮",
+      "STATS": "统计",
+      "UNDO": "撤销",
+      "UNPIN_FROM_SIDEBAR": "从侧边栏取消固定",
+      "UNSHARE_DOCUMENT": "取消文档共享",
+      "VIEW_GRAPH": "查看图谱",
+      "VIEW_TRASH": "查看回收站"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "草稿",
+      "FINISHED": "已完成",
+      "PINNED": "已固定"
+    }
+  },
+  "FILE_UPLOADING": {
+    "CACHED_INFO": "此文件尚未上传，已缓存用于离线查看。",
+    "LOCAL_ONLY_WARN": "此文件未成功上传，暂时存储在您的计算机上。",
+    "LOCAL_WAITING_FOR_UPLOAD_WARN": "此文件尚未上传，仅存储在本地。",
+    "NOT_FOUND": "找不到此文件。",
+    "NOT_YET_UPLOADED": "此文件尚未上传。",
+    "SNIPPING": {
+      "NON_PDF": "请尝试使用其他截图/粘贴工具，或联系支持人员。",
+      "PDF": "请联系支持人员。"
+    }
+  },
   "LANGUAGE": {
     "LANGUAGE_WORD": "语言",
     "TRANSLATION_INFO_SETTINGS": "翻译仍在进行中，您将看到英语和所选语言的混合展示。<br>您可以先阅读<guideLink>教程</guideLink>，然后使用我们的<editorLink>网页编辑器</editorLink>来协助翻译。",
     "TRANSLATION_IN_PROGRESS": "RemNote 的翻译仍然在进行中。您可以在<editorLink>on inlang</editorLink>上<bold>贡献翻译</bold>。"
   },
+  "NOTIFICATIONS": {
+    "ARTICLE_DEFAULT": "您的文章",
+    "ARTICLE_VIEWS": {
+      "BODY_1": "您的文章",
+      "BODY_2": "已获得 {{viewCount, number}} 浏览量"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "被加入"
+    },
+    "EMPTY_STATE_MESSAGE": "您已掌握了一切！当有人在您 <profileLink>profile</profileLink> 分享的内容上互动时，您会收到通知",
+    "EMPTY_STATE_TITLE": "您最近没有收到任何通知",
+    "GROUP_DEFAULT": "您的群组",
+    "IMPORT": {
+      "BODY": "有人导入了您的文章"
+    },
+    "INVITE": {
+      "ACCEPT": "接受邀请",
+      "BODY": "已邀请您加入",
+      "REJECT": "拒绝"
+    },
+    "NEW_COMMENT": {
+      "BODY": "评论了",
+      "BODY_ARTICLE": "评论了您的文章",
+      "BODY_COMMENT": "回复了您的评论",
+      "BODY_GROUP": "发送聊天到您的群组"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "关注您"
+    },
+    "NEW_LIKE": {
+      "BODY": "喜欢"
+    },
+    "POPUP_TITLE": "近期通知"
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "SORT": {
+        "ASCENDING": "按字母序(A -> Z)",
+        "BY_CREATION_TIME": "按创建时间",
+        "BY_MODIFICATION": "按修改时间",
+        "BY_TITLE": "按标题",
+        "DESCENDING": "按字母逆序(Z -> A)",
+        "OLDEST_CREATION_FIRST": "按创建时间降序",
+        "OLDEST_FIRST": "按时间降序",
+        "RECENTLY_CREATED": "最近创建",
+        "RECENTLY_MODIFIED": "最近修改"
+      },
+      "TITLE": "全部笔记"
+    }
+  },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "AI_DROPDOWN": {
+        "BASIC_CARDS": "基础卡片",
+        "BASIC_CARDS_TOOLTIP": "从选定文本生成问答形式基础记忆卡片。",
+        "CLOZE_CARDS": "完形填空卡片",
+        "CLOZE_CARDS_TOOLTIP": "从选定文本生成完形填空记忆卡片。",
+        "CONCEPT_CARDS": "概念卡片",
+        "CONCEPT_CARDS_TOOLTIP": "从选定文本生成概念-描述记忆卡片。",
+        "GENERATE_SECTION": "生成"
+      },
+      "CLOZE_BTN_TOOLTIP": "完形填空记忆卡片",
+      "COPY_IMAGE": "复制图像",
+      "COPY_TEXT": "复制为纯文本",
+      "HIGHLIGHT": "高亮",
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "制作图像遮蔽记忆卡片",
+      "NO_TEXT_IN_PDF_WARN": "此文件不包含文本层，但您仍然可以使用区域高亮来注解。",
+      "NOTE_BTN_TOOLTIP": "笔记"
+    },
+    "EDIT_ANNOTATIONS": {
+      "ADVANCED_LINKING_OPTIONS": "高级链接选项",
+      "DELETE_WARNING": "此高亮包含 {{notesCount, number}} {{ notesWord }}。您确定要删除它吗？",
+      "TURN_INTO_CONCEPT": "转换为概念",
+      "VIEW_REFERENCES": "查看引用"
+    },
+    "HEADER": {
+      "AREA_HIGHLIGHT_TOOLTIP": "区域高亮 ({{keyName}} + 拖动)",
+      "NUMBER_OF_PAGES_TOOLTIP": "页数",
+      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "切换默认文档"
+    },
+    "PDF_OPTIONS": {
+      "CHANGE_THEME": "更改主题",
+      "DOWNLOAD_PDF": "下载 PDF",
+      "LEARN_MORE": "了解更多",
+      "OPEN_WEBPAGE_EXTERNALLY": "在应用外打开网页",
+      "PDF_SETTINGS": "设置",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "自动高亮",
+        "AUTO_HIGHLIGHT_TOOLTIP": "选中文本后自动创建高亮。",
+        "DISABLE_HEADER_BUTTONS": "禁用标题按钮",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "在阅读器中隐藏标题按钮（«）。",
+        "SNAP_HIGHLIGHT_TO_WORDS": "高亮自动对齐到单词",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "创建高亮时，仅选择完整单词。"
+      },
+      "REFETCH_PAGE": "重新获取页面",
+      "REFETCH_PAGE_TOOLTIP": "如果页面已有高亮标记，将无法重新获取该页面。",
+      "SEARCH_IN_PDF": "在 PDF 中搜索",
+      "SPLIT_PANES": "拆分窗格",
+      "SPLIT_PANES_TOOLTIP": "将编辑器和 PDF 阅读器拆分到不同的窗格中。",
+      "THEMES": {
+        "CLASSIC_INVERT": "经典主题色反转",
+        "DARK": "暗黑",
+        "LIGHT": "明亮",
+        "SOLARISED": "Solarised",
+        "USE_REMNOTE_THEME": "使用 RemNote 主题"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "DONE": "完成",
+      "INPUT_PLACEHOLDER": "搜索"
+    }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "DESCRIPTION": "记录课堂笔记、想法或者其他任何您想要的内容！",
+        "TITLE": "文档"
+      },
+      "FOLDER": {
+        "DESCRIPTION": "在文件夹中组织笔记",
+        "TITLE": "文件夹"
+      },
+      "QUICK_ADD": {
+        "DESCRIPTION": "随时捕捉您的想法！",
+        "TITLE": "速记"
+      },
+      "TABLE_TAG": {
+        "DESCRIPTION": "创建用于表格和模板的标签",
+        "TITLE": "表格和标签"
+      },
+      "TODAYS_DOCUMENT": {
+        "DESCRIPTION": "每日笔记非常适合日记、待办清单等",
+        "TITLE": "今日笔记"
+      },
+      "UPLOAD_FILE": {
+        "DESCRIPTION": "高亮并引用 PDF、PowerPoint、Word 文档或其他文件",
+        "FEATURE_NAME": "PDF 高亮",
+        "PAYWALL": "您的 PDF 上传量已达到上限",
+        "TITLE": "上传并标注文件",
+        "todo_for_the_item_below": "是否将其移动到全局功能名称对象中？"
+      }
+    }
+  },
+  "POWERUPS": {
+    "POWERUP_one": "高级功能",
+    "POWERUP_other": "高级功能"
+  },
   "SETTINGS": {
     "ACCOUNT": {
+      "ADVANCED": {
+        "KEYWORDS": "支持 重置搜索 修复错误"
+      },
       "ADVANCED_TITLE": "高级设置",
+      "AUTHENTICATION": {
+        "KEYWORDS": "退出 登出 Google 登录方式 添加 断开连接 登录 注册"
+      },
       "AUTHENTICATION_TITLE": "认证授权",
+      "CACHING": {
+        "DESCRIPTION": "加载图像时同时进行缓存，以便离线查看。",
+        "NUMBER_DESCRIPTION": "设置要缓存的最大图像数。当达到限制时，将从缓存中清除最旧的图像。",
+        "NUMBER_TITLE": "最大缓存图像数量",
+        "TITLE": "缓存",
+        "TOGGLE_DESCRIPTION": "禁用后，所有缓存的图像都将被清除。",
+        "TOGGLE_TITLE": "启用缓存"
+      },
       "DANGER_ZONE": {
         "KEYWORDS": "删除账户 重置进度 重置入门指南 高级账户设置",
         "TITLE": "风险操作"
       },
       "DANGER_ZONE_TITLE": "风险操作",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
       "IMPORT_EXPORT_TITLE": "导入导出",
       "MY_PROFILE": "我的资料",
-      "NAVIGATION_TITLE": "功能导航",
-      "NOTIFICATIONS": {
-        "DESCRIPTION": "在当地时区的每天下午6点，自动向您的手机发送记忆卡片的复习提醒。",
-        "TITLE": "通知推送"
+      "NAVIGATION": {
+        "KEYWORDS": "导出和备份 回收站 查看已删除的 Rem 导入知识库 查看所有卡片 下载每日备份 高级设置 删除所有 Rem"
       },
+      "NAVIGATION_TITLE": "功能导航",
       "PRIVACY": {
         "KEYWORDS": "隐私",
         "TITLE": "隐私"
@@ -65,25 +297,9 @@
         "KEYWORDS": "版本",
         "TITLE": "应用版本"
       },
-      "ADVANCED": {
-        "KEYWORDS": "支持 重置搜索 修复错误"
-      },
-      "AUTHENTICATION": {
-        "KEYWORDS": "退出 登出 Google 登录方式 添加 断开连接 登录 注册"
-      },
-      "EXPORT_IMPORT": {
-        "KEYWORDS": "导出备份 导出 Roam Dynalist Logseq Notion Evernote Obsidian"
-      },
-      "NAVIGATION": {
-        "KEYWORDS": "导出和备份 回收站 查看已删除的 Rem 导入知识库 查看所有卡片 下载每日备份 高级设置 删除所有 Rem"
-      },
-      "CACHING": {
-        "DESCRIPTION": "加载图像时同时进行缓存，以便离线查看。",
-        "NUMBER_DESCRIPTION": "设置要缓存的最大图像数。当达到限制时，将从缓存中清除最旧的图像。",
-        "NUMBER_TITLE": "最大缓存图像数量",
-        "TITLE": "缓存",
-        "TOGGLE_DESCRIPTION": "禁用后，所有缓存的图像都将被清除。",
-        "TOGGLE_TITLE": "启用缓存"
+      "NOTIFICATIONS": {
+        "DESCRIPTION": "在当地时区的每天下午6点，自动向您的手机发送记忆卡片的复习提醒。",
+        "TITLE": "通知推送"
       },
       "ADVANCED_KEYWORDS": "支持 重装 搜索 修复错误",
       "AUTHENTICATION_KEYWORDS": "退出 退出Google登录 添加 断开连接 登录 注册",
@@ -173,10 +389,6 @@
       }
     },
     "EDITOR_INTERFACE": {
-      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
-        "TITLE": "单击打开引用",
-        "LABEL": "点击或轻触引用时立即跳转到目标内容，而不是打开引用菜单。（您始终可以通过右键单击来显示引用菜单）"
-      },
       "ENABLE_ZOOM_INTO_BULLET": {
         "LABEL": "当您单击项目符号时，将 rem 作为全页显示。",
         "TITLE": "启用项目符号缩放"
@@ -189,6 +401,10 @@
         "LABEL": "根据后代数量自动缩放项目符号。",
         "TITLE": "自动缩放项目符号"
       },
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "LABEL": "点击或轻触引用时立即跳转到目标内容，而不是打开引用菜单。（您始终可以通过右键单击来显示引用菜单）",
+        "TITLE": "单击打开引用"
+      },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
         "LABEL": "在编辑器中添加和删除 Rem 时启用动画效果",
         "TITLE": "编辑器动画效果"
@@ -197,8 +413,8 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "DESCRIPTION": "设置每天至少练习的记忆卡片数量，以建立连续练习的记录。",
-          "TITLE": "目标"
+          "TITLE": "目标",
+          "DESCRIPTION": "设置每天至少练习的记忆卡片数量，以建立连续练习的记录。"
         },
         "TODAYS_TARGET": "今日目标：",
         "TODAYS_TARGET_EXPLANATION": "如果 RemNote 预测到，在接下来的一周里，你平均每天需要练习的卡片数少于你设定的每日目标，我们将暂时调整你的每日目标，以确保你每天的卡片数大致相等，而不是前期很多，后期较少。"
@@ -208,6 +424,14 @@
           "DESCRIPTION": "自动播放记忆卡片上的音频或视频内容。",
           "TITLE": "自动播放媒体"
         },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "DESCRIPTION": "当记忆卡片展示时，自动播放卡片正面的文字语音音频，同时显示卡片背面一次。",
+          "TITLE": "自动播放文本转语音"
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "DESCRIPTION": "当您已经练习了所有到期的卡片后，我们可以从未到期的卡片中选取未来到期的卡片，这有助于您避免很快需要再次练习。",
+          "TITLE": "超前学习限制"
+        },
         "LEECH_THRESHOLD": {
           "DESCRIPTION": "设置在困难卡片上按下“忘记”时发出警告的次数阈值。 <leechArticle>了解更多关于卡片标记的信息。</leechArticle>",
           "TITLE": "遗忘阈值"
@@ -215,6 +439,10 @@
         "NEW_CARDS_PER_DAY": {
           "DESCRIPTION": "设置每天允许加入记忆卡片队列的新卡片数量，因此新卡片以每天稳定的速度加入您的卡片队列，而不是一次性大批量地加入队列。",
           "TITLE": "每日最大新卡数量"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "DESCRIPTION": "设置每天新卡片加入在您的队列中的时间。",
+          "TITLE": "次日起始时间"
         },
         "RESET_ALL": {
           "CONFIRM_MESSAGE": "您确定要重置全部记忆卡片的设置为其默认值吗？",
@@ -229,22 +457,6 @@
           "DESCRIPTION": "设置每天允许加入记忆卡片队列的过期卡片数量，过期卡片是因为您很长时间没有学习它们而被暂时从队列中撤回的卡片，一次性重新学习它们会很耗费精力。",
           "TITLE": "每日最多过期卡片数"
         },
-        "TYPE_ANSWER": {
-          "DESCRIPTION": "在每张记忆卡片的正面显示一个文本框，并将您输入的内容与卡片背面的答案进行比较。",
-          "TITLE": "输入答案"
-        },
-        "LEARN_AHEAD_LIMIT": {
-          "DESCRIPTION": "当您已经练习了所有到期的卡片后，我们可以从未到期的卡片中选取未来到期的卡片，这有助于您避免很快需要再次练习。",
-          "TITLE": "超前学习限制"
-        },
-        "NEXT_DAY_STARTS_AT": {
-          "DESCRIPTION": "设置每天新卡片加入在您的队列中的时间。",
-          "TITLE": "次日起始时间"
-        },
-        "AUTOPLAY_TEXT_TO_SPEECH": {
-          "DESCRIPTION": "当记忆卡片展示时，自动播放卡片正面的文字语音音频，同时显示卡片背面一次。",
-          "TITLE": "自动播放文本转语音"
-        },
         "TEXT_TO_SPEECH_VOICE": {
           "DESCRIPTION": "用于文本转语音的声音。请注意某些声音仅适用于某些语言。",
           "TITLE": "文本转语音"
@@ -252,6 +464,10 @@
         "TEXT_TO_SPEECH_SPEED": {
           "DESCRIPTION": "朗读记忆卡片的速度",
           "TITLE": "文本转语音的速度"
+        },
+        "TYPE_ANSWER": {
+          "DESCRIPTION": "在每张记忆卡片的正面显示一个文本框，并将您输入的内容与卡片背面的答案进行比较。",
+          "TITLE": "输入答案"
         }
       },
       "ORDERING": {
@@ -318,14 +534,14 @@
         "TITLE": "RemNote 界面语言"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
+        "KEYWORDS": "应用程序内 左侧边栏 教程 工具提示 帮助 支持 学习教程",
         "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示",
-        "TITLE": "应用内置教程",
-        "KEYWORDS": "应用程序内 左侧边栏 教程 工具提示 帮助 支持 学习教程"
+        "TITLE": "应用内置教程"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
+        "KEYWORDS": "工具提示 帮助 支持 学习教程",
         "LABEL": "在屏幕一角显示您当前使用的键盘快捷键提示",
-        "TITLE": "键盘快捷键提示",
-        "KEYWORDS": "工具提示 帮助 支持 学习教程"
+        "TITLE": "键盘快捷键提示"
       },
       "SIMPLIFIED_UI": {
         "LABEL": "简化界面显示并隐藏高级功能",
@@ -370,10 +586,6 @@
         }
       }
     },
-    "PLANS": {
-      "KEYWORDS": "邀请好友 更改订阅计划 订阅赚取积分 免费RemNote 发送推特电子邮件 选择计划 终身学习专业版 功能细分 定价选项",
-      "TITLE": "订阅"
-    },
     "NOTIFICATIONS": {
       "DESCRIPTIONS": {
         "ARTICLE_VIEWS": {
@@ -405,19 +617,23 @@
           "TITLE": "持续通知"
         }
       },
+      "ENABLE_COMMUNITY_LABEL": "当有人与您分享的内容互动时，立即接收通知。",
+      "ENABLE_COMMUNITY_TITLE": "共享记忆卡片通知",
       "ENABLE_DUE_CARDS_LABEL": "开启后，在 RemNote 应用程序图标上以角标形式显示到期卡片总数",
       "ENABLE_DUE_CARDS_TITLE": "启用卡片到期角标",
       "ENABLE_EMAIL_LABEL": "发送通知到您的邮箱",
       "ENABLE_EMAIL_TITLE": "开启电子邮件通知？",
       "ENABLE_PUSH_LABEL": "开启后，发送消息通知到您的设备",
       "ENABLE_PUSH_TITLE": "启用推送通知",
-      "TOGGLE_LABEL": "管理发送到您的设备或邮箱的通知",
-      "TOGGLE_TITLE": "通知管理",
-      "ENABLE_COMMUNITY_LABEL": "当有人与您分享的内容互动时，立即接收通知。",
-      "ENABLE_COMMUNITY_TITLE": "共享记忆卡片通知",
       "ENABLE_STREAK_DESCRIPTION": "每天晚上6点接收关于您记忆卡片连续使用情况的提醒。",
       "ENABLE_STREAK_TITLE": "移动端连续使用提醒",
-      "PUSH_ENABLE_MESSAGE": "此设备尚未配置推送通知。点击这里进行设置！"
+      "PUSH_ENABLE_MESSAGE": "此设备尚未配置推送通知。点击这里进行设置！",
+      "TOGGLE_LABEL": "管理发送到您的设备或邮箱的通知",
+      "TOGGLE_TITLE": "通知管理"
+    },
+    "PLANS": {
+      "KEYWORDS": "邀请好友 更改订阅计划 订阅赚取积分 免费RemNote 发送推特电子邮件 选择计划 终身学习专业版 功能细分 定价选项",
+      "TITLE": "订阅"
     },
     "SIDEBAR": {
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
@@ -437,125 +653,6 @@
         "TITLE": "社区功能"
       }
     }
-  },
-  "COMMUNITY": {
-    "ARTICLES": {
-      "ERRORS": {
-        "SHARING": {
-          "NO_CONTENT": {
-            "SRC": "您要共享的文件内部 Rem 数量不达标，请至少添加 {{minimum}} 个 Rem 后再试一次",
-            "SUBDOCUMENT": "您的某个子文档内部 Rem 数量不达标，文档只有达到 {{minimum}} 个 Rem 后才能发布"
-          },
-          "NO_TITLE": {
-            "SRC": "您要共享的文档没有标题，请在发布前添加标题",
-            "SUBDOCUMENT": "您的一个子文档没有标题，请在发布前添加一个标题"
-          }
-        }
-      }
-    }
-  },
-  "NOTIFICATIONS": {
-    "ARTICLE_DEFAULT": "您的文章",
-    "ARTICLE_VIEWS": {
-      "BODY_1": "您的文章",
-      "BODY_2": "已获得 {{viewCount, number}} 浏览量"
-    },
-    "DOCUMENT_ADDED_TO_GROUP": {
-      "BODY": "被加入"
-    },
-    "EMPTY_STATE_MESSAGE": "您已掌握了一切！当有人在您 <profileLink>profile</profileLink> 分享的内容上互动时，您会收到通知",
-    "EMPTY_STATE_TITLE": "您最近没有收到任何通知",
-    "GROUP_DEFAULT": "您的群组",
-    "IMPORT": {
-      "BODY": "有人导入了您的文章"
-    },
-    "INVITE": {
-      "ACCEPT": "接受邀请",
-      "BODY": "已邀请您加入",
-      "REJECT": "拒绝"
-    },
-    "NEW_COMMENT": {
-      "BODY": "评论了",
-      "BODY_ARTICLE": "评论了您的文章",
-      "BODY_COMMENT": "回复了您的评论",
-      "BODY_GROUP": "发送聊天到您的群组"
-    },
-    "NEW_FOLLOWER": {
-      "BODY": "关注您"
-    },
-    "NEW_LIKE": {
-      "BODY": "喜欢"
-    },
-    "POPUP_TITLE": "近期通知"
-  },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "PAGE_0": {
-          "TITLE": "创建文件夹"
-        },
-        "PAGE_1": {
-          "TITLE": "添加项目符号"
-        },
-        "PAGE_2": {
-          "TITLE": "创建记忆卡片"
-        },
-        "PAGE_3": {
-          "TITLE": "使用 Tab 键结构化笔记"
-        }
-      }
-    }
-  },
-  "PAGES": {
-    "ALL_NOTES": {
-      "SORT": {
-        "ASCENDING": "按字母序(A -> Z)",
-        "BY_CREATION_TIME": "按创建时间",
-        "BY_MODIFICATION": "按修改时间",
-        "BY_TITLE": "按标题",
-        "DESCENDING": "按字母逆序(Z -> A)",
-        "OLDEST_CREATION_FIRST": "按创建时间降序",
-        "OLDEST_FIRST": "按时间降序",
-        "RECENTLY_CREATED": "最近创建",
-        "RECENTLY_MODIFIED": "最近修改"
-      },
-      "TITLE": "全部笔记"
-    }
-  },
-  "POPUPS": {
-    "CREATE_CONTENT_OPTIONS": {
-      "DOCUMENT": {
-        "DESCRIPTION": "记录课堂笔记、想法或者其他任何您想要的内容！",
-        "TITLE": "文档"
-      },
-      "FOLDER": {
-        "DESCRIPTION": "在文件夹中组织笔记",
-        "TITLE": "文件夹"
-      },
-      "QUICK_ADD": {
-        "DESCRIPTION": "随时捕捉您的想法！",
-        "TITLE": "速记"
-      },
-      "TABLE_TAG": {
-        "DESCRIPTION": "创建用于表格和模板的标签",
-        "TITLE": "表格和标签"
-      },
-      "TODAYS_DOCUMENT": {
-        "DESCRIPTION": "每日笔记非常适合日记、待办清单等",
-        "TITLE": "今日笔记"
-      },
-      "UPLOAD_FILE": {
-        "DESCRIPTION": "高亮并引用 PDF、PowerPoint、Word 文档或其他文件",
-        "FEATURE_NAME": "PDF 高亮",
-        "PAYWALL": "您的 PDF 上传量已达到上限",
-        "TITLE": "上传并标注文件",
-        "todo_for_the_item_below": "是否将其移动到全局功能名称对象中？"
-      }
-    }
-  },
-  "POWERUPS": {
-    "POWERUP_one": "高级功能",
-    "POWERUP_other": "高级功能"
   },
   "SIDEBAR": {
     "LABEL_ALL_NOTES": "全部笔记",
@@ -584,14 +681,14 @@
     "UPLOAD_SOURCE": {
       "EMPTY": "请将文件拖放到这里!（支持 PDF、Word 文档、PPT 以及<moreLink>更多</moreLink>类型）",
       "INVALID": "无效文件格式！",
+      "IMPORT_INSTEAD": "RemNote 无法接受此类型的文件上传，但可以导入此文件中的笔记或记忆卡片！请尝试从左上角的账户菜单中选择‘导入’。",
       "LABEL": "上传资源",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDF",
       "SELECT_FILES": "选择文件",
       "SELECT_FILES_TO_UPLOAD": "选择上传文件",
-      "UPLOADING": "正在上传",
-      "IMPORT_INSTEAD": "RemNote 无法接受此类型的文件上传，但可以导入此文件中的笔记或记忆卡片！请尝试从左上角的账户菜单中选择‘导入’。"
+      "UPLOADING": "正在上传"
     },
     "WIKIMEDIA_COMMONS": {
       "EMPTY": "将 PDF、Word 文档、PPT 和 <moreLink>more</moreLink> 文件拖放到这里！",
@@ -706,119 +803,22 @@
     "ADD_PROPERTY": "添加属性",
     "NEW_PROPERTY": "新属性"
   },
-  "DOCUMENT": {
-    "DIALOGS": {
-      "DELETE_ALSO_UNSHARE": "您是否也想取消共享该文档？",
-      "DELETE_CONFIRM_DIALOG": "您确定要删除该文档吗？",
-      "DELETE_UNSHARE_ERROR": "取消共享此文档时出错，请手动取消共享。",
-      "DELETE_UNSHARE_OFFLINE_ERROR": "您当前处于离线状态，请在联网后手动取消共享该文档。"
-    },
-    "MENU": {
-      "ADD_NESTED_DOCUMENT": "添加嵌套文档",
-      "CHANGE_DOCUMENT_STATUS": "更改文档状态",
-      "CUSTOMIZE_SPACED_REPETITION": "自定义间隔重复",
-      "DELETE": "删除",
-      "EDIT_MODE": {
-        "READ": "只读模式",
-        "WRITE": "编辑模式"
-      },
-      "EXPORT": "导出",
-      "FIND_OR_FILTER": "查找或筛选",
-      "FIND_TEXT_REFERENCES": {
-        "DEPRECATION_WARNING": "此选项已弃用，建议您使用替代方法：按下 <keycode /> 键，然后搜索文本引用。",
-        "LABEL": "查找文本引用"
-      },
-      "MARK_AS_DOCUMENT": "标记为文档",
-      "MOVE": "移动",
-      "OPEN_IN_ANOTHER_PANE": "在新窗格中打开",
-      "PIN_TO_SIDEBAR": "固定到侧边栏",
-      "PRINT": "打印",
-      "RENAME": "重命名",
-      "SHOW_STUDY_BUTTON": "显示学习按钮",
-      "STATS": "统计",
-      "UNDO": "撤销",
-      "UNPIN_FROM_SIDEBAR": "从侧边栏取消固定",
-      "UNSHARE_DOCUMENT": "取消文档共享",
-      "VIEW_GRAPH": "查看图谱",
-      "VIEW_TRASH": "查看回收站"
-    },
-    "PUBLISH_STATUS": {
-      "DRAFT": "草稿",
-      "FINISHED": "已完成",
-      "PINNED": "已固定"
-    }
-  },
-  "FILE_UPLOADING": {
-    "CACHED_INFO": "此文件尚未上传，已缓存用于离线查看。",
-    "LOCAL_ONLY_WARN": "此文件未成功上传，暂时存储在您的计算机上。",
-    "LOCAL_WAITING_FOR_UPLOAD_WARN": "此文件尚未上传，仅存储在本地。",
-    "NOT_FOUND": "找不到此文件。",
-    "NOT_YET_UPLOADED": "此文件尚未上传。",
-    "SNIPPING": {
-      "NON_PDF": "请尝试使用其他截图/粘贴工具，或联系支持人员。",
-      "PDF": "请联系支持人员。"
-    }
-  },
-  "PDF": {
-    "ADD_ANNOTATIONS": {
-      "AI_DROPDOWN": {
-        "BASIC_CARDS": "基础卡片",
-        "BASIC_CARDS_TOOLTIP": "从选定文本生成问答形式基础记忆卡片。",
-        "CLOZE_CARDS": "完形填空卡片",
-        "CLOZE_CARDS_TOOLTIP": "从选定文本生成完形填空记忆卡片。",
-        "CONCEPT_CARDS": "概念卡片",
-        "CONCEPT_CARDS_TOOLTIP": "从选定文本生成概念-描述记忆卡片。",
-        "GENERATE_SECTION": "生成"
-      },
-      "CLOZE_BTN_TOOLTIP": "完形填空记忆卡片",
-      "COPY_IMAGE": "复制图像",
-      "COPY_TEXT": "复制为纯文本",
-      "HIGHLIGHT": "高亮",
-      "MAKE_IMG_OCC_BTN_TOOLTIP": "制作图像遮蔽记忆卡片",
-      "NO_TEXT_IN_PDF_WARN": "此文件不包含文本层，但您仍然可以使用区域高亮来注解。",
-      "NOTE_BTN_TOOLTIP": "笔记"
-    },
-    "EDIT_ANNOTATIONS": {
-      "ADVANCED_LINKING_OPTIONS": "高级链接选项",
-      "DELETE_WARNING": "此高亮包含 {{notesCount, number}} {{ notesWord }}。您确定要删除它吗？",
-      "TURN_INTO_CONCEPT": "转换为概念",
-      "VIEW_REFERENCES": "查看引用"
-    },
-    "HEADER": {
-      "AREA_HIGHLIGHT_TOOLTIP": "区域高亮 ({{keyName}} + 拖动)",
-      "NUMBER_OF_PAGES_TOOLTIP": "页数",
-      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "切换默认文档"
-    },
-    "PDF_OPTIONS": {
-      "CHANGE_THEME": "更改主题",
-      "DOWNLOAD_PDF": "下载 PDF",
-      "LEARN_MORE": "了解更多",
-      "OPEN_WEBPAGE_EXTERNALLY": "在应用外打开网页",
-      "PDF_SETTINGS": "设置",
-      "PDF_SETTINGS_MENU": {
-        "AUTO_HIGHLIGHT": "自动高亮",
-        "AUTO_HIGHLIGHT_TOOLTIP": "选中文本后自动创建高亮。",
-        "DISABLE_HEADER_BUTTONS": "禁用标题按钮",
-        "DISABLE_HEADER_BUTTONS_TOOLTIP": "在阅读器中隐藏标题按钮（«）。",
-        "SNAP_HIGHLIGHT_TO_WORDS": "高亮自动对齐到单词",
-        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "创建高亮时，仅选择完整单词。"
-      },
-      "REFETCH_PAGE": "重新获取页面",
-      "REFETCH_PAGE_TOOLTIP": "如果页面已有高亮标记，将无法重新获取该页面。",
-      "SEARCH_IN_PDF": "在 PDF 中搜索",
-      "SPLIT_PANES": "拆分窗格",
-      "SPLIT_PANES_TOOLTIP": "将编辑器和 PDF 阅读器拆分到不同的窗格中。",
-      "THEMES": {
-        "CLASSIC_INVERT": "经典主题色反转",
-        "DARK": "暗黑",
-        "LIGHT": "明亮",
-        "SOLARISED": "Solarised",
-        "USE_REMNOTE_THEME": "使用 RemNote 主题"
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "创建文件夹"
+        },
+        "PAGE_1": {
+          "TITLE": "添加项目符号"
+        },
+        "PAGE_2": {
+          "TITLE": "创建记忆卡片"
+        },
+        "PAGE_3": {
+          "TITLE": "使用 Tab 键结构化笔记"
+        }
       }
-    },
-    "SEARCH_CTRL_F": {
-      "DONE": "完成",
-      "INPUT_PLACEHOLDER": "搜索"
     }
   },
   "COMMUNITY_NOTIFICATIONS": {

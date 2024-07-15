@@ -16,17 +16,6 @@
     "LANGUAGE_WORD": "Dil",
     "TRANSLATION_IN_PROGRESS": "RemNote'un çevirisi hala devam ediyor. <0>Inlang'da</0> çevirilere katkıda bulunabilirsiniz."
   },
-  "SETTINGS": {
-    "ACCOUNT": {
-      "ADVANCED_TITLE": "Gelişmiş Ayarlar",
-      "AUTHENTICATION_TITLE": "Doğrulama",
-      "DANGER_ZONE_TITLE": "Tehlikeli bölge",
-      "IMPORT_EXPORT_TITLE": "İçe aktar ve dışa aktar",
-      "NAVIGATION_TITLE": "Navigasyon",
-      "PRIVACY_NOTE": "Gizlilik: <policyLink>Gizlilik Politikamızı</policyLink> okuyun veya <hubLink>Gizlilik Merkezimizde</hubLink> ayarlarınızı değiştirin.",
-      "PROFILE_TITLE": "Profil"
-    }
-  },
   "PAGES": {
     "ALL_NOTES": {
       "SORT": {
@@ -46,6 +35,17 @@
   "POWERUPS": {
     "POWERUP_one": "Güçlendirme",
     "POWERUP_other": "Güçlendirmeler"
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "ADVANCED_TITLE": "Gelişmiş Ayarlar",
+      "AUTHENTICATION_TITLE": "Doğrulama",
+      "DANGER_ZONE_TITLE": "Tehlikeli bölge",
+      "IMPORT_EXPORT_TITLE": "İçe aktar ve dışa aktar",
+      "NAVIGATION_TITLE": "Navigasyon",
+      "PRIVACY_NOTE": "Gizlilik: <policyLink>Gizlilik Politikamızı</policyLink> okuyun veya <hubLink>Gizlilik Merkezimizde</hubLink> ayarlarınızı değiştirin.",
+      "PROFILE_TITLE": "Profil"
+    }
   },
   "SIDEBAR": {
     "LABEL_ALL_NOTES": "Tüm Notlar",
