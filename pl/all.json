@@ -587,17 +587,18 @@
       "CHANGE_KEYBOARD_SHORTCUTS": {
         "DESCRIPTION": "Dostosuj skróty klawiszowe, przypisując funkcje do innych klawiszy.",
         "KEYWORDS": "Spersonalizuj Personalizacja Skróty klawiszowe Mapowanie",
-        "TITLE": "Zmień Skróty Klawiszowe"
+        "TITLE": "Zmień skróty klawiszowe"
       },
       "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
-        "DESCRIPTION": "Przywróć domyślne skróty klawiszowe (przed aktualizacją z Sierpnia 2020).",
-        "TITLE": "Przywróć Domyślne Skróty Klawiszowe"
+        "DESCRIPTION": "Przywróć domyślne skróty klawiszowe (przed aktualizacją z sierpnia 2020).",
+        "TITLE": "Przywróć skróty klawiszowe ze starej wersji"
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
-        "DESCRIPTION": "Wpisz // zamiast /, aby wywołać Polecenia podczas edycji Remów.",
-        "TITLE": "Podwójny ukośnik dla Menu oleceń"
+        "DESCRIPTION": "Wpisz // zamiast /, aby wywołać komendy podczas edycji Remów.",
+        "TITLE": "Podwójny ukośnik dla menu komend"
       },
       "ENTER_TO_OUTDENT": {
+        "LABEL": "Po naciśnięciu klawisza Enter na Remie bez treści, który nie znajduje się na najwyższym poziomie dokumentu, zmniejsz wcięcie o jeden poziom. (Jeśli wyłączone, pozostań na tym samym poziomie i pozostaw pusty Rem).",
         "TITLE": "Naciśnij Enter, aby zmniejszyć wcięcie"
       },
       "SPLIT_WITH_ALT_ENTER": {
