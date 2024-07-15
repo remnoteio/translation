@@ -705,23 +705,24 @@
       "SEARCH_PLACEHOLDER": "Wklej link lub wyszukaj Odnośnik"
     },
     "UPLOAD_SOURCE": {
-      "EMPTY": "Upuść pliki PDF, dokumenty Word, PPT i<moreLink> więcej</moreLink> Tutaj!",
-      "INVALID": "Nieprawidłowy format pliku!",
-      "LABEL": "Prześli",
+      "EMPTY": "Upuść pliki PDF, dokumenty Word, prezentacje PPT i <moreLink>inne</moreLink> tutaj!",
+      "INVALID": "Przepraszamy, RemNote nie akceptuje przesyłania plików tego typu.",
+      "IMPORT_INSTEAD": "RemNote nie akceptuje przesyłania plików tego typu. Jednakże być może uda nam się zaimportować notatki lub fiszki z tego pliku! Spróbuj wybrać opcję „Importuj” z menu konta w lewym górnym rogu.",
+      "LABEL": "Prześlij",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
-      "PDF_WITH_COUNT_other": "{{count, number}} pliki/-ów PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDF-y",
       "SELECT_FILES": "Wybierz pliki",
       "SELECT_FILES_TO_UPLOAD": "Wybierz pliki do przesłania",
       "UPLOADING": "Przesyłanie..."
     },
     "WIKIMEDIA_COMMONS": {
-      "EMPTY": "Upuść pliki PDF, dokumenty Word, PPT i <moreLink>więcej</moreLink> Tutaj!",
+      "EMPTY": "Upuść pliki PDF, dokumenty Word, prezentacje PPT i <moreLink>inne</moreLink> tutaj!",
       "INVALID": "Nieprawidłowy format pliku!",
-      "LABEL": "Wyszukiwanie obrazka",
+      "LABEL": "Wyszukiwanie obrazów",
       "PDF": "PDF",
-      "PDF_WITH_COUNT_one": "{{count, number}} plik PDF",
-      "PDF_WITH_COUNT_other": "{{count, number}} pliki PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDF-y",
       "SELECT_FILES": "Wybierz pliki",
       "SELECT_FILES_TO_UPLOAD": "Wybierz pliki do przesłania",
       "UPLOADING": "Przesyłanie..."
@@ -730,9 +731,9 @@
   "TABLES": {
     "MENUS": {
       "FILTER": {
-        "ADD_ADVANCED_FILTER": "Dodaj Zaawansowany Filtr",
+        "ADD_ADVANCED_FILTER": "Dodaj zaawansowany filtr",
         "FILTER_TITLE": "Filtr",
-        "NO_PROPERTIES_AVAILABLE": "Brak Dostępnych Właściwości; Dodaj Nowe!"
+        "NO_PROPERTIES_AVAILABLE": "Brak dostępnych Właściwości; Dodaj nowe!"
       },
       "SORT": {
         "SORT_TITLE": "Sortuj"
@@ -742,38 +743,38 @@
         "ADD_TABLE_VIEW_TITLE": "Dodaj widok tabeli",
         "ALL": "Wszystko",
         "CELL_LIST_HEIGHT": {
-          "CELL_LIST_HEIGHT_TITLE": "Wysokość Komórki",
-          "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Komórki mogą zawierać wiele punktorów! Ogranicz wysokość komórki, aby ułatwić przeglądanie.",
-          "COMFORTABLE_TITLE": "Dopasowany",
+          "CELL_LIST_HEIGHT_TITLE": "Wysokość komórki",
+          "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Komórki mogą zawierać wiele punktów! Ogranicz wysokość komórki, aby ułatwić przeglądanie.",
+          "COMFORTABLE_TITLE": "Wygodny",
           "COMPACT_TITLE": "Kompaktowy",
           "FULL_TITLE": "Pełny"
         },
-        "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Skonfiguruj Tag & Edytuj Szablony",
-        "DELETE_LIST": "Usuń Listę",
+        "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Skonfiguruj Tag i edytuj Szablony",
+        "DELETE_LIST": "Usuń listę",
         "DELETE_TABLE": "Usuń Tabelę",
-        "DUPLICATE_LIST_VIEW_TITLE": "Zduplikuj Widok Listy",
-        "DUPLICATE_TABLE_VIEW_TITLE": "Zduplikuj Widok abeli",
-        "DUPLICATE_VIEW_MESSAGE_COMMON": "Zduplikuj widok, aby zastosować nowy filtr, sortowanie lub więcej! Treść jest współdzielona pomiędzy widokami tego samego źródła, więc nie wystąpią żadne przypadkowe zduplikowane doku.",
-        "INCLUDE_NESTED_DESCENDANTS": "Uwzględnij zagnieżdżonych potomków",
-        "LIST_CONFIGURATION_TITLE": "Listę",
-        "MOVE_LIST_TO_TITLE": "Przenieś Listę Do",
-        "MOVE_TABLE_TO_TITLE": "Przenieś Tabele Do",
-        "OPEN_IN_ANOTHER_PANE_TITLE": "Otwórz w Nowej Karcie",
+        "DUPLICATE_LIST_VIEW_TITLE": "Zduplikuj widok listy",
+        "DUPLICATE_TABLE_VIEW_TITLE": "Zduplikuj widok tabeli",
+        "DUPLICATE_VIEW_MESSAGE_COMMON": "Zduplikuj widok, aby zastosować nowy filtr, sortowanie i nie tylko! Treść jest współdzielona pomiędzy widokami tego samego źródła, więc nie stworzysz żadnych duplikatów.",
+        "INCLUDE_NESTED_DESCENDANTS": "Uwzględniaj zagnieżdżanie potomków",
+        "LIST_CONFIGURATION_TITLE": "Lista",
+        "MOVE_LIST_TO_TITLE": "Przenieś listę do",
+        "MOVE_TABLE_TO_TITLE": "Przenieś tabelę do",
+        "OPEN_IN_ANOTHER_PANE_TITLE": "Otwórz w nowym oknie",
         "PROPERTIES_CONFIGURATION_TITLE": "Konfiguruj",
         "PROPERTIES_TITLE": "Właściwości",
-        "SHOW_VERTICAL_LINES_TITLE": "Pokaż Linie Pionowe",
-        "TABLE_CONFIGURATION_TITLE": "Tabelę",
+        "SHOW_VERTICAL_LINES_TITLE": "Pokaż linie pionowe",
+        "TABLE_CONFIGURATION_TITLE": "Tabela",
         "VIEW_AS": {
           "LIST_VIEW": "Lista",
           "NORMAL_PORTAL_VIEW": "Portal",
           "TABLE_VIEW": "Tabela",
           "VIEW_AS_TITLE": "Wyświetl jako"
         },
-        "ZOOM_IN_TO_LIST_TITLE": "Powiększ Listę",
-        "ZOOM_IN_TO_TABLE_TITLE": "Powiększ Tabelę"
+        "ZOOM_IN_TO_LIST_TITLE": "Powiększ listę",
+        "ZOOM_IN_TO_TABLE_TITLE": "Powiększ tabelę"
       },
       "TAG": {
-        "EDIT_TABLE_NAME": "Edytuj nazwę Tabeli",
+        "EDIT_TABLE_NAME": "Edytuj nazwę tabeli",
         "PRESS_TO_SAVE": "Naciśnij ↩, aby zapisać",
         "RENAME_TAG": "Zmień nazwę Tagu",
         "TAG_TITLE": "Nazwa Tagu",
@@ -791,7 +792,7 @@
         "TITLE": "Utwórz Nowy {{viewName}} + Tag"
       }
     },
-    "UNTITLED_PROPERTY_TITLE": "Nienazwana Właściwość"
+    "UNTITLED_PROPERTY_TITLE": "Nienazwana właściwość"
   },
   "TAGS": {
     "INSERT_PROPERTIES": "Wstaw Właściwości",
