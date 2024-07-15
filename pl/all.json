@@ -442,22 +442,27 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "Maksymalny Dzienny Cel",
-          "DESCRIPTION": "Ogranicz liczbę fiszek RemNote przypomni Ci o nauce, aby osiągnąć Twój dzienny cel przy tej wartości."
+          "TITLE": "Cel",
+          "DESCRIPTION": "Powtarzaj minimalnie tyle fiszek codziennie, żeby budować serię."
         },
-        "TODAYS_TARGET": "Dzisiejszy Cel:",
-        "TODAYS_TARGET_EXPLANATION": "RemNote stara się określić Twój dzienny cel i jeżeli go osiągniesz każdego dnia, to przerobisz wszystkie fiszki zaplanowane na następne 7 dni. Natomiast, cel dzienny nigdy nie będzie większy niż maksymalny zbiór powyżej."
+        "TODAYS_TARGET": "Dzisiejszy wygładzony cel:",
+        "TODAYS_TARGET_EXPLANATION": "Jeśli RemNote przewiduje, że w następnym tygodniu będziesz mieć średnio mniej fiszek do powtórzenia niż skonfigurowany dzienny cel, tymczasowo zmniejszymy Twój dzienny cel, tak abyś miał mniej więcej taką samą liczbę kart każdego dnia, zamiast wielu fiszek na początku i niewielu na końcu tygodnia."
       },
       "GENERAL": {
         "AUTOPLAY_MEDIA": {
-          "DESCRIPTION": "Podczas pokazywania fiszki automatycznie odtwarzaj każdą ścieżkę dźwiękową lub wideo na niej.",
-          "TITLE": "Odtwarzaj automatycznie dźwięk"
+          "DESCRIPTION": "Automatycznie odtwarzaj ścieżki dźwiękowe, bądź filmy znajdujące się na fiszkach.",
+          "TITLE": "Odtwarzaj automatycznie dźwięki i filmy"
+        },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "DESCRIPTION": "Pokazując fiszkę, automatycznie odtwarzaj syntezator mowy z przodu i z tyłu po odkryciu fiszki.",
+          "TITLE": "Autoodtwarzanie syntezatora mowy"
         },
         "LEARN_AHEAD_LIMIT": {
+          "DESCRIPTION": "Po tym, jak powtórzysz wszystkie zaległe fiszki, z jak dalekiej przyszłości mamy pokazywać fiszki, które jeszcze nie są zaległe? Dzięki temu unikniesz konieczności ponownego powtarzania w krótkim czasie.",
           "TITLE": "Limit nauki z wyprzedzeniem"
         },
         "LEECH_THRESHOLD": {
-          "DESCRIPTION": "Fiszki Udręki to trudne fiszki, których ciągle się uczysz, a potem znowu zapominasz. Jeśli naciśniesz przycisk „zapomniałem/-am” na fiszce więcej razy niż ta wartość, ostrzeżemy Cię, abyś mógł zastanowić się, dlaczego masz z nią problem. Ustaw tę opcję na wyższe wartości, aby rzadziej wyświetlać ostrzeżenie o Fiszce Udręki.",
+          "DESCRIPTION": "Wyświetl ostrzeżenie po wielokrotnym naciśnięciu przycisku „Zapomniałem” w przypadku trudnej fiszki.<leechArticle>Przeczytaj więcej o trudnych fiszkch.</leechArticle>",
           "TITLE": "Próg Fiszek Udręki"
         },
         "NEW_CARDS_PER_DAY": {
