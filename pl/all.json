@@ -28,8 +28,8 @@
       "ERRORS": {
         "SHARING": {
           "NO_CONTENT": {
-            "SRC": "Dokument, który próbujesz udostępnić, wygląda na nieco pusty. Dodaj co najmniej {{minimum}} remów, a następnie spróbuj ponownie.",
-            "SUBDOCUMENT": "Jeden z Twoich dokumentów podrzędnych wygląda na trochę pusty. Nie zostanie opublikowany, dopóki nie będzie zawierał {{minimum}} remów."
+            "SRC": "Dokument, który próbujesz udostępnić, wygląda na nieco pusty. Dodaj co najmniej {{minimum}} Remów, a następnie spróbuj ponownie.",
+            "SUBDOCUMENT": "Jeden z Twoich dokumentów podrzędnych wygląda na trochę pusty. Nie zostanie opublikowany, dopóki nie będzie zawierał {{minimum}} Remów."
           },
           "NO_TITLE": {
             "SRC": "Dokument, który próbujesz udostępnić, nie ma tytułu. Musisz dodać go przed jego opublikowaniem.",
@@ -262,7 +262,7 @@
         "TITLE": "Dzisiejszy Dokument"
       },
       "UPLOAD_FILE": {
-        "DESCRIPTION": "Wyróżniaj i twórz odnośniki w plikach PDF, prezentacja PPTs, dokumentach Word, itp.",
+        "DESCRIPTION": "Wyróżniaj i twórz Odnośniki w plikach PDF, prezentacja PPTs, dokumentach Word, itp.",
         "FEATURE_NAME": "Wyróżnianie PDF",
         "PAYWALL": "Osiągnąłeś swój limit przesyłania plików PDF.",
         "TITLE": "Prześlij & Adnotuj Plik",
@@ -384,51 +384,51 @@
       "GENERAL": {
         "CAPITALIZE_FROM_SEARCH": {
           "DESCRIPTION": {
-            "MAC": "Tworząc Rem naciskając Cmd+Return w Szukaj, napisz jego nazwę z wielkiej litery.",
-            "PC": "Tworząc Rem naciskając Ctrl+Enter w Szukaj, napisz jego nazwę z wielkiej litery."
+            "MAC": "Tworząc Rem, naciskając Cmd+Return w polu wyszukiwania, zacznij jego nazwę wielką literą.",
+            "PC": "Tworząc Rem, naciskając Ctrl+Enter w polu wyszukiwania, zacznij jego nazwę wielką literą."
           },
-          "TITLE": "Zaczynaj pisownie z Wielkiej Litery w Szukaj"
+          "TITLE": "W polu wyszukiwania zaczynaj pisownię wielką literą"
         },
         "CREATE_CONCEPTS_FROM_SEARCH": {
           "DESCRIPTION": {
-            "MAC": "Tworząc Rem naciskając Cmd+Return w Szukaj, zmień go w Konspekt.",
-            "PC": "Tworząc Rem naciskając Ctrl+Enter w Szukaj, zmień go w Konspekt."
+            "MAC": "Tworząc Rem. naciskając Cmd+Return w polu wyszukiwania, zmień go w Pojęcie.",
+            "PC": "Tworząc Rem, naciskając Ctrl+Enter w polu wyszukiwania, zmień go w Pojęcie."
           },
-          "TITLE": "Twórz Konspekt W Szukaj"
+          "TITLE": "Twórz Pojęcia w polu wyszukiwania"
         },
         "CREATE_STUBS_FROM_SEARCH": {
           "DESCRIPTION": {
-            "MAC": "Tworząc Rem naciskając Cmd+Return w Szukaj, oznacz go Tagiem „Niedopałek”.",
-            "PC": "Tworząc Rem naciskając Ctrl+Enter w Szukaj, oznacz go Tagiem „Niedopałek”."
+            "MAC": "Tworząc Rem, naciskając Cmd+Return w Szukaj, oznacz go Tagiem „Stub”.",
+            "PC": "Tworząc Rem, naciskając Ctrl+Enter w Szukaj, oznacz go Tagiem „Stub”."
           },
-          "TITLE": "Twórz Niedopałki w Szukaj"
+          "TITLE": "Twórz Stubs w polu wyszukiwania"
         },
         "ENABLE_SPELLCHECK": {
-          "DESCRIPTION": "Sprawdź aktualnie aktywowany Rem pod kątem literówek.",
+          "DESCRIPTION": "Sprawdzaj obecnie wybrany Rem pod kątem literówek. Sprawdzanie pisowni wykorzystuje języki wybrane w przeglądarce lub systemie operacyjnym.",
           "TITLE": "Włącz Sprawdzanie Pisowni"
         },
         "INSERT_EMOJIS_AS_REFERENCES": {
-          "DESCRIPTION": "W Szukaj pisząc %% i wybierając Emotikon zostanie on wstawiony jako Odnośnik.",
-          "TITLE": "Wstaw Emotikony jako Odnośniki"
+          "DESCRIPTION": "Utwórz Odnośnik podczas wybierania emoji z pola wyszukiwania %%.",
+          "TITLE": "Wstaw emotikony jako Odnośniki"
         }
       }
     },
     "EDITOR_INTERFACE": {
       "ENABLE_ZOOM_INTO_BULLET": {
-        "LABEL": "Kiedy klikniesz na Punktor, wyświetl Rem w widoku pełnoekranowym",
-        "TITLE": "Włącz Przybliżanie Punktorów"
+        "LABEL": "Kiedy klikniesz punkt, wyświetl Rem jako pełną stronę",
+        "TITLE": "Włącz powiększanie punktu"
       },
       "PREVIEW_REM_ON_HOVER": {
-        "LABEL": "Kiedy najedziesz kursorem na Odnośnik, wyświetl Podgląd jego zawartości.",
-        "TITLE": "Wyświetl Podgląd Odnośnika najeżdżając kursorem"
+        "LABEL": "Kiedy najedziesz kursorem na Odnośnik, wyświetl podgląd jego zawartości.",
+        "TITLE": "Wyświetl podgląd Odnośnika po najechaniu kursorem"
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
-        "LABEL": "Kiedy Rem jest Zwinięty, wyświetlaj pierścień wokół jego Punktora jako większy lub mniejszy w zależności od liczby jego Potomków",
-        "TITLE": "Skaluj Zwinięte Punktory Remów"
+        "LABEL": "Zwiększ lub zmniejsz pierścień wokół pocisku na podstawie liczby potomków.",
+        "TITLE": "Skaluj zwinięte punkty Remów"
       },
       "SINGLE_CLICK_REFERENCES_TO_OPEN": {
-        "LABEL": "Kiedy klikniesz lub stukniesz na Odnośnik, odrazu otwórz go, zamiast wyświetlać jego Podgląd. (Zawsze możesz wyświetlić jego Podgląd naciskając na niego prawym klawiszem myszki.)",
-        "TITLE": "Naciśnij-Raz Odnośnik aby go Otworzyć"
+        "LABEL": "Kiedy klikniesz lub dotkniesz Odnośnika, od razu otwórz go, zamiast wyświetlać jego Podgląd. (Zawsze możesz wyświetlić jego podgląd, naciskając na niego prawym klawiszem myszki).",
+        "TITLE": "Otwieranie Odnośników jednym kliknięciem"
       },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
         "LABEL": "Płynnie wyświetlaj animacje dodawania i usuwania Remów w Edytorze.",
