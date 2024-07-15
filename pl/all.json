@@ -792,7 +792,7 @@
         "TITLE": "Utwórz Nowy {{viewName}} + Tag"
       }
     },
-    "UNTITLED_PROPERTY_TITLE": "Nienazwana właściwość"
+    "UNTITLED_PROPERTY_TITLE": "Nienazwana Właściwość"
   },
   "TAGS": {
     "INSERT_PROPERTIES": "Wstaw Właściwości",
@@ -800,30 +800,30 @@
     "SEARCH_PLACEHOLDER": "Wyszukaj istniejący Tag, aby go dodać",
     "TAG": "Tag",
     "TAG_WITH_COUNT_one": "{{count, number}} Tag",
-    "TAG_WITH_COUNT_other": "{{count, number}} Tagi/-ów",
+    "TAG_WITH_COUNT_other": "{{count, number}} Tagi",
     "YOUR_TAGS": "Twoje Tagi"
   },
   "TEMPLATES": {
     "ADD_NEW_PROPERTY": "Dodaj nową Właściwość",
     "AUTO_APPLY": "Zastosuj Automatycznie",
-    "AUTO_APPLY_HELP_TEXT": "Ten szablon zostanie automatycznie zastosowany do wszystkich wierszy w jego tabeli lub do wszystkich Remów oznaczonych tym szablonem.",
-    "CREATE_TEMPLATE": "Utwórz zablon",
-    "HIDE_CONFIGURATION": "Ukryj onfigurację",
-    "NEW_TEMPLATE": "Nowy zablon",
+    "AUTO_APPLY_HELP_TEXT": "Ten Szablon zostanie automatycznie zastosowany do wszystkich wierszy w jego Tabeli lub do wszystkich Remów oznaczonych tym szablonem.",
+    "CREATE_TEMPLATE": "Utwórz Szablon",
+    "HIDE_CONFIGURATION": "Ukryj konfigurację",
+    "NEW_TEMPLATE": "Nowy Szablon",
     "PROPERTIES_HELP_TEXT": {
-      "0": "Właściwości opisują Tag. Na przykład dla Tagu o nazwie „Książka” dodaj Właściwości takie jak Autor, Gatunek, Stan Przeczytania i nie tylko!"
+      "0": "Właściwości opisują Tag. Na przykład dla Tagu o nazwie „Książka” dodaj Właściwości takie jak Autor, Gatunek, status czytania i inne!"
     },
     "PROPERTY_one": "Właściwość",
     "PROPERTY_other": "Właściwości",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Właściwość",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Właściwości",
-    "SET_AS_AUTO_APPLY_TEMPLATE": "Ustaw jako Szablon Automatycznego Stosowania",
+    "SET_AS_AUTO_APPLY_TEMPLATE": "Ustaw jako automatycznie stosowany Szablon",
     "TEMPLATE_one": "Szablon",
     "TEMPLATE_other": "Szablony",
     "TEMPLATE_WITH_COUNT_one": " {{count, number}} Szablon",
-    "TEMPLATE_WITH_COUNT_other": "{{count, number}} Szablony/-ów",
-    "TEMPLATES_HELP_TEXT": "Szablon Tagu to dokument RemNote, który można automatycznie skopiować do oznaczonych Remów. Dodaj nagłówki, listy kontrolne i inne elementy bezpośrednio w swoim szablonie.",
-    "TURN_OFF_AUTO_APPLY": "Wyłącz Zastosuj Automatycznie",
+    "TEMPLATE_WITH_COUNT_other": "{{count, number}} Szablony",
+    "TEMPLATES_HELP_TEXT": "Szablon Tagu to dokument RemNote, który można automatycznie skopiować do otagowanych Remów. Dodaj nagłówki, listy zadań i inne elementy bezpośrednio w swoim szablonie.",
+    "TURN_OFF_AUTO_APPLY": "Wyłącz automatyczne stosowanie",
     "VIEW_CONFIGURATION": "Skonfiguruj Tag",
     "ADD_PROPERTY": "Dodaj Właściwość",
     "NEW_PROPERTY": "Nowa Właściwość"
