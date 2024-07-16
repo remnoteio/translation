@@ -39,6 +39,58 @@
       }
     }
   },
+  "DOCUMENT": {
+    "DIALOGS": {
+      "DELETE_ALSO_UNSHARE": "Möchten Sie die Freigabe des Dokuments ebenfalls aufheben?",
+      "DELETE_CONFIRM_DIALOG": "Möchten Sie dieses Dokument wirklich löschen?",
+      "DELETE_UNSHARE_ERROR": "Beim Aufheben der Freigabe dieses Dokuments ist ein Fehler aufgetreten. Bitte heben Sie die Freigabe manuell auf.",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "Sie sind offline. Bitte heben Sie die Freigabe des Dokuments manuell auf, wenn Sie wieder online sind."
+    },
+    "MENU": {
+      "ADD_NESTED_DOCUMENT": "Verschachteltes Dokument hinzufügen",
+      "CHANGE_DOCUMENT_STATUS": "Dokumentstatus ändern",
+      "DELETE": "Löschen",
+      "EDIT_MODE": {
+        "READ": "Nur-Lese-Modus",
+        "WRITE": "Bearbeitungsmodus"
+      },
+      "EXPORT": "Exportieren",
+      "FIND_OR_FILTER": "Suchen oder Filtern",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "Diese Option ist veraltet und es wird empfohlen, die alternative Methode zu verwenden, indem Sie <keycode /> drücken und dann stattdessen nach Textverweisen suchen.",
+        "LABEL": "Textreferenzen suchen"
+      },
+      "MARK_AS_DOCUMENT": "Als Dokument markieren",
+      "MOVE": "Bewegen",
+      "OPEN_IN_ANOTHER_PANE": "In einem anderen Panel öffnen",
+      "PIN_TO_SIDEBAR": "An der Seitenleiste anheften",
+      "PRINT": "Drucken",
+      "RENAME": "Umbenennen",
+      "SHOW_STUDY_BUTTON": "Schaltfläche „Studieren anzeigen“",
+      "STATS": "Statistiken",
+      "UNDO": "Rückgängig machen",
+      "UNPIN_FROM_SIDEBAR": "Von der Seitenleiste lösen",
+      "UNSHARE_DOCUMENT": "Dokumentfreigabe aufheben",
+      "VIEW_GRAPH": "Diagramm anzeigen",
+      "VIEW_TRASH": "Papierkorb anzeigen"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "Entwurf",
+      "FINISHED": "Fertig",
+      "PINNED": "Angepinnt"
+    }
+  },
+  "FILE_UPLOADING": {
+    "CACHED_INFO": "Diese Datei wird für die Offline-Anzeige zwischengespeichert und wurde möglicherweise noch nicht hochgeladen.",
+    "LOCAL_ONLY_WARN": "Diese Datei wurde nicht erfolgreich hochgeladen und wird temporär auf Ihrem Computer gespeichert.",
+    "LOCAL_WAITING_FOR_UPLOAD_WARN": "Diese Datei wurde noch nicht hochgeladen und ist nur lokal gespeichert.",
+    "NOT_FOUND": "Diese Datei kann nicht gefunden werden.",
+    "NOT_YET_UPLOADED": "Diese Datei wurde noch nicht hochgeladen.",
+    "SNIPPING": {
+      "NON_PDF": "Bitte versuchen Sie es mit einem anderen Tool zum Ausschneiden/Einfügen, oder wenden Sie sich an den Support.",
+      "PDF": "Bitte wenden Sie sich an den Support."
+    }
+  },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Sprache",
     "TRANSLATION_INFO_SETTINGS": "Die Übersetzung ist noch in Arbeit; Sie sehen eine Mischung aus Englisch und der ausgewählten Sprache.<br> Sie können uns beim Übersetzen helfen, indem Sie die <guideLink>Anleitung</guideLink> lesen und dann unserem<editorLink>Web-Editor</editorLink> nutzen.",
@@ -72,7 +124,28 @@
     "NEW_FOLLOWER": {
       "BODY": "gefolgt"
     },
+    "NEW_LIKE": {
+      "BODY": "gefällt"
+    },
     "POPUP_TITLE": "Aktuelle Benachrichtigungen"
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "0": {
+          "TITLE": "Einen Ordner erstellen"
+        },
+        "1": {
+          "TITLE": "Aufzählungszeichen hinzufügen"
+        },
+        "2": {
+          "TITLE": "Erstellen Sie eine Karteikarte"
+        },
+        "3": {
+          "TITLE": "Notizen mit dem Tabulator strukturieren"
+        }
+      }
+    }
   },
   "PAGES": {
     "ALL_NOTES": {
@@ -88,6 +161,45 @@
         "RECENTLY_MODIFIED": "Kürzlich geändert"
       },
       "TITLE": "Alle Notizen"
+    }
+  },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "AI_DROPDOWN": {
+        "BASIC_CARDS": "Grundlegende Karten",
+        "BASIC_CARDS_TOOLTIP": "Erstellen Sie aus dem ausgewählten Text grundlegende Frage-Antwort-Karteikarten.",
+        "CLOZE_CARDS": "Lückentext-Karten",
+        "CLOZE_CARDS_TOOLTIP": "Erstellen Sie Lückentext-Karteikarten aus dem ausgewählten Text.",
+        "CONCEPT_CARDS": "Konzeptkarten",
+        "GENERATE_SECTION": "GENERIEREN"
+      },
+      "CLOZE_BTN_TOOLTIP": "Lückentext-Lernkarte",
+      "COPY_IMAGE": "Bild kopieren",
+      "COPY_TEXT": "Nur Text kopieren",
+      "HIGHLIGHT": "Markieren",
+      "NOTE_BTN_TOOLTIP": "Notiz"
+    },
+    "EDIT_ANNOTATIONS": {
+      "ADVANCED_LINKING_OPTIONS": "Erweiterte Verknüpfungsoptionen",
+      "TURN_INTO_CONCEPT": "Zum Konzept machen",
+      "VIEW_REFERENCES": "Referenzen anzeigen"
+    },
+    "HEADER": {
+      "NUMBER_OF_PAGES_TOOLTIP": "Seitenzahl"
+    },
+    "PDF_OPTIONS": {
+      "DOWNLOAD_PDF": "PDF Herunterladen",
+      "LEARN_MORE": "Erfahren Sie mehr",
+      "PDF_SETTINGS": "Einstellungen",
+      "SEARCH_IN_PDF": "PDF durchsuchen",
+      "THEMES": {
+        "DARK": "Dunkel",
+        "LIGHT": "Hell"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "DONE": "Fertig",
+      "INPUT_PLACEHOLDER": "Suchen"
     }
   },
   "POPUPS": {
@@ -390,6 +502,9 @@
         "KEYWORDS": "sprache sprache übersetzung i18n",
         "TITLE": "RemNote Sprache der Benutzeroberfläche(Alpha)"
       },
+      "LEFT_SIDEBAR_TUTORIALS": {
+        "TITLE": "In-App-Tutorials"
+      },
       "ONBOARDING_TIPS_SHORTCUTS": {
         "LABEL": "Zeigen Sie in der Ecke des Bildschirms Tipps zu Tastaturkürzeln an, die Sie gerade verwenden.",
         "TITLE": "Tipps zu Tastaturkürzeln"
@@ -436,7 +551,8 @@
           "TITLE": "Kommentarbenachrichtigungen"
         },
         "NEW_FOLLOWER": {
-          "LABEL": "Lassen Sie sich benachrichtigen, wenn Ihnen jemand folgt"
+          "LABEL": "Lassen Sie sich benachrichtigen, wenn Ihnen jemand folgt",
+          "TITLE": "Follower-Benachrichtigungen"
         },
         "NEW_LIKE": {
           "LABEL": "Lassen Sie sich benachrichtigen, wenn ein von Ihnen geteiltes Dokument mit „Gefällt mir“ markiert wird",
@@ -447,10 +563,13 @@
           "TITLE": "Strähne-Benachrichtigungen"
         }
       },
+      "ENABLE_COMMUNITY_TITLE": "Benachrichtigungen zu freigegebenen Lernkarten",
+      "ENABLE_DUE_CARDS_TITLE": "Abzeichen für fällige Karten",
       "ENABLE_EMAIL_LABEL": "Erhalten Sie Benachrichtigungen direkt in Ihren Posteingang",
       "ENABLE_EMAIL_TITLE": "E-Mail-Benachrichtigungen aktivieren?",
       "ENABLE_PUSH_LABEL": "Erhalten Sie Benachrichtigungen direkt auf Ihr Gerät",
       "ENABLE_PUSH_TITLE": "Push-Benachrichtigungen aktivieren?",
+      "ENABLE_STREAK_TITLE": "Mobile Streak-Benachrichtigungen",
       "TOGGLE_LABEL": "Steuern Sie, welche Benachrichtigungen Sie direkt auf Ihrem Gerät/Posteingang erhalten möchten",
       "TOGGLE_TITLE": "Benachrichtigungen filtern"
     },
@@ -463,7 +582,8 @@
         "TITLE": "Passen Sie Seitenleistenabschnitte an"
       },
       "DOCUMENT_STATUSES": {
-        "LABEL": "Organisieren Sie Dokumente in den Kategorien „Entwurf“, „Fertiggestellt“ und „Angeheftet“."
+        "LABEL": "Organisieren Sie Dokumente in den Kategorien „Entwurf“, „Fertiggestellt“ und „Angeheftet“.",
+        "TITLE": "Dokumentstatus"
       },
       "PRIVACY_NOTE": "Datenschutz: Lesen Sie unsere<policyLink>Datenschutzrichtlinie</policyLink> , oder ändern Sie Ihre Einstellungen in unserem<hubLink> Datenschutz-Hub</hubLink> .",
       "SORT_SIDEBAR": {
@@ -492,6 +612,9 @@
     "LINK_SOURCE": {
       "ENTER_URL": "URL eingeben",
       "INVALID_URL": "Ungültige URL",
+      "LABEL": "Link",
+      "LINK": "Link",
+      "OPEN_IN_READER": "Im Reader öffnen",
       "SEARCH_PLACEHOLDER": "Fügen Sie einen Link ein oder suchen Sie nach einer Referenz"
     },
     "UPLOAD_SOURCE": {
@@ -501,6 +624,11 @@
       "PDF": "PDF",
       "SELECT_FILES": "Dateien auswählen",
       "SELECT_FILES_TO_UPLOAD": "Wählen Sie die Dateien zum Hochladen aus",
+      "UPLOADING": "Hochladen..."
+    },
+    "WIKIMEDIA_COMMONS": {
+      "LABEL": "Bildersuche",
+      "PDF": "PDF",
       "UPLOADING": "Hochladen..."
     }
   },
@@ -515,6 +643,7 @@
         "SORT_TITLE": "Sortieren"
       },
       "TABLE_CONFIGURATION": {
+        "ADD_LIST_VIEW_TITLE": "Listenansicht hinzufügen",
         "ALL": "Alle",
         "CELL_LIST_HEIGHT": {
           "CELL_LIST_HEIGHT_TITLE": "Zellenhöhe",
@@ -540,6 +669,7 @@
         "TABLE_CONFIGURATION_TITLE": "Tabelle",
         "VIEW_AS": {
           "LIST_VIEW": "Liste",
+          "NORMAL_PORTAL_VIEW": "Portal",
           "TABLE_VIEW": "Tabelle",
           "VIEW_AS_TITLE": "Ansicht als"
         },
