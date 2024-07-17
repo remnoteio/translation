@@ -130,6 +130,36 @@
     },
     "POPUP_TITLE": "Notificaciones Recientes"
   },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "0": {
+          "TITLE": "Crear Una Carpeta"
+        },
+        "1": {
+          "TITLE": "Añadir un Elemento"
+        },
+        "2": {
+          "TITLE": "Crear una Flashcard"
+        },
+        "3": {
+          "TITLE": "Estructurar Notas Con Tabulación"
+        },
+        "PAGE_0": {
+          "TITLE": "Crear una Carpeta "
+        },
+        "PAGE_1": {
+          "TITLE": "Agregar una viñeta"
+        },
+        "PAGE_2": {
+          "TITLE": "Crear una Flashcard"
+        },
+        "PAGE_3": {
+          "TITLE": "Organizar notas usando Tab"
+        }
+      }
+    }
+  },
   "PAGES": {
     "ALL_NOTES": {
       "SORT": {
@@ -452,7 +482,8 @@
         },
         "TEXT_TO_SPEECH_VOICE": {
           "DESCRIPTION": "La voz utilizada para el texto a voz. Ten en cuenta que algunas voces solo funcionan para ciertos idiomas.",
-          "TITLE": "Voz para el Texto a Voz"
+          "TITLE": "Voz para el Texto a Voz",
+          "SAMPLE": "La mitocondria es la central eléctrica de la célula."
         },
         "TEXT_TO_SPEECH_SPEED": {
           "DESCRIPTION": "La velocidad a la que se habla el texto de las tarjetas de estudio.",
@@ -769,23 +800,5 @@
     "TEMPLATES_HELP_TEXT": "La plantilla de una etiqueta es un documento de RemNote que puede ser copiado automáticamente a Rems etiquetados. Agrega encabezados, listas de verificación y más directamente dentro de tu plantilla.",
     "TURN_OFF_AUTO_APPLY": "Apagar Aplicar Automáticamente",
     "VIEW_CONFIGURATION": "Configurar Etiqueta"
-  },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "PAGE_0": {
-          "TITLE": "Crear una Carpeta "
-        },
-        "PAGE_1": {
-          "TITLE": "Agregar una viñeta"
-        },
-        "PAGE_2": {
-          "TITLE": "Crear una Flashcard"
-        },
-        "PAGE_3": {
-          "TITLE": "Organizar notas usando Tab"
-        }
-      }
-    }
   }
 }
