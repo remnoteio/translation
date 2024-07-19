@@ -457,7 +457,7 @@
           "TITLE": "Reset Flashcard Settings"
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
-          "DESCRIPTION": "Show only “Forgot” and “Recalled With Effort” buttons for flashcards.",
+          "DESCRIPTION": "Show only “Forgot” and “Remembered” buttons for flashcards.",
           "TITLE": "Simplified Flashcard Buttons"
         },
         "STALE_CARDS_PER_DAY": {
@@ -498,7 +498,7 @@
       },
       "STATISTICS": {
         "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
-          "DESCRIPTION": "Set the maximum answer time (in seconds) per card that will be counted in your statistics.",
+          "DESCRIPTION": "If you take longer to answer a flashcard than this (for instance, because you walked away for a few minutes), only this much time will be counted in your statistics.",
           "TITLE": "Flashcard Response Time Limit"
         }
       },
