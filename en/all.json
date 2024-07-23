@@ -55,6 +55,7 @@
         "READ": "Read Only Mode",
         "WRITE": "Edit Mode"
       },
+      "MULTI_SELECTION_MODE": "Select Multiple Rems",
       "EXPORT": "Export",
       "FIND_OR_FILTER": "Find or Filter",
       "FIND_TEXT_REFERENCES": {
