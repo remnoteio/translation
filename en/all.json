@@ -134,16 +134,16 @@
   "ONBOARDING": {
     "SIDEBAR": {
       "INITIAL": {
-        "0": {
+        "PAGE_0": {
           "TITLE": "Create A Folder"
         },
-        "1": {
+        "PAGE_1": {
           "TITLE": "Add a Bullet"
         },
-        "2": {
+        "PAGE_2": {
           "TITLE": "Create a Flashcard"
         },
-        "3": {
+        "PAGE_3": {
           "TITLE": "Structure Notes Using Tab"
         }
       }
