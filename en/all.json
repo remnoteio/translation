@@ -73,7 +73,7 @@
       "UNDO": "Undo",
       "UNPIN_FROM_SIDEBAR": "Unpin from Sidebar",
       "UNSHARE_DOCUMENT": "Unshare Document",
-      "VIEW_GRAPH": "View Graph",
+      "VIEW_GRAPH": "View Local Graph",
       "VIEW_TRASH": "View Trash"
     },
     "PUBLISH_STATUS": {
