@@ -28,8 +28,8 @@
       "ERRORS": {
         "SHARING": {
           "NO_CONTENT": {
-            "SRC": "O documento que você está tentando compartilhar parece um pouco vazio. Adicione pelo menos {{minimum}} de Rems e tente novamente.",
-            "SUBDOCUMENT": "Um dos seus subdocumentos parece um pouco vazio. Não será publicado até que tenha um {{minimum}} de Rems."
+            "SRC": "O documento que você está tentando compartilhar parece um pouco vazio. Adicione pelo menos {{minimum}} Rems e tente novamente.",
+            "SUBDOCUMENT": "Um dos seus subdocumentos parece um pouco vazio. Não será publicado até que tenha {{minimum}} Rems."
           },
           "NO_TITLE": {
             "SRC": "O documento que você está tentando compartilhar não tem título. Você precisa adicionar um antes de publicá-lo.",
@@ -47,15 +47,15 @@
       "DELETE_UNSHARE_OFFLINE_ERROR": "Você está off-line. Descompartilhe o documento manualmente quando estiver on-line novamente."
     },
     "MENU": {
-      "ADD_NESTED_DOCUMENT": "Adicionar documento aninhado",
-      "CHANGE_DOCUMENT_STATUS": "Alterar status do documento",
-      "CUSTOMIZE_SPACED_REPETITION": "Personalizar a repetição espaçada",
+      "ADD_NESTED_DOCUMENT": "Adicionar Documento Aninhado",
+      "CHANGE_DOCUMENT_STATUS": "Alterar Status do Documento",
+      "CUSTOMIZE_SPACED_REPETITION": "Personalizar a Repetição Espaçada",
       "DELETE": "Excluir",
       "EDIT_MODE": {
         "READ": "Modo Somente Leitura",
         "WRITE": "Modo de Edição"
       },
-      "MULTI_SELECTION_MODE": "Selecionar vários Rems",
+      "MULTI_SELECTION_MODE": "Selecionar Vários Rems",
       "EXPORT": "Exportar",
       "FIND_OR_FILTER": "Localizar ou Filtrar",
       "FIND_TEXT_REFERENCES": {
@@ -212,7 +212,7 @@
       "REFETCH_PAGE": "Buscar página novamente",
       "REFETCH_PAGE_TOOLTIP": "Essa página não poderá ser refeita se tiver destaques existentes.",
       "SEARCH_IN_PDF": "Pesquisar em PDF",
-      "SPLIT_PANES": "Painéis divididos",
+      "SPLIT_PANES": "Dividir painéis",
       "SPLIT_PANES_TOOLTIP": "Dividir o editor e o visualizador de PDF em painéis separados.",
       "THEMES": {
         "CLASSIC_INVERT": "Invertido Clássico",
@@ -426,7 +426,7 @@
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "TITLE": "Meta Diária Máxima",
-          "DESCRIPTION": "Limita o número de flashcards que o RemNote solicitará que você pratique para atingir sua meta diária neste valor."
+          "DESCRIPTION": "Pratique pelo menos essa quantidade de flashcards todos os dias para criar sequências."
         },
         "TODAYS_TARGET": "Meta de Hoje:",
         "TODAYS_TARGET_EXPLANATION": "O RemNote tenta definir sua meta diária para que, se você atingi-la todos os dias, todos os cards sejam revisados nos próximos 7 dias. Porém, a meta diária nunca será superior ao máximo definido acima."
@@ -445,8 +445,8 @@
           "TITLE": "Aprender além do limite"
         },
         "LEECH_THRESHOLD": {
-          "DESCRIPTION": "Sanguessugas são cartas difíceis que você continua aprendendo e depois esquecendo novamente. Se você pressionar “esqueci” em um cartão mais vezes do que o este valor, iremos avisá-lo para que você possa descobrir por que está tendo dificuldades neste card e resolver este problema. Defina valores mais altos para ver o aviso de sanguessuga com menos frequência.",
-          "TITLE": "Limite para Sanguessugas"
+          "DESCRIPTION": "\"Cartas Sanguessugas\" são cartas difíceis que você continua aprendendo e depois esquecendo novamente. Se você pressionar “esqueci” em um cartão mais vezes do que o este valor, iremos avisá-lo para que você possa descobrir por que está tendo dificuldades neste card e resolver este problema. Defina valores mais altos para ver o aviso de \"Cartas Sanguessugas\" com menos frequência.",
+          "TITLE": "Limite para \"Cartas Sanguessugas\""
         },
         "NEW_CARDS_PER_DAY": {
           "DESCRIPTION": "Inclua uma quantidade máxima de flashcards novos em sua revisão a cada dia. Dessa forma, novos cartões serão inseridos em sua fila a uma taxa diária constante, em vez de entrar tudo de uma vez.",
