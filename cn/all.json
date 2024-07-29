@@ -131,6 +131,24 @@
     },
     "POPUP_TITLE": "近期通知"
   },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "创建文件夹"
+        },
+        "PAGE_1": {
+          "TITLE": "添加项目符号"
+        },
+        "PAGE_2": {
+          "TITLE": "创建记忆卡片"
+        },
+        "PAGE_3": {
+          "TITLE": "使用 Tab 键结构化笔记"
+        }
+      }
+    }
+  },
   "PAGES": {
     "ALL_NOTES": {
       "SORT": {
@@ -802,24 +820,6 @@
     "VIEW_CONFIGURATION": "设置标签",
     "ADD_PROPERTY": "添加属性",
     "NEW_PROPERTY": "新属性"
-  },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "PAGE_0": {
-          "TITLE": "创建文件夹"
-        },
-        "PAGE_1": {
-          "TITLE": "添加项目符号"
-        },
-        "PAGE_2": {
-          "TITLE": "创建记忆卡片"
-        },
-        "PAGE_3": {
-          "TITLE": "使用 Tab 键结构化笔记"
-        }
-      }
-    }
   },
   "COMMUNITY_NOTIFICATIONS": {
     "DOCUMENT_ADDED_TO_GROUP": {
