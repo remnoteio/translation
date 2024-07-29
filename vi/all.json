@@ -45,6 +45,24 @@
     },
     "POPUP_TITLE": "Thông Báo Gần Đây"
   },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "Tạo Một Thư Mục"
+        },
+        "PAGE_1": {
+          "TITLE": "Thêm một Dấu đầu dòng"
+        },
+        "PAGE_2": {
+          "TITLE": "Tạo một Flashcard"
+        },
+        "PAGE_3": {
+          "TITLE": "Sấp Xếp Ghi Chú Bằng Cách Sử Dụng Tab"
+        }
+      }
+    }
+  },
   "PAGES": {
     "ALL_NOTES": {
       "SORT": {
@@ -238,24 +256,6 @@
         "DELETE_LIST": "Xóa Danh sách",
         "DELETE_TABLE": "Xóa Bảng",
         "DUPLICATE_TABLE_VIEW_TITLE": "Nhân đôi Chế độ xem Bảng"
-      }
-    }
-  },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "PAGE_0": {
-          "TITLE": "Tạo Một Thư Mục"
-        },
-        "PAGE_1": {
-          "TITLE": "Thêm một Dấu đầu dòng"
-        },
-        "PAGE_2": {
-          "TITLE": "Tạo một Flashcard"
-        },
-        "PAGE_3": {
-          "TITLE": "Sấp Xếp Ghi Chú Bằng Cách Sử Dụng Tab"
-        }
       }
     }
   }

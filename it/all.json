@@ -65,6 +65,21 @@
     },
     "POPUP_TITLE": "Notifiche recenti"
   },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "Crea una cartella"
+        },
+        "PAGE_1": {
+          "TITLE": "Aggiungi un punto elenco"
+        },
+        "PAGE_2": {
+          "TITLE": "Crea una Flashcard"
+        }
+      }
+    }
+  },
   "PAGES": {
     "ALL_NOTES": {
       "SORT": {
@@ -515,20 +530,5 @@
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} Modelli",
     "TURN_OFF_AUTO_APPLY": "Disattiva l'applicazione automatica",
     "VIEW_CONFIGURATION": "Configura etichetta"
-  },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "PAGE_0": {
-          "TITLE": "Crea una cartella"
-        },
-        "PAGE_1": {
-          "TITLE": "Aggiungi un punto elenco"
-        },
-        "PAGE_2": {
-          "TITLE": "Crea una Flashcard"
-        }
-      }
-    }
   }
 }

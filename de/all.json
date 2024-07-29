@@ -129,24 +129,6 @@
     },
     "POPUP_TITLE": "Aktuelle Benachrichtigungen"
   },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "0": {
-          "TITLE": "Einen Ordner erstellen"
-        },
-        "1": {
-          "TITLE": "Aufzählungszeichen hinzufügen"
-        },
-        "2": {
-          "TITLE": "Erstellen Sie eine Karteikarte"
-        },
-        "3": {
-          "TITLE": "Notizen mit dem Tabulator strukturieren"
-        }
-      }
-    }
-  },
   "PAGES": {
     "ALL_NOTES": {
       "SORT": {
@@ -724,5 +706,23 @@
     "TEMPLATES_HELP_TEXT": "Die Vorlage eines Tags ist ein RemNote-Dokument, das automatisch in getaggte Rems kopiert werden kann. Fügen Sie Überschriften, Checklisten und mehr direkt in Ihre Vorlage ein.",
     "TURN_OFF_AUTO_APPLY": "Deaktiviere „Automatisches anwenden“.",
     "VIEW_CONFIGURATION": "Tag konfigurieren"
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "0": {
+          "TITLE": "Einen Ordner erstellen"
+        },
+        "1": {
+          "TITLE": "Aufzählungszeichen hinzufügen"
+        },
+        "2": {
+          "TITLE": "Erstellen Sie eine Karteikarte"
+        },
+        "3": {
+          "TITLE": "Notizen mit dem Tabulator strukturieren"
+        }
+      }
+    }
   }
 }
