@@ -131,6 +131,24 @@
     },
     "POPUP_TITLE": "最近の通知"
   },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "フォルダーを作成"
+        },
+        "PAGE_1": {
+          "TITLE": "箇条書きを追加"
+        },
+        "PAGE_2": {
+          "TITLE": "フラッシュカードを作成"
+        },
+        "PAGE_3": {
+          "TITLE": "\"Tab\"を使用してメモを構造化する"
+        }
+      }
+    }
+  },
   "PAGES": {
     "ALL_NOTES": {
       "SORT": {
@@ -802,24 +820,6 @@
     "VIEW_CONFIGURATION": "タグの設定",
     "ADD_PROPERTY": "プロパティの追加",
     "NEW_PROPERTY": "新しいプロパティ"
-  },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "PAGE_0": {
-          "TITLE": "フォルダーを作成"
-        },
-        "PAGE_1": {
-          "TITLE": "箇条書きを追加"
-        },
-        "PAGE_2": {
-          "TITLE": "フラッシュカードを作成"
-        },
-        "PAGE_3": {
-          "TITLE": "\"Tab\"を使用してメモを構造化する"
-        }
-      }
-    }
   },
   "COMMUNITY_NOTIFICATIONS": {
     "DOCUMENT_ADDED_TO_GROUP": {
