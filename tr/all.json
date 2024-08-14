@@ -25,6 +25,7 @@
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Dil",
+    "TRANSLATION_INFO_SETTINGS": "Çeviri hala devam etmektedir; İngilizce ve seçilen dilin bir karışımıyla karşılaşacaksınız.<br> <guideLink>eğitim</guideLink>'i inceleyerek ve ardından çevirilere yardımcı olmak için <editorLink>web editörümüzü</editorLink> kullanarak katkıda bulunabilirsiniz.",
     "TRANSLATION_IN_PROGRESS": "RemNote'un çevirisi hala devam ediyor. <0>Inlang'da</0> çevirilere katkıda bulunabilirsiniz."
   },
   "PAGES": {
@@ -156,7 +157,12 @@
       "INVITE_FRIENDS_REMNOTE": "Arkadaşlarınızı RemNote'a davet edin!",
       "INVITE_TEXT": "Arkadaşlarını davet et",
       "INVITED_YOU": " (sizi davet etti)",
+      "NOT_CONFIRMED_EMAIL": " (e-postayı doğrulamadı)",
+      "SEND_INVITE": "Davetiye gönder",
+      "SHARE_LINK": "Bağlantıyı paylaş",
       "TITLE": "Kredi Kazanın",
+      "TOAST_RENEW": "Mevcut aboneliğiniz yenilendiğinde kredileriniz otomatik olarak uygulanacaktır.",
+      "TOAST_SUBSCRIBE": "RemNote Pro'ya abone olduğunuzda kredileriniz otomatik olarak uygulanacaktır. Başlamak için aşağıdan bir plan seçin!",
       "VERIFY_EMAIL": "Birini davet etmek için öncelikle e-postanızı doğrulayın."
     },
     "EDITOR": {
@@ -164,6 +170,10 @@
         "DATE_FORMATTING": {
           "DESCRIPTION": "RemNote'taki tarihleri bu formatta göster.",
           "TITLE": "Tarih Biçimlendirme"
+        },
+        "DATE_FORMATTING_CUSTOM": {
+          "DESCRIPTION": "Sağlanan seçenekleri kullanarak tarihinizi dilediğiniz gibi biçimlendirin.",
+          "TITLE": "Özel Tarih Biçimlendirmesi"
         },
         "TIME_FORMATTING": {
           "TITLE": "Zaman Biçimlendirme"
@@ -182,6 +192,7 @@
           "TITLE": "Yazım Denetimini Etkinleştir"
         },
         "INSERT_EMOJIS_AS_REFERENCES": {
+          "DESCRIPTION": "%% aramasından bir emoji seçerken bir referans oluşturun.",
           "TITLE": "Emojileri Referans Olarak Ekle"
         }
       }
@@ -190,6 +201,13 @@
       "ENABLE_ZOOM_INTO_BULLET": {
         "TITLE": "Madde İşaretine Yakınlaştırmayı Etkinleştir"
       },
+      "PREVIEW_REM_ON_HOVER": {
+        "LABEL": "Bir Referansın üzerine geldiğinizde, içeriğinin önizlemesini gösterin.",
+        "TITLE": "Üzerine Gelindiğinde Referansları Önizleme"
+      },
+      "SCALE_COLLAPSED_REM_BULLETS": {
+        "LABEL": "Maddenin etrafındaki halkayı, içeriğine bağlı olarak büyüt veya küçült."
+      },
       "SINGLE_CLICK_REFERENCES_TO_OPEN": {
         "TITLE": "Tek Tıklamayla Açılan Referanslar"
       }
@@ -197,9 +215,11 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "Hedef"
+          "TITLE": "Hedef",
+          "DESCRIPTION": "Her gün en azından bu kadar sayıda bilgi kartını çözerek seriler oluşturun."
         },
-        "TODAYS_TARGET": "Bugünün Düzeltilmiş Hedefi:"
+        "TODAYS_TARGET": "Bugünün Düzeltilmiş Hedefi:",
+        "TODAYS_TARGET_EXPLANATION": "RemNote, önümüzdeki hafta boyunca pratik yapmak için belirlediğiniz günlük hedefinizden ortalama daha az kartınız olacağını öngörüyorsa, günlük hedefinizi geçici olarak düşüreceğiz; böylece başlangıçta çok fazla ve sonunda daha az kart yerine, her gün yaklaşık olarak eşit sayıda kartınız olacak."
       },
       "GENERAL": {
         "AUTOPLAY_MEDIA": {
@@ -217,6 +237,7 @@
         },
         "RESET_ALL": {
           "CONFIRM_MESSAGE": "Tüm kart ayarlarını varsayılan değerlerine sıfırlamak istediğinizden emin misiniz?",
+          "DESCRIPTION": "Tüm flaşkart ayarlarını varsayılan değerlerine geri döndürün.",
           "TITLE": "Flashcard Ayarlarını Sıfırla"
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
@@ -225,6 +246,10 @@
         "TEXT_TO_SPEECH_VOICE": {
           "TITLE": "Metinden Konuşmaya Seslendirmesi",
           "SAMPLE": "Mitokondri hücrenin enerji santralidir."
+        },
+        "TEXT_TO_SPEECH_SPEED": {
+          "DESCRIPTION": "Flaşkart metninin konuşulduğu hız.",
+          "TITLE": "Metinden Konuşmaya Hızı"
         },
         "TYPE_ANSWER": {
           "TITLE": "Cevap yazın"
@@ -241,6 +266,7 @@
           "TITLE": "Referans Kümeleri"
         },
         "TAG_CLUSTERS": {
+          "DESCRIPTION": "Aynı etikete sahip Rem'leri birlikte çalışmayı tercih edin.",
           "TITLE": "Etiket Kümeleri"
         }
       },
@@ -251,17 +277,25 @@
       },
       "VISUAL": {
         "SHOW_NEXT_REVIEW_TIMES": {
+          "DESCRIPTION": "Aralıklı tekrarla pratik yaparken her cevap butonunda bir sonraki tekrara kadar geçen süreyi gösterin.",
           "TITLE": "Sonraki İnceleme Zamanlarını Göster"
         }
       }
     },
     "GLOBAL_INTERFACE": {
+      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
+        "TITLE": "Paylaşılan Kartlar Arama Dili"
+      },
       "DARK_MODE": {
         "LABEL": "Bu renk şemasını kullan.",
         "TITLE": "Karanlık Mod"
       },
       "FULL_WIDTH": {
+        "LABEL": "Belgeleri ekranın tam genişliğini kullanacak şekilde genişletin.",
         "TITLE": "Tam Genişlik"
+      },
+      "IN_APP_SUGGESTIONS": {
+        "LABEL": "Belgenizin en üstünde RemNote'ta deneyebileceğiniz özelliklere ilişkin ipuçlarını gösterin."
       },
       "INTERFACE": {
         "TITLE": "RemNote Arayüz Dili"
@@ -274,8 +308,12 @@
       }
     },
     "KEYBOARD_SHORTCUTS": {
+      "CHANGE_KEYBOARD_SHORTCUTS": {
+        "TITLE": "Klavye Kısayollarını Değiştir"
+      },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
-        "DESCRIPTION": "Remleri düzenlerken komutları tetiklemek için / yerine // yazın."
+        "DESCRIPTION": "Remleri düzenlerken komutları tetiklemek için / yerine // yazın.",
+        "TITLE": "Komut Menüsü İçin Çift Eğik Çizgi"
       },
       "ENTER_TO_OUTDENT": {
         "TITLE": "Girintiyi azaltmak için Enter'a basın"
