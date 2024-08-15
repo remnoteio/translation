@@ -66,6 +66,24 @@
     },
     "POPUP_TITLE": "Notificações recentes"
   },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "Criar uma pasta"
+        },
+        "PAGE_1": {
+          "TITLE": "Adicionar bullet point"
+        },
+        "PAGE_2": {
+          "TITLE": "Criar um Flashcard"
+        },
+        "PAGE_3": {
+          "TITLE": "Estruturar notas usando Tab"
+        }
+      }
+    }
+  },
   "PAGES": {
     "ALL_NOTES": {
       "SORT": {
@@ -635,23 +653,5 @@
     "TEMPLATES_HELP_TEXT": "O modelo de uma tag é um documento do RemNote que pode ser copiado automaticamente em um Rem marcado com esta Tag. Adicione cabeçalhos, listas e mais diretamente no seu modelo.",
     "TURN_OFF_AUTO_APPLY": "Desativar Aplicar Automaticamente",
     "VIEW_CONFIGURATION": "Configurar Tag"
-  },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "PAGE_0": {
-          "TITLE": "Criar uma pasta"
-        },
-        "PAGE_1": {
-          "TITLE": "Adicionar bullet point"
-        },
-        "PAGE_2": {
-          "TITLE": "Criar um Flashcard"
-        },
-        "PAGE_3": {
-          "TITLE": "Estruturar notas usando Tab"
-        }
-      }
-    }
   }
 }
