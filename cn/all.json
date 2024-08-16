@@ -55,6 +55,10 @@
         "READ": "只读模式",
         "WRITE": "编辑模式"
       },
+      "MULTI_SELECTION_MODE": "选择多个 Rem",
+      "MULTI_SELECTION_FOLDER": "选择多个文件夹/文档",
+      "CHANGE_FOLDER_ICON": "更改文件夹图标",
+      "CHANGE_DOCUMENT_ICON": "更改文档图标",
       "EXPORT": "导出",
       "FIND_OR_FILTER": "查找或筛选",
       "FIND_TEXT_REFERENCES": {
@@ -477,7 +481,8 @@
         },
         "TEXT_TO_SPEECH_VOICE": {
           "DESCRIPTION": "用于文本转语音的声音。请注意某些声音仅适用于某些语言。",
-          "TITLE": "文本转语音"
+          "TITLE": "文本转语音",
+          "SAMPLE": "线粒体是细胞的动力源。"
         },
         "TEXT_TO_SPEECH_SPEED": {
           "DESCRIPTION": "朗读记忆卡片的速度",
