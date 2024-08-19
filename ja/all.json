@@ -55,6 +55,7 @@
         "READ": "表示限定モード",
         "WRITE": "編集モード"
       },
+      "MULTI_SELECTION_MODE": "複数のremを選択してください。",
       "EXPORT": "エクスポート",
       "FIND_OR_FILTER": "検索もしくはフィルター",
       "FIND_TEXT_REFERENCES": {
