@@ -55,7 +55,7 @@
         "READ": "表示限定モード",
         "WRITE": "編集モード"
       },
-      "MULTI_SELECTION_MODE": "複数のremを選択してください。",
+      "MULTI_SELECTION_MODE": "複数のremを選択",
       "MULTI_SELECTION_FOLDER": "複数のフォルダ/ドキュメントを選択",
       "CHANGE_FOLDER_ICON": "フォルダアイコンを変更",
       "CHANGE_DOCUMENT_ICON": "ドキュメントアイコンを変更",
