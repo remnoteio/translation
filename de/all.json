@@ -342,8 +342,10 @@
         },
         "CREATE_STUBS_FROM_SEARCH": {
           "DESCRIPTION": {
-            "MAC": "Wenn Sie ein Rem durch Drücken von Cmd+Return in einer Suche erstellen, beschriften Sie es mit „Skizze“."
-          }
+            "MAC": "Wenn Sie ein Rem durch Drücken von Cmd+Return in einer Suche erstellen, beschriften Sie es mit „Skizze“.",
+            "PC": "Wenn Sie ein Rem durch Drücken von Strg+Eingabe in einer Suche erstellen, wird es mit „Skizze“ markiert."
+          },
+          "TITLE": "Erstellen Sie Skizzen aus der Suche"
         },
         "ENABLE_SPELLCHECK": {
           "DESCRIPTION": "Überprüfen Sie das aktuell fokussierte Rem auf Tippfehler.",
@@ -363,6 +365,9 @@
       "PREVIEW_REM_ON_HOVER": {
         "LABEL": "Wenn Sie mit der Maus über eine Referenz fahren, wird eine Vorschau ihres Inhalts angezeigt.",
         "TITLE": "Vorschau der Referenzen beim Hovern"
+      },
+      "SCALE_COLLAPSED_REM_BULLETS": {
+        "LABEL": "Passt die Größe des Ringes um den Stichpunkt entsprechend der Anzahl der Unterpunkte an."
       },
       "SINGLE_CLICK_REFERENCES_TO_OPEN": {
         "LABEL": "Wenn Sie auf eine Referenz klicken oder tippen, gelangen Sie sofort zu ihrem Ziel, anstatt das Referenzmenü zu öffnen. (Sie können das Referenzmenü jederzeit durch einen Rechtsklick anzeigen.)",
@@ -478,13 +483,15 @@
         "TITLE": "Gesamtbreite"
       },
       "IN_APP_SUGGESTIONS": {
-        "LABEL": "Zeigen Sie oben in Ihrem Dokument Tipps zu RemNote-Funktionen an, die Sie ausprobieren können."
+        "LABEL": "Zeigen Sie oben in Ihrem Dokument Tipps zu RemNote-Funktionen an, die Sie ausprobieren können.",
+        "TITLE": "Einführende Tipps oben im Dokument"
       },
       "INTERFACE": {
         "KEYWORDS": "sprache sprache übersetzung i18n",
         "TITLE": "RemNote Sprache der Benutzeroberfläche(Alpha)"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
+        "LABEL": "Zeige Tutorials zu den RemNote-Funktionen, die Sie gerade verwenden in der Ecke des Bildschirms an.",
         "TITLE": "In-App-Tutorials"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
@@ -503,11 +510,19 @@
     "KEYBOARD_SHORTCUTS": {
       "CHANGE_KEYBOARD_SHORTCUTS": {
         "DESCRIPTION": "Passen Sie die Zuordnung der Tastenkombinationen für Tastaturkürzel an.",
+        "KEYWORDS": "Passen Sie Tastaturkürzel und Tastenbelegung an",
         "TITLE": "Tastaturkürzel ändern"
+      },
+      "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
+        "DESCRIPTION": "Nutze die alten Tastaturkürzel (vor dem August 2020 Update).",
+        "TITLE": "alte Tastaturkürzel verwenden"
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
         "DESCRIPTION": "Geben Sie // anstelle von / ein, um beim Bearbeiten von Rems Befehle auszulösen.",
         "TITLE": "Doppelter Schrägstrich für Befehlsmenü"
+      },
+      "ENTER_TO_OUTDENT": {
+        "LABEL": "Durch Drücken der Eingabetaste bei einem Rem ohne Inhalt und nicht auf der obersten Ebene des Dokuments wird die Einrückungsebene um eine Ebene verringert. (Wenn deaktiviert, bleibt es auf der gleichen Ebene und bleibt ein leeres Rem)."
       },
       "SPLIT_WITH_ALT_ENTER": {
         "TITLE": {
@@ -522,7 +537,8 @@
           "LABEL": "Lassen Sie sich benachrichtigen, wenn Ihr freigegebenes Dokument signifikante Aufrufe erhält"
         },
         "DOCUMENT_ADDED_TO_GROUP": {
-          "LABEL": "Lassen Sie sich benachrichtigen, wenn ein Dokument zu Ihrer Gruppe hinzugefügt wird"
+          "LABEL": "Lassen Sie sich benachrichtigen, wenn ein Dokument zu Ihrer Gruppe hinzugefügt wird",
+          "TITLE": "Dokument zur Gruppe hinzugefügt Benachrichtigung"
         },
         "INVITE": {
           "LABEL": "Lassen Sie sich benachrichtigen, wenn Sie zu einer Gruppe eingeladen wurden",
