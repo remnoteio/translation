@@ -56,6 +56,9 @@
         "WRITE": "Edit Mode"
       },
       "MULTI_SELECTION_MODE": "Select Multiple Rems",
+      "MULTI_SELECTION_FOLDER": "Select Multiple Folders/Documents",
+      "CHANGE_FOLDER_ICON": "Change Folder Icon",
+      "CHANGE_DOCUMENT_ICON": "Change Document Icon",
       "EXPORT": "Export",
       "FIND_OR_FILTER": "Find or Filter",
       "FIND_TEXT_REFERENCES": {
