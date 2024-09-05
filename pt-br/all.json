@@ -2,6 +2,7 @@
   "COMMON": {
     "ACTIONS": {
       "APPLY": "Aplicar",
+      "COPY": "Copiar",
       "CREATE": "Criar",
       "DELETE": "Deletar",
       "DUPLICATE": "Duplicar",
@@ -10,28 +11,289 @@
       "REMOVE": "Remover",
       "UPDATE": "Atualizar",
       "VIEW": "Visualizar"
+    },
+    "AI": {
+      "AI_FLASHCARDS": "Flashcards de IA"
+    },
+    "GENERAL": {
+      "FLASHCARD_one": "Flashcard",
+      "FLASHCARD_other": "Flashcards",
+      "NOTE_one": "anotação",
+      "NOTE_other": "anotações"
+    },
+    "NEW": "Novo"
+  },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_CONTENT": {
+            "SRC": "O documento que você está tentando compartilhar parece um pouco vazio. Adicione pelo menos {{minimum}} Rems e tente novamente.",
+            "SUBDOCUMENT": "Um dos seus subdocumentos parece um pouco vazio. Não será publicado até que tenha {{minimum}} Rems."
+          },
+          "NO_TITLE": {
+            "SRC": "O documento que você está tentando compartilhar não tem título. Você precisa adicionar um antes de publicá-lo.",
+            "SUBDOCUMENT": "Um dos seus subdocumentos não tem título. Ele não será publicado até que tenha um."
+          }
+        }
+      }
+    }
+  },
+  "DOCUMENT": {
+    "DIALOGS": {
+      "DELETE_ALSO_UNSHARE": "Você também deseja cancelar o compartilhamento do documento?",
+      "DELETE_CONFIRM_DIALOG": "Tem certeza de que deseja excluir este documento?",
+      "DELETE_UNSHARE_ERROR": "Ocorreu um erro ao cancelar o compartilhamento deste documento. Descompartilhe-o manualmente.",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "Você está off-line. Descompartilhe o documento manualmente quando estiver on-line novamente."
+    },
+    "MENU": {
+      "ADD_NESTED_DOCUMENT": "Adicionar Documento Aninhado",
+      "CHANGE_DOCUMENT_STATUS": "Alterar Status do Documento",
+      "CUSTOMIZE_SPACED_REPETITION": "Personalizar a Repetição Espaçada",
+      "DELETE": "Excluir",
+      "EDIT_MODE": {
+        "READ": "Modo Somente Leitura",
+        "WRITE": "Modo de Edição"
+      },
+      "MULTI_SELECTION_MODE": "Selecionar Vários Rems",
+      "EXPORT": "Exportar",
+      "FIND_OR_FILTER": "Localizar ou Filtrar",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "Essa opção está obsoleta e recomenda-se que você use o método alternativo de pressionar <keycode /> e, em seguida, procurar referências de texto.",
+        "LABEL": "Localizar Referências de Texto"
+      },
+      "MARK_AS_DOCUMENT": "Marcar como Documento",
+      "MOVE": "Mover",
+      "OPEN_IN_ANOTHER_PANE": "Abrir em Outro Painel",
+      "PIN_TO_SIDEBAR": "Fixar na Barra Lateral",
+      "PRINT": "Imprimir",
+      "RENAME": "Renomear",
+      "SHOW_STUDY_BUTTON": "Botão Mostrar Estudo",
+      "STATS": "Estatísticas",
+      "UNDO": "Desfazer",
+      "UNPIN_FROM_SIDEBAR": "Desafixar da Barra Lateral",
+      "UNSHARE_DOCUMENT": "Descompartilhar o Documento",
+      "VIEW_GRAPH": "Exibir Gráfico Local",
+      "VIEW_TRASH": "Ver Lixeira"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "Rascunho",
+      "FINISHED": "Finalizado",
+      "PINNED": "Fixado"
+    }
+  },
+  "FILE_UPLOADING": {
+    "CACHED_INFO": "Este arquivo foi armazenado em cache para visualização off-line e pode não ter sido carregado ainda.",
+    "LOCAL_ONLY_WARN": "O upload desse arquivo não foi bem-sucedido e está armazenado temporariamente em seu computador.",
+    "LOCAL_WAITING_FOR_UPLOAD_WARN": "Esse arquivo ainda não foi carregado e está armazenado apenas localmente.",
+    "NOT_FOUND": "Esse arquivo não pode ser encontrado.",
+    "NOT_YET_UPLOADED": "Esse arquivo ainda não foi carregado.",
+    "SNIPPING": {
+      "NON_PDF": "Tente usar outra ferramenta de recorte/colagem ou entre em contato com o suporte.",
+      "PDF": "Entre em contato com o suporte."
     }
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Idioma",
     "TRANSLATION_INFO_SETTINGS": "A tradução ainda está em andamento.<br> Você pode nos ajudar lendo o <guideLink>tutorial</guideLink> e então usando nosso <editorLink>editor web</editorLink> ."
   },
+  "NOTIFICATIONS": {
+    "ARTICLE_DEFAULT": "Seu documento",
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Seu documento",
+      "BODY_2": "obteve {{viewCount, number}} visualizações"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "foi adicionado a"
+    },
+    "EMPTY_STATE_MESSAGE": "Você está totalmente atualizado! Você receberá notificações quando alguém interagir com o conteúdo compartilhado em seu <profileLink>perfil</profileLink>",
+    "EMPTY_STATE_TITLE": "Você não tem notificações recentes",
+    "GROUP_DEFAULT": "Seu grupo",
+    "IMPORT": {
+      "BODY": "Alguém importou seu artigo"
+    },
+    "INVITE": {
+      "ACCEPT": "Aceitar convite",
+      "BODY": "convidou você para participar",
+      "REJECT": "Rejeitar"
+    },
+    "NEW_COMMENT": {
+      "BODY": "comentou no",
+      "BODY_ARTICLE": "comentou em seu documento",
+      "BODY_COMMENT": "respondeu seu comentário",
+      "BODY_GROUP": "enviou um chat para seu grupo"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "seguiu você"
+    },
+    "NEW_LIKE": {
+      "BODY": "curtiu"
+    },
+    "POPUP_TITLE": "Notificações recentes"
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "Criar uma pasta"
+        },
+        "PAGE_1": {
+          "TITLE": "Adicionar um Marcador"
+        },
+        "PAGE_2": {
+          "TITLE": "Criar um Flashcard"
+        },
+        "PAGE_3": {
+          "TITLE": "Estruturar notas usando Tab"
+        }
+      }
+    }
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "SORT": {
+        "ASCENDING": "A -> Z",
+        "BY_CREATION_TIME": "Por tempo da criação",
+        "BY_MODIFICATION": "Por modificação",
+        "BY_TITLE": "Por Título",
+        "DESCENDING": "Z -> A",
+        "OLDEST_CREATION_FIRST": "Criação Mais Antiga primeiro",
+        "OLDEST_FIRST": "Mais Antigo primeiro",
+        "RECENTLY_CREATED": "Criado recentemente",
+        "RECENTLY_MODIFIED": "Modificado Recentemente"
+      },
+      "TITLE": "Todas as Notas"
+    }
+  },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "AI_DROPDOWN": {
+        "BASIC_CARDS": "Cards Básicos",
+        "BASIC_CARDS_TOOLTIP": "Gerar flashcards básicos de perguntas e respostas a partir do texto selecionado.",
+        "CLOZE_CARDS": "Cartões Cloze (Preencher a lacuna)",
+        "CLOZE_CARDS_TOOLTIP": "Gerar flashcards de cloze a partir do texto selecionado.",
+        "CONCEPT_CARDS": "Cartões Conceituais",
+        "CONCEPT_CARDS_TOOLTIP": "Gerar flashcards conceituais a partir do texto selecionado.",
+        "GENERATE_SECTION": "GERAR"
+      },
+      "CLOZE_BTN_TOOLTIP": " Flashcard (Preencher a lacuna) Cloze",
+      "COPY_IMAGE": "Copiar Imagem",
+      "COPY_TEXT": "Copiar como Texto Sem Formatação",
+      "HIGHLIGHT": "Destaque",
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "Criar Flashcards de Oclusão de Imagem",
+      "NO_TEXT_IN_PDF_WARN": "Esse arquivo não contém uma camada de texto, mas você ainda pode usar destaques de área para fazer anotações.",
+      "NOTE_BTN_TOOLTIP": "Observação"
+    },
+    "EDIT_ANNOTATIONS": {
+      "ADVANCED_LINKING_OPTIONS": "Opções Avançadas de Vinculação",
+      "DELETE_WARNING": "Esse destaque tem {{notesCount, number}} {{ notesWord }}. Tem certeza de que deseja excluí-lo?",
+      "TURN_INTO_CONCEPT": "Transformar em Conceito",
+      "VIEW_REFERENCES": "Exibir Referências"
+    },
+    "HEADER": {
+      "AREA_HIGHLIGHT_TOOLTIP": "Destacar Área ({{keyName}} + Arrastar)",
+      "NUMBER_OF_PAGES_TOOLTIP": "número de páginas",
+      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "Alternar Documento Padrão"
+    },
+    "PDF_OPTIONS": {
+      "CHANGE_THEME": "Alterar o tema",
+      "DOWNLOAD_PDF": "Baixar PDF",
+      "LEARN_MORE": "Saiba mais",
+      "OPEN_WEBPAGE_EXTERNALLY": "Abrir a página da Web externamente",
+      "PDF_SETTINGS": "Configurações",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "Destaque automático",
+        "AUTO_HIGHLIGHT_TOOLTIP": "Crie destaques automaticamente depois que o texto for selecionado.",
+        "DISABLE_HEADER_BUTTONS": "Desativar botões de cabeçalho",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "Desativar a exibição dos botões de cabeçalho (\") no leitor.",
+        "SNAP_HIGHLIGHT_TO_WORDS": "Destaque de palavras",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "Ao criar novos destaques, selecione apenas palavras inteiras."
+      },
+      "REFETCH_PAGE": "Buscar página novamente",
+      "REFETCH_PAGE_TOOLTIP": "Essa página não poderá ser refeita se tiver destaques existentes.",
+      "SEARCH_IN_PDF": "Pesquisar em PDF",
+      "SPLIT_PANES": "Dividir painéis",
+      "SPLIT_PANES_TOOLTIP": "Dividir o editor e o visualizador de PDF em painéis separados.",
+      "THEMES": {
+        "CLASSIC_INVERT": "Invertido Clássico",
+        "DARK": "Escuro",
+        "LIGHT": "Claro",
+        "SOLARISED": "Solarizado",
+        "USE_REMNOTE_THEME": "Usar o tema RemNote"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "DONE": "Feito",
+      "INPUT_PLACEHOLDER": "Pesquisa"
+    }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "DESCRIPTION": "Organize anotações sobre aulas, fontes ou ideias em documentos.",
+        "TITLE": "Documento"
+      },
+      "FOLDER": {
+        "DESCRIPTION": "Organize documentos em pastas.",
+        "TITLE": "Pasta"
+      },
+      "QUICK_ADD": {
+        "DESCRIPTION": "Capture suas ideias na hora!",
+        "TITLE": "Adição rápida"
+      },
+      "TABLE_TAG": {
+        "DESCRIPTION": "Crie uma tag para usar com tabelas e modelos.",
+        "TITLE": "Tag & Tabela"
+      },
+      "TODAYS_DOCUMENT": {
+        "DESCRIPTION": "Os Documentos Diários são perfeitos para anotações diárias, listas de tarefas e muito mais.",
+        "TITLE": "Documento de hoje"
+      },
+      "UPLOAD_FILE": {
+        "DESCRIPTION": "Grife, anote e faça referência em um PDF ou outro arquivo.",
+        "FEATURE_NAME": "Grifar PDF",
+        "PAYWALL": "Você atingiu seu limite de uploads de PDF.",
+        "TITLE": "Fazer Upload e Anotar Arquivo",
+        "todo_for_the_item_below": "mover isso para um objeto de nome de recurso global?"
+      }
+    }
+  },
+  "POWERUPS": {
+    "POWERUP_one": "Powerup",
+    "POWERUP_other": "Powerups"
+  },
   "SETTINGS": {
     "ACCOUNT": {
+      "ADVANCED": {
+        "KEYWORDS": "Suporte Religar Buscar Consertar Bug"
+      },
       "ADVANCED_TITLE": "Configurações Avançadas",
+      "AUTHENTICATION": {
+        "KEYWORDS": "Sair Sair Método de Login do Google Adicionar Desconectar Entrar Cadastrar-se"
+      },
       "AUTHENTICATION_TITLE": "Autenticação",
+      "CACHING": {
+        "DESCRIPTION": "Armazene imagens em cache quando elas forem carregadas para que possam ser visualizadas off-line.",
+        "NUMBER_DESCRIPTION": "Defina o número máximo de imagens a serem armazenadas em cache. Quando o limite for atingido, as imagens mais antigas serão removidas do cache.",
+        "NUMBER_TITLE": "Máximo de imagens em cache",
+        "TITLE": "Armazenando em cache",
+        "TOGGLE_DESCRIPTION": "Quando desativado, todas as imagens armazenadas em cache serão apagadas.",
+        "TOGGLE_TITLE": "Ativar Cache"
+      },
       "DANGER_ZONE": {
         "KEYWORDS": "sincronizar log excluir conta redefinir passo a passo progresso redefinir onboarding avançadas conta configurações ",
         "TITLE": "Zona de Perigo"
       },
       "DANGER_ZONE_TITLE": "Área de Perigo",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Exportar Backup Exportar Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
       "IMPORT_EXPORT_TITLE": "Importar e Exportar",
       "MY_PROFILE": "Meu perfil",
-      "NAVIGATION_TITLE": "Navegação",
-      "NOTIFICATIONS": {
-        "DESCRIPTION": "Enviar lembretes sobre sua sequência diária de flashcards. Os lembretes são enviados às 18h todos os dias, no seu fuso horário local.",
-        "TITLE": "Notificações de Sequência para o Celular"
+      "NAVIGATION": {
+        "KEYWORDS": "Exportação e Backup Lixeira Exibir Deleteado Rem Importar Base de Conhecimento Exibir Todos os Cartões Baixar um Backup Diário Configurações Avançadas Excluir Todos Rem"
       },
+      "NAVIGATION_TITLE": "Navegação",
       "PRIVACY": {
         "KEYWORDS": "privacidade",
         "TITLE": "Privacidade"
@@ -53,17 +315,9 @@
         "KEYWORDS": "versão",
         "TITLE": "Versão do Aplicativo"
       },
-      "ADVANCED": {
-        "KEYWORDS": "Suporte Religar Buscar Consertar Bug"
-      },
-      "AUTHENTICATION": {
-        "KEYWORDS": "Sair Sair Método de Login do Google Adicionar Desconectar Entrar Cadastrar-se"
-      },
-      "EXPORT_IMPORT": {
-        "KEYWORDS": "Exportar Backup Exportar Roam Dynalist Logseq Notion Evernote Obsidian"
-      },
-      "NAVIGATION": {
-        "KEYWORDS": "Exportação e Backup Lixeira Exibir Deleteado Rem Importar Base de Conhecimento Exibir Todos os Cartões Baixar um Backup Diário Configurações Avançadas Excluir Todos Rem"
+      "NOTIFICATIONS": {
+        "DESCRIPTION": "Enviar lembretes sobre sua sequência diária de flashcards. Os lembretes são enviados às 18h todos os dias, no seu fuso horário local.",
+        "TITLE": "Notificações de Sequência para o Celular"
       }
     },
     "EARN_CREDIT": {
@@ -147,10 +401,6 @@
       }
     },
     "EDITOR_INTERFACE": {
-      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
-        "TITLE": "Único Clique para Abrir Referências",
-        "LABEL": "Ao clicar ou tocar em uma Referência, vá imediatamente para o seu destino, em vez de abrir o menu de referência. (Você sempre pode mostrar o menu de referência clicando com o botão direito.)"
-      },
       "ENABLE_ZOOM_INTO_BULLET": {
         "LABEL": "Ao clicar em um marcador do Rem, mostra o rem como uma página inteira",
         "TITLE": "Ativar Zoom-In em marcadores"
@@ -163,6 +413,10 @@
         "LABEL": "Quando um Rem é colapsado, aumente ou diminua o anel ao redor do seu marcador baseado no número total de descendentes.",
         "TITLE": "Dimensionar Marcadores de Rems Colapsados"
       },
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "LABEL": "Ao clicar ou tocar em uma Referência, vá imediatamente para o seu destino, em vez de abrir o menu de referência. (Você sempre pode mostrar o menu de referência clicando com o botão direito.)",
+        "TITLE": "Único Clique para Abrir Referências"
+      },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
         "LABEL": "Animações sutis ao adicionar e deleter Rems no editor.",
         "TITLE": "Animar Sutilmente o Editor"
@@ -171,8 +425,8 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "DESCRIPTION": "Limita o número de flashcards que o RemNote solicitará que você pratique para atingir sua meta diária neste valor.",
-          "TITLE": "Meta Diária Máxima"
+          "TITLE": "Meta Diária Máxima",
+          "DESCRIPTION": "Pratique pelo menos essa quantidade de flashcards todos os dias para criar sequências."
         },
         "TODAYS_TARGET": "Meta de Hoje:",
         "TODAYS_TARGET_EXPLANATION": "O RemNote tenta definir sua meta diária para que, se você atingi-la todos os dias, todos os cards sejam revisados nos próximos 7 dias. Porém, a meta diária nunca será superior ao máximo definido acima."
@@ -182,13 +436,25 @@
           "DESCRIPTION": "Ao mostrar um flashcard, reproduz automaticamente qualquer áudio ou vídeo contido nele.",
           "TITLE": "Reprodução Automática de Mídia "
         },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "DESCRIPTION": "Ao mostrar um flashcard, reproduza automaticamente o áudio de texto para fala para a frente do cartão e para o verso do cartão depois de revelado.",
+          "TITLE": "Reprodução automática de texto para fala"
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "DESCRIPTION": "Quando você finalizar todos os cartões na sua fila prioritária de revisão, o Remnote imediatamente já vai te mostrar cartões secundários que estão para vencer. Com isso, você não vai ficar com cartões pendentes pra revisar logo após terminar as revisões da sua fila prioritária.",
+          "TITLE": "Aprender além do limite"
+        },
         "LEECH_THRESHOLD": {
-          "DESCRIPTION": "Sanguessugas são cartas difíceis que você continua aprendendo e depois esquecendo novamente. Se você pressionar “esqueci” em um cartão mais vezes do que o este valor, iremos avisá-lo para que você possa descobrir por que está tendo dificuldades neste card e resolver este problema. Defina valores mais altos para ver o aviso de sanguessuga com menos frequência.",
-          "TITLE": "Limite para Sanguessugas"
+          "DESCRIPTION": "\"Cartas Sanguessugas\" são cartas difíceis que você continua aprendendo e depois esquecendo novamente. Se você pressionar “esqueci” em um cartão mais vezes do que o este valor, iremos avisá-lo para que você possa descobrir por que está tendo dificuldades neste card e resolver este problema. Defina valores mais altos para ver o aviso de \"Cartas Sanguessugas\" com menos frequência.",
+          "TITLE": "Limite para \"Cartas Sanguessugas\""
         },
         "NEW_CARDS_PER_DAY": {
           "DESCRIPTION": "Inclua uma quantidade máxima de flashcards novos em sua revisão a cada dia. Dessa forma, novos cartões serão inseridos em sua fila a uma taxa diária constante, em vez de entrar tudo de uma vez.",
           "TITLE": "Máximo de Novos Cards por Dia"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "DESCRIPTION": "Diariamente, novos cartões aparecerão na sua fila de revisão a partir desse horário",
+          "TITLE": "O próximo dia começa em"
         },
         "RESET_ALL": {
           "CONFIRM_MESSAGE": "Tem certeza de que deseja redefinir todas as configurações de flashcards para os valores padrão?",
@@ -203,17 +469,18 @@
           "DESCRIPTION": "Defina a quantidade máxima de flashcards obsoletos que você quer que sejam reintroduzidos aos poucos em sua fila de revisão diariamente. Cartões obsoletos são aqueles que são temporariamente retidos da fila porque você passou muito tempo sem estudá-los e reaprende-los todos de uma vez seria exaustivo.",
           "TITLE": "Máximo de Cards Obsoletos por Dia"
         },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "A voz usada para conversão de texto em fala. Observe que algumas vozes só funcionam em determinados idiomas.",
+          "TITLE": "Voz de texto para fala",
+          "SAMPLE": "A mitocôndria é a fonte de energia da célula."
+        },
+        "TEXT_TO_SPEECH_SPEED": {
+          "DESCRIPTION": "A velocidade na qual o texto do cartão de memória é falado.",
+          "TITLE": "Velocidade de Conversão de Texto em Fala"
+        },
         "TYPE_ANSWER": {
           "DESCRIPTION": "Mostra uma caixa de texto na frente de cada cartão e compara o que você digitou com a resposta no verso do cartão.",
           "TITLE": "Digitar Resposta"
-        },
-        "LEARN_AHEAD_LIMIT": {
-          "DESCRIPTION": "Quando você finalizar todos os cartões na sua fila prioritária de revisão, o Remnote imediatamente já vai te mostrar cartões secundários que estão para vencer. Com isso, você não vai ficar com cartões pendentes pra revisar logo após terminar as revisões da sua fila prioritária.",
-          "TITLE": "Aprender além do limite"
-        },
-        "NEXT_DAY_STARTS_AT": {
-          "DESCRIPTION": "Diariamente, novos cartões aparecerão na sua fila de revisão a partir desse horário",
-          "TITLE": "O próximo dia começa em"
         }
       },
       "ORDERING": {
@@ -280,14 +547,14 @@
         "TITLE": "Idioma da interface do RemNote"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
+        "KEYWORDS": "no aplicativo barra lateral esquerda tutoriais dicas ajuda suporte aprender tutorial",
         "LABEL": "Exibe no canto da tela tutoriais sobre funcionalidades do Remnote que você está utilizando no momento.",
-        "TITLE": "Tutoriais no aplicativo",
-        "KEYWORDS": "no aplicativo barra lateral esquerda tutoriais dicas ajuda suporte aprender tutorial"
+        "TITLE": "Tutoriais no aplicativo"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
+        "KEYWORDS": "dicas ajuda suporte aprender tutorial",
         "LABEL": "Exibe no canto da tela dicas sobre atalhos de teclado que você está utilizando no momento.",
-        "TITLE": "Dicas de atalhos de teclado",
-        "KEYWORDS": "dicas ajuda suporte aprender tutorial"
+        "TITLE": "Dicas de atalhos de teclado"
       },
       "SIMPLIFIED_UI": {
         "LABEL": "Simplifique a interface e oculte recursos avançados.",
@@ -331,10 +598,6 @@
         }
       }
     },
-    "PLANS": {
-      "KEYWORDS": "convidar amigos plano alterar assinatura ganhar créditos grátis remnote enviar tweet email escolher plano aprendizado vitalício pro recursos detalhamento preços opções",
-      "TITLE": "Planos"
-    },
     "NOTIFICATIONS": {
       "DESCRIPTIONS": {
         "ARTICLE_VIEWS": {
@@ -366,14 +629,23 @@
           "TITLE": "Notificações de Sequencia Diária"
         }
       },
+      "ENABLE_COMMUNITY_LABEL": "Receba notificações instantâneas quando alguém interagir com seu conteúdo compartilhado",
+      "ENABLE_COMMUNITY_TITLE": "Notificações de Flashcards Compartilhados",
       "ENABLE_DUE_CARDS_LABEL": "Exibe a quantidade total de cartões à revisar como um pequeno emblema no ícone do aplicativo do Remnote.",
       "ENABLE_DUE_CARDS_TITLE": "Ativar emblema de notificação para cartões à revisar?",
       "ENABLE_EMAIL_LABEL": "Receba notificações diretamente em seu e-mail",
       "ENABLE_EMAIL_TITLE": "Ativar notificações por e-mail?",
       "ENABLE_PUSH_LABEL": "Receba notificações diretamente no seu dispositivo móvel",
       "ENABLE_PUSH_TITLE": "Ativar notificações flutuantes?",
+      "ENABLE_STREAK_DESCRIPTION": "Receba lembretes diários às 18h sobre sua sequência de flashcards",
+      "ENABLE_STREAK_TITLE": "Notificações do Mobile Streak",
+      "PUSH_ENABLE_MESSAGE": "As notificações por push não estão configuradas neste dispositivo. Clique aqui para configurá-las!",
       "TOGGLE_LABEL": "Controle quais notificações você deseja receber diretamente em seu dispositivo/e-mail",
       "TOGGLE_TITLE": "Filtrar notificações"
+    },
+    "PLANS": {
+      "KEYWORDS": "convidar amigos plano alterar assinatura ganhar créditos grátis remnote enviar tweet email escolher plano aprendizado vitalício pro recursos detalhamento preços opções",
+      "TITLE": "Planos"
     },
     "SIDEBAR": {
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
@@ -389,125 +661,6 @@
         "TITLE": "Ordenar Barra Lateral"
       }
     }
-  },
-  "COMMUNITY": {
-    "ARTICLES": {
-      "ERRORS": {
-        "SHARING": {
-          "NO_CONTENT": {
-            "SRC": "O documento que você está tentando compartilhar parece um pouco vazio. Adicione pelo menos {{minimum}} rems e tente novamente.",
-            "SUBDOCUMENT": "Um dos seus subdocumentos parece um pouco vazio. Não será publicado até que tenha {{minimum}} rems."
-          },
-          "NO_TITLE": {
-            "SRC": "O documento que você está tentando compartilhar não tem título. Você precisa adicionar um antes de publicá-lo.",
-            "SUBDOCUMENT": "Um dos seus subdocumentos não tem título. Ele não será publicado até que tenha um."
-          }
-        }
-      }
-    }
-  },
-  "NOTIFICATIONS": {
-    "ARTICLE_DEFAULT": "Seu documento",
-    "ARTICLE_VIEWS": {
-      "BODY_1": "Seu documento",
-      "BODY_2": "obteve {{viewCount, number}} visualizações"
-    },
-    "DOCUMENT_ADDED_TO_GROUP": {
-      "BODY": "foi adicionado a"
-    },
-    "EMPTY_STATE_MESSAGE": "Você está totalmente atualizado! Você receberá notificações quando alguém interagir com o conteúdo compartilhado em seu <profileLink>perfil</profileLink>",
-    "EMPTY_STATE_TITLE": "Você não tem notificações recentes",
-    "GROUP_DEFAULT": "Seu grupo",
-    "IMPORT": {
-      "BODY": "Alguém importou seu artigo"
-    },
-    "INVITE": {
-      "ACCEPT": "Aceitar convite",
-      "BODY": "convidou você para participar",
-      "REJECT": "Rejeitar"
-    },
-    "NEW_COMMENT": {
-      "BODY": "comentou no",
-      "BODY_ARTICLE": "comentou no seu artigo",
-      "BODY_COMMENT": "respondeu seu comentário",
-      "BODY_GROUP": "enviou um chat para seu grupo"
-    },
-    "NEW_FOLLOWER": {
-      "BODY": "seguiu você"
-    },
-    "NEW_LIKE": {
-      "BODY": "curtiu"
-    },
-    "POPUP_TITLE": "Notificações recentes"
-  },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "0": {
-          "TITLE": "Criar uma pasta"
-        },
-        "1": {
-          "TITLE": "Adicionar bullet point"
-        },
-        "2": {
-          "TITLE": "Criar um Flashcard"
-        },
-        "3": {
-          "TITLE": "Estruturar notas usando Tab"
-        }
-      }
-    }
-  },
-  "PAGES": {
-    "ALL_NOTES": {
-      "SORT": {
-        "ASCENDING": "A -> Z",
-        "BY_CREATION_TIME": "Por tempo da criação",
-        "BY_MODIFICATION": "Por modificação",
-        "BY_TITLE": "Por Título",
-        "DESCENDING": "Z -> A",
-        "OLDEST_CREATION_FIRST": "Criação Mais Antiga primeiro",
-        "OLDEST_FIRST": "Mais Antigo primeiro",
-        "RECENTLY_CREATED": "Criado recentemente",
-        "RECENTLY_MODIFIED": "Modificado Recentemente"
-      },
-      "TITLE": "Todas as Notas"
-    }
-  },
-  "POPUPS": {
-    "CREATE_CONTENT_OPTIONS": {
-      "DOCUMENT": {
-        "DESCRIPTION": "Organize anotações sobre aulas, fontes ou ideias em documentos.",
-        "TITLE": "Documento"
-      },
-      "FOLDER": {
-        "DESCRIPTION": "Organize documentos em pastas.",
-        "TITLE": "Pasta"
-      },
-      "QUICK_ADD": {
-        "DESCRIPTION": "Capture suas ideias na hora!",
-        "TITLE": "Adição rápida"
-      },
-      "TABLE_TAG": {
-        "DESCRIPTION": "Crie uma tag para usar com tabelas e modelos.",
-        "TITLE": "Tag & Tabela"
-      },
-      "TODAYS_DOCUMENT": {
-        "DESCRIPTION": "Os Documentos Diários são perfeitos para anotações diárias, listas de tarefas e muito mais.",
-        "TITLE": "Documento de hoje"
-      },
-      "UPLOAD_FILE": {
-        "DESCRIPTION": "Grife, anote e faça referência em um PDF ou outro arquivo.",
-        "FEATURE_NAME": "Grifar PDF",
-        "PAYWALL": "Você atingiu seu limite de uploads de PDF.",
-        "TITLE": "Fazer Upload e Anotar Arquivo",
-        "todo_for_the_item_below": "mover isso para um objeto de nome que tem características globais?"
-      }
-    }
-  },
-  "POWERUPS": {
-    "POWERUP_one": "Powerup",
-    "POWERUP_other": "Powerups"
   },
   "SIDEBAR": {
     "LABEL_ALL_NOTES": "Todas as Notas",
