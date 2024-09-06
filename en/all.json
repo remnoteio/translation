@@ -343,7 +343,7 @@
       "NOT_CONFIRMED_EMAIL": " (has not confirmed email)",
       "SEND_INVITE": "Send invite",
       "SHARE_LINK": "Share link",
-      "TITLE": "Earn Credits",
+      "TITLE": "Credits",
       "TOAST_RENEW": "Your credits will be applied automatically when your current subscription renews.",
       "TOAST_SUBSCRIBE": "Your credits will be applied automatically when you subscribe to RemNote Pro. Choose a plan below to get started!",
       "VERIFY_EMAIL": "To invite someone, verify your email first."
@@ -549,8 +549,8 @@
     "KEYBOARD_SHORTCUTS": {
       "CHANGE_KEYBOARD_SHORTCUTS": {
         "DESCRIPTION": "Customize keyboard shortcuts mapping keybinding.",
-        "KEYWORDS": "customize keyboard shortcuts mapping keybinding",
-        "TITLE": "Change Keyboard Shortcuts"
+        "KEYWORDS": "change customize keyboard shortcuts mapping keybinding",
+        "TITLE": "Keyboard Shortcuts"
       },
       "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
         "DESCRIPTION": "Default to the legacy keyboard shortcuts (before the August 2020 update).",
