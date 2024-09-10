@@ -48,17 +48,15 @@
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "Add Nested Document",
+      "CHANGE_DOCUMENT_ICON": "Change Document Icon",
       "CHANGE_DOCUMENT_STATUS": "Change Document Status",
+      "CHANGE_FOLDER_ICON": "Change Folder Icon",
       "CUSTOMIZE_SPACED_REPETITION": "Customize Spaced Repetition",
       "DELETE": "Delete",
       "EDIT_MODE": {
         "READ": "Read Only Mode",
         "WRITE": "Edit Mode"
       },
-      "MULTI_SELECTION_MODE": "Select Multiple Rems",
-      "MULTI_SELECTION_FOLDER": "Select Multiple Folders/Documents",
-      "CHANGE_FOLDER_ICON": "Change Folder Icon",
-      "CHANGE_DOCUMENT_ICON": "Change Document Icon",
       "EXPORT": "Export",
       "FIND_OR_FILTER": "Find or Filter",
       "FIND_TEXT_REFERENCES": {
@@ -67,6 +65,8 @@
       },
       "MARK_AS_DOCUMENT": "Mark as Document",
       "MOVE": "Move",
+      "MULTI_SELECTION_FOLDER": "Select Multiple Folders/Documents",
+      "MULTI_SELECTION_MODE": "Select Multiple Rems",
       "OPEN_IN_ANOTHER_PANE": "Open in Another Pane",
       "PIN_TO_SIDEBAR": "Pin to Sidebar",
       "PRINT": "Print",
@@ -184,8 +184,8 @@
       "COPY_TEXT": "Copy as Plain Text",
       "HIGHLIGHT": "Highlight",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Make Image Occlusion Flashcards",
-      "NO_TEXT_IN_PDF_WARN": "This file does not contain a text layer, but you can still use area highlights to annotate.",
-      "NOTE_BTN_TOOLTIP": "Note"
+      "NOTE_BTN_TOOLTIP": "Note",
+      "NO_TEXT_IN_PDF_WARN": "This file does not contain a text layer, but you can still use area highlights to annotate."
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "Advanced Linking Options",
@@ -328,17 +328,17 @@
       "CREDIT_BALANCE_TEXT": "You have <bold>{{userCredit}}</bold> credit remaining and have earned <bold>{{userCreditEarned}}</bold> credit in total. {{months}} remaining month or months of RemNote Pro for free.<br /><br />Subscribe to Pro to start using your credit! You won't be charged until your credit runs out.",
       "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
       "ENTER_VALID_EMAIL": "Enter valid email!",
-      "FRIEND_ALREADY_ON_REMNOTE": "Your friend is already on RemNote",
       "FRIENDS_TITLE": "Friends",
+      "FRIEND_ALREADY_ON_REMNOTE": "Your friend is already on RemNote",
       "HANG_ON": "Hang on",
       "INVITE": "Invite",
+      "INVITED_YOU": " (invited You)",
       "INVITE_COPIED": "Invite link copied!",
       "INVITE_EMAIL": "Invite via email",
       "INVITE_ERROR": "Something went wrong. Please try again later.",
       "INVITE_FRIENDS_EARN_CREDIT": "Earn {{monthlyPrice}} RemNote credit for each friend you invite! They'll also get {{monthlyPrice}} credit to start.",
       "INVITE_FRIENDS_REMNOTE": "Invite your friends to RemNote!",
       "INVITE_TEXT": "Invite Friends",
-      "INVITED_YOU": " (invited You)",
       "KEYWORDS": "invite friends earn credit plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options",
       "NOT_CONFIRMED_EMAIL": " (has not confirmed email)",
       "SEND_INVITE": "Send invite",
@@ -424,8 +424,8 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "Goal",
-          "DESCRIPTION": "Practice at least this many flashcards every day to build streaks."
+          "DESCRIPTION": "Practice at least this many flashcards every day to build streaks.",
+          "TITLE": "Goal"
         },
         "TODAYS_TARGET": "Today's Smoothed Goal:",
         "TODAYS_TARGET_EXPLANATION": "If RemNote predicts that, over the next week, you'll have fewer cards due for practice on average than your configured daily goal, we'll temporarily reduce your daily goal so you have a roughly equal number of cards each day, rather than a lot at the beginning and fewer at the end."
@@ -468,14 +468,14 @@
           "DESCRIPTION": "Reintroduce at most this many stale flashcards into your flashcard queue each day. Stale cards are ones which are temporarily withheld from the queue because you haven't studied them in a long time and relearning them all at once would be exhausting.",
           "TITLE": "Max Stale Cards Per Day"
         },
-        "TEXT_TO_SPEECH_VOICE": {
-          "DESCRIPTION": "The voice used for text to speech. Note that some voices only work for certain languages.",
-          "TITLE": "Text to Speech Voice",
-          "SAMPLE": "The mitochondria is the powerhouse of the cell."
-        },
         "TEXT_TO_SPEECH_SPEED": {
           "DESCRIPTION": "The rate at which flashcard text is spoken.",
           "TITLE": "Text to Speech Speed"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "The voice used for text to speech. Note that some voices only work for certain languages.",
+          "SAMPLE": "The mitochondria is the powerhouse of the cell.",
+          "TITLE": "Text to Speech Voice"
         },
         "TYPE_ANSWER": {
           "DESCRIPTION": "Show a text box on the front of each flashcard and compare what you type to the answer on the back of the card.",
@@ -526,14 +526,14 @@
         "LABEL": "Expand documents to use the full width of the screen.",
         "TITLE": "Full Width"
       },
+      "INTERFACE": {
+        "KEYWORDS": "lang language translation translate i18n",
+        "TITLE": "RemNote Interface Language"
+      },
       "IN_APP_SUGGESTIONS": {
         "KEYWORDS": "tooltips help support learn tutorial",
         "LABEL": "Show tips on RemNote features you could try at the top of your document.",
         "TITLE": "Top-of-Document Onboarding Tips"
-      },
-      "INTERFACE": {
-        "KEYWORDS": "lang language translation translate i18n",
-        "TITLE": "RemNote Interface Language"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "KEYWORDS": "in app left sidebar tutorials tooltips help support learn tutorial",
@@ -645,7 +645,7 @@
     "LABEL_EDIT_LATER": "Edit Later",
     "LABEL_FLASHCARDS": "Flashcards",
     "LABEL_INTERACTIVE_TOUR": "Interactive Tour",
-    "LABEL_ONBOARDING_CALL": "Setup an Onboarding Call",
+    "LABEL_ONBOARDING_CALL": "Set Up an Onboarding Call",
     "LABEL_RESUME_INTERACTIVE_TOUR": "Resume Interactive Tour",
     "LABEL_TODAYS_NOTE": "Today's Note",
     "LABEL_TUTORIALS": "Tutorials",
@@ -665,8 +665,8 @@
     },
     "UPLOAD_SOURCE": {
       "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
-      "INVALID": "Sorry, RemNote cannot accept file uploads of this type.",
       "IMPORT_INSTEAD": "RemNote cannot accept file uploads of this type. However, we might be able to import the notes or flashcards in this file! Try choosing “Import” from the upper-left account menu.",
+      "INVALID": "Sorry, RemNote cannot accept file uploads of this type.",
       "LABEL": "Upload",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
@@ -772,16 +772,16 @@
     "PROPERTIES_HELP_TEXT": [
       "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
     ],
-    "PROPERTY_one": "Property",
-    "PROPERTY_other": "Properties",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Property",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Properties",
+    "PROPERTY_one": "Property",
+    "PROPERTY_other": "Properties",
     "SET_AS_AUTO_APPLY_TEMPLATE": "Set as Auto-Apply Template",
-    "TEMPLATE_one": "Template",
-    "TEMPLATE_other": "Templates",
+    "TEMPLATES_HELP_TEXT": "A tag's template is a RemNote document that can be automatically copied to tagged Rems. Add headers, checklists, and more right within your template.",
     "TEMPLATE_WITH_COUNT_one": "{{count, number}} Template",
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} Templates",
-    "TEMPLATES_HELP_TEXT": "A tag's template is a RemNote document that can be automatically copied to tagged Rems. Add headers, checklists, and more right within your template.",
+    "TEMPLATE_one": "Template",
+    "TEMPLATE_other": "Templates",
     "TURN_OFF_AUTO_APPLY": "Turn off Auto-Apply",
     "VIEW_CONFIGURATION": "Configure Tag"
   }
