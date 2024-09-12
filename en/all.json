@@ -157,13 +157,11 @@
       "SORT": {
         "ASCENDING": "A -> Z",
         "BY_CREATION_TIME": "By creation time",
-        "BY_MODIFICATION": "By modification",
+        "BY_MODIFICATION": "By modification time",
         "BY_TITLE": "By title",
         "DESCENDING": "Z -> A",
-        "OLDEST_CREATION_FIRST": "Oldest creation first",
         "OLDEST_FIRST": "Oldest first",
-        "RECENTLY_CREATED": "Recently created",
-        "RECENTLY_MODIFIED": "Recently modified"
+        "RECENTLY_MODIFIED": "Newest first"
       },
       "TITLE": "All Notes"
     }
