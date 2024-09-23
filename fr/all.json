@@ -183,11 +183,75 @@
       "HIGHLIGHT": "Surligner",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Créer une Flashcard Occlusion d'Image",
       "NOTE_BTN_TOOLTIP": "Note",
-      "NO_TEXT_IN_PDF_WARN": "Ce fichier ne contient pas de claque texte, mais vous pouvez toujours utiliser zones pour annoter."
+      "NO_TEXT_IN_PDF_WARN": "Ce fichier ne contient pas de claque texte, mais vous pouvez toujours utiliser le surlignement de zone pour annoter."
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "Options de Liens Avancés",
-      "DELETE_WARNING": "Ce surlignement possède {{notesCount, number}} {{ notesWord }}. Voulez-vous vraiment le supprimer ?"
+      "DELETE_WARNING": "Ce surlignement possède {{notesCount, number}} {{ notesWord }}. Voulez-vous vraiment le supprimer ?",
+      "TURN_INTO_CONCEPT": "Transformer en Concept",
+      "VIEW_REFERENCES": "Voir les Références"
+    },
+    "HEADER": {
+      "AREA_HIGHLIGHT_TOOLTIP": "Surlignement de Zone ({{keyName}} + Glisser)",
+      "NUMBER_OF_PAGES_TOOLTIP": "nombre de pages"
+    },
+    "PDF_OPTIONS": {
+      "CHANGE_THEME": "Changer le thème",
+      "DOWNLOAD_PDF": "Télécharger le PDF",
+      "LEARN_MORE": "En savoir plus",
+      "OPEN_WEBPAGE_EXTERNALLY": "Ouvrir la page web en externe",
+      "PDF_SETTINGS": "Préférences",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "Surlignement automatique",
+        "AUTO_HIGHLIGHT_TOOLTIP": "Créer automatiquement des surlignements une fois le texte sélectionné.",
+        "DISABLE_HEADER_BUTTONS": "Désactiver les boutons de titres",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "Empêcher les boutons de titres («) d'apparaître dans le lecteur.",
+        "SNAP_HIGHLIGHT_TO_WORDS": "Ajuster le surlignage au mots",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "Lors de la création de surlignements, ne sélectionner que des mots complets."
+      },
+      "REFETCH_PAGE": "Recharger la page",
+      "REFETCH_PAGE_TOOLTIP": "Cette page ne peut être rechargée car elle possède des surlignements.",
+      "SEARCH_IN_PDF": "Rechercher dans le PDF",
+      "SPLIT_PANES": "Onglets Séparés",
+      "SPLIT_PANES_TOOLTIP": "Séparer l'éditeur et lecteur PDF sur deux panneaux.",
+      "THEMES": {
+        "CLASSIC_INVERT": "Inversion Classique",
+        "DARK": "Sombre",
+        "LIGHT": "Clair",
+        "SOLARISED": "Solarisé",
+        "USE_REMNOTE_THEME": "Utiliser le thème Remnote"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "DONE": "Terminé",
+      "INPUT_PLACEHOLDER": "Rechercher"
+    }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "DESCRIPTION": "Organiser les flashcards et les notes en documents.",
+        "TITLE": "Document"
+      },
+      "FOLDER": {
+        "DESCRIPTION": "Organiser les documents en dossiers.",
+        "TITLE": "Dossier"
+      },
+      "QUICK_ADD": {
+        "DESCRIPTION": "Capturez vos idées quand elles viennent!",
+        "TITLE": "Ajout Rapide"
+      },
+      "TABLE_TAG": {
+        "DESCRIPTION": "Créer un tag utilisable avec les base de données et les modèles.",
+        "TITLE": "Tag et Base de Données"
+      },
+      "TODAYS_DOCUMENT": {
+        "DESCRIPTION": "Les notes quotidiennes sont parfaites pour tenir un journal, des listes de tâches ou plus encore.",
+        "TITLE": "Document du Jour"
+      },
+      "UPLOAD_FILE": {
+        "DESCRIPTION": "Surlignez et faites référence à des PDFs, PPTs, documents Word, etc."
+      }
     }
   }
 }
