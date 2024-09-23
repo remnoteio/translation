@@ -60,7 +60,7 @@
       "EXPORT": "Exporter",
       "FIND_OR_FILTER": "Trouver ou Filtrer",
       "FIND_TEXT_REFERENCES": {
-        "DEPRECATION_WARNING": "Cette option obsolète et il est recommandé d'appuyer sur <keycode /> comme méthode alternative puis de chercher des références au texte à la place."
+        "DEPRECATION_WARNING": "Cette option est obsolète et il est recommandé d'appuyer sur <keycode /> comme méthode alternative puis de chercher des références au texte à la place."
       }
     }
   }
