@@ -97,6 +97,70 @@
     }
   },
   "LANGUAGE": {
-    "LANGUAGE_WORD": "Langue"
+    "LANGUAGE_WORD": "Langue",
+    "TRANSLATION_INFO_SETTINGS": "La traduction étant encore en cours, vous rencontrerez un mélange d'anglais et de la langue sélectionnée.<br>Vous pouvez y contribuer en consultant le <guideLink>tutoriel</guideLink> et en utilisant notre <editorLink>éditeur web</editorLink> pour participer aux traductions."
+  },
+  "NOTIFICATIONS": {
+    "ARTICLE_DEFAULT": "Votre document",
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Votre documen",
+      "BODY_2": "a été vu {{viewCount, number}} fois"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "a été ajouté à"
+    },
+    "EMPTY_STATE_MESSAGE": "Vous êtes à jour! Vous recevrez des notifications dès que quelqu'un intéragit avec le contenu partagé sur votre <profileLink>profil</profileLink>",
+    "EMPTY_STATE_TITLE": "Vous n'avez pas de notifications récentes",
+    "GROUP_DEFAULT": "Votre groupe",
+    "IMPORT": {
+      "BODY": "Quelqu'un a importé votre document"
+    },
+    "INVITE": {
+      "ACCEPT": "Accepter l'invitation",
+      "BODY": "vous a invité à joindre",
+      "REJECT": "Rejeter"
+    },
+    "NEW_COMMENT": {
+      "BODY": "a commenté ",
+      "BODY_ARTICLE": "a commenté votre document",
+      "BODY_COMMENT": "a répondu à votre commentaire",
+      "BODY_GROUP": "a envoyé un message à votre groupe"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "vous suit"
+    },
+    "NEW_LIKE": {
+      "BODY": "a aimé"
+    },
+    "POPUP_TITLE": "Notifications Récentes"
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "Créer un Dossier"
+        },
+        "PAGE_1": {
+          "TITLE": "Ajouté un Point Bullet"
+        },
+        "PAGE_2": {
+          "TITLE": "Créer une Flashcard"
+        },
+        "PAGE_3": {
+          "TITLE": "Structurer les Notes en utilisant la touch Tab"
+        }
+      }
+    }
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "SORT": {
+        "ASCENDING": "A -> Z",
+        "BY_CREATION_TIME": "Pas date de création",
+        "BY_MODIFICATION": "Par date de modification",
+        "BY_TITLE": "Par titre",
+        "DESCENDING": "Z -> A"
+      }
+    }
   }
 }
