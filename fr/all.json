@@ -184,6 +184,10 @@
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Créer une Flashcard Occlusion d'Image",
       "NOTE_BTN_TOOLTIP": "Note",
       "NO_TEXT_IN_PDF_WARN": "Ce fichier ne contient pas de claque texte, mais vous pouvez toujours utiliser zones pour annoter."
+    },
+    "EDIT_ANNOTATIONS": {
+      "ADVANCED_LINKING_OPTIONS": "Options de Liens Avancés",
+      "DELETE_WARNING": "Ce surlignement possède {{notesCount, number}} "
     }
   }
 }
