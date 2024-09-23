@@ -246,11 +246,33 @@
         "TITLE": "Tag et Base de Données"
       },
       "TODAYS_DOCUMENT": {
-        "DESCRIPTION": "Les notes quotidiennes sont parfaites pour tenir un journal, des listes de tâches ou plus encore.",
+        "DESCRIPTION": "Les Document du Jour sont parfaites pour tenir un journal, des listes de tâches ou plus encore.",
         "TITLE": "Document du Jour"
       },
       "UPLOAD_FILE": {
-        "DESCRIPTION": "Surlignez et faites référence à des PDFs, PPTs, documents Word, etc."
+        "DESCRIPTION": "Surlignez et faites référence à des PDFs, PPTs, documents Word, etc.",
+        "FEATURE_NAME": "Surlignement PDF",
+        "PAYWALL": "Vous avez atteint votre limite de PDFs mis en ligne.",
+        "TITLE": "Téléverser et Annoter un Fichier"
+      }
+    }
+  },
+  "POWERUPS": {
+    "POWERUP_one": "Amélioration",
+    "POWERUP_other": "Améliorations"
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "ADVANCED": {
+        "KEYWORDS": "Support Rewire Recherche Réparation Problème Bug"
+      },
+      "ADVANCED_TITLE": "Réglages avancés",
+      "AUTHENTICATION": {
+        "KEYWORDS": "Déconnexion Déconnection Identification Google Méthode Déconnecter Enregistrement S'enregistrer Se Connecter"
+      },
+      "AUTHENTICATION_TITLE": "Authentification",
+      "CACHING": {
+        "DESCRIPTION": "Mettre les images en cache pour consultation hors-ligne."
       }
     }
   }
