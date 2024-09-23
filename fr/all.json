@@ -9,7 +9,11 @@
       "EDIT": "Éditer",
       "HIDE": "Cacher",
       "REMOVE": "Supprimer",
-      "UPDATE": "Mettre à jour"
+      "UPDATE": "Mettre à jour",
+      "VIEW": "Voir"
+    },
+    "AI": {
+      "AI_FLASHCARDS": "Flashcards IA"
     }
   }
 }
