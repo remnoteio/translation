@@ -14,6 +14,54 @@
     },
     "AI": {
       "AI_FLASHCARDS": "Flashcards IA"
+    },
+    "GENERAL": {
+      "FLASHCARD_one": "Flashcard",
+      "FLASHCARD_other": "Flashcards",
+      "NOTE_one": "note",
+      "NOTE_other": "notes"
+    },
+    "NEW": "Nouveau"
+  },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_CONTENT": {
+            "SRC": "Le document que vous essayez de partager semble un peu vide. Merci d'ajouter au moins {{minimum}} rems et de réessayer.",
+            "SUBDOCUMENT": "Un de vos sous-documents semble un peu vide. Il ne sera publié que lorsqu'il contiendra {{minimum}} rems."
+          },
+          "NO_TITLE": {
+            "SRC": "Le document que vous essayez de partager n'a pas de titre. Vous devez en ajouter un avant de le publier.",
+            "SUBDOCUMENT": "Un de vos sous-documents n'a pas de titre. Il ne sera publié que lorsqu'il en aura un ."
+          }
+        }
+      }
+    }
+  },
+  "DOCUMENT": {
+    "DIALOGS": {
+      "DELETE_ALSO_UNSHARE": "Voulez-vous aussi arrêter le partage de ce document ?",
+      "DELETE_CONFIRM_DIALOG": "Êtes-vous sûr(e) de vouloir supprimer ce document ?",
+      "DELETE_UNSHARE_ERROR": "Une erreur est survenue en arrêtant le partage de document. Merci d'annuler le partage manuellement.",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "Vous n'êtes pas connecté(e). Merci d'arrêtez le partage manuellement lorsque vous serez à nouveau en ligne."
+    },
+    "MENU": {
+      "ADD_NESTED_DOCUMENT": "Ajouter un sous-document",
+      "CHANGE_DOCUMENT_ICON": "Changer l'Icône du Document",
+      "CHANGE_DOCUMENT_STATUS": "Changer le Statut du Document",
+      "CHANGE_FOLDER_ICON": "Changer l'Icône du dossier",
+      "CUSTOMIZE_SPACED_REPETITION": "Personnaliser la Répétition Espacée",
+      "DELETE": "Supprimer",
+      "EDIT_MODE": {
+        "READ": "Mode Lecture Seule",
+        "WRITE": "Mode Édition"
+      },
+      "EXPORT": "Exporter",
+      "FIND_OR_FILTER": "Trouver ou Filtrer",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "Cette option obsolète et il est recommandé d'appuyer sur <keycode /> comme méthode alternative puis de chercher des références au texte à la place."
+      }
     }
   }
 }
