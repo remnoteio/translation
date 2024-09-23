@@ -60,8 +60,43 @@
       "EXPORT": "Exporter",
       "FIND_OR_FILTER": "Trouver ou Filtrer",
       "FIND_TEXT_REFERENCES": {
-        "DEPRECATION_WARNING": "Cette option est obsolète et il est recommandé d'appuyer sur <keycode /> comme méthode alternative puis de chercher des références au texte à la place."
-      }
+        "DEPRECATION_WARNING": "Cette option est obsolète et il est recommandé d'appuyer sur <keycode /> comme méthode alternative puis de chercher des Références Textuelles",
+        "LABEL": "Trouver des Références Textuelles"
+      },
+      "MARK_AS_DOCUMENT": "Marquer comme Document",
+      "MOVE": "Déplacer",
+      "MULTI_SELECTION_FOLDER": "Sélectionner Plusieurs Dossiers/Documents",
+      "MULTI_SELECTION_MODE": "Sélectionner Plusieurs Rems.",
+      "OPEN_IN_ANOTHER_PANE": "Ouvrir dans un Autre Onglet",
+      "PIN_TO_SIDEBAR": "Épingler à la Barre Latérale",
+      "PRINT": "Imprimer",
+      "RENAME": "Renommer",
+      "SHOW_STUDY_BUTTON": "Montrer le Bouton Étudier",
+      "STATS": "Statistiques",
+      "UNDO": "Annuler",
+      "UNPIN_FROM_SIDEBAR": "Supprimer de la Barre Latérale",
+      "UNSHARE_DOCUMENT": "Ne plus partager ce document",
+      "VIEW_GRAPH": "Voir le Graphique Local",
+      "VIEW_TRASH": "Voir la Corbeille"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "Brouillon",
+      "FINISHED": "Terminé",
+      "PINNED": "Épinglé"
     }
+  },
+  "FILE_UPLOADING": {
+    "CACHED_INFO": "Ce fichier est une sauvegarde hors-ligne et n'a peut-être pas encore été mis en ligne.",
+    "LOCAL_ONLY_WARN": "Nous n'avons pas pu mettre ce fichier en ligne, et il a été sauvegardé temporairement sur votre appareil.",
+    "LOCAL_WAITING_FOR_UPLOAD_WARN": "Ce fichier n'a pas encore été mis en ligne, il est uniquement sauvegardé localement.",
+    "NOT_FOUND": "Ce fichier est introuvable.",
+    "NOT_YET_UPLOADED": "Ce fichier n'a pas encore été mis en ligne.",
+    "SNIPPING": {
+      "NON_PDF": "Merci d'essayer un autre outil de capture/collage, ou contactez notre support.",
+      "PDF": "Merci de contacter le support."
+    }
+  },
+  "LANGUAGE": {
+    "LANGUAGE_WORD": "Langue"
   }
 }
