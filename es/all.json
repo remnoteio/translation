@@ -168,10 +168,10 @@
         "BY_MODIFICATION": "Por fecha de modificación",
         "BY_TITLE": "Por título",
         "DESCENDING": "Z -> A",
-        "OLDEST_CREATION_FIRST": "Creación más antigua primero",
         "OLDEST_FIRST": "Más antiguo primero",
-        "RECENTLY_CREATED": "Creado recientemente",
-        "RECENTLY_MODIFIED": "Modificado recientemente"
+        "RECENTLY_MODIFIED": "Modificado recientemente",
+        "OLDEST_CREATION_FIRST": "Creación más antigua primero",
+        "RECENTLY_CREATED": "Creado recientemente"
       },
       "TITLE": "Todas las notas"
     }
@@ -192,8 +192,8 @@
       "COPY_TEXT": "Copiar como Texto Plano",
       "HIGHLIGHT": "Resaltar",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Crear Flashcards de Ocultamiento de Imagen",
-      "NO_TEXT_IN_PDF_WARN": "Este archivo no contiene una capa de texto, pero aún puedes utilizar resaltados de área para hacer anotaciones.",
-      "NOTE_BTN_TOOLTIP": "Nota"
+      "NOTE_BTN_TOOLTIP": "Nota",
+      "NO_TEXT_IN_PDF_WARN": "Este archivo no contiene una capa de texto, pero aún puedes utilizar resaltados de área para hacer anotaciones."
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "Opciones Avanzadas de Vinculación",
@@ -340,17 +340,17 @@
       "CREDIT_BALANCE_TEXT": "Tienes <bold>{{userCredit}}</bold> de crédito restante y has ganado <bold>{{userCreditEarned}}</bold> de crédito en total. {{months}}restantes de RemNote Pro gratis. <br /><br />¡Suscríbete a Pro para empezar a usar tu crédito! No se te cobrará hasta que tu crédito se agote.",
       "EMAIL_PLACEHOLDER": "amigocurioso@gmail.com",
       "ENTER_VALID_EMAIL": "¡Ingresa un correo electrónico válido!",
-      "FRIEND_ALREADY_ON_REMNOTE": "Tu amigo ya está en RemNote.",
       "FRIENDS_TITLE": "Amigos",
+      "FRIEND_ALREADY_ON_REMNOTE": "Tu amigo ya está en RemNote.",
       "HANG_ON": "Un momento",
       "INVITE": "Invitar",
+      "INVITED_YOU": "(te invitó)",
       "INVITE_COPIED": "¡Enlace de invitación copiado!",
       "INVITE_EMAIL": "Invitar por correo electrónico",
       "INVITE_ERROR": "Algo salió mal. Por favor, inténtalo de nuevo más tarde.",
       "INVITE_FRIENDS_EARN_CREDIT": "¡Invita a tus amigos a RemNote y gana créditos! Recibirás <0>{{monthlyPrice}}</0> en crédito RemNote cuando la persona que invites se registre para una cuenta, y ellos también recibirán <0>{{monthlyPrice}}</0> en crédito para empezar.",
       "INVITE_FRIENDS_REMNOTE": "¡Invita a tus amigos a RemNote!",
       "INVITE_TEXT": "Invita amigos y obtén crédito",
-      "INVITED_YOU": "(te invitó)",
       "KEYWORDS": "invitar amigos obtener créditos plan cambiar suscripción remnote gratis enviar tweet email elegir plan aprendizaje de por vida pro desglose de funciones opciones de precios",
       "NOT_CONFIRMED_EMAIL": "(no ha confirmado el correo electrónico)",
       "SEND_INVITE": "Enviar invitación",
@@ -436,8 +436,8 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "Objetivo Diario Máximo",
-          "DESCRIPTION": "Limita la cantidad de tarjetas de estudio que RemNote te pedirá practicar para alcanzar tu objetivo diario a este valor."
+          "DESCRIPTION": "Limita la cantidad de tarjetas de estudio que RemNote te pedirá practicar para alcanzar tu objetivo diario a este valor.",
+          "TITLE": "Objetivo Diario Máximo"
         },
         "TODAYS_TARGET": "Objetivo de Hoy:",
         "TODAYS_TARGET_EXPLANATION": "RemNote intenta establecer tu objetivo diario de manera que, si lo alcanzas cada día, completarás todas las tarjetas pendientes de repaso durante los próximos 7 días. Sin embargo, el objetivo diario nunca será mayor que el máximo establecido anteriormente."
@@ -480,14 +480,14 @@
           "DESCRIPTION": "Reintroduce como máximo esta cantidad de tarjetas de estudio atrasadas en tu cola de estudio cada día. Las tarjetas atrasadas son aquellas que se retienen temporalmente de la cola porque no las has estudiado en mucho tiempo y volver a aprenderlas todas a la vez sería agotador.",
           "TITLE": "Máximo de Tarjetas Atrasadas por Día"
         },
-        "TEXT_TO_SPEECH_VOICE": {
-          "DESCRIPTION": "La voz utilizada para el texto a voz. Ten en cuenta que algunas voces solo funcionan para ciertos idiomas.",
-          "TITLE": "Voz para el Texto a Voz",
-          "SAMPLE": "La mitocondria es la central eléctrica de la célula."
-        },
         "TEXT_TO_SPEECH_SPEED": {
           "DESCRIPTION": "La velocidad a la que se habla el texto de las tarjetas de estudio.",
           "TITLE": "Velocidad del Texto a Voz"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "La voz utilizada para el texto a voz. Ten en cuenta que algunas voces solo funcionan para ciertos idiomas.",
+          "SAMPLE": "La mitocondria es la central eléctrica de la célula.",
+          "TITLE": "Voz para el Texto a Voz"
         },
         "TYPE_ANSWER": {
           "DESCRIPTION": "Mostrar un cuadro de texto en el frente de cada tarjeta de estudio y comparar lo que escribes con la respuesta en el reverso de la tarjeta.",
@@ -538,14 +538,14 @@
         "LABEL": "Expandir los documentos para utilizar el ancho completo de la pantalla.",
         "TITLE": "Ancho Completo"
       },
+      "INTERFACE": {
+        "KEYWORDS": "idioma lenguaje traducción traducir i18n",
+        "TITLE": "Idioma de la Interfaz de RemNote"
+      },
       "IN_APP_SUGGESTIONS": {
         "KEYWORDS": "descripciones emergentes ayuda soporte aprender tutorial",
         "LABEL": "Mostrar consejos sobre funciones de RemNote que podrías probar en la parte superior de tu documento.",
         "TITLE": "Consejos de Introducción en la Parte Superior del Documento"
-      },
-      "INTERFACE": {
-        "KEYWORDS": "idioma lenguaje traducción traducir i18n",
-        "TITLE": "Idioma de la Interfaz de RemNote"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "KEYWORDS": "barra lateral izquiera tutoriales consejos ayuda soporte aprender tutorial",
@@ -681,8 +681,8 @@
     },
     "UPLOAD_SOURCE": {
       "EMPTY": "Arrastra PDF, Word, PPT y <moreLink>más</moreLink> aquí!",
-      "INVALID": "Lo sentimos, RemNote no puede aceptar archivos de este tipo.",
       "IMPORT_INSTEAD": "RemNote no puede aceptar archivos de este tipo. Sin embargo, ¡podríamos importar las notas o tarjetas de estudio contenidas en este archivo! Intenta seleccionar \"Importar\" desde el menú de la cuenta en la esquina superior izquierda.",
+      "INVALID": "Lo sentimos, RemNote no puede aceptar archivos de este tipo.",
       "LABEL": "Subir",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
@@ -788,16 +788,16 @@
     "PROPERTIES_HELP_TEXT": {
       "0": "Las propiedades describen una etiqueta. Por ejemplo, para una etiqueta llamada \"Libro\", agrega propiedades como Autor, Género, Estado de lectura ¡y más!"
     },
-    "PROPERTY_one": "Propiedad",
-    "PROPERTY_other": "Propiedades",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Propiedad",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Propiedades",
+    "PROPERTY_one": "Propiedad",
+    "PROPERTY_other": "Propiedades",
     "SET_AS_AUTO_APPLY_TEMPLATE": "Establecer como Plantilla para Aplicar Automáticamente",
-    "TEMPLATE_one": "Plantilla",
-    "TEMPLATE_other": "Plantillas",
+    "TEMPLATES_HELP_TEXT": "La plantilla de una etiqueta es un documento de RemNote que puede ser copiado automáticamente a Rems etiquetados. Agrega encabezados, listas de verificación y más directamente dentro de tu plantilla.",
     "TEMPLATE_WITH_COUNT_one": "{{count, number}} Plantilla",
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} Plantillas",
-    "TEMPLATES_HELP_TEXT": "La plantilla de una etiqueta es un documento de RemNote que puede ser copiado automáticamente a Rems etiquetados. Agrega encabezados, listas de verificación y más directamente dentro de tu plantilla.",
+    "TEMPLATE_one": "Plantilla",
+    "TEMPLATE_other": "Plantillas",
     "TURN_OFF_AUTO_APPLY": "Apagar Aplicar Automáticamente",
     "VIEW_CONFIGURATION": "Configurar Etiqueta"
   }

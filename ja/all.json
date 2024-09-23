@@ -48,17 +48,15 @@
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "入れ子ドキュメントの追加",
+      "CHANGE_DOCUMENT_ICON": "ドキュメントアイコンを変更",
       "CHANGE_DOCUMENT_STATUS": "ドキュメントのステータスを変更",
+      "CHANGE_FOLDER_ICON": "フォルダアイコンを変更",
       "CUSTOMIZE_SPACED_REPETITION": "間隔反復練習のカスタマイズ",
       "DELETE": "削除",
       "EDIT_MODE": {
         "READ": "表示限定モード",
         "WRITE": "編集モード"
       },
-      "MULTI_SELECTION_MODE": "複数のremを選択",
-      "MULTI_SELECTION_FOLDER": "複数のフォルダ/ドキュメントを選択",
-      "CHANGE_FOLDER_ICON": "フォルダアイコンを変更",
-      "CHANGE_DOCUMENT_ICON": "ドキュメントアイコンを変更",
       "EXPORT": "エクスポート",
       "FIND_OR_FILTER": "検索もしくはフィルター",
       "FIND_TEXT_REFERENCES": {
@@ -67,6 +65,8 @@
       },
       "MARK_AS_DOCUMENT": "ドキュメントとしてマーク",
       "MOVE": "移動",
+      "MULTI_SELECTION_FOLDER": "複数のフォルダ/ドキュメントを選択",
+      "MULTI_SELECTION_MODE": "複数のremを選択",
       "OPEN_IN_ANOTHER_PANE": "他のタブで開く",
       "PIN_TO_SIDEBAR": "サイドバーにピン留め",
       "PRINT": "印刷",
@@ -161,10 +161,10 @@
         "BY_MODIFICATION": "編集日時",
         "BY_TITLE": "タイトル",
         "DESCENDING": "アルファベット降順(Z -> A)",
-        "OLDEST_CREATION_FIRST": "作成日時が古い順",
         "OLDEST_FIRST": "変更日時が古い順",
-        "RECENTLY_CREATED": "作成日時が新しい順",
-        "RECENTLY_MODIFIED": "変更日時が新しい順"
+        "RECENTLY_MODIFIED": "変更日時が新しい順",
+        "OLDEST_CREATION_FIRST": "作成日時が古い順",
+        "RECENTLY_CREATED": "作成日時が新しい順"
       },
       "TITLE": "すべてのノート"
     }
@@ -185,8 +185,8 @@
       "COPY_TEXT": "プレーンテキストとしてコピー",
       "HIGHLIGHT": "ハイライト",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "画像穴埋めフラッシュカードをつくる",
-      "NO_TEXT_IN_PDF_WARN": "このファイルにはテキストレイヤーは含まれていませんが、エリアハイライトを使って注釈を付けることはできます。",
-      "NOTE_BTN_TOOLTIP": "ノート"
+      "NOTE_BTN_TOOLTIP": "ノート",
+      "NO_TEXT_IN_PDF_WARN": "このファイルにはテキストレイヤーは含まれていませんが、エリアハイライトを使って注釈を付けることはできます。"
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "高度なリンクオプション",
@@ -338,17 +338,17 @@
       "CREDIT_BALANCE_TEXT": "あなたの<bold>{{userCredit}}</bold>クレジットの残りと獲得している<bold>{{userCreditEarned}}</bold>クレジットの合計です。RemNote Proを{{months}}ヶ月分無料でご利用いただけます。<br /><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。",
       "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
       "ENTER_VALID_EMAIL": "有効な電子メールを入力してください！",
-      "FRIEND_ALREADY_ON_REMNOTE": "あなたの友達はすでに RemNote を使用しています。",
       "FRIENDS_TITLE": "友達",
+      "FRIEND_ALREADY_ON_REMNOTE": "あなたの友達はすでに RemNote を使用しています。",
       "HANG_ON": "ちょっと待って",
       "INVITE": "招待する",
+      "INVITED_YOU": " （あなたを招待しました）",
       "INVITE_COPIED": "招待リンクをコピーしました！",
       "INVITE_EMAIL": "メールで招待",
       "INVITE_ERROR": "問題が発生しました。後でもう一度試してください。",
       "INVITE_FRIENDS_EARN_CREDIT": "招待した友達ごとに{{monthlyPrice}} RemNote クレジットを獲得できます。\n招待した友達も、開始時に{{monthlyPrice}}のクレジットを獲得できます。",
       "INVITE_FRIENDS_REMNOTE": "友達をRemNoteに招待しましょう！",
       "INVITE_TEXT": "友達を招待する",
-      "INVITED_YOU": " （あなたを招待しました）",
       "KEYWORDS": "友達を招待する クレジットを獲得する プランを変更する クレジットを獲得する 無料 remnote ツイートメールを送信する プランを選択する 生涯学習プロ 機能の内訳 価格オプション",
       "NOT_CONFIRMED_EMAIL": " (メールを確認できません)",
       "SEND_INVITE": "招待を送る",
@@ -435,8 +435,8 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "1 日の最大目標",
-          "DESCRIPTION": "RemNoteが1日にこれだけのフラッシュカードを学習するように促します。"
+          "DESCRIPTION": "RemNoteが1日にこれだけのフラッシュカードを学習するように促します。",
+          "TITLE": "1 日の最大目標"
         },
         "TODAYS_TARGET": "今日の目標:",
         "TODAYS_TARGET_EXPLANATION": "RemNote は 1 日の目標を設定しようとします。毎日目標を達成すると、次の 7 日間にレビュー期限のカードをすべて完了することになります。ただし、1 日の目標が上記で設定した最大値を超えることはありません。"
@@ -479,13 +479,13 @@
           "DESCRIPTION": "毎日、多くてもこの枚数の古いフラッシュカードをフラッシュカードのキューに再導入します。古くなったカードとは、長い間学習しておらず、一度にすべてを再学習するのは大変なため、一時的にキューから保留されているカードです。",
           "TITLE": "1 日あたりの古いカードの最大数"
         },
-        "TEXT_TO_SPEECH_VOICE": {
-          "DESCRIPTION": "音声合成に使用する音声。一部の音声は特定の言語でのみ動作することに注意してください。",
-          "TITLE": "音声合成ボイス"
-        },
         "TEXT_TO_SPEECH_SPEED": {
           "DESCRIPTION": "フラッシュカードのテキストが読み上げられる速度。",
           "TITLE": "テキスト読み上げ速度"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "音声合成に使用する音声。一部の音声は特定の言語でのみ動作することに注意してください。",
+          "TITLE": "音声合成ボイス"
         },
         "TYPE_ANSWER": {
           "DESCRIPTION": "各フラッシュカードの表面にテキスト ボックスを表示し、入力した内容とカード裏面の答えを比較します。",
@@ -546,14 +546,14 @@
         "LABEL": "ドキュメントをスクリーン全体に表示します。",
         "TITLE": "全画面表示"
       },
+      "INTERFACE": {
+        "KEYWORDS": "言語 言語 翻訳 翻訳 i18n",
+        "TITLE": "RemNoteの表示言語"
+      },
       "IN_APP_SUGGESTIONS": {
         "KEYWORDS": "ツールチップ ヘルプ サポート 学習 チュートリアル",
         "LABEL": "文書の上部にRemNoteの機能のヒントを表示します。",
         "TITLE": "文書の先頭のオンボーディングヒント"
-      },
-      "INTERFACE": {
-        "KEYWORDS": "言語 言語 翻訳 翻訳 i18n",
-        "TITLE": "RemNoteの表示言語"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "KEYWORDS": "アプリ内の左側のサイドバー チュートリアル ツールチップ ヘルプ サポート チュートリアルを学ぶ",
@@ -702,8 +702,8 @@
     },
     "UPLOAD_SOURCE": {
       "EMPTY": "PDF、Word ドキュメント、PowerPoint、<moreLink>その他</moreLink>ファイルををここにドロップしてください。",
-      "INVALID": "ファイル形式が正しくありません！",
       "IMPORT_INSTEAD": "RemNoteではこのようなファイルのアップロードは受け付けていません。しかし、このファイルのノートやフラッシュカードをインポートできるかもしれません。左上のアカウントメニューから「インポート」を選択してみてください。",
+      "INVALID": "ファイル形式が正しくありません！",
       "LABEL": "アップロード",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
@@ -810,16 +810,16 @@
     "PROPERTIES_HELP_TEXT": {
       "0": "プロパティはタグを説明するものです。例えば、「本」というタグには、著者、ジャンル、読書状況などのプロパティを追加してください！"
     },
-    "PROPERTY_one": "プロパティ",
-    "PROPERTY_other": "プロパティ",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} プロパティ",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} プロパティ",
+    "PROPERTY_one": "プロパティ",
+    "PROPERTY_other": "プロパティ",
     "SET_AS_AUTO_APPLY_TEMPLATE": "自動適用テンプレートとして設定",
-    "TEMPLATE_one": "テンプレート",
-    "TEMPLATE_other": "テンプレート",
+    "TEMPLATES_HELP_TEXT": "タグのテンプレートは、タグ付けされたRemに自動的にコピーされるRemNoteドキュメントです。テンプレート内にヘッダーやチェックリストなどを追加できます。",
     "TEMPLATE_WITH_COUNT_one": "{{count, number}} テンプレート",
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} テンプレート",
-    "TEMPLATES_HELP_TEXT": "タグのテンプレートは、タグ付けされたRemに自動的にコピーされるRemNoteドキュメントです。テンプレート内にヘッダーやチェックリストなどを追加できます。",
+    "TEMPLATE_one": "テンプレート",
+    "TEMPLATE_other": "テンプレート",
     "TURN_OFF_AUTO_APPLY": "自動適用をオフにする",
     "VIEW_CONFIGURATION": "タグの設定",
     "ADD_PROPERTY": "プロパティの追加",

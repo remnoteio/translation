@@ -48,17 +48,15 @@
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "添加嵌套文档",
+      "CHANGE_DOCUMENT_ICON": "更改文档图标",
       "CHANGE_DOCUMENT_STATUS": "更改文档状态",
+      "CHANGE_FOLDER_ICON": "更改文件夹图标",
       "CUSTOMIZE_SPACED_REPETITION": "自定义间隔重复",
       "DELETE": "删除",
       "EDIT_MODE": {
         "READ": "只读模式",
         "WRITE": "编辑模式"
       },
-      "MULTI_SELECTION_MODE": "选择多个 Rem",
-      "MULTI_SELECTION_FOLDER": "选择多个文件夹/文档",
-      "CHANGE_FOLDER_ICON": "更改文件夹图标",
-      "CHANGE_DOCUMENT_ICON": "更改文档图标",
       "EXPORT": "导出",
       "FIND_OR_FILTER": "查找或筛选",
       "FIND_TEXT_REFERENCES": {
@@ -67,6 +65,8 @@
       },
       "MARK_AS_DOCUMENT": "标记为文档",
       "MOVE": "移动",
+      "MULTI_SELECTION_FOLDER": "选择多个文件夹/文档",
+      "MULTI_SELECTION_MODE": "选择多个 Rem",
       "OPEN_IN_ANOTHER_PANE": "在新窗格中打开",
       "PIN_TO_SIDEBAR": "固定到侧边栏",
       "PRINT": "打印",
@@ -161,10 +161,10 @@
         "BY_MODIFICATION": "按修改时间",
         "BY_TITLE": "按标题",
         "DESCENDING": "按字母逆序(Z -> A)",
-        "OLDEST_CREATION_FIRST": "按创建时间降序",
         "OLDEST_FIRST": "按时间降序",
-        "RECENTLY_CREATED": "最近创建",
-        "RECENTLY_MODIFIED": "最近修改"
+        "RECENTLY_MODIFIED": "最近修改",
+        "OLDEST_CREATION_FIRST": "按创建时间降序",
+        "RECENTLY_CREATED": "最近创建"
       },
       "TITLE": "全部笔记"
     }
@@ -185,8 +185,8 @@
       "COPY_TEXT": "复制为纯文本",
       "HIGHLIGHT": "高亮",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "制作图像遮蔽记忆卡片",
-      "NO_TEXT_IN_PDF_WARN": "此文件不包含文本层，但您仍然可以使用区域高亮来注解。",
-      "NOTE_BTN_TOOLTIP": "笔记"
+      "NOTE_BTN_TOOLTIP": "笔记",
+      "NO_TEXT_IN_PDF_WARN": "此文件不包含文本层，但您仍然可以使用区域高亮来注解。"
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "高级链接选项",
@@ -338,17 +338,17 @@
       "CREDIT_BALANCE_TEXT": "您当前剩余 <bold>{{userCredit}}</bold> 积分，已累计获得 <bold>{{userCreditEarned}}</bold> 积分，可免费使用 {{months}} 个月的 RemNote Pro 订阅计划。<div><br />使用积分订阅 RemNote Pro！在您的积分用完之前，我们不会向您收取任何费用。</div>",
       "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
       "ENTER_VALID_EMAIL": "请输入有效的电子邮件地址！",
-      "FRIEND_ALREADY_ON_REMNOTE": "您的朋友已在使用 RemNote",
       "FRIENDS_TITLE": "朋友",
+      "FRIEND_ALREADY_ON_REMNOTE": "您的朋友已在使用 RemNote",
       "HANG_ON": "挂起",
       "INVITE": "邀请",
+      "INVITED_YOU": "(邀请您)",
       "INVITE_COPIED": "已复制邀请链接！",
       "INVITE_EMAIL": "通过电子邮件邀请",
       "INVITE_ERROR": "出了点问题，请稍后再试。",
       "INVITE_FRIENDS_EARN_CREDIT": "每邀请一个朋友，您将获得 {{monthlyPrice}} 的 RemNote 积分！他们也将获得 {{monthlyPrice}} 的积分。",
       "INVITE_FRIENDS_REMNOTE": "邀请您的朋友加入 RemNote！",
       "INVITE_TEXT": "邀请朋友",
-      "INVITED_YOU": "(邀请您)",
       "KEYWORDS": "邀请朋友赚取积分 订阅计划 更改订阅 赚取积分 免费 RemNote 发送推文 邮件 选择计划 终身学习 Pro 功能详解 定价选项",
       "NOT_CONFIRMED_EMAIL": "(未确认邮件地址)",
       "SEND_INVITE": "发送邀请",
@@ -435,11 +435,11 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "目标",
-          "DESCRIPTION": "设置每天至少练习的记忆卡片数量，以建立连续练习的记录。"
+          "DESCRIPTION": "设置每天至少练习的记忆卡片数量，以建立连续练习的记录。",
+          "TITLE": "目标"
         },
         "TODAYS_TARGET": "今日目标：",
-        "TODAYS_TARGET_EXPLANATION": "如果 RemNote 预测到，在接下来的一周里，你平均每天需要练习的卡片数少于你设定的每日目标，我们将暂时调整你的每日目标，以确保你每天的卡片数大致相等，而不是前期很多，后期较少。"
+        "TODAYS_TARGET_EXPLANATION": "如果 RemNote 预测到在未来一周内，您平均每天需要练习的卡片数少于您的每日目标，我们会暂时减少您的每日目标，以确保您每天的卡片数大致相等，避免出现前期复习过多，后期复习较少的情况。\n"
       },
       "GENERAL": {
         "AUTOPLAY_MEDIA": {
@@ -479,14 +479,14 @@
           "DESCRIPTION": "设置每天允许加入记忆卡片队列的过期卡片数量，过期卡片是因为您很长时间没有学习它们而被暂时从队列中撤回的卡片，一次性重新学习它们会很耗费精力。",
           "TITLE": "每日最多过期卡片数"
         },
-        "TEXT_TO_SPEECH_VOICE": {
-          "DESCRIPTION": "用于文本转语音的声音。请注意某些声音仅适用于某些语言。",
-          "TITLE": "文本转语音",
-          "SAMPLE": "线粒体是细胞的动力源。"
-        },
         "TEXT_TO_SPEECH_SPEED": {
           "DESCRIPTION": "朗读记忆卡片的速度",
           "TITLE": "文本转语音的速度"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "用于文本转语音的声音。请注意某些声音仅适用于某些语言。",
+          "SAMPLE": "线粒体是细胞的动力源。",
+          "TITLE": "文本转语音"
         },
         "TYPE_ANSWER": {
           "DESCRIPTION": "在每张记忆卡片的正面显示一个文本框，并将您输入的内容与卡片背面的答案进行比较。",
@@ -547,14 +547,14 @@
         "LABEL": "全屏显示文档内容",
         "TITLE": "全屏显示"
       },
+      "INTERFACE": {
+        "KEYWORDS": "语言 语言 翻译 i18n",
+        "TITLE": "RemNote 界面语言"
+      },
       "IN_APP_SUGGESTIONS": {
         "KEYWORDS": "提示 帮助 支持 学习 教程",
         "LABEL": "在文档顶部显示可以试用的 RemNote 功能提示",
         "TITLE": "顶级文档 使用技巧"
-      },
-      "INTERFACE": {
-        "KEYWORDS": "语言 语言 翻译 i18n",
-        "TITLE": "RemNote 界面语言"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "KEYWORDS": "应用程序内 左侧边栏 教程 工具提示 帮助 支持 学习教程",
@@ -703,8 +703,8 @@
     },
     "UPLOAD_SOURCE": {
       "EMPTY": "请将文件拖放到这里!（支持 PDF、Word 文档、PPT 以及<moreLink>更多</moreLink>类型）",
-      "INVALID": "无效文件格式！",
       "IMPORT_INSTEAD": "RemNote 无法接受此类型的文件上传，但可以导入此文件中的笔记或记忆卡片！请尝试从左上角的账户菜单中选择‘导入’。",
+      "INVALID": "无效文件格式！",
       "LABEL": "上传资源",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
@@ -811,16 +811,16 @@
     "PROPERTIES_HELP_TEXT": {
       "0": "属性用于描述标签。例如，在名为\"图书\"的标签中，可以添加作者、流派、阅读进度等属性！"
     },
-    "PROPERTY_one": "属性",
-    "PROPERTY_other": "属性",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} 属性",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} 属性",
+    "PROPERTY_one": "属性",
+    "PROPERTY_other": "属性",
     "SET_AS_AUTO_APPLY_TEMPLATE": "设置为自动应用模板",
-    "TEMPLATE_one": "模板",
-    "TEMPLATE_other": "模板",
+    "TEMPLATES_HELP_TEXT": "标签模板是 RemNote 文档，可以自动复制其内容到使用该标签的 Rem 中。可以在模板中直接添加标题、清单等内容。",
     "TEMPLATE_WITH_COUNT_one": "{{count, number}} 模板",
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} 模板",
-    "TEMPLATES_HELP_TEXT": "标签模板是 RemNote 文档，可以自动复制其内容到使用该标签的 Rem 中。可以在模板中直接添加标题、清单等内容。",
+    "TEMPLATE_one": "模板",
+    "TEMPLATE_other": "模板",
     "TURN_OFF_AUTO_APPLY": "关闭自动应用",
     "VIEW_CONFIGURATION": "设置标签",
     "ADD_PROPERTY": "添加属性",

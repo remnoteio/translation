@@ -169,10 +169,10 @@
         "BY_MODIFICATION": "Według modyfikacji",
         "BY_TITLE": "Według tytułu",
         "DESCENDING": "Z -> A",
-        "OLDEST_CREATION_FIRST": "Najpierw najdawniej utworzone",
         "OLDEST_FIRST": "Najpierw najstarsze",
-        "RECENTLY_CREATED": "Niedawno utworzone",
-        "RECENTLY_MODIFIED": "Niedawno zmodyfikowane"
+        "RECENTLY_MODIFIED": "Niedawno zmodyfikowane",
+        "OLDEST_CREATION_FIRST": "Najpierw najdawniej utworzone",
+        "RECENTLY_CREATED": "Niedawno utworzone"
       },
       "TITLE": "Wszystkie Notatki"
     }
@@ -193,8 +193,8 @@
       "COPY_TEXT": "Skopiuj jako Zwykły Tekst",
       "HIGHLIGHT": "Wyróżnij",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Stwórz Fiszki Zasłoniętych Zdjęć",
-      "NO_TEXT_IN_PDF_WARN": "Ten plik nie zawiera warstwy tekstowej, ale nadal możesz używać wyróżnień obszarów do dodawania adnotacji.",
-      "NOTE_BTN_TOOLTIP": "Notatka"
+      "NOTE_BTN_TOOLTIP": "Notatka",
+      "NO_TEXT_IN_PDF_WARN": "Ten plik nie zawiera warstwy tekstowej, ale nadal możesz używać wyróżnień obszarów do dodawania adnotacji."
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "Zaawansowane Opcje Łączenia",
@@ -341,17 +341,17 @@
       "CREDIT_BALANCE_TEXT": "Masz <bold>{{userCredit}}<bold> w niewykorzystanych punktach poleceń, razem zdobyłeś <bold>{{userCreditEarned}}<bold> w punktach poleceń. {{months}} pozostały miesiąc lub miesiące RemNote Pro za darmo.<br /><br />Przejdź na plan Pro, aby zacząć używać punktów poleceń! Opłata nie zostanie pobrana, dopóki nie wyczerpią się punkty poleceń w aplikacji.",
       "EMAIL_PLACEHOLDER": "zaciekawionyprzyjaciel@gmail.com",
       "ENTER_VALID_EMAIL": "Wprowadź poprawny adres email!",
-      "FRIEND_ALREADY_ON_REMNOTE": "Twój znajomy korzysta już z RemNote",
       "FRIENDS_TITLE": "Znajomi",
+      "FRIEND_ALREADY_ON_REMNOTE": "Twój znajomy korzysta już z RemNote",
       "HANG_ON": "Zaczekaj",
       "INVITE": "Zaproś",
+      "INVITED_YOU": "(zaprosił/-a Cię)",
       "INVITE_COPIED": "Skopiowano link!",
       "INVITE_EMAIL": "Zaproś poprzez email",
       "INVITE_ERROR": "Coś poszło nie tak. Spróbuj ponownie później.",
       "INVITE_FRIENDS_EARN_CREDIT": "Zdobywaj {{monthlyPrice}} w punktach poleceń RemNote za każdego zaproszonego znajomego! Zaproszeni również otrzymają {{monthlyPrice}} w punktach poleceń.",
       "INVITE_FRIENDS_REMNOTE": "Zaproś swoich znajomych do RemNote!",
       "INVITE_TEXT": "Zaproś znajomych",
-      "INVITED_YOU": "(zaprosił/-a Cię)",
       "KEYWORDS": "Zaproś znajomych Zdobywaj punkty poleceń Zmień plan Subskrypcja Bezpłatnie Za darmo RemNote Wyślij Tweet E-mail Wybierz Plan nauki na całe życie Pro Spis funkcjonalności Cennik Cena Ceny",
       "NOT_CONFIRMED_EMAIL": "(dotychczas nie zweryfikował adresu email)",
       "SEND_INVITE": "Wyślij zaproszenie",
@@ -442,8 +442,8 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "Cel",
-          "DESCRIPTION": "Powtarzaj minimalnie tyle fiszek codziennie, żeby budować serię."
+          "DESCRIPTION": "Powtarzaj minimalnie tyle fiszek codziennie, żeby budować serię.",
+          "TITLE": "Cel"
         },
         "TODAYS_TARGET": "Dzisiejszy wygładzony cel:",
         "TODAYS_TARGET_EXPLANATION": "Jeśli RemNote przewiduje, że w następnym tygodniu będziesz mieć średnio mniej fiszek do powtórzenia niż skonfigurowany dzienny cel, tymczasowo zmniejszymy Twój dzienny cel, tak abyś miał mniej więcej taką samą liczbę kart każdego dnia, zamiast wielu fiszek na początku i niewielu na końcu tygodnia."
@@ -486,14 +486,14 @@
           "DESCRIPTION": "Każdego dnia wprowadzaj ponownie maksymalnie tyle przestarzałych fiszek do swojej kolejki fiszek. Przestarzałe fiszki to takie, które są tymczasowo wstrzymywane z kolejki, ponieważ nie uczyłeś się ich przez długi czas i ponowne uczenie się ich wszystkich na raz byłoby wyczerpujące.",
           "TITLE": "Maksymalna liczba przestarzałych fiszek dziennie"
         },
-        "TEXT_TO_SPEECH_VOICE": {
-          "DESCRIPTION": "Głos używany do zamiany tekstu na mowę. Pamiętaj, że niektóre głosy działają tylko w niektórych językach.",
-          "TITLE": "Głos syntezatora mowy",
-          "SAMPLE": "Mitochondrium jest elektrownią komórki."
-        },
         "TEXT_TO_SPEECH_SPEED": {
           "DESCRIPTION": "Szybkość, z jaką syntezator mowy czyta tekst z fiszki.",
           "TITLE": "Szybkość syntezatora mowy"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "Głos używany do zamiany tekstu na mowę. Pamiętaj, że niektóre głosy działają tylko w niektórych językach.",
+          "SAMPLE": "Mitochondrium jest elektrownią komórki.",
+          "TITLE": "Głos syntezatora mowy"
         },
         "TYPE_ANSWER": {
           "DESCRIPTION": "Pokaż pole tekstowe z przodu każdej fiszki i porównaj to, co wpisałeś z odpowiedzią na odwrocie fiszki.",
@@ -554,14 +554,14 @@
         "LABEL": "Rozwiń dokumenty, aby wykorzystać całą szerokość ekranu.",
         "TITLE": "Pełna szerokość"
       },
+      "INTERFACE": {
+        "KEYWORDS": "lang language translation translate i18n Język Tłumacz Tłumaczenie",
+        "TITLE": "Język Interfejsu RemNote (Alpha)"
+      },
       "IN_APP_SUGGESTIONS": {
         "KEYWORDS": "Wskazówki Tooltipy Tooltips Pomoc Wsparcie Poradnik",
         "LABEL": "Pokaż wskazówki dotyczące funkcjonalności RemNote, które możesz wypróbować na górze dokumentu.",
         "TITLE": "Wskazówki wprowadzające na górze dokumentu."
-      },
-      "INTERFACE": {
-        "KEYWORDS": "lang language translation translate i18n Język Tłumacz Tłumaczenie",
-        "TITLE": "Język Interfejsu RemNote (Alpha)"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "KEYWORDS": "W aplikacji Lewy Pasek boczny Poradniki Wskazówki Pomoc techniczna Wsparcie techniczne Poradnik",
@@ -706,8 +706,8 @@
     },
     "UPLOAD_SOURCE": {
       "EMPTY": "Upuść pliki PDF, dokumenty Word, prezentacje PPT i <moreLink>inne</moreLink> tutaj!",
-      "INVALID": "Przepraszamy, RemNote nie akceptuje przesyłania plików tego typu.",
       "IMPORT_INSTEAD": "RemNote nie akceptuje przesyłania plików tego typu. Jednakże być może uda nam się zaimportować notatki lub fiszki z tego pliku! Spróbuj wybrać opcję „Importuj” z menu konta w lewym górnym rogu.",
+      "INVALID": "Przepraszamy, RemNote nie akceptuje przesyłania plików tego typu.",
       "LABEL": "Prześlij",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
@@ -813,16 +813,16 @@
     "PROPERTIES_HELP_TEXT": {
       "0": "Właściwości opisują Tag. Na przykład dla Tagu o nazwie „Książka” dodaj Właściwości takie jak Autor, Gatunek, status czytania i inne!"
     },
-    "PROPERTY_one": "Właściwość",
-    "PROPERTY_other": "Właściwości",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Właściwość",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Właściwości",
+    "PROPERTY_one": "Właściwość",
+    "PROPERTY_other": "Właściwości",
     "SET_AS_AUTO_APPLY_TEMPLATE": "Ustaw jako automatycznie stosowany Szablon",
-    "TEMPLATE_one": "Szablon",
-    "TEMPLATE_other": "Szablony",
+    "TEMPLATES_HELP_TEXT": "Szablon Tagu to dokument RemNote, który można automatycznie skopiować do otagowanych Remów. Dodaj nagłówki, listy zadań i inne elementy bezpośrednio w swoim szablonie.",
     "TEMPLATE_WITH_COUNT_one": " {{count, number}} Szablon",
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} Szablony",
-    "TEMPLATES_HELP_TEXT": "Szablon Tagu to dokument RemNote, który można automatycznie skopiować do otagowanych Remów. Dodaj nagłówki, listy zadań i inne elementy bezpośrednio w swoim szablonie.",
+    "TEMPLATE_one": "Szablon",
+    "TEMPLATE_other": "Szablony",
     "TURN_OFF_AUTO_APPLY": "Wyłącz automatyczne stosowanie",
     "VIEW_CONFIGURATION": "Skonfiguruj Tag",
     "ADD_PROPERTY": "Dodaj Właściwość",
