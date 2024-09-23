@@ -6,7 +6,10 @@
       "CREATE": "Créer",
       "DELETE": "Supprimer",
       "DUPLICATE": "Dupliquer",
-      "EDIT": "Éditer"
+      "EDIT": "Éditer",
+      "HIDE": "Cacher",
+      "REMOVE": "Supprimer",
+      "UPDATE": "Mettre à jour"
     }
   }
 }
