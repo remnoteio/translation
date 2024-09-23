@@ -159,8 +159,31 @@
         "BY_CREATION_TIME": "Pas date de création",
         "BY_MODIFICATION": "Par date de modification",
         "BY_TITLE": "Par titre",
-        "DESCENDING": "Z -> A"
-      }
+        "DESCENDING": "Z -> A",
+        "OLDEST_FIRST": "Plus anciens d'abord",
+        "RECENTLY_MODIFIED": "Plus récents d'abord"
+      },
+      "TITLE": "Toutes les Notes"
+    }
+  },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "AI_DROPDOWN": {
+        "BASIC_CARDS": "Cartes Basiques",
+        "BASIC_CARDS_TOOLTIP": "Générer des flashcard question-réponse basiques à partir du texte sélectionné.",
+        "CLOZE_CARDS": "Cartes Cloze (Texte à trous)",
+        "CLOZE_CARDS_TOOLTIP": "Générer des flashcards cloze à partir du texte sélectionné.",
+        "CONCEPT_CARDS": "Cartes Concept",
+        "CONCEPT_CARDS_TOOLTIP": "Générer des flashcards concept-déscripteur à partir du texte sélectionné.",
+        "GENERATE_SECTION": "GÉNÉRER"
+      },
+      "CLOZE_BTN_TOOLTIP": "Flashcard Cloze (Texte à trous)",
+      "COPY_IMAGE": "Copier l'image",
+      "COPY_TEXT": "Copier en texte brut",
+      "HIGHLIGHT": "Surligner",
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "Créer une Flashcard Occlusion d'Image",
+      "NOTE_BTN_TOOLTIP": "Note",
+      "NO_TEXT_IN_PDF_WARN": "Ce fichier ne contient pas de claque texte, mais vous pouvez toujours utiliser zones pour annoter."
     }
   }
 }
