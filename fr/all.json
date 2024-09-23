@@ -275,7 +275,8 @@
       },
       "AUTHENTICATION_TITLE": "Authentification",
       "CACHING": {
-        "DESCRIPTION": "Mettre les images en cache pour consultation hors-ligne."
+        "DESCRIPTION": "Mettre les images en cache pour consultation hors-ligne.",
+        "TITLE": "Mise en cache"
       }
     }
   },
