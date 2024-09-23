@@ -55,7 +55,6 @@
         "READ": "Modo Somente Leitura",
         "WRITE": "Modo de Edição"
       },
-      "MULTI_SELECTION_MODE": "Selecionar Vários Rems",
       "EXPORT": "Exportar",
       "FIND_OR_FILTER": "Localizar ou Filtrar",
       "FIND_TEXT_REFERENCES": {
@@ -64,6 +63,7 @@
       },
       "MARK_AS_DOCUMENT": "Marcar como Documento",
       "MOVE": "Mover",
+      "MULTI_SELECTION_MODE": "Selecionar Vários Rems",
       "OPEN_IN_ANOTHER_PANE": "Abrir em Outro Painel",
       "PIN_TO_SIDEBAR": "Fixar na Barra Lateral",
       "PRINT": "Imprimir",
@@ -157,10 +157,10 @@
         "BY_MODIFICATION": "Por modificação",
         "BY_TITLE": "Por Título",
         "DESCENDING": "Z -> A",
-        "OLDEST_CREATION_FIRST": "Criação Mais Antiga primeiro",
         "OLDEST_FIRST": "Mais Antigo primeiro",
-        "RECENTLY_CREATED": "Criado recentemente",
-        "RECENTLY_MODIFIED": "Modificado Recentemente"
+        "RECENTLY_MODIFIED": "Modificado Recentemente",
+        "OLDEST_CREATION_FIRST": "Criação Mais Antiga primeiro",
+        "RECENTLY_CREATED": "Criado recentemente"
       },
       "TITLE": "Todas as Notas"
     }
@@ -181,8 +181,8 @@
       "COPY_TEXT": "Copiar como Texto Sem Formatação",
       "HIGHLIGHT": "Destaque",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Criar Flashcards de Oclusão de Imagem",
-      "NO_TEXT_IN_PDF_WARN": "Esse arquivo não contém uma camada de texto, mas você ainda pode usar destaques de área para fazer anotações.",
-      "NOTE_BTN_TOOLTIP": "Observação"
+      "NOTE_BTN_TOOLTIP": "Observação",
+      "NO_TEXT_IN_PDF_WARN": "Esse arquivo não contém uma camada de texto, mas você ainda pode usar destaques de área para fazer anotações."
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "Opções Avançadas de Vinculação",
@@ -329,17 +329,17 @@
       "CREDIT_BALANCE_TEXT": "Você tem<bold> {{userCredit}}</bold> de créditos restantes e ganhou<bold> {{userCreditEarned}}</bold> de créditos no total. {{months}} mês ou meses restantes de RemNote Pro gratuitamente.<div><br /> Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>",
       "EMAIL_PLACEHOLDER": "amigocuriosos@gmail.com",
       "ENTER_VALID_EMAIL": "Digite um e-mail válido!",
-      "FRIEND_ALREADY_ON_REMNOTE": "Seu amigo já está no RemNote",
       "FRIENDS_TITLE": "Amigos",
+      "FRIEND_ALREADY_ON_REMNOTE": "Seu amigo já está no RemNote",
       "HANG_ON": "Espere",
       "INVITE": "Convidar",
+      "INVITED_YOU": "(convidou você)",
       "INVITE_COPIED": "Link do convite copiado!",
       "INVITE_EMAIL": "Convidar por e-mail",
       "INVITE_ERROR": "Algo deu errado. Por favor, tente novamente mais tarde.",
       "INVITE_FRIENDS_EARN_CREDIT": "Convide seus amigos para ganhar créditos! Você receberá <0>{{monthlyPrice}}</0> em crédito RemNote quando a pessoa que você convidou se inscrever com uma conta RemNote, e ele também receberá <0>{{monthlyPrice}}</0> de crédito para começar.",
       "INVITE_FRIENDS_REMNOTE": "Convide seus amigos para o RemNote!",
       "INVITE_TEXT": "Convide amigos e ganhe créditos",
-      "INVITED_YOU": "(convidou você)",
       "KEYWORDS": "convidar amigos ganhar créditos plano mudar assinatura ganhar créditos grátis remnote enviar tweet email escolher plano aprendizado vitalício pro recursos detalhamento preços opções",
       "NOT_CONFIRMED_EMAIL": "(não confirmou e-mail)",
       "SEND_INVITE": "Enviar convite",
@@ -425,8 +425,8 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "Meta Diária Máxima",
-          "DESCRIPTION": "Pratique pelo menos essa quantidade de flashcards todos os dias para criar sequências."
+          "DESCRIPTION": "Pratique pelo menos essa quantidade de flashcards todos os dias para criar sequências.",
+          "TITLE": "Meta Diária Máxima"
         },
         "TODAYS_TARGET": "Meta de Hoje:",
         "TODAYS_TARGET_EXPLANATION": "O RemNote tenta definir sua meta diária para que, se você atingi-la todos os dias, todos os cards sejam revisados nos próximos 7 dias. Porém, a meta diária nunca será superior ao máximo definido acima."
@@ -469,14 +469,14 @@
           "DESCRIPTION": "Defina a quantidade máxima de flashcards obsoletos que você quer que sejam reintroduzidos aos poucos em sua fila de revisão diariamente. Cartões obsoletos são aqueles que são temporariamente retidos da fila porque você passou muito tempo sem estudá-los e reaprende-los todos de uma vez seria exaustivo.",
           "TITLE": "Máximo de Cards Obsoletos por Dia"
         },
-        "TEXT_TO_SPEECH_VOICE": {
-          "DESCRIPTION": "A voz usada para conversão de texto em fala. Observe que algumas vozes só funcionam em determinados idiomas.",
-          "TITLE": "Voz de texto para fala",
-          "SAMPLE": "A mitocôndria é a fonte de energia da célula."
-        },
         "TEXT_TO_SPEECH_SPEED": {
           "DESCRIPTION": "A velocidade na qual o texto do cartão de memória é falado.",
           "TITLE": "Velocidade de Conversão de Texto em Fala"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "A voz usada para conversão de texto em fala. Observe que algumas vozes só funcionam em determinados idiomas.",
+          "SAMPLE": "A mitocôndria é a fonte de energia da célula.",
+          "TITLE": "Voz de texto para fala"
         },
         "TYPE_ANSWER": {
           "DESCRIPTION": "Mostra uma caixa de texto na frente de cada cartão e compara o que você digitou com a resposta no verso do cartão.",
@@ -537,14 +537,14 @@
         "LABEL": "Expanda os documentos para usar toda a largura da tela.",
         "TITLE": "Largura Completa "
       },
+      "INTERFACE": {
+        "KEYWORDS": "idioma idioma tradução i18n",
+        "TITLE": "Idioma da interface do RemNote"
+      },
       "IN_APP_SUGGESTIONS": {
         "KEYWORDS": "dicas ajuda suporte aprender tutorial",
         "LABEL": "Mostre dicas sobre os recursos do RemNote na parte superior do seu documento.",
         "TITLE": "Dicas de Integração na Topo do Documento"
-      },
-      "INTERFACE": {
-        "KEYWORDS": "idioma idioma tradução i18n",
-        "TITLE": "Idioma da interface do RemNote"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "KEYWORDS": "no aplicativo barra lateral esquerda tutoriais dicas ajuda suporte aprender tutorial",
@@ -794,16 +794,16 @@
     "PROPERTIES_HELP_TEXT": {
       "0": "Propriedades descrevem uma tag. Por exemplo, para uma tag chamada \"Livro\", adicione propriedades para Autor, Gênero, Status de Leitura e mais!"
     },
-    "PROPERTY_one": "Propriedade",
-    "PROPERTY_other": "Propriedades",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Propriedade",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Propriedades",
+    "PROPERTY_one": "Propriedade",
+    "PROPERTY_other": "Propriedades",
     "SET_AS_AUTO_APPLY_TEMPLATE": "Definir como Modelo Autoaplicável",
-    "TEMPLATE_one": "Modelo",
-    "TEMPLATE_other": "Modelos",
+    "TEMPLATES_HELP_TEXT": "O modelo de uma tag é um documento do RemNote que pode ser copiado automaticamente em um Rem marcado com esta Tag. Adicione cabeçalhos, listas e mais diretamente no seu modelo.",
     "TEMPLATE_WITH_COUNT_one": "{{count, number}} Modelo",
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} Modelos",
-    "TEMPLATES_HELP_TEXT": "O modelo de uma tag é um documento do RemNote que pode ser copiado automaticamente em um Rem marcado com esta Tag. Adicione cabeçalhos, listas e mais diretamente no seu modelo.",
+    "TEMPLATE_one": "Modelo",
+    "TEMPLATE_other": "Modelos",
     "TURN_OFF_AUTO_APPLY": "Desativar Aplicar Automaticamente",
     "VIEW_CONFIGURATION": "Configurar Tag"
   }
