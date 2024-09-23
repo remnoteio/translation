@@ -98,7 +98,8 @@
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Langue",
-    "TRANSLATION_INFO_SETTINGS": "La traduction étant encore en cours, vous rencontrerez un mélange d'anglais et de la langue sélectionnée.<br>Vous pouvez y contribuer en consultant le <guideLink>tutoriel</guideLink> et en utilisant notre <editorLink>éditeur web</editorLink> pour participer aux traductions."
+    "TRANSLATION_INFO_SETTINGS": "La traduction étant encore en cours, vous rencontrerez un mélange d'anglais et de la langue sélectionnée.<br>Vous pouvez y contribuer en consultant le <guideLink>tutoriel</guideLink> et en utilisant notre <editorLink>éditeur web</editorLink> pour participer aux traductions.",
+    "TRANSLATION_IN_PROGRESS": "Traduction en cours"
   },
   "NOTIFICATIONS": {
     "ARTICLE_DEFAULT": "Votre document",
@@ -161,7 +162,9 @@
         "BY_TITLE": "Par titre",
         "DESCENDING": "Z -> A",
         "OLDEST_FIRST": "Plus anciens d'abord",
-        "RECENTLY_MODIFIED": "Plus récents d'abord"
+        "RECENTLY_MODIFIED": "Plus récents d'abord",
+        "OLDEST_CREATION_FIRST": "Crées il y ale plus longtemps d'abord",
+        "RECENTLY_CREATED": "Crées le plus récemment"
       },
       "TITLE": "Toutes les Notes"
     }
@@ -275,5 +278,18 @@
         "DESCRIPTION": "Mettre les images en cache pour consultation hors-ligne."
       }
     }
+  },
+  "TEMPLATES": {
+    "PROPERTY_WITH_COUNT_one": "{{count, number}} Propriété",
+    "PROPERTY_WITH_COUNT_other": "{{count, number}} Propriétés",
+    "PROPERTY_one": "Propriété",
+    "PROPERTY_other": "Propriétés",
+    "SET_AS_AUTO_APPLY_TEMPLATE": "Régler comme Modèle Appliqué Automatiquement",
+    "TEMPLATE_WITH_COUNT_one": "{{count, number}} Modèle",
+    "TEMPLATE_WITH_COUNT_other": "{{count, number}} Modèles",
+    "TEMPLATE_one": "Modèle",
+    "TEMPLATE_other": "Modèles",
+    "TURN_OFF_AUTO_APPLY": "Désactiver Appliquer Automatiquement",
+    "VIEW_CONFIGURATION": "Configurer les Tags"
   }
 }
