@@ -291,7 +291,14 @@
         "KEYWORDS": "Exporter Export Sauvegarde Backup Roam Dynalist Logseq Notion Evernote Obsidian"
       },
       "IMPORT_EXPORT_TITLE": "Import et Export",
-      "MY_PROFILE": "Mon Profil"
+      "MY_PROFILE": "Mon Profil",
+      "PROFILE": {
+        "KEYWORDS": "Profil Personnel Utilisateur"
+      },
+      "PROFILE_TITLE": "Profil",
+      "SUPPORT": {
+        "KEYWORDS": "support ticket executer aide"
+      }
     },
     "EARN_CREDIT": {
       "EMAIL_PLACEHOLDER": "amicurieux@gmail.com",
