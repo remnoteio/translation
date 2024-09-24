@@ -340,7 +340,12 @@
       "INVITE_FRIENDS_EARN_CREDIT": "Gagnez {{monthlyPrice}} crédits RemNote pour chaque ami que vous invitez ! Ils recevront aussi {{monthlyPrice}} crédits pour démarrer.",
       "INVITE_FRIENDS_REMNOTE": "Invitez vos amis sur RemNote !",
       "INVITE_TEXT": "Inviter des Amis",
-      "KEYWORDS": "inviter des amis gagner des crédits abonnement changer d'abonnement gagner des crédits gratuitement remnote envoyer un tweet e-mail choisir un plan apprentissage continu présentation des fonctionnalités pro options de tarification prix tarifs"
+      "KEYWORDS": "inviter des amis gagner des crédits abonnement changer d'abonnement gagner des crédits gratuitement remnote envoyer un tweet e-mail choisir un plan apprentissage continu présentation des fonctionnalités pro options de tarification prix tarifs",
+      "NOT_CONFIRMED_EMAIL": "(n'a pas confirmé son email)",
+      "SEND_INVITE": "Envoyer une invitation",
+      "SHARE_LINK": "Partager le lien",
+      "TITLE": "Crédits",
+      "TOAST_RENEW": "Vos crédit sont utilisés automatiquement lorsque votre abonnement se renouvellera."
     }
   },
   "TEMPLATES": {
