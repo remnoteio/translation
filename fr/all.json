@@ -345,7 +345,25 @@
       "SEND_INVITE": "Envoyer une invitation",
       "SHARE_LINK": "Partager le lien",
       "TITLE": "Crédits",
-      "TOAST_RENEW": "Vos crédit sont utilisés automatiquement lorsque votre abonnement se renouvellera."
+      "TOAST_RENEW": "Vos crédit sont utilisés automatiquement lorsque votre abonnement se renouvellera.",
+      "TOAST_SUBSCRIBE": "Vos crédits seront utilisés automatiquement lorsque vous souscrirez à RemNote Pro. Choisissez un plan ci-dessous et commencez maintenant !",
+      "VERIFY_EMAIL": "Pour inviter quelqu'un, validez votre adresse mail."
+    },
+    "EDITOR": {
+      "DATES_AND_TIMES": {
+        "DATE_FORMATTING": {
+          "DESCRIPTION": "Montrer les dates dans RemNote dans ce format.",
+          "TITLE": "Format des Dates"
+        },
+        "DATE_FORMATTING_CUSTOM": {
+          "DESCRIPTION": "Personnalisez le format de vos dates en utilisant les options fournies.",
+          "TITLE": "Personnalisation des dates."
+        },
+        "TIME_FORMATTING": {
+          "DESCRIPTION": "Formattez les heures insérées avec /heure comme ceci:",
+          "TITLE": "Format des Heures"
+        }
+      }
     }
   },
   "TEMPLATES": {
