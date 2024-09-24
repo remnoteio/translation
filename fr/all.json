@@ -292,15 +292,32 @@
       },
       "IMPORT_EXPORT_TITLE": "Import et Export",
       "MY_PROFILE": "Mon Profil",
+      "NAVIGATION_TITLE": "Navigation",
+      "PRIVACY": {
+        "KEYWORDS": "confidentialité",
+        "TITLE": "Confidentialité"
+      },
       "PROFILE": {
         "KEYWORDS": "Profil Personnel Utilisateur"
       },
       "PROFILE_TITLE": "Profil",
       "SUPPORT": {
-        "KEYWORDS": "support ticket executer aide"
+        "KEYWORDS": "support ticket executer aide",
+        "TITLE": "Support"
+      },
+      "SYNCING": {
+        "KEYWORDS": "Forcer la Synchronisation des Images & PDFs",
+        "TITLE": "Synchronisation"
+      },
+      "VERSION": {
+        "KEYWORDS": "version",
+        "TITLE": "Version de l'application"
       }
     },
     "EARN_CREDIT": {
+      "APPLY_CREDIT": "Utiliser votre crédit",
+      "COPIED": "Copié !",
+      "COPYLINK": "Copier le Lien",
       "EMAIL_PLACEHOLDER": "amicurieux@gmail.com",
       "ENTER_VALID_EMAIL": "Tapez un email valide !",
       "FRIENDS_TITLE": "Amis",
