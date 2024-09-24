@@ -292,6 +292,18 @@
       },
       "IMPORT_EXPORT_TITLE": "Import et Export",
       "MY_PROFILE": "Mon Profil"
+    },
+    "EARN_CREDIT": {
+      "EMAIL_PLACEHOLDER": "amicurieux@gmail.com",
+      "ENTER_VALID_EMAIL": "Tapez un email valide !",
+      "FRIENDS_TITLE": "Amis",
+      "FRIEND_ALREADY_ON_REMNOTE": "Votre ami est déjà sur Remnote",
+      "HANG_ON": "Paientez",
+      "INVITE": "Inviter",
+      "INVITED_YOU": "(vous a invité)",
+      "INVITE_COPIED": "Lien d'invitation copié !",
+      "INVITE_EMAIL": "Inviter via email",
+      "INVITE_ERROR": "Une erreur est survenue. Merci de réessayer plus tard."
     }
   },
   "TEMPLATES": {
