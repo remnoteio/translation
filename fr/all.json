@@ -276,8 +276,22 @@
       "AUTHENTICATION_TITLE": "Authentification",
       "CACHING": {
         "DESCRIPTION": "Mettre les images en cache pour consultation hors-ligne.",
-        "TITLE": "Mise en cache"
-      }
+        "NUMBER_DESCRIPTION": "Régler le nombre maximum d'images à mettre en cache. Quand la limite est atteinte, les images les plus anciennes seront effacées.",
+        "NUMBER_TITLE": "Maximum d'Images en Cache",
+        "TITLE": "Mise en cache",
+        "TOGGLE_DESCRIPTION": "Si désactivé, toute image en cache sera supprimée.",
+        "TOGGLE_TITLE": "Activer le Cache"
+      },
+      "DANGER_ZONE": {
+        "KEYWORDS": "synchro sync synchronisation supprimer comte réinitialiser tutoriel pas à pas reset progrès réinitialiser progrès effacer progrès recommencer  réglages avancés du compte",
+        "TITLE": "Zone de Danger"
+      },
+      "DANGER_ZONE_TITLE": "Zone de Danger",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Exporter Export Sauvegarde Backup Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "IMPORT_EXPORT_TITLE": "Import et Export",
+      "MY_PROFILE": "Mon Profil"
     }
   },
   "TEMPLATES": {
