@@ -163,7 +163,7 @@
         "DESCENDING": "Z -> A",
         "OLDEST_FIRST": "Plus anciens d'abord",
         "RECENTLY_MODIFIED": "Plus récents d'abord",
-        "OLDEST_CREATION_FIRST": "Crées il y ale plus longtemps d'abord",
+        "OLDEST_CREATION_FIRST": "Crées il y a le plus longtemps d'abord",
         "RECENTLY_CREATED": "Crées le plus récemment"
       },
       "TITLE": "Toutes les Notes"
