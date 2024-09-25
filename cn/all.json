@@ -28,8 +28,8 @@
       "ERRORS": {
         "SHARING": {
           "NO_CONTENT": {
-            "SRC": "您要共享的文件内部 Rem 数量不达标，请至少添加 {{minimum}} 个 Rem 后再试一次",
-            "SUBDOCUMENT": "您的某个文档的内容看起来好像不够多。文档在达到 {{minimum}} 个Rem之前，不会发布。"
+            "SRC": "您要共享的文件 Rem 数量不达标，请至少添加 {{minimum}} 个 Rem 后再试一次",
+            "SUBDOCUMENT": "您的某个子文档的内容看起来好像不够多。文档在达到 {{minimum}} 个Rem之前，不会发布。"
           },
           "NO_TITLE": {
             "SRC": "您要共享的文档没有标题，请在发布前添加标题。",
@@ -102,9 +102,9 @@
     "TRANSLATION_IN_PROGRESS": "RemNote 的翻译仍然在进行中。您可以在<editorLink>on inlang</editorLink>上<bold>贡献翻译</bold>。"
   },
   "NOTIFICATIONS": {
-    "ARTICLE_DEFAULT": "您的文章",
+    "ARTICLE_DEFAULT": "您的文档",
     "ARTICLE_VIEWS": {
-      "BODY_1": "您的文章",
+      "BODY_1": "您的文档",
       "BODY_2": "已获得 {{viewCount, number}} 浏览量"
     },
     "DOCUMENT_ADDED_TO_GROUP": {
@@ -207,7 +207,7 @@
       "PDF_SETTINGS": "设置",
       "PDF_SETTINGS_MENU": {
         "AUTO_HIGHLIGHT": "自动高亮",
-        "AUTO_HIGHLIGHT_TOOLTIP": "选中文本后自动创建高亮。",
+        "AUTO_HIGHLIGHT_TOOLTIP": "选中文本后自动高亮。",
         "DISABLE_HEADER_BUTTONS": "禁用标题按钮",
         "DISABLE_HEADER_BUTTONS_TOOLTIP": "在阅读器中隐藏标题按钮（«）。",
         "SNAP_HIGHLIGHT_TO_WORDS": "高亮自动对齐到单词",
