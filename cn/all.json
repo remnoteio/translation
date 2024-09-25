@@ -809,7 +809,7 @@
     "HIDE_CONFIGURATION": "隐藏配置",
     "NEW_TEMPLATE": "新模板",
     "PROPERTIES_HELP_TEXT": {
-      "0": "属性用于描述标签。例如，在名为\"图书\"的标签中，可以添加作者、流派、阅读进度等属性！"
+      "0": "属性用于描述标签。例如，在名为\"图书\"的标签中，可以添加作者、体裁、阅读进度等属性！"
     },
     "PROPERTY_WITH_COUNT_one": "{{count, number}} 属性",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} 属性",
