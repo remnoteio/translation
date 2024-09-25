@@ -714,7 +714,7 @@
       "UPLOADING": "正在上传"
     },
     "WIKIMEDIA_COMMONS": {
-      "EMPTY": "将 PDF、Word 文档、PPT 和 <moreLink>more</moreLink> 文件拖放到这里！",
+      "EMPTY": "将 PDF、Word 文档、PPT 和 <moreLink>更多</moreLink> 文件拖放到这里！",
       "INVALID": "文件格式不正确！",
       "LABEL": "图片搜索",
       "PDF": "PDF",
