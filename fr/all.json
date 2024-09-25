@@ -362,6 +362,10 @@
         "TIME_FORMATTING": {
           "DESCRIPTION": "Formattez les heures insérées avec /heure comme ceci:",
           "TITLE": "Format des Heures"
+        },
+        "WEEK_STARTS_ON_MONDAY": {
+          "DESCRIPTION": "Au moment de la sélection de date via le calendrier, afficher chaque ligne avec Lundi un premier au lieu de Dimanche. ",
+          "TITLE": "La Semaine Commence le Lundi"
         }
       }
     }
