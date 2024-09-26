@@ -367,6 +367,15 @@
           "DESCRIPTION": "Au moment de la sélection de date via le calendrier, afficher chaque ligne avec Lundi un premier au lieu de Dimanche. ",
           "TITLE": "La Semaine Commence le Lundi"
         }
+      },
+      "GENERAL": {
+        "CAPITALIZE_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Lors de la création d'un Rem en appuyant sur Cmd+Retour dans une recherche, mettre des majuscules à son nom.",
+            "PC": "Lorsque vous créez un Rem en appuyant sur Ctrl+Entrée dans une recherche, mettre des majuscules à son nom."
+          },
+          "TITLE": "Mettre des majuscules à partir de la recherche"
+        }
       }
     }
   },
