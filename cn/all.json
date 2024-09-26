@@ -28,8 +28,8 @@
       "ERRORS": {
         "SHARING": {
           "NO_CONTENT": {
-            "SRC": "您要共享的文件内部 Rem 数量不达标，请至少添加 {{minimum}} 个 Rem 后再试一次",
-            "SUBDOCUMENT": "您的某个文档的内容看起来好像不够多。文档在达到 {{minimum}} 个Rem之前，不会发布。"
+            "SRC": "您要共享的文件 Rem 数量不达标，请至少添加 {{minimum}} 个 Rem 后再试一次",
+            "SUBDOCUMENT": "您的某个子文档的内容看起来好像不够多。文档在达到 {{minimum}} 个Rem之前，不会发布。"
           },
           "NO_TITLE": {
             "SRC": "您要共享的文档没有标题，请在发布前添加标题。",
@@ -102,9 +102,9 @@
     "TRANSLATION_IN_PROGRESS": "RemNote 的翻译仍然在进行中。您可以在<editorLink>on inlang</editorLink>上<bold>贡献翻译</bold>。"
   },
   "NOTIFICATIONS": {
-    "ARTICLE_DEFAULT": "您的文章",
+    "ARTICLE_DEFAULT": "您的文档",
     "ARTICLE_VIEWS": {
-      "BODY_1": "您的文章",
+      "BODY_1": "您的文档",
       "BODY_2": "已获得 {{viewCount, number}} 浏览量"
     },
     "DOCUMENT_ADDED_TO_GROUP": {
@@ -207,7 +207,7 @@
       "PDF_SETTINGS": "设置",
       "PDF_SETTINGS_MENU": {
         "AUTO_HIGHLIGHT": "自动高亮",
-        "AUTO_HIGHLIGHT_TOOLTIP": "选中文本后自动创建高亮。",
+        "AUTO_HIGHLIGHT_TOOLTIP": "选中文本后自动高亮。",
         "DISABLE_HEADER_BUTTONS": "禁用标题按钮",
         "DISABLE_HEADER_BUTTONS_TOOLTIP": "在阅读器中隐藏标题按钮（«）。",
         "SNAP_HIGHLIGHT_TO_WORDS": "高亮自动对齐到单词",
@@ -362,7 +362,7 @@
     "EDITOR": {
       "DATES_AND_TIMES": {
         "DATE_FORMATTING": {
-          "DESCRIPTION": "设置 RemNote 中显示的日期格式",
+          "DESCRIPTION": "设置 RemNote 中的日期格式",
           "TITLE": "日期格式"
         },
         "DATE_FORMATTING_CUSTOM": {
@@ -714,7 +714,7 @@
       "UPLOADING": "正在上传"
     },
     "WIKIMEDIA_COMMONS": {
-      "EMPTY": "将 PDF、Word 文档、PPT 和 <moreLink>more</moreLink> 文件拖放到这里！",
+      "EMPTY": "将 PDF、Word 文档、PPT 和 <moreLink>更多</moreLink> 文件拖放到这里！",
       "INVALID": "文件格式不正确！",
       "LABEL": "图片搜索",
       "PDF": "PDF",
@@ -809,7 +809,7 @@
     "HIDE_CONFIGURATION": "隐藏配置",
     "NEW_TEMPLATE": "新模板",
     "PROPERTIES_HELP_TEXT": {
-      "0": "属性用于描述标签。例如，在名为\"图书\"的标签中，可以添加作者、流派、阅读进度等属性！"
+      "0": "属性用于描述标签。例如，在名为\"图书\"的标签中，可以添加作者、体裁、阅读进度等属性！"
     },
     "PROPERTY_WITH_COUNT_one": "{{count, number}} 属性",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} 属性",
