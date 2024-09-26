@@ -387,8 +387,31 @@
           "DESCRIPTION": {
             "MAC": "Lorsque vous créez un Rem en appuyant sur Cmd+Retour dans une recherche, étiquetez-le avec « Souche ».",
             "PC": "Lorsque vous créez un Rem en appuyant sur Ctrl+Entrée dans une recherche, étiquetez-le avec « Souche »."
-          }
+          },
+          "TITLE": "Créer des Souches à partir de la Recherche"
+        },
+        "ENABLE_SPELLCHECK": {
+          "DESCRIPTION": "Vérifiez si le Rem actif comporte des fautes de frappe. Le correcteur orthographique utilise la ou les langues sélectionnées dans votre navigateur ou votre système d'exploitation.",
+          "TITLE": "Activer la vérification orthographique"
+        },
+        "INSERT_EMOJIS_AS_REFERENCES": {
+          "DESCRIPTION": "Créez une référence lors de la sélection d'un emoji à partir de la recherche %%.",
+          "TITLE": "Insérer des émojis comme Références"
         }
+      }
+    },
+    "EDITOR_INTERFACE": {
+      "ENABLE_ZOOM_INTO_BULLET": {
+        "LABEL": "Lorsque vous cliquez sur une puce, afficher le rem en tant que page complète",
+        "TITLE": "Activer le Zoom dans les Puces"
+      },
+      "PREVIEW_REM_ON_HOVER": {
+        "LABEL": "Lorsque vous passez la souris sur une référence, affichez un aperçu de son contenu.",
+        "TITLE": "Aperçu des Références au survol"
+      },
+      "SCALE_COLLAPSED_REM_BULLETS": {
+        "LABEL": "Agrandir ou réduire l'anneau autour des puces en fonction du nombre de descendants.",
+        "TITLE": "Réduire la taille des Puces Rem repliées."
       }
     }
   },
