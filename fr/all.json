@@ -375,6 +375,19 @@
             "PC": "Lorsque vous créez un Rem en appuyant sur Ctrl+Entrée dans une recherche, mettre des majuscules à son nom."
           },
           "TITLE": "Mettre des majuscules à partir de la recherche"
+        },
+        "CREATE_CONCEPTS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Lorsque vous créez un Rem en appuyant sur Cmd+Retour dans une recherche, transformez-le en Concept.",
+            "PC": "Lorsque vous créez un Rem en appuyant sur Ctrl+Entrée dans une recherche, transformez-le en Concept."
+          },
+          "TITLE": "Créer des Concepts à partir de la Recherche"
+        },
+        "CREATE_STUBS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Lorsque vous créez un Rem en appuyant sur Cmd+Retour dans une recherche, étiquetez-le avec « Souche ».",
+            "PC": "Lorsque vous créez un Rem en appuyant sur Ctrl+Entrée dans une recherche, étiquetez-le avec « Souche »."
+          }
         }
       }
     }
