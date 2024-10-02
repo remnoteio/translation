@@ -1,0 +1,26 @@
+{
+  "COMMON": {
+    "ACTIONS": {
+      "APPLY": "اعمال کردن",
+      "COPY": "رونویسی",
+      "CREATE": "ایجاد",
+      "DELETE": "حذف کردن",
+      "DUPLICATE": "تکثیر کردن",
+      "EDIT": "ویرایش",
+      "HIDE": "پنهان سازی",
+      "REMOVE": "پاک کردن",
+      "UPDATE": "بروزرسانی",
+      "VIEW": "نمایش"
+    },
+    "AI": {
+      "AI_FLASHCARDS": "ورق آموزشی هوش مصنوعی"
+    },
+    "GENERAL": {
+      "FLASHCARD_one": "ورق آموزشی",
+      "FLASHCARD_other": "ورق‌های آموزشی",
+      "NOTE_one": "یادداشت",
+      "NOTE_other": "یادداشت‌ها"
+    },
+    "NEW": "جدید"
+  }
+}
