@@ -58,7 +58,51 @@
         "WRITE": "وضعیت ویرایش"
       },
       "EXPORT": "خروجی گرفتن",
-      "FIND_OR_FILTER": "جستجو یا پالایش"
+      "FIND_OR_FILTER": "جستجو یا پالایش",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "این گزینه منسوخ شده است و توصیه می شود از روش جایگزین فشار دادن <keycode /> و سپس جستجوی مراجع متنی به جای آن استفاده کنید.",
+        "LABEL": "یافتن منابع متنی"
+      },
+      "MARK_AS_DOCUMENT": "علامت گذاری به عنوان سند",
+      "MOVE": "جابجا کردن",
+      "MULTI_SELECTION_FOLDER": "چند پوشه/اسناد را انتخاب کنید",
+      "MULTI_SELECTION_MODE": "چند Rem انتخاب کنید",
+      "OPEN_IN_ANOTHER_PANE": "در پنجره دیگری باز کنید",
+      "PIN_TO_SIDEBAR": "پین کردن به نوار کناری",
+      "PRINT": "چاپ کردن",
+      "RENAME": "تغییر نام",
+      "SHOW_STUDY_BUTTON": "نمایش دکمه مطالعه",
+      "STATS": "آمار",
+      "UNDO": "واگرد",
+      "UNPIN_FROM_SIDEBAR": "برداشتن سنجاق از نوار کناری",
+      "UNSHARE_DOCUMENT": "لغو اشتراک‌گذاری سند",
+      "VIEW_GRAPH": "مشاهده نمودار محلی",
+      "VIEW_TRASH": "مشاهده سطل زباله"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "پیش نویس",
+      "FINISHED": "تمام شده",
+      "PINNED": "سنجاق شده"
+    }
+  },
+  "FILE_UPLOADING": {
+    "CACHED_INFO": "این فایل برای مشاهده آفلاین ذخیره شده است و ممکن است هنوز آپلود نشده باشد.",
+    "LOCAL_ONLY_WARN": "این فایل با موفقیت آپلود نشد و به طور موقت در رایانه شما ذخیره می شود.",
+    "LOCAL_WAITING_FOR_UPLOAD_WARN": "این فایل هنوز آپلود نشده است و فقط به صورت محلی ذخیره می شود.",
+    "NOT_FOUND": "این فایل یافت نمی شود.",
+    "SNIPPING": {
+      "NON_PDF": "این فایل هنوز آپلود نشده است.",
+      "PDF": "لطفا با پشتیبانی تماس بگیرید."
+    }
+  },
+  "LANGUAGE": {
+    "LANGUAGE_WORD": "زبان",
+    "TRANSLATION_INFO_SETTINGS": "ترجمه هنوز در حال انجام است. شما با ترکیبی از انگلیسی و زبان انتخاب شده مواجه خواهید شد.<br>می توانید با مرور <guideLink>آموزش</guideLink> و سپس استفاده از <editorLink>ویرایشگر وب</editorLink> ما برای کمک به ترجمه مشارکت کنید."
+  },
+  "NOTIFICATIONS": {
+    "ARTICLE_DEFAULT": "سند شما",
+    "ARTICLE_VIEWS": {
+      "BODY_1": "سند شما"
     }
   }
 }
