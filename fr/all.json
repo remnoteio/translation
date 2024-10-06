@@ -412,6 +412,23 @@
       "SCALE_COLLAPSED_REM_BULLETS": {
         "LABEL": "Agrandir ou réduire l'anneau autour des puces en fonction du nombre de descendants.",
         "TITLE": "Réduire la taille des Puces Rem repliées."
+      },
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "LABEL": "Lorsque vous cliquez ou appuyez sur une Référence, accédez immédiatement à sa cible, plutôt que d'ouvrir le menu Référence. (Vous pouvez toujours afficher le menu Référence en cliquant avec le bouton droit de la souris.)",
+        "TITLE": "Ouvrez les Références en un seul clic"
+      },
+      "SMOOTHLY_ANIMATE_THE_EDITOR": {
+        "LABEL": "Animez l'ajout ou la suppression de Rems dans l'éditeur.",
+        "TITLE": "Animation l'éditeur de façon fluide."
+      }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "DESCRIPTION": "Révisez au moins ce nombre de flashcards chaque jour pour créer des séquences.",
+          "TITLE": "Objectif"
+        },
+        "TODAYS_TARGET": "Objectif lissé du jour:"
       }
     }
   },
