@@ -428,7 +428,25 @@
           "DESCRIPTION": "Révisez au moins ce nombre de flashcards chaque jour pour créer des séquences.",
           "TITLE": "Objectif"
         },
-        "TODAYS_TARGET": "Objectif lissé du jour:"
+        "TODAYS_TARGET": "Objectif lissé du jour:",
+        "TODAYS_TARGET_EXPLANATION": "Si RemNote prédit qu'au cours de la semaine prochaine, vous aurez en moyenne moins de cartes à réviser que votre objectif quotidien configuré, nous réduirons temporairement votre objectif quotidien afin que vous ayez un nombre à peu près égal de cartes chaque jour, plutôt que beaucoup au début et moins à la fin."
+      },
+      "GENERAL": {
+        "AUTOPLAY_MEDIA": {
+          "DESCRIPTION": "Lisez automatiquement le contenu audio ou vidéo des flashcards.",
+          "TITLE": "Lecture automatique des médias"
+        },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "DESCRIPTION": "A l'affichage d'une flashcard, lire automatiquement le texte en synthèse vocale pour le recto de la carte et le verso de la carte une fois révélé.",
+          "TITLE": "Lecture automatique en synthèse vocale"
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "DESCRIPTION": "Une fois que vous avez révisé toutes les cartes à réviser, dans combien de temps pouvons-nous vous proposer les cartes qui ne sont pas encore à réviser? Cela vous évite d'avoir à vous entraîner à nouveau très bientôt.",
+          "TITLE": "Limite de revision en avance"
+        },
+        "LEECH_THRESHOLD": {
+          "DESCRIPTION": "Émettre un avertissement après avoir appuyé plusieurs fois sur « Oublié » sur une carte difficile.<leechArticle> En savoir plus sur les sangsues.</leechArticle>"
+        }
       }
     }
   },
