@@ -447,6 +447,63 @@
         "LEECH_THRESHOLD": {
           "DESCRIPTION": "Émettre un avertissement après avoir appuyé plusieurs fois sur « Oublié » sur une carte difficile.<leechArticle> En savoir plus sur les sangsues.</leechArticle>",
           "TITLE": "Seuil de Sangsue"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "DESCRIPTION": "Inclure au maximum ce nombre de flashcards nouvellement créées dans votre file d'attente de flashcards chaque jour. De cette façon, les nouvelles cartes entreront dans votre file d'attente à un rythme quotidien régulier, plutôt que par lots énormes.",
+          "TITLE": "Nombre maximal de nouvelles cartes par jour"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "DESCRIPTION": "Définissez l’heure à laquelle de nouvelles cartes apparaîtront dans votre file d’attente chaque jour.",
+          "TITLE": "Le jour suivant commence à"
+        },
+        "RESET_ALL": {
+          "CONFIRM_MESSAGE": "Êtes-vous sûr de vouloir réinitialiser tous les paramètres des flashcards ?",
+          "DESCRIPTION": "Restaurez tous les paramètres des flashcards à leurs valeurs par défaut.",
+          "TITLE": "Réinitialiser les paramètres de la flashcard"
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "DESCRIPTION": "Afficher uniquement les boutons « Oublié » et « Mémorisé » pour les flashcards.",
+          "TITLE": "Boutons de flashcards simplifiés"
+        },
+        "STALE_CARDS_PER_DAY": {
+          "DESCRIPTION": "Réintroduire au maximum ce nombre de flashcards obsolètes dans votre file d'attente chaque jour. Les flashcards obsolètes sont celles qui sont temporairement retirées de la file d'attente car vous ne les avez pas étudiées depuis longtemps et les réapprendre toutes d'un coup serait épuisant.",
+          "TITLE": "Nombre maximal de cartes obsolètes par jour"
+        },
+        "TEXT_TO_SPEECH_SPEED": {
+          "DESCRIPTION": "La vitesse à laquelle le texte de la flashcard est lu.",
+          "TITLE": "Vitesse de la lecture du texte"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "La voix utilisée pour la synthèse vocale. Notez que certaines voix ne fonctionnent que pour certaines langues.",
+          "SAMPLE": "Les mitochondries sont la centrale énergétique de la cellule.",
+          "TITLE": "Voix de synthèse"
+        },
+        "TYPE_ANSWER": {
+          "DESCRIPTION": "Affichez une zone de texte au recto de chaque flashcard et comparez ce que vous tapez à la réponse au verso de la carte.",
+          "TITLE": "Tapez la réponse"
+        }
+      },
+      "ORDERING": {
+        "DOCUMENT_CLUSTERS": {
+          "DESCRIPTION": "Je préfère pratiquer les Rems à partir de documents connectés ensemble.",
+          "TITLE": "Groupes de documents"
+        },
+        "HIERARCHY_CLUSTERS": {
+          "DESCRIPTION": "Je préfère pratiquer les Rems liés les uns aux autres hiérarchiquement ensemble.",
+          "TITLE": "Groupes hiérarchiques"
+        },
+        "REFERENCE_CLUSTERS": {
+          "DESCRIPTION": "Je préfère pratiquer des Rems qui se référencent les uns les autres ensemble.",
+          "TITLE": "Groupes de Référence "
+        },
+        "TAG_CLUSTERS": {
+          "DESCRIPTION": "Je préfère pratiquer les Rems avec le même tag ensemble.",
+          "TITLE": "Groupes de tag"
+        }
+      },
+      "STATISTICS": {
+        "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
+          "DESCRIPTION": "Si vous prenez plus de temps pour répondre à une flashcard que cela (par exemple, parce que vous vous êtes absenté quelques minutes), seul ce temps sera comptabilisé dans vos statistiques."
         }
       }
     }
