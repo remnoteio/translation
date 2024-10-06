@@ -445,7 +445,8 @@
           "TITLE": "Limite de revision en avance"
         },
         "LEECH_THRESHOLD": {
-          "DESCRIPTION": "Émettre un avertissement après avoir appuyé plusieurs fois sur « Oublié » sur une carte difficile.<leechArticle> En savoir plus sur les sangsues.</leechArticle>"
+          "DESCRIPTION": "Émettre un avertissement après avoir appuyé plusieurs fois sur « Oublié » sur une carte difficile.<leechArticle> En savoir plus sur les sangsues.</leechArticle>",
+          "TITLE": "Seuil de Sangsue"
         }
       }
     }
