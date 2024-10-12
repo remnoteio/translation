@@ -89,11 +89,11 @@
     "LOCAL_ONLY_WARN": "Diese Datei wurde nicht erfolgreich hochgeladen und wird temporär auf Ihrem Computer gespeichert.",
     "LOCAL_WAITING_FOR_UPLOAD_WARN": "Diese Datei wurde noch nicht hochgeladen und ist nur lokal gespeichert.",
     "NOT_FOUND": "Diese Datei kann nicht gefunden werden.",
-    "NOT_YET_UPLOADED": "Diese Datei wurde noch nicht hochgeladen.",
     "SNIPPING": {
       "NON_PDF": "Bitte versuchen Sie es mit einem anderen Tool zum Ausschneiden/Einfügen, oder wenden Sie sich an den Support.",
       "PDF": "Bitte wenden Sie sich an den Support."
-    }
+    },
+    "NOT_YET_UPLOADED": "Diese Datei wurde noch nicht hochgeladen."
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Sprache",

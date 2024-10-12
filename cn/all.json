@@ -90,11 +90,11 @@
     "LOCAL_ONLY_WARN": "此文件未成功上传，暂时存储在您的计算机上。",
     "LOCAL_WAITING_FOR_UPLOAD_WARN": "此文件尚未上传，仅存储在本地。",
     "NOT_FOUND": "找不到此文件。",
-    "NOT_YET_UPLOADED": "此文件尚未上传。",
     "SNIPPING": {
       "NON_PDF": "请尝试使用其他截图/粘贴工具，或联系支持人员。",
       "PDF": "请联系支持人员。"
-    }
+    },
+    "NOT_YET_UPLOADED": "此文件尚未上传。"
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "语言",
