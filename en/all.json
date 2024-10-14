@@ -90,11 +90,11 @@
     "LOCAL_ONLY_WARN": "This file was not uploaded successfully, and is stored temporarily on your computer.",
     "LOCAL_WAITING_FOR_UPLOAD_WARN": "This file has not been uploaded yet, and is only stored locally.",
     "NOT_FOUND": "This file cannot be found.",
-    "NOT_YET_UPLOADED": "This file has not been uploaded yet.",
     "SNIPPING": {
       "NON_PDF": "Please try a different snipping/pasting tool, or contact support.",
       "PDF": "Please contact support."
-    }
+    },
+    "NOT_YET_UPLOADED": "This file has not been uploaded yet."
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Language",
@@ -767,9 +767,9 @@
     "CREATE_TEMPLATE": "Create Template",
     "HIDE_CONFIGURATION": "Hide Configuration",
     "NEW_TEMPLATE": "New Template",
-    "PROPERTIES_HELP_TEXT": [
-      "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
-    ],
+    "PROPERTIES_HELP_TEXT": {
+      "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
+    },
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Property",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Properties",
     "PROPERTY_one": "Property",

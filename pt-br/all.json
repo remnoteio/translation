@@ -87,11 +87,11 @@
     "LOCAL_ONLY_WARN": "O upload desse arquivo não foi bem-sucedido e está armazenado temporariamente em seu computador.",
     "LOCAL_WAITING_FOR_UPLOAD_WARN": "Esse arquivo ainda não foi carregado e está armazenado apenas localmente.",
     "NOT_FOUND": "Esse arquivo não pode ser encontrado.",
-    "NOT_YET_UPLOADED": "Esse arquivo ainda não foi carregado.",
     "SNIPPING": {
       "NON_PDF": "Tente usar outra ferramenta de recorte/colagem ou entre em contato com o suporte.",
       "PDF": "Entre em contato com o suporte."
-    }
+    },
+    "NOT_YET_UPLOADED": "Esse arquivo ainda não foi carregado."
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Idioma",

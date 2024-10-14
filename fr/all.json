@@ -90,11 +90,11 @@
     "LOCAL_ONLY_WARN": "Nous n'avons pas pu mettre ce fichier en ligne, et il a été sauvegardé temporairement sur votre appareil.",
     "LOCAL_WAITING_FOR_UPLOAD_WARN": "Ce fichier n'a pas encore été mis en ligne, il est uniquement sauvegardé localement.",
     "NOT_FOUND": "Ce fichier est introuvable.",
-    "NOT_YET_UPLOADED": "Ce fichier n'a pas encore été mis en ligne.",
     "SNIPPING": {
       "NON_PDF": "Merci d'essayer un autre outil de capture/collage, ou contactez notre support.",
       "PDF": "Merci de contacter le support."
-    }
+    },
+    "NOT_YET_UPLOADED": "Ce fichier n'a pas encore été mis en ligne."
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Langue",
@@ -163,7 +163,7 @@
         "DESCENDING": "Z -> A",
         "OLDEST_FIRST": "Plus anciens d'abord",
         "RECENTLY_MODIFIED": "Plus récents d'abord",
-        "OLDEST_CREATION_FIRST": "Crées il y ale plus longtemps d'abord",
+        "OLDEST_CREATION_FIRST": "Crées il y a le plus longtemps d'abord",
         "RECENTLY_CREATED": "Crées le plus récemment"
       },
       "TITLE": "Toutes les Notes"
@@ -362,7 +362,208 @@
         "TIME_FORMATTING": {
           "DESCRIPTION": "Formattez les heures insérées avec /heure comme ceci:",
           "TITLE": "Format des Heures"
+        },
+        "WEEK_STARTS_ON_MONDAY": {
+          "DESCRIPTION": "Au moment de la sélection de date via le calendrier, afficher chaque ligne avec Lundi un premier au lieu de Dimanche. ",
+          "TITLE": "La Semaine Commence le Lundi"
         }
+      },
+      "GENERAL": {
+        "CAPITALIZE_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Lors de la création d'un Rem en appuyant sur Cmd+Retour dans une recherche, mettre des majuscules à son nom.",
+            "PC": "Lorsque vous créez un Rem en appuyant sur Ctrl+Entrée dans une recherche, mettre des majuscules à son nom."
+          },
+          "TITLE": "Mettre des majuscules à partir de la recherche"
+        },
+        "CREATE_CONCEPTS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Lorsque vous créez un Rem en appuyant sur Cmd+Retour dans une recherche, transformez-le en Concept.",
+            "PC": "Lorsque vous créez un Rem en appuyant sur Ctrl+Entrée dans une recherche, transformez-le en Concept."
+          },
+          "TITLE": "Créer des Concepts à partir de la Recherche"
+        },
+        "CREATE_STUBS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Lorsque vous créez un Rem en appuyant sur Cmd+Retour dans une recherche, étiquetez-le avec « Souche ».",
+            "PC": "Lorsque vous créez un Rem en appuyant sur Ctrl+Entrée dans une recherche, étiquetez-le avec « Souche »."
+          },
+          "TITLE": "Créer des Souches à partir de la Recherche"
+        },
+        "ENABLE_SPELLCHECK": {
+          "DESCRIPTION": "Vérifiez si le Rem actif comporte des fautes de frappe. Le correcteur orthographique utilise la ou les langues sélectionnées dans votre navigateur ou votre système d'exploitation.",
+          "TITLE": "Activer la vérification orthographique"
+        },
+        "INSERT_EMOJIS_AS_REFERENCES": {
+          "DESCRIPTION": "Créez une référence lors de la sélection d'un emoji à partir de la recherche %%.",
+          "TITLE": "Insérer des émojis comme Références"
+        }
+      }
+    },
+    "EDITOR_INTERFACE": {
+      "ENABLE_ZOOM_INTO_BULLET": {
+        "LABEL": "Lorsque vous cliquez sur une puce, afficher le rem en tant que page complète",
+        "TITLE": "Activer le Zoom dans les Puces"
+      },
+      "PREVIEW_REM_ON_HOVER": {
+        "LABEL": "Lorsque vous passez la souris sur une référence, affichez un aperçu de son contenu.",
+        "TITLE": "Aperçu des Références au survol"
+      },
+      "SCALE_COLLAPSED_REM_BULLETS": {
+        "LABEL": "Agrandir ou réduire l'anneau autour des puces en fonction du nombre de descendants.",
+        "TITLE": "Réduire la taille des Puces Rem repliées."
+      },
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "LABEL": "Lorsque vous cliquez ou appuyez sur une Référence, accédez immédiatement à sa cible, plutôt que d'ouvrir le menu Référence. (Vous pouvez toujours afficher le menu Référence en cliquant avec le bouton droit de la souris.)",
+        "TITLE": "Ouvrez les Références en un seul clic"
+      },
+      "SMOOTHLY_ANIMATE_THE_EDITOR": {
+        "LABEL": "Animez l'ajout ou la suppression de Rems dans l'éditeur.",
+        "TITLE": "Animation l'éditeur de façon fluide."
+      }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "DESCRIPTION": "Révisez au moins ce nombre de flashcards chaque jour pour créer des séquences.",
+          "TITLE": "Objectif"
+        },
+        "TODAYS_TARGET": "Objectif lissé du jour:",
+        "TODAYS_TARGET_EXPLANATION": "Si RemNote prédit qu'au cours de la semaine prochaine, vous aurez en moyenne moins de cartes à réviser que votre objectif quotidien configuré, nous réduirons temporairement votre objectif quotidien afin que vous ayez un nombre à peu près égal de cartes chaque jour, plutôt que beaucoup au début et moins à la fin."
+      },
+      "GENERAL": {
+        "AUTOPLAY_MEDIA": {
+          "DESCRIPTION": "Lisez automatiquement le contenu audio ou vidéo des flashcards.",
+          "TITLE": "Lecture automatique des médias"
+        },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "DESCRIPTION": "A l'affichage d'une flashcard, lire automatiquement le texte en synthèse vocale pour le recto de la carte et le verso de la carte une fois révélé.",
+          "TITLE": "Lecture automatique en synthèse vocale"
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "DESCRIPTION": "Une fois que vous avez révisé toutes les cartes à réviser, dans combien de temps pouvons-nous vous proposer les cartes qui ne sont pas encore à réviser? Cela vous évite d'avoir à vous entraîner à nouveau très bientôt.",
+          "TITLE": "Limite de revision en avance"
+        },
+        "LEECH_THRESHOLD": {
+          "DESCRIPTION": "Émettre un avertissement après avoir appuyé plusieurs fois sur « Oublié » sur une carte difficile.<leechArticle> En savoir plus sur les sangsues.</leechArticle>",
+          "TITLE": "Seuil de Sangsue"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "DESCRIPTION": "Inclure au maximum ce nombre de flashcards nouvellement créées dans votre file d'attente de flashcards chaque jour. De cette façon, les nouvelles cartes entreront dans votre file d'attente à un rythme quotidien régulier, plutôt que par lots énormes.",
+          "TITLE": "Nombre maximal de nouvelles cartes par jour"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "DESCRIPTION": "Définissez l’heure à laquelle de nouvelles cartes apparaîtront dans votre file d’attente chaque jour.",
+          "TITLE": "Le jour suivant commence à"
+        },
+        "RESET_ALL": {
+          "CONFIRM_MESSAGE": "Êtes-vous sûr de vouloir réinitialiser tous les paramètres des flashcards ?",
+          "DESCRIPTION": "Restaurez tous les paramètres des flashcards à leurs valeurs par défaut.",
+          "TITLE": "Réinitialiser les paramètres de la flashcard"
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "DESCRIPTION": "Afficher uniquement les boutons « Oublié » et « Mémorisé » pour les flashcards.",
+          "TITLE": "Boutons de flashcards simplifiés"
+        },
+        "STALE_CARDS_PER_DAY": {
+          "DESCRIPTION": "Réintroduire au maximum ce nombre de flashcards obsolètes dans votre file d'attente chaque jour. Les flashcards obsolètes sont celles qui sont temporairement retirées de la file d'attente car vous ne les avez pas étudiées depuis longtemps et les réapprendre toutes d'un coup serait épuisant.",
+          "TITLE": "Nombre maximal de cartes obsolètes par jour"
+        },
+        "TEXT_TO_SPEECH_SPEED": {
+          "DESCRIPTION": "La vitesse à laquelle le texte de la flashcard est lu.",
+          "TITLE": "Vitesse de la lecture du texte"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "La voix utilisée pour la synthèse vocale. Notez que certaines voix ne fonctionnent que pour certaines langues.",
+          "SAMPLE": "Les mitochondries sont la centrale énergétique de la cellule.",
+          "TITLE": "Voix de synthèse"
+        },
+        "TYPE_ANSWER": {
+          "DESCRIPTION": "Affichez une zone de texte au recto de chaque flashcard et comparez ce que vous tapez à la réponse au verso de la carte.",
+          "TITLE": "Tapez la réponse"
+        }
+      },
+      "ORDERING": {
+        "DOCUMENT_CLUSTERS": {
+          "DESCRIPTION": "Je préfère pratiquer les Rems à partir de documents connectés ensemble.",
+          "TITLE": "Groupes de documents"
+        },
+        "HIERARCHY_CLUSTERS": {
+          "DESCRIPTION": "Je préfère pratiquer les Rems liés les uns aux autres hiérarchiquement ensemble.",
+          "TITLE": "Groupes hiérarchiques"
+        },
+        "REFERENCE_CLUSTERS": {
+          "DESCRIPTION": "Je préfère pratiquer des Rems qui se référencent les uns les autres ensemble.",
+          "TITLE": "Groupes de Référence "
+        },
+        "TAG_CLUSTERS": {
+          "DESCRIPTION": "Je préfère pratiquer les Rems avec le même tag ensemble.",
+          "TITLE": "Groupes de tag"
+        }
+      },
+      "STATISTICS": {
+        "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
+          "DESCRIPTION": "Si vous prenez plus de temps pour répondre à une flashcard que cela (par exemple, parce que vous vous êtes absenté quelques minutes), seul ce temps sera comptabilisé dans vos statistiques.",
+          "TITLE": "Délai de réponse aux flashcards"
+        }
+      },
+      "VISUAL": {
+        "SHOW_NEXT_REVIEW_TIMES": {
+          "DESCRIPTION": "Lorsque vous révisez avec la répétition espacée, affiche le temps jusqu'à la prochaine révision sur chaque bouton de réponse.",
+          "TITLE": "Afficher les heures de révision suivantes"
+        }
+      }
+    },
+    "GLOBAL_INTERFACE": {
+      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
+        "KEYWORDS": "communauté langue documents recherche flashcards carte partager partagé télécharger trouver",
+        "TITLE": "Langue de recherche des flashcards partagées"
+      },
+      "DARK_MODE": {
+        "LABEL": "Utilisez ce jeu de couleurs.",
+        "TITLE": "Mode sombre"
+      },
+      "FULL_WIDTH": {
+        "LABEL": "Etendre les documents pour utiliser toute la largeur de l'écran.",
+        "TITLE": "Pleine Largeur"
+      },
+      "INTERFACE": {
+        "KEYWORDS": "traduction langue lang traduire i18n",
+        "TITLE": "Langue de l'interface RemNote"
+      },
+      "IN_APP_SUGGESTIONS": {
+        "KEYWORDS": "info-bulles aide support apprentissage tutoriel",
+        "LABEL": "Affichez des conseils en haut de votre document sur les fonctionnalités de RemNote que vous pourriez essayer.",
+        "TITLE": "Conseils de prise en main en haut de la page"
+      },
+      "LEFT_SIDEBAR_TUTORIALS": {
+        "KEYWORDS": "barre latérale gauche application didacticiels info-bulles aide support apprendre tutoriel",
+        "LABEL": "Affichez des tutoriels sur les fonctionnalités de RemNote en bas de votre barre latérale.",
+        "TITLE": "Tutoriels intégrés à l'application"
+      },
+      "ONBOARDING_TIPS_SHORTCUTS": {
+        "KEYWORDS": "info-bulles aide support apprentissage tutoriel",
+        "LABEL": "Afficher des conseils sur les raccourcis clavier que vous utilisez actuellement dans le coin de l'écran.",
+        "TITLE": "Conseils sur les raccourcis clavier"
+      }
+    },
+    "KEYBOARD_SHORTCUTS": {
+      "CHANGE_KEYBOARD_SHORTCUTS": {
+        "DESCRIPTION": "Personnaliser les raccourcis clavier en mappant les touches.",
+        "KEYWORDS": "modifier personnaliser les raccourcis clavier mappage des raccourcis clavier",
+        "TITLE": "Raccourcis clavier"
+      },
+      "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
+        "DESCRIPTION": "Par défaut, utilisez les anciens raccourcis clavier (avant la mise à jour d'août 2020).",
+        "TITLE": "Anciens Raccourcis clavier par défaut"
+      },
+      "DOUBLE_SLASH_FOR_COMMAND_MENU": {
+        "DESCRIPTION": "Tapez // au lieu de / pour déclencher des commandes lors de l'édition de Rems.",
+        "TITLE": "Double Slash pour le menu de commande"
+      },
+      "ENTER_TO_OUTDENT": {
+        "LABEL": "Lorsque vous appuyez sur Entrée sur un Rem sans contenu qui n'est pas au niveau supérieur du document, indentez d'un niveau. (Si cette option est désactivée, reste au même niveau et laisse un Rem vide.)",
+        "TITLE": "Appuyer sur Entrée pour désindenter"
       }
     }
   },

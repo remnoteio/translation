@@ -86,11 +86,11 @@
     "LOCAL_ONLY_WARN": "Ten plik nie został pomyślnie przesłany i jest tymczasowo przechowywany na Twoim komputerze.",
     "LOCAL_WAITING_FOR_UPLOAD_WARN": "Ten plik nie został jeszcze przesłany i jest przechowywany wyłącznie lokalnie.",
     "NOT_FOUND": "Nie można znaleźć tego pliku.",
-    "NOT_YET_UPLOADED": "Ten plik nie został jeszcze przesłany.",
     "SNIPPING": {
       "NON_PDF": "Wypróbuj inne narzędzie do wycinania/wklejania lub skontaktuj się z pomocą techniczną.",
       "PDF": "Proszę, skontaktuj się z pomocą techniczną."
-    }
+    },
+    "NOT_YET_UPLOADED": "Ten plik nie został jeszcze przesłany."
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Język",
