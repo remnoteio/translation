@@ -179,6 +179,7 @@
       },
       "CLOZE_BTN_TOOLTIP": "Cloze (Fill-in-the-Blank) Flashcard",
       "COPY_IMAGE": "Copy Image",
+      "COPY_IMAGE_AS_TEXT": "Copy Image as Text With AI",
       "COPY_TEXT": "Copy as Plain Text",
       "HIGHLIGHT": "Highlight",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Make Image Occlusion Flashcards",
