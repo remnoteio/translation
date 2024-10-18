@@ -577,27 +577,27 @@
     "NOTIFICATIONS": {
       "DESCRIPTIONS": {
         "ARTICLE_VIEWS": {
-          "LABEL": "Get notified when your shared document starts gaining significant views",
+          "LABEL": "Your shared document is trending",
           "TITLE": "Document views notifications"
         },
         "DOCUMENT_ADDED_TO_GROUP": {
-          "LABEL": "Get notified when a document is added to your group",
+          "LABEL": "A document is added to a group you're in",
           "TITLE": "Document added to group notification"
         },
         "INVITE": {
-          "LABEL": "Get notified when you have been invited to a group",
+          "LABEL": "You are invited to a group",
           "TITLE": "Invite notifications"
         },
         "NEW_COMMENT": {
-          "LABEL": "Get notified when someone comments on your shared document",
+          "LABEL": "Someone comments on your shared document",
           "TITLE": "Comment notifications"
         },
         "NEW_FOLLOWER": {
-          "LABEL": "Get notified when someone follows you",
+          "LABEL": "Someone follows you",
           "TITLE": "Follower notifications"
         },
         "NEW_LIKE": {
-          "LABEL": "Get notified when a document you shared is liked",
+          "LABEL": "Someone likes a document you shared",
           "TITLE": "Like notifications"
         },
         "STREAK": {
@@ -605,19 +605,21 @@
           "TITLE": "Streak notifications"
         }
       },
-      "ENABLE_COMMUNITY_LABEL": "Receive instant notifications when someone interacts with your shared content",
-      "ENABLE_COMMUNITY_TITLE": "Shared Flashcards Notifications",
-      "ENABLE_DUE_CARDS_LABEL": "Show the total number of due cards as a badge on the RemNote app icon on your home screen",
+      "ENABLE_COMMUNITY_LABEL": "Receive an in-app notification when someone interacts with your community profile",
+      "ENABLE_COMMUNITY_TITLE": "Community Notifications",
+      "ENABLE_DUE_CARDS_LABEL": "Show the total number of due cards as a badge on the RemNote app icon",
       "ENABLE_DUE_CARDS_TITLE": "Due cards badge",
       "ENABLE_EMAIL_LABEL": "Receive notifications directly to your inbox",
       "ENABLE_EMAIL_TITLE": "Enable email community notifications",
+      "ENABLE_EXAM_TITLE": "Exam reminders",
+      "ENABLE_EXAM_DESCRIPTION": "Receive emails if you're behind on preparing for an exam",
       "ENABLE_PUSH_LABEL": "Receive notifications directly to your device",
       "ENABLE_PUSH_TITLE": "Push notifications",
-      "ENABLE_STREAK_DESCRIPTION": "Receive daily reminders at 6pm about your flashcard streak",
-      "ENABLE_STREAK_TITLE": "Mobile Streak Notifications",
+      "ENABLE_STREAK_DESCRIPTION": "Receive a reminder at 6pm if you still need to practice to keep your streak",
+      "ENABLE_STREAK_TITLE": "Streak notifications",
       "PUSH_ENABLE_MESSAGE": "Push notifications aren't configured on this device. Click here to set them up!",
       "TOGGLE_LABEL": "Control which notifications you want to receive directly to your device",
-      "TOGGLE_TITLE": "Notify me, when:"
+      "TOGGLE_TITLE": "Notify when:"
     },
     "PLANS": {
       "KEYWORDS": "invite friends plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options",
