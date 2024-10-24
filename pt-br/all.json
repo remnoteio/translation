@@ -48,7 +48,9 @@
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "Adicionar Documento Aninhado",
+      "CHANGE_DOCUMENT_ICON": "Alterar Ícone do Documento",
       "CHANGE_DOCUMENT_STATUS": "Alterar Status do Documento",
+      "CHANGE_FOLDER_ICON": "Alterar Ícone da Pasta",
       "CUSTOMIZE_SPACED_REPETITION": "Personalizar a Repetição Espaçada",
       "DELETE": "Excluir",
       "EDIT_MODE": {
@@ -63,6 +65,7 @@
       },
       "MARK_AS_DOCUMENT": "Marcar como Documento",
       "MOVE": "Mover",
+      "MULTI_SELECTION_FOLDER": "Selecionar Várias Pastas/Documentos",
       "MULTI_SELECTION_MODE": "Selecionar Vários Rems",
       "OPEN_IN_ANOTHER_PANE": "Abrir em Outro Painel",
       "PIN_TO_SIDEBAR": "Fixar na Barra Lateral",
@@ -182,7 +185,8 @@
       "HIGHLIGHT": "Destaque",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Criar Flashcards de Oclusão de Imagem",
       "NOTE_BTN_TOOLTIP": "Observação",
-      "NO_TEXT_IN_PDF_WARN": "Esse arquivo não contém uma camada de texto, mas você ainda pode usar destaques de área para fazer anotações."
+      "NO_TEXT_IN_PDF_WARN": "Esse arquivo não contém uma camada de texto, mas você ainda pode usar destaques de área para fazer anotações.",
+      "COPY_IMAGE_AS_TEXT": "Copiar imagem como texto com IA"
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "Opções Avançadas de Vinculação",
@@ -641,7 +645,9 @@
       "ENABLE_STREAK_TITLE": "Notificações do Mobile Streak",
       "PUSH_ENABLE_MESSAGE": "As notificações por push não estão configuradas neste dispositivo. Clique aqui para configurá-las!",
       "TOGGLE_LABEL": "Controle quais notificações você deseja receber diretamente em seu dispositivo/e-mail",
-      "TOGGLE_TITLE": "Filtrar notificações"
+      "TOGGLE_TITLE": "Filtrar notificações",
+      "ENABLE_EXAM_TITLE": "Lembretes de exames",
+      "ENABLE_EXAM_DESCRIPTION": "Receba e-mails se estiver atrasado na preparação para um exame"
     },
     "PLANS": {
       "KEYWORDS": "convidar amigos plano alterar assinatura ganhar créditos grátis remnote enviar tweet email escolher plano aprendizado vitalício pro recursos detalhamento preços opções",
@@ -688,6 +694,7 @@
     },
     "UPLOAD_SOURCE": {
       "EMPTY": "Arraste PDFs, documentos de Word, PPTs e <moreLink>mais</moreLink> aqui!",
+      "IMPORT_INSTEAD": "O RemNote não pode aceitar uploads de arquivos desse tipo. No entanto, talvez possamos importar as anotações ou flashcards desse arquivo! Tente escolher \"Importar\" no menu superior esquerdo da conta.",
       "INVALID": "Formato incorreto de arquivo",
       "LABEL": "Upload de Fonte",
       "PDF": "PDF",
