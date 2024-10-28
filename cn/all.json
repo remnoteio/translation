@@ -28,12 +28,12 @@
       "ERRORS": {
         "SHARING": {
           "NO_CONTENT": {
-            "SRC": "您要共享的文件 Rem 数量不达标，请至少添加 {{minimum}} 个 Rem 后再试一次",
-            "SUBDOCUMENT": "您的某个子文档的内容看起来好像不够多。文档在达到 {{minimum}} 个Rem之前，不会发布。"
+            "SRC": "您的文档内容不足，请添加至少 {{minimum}} 个 Rems 后再重新尝试分享",
+            "SUBDOCUMENT": "您的某个子文档内容不足，需达到至少 {{minimum}} 个 Rems 后才可发布"
           },
           "NO_TITLE": {
-            "SRC": "您要共享的文档没有标题，请在发布前添加标题。",
-            "SUBDOCUMENT": "您的一个子文档没有标题，请在发布前添加一个标题。"
+            "SRC": "您尝试分享的文档没有标题，发布前请先添加标题",
+            "SUBDOCUMENT": "您的某个子文档没有标题，发布前请先添加标题"
           }
         }
       }
@@ -41,10 +41,10 @@
   },
   "DOCUMENT": {
     "DIALOGS": {
-      "DELETE_ALSO_UNSHARE": "您是否也想取消共享该文档？",
-      "DELETE_CONFIRM_DIALOG": "您确定要删除该文档吗？",
-      "DELETE_UNSHARE_ERROR": "取消共享此文档时出错，请手动取消共享。",
-      "DELETE_UNSHARE_OFFLINE_ERROR": "您当前处于离线状态，请在联网后手动取消共享该文档。"
+      "DELETE_ALSO_UNSHARE": "您是否要同时取消此文档的共享？",
+      "DELETE_CONFIRM_DIALOG": "您确定要删除此文档吗？",
+      "DELETE_UNSHARE_ERROR": "取消共享此文档时出错，请手动取消共享",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "您当前处于离线状态，请在重新联网后手动取消共享此文档"
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "添加嵌套文档",
@@ -60,7 +60,7 @@
       "EXPORT": "导出",
       "FIND_OR_FILTER": "查找或筛选",
       "FIND_TEXT_REFERENCES": {
-        "DEPRECATION_WARNING": "此选项已弃用，建议您使用替代方法：按下 <keycode /> 键，然后搜索文本引用。",
+        "DEPRECATION_WARNING": "此选项已被弃用，建议使用替代方法：按下 <keycode /> 并搜索文本引用",
         "LABEL": "查找文本引用"
       },
       "MARK_AS_DOCUMENT": "标记为文档",
@@ -86,19 +86,19 @@
     }
   },
   "FILE_UPLOADING": {
-    "CACHED_INFO": "此文件尚未上传，已缓存用于离线查看。",
-    "LOCAL_ONLY_WARN": "此文件未成功上传，暂时存储在您的计算机上。",
-    "LOCAL_WAITING_FOR_UPLOAD_WARN": "此文件尚未上传，仅存储在本地。",
-    "NOT_FOUND": "找不到此文件。",
-    "NOT_YET_UPLOADED": "此文件尚未上传。",
+    "CACHED_INFO": "此文件可能尚未上传，已缓存用于离线查看",
+    "LOCAL_ONLY_WARN": "此文件未成功上传，暂时存储在您的计算机上",
+    "LOCAL_WAITING_FOR_UPLOAD_WARN": "此文件尚未上传，仅存储在本地",
+    "NOT_FOUND": "找不到此文件",
+    "NOT_YET_UPLOADED": "此文件尚未上传",
     "SNIPPING": {
-      "NON_PDF": "请尝试使用其他截图/粘贴工具，或联系支持人员。",
-      "PDF": "请联系支持人员。"
+      "NON_PDF": "请尝试使用其他截图/粘贴工具，或联系支持人员",
+      "PDF": "请联系支持人员"
     }
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "语言",
-    "TRANSLATION_INFO_SETTINGS": "翻译仍在进行中，您将看到英语和所选语言的混合展示。<br>您可以先阅读<guideLink>教程</guideLink>，然后使用我们的<editorLink>网页编辑器</editorLink>来协助翻译。",
+    "TRANSLATION_INFO_SETTINGS": "翻译仍在进行中，您将看到英语和所选语言的混合内容。<br>您可以先阅读<guideLink>教程</guideLink>，然后使用我们的<editorLink>网页编辑器</editorLink>来协助翻译。",
     "TRANSLATION_IN_PROGRESS": "RemNote 的翻译仍然在进行中。您可以在<editorLink>on inlang</editorLink>上<bold>贡献翻译</bold>。"
   },
   "NOTIFICATIONS": {
