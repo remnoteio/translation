@@ -110,11 +110,11 @@
     "DOCUMENT_ADDED_TO_GROUP": {
       "BODY": "被加入"
     },
-    "EMPTY_STATE_MESSAGE": "您已掌握了一切！当有人在您 <profileLink>profile</profileLink> 分享的内容上互动时，您会收到通知",
+    "EMPTY_STATE_MESSAGE": "您已查看所有内容！当有人与您在<profileLink>个人主页</profileLink>上分享的内容互动时，您将收到通知",
     "EMPTY_STATE_TITLE": "您最近没有收到任何通知",
     "GROUP_DEFAULT": "您的群组",
     "IMPORT": {
-      "BODY": "有人导入了您的文章"
+      "BODY": "有人导入了您的文档"
     },
     "INVITE": {
       "ACCEPT": "接受邀请",
@@ -172,22 +172,22 @@
   "PDF": {
     "ADD_ANNOTATIONS": {
       "AI_DROPDOWN": {
-        "BASIC_CARDS": "基础卡片",
-        "BASIC_CARDS_TOOLTIP": "从选定文本生成问答形式基础记忆卡片。",
-        "CLOZE_CARDS": "完形填空卡片",
-        "CLOZE_CARDS_TOOLTIP": "从选定文本生成完形填空记忆卡片。",
-        "CONCEPT_CARDS": "概念卡片",
-        "CONCEPT_CARDS_TOOLTIP": "从选定文本生成概念-描述记忆卡片。",
+        "BASIC_CARDS": "基础卡",
+        "BASIC_CARDS_TOOLTIP": "从选定文本生成基础问答卡",
+        "CLOZE_CARDS": "完形填空卡",
+        "CLOZE_CARDS_TOOLTIP": "从选定文本生成完形填空闪卡",
+        "CONCEPT_CARDS": "概念卡",
+        "CONCEPT_CARDS_TOOLTIP": "从选定文本生成概念-描述符卡",
         "GENERATE_SECTION": "生成"
       },
-      "CLOZE_BTN_TOOLTIP": "完形填空记忆卡片",
+      "CLOZE_BTN_TOOLTIP": "完形填空（填空）卡",
       "COPY_IMAGE": "复制图像",
       "COPY_IMAGE_AS_TEXT": "使用 AI 将图像复制为文本",
       "COPY_TEXT": "复制为纯文本",
       "HIGHLIGHT": "高亮",
-      "MAKE_IMG_OCC_BTN_TOOLTIP": "制作图像遮蔽记忆卡片",
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "制作图像遮蔽记忆卡",
       "NOTE_BTN_TOOLTIP": "笔记",
-      "NO_TEXT_IN_PDF_WARN": "此文件不包含文本层，但您仍然可以使用区域高亮来注解。"
+      "NO_TEXT_IN_PDF_WARN": "此文件不包含文本层，但您仍可以使用区域高亮来添加注释"
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "高级链接选项",
@@ -208,17 +208,17 @@
       "PDF_SETTINGS": "设置",
       "PDF_SETTINGS_MENU": {
         "AUTO_HIGHLIGHT": "自动高亮",
-        "AUTO_HIGHLIGHT_TOOLTIP": "选中文本后自动高亮。",
+        "AUTO_HIGHLIGHT_TOOLTIP": "选中文本后自动高亮",
         "DISABLE_HEADER_BUTTONS": "禁用标题按钮",
-        "DISABLE_HEADER_BUTTONS_TOOLTIP": "在阅读器中隐藏标题按钮（«）。",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "在阅读器中隐藏标题按钮（«）",
         "SNAP_HIGHLIGHT_TO_WORDS": "高亮自动对齐到单词",
-        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "创建高亮时，仅选择完整单词。"
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "创建高亮时，仅选择完整单词"
       },
       "REFETCH_PAGE": "重新获取页面",
-      "REFETCH_PAGE_TOOLTIP": "如果页面已有高亮标记，将无法重新获取该页面。",
+      "REFETCH_PAGE_TOOLTIP": "如果页面已有高亮内容，将无法重新获取",
       "SEARCH_IN_PDF": "在 PDF 中搜索",
       "SPLIT_PANES": "拆分窗格",
-      "SPLIT_PANES_TOOLTIP": "将编辑器和 PDF 阅读器拆分到不同的窗格中。",
+      "SPLIT_PANES_TOOLTIP": "将编辑器和 PDF 阅读器拆分到不同的窗格中",
       "THEMES": {
         "CLASSIC_INVERT": "经典主题色反转",
         "DARK": "暗黑",
@@ -235,7 +235,7 @@
   "POPUPS": {
     "CREATE_CONTENT_OPTIONS": {
       "DOCUMENT": {
-        "DESCRIPTION": "记录课堂笔记、想法或者其他任何您想要的内容！",
+        "DESCRIPTION": "将记忆卡片和笔记整理到文档中",
         "TITLE": "文档"
       },
       "FOLDER": {
@@ -278,11 +278,11 @@
       },
       "AUTHENTICATION_TITLE": "认证授权",
       "CACHING": {
-        "DESCRIPTION": "加载图像时同时进行缓存，以便离线查看。",
-        "NUMBER_DESCRIPTION": "设置要缓存的最大图像数。当达到限制时，将从缓存中清除最旧的图像。",
+        "DESCRIPTION": "加载图像时同时进行缓存，以便离线查看",
+        "NUMBER_DESCRIPTION": "设置要缓存的最大图像数。当达到限制时，将从缓存中清除最旧的图像",
         "NUMBER_TITLE": "最大缓存图像数量",
         "TITLE": "缓存",
-        "TOGGLE_DESCRIPTION": "禁用后，所有缓存的图像都将被清除。",
+        "TOGGLE_DESCRIPTION": "禁用后，所有缓存的图像都将被清除",
         "TOGGLE_TITLE": "启用缓存"
       },
       "DANGER_ZONE": {
@@ -303,7 +303,7 @@
         "KEYWORDS": "隐私",
         "TITLE": "隐私"
       },
-      "PRIVACY_NOTE": "隐私：阅读我们的<policyLink>隐私政策</policyLink>，或在我们的<hubLink>隐私中心</hubLink>中更改您的设置。",
+      "PRIVACY_NOTE": "隐私：阅读我们的<policyLink>隐私政策</policyLink>，或在我们的<hubLink>隐私中心</hubLink>中更改您的设置",
       "PROFILE": {
         "KEYWORDS": "个人用户资料"
       },
@@ -336,7 +336,7 @@
       "COPYLINK": "复制链接",
       "CREATE_ACCOUNT": "创建账户并邀请好友",
       "CREDIT_BALANCE": "积分详情",
-      "CREDIT_BALANCE_TEXT": "您当前剩余 <bold>{{userCredit}}</bold> 积分，已累计获得 <bold>{{userCreditEarned}}</bold> 积分，可免费使用 {{months}} 个月的 RemNote Pro 订阅计划。<div><br />使用积分订阅 RemNote Pro！在您的积分用完之前，我们不会向您收取任何费用。</div>",
+      "CREDIT_BALANCE_TEXT": "您当前剩余 <bold>{{userCredit}}</bold> 点积分，已累计获得 <bold>{{userCreditEarned}}</bold> 积分，还剩 {{months}} 个月的 RemNote Pro 计划免费使用期。<div><br />使用积分订阅 RemNote Pro 计划！在积分用完之前不会产生任何费用。</div> ",
       "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
       "ENTER_VALID_EMAIL": "请输入有效的电子邮件地址！",
       "FRIENDS_TITLE": "朋友",
@@ -346,8 +346,8 @@
       "INVITED_YOU": "(邀请您)",
       "INVITE_COPIED": "已复制邀请链接！",
       "INVITE_EMAIL": "通过电子邮件邀请",
-      "INVITE_ERROR": "出了点问题，请稍后再试。",
-      "INVITE_FRIENDS_EARN_CREDIT": "每邀请一个朋友，您将获得 {{monthlyPrice}} 的 RemNote 积分！他们也将获得 {{monthlyPrice}} 的积分。",
+      "INVITE_ERROR": "出了点问题，请稍后再试",
+      "INVITE_FRIENDS_EARN_CREDIT": "每邀请一个朋友，您将获得 {{monthlyPrice}} 的 RemNote 积分！他们也将获得 {{monthlyPrice}} 的起始积分",
       "INVITE_FRIENDS_REMNOTE": "邀请您的朋友加入 RemNote！",
       "INVITE_TEXT": "邀请朋友",
       "KEYWORDS": "邀请朋友赚取积分 订阅计划 更改订阅 赚取积分 免费 RemNote 发送推文 邮件 选择计划 终身学习 Pro 功能详解 定价选项",
@@ -355,7 +355,7 @@
       "SEND_INVITE": "发送邀请",
       "SHARE_LINK": "分享邀请链接",
       "TITLE": "赚取积分",
-      "TOAST_RENEW": "您的积分将在当前订阅续订时自动应用。",
+      "TOAST_RENEW": "您的积分将在当前订阅续订时自动应用",
       "TOAST_SUBSCRIBE": "您的积分将在您订阅 RemNote Pro 时自动应用，选择下面的计划开始吧！",
       "VERIFY_EMAIL": "请先验证您的电子邮件，才能邀请他人",
       "SUBSCRIBE_NOTICE": "<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>"
@@ -375,8 +375,8 @@
           "TITLE": "时间格式"
         },
         "WEEK_STARTS_ON_MONDAY": {
-          "DESCRIPTION": "在从日期选择器中选择日期时，日历中的每一行应以星期一而不是星期日开始",
-          "TITLE": "每周从周一开始"
+          "DESCRIPTION": "在日期选择器中选择日期时，将日历每行的开始日期设为星期一，而非星期天",
+          "TITLE": "每周从星期一开始"
         }
       },
       "GENERAL": {
@@ -389,20 +389,20 @@
         },
         "CREATE_CONCEPTS_FROM_SEARCH": {
           "DESCRIPTION": {
-            "MAC": "搜索中按 Cmd+ Enter 键创建 Rem 时自动转化为概念(Concept)",
-            "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时自动转化为概念(Concept)"
+            "MAC": "搜索中按 Cmd+ Return 键创建 Rem 时，将其设置为概念（Concept）",
+            "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时，将其设置为概念（Concept）"
           },
           "TITLE": "从搜索中创建概念"
         },
         "CREATE_STUBS_FROM_SEARCH": {
           "DESCRIPTION": {
-            "MAC": "搜索中按 Cmd + Enter 键创建 Rem 时自动打上“Stub”标签",
-            "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时自动应用“Stub”标签"
+            "MAC": "搜索中按 Cmd + Return 键创建 Rem 时，为其添加 Stub 标签",
+            "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时，为其添加 Stub 标签"
           },
           "TITLE": "从搜索中创建 Stub"
         },
         "ENABLE_SPELLCHECK": {
-          "DESCRIPTION": "检查当前聚焦的 Rem 是否有拼写错误。拼写检查使用您浏览器或操作系统中选择的语言。",
+          "DESCRIPTION": "检查当前聚焦的 Rem 是否有拼写错误。拼写检查使用您浏览器或操作系统中选择的语言",
           "TITLE": "启用拼写检查"
         },
         "INSERT_EMOJIS_AS_REFERENCES": {
@@ -413,58 +413,58 @@
     },
     "EDITOR_INTERFACE": {
       "ENABLE_ZOOM_INTO_BULLET": {
-        "LABEL": "当您单击项目符号时，将 rem 作为全页显示。",
-        "TITLE": "启用项目符号缩放"
+        "LABEL": "当您单击项目符号时，将 rem 显式为整页",
+        "TITLE": "启用项目符号缩放功能"
       },
       "PREVIEW_REM_ON_HOVER": {
-        "LABEL": "鼠标悬停在引用上显示其内容的预览",
+        "LABEL": "当鼠标悬停在引用上时，显示其内容预览",
         "TITLE": "悬停预览引用"
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
-        "LABEL": "根据后代数量自动缩放项目符号。",
-        "TITLE": "自动缩放项目符号"
+        "LABEL": "根据子项数量调整项目符号大小",
+        "TITLE": "缩放折叠 Rem 的项目符号"
       },
       "SINGLE_CLICK_REFERENCES_TO_OPEN": {
-        "LABEL": "点击或轻触引用时立即跳转到目标内容，而不是打开引用菜单。（您始终可以通过右键单击来显示引用菜单）",
+        "LABEL": "单击或点击引用时，直接跳转到目标位置，而不是打开引用菜单。（您始终可以通过右键单击显示引用菜单）",
         "TITLE": "单击打开引用"
       },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
         "LABEL": "在编辑器中添加和删除 Rem 时启用动画效果",
-        "TITLE": "编辑器动画效果"
+        "TITLE": "编辑器动画效果更加流畅"
       }
     },
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "DESCRIPTION": "设置每天至少练习的记忆卡片数量，以建立连续练习的记录。",
+          "DESCRIPTION": "设置每天至少练习的记忆卡片数量，以建立连续练习的记录",
           "TITLE": "目标"
         },
         "TODAYS_TARGET": "今日目标：",
-        "TODAYS_TARGET_EXPLANATION": "如果 RemNote 预测到在未来一周内，您平均每天需要练习的卡片数少于您的每日目标，我们会暂时减少您的每日目标，以确保您每天的卡片数大致相等，避免出现前期复习过多，后期复习较少的情况。\n"
+        "TODAYS_TARGET_EXPLANATION": "如果 RemNote 预测到在未来一周内，您平均每天需要练习的卡片数低于您设置的每日目标，我们将暂时降低您的每日目标，以确保您每天的卡片数量大致相等，避免出现前期复习过多，后期复习较少的情况"
       },
       "GENERAL": {
         "AUTOPLAY_MEDIA": {
-          "DESCRIPTION": "自动播放记忆卡片上的音频或视频内容。",
+          "DESCRIPTION": "自动播放记忆卡片上的音频或视频内容",
           "TITLE": "自动播放媒体"
         },
         "AUTOPLAY_TEXT_TO_SPEECH": {
-          "DESCRIPTION": "当记忆卡片展示时，自动播放卡片正面的文字语音音频，同时显示卡片背面一次。",
+          "DESCRIPTION": "显示卡片时，自动播放卡片正面的文本音频，翻开后播放背面的音频",
           "TITLE": "自动播放文本转语音"
         },
         "LEARN_AHEAD_LIMIT": {
-          "DESCRIPTION": "当您已经练习了所有到期卡片后，我们会超前学习还未到期的卡片，避免在复习完成之后很快就要再次复习的情况。",
+          "DESCRIPTION": "在您完成所有到期卡片的练习后，我们可以提前多久调出尚未到期的卡片进行练习？这有助于避免您过早地再次复习同一内容",
           "TITLE": "超前学习限制"
         },
         "LEECH_THRESHOLD": {
-          "DESCRIPTION": "设置在困难卡片上按下“忘记”时发出警告的次数阈值。 <leechArticle>了解更多关于卡片标记的信息。</leechArticle>",
+          "DESCRIPTION": "当您在某张难卡上按“忘记”达到指定次数后，发出警告提示。<leechArticle>了解更多关于高遗忘项的信息</leechArticle>",
           "TITLE": "遗忘阈值"
         },
         "NEW_CARDS_PER_DAY": {
-          "DESCRIPTION": "设置每天允许加入记忆卡片队列的新卡片数量，因此新卡片以每天稳定的速度加入您的卡片队列，而不是一次性大批量地加入队列。",
+          "DESCRIPTION": "每天最多将新建闪卡加入您的复习队列的数量。这样新卡片每天将以稳定的频率进入队列，而不是一次性大量涌入复习队列",
           "TITLE": "每日最大新卡数量"
         },
         "NEXT_DAY_STARTS_AT": {
-          "DESCRIPTION": "设置每天新卡片加入在您的队列中的时间。",
+          "DESCRIPTION": "设置每天新卡片加入在您的队列中的时间",
           "TITLE": "次日起始时间"
         },
         "RESET_ALL": {
@@ -473,11 +473,11 @@
           "TITLE": "重置全部记忆卡片设置"
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
-          "DESCRIPTION": "在记忆卡片上只显示”忘记“和“部分记得”的反馈按钮。",
+          "DESCRIPTION": "在记忆卡片上只显示”忘记“和“部分记得”的反馈按钮",
           "TITLE": "简化记忆卡片按钮"
         },
         "STALE_CARDS_PER_DAY": {
-          "DESCRIPTION": "设置每天允许加入记忆卡片队列的过期卡片数量，过期卡片是因为您很长时间没有学习它们而被暂时从队列中撤回的卡片，一次性重新学习它们会很耗费精力。",
+          "DESCRIPTION": "设置每天允许加入记忆卡片队列的过期卡片数量，过期卡片是因为您很长时间没有学习它们而被暂时从队列中撤回的卡片，一次性重新学习它们会很耗费精力",
           "TITLE": "每日最多过期卡片数"
         },
         "TEXT_TO_SPEECH_SPEED": {
@@ -485,12 +485,12 @@
           "TITLE": "文本转语音的速度"
         },
         "TEXT_TO_SPEECH_VOICE": {
-          "DESCRIPTION": "用于文本转语音的声音。请注意某些声音仅适用于某些语言。",
+          "DESCRIPTION": "用于文本转语音的声音。请注意某些声音仅适用于某些语言",
           "SAMPLE": "线粒体是细胞的动力源。",
           "TITLE": "文本转语音"
         },
         "TYPE_ANSWER": {
-          "DESCRIPTION": "在每张记忆卡片的正面显示一个文本框，并将您输入的内容与卡片背面的答案进行比较。",
+          "DESCRIPTION": "在每张记忆卡片的正面显示一个文本框，并将您输入的内容与卡片背面的答案进行比较",
           "TITLE": "输入答案"
         }
       },
@@ -514,7 +514,7 @@
       },
       "STATISTICS": {
         "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
-          "DESCRIPTION": "如果您在卡片上回答所需的时间超过此值（以秒为单位），则超出的时间不会记录在统计数据中。",
+          "DESCRIPTION": "如果您在卡片上回答所需的时间超过此值（以秒为单位），则超出的时间不会记录在统计数据中",
           "TITLE": "最大记忆卡片回答时间"
         }
       },
