@@ -86,11 +86,11 @@
     "LOCAL_ONLY_WARN": "Este archivo no se ha subido correctamente y se encuentra almacenado temporalmente en tu ordenador.",
     "LOCAL_WAITING_FOR_UPLOAD_WARN": "Este archivo aún no se ha subido y está almacenado solo localmente.",
     "NOT_FOUND": "Este archivo no se puede encontrar.",
+    "NOT_YET_UPLOADED": "Este archivo aún no ha sido subido.",
     "SNIPPING": {
       "NON_PDF": "Por favor, intenta con una herramienta de recorte o pegado diferente, o contacta al soporte técnico.",
       "PDF": "Por favor, contactar al soporte técnico"
-    },
-    "NOT_YET_UPLOADED": "Este archivo aún no ha sido subido."
+    }
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Idioma",
