@@ -423,7 +423,7 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "DESCRIPTION": "Practice at least this many flashcards every day to build streaks.",
+          "DESCRIPTION": "Practice at least this many flashcards on a day to start or continue a streak.",
           "TITLE": "Goal"
         },
         "TODAYS_TARGET": "Today's Smoothed Goal:",
@@ -443,7 +443,7 @@
           "TITLE": "Learn Ahead Limit"
         },
         "LEECH_THRESHOLD": {
-          "DESCRIPTION": "Issue a warning after you press Forgot this many times on a difficult card. <leechArticle>Read more about leeches.</leechArticle>",
+          "DESCRIPTION": "Issue a warning when you forget a difficult card an excessive number of times. <leechArticle>Read more about leeches.</leechArticle>",
           "TITLE": "Leech Threshold"
         },
         "NEW_CARDS_PER_DAY": {
