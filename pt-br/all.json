@@ -54,13 +54,13 @@
       "CUSTOMIZE_SPACED_REPETITION": "Personalizar a Repetição Espaçada",
       "DELETE": "Deletar",
       "EDIT_MODE": {
-        "READ": "Modo Somente Leitura",
+        "READ": "Modo de Leitura",
         "WRITE": "Modo de Edição"
       },
       "EXPORT": "Exportar",
-      "FIND_OR_FILTER": "Localizar ou Filtrar",
+      "FIND_OR_FILTER": "Pesquisar ou Filtrar",
       "FIND_TEXT_REFERENCES": {
-        "DEPRECATION_WARNING": "Essa opção está obsoleta e recomenda-se que você use o método alternativo de pressionar <keycode /> e, em seguida, procurar referências de texto.",
+        "DEPRECATION_WARNING": "Essa opção está obsoleta, e é recomendável usar o método alternativo de pressionar <keycode /> e, em seguida, buscar as referências textuais",
         "LABEL": "Localizar Referências de Texto"
       },
       "MARK_AS_DOCUMENT": "Marcar como Documento",
