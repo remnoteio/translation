@@ -323,7 +323,12 @@
       "NOTIFICATIONS": {
         "DESCRIPTION": "Enviar lembretes sobre sua sequência diária de flashcards. Os lembretes são enviados às 18h todos os dias, no seu fuso horário local.",
         "TITLE": "Notificações de Sequência para o Celular"
-      }
+      },
+      "ADVANCED_KEYWORDS": "Senhas Avançadas",
+      "AUTHENTICATION_KEYWORDS": "Senhas de Autenticação",
+      "EXPORT_IMPORT_KEYWORDS": "Senhas de exportação e importação",
+      "NAVIGATION_KEYWORDS": "Senhas de navegação",
+      "PROFILE_KEYWORDS": "Senhas de perfil"
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Utilize seu crédito",
