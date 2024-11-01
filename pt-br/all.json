@@ -28,8 +28,8 @@
       "ERRORS": {
         "SHARING": {
           "NO_CONTENT": {
-            "SRC": "O documento que você está tentando compartilhar parece um pouco vazio. Adicione pelo menos {{minimum}} Rems e tente novamente.",
-            "SUBDOCUMENT": "Um dos seus subdocumentos parece um pouco vazio. Não será publicado até que tenha {{minimum}} Rems."
+            "SRC": "O documento que você está tentando compartilhar tem pouco conteúdo. Adicione pelo menos alguns rems a ele e tente novamente.",
+            "SUBDOCUMENT": "Um dos seus subdocumentos parece um pouco vazio. Ele não será publicado até que tenha o mínimo de Rems"
           },
           "NO_TITLE": {
             "SRC": "O documento que você está tentando compartilhar não tem título. Você precisa adicionar um antes de publicá-lo.",
@@ -65,8 +65,8 @@
       },
       "MARK_AS_DOCUMENT": "Marcar como Documento",
       "MOVE": "Mover",
-      "MULTI_SELECTION_FOLDER": "Selecionar Várias Pastas/Documentos",
-      "MULTI_SELECTION_MODE": "Selecionar Vários Rems",
+      "MULTI_SELECTION_FOLDER": "Selecionar Múltiplas Pastas/Documentos",
+      "MULTI_SELECTION_MODE": "Selecionar múltiplos Rems",
       "OPEN_IN_ANOTHER_PANE": "Abrir em Outro Painel",
       "PIN_TO_SIDEBAR": "Fixar na Barra Lateral",
       "PRINT": "Imprimir",
@@ -157,13 +157,13 @@
     "ALL_NOTES": {
       "SORT": {
         "ASCENDING": "A -> Z",
-        "BY_CREATION_TIME": "Por tempo da criação",
+        "BY_CREATION_TIME": "Por tempo de criação",
         "BY_MODIFICATION": "Por modificação",
-        "BY_TITLE": "Por Título",
+        "BY_TITLE": "Por título",
         "DESCENDING": "Z -> A",
-        "OLDEST_FIRST": "Mais Antigo primeiro",
-        "RECENTLY_MODIFIED": "Modificado Recentemente",
-        "OLDEST_CREATION_FIRST": "Criação Mais Antiga primeiro",
+        "OLDEST_FIRST": "Mais antigo primeiro",
+        "RECENTLY_MODIFIED": "Modificado recentemente",
+        "OLDEST_CREATION_FIRST": "Criação mais antiga primeiro",
         "RECENTLY_CREATED": "Criado recentemente"
       },
       "TITLE": "Todas as Notas"
@@ -172,7 +172,7 @@
   "PDF": {
     "ADD_ANNOTATIONS": {
       "AI_DROPDOWN": {
-        "BASIC_CARDS": "Cards Básicos",
+        "BASIC_CARDS": "Cartas básicas",
         "BASIC_CARDS_TOOLTIP": "Gerar flashcards básicos de perguntas e respostas a partir do texto selecionado.",
         "CLOZE_CARDS": "Cartões Cloze (Preencher a lacuna)",
         "CLOZE_CARDS_TOOLTIP": "Gerar flashcards de cloze a partir do texto selecionado.",
