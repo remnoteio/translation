@@ -90,11 +90,11 @@
     "LOCAL_ONLY_WARN": "This file was not uploaded successfully, and is stored temporarily on your computer.",
     "LOCAL_WAITING_FOR_UPLOAD_WARN": "This file has not been uploaded yet, and is only stored locally.",
     "NOT_FOUND": "This file cannot be found.",
-    "NOT_YET_UPLOADED": "This file has not been uploaded yet.",
     "SNIPPING": {
       "NON_PDF": "Please try a different snipping/pasting tool, or contact support.",
       "PDF": "Please contact support."
-    }
+    },
+    "NOT_YET_UPLOADED": "This file has not been uploaded yet."
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Language",
@@ -179,12 +179,12 @@
       },
       "CLOZE_BTN_TOOLTIP": "Cloze (Fill-in-the-Blank) Flashcard",
       "COPY_IMAGE": "Copy Image",
-      "COPY_IMAGE_AS_TEXT": "Copy Image as Text With AI",
       "COPY_TEXT": "Copy as Plain Text",
       "HIGHLIGHT": "Highlight",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Make Image Occlusion Flashcards",
       "NOTE_BTN_TOOLTIP": "Note",
-      "NO_TEXT_IN_PDF_WARN": "This file does not contain a text layer, but you can still use area highlights to annotate."
+      "NO_TEXT_IN_PDF_WARN": "This file does not contain a text layer, but you can still use area highlights to annotate.",
+      "COPY_IMAGE_AS_TEXT": "Copy Image as Text With AI"
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "Advanced Linking Options",
@@ -611,15 +611,15 @@
       "ENABLE_DUE_CARDS_TITLE": "Due cards badge",
       "ENABLE_EMAIL_LABEL": "Receive notifications directly to your inbox",
       "ENABLE_EMAIL_TITLE": "Enable email community notifications",
-      "ENABLE_EXAM_TITLE": "Exam reminders",
-      "ENABLE_EXAM_DESCRIPTION": "Receive emails if you're behind on preparing for an exam",
       "ENABLE_PUSH_LABEL": "Receive notifications directly to your device",
       "ENABLE_PUSH_TITLE": "Push notifications",
       "ENABLE_STREAK_DESCRIPTION": "Receive a reminder at 6pm if you still need to practice to keep your streak",
       "ENABLE_STREAK_TITLE": "Streak notifications",
       "PUSH_ENABLE_MESSAGE": "Push notifications aren't configured on this device. Click here to set them up!",
       "TOGGLE_LABEL": "Control which notifications you want to receive directly to your device",
-      "TOGGLE_TITLE": "Notify when:"
+      "TOGGLE_TITLE": "Notify when:",
+      "ENABLE_EXAM_TITLE": "Exam reminders",
+      "ENABLE_EXAM_DESCRIPTION": "Receive emails if you're behind on preparing for an exam"
     },
     "PLANS": {
       "KEYWORDS": "invite friends plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options",
@@ -770,9 +770,9 @@
     "CREATE_TEMPLATE": "Create Template",
     "HIDE_CONFIGURATION": "Hide Configuration",
     "NEW_TEMPLATE": "New Template",
-    "PROPERTIES_HELP_TEXT": [
-      "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
-    ],
+    "PROPERTIES_HELP_TEXT": {
+      "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
+    },
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Property",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Properties",
     "PROPERTY_one": "Property",

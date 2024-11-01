@@ -98,7 +98,8 @@
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Idioma",
-    "TRANSLATION_INFO_SETTINGS": "A tradução ainda está em andamento.<br> Você pode nos ajudar lendo o <guideLink>tutorial</guideLink> e então usando nosso <editorLink>editor web</editorLink> ."
+    "TRANSLATION_INFO_SETTINGS": "A tradução ainda está em andamento.<br> Você pode nos ajudar lendo o <guideLink>tutorial</guideLink> e então usando nosso <editorLink>editor web</editorLink> .",
+    "TRANSLATION_IN_PROGRESS": "Tradução Em Progresso"
   },
   "NOTIFICATIONS": {
     "ARTICLE_DEFAULT": "Seu documento",
