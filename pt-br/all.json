@@ -43,8 +43,8 @@
     "DIALOGS": {
       "DELETE_ALSO_UNSHARE": "Você também deseja cancelar o compartilhamento do documento?",
       "DELETE_CONFIRM_DIALOG": "Tem certeza de que deseja excluir este documento?",
-      "DELETE_UNSHARE_ERROR": "Ocorreu um erro ao cancelar o compartilhamento deste documento. Descompartilhe-o manualmente.",
-      "DELETE_UNSHARE_OFFLINE_ERROR": "Você está off-line. Descompartilhe o documento manualmente quando estiver on-line novamente."
+      "DELETE_UNSHARE_ERROR": "Ocorreu um erro ao cancelar o compartilhamento deste documento. Por favor, cancele-o manualmente.",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "Você está off-line. Cancele o compartilhamento do documento manualmente quando estiver on-line novamente."
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "Adicionar Documento Aninhado",
@@ -52,7 +52,7 @@
       "CHANGE_DOCUMENT_STATUS": "Alterar Status do Documento",
       "CHANGE_FOLDER_ICON": "Alterar Ícone da Pasta",
       "CUSTOMIZE_SPACED_REPETITION": "Personalizar a Repetição Espaçada",
-      "DELETE": "Excluir",
+      "DELETE": "Deletar",
       "EDIT_MODE": {
         "READ": "Modo Somente Leitura",
         "WRITE": "Modo de Edição"
