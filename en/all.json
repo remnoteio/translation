@@ -341,13 +341,13 @@
       "INVITE_TEXT": "Invite Friends",
       "KEYWORDS": "invite friends earn credit plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options",
       "NOT_CONFIRMED_EMAIL": " (has not confirmed email)",
-      "REMAINING_CREDITS": "Remaining Credits",
+      "REMAINING_MONTHS": "Remaining Months",
       "SEND_INVITE": "Send invite",
       "SHARE_LINK": "Share link",
       "TITLE": "Credits",
       "TOAST_RENEW": "Your credits will be applied automatically when your current subscription renews.",
       "TOAST_SUBSCRIBE": "Your credits will be applied automatically when you subscribe to RemNote Pro. Choose a plan below to get started!",
-      "TOTAL_CREDITS_EARNED": "Total Credits Earned",
+      "TOTAL_MONTHS_EARNED": "Total Months of Pro Earned",
       "VERIFY_EMAIL": "To invite someone, verify your email first."
     },
     "EDITOR": {
