@@ -347,7 +347,7 @@
       "INVITE_COPIED": "已复制邀请链接！",
       "INVITE_EMAIL": "通过电子邮件邀请",
       "INVITE_ERROR": "出了点问题，请稍后再试",
-      "INVITE_FRIENDS_EARN_CREDIT": "每邀请一个朋友，您将获得 {{monthlyPrice}} 的 RemNote 积分！他们也将获得 {{monthlyPrice}} 的起始积分",
+      "INVITE_FRIENDS_EARN_CREDIT": "当您邀请的人开始使用 RemNote 时，你们双方都会获得一个月的积分奖励。",
       "INVITE_FRIENDS_REMNOTE": "邀请您的朋友加入 RemNote！",
       "INVITE_TEXT": "邀请朋友",
       "KEYWORDS": "邀请朋友赚取积分 订阅计划 更改订阅 赚取积分 免费 RemNote 发送推文 邮件 选择计划 终身学习 Pro 功能详解 定价选项",
