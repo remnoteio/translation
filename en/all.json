@@ -252,11 +252,10 @@
         "TITLE": "Today's Document"
       },
       "UPLOAD_FILE": {
-        "DESCRIPTION": "Highlight & reference PDFs, PPTs, Word docs, etc.",
+        "DESCRIPTION": "Highlight & reference YT Videos, PDFs, PPTs, Word docs, etc.",
         "FEATURE_NAME": "PDF Highlighting",
         "PAYWALL": "You have reached your limit for PDF uploads.",
-        "TITLE": "Upload & Annotate File",
-        "todo_for_the_item_below": "move this into a global feature name object?"
+        "TITLE": "Upload & Annotate File"
       }
     }
   },
