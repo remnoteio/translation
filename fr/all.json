@@ -90,11 +90,11 @@
     "LOCAL_ONLY_WARN": "Nous n'avons pas pu mettre ce fichier en ligne, et il a été sauvegardé temporairement sur votre appareil.",
     "LOCAL_WAITING_FOR_UPLOAD_WARN": "Ce fichier n'a pas encore été mis en ligne, il est uniquement sauvegardé localement.",
     "NOT_FOUND": "Ce fichier est introuvable.",
+    "NOT_YET_UPLOADED": "Ce fichier n'a pas encore été mis en ligne.",
     "SNIPPING": {
       "NON_PDF": "Merci d'essayer un autre outil de capture/collage, ou contactez notre support.",
       "PDF": "Merci de contacter le support."
-    },
-    "NOT_YET_UPLOADED": "Ce fichier n'a pas encore été mis en ligne."
+    }
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Langue",
