@@ -28,8 +28,8 @@
       "ERRORS": {
         "SHARING": {
           "NO_CONTENT": {
-            "SRC": "O documento que você está tentando compartilhar parece um pouco vazio. Adicione pelo menos {{minimum}} Rems e tente novamente.",
-            "SUBDOCUMENT": "Um dos seus subdocumentos parece um pouco vazio. Não será publicado até que tenha {{minimum}} Rems."
+            "SRC": "O documento que você está tentando compartilhar tem pouco conteúdo. Adicione pelo menos alguns rems a ele e tente novamente.",
+            "SUBDOCUMENT": "Um dos seus subdocumentos parece um pouco vazio. Ele não será publicado até que tenha o mínimo de Rems"
           },
           "NO_TITLE": {
             "SRC": "O documento que você está tentando compartilhar não tem título. Você precisa adicionar um antes de publicá-lo.",
@@ -43,8 +43,8 @@
     "DIALOGS": {
       "DELETE_ALSO_UNSHARE": "Você também deseja cancelar o compartilhamento do documento?",
       "DELETE_CONFIRM_DIALOG": "Tem certeza de que deseja excluir este documento?",
-      "DELETE_UNSHARE_ERROR": "Ocorreu um erro ao cancelar o compartilhamento deste documento. Descompartilhe-o manualmente.",
-      "DELETE_UNSHARE_OFFLINE_ERROR": "Você está off-line. Descompartilhe o documento manualmente quando estiver on-line novamente."
+      "DELETE_UNSHARE_ERROR": "Ocorreu um erro ao cancelar o compartilhamento deste documento. Por favor, cancele-o manualmente.",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "Você está off-line. Cancele o compartilhamento do documento manualmente quando estiver on-line novamente."
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "Adicionar Documento Aninhado",
@@ -52,21 +52,21 @@
       "CHANGE_DOCUMENT_STATUS": "Alterar Status do Documento",
       "CHANGE_FOLDER_ICON": "Alterar Ícone da Pasta",
       "CUSTOMIZE_SPACED_REPETITION": "Personalizar a Repetição Espaçada",
-      "DELETE": "Excluir",
+      "DELETE": "Deletar",
       "EDIT_MODE": {
-        "READ": "Modo Somente Leitura",
+        "READ": "Modo de Leitura",
         "WRITE": "Modo de Edição"
       },
       "EXPORT": "Exportar",
-      "FIND_OR_FILTER": "Localizar ou Filtrar",
+      "FIND_OR_FILTER": "Pesquisar ou Filtrar",
       "FIND_TEXT_REFERENCES": {
-        "DEPRECATION_WARNING": "Essa opção está obsoleta e recomenda-se que você use o método alternativo de pressionar <keycode /> e, em seguida, procurar referências de texto.",
+        "DEPRECATION_WARNING": "Essa opção está obsoleta, e é recomendável usar o método alternativo de pressionar <keycode /> e, em seguida, buscar as referências textuais",
         "LABEL": "Localizar Referências de Texto"
       },
       "MARK_AS_DOCUMENT": "Marcar como Documento",
       "MOVE": "Mover",
-      "MULTI_SELECTION_FOLDER": "Selecionar Várias Pastas/Documentos",
-      "MULTI_SELECTION_MODE": "Selecionar Vários Rems",
+      "MULTI_SELECTION_FOLDER": "Selecionar Múltiplas Pastas/Documentos",
+      "MULTI_SELECTION_MODE": "Selecionar múltiplos Rems",
       "OPEN_IN_ANOTHER_PANE": "Abrir em Outro Painel",
       "PIN_TO_SIDEBAR": "Fixar na Barra Lateral",
       "PRINT": "Imprimir",
@@ -98,7 +98,8 @@
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Idioma",
-    "TRANSLATION_INFO_SETTINGS": "A tradução ainda está em andamento.<br> Você pode nos ajudar lendo o <guideLink>tutorial</guideLink> e então usando nosso <editorLink>editor web</editorLink> ."
+    "TRANSLATION_INFO_SETTINGS": "A tradução ainda está em andamento.<br> Você pode nos ajudar lendo o <guideLink>tutorial</guideLink> e então usando nosso <editorLink>editor web</editorLink> .",
+    "TRANSLATION_IN_PROGRESS": "Tradução Em Progresso"
   },
   "NOTIFICATIONS": {
     "ARTICLE_DEFAULT": "Seu documento",
@@ -156,13 +157,13 @@
     "ALL_NOTES": {
       "SORT": {
         "ASCENDING": "A -> Z",
-        "BY_CREATION_TIME": "Por tempo da criação",
+        "BY_CREATION_TIME": "Por tempo de criação",
         "BY_MODIFICATION": "Por modificação",
-        "BY_TITLE": "Por Título",
+        "BY_TITLE": "Por título",
         "DESCENDING": "Z -> A",
-        "OLDEST_FIRST": "Mais Antigo primeiro",
-        "RECENTLY_MODIFIED": "Modificado Recentemente",
-        "OLDEST_CREATION_FIRST": "Criação Mais Antiga primeiro",
+        "OLDEST_FIRST": "Mais antigo primeiro",
+        "RECENTLY_MODIFIED": "Modificado recentemente",
+        "OLDEST_CREATION_FIRST": "Criação mais antiga primeiro",
         "RECENTLY_CREATED": "Criado recentemente"
       },
       "TITLE": "Todas as Notas"
@@ -171,7 +172,7 @@
   "PDF": {
     "ADD_ANNOTATIONS": {
       "AI_DROPDOWN": {
-        "BASIC_CARDS": "Cards Básicos",
+        "BASIC_CARDS": "Cartas básicas",
         "BASIC_CARDS_TOOLTIP": "Gerar flashcards básicos de perguntas e respostas a partir do texto selecionado.",
         "CLOZE_CARDS": "Cartões Cloze (Preencher a lacuna)",
         "CLOZE_CARDS_TOOLTIP": "Gerar flashcards de cloze a partir do texto selecionado.",
@@ -322,7 +323,12 @@
       "NOTIFICATIONS": {
         "DESCRIPTION": "Enviar lembretes sobre sua sequência diária de flashcards. Os lembretes são enviados às 18h todos os dias, no seu fuso horário local.",
         "TITLE": "Notificações de Sequência para o Celular"
-      }
+      },
+      "ADVANCED_KEYWORDS": "Senhas Avançadas",
+      "AUTHENTICATION_KEYWORDS": "Senhas de Autenticação",
+      "EXPORT_IMPORT_KEYWORDS": "Senhas de exportação e importação",
+      "NAVIGATION_KEYWORDS": "Senhas de navegação",
+      "PROFILE_KEYWORDS": "Senhas de perfil"
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Utilize seu crédito",
