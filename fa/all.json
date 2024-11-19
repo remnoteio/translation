@@ -90,6 +90,7 @@
     "LOCAL_ONLY_WARN": "این فایل با موفقیت آپلود نشد و به طور موقت در رایانه شما ذخیره می شود.",
     "LOCAL_WAITING_FOR_UPLOAD_WARN": "این فایل هنوز آپلود نشده است و فقط به صورت محلی ذخیره می شود.",
     "NOT_FOUND": "این فایل یافت نمی شود.",
+    "NOT_YET_UPLOADED": "این فایل هنوز آپلود نشده است.",
     "SNIPPING": {
       "NON_PDF": "این فایل هنوز آپلود نشده است.",
       "PDF": "لطفا با پشتیبانی تماس بگیرید."
@@ -102,7 +103,98 @@
   "NOTIFICATIONS": {
     "ARTICLE_DEFAULT": "سند شما",
     "ARTICLE_VIEWS": {
-      "BODY_1": "سند شما"
+      "BODY_1": "سند شما",
+      "BODY_2": "{{viewCount, number}} بازدید داشته است"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "به اضافه شد"
+    },
+    "EMPTY_STATE_MESSAGE": "محتوای جدیدی ندارید! هنگامی که شخصی با محتوای به اشتراک گذاشته شده توسط شما تعامل داشته باشد، اعلان‌هایی دریافت خواهید کرد<profileLink> نمایه</profileLink>",
+    "EMPTY_STATE_TITLE": "هیچ اعلان اخیری ندارید",
+    "GROUP_DEFAULT": "گروه شما",
+    "IMPORT": {
+      "BODY": "شخصی سند شما را وارد کرده است"
+    },
+    "INVITE": {
+      "ACCEPT": "پذیرش دعوت",
+      "BODY": "شما را دعوت به پیوستن کرده است",
+      "REJECT": "رد کردن"
+    },
+    "NEW_COMMENT": {
+      "BODY": "نظر داد",
+      "BODY_ARTICLE": "در مورد سند شما نظر داد",
+      "BODY_COMMENT": "به نظر شما پاسخ داد",
+      "BODY_GROUP": "یک چت به گروه شما ارسال کرد"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "شما را دنبال کرد"
+    },
+    "NEW_LIKE": {
+      "BODY": "دوست داشت"
+    },
+    "POPUP_TITLE": "اطلاعیه‌های اخیر"
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "یک پوشه ایجاد کنید"
+        },
+        "PAGE_1": {
+          "TITLE": "یک نکته نما اضافه کنید"
+        },
+        "PAGE_2": {
+          "TITLE": "یک فلش کارت ایجاد کنید"
+        },
+        "PAGE_3": {
+          "TITLE": "با Tab به یادداشت‌ها ساختار بدهید"
+        }
+      }
+    }
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "SORT": {
+        "ASCENDING": "الف -> ی",
+        "BY_CREATION_TIME": "بر اساس زمان ایجاد",
+        "BY_MODIFICATION": "بر اساس زمان اصلاح",
+        "BY_TITLE": "بر اساس عنوان",
+        "DESCENDING": "ی -> الف",
+        "OLDEST_FIRST": "اول قدیمی ترین",
+        "RECENTLY_MODIFIED": "اول جدیدترین"
+      },
+      "TITLE": "همه یادداشت‌ها"
+    }
+  },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "AI_DROPDOWN": {
+        "BASIC_CARDS": "کارت‌های پایه",
+        "BASIC_CARDS_TOOLTIP": "فلش کارت های اساسی پرسش و پاسخ را از متن انتخاب شده ایجاد کنید.",
+        "CLOZE_CARDS": "کارت های جای خالی",
+        "CLOZE_CARDS_TOOLTIP": "فلش کارت های جای خالی را از متن انتخاب شده ایجاد کنید.",
+        "CONCEPT_CARDS": "کارت‌های مفهومی",
+        "CONCEPT_CARDS_TOOLTIP": "از متن انتخاب شده، فلش کارت های توصیف کننده مفهوم ایجاد کنید.",
+        "GENERATE_SECTION": "ساختن"
+      },
+      "CLOZE_BTN_TOOLTIP": "فلش کارت جای خالی",
+      "COPY_IMAGE": "کپی تصویر",
+      "COPY_IMAGE_AS_TEXT": "کپی تصویر به عنوان متن با هوش مصنوعی",
+      "COPY_TEXT": "به صورت متن ساده کپی کنید",
+      "HIGHLIGHT": "برجسته کردن",
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "فلش کارت‌های پوشاندن تصویر بسازید",
+      "NOTE_BTN_TOOLTIP": "یادداشت",
+      "NO_TEXT_IN_PDF_WARN": "این فایل حاوی لایه متنی نیست، اما همچنان می‌توانید از نقاط برجسته منطقه برای حاشیه نویسی استفاده کنید."
+    },
+    "EDIT_ANNOTATIONS": {
+      "ADVANCED_LINKING_OPTIONS": "گزینه‌های پیوند پیشرفته",
+      "DELETE_WARNING": "این هایلایت دارای {{notesCount, number}} {{ notesWord }} است. آیا مطمئن هستید که می خواهید آن را حذف کنید؟",
+      "TURN_INTO_CONCEPT": "تبدیل به مفهوم",
+      "VIEW_REFERENCES": "مشاهده مراجع"
+    },
+    "HEADER": {
+      "AREA_HIGHLIGHT_TOOLTIP": "هایلایت کردن محدوده ( {{keyName}} + Drag)",
+      "NUMBER_OF_PAGES_TOOLTIP": "تعداد صفحات"
     }
   }
 }
