@@ -4,7 +4,7 @@
       "APPLY": "Aplicar",
       "COPY": "Copiar",
       "CREATE": "Criar",
-      "DELETE": "Deletar",
+      "DELETE": "Excluir",
       "DUPLICATE": "Duplicar",
       "EDIT": "Editar",
       "HIDE": "Ocultar",
@@ -52,7 +52,7 @@
       "CHANGE_DOCUMENT_STATUS": "Alterar Status do Documento",
       "CHANGE_FOLDER_ICON": "Alterar Ícone da Pasta",
       "CUSTOMIZE_SPACED_REPETITION": "Personalizar a Repetição Espaçada",
-      "DELETE": "Deletar",
+      "DELETE": "Excluir",
       "EDIT_MODE": {
         "READ": "Modo de Leitura",
         "WRITE": "Modo de Edição"
@@ -357,6 +357,7 @@
       "TITLE": "Ganhe Créditos",
       "TOAST_RENEW": "Seus créditos serão aplicados automaticamente quando sua assinatura atual for renovada.",
       "TOAST_SUBSCRIBE": "Seus créditos serão aplicados automaticamente quando você assinar o RemNote Pro. Escolha um plano abaixo para começar!",
+      "TOTAL_MONTHS_EARNED": "Total de Meses Pro Adquiridos",
       "VERIFY_EMAIL": "Para convidar alguém, primeiro verifique seu e-mail."
     },
     "EDITOR": {
@@ -735,17 +736,17 @@
       "TABLE_CONFIGURATION": {
         "ADD_LIST_VIEW_TITLE": "Adicionar Visualização em Lista",
         "ADD_TABLE_VIEW_TITLE": "Adicionar Visualização em Tabela",
-        "ALL": "Tudo",
+        "ALL": "Todos",
         "CELL_LIST_HEIGHT": {
           "CELL_LIST_HEIGHT_TITLE": "Altura das Celulas da Lista",
           "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Celulas podem conter múltiplos itens de lista! Limite a altura das celulas para facilitar a visualização. ",
           "COMFORTABLE_TITLE": "Confortável",
           "COMPACT_TITLE": "Compacto",
-          "FULL_TITLE": "Tudo"
+          "FULL_TITLE": "Cheio"
         },
         "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Configurar Tag & Editar Modelos",
-        "DELETE_LIST": "Deletar Lista",
-        "DELETE_TABLE": "Deletar Tabela",
+        "DELETE_LIST": "Excluir Lista",
+        "DELETE_TABLE": "Excluir Tabela",
         "DUPLICATE_LIST_VIEW_TITLE": "Duplicar Visualização da Lista",
         "DUPLICATE_TABLE_VIEW_TITLE": "Duplicar Vizualização da Tabela",
         "DUPLICATE_VIEW_MESSAGE_COMMON": "Duplique uma visualização para aplicar um novo filtro, ordenamento, ou mais! O conteúdo é compartilhado entre visualização de uma mesma fonte, para que você não acabe com instâncias acidentalmente duplicadas.",
