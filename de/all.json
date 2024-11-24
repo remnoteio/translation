@@ -544,11 +544,21 @@
         "DESCRIPTION": "Passen Sie die Zuordnung der Tastenkombinationen für Tastaturkürzel an.",
         "TITLE": "Tastaturkürzel ändern"
       },
+      "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
+        "TITLE": "Standardmäßig ältere Tastaturkürzel verwenden"
+      },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
         "DESCRIPTION": "Geben Sie // anstelle von / ein, um beim Bearbeiten von Rems Befehle auszulösen.",
         "TITLE": "Doppelter Schrägstrich für Befehlsmenü"
       },
+      "ENTER_TO_OUTDENT": {
+        "TITLE": "Drücken Sie die Eingabetaste, um den Einzug zu verkleinern"
+      },
       "SPLIT_WITH_ALT_ENTER": {
+        "DESCRIPTION": {
+          "MAC": "Teilen Sie Text in einzelne Rems auf, indem Sie in der Mitte eines Rems die Tastenkombination Opt+Return drücken.",
+          "PC": "Teilen Sie Text in einzelne Rems auf, indem Sie in der Mitte eines Rems Alt+Eingabe drücken."
+        },
         "TITLE": {
           "MAC": "Mit Opt+Return aufteilen",
           "PC": "Mit Alt+Enter auteilen"
@@ -558,10 +568,12 @@
     "NOTIFICATIONS": {
       "DESCRIPTIONS": {
         "ARTICLE_VIEWS": {
-          "LABEL": "Lassen Sie sich benachrichtigen, wenn Ihr freigegebenes Dokument signifikante Aufrufe erhält"
+          "LABEL": "Lassen Sie sich benachrichtigen, wenn Ihr freigegebenes Dokument signifikante Aufrufe erhält",
+          "TITLE": "Benachrichtigungen zu Dokumentansichten"
         },
         "DOCUMENT_ADDED_TO_GROUP": {
-          "LABEL": "Lassen Sie sich benachrichtigen, wenn ein Dokument zu Ihrer Gruppe hinzugefügt wird"
+          "LABEL": "Lassen Sie sich benachrichtigen, wenn ein Dokument zu Ihrer Gruppe hinzugefügt wird",
+          "TITLE": "Dokument zur Gruppenbenachrichtigung hinzugefügt"
         },
         "INVITE": {
           "LABEL": "Lassen Sie sich benachrichtigen, wenn Sie zu einer Gruppe eingeladen wurden",
@@ -584,13 +596,16 @@
           "TITLE": "Strähne-Benachrichtigungen"
         }
       },
+      "ENABLE_COMMUNITY_LABEL": "Erhalten Sie sofortige Benachrichtigungen, wenn jemand mit Ihren freigegebenen Inhalten interagiert.",
       "ENABLE_COMMUNITY_TITLE": "Benachrichtigungen zu freigegebenen Lernkarten",
       "ENABLE_DUE_CARDS_TITLE": "Abzeichen für fällige Karten",
       "ENABLE_EMAIL_LABEL": "Erhalten Sie Benachrichtigungen direkt in Ihren Posteingang",
       "ENABLE_EMAIL_TITLE": "E-Mail-Benachrichtigungen aktivieren?",
       "ENABLE_PUSH_LABEL": "Erhalten Sie Benachrichtigungen direkt auf Ihr Gerät",
       "ENABLE_PUSH_TITLE": "Push-Benachrichtigungen aktivieren?",
+      "ENABLE_STREAK_DESCRIPTION": "Erhalten Sie täglich um 18 Uhr Erinnerungen an Ihre Karteikartenserie.",
       "ENABLE_STREAK_TITLE": "Mobile Streak-Benachrichtigungen",
+      "PUSH_ENABLE_MESSAGE": "Push-Benachrichtigungen sind auf diesem Gerät nicht konfiguriert. Klicken Sie hier, um sie einzurichten.",
       "TOGGLE_LABEL": "Steuern Sie, welche Benachrichtigungen Sie direkt auf Ihrem Gerät/Posteingang erhalten möchten",
       "TOGGLE_TITLE": "Benachrichtigungen filtern"
     },
@@ -608,6 +623,7 @@
       },
       "PRIVACY_NOTE": "Datenschutz: Lesen Sie unsere<policyLink>Datenschutzrichtlinie</policyLink> , oder ändern Sie Ihre Einstellungen in unserem<hubLink> Datenschutz-Hub</hubLink> .",
       "SORT_SIDEBAR": {
+        "KEYWORDS": "Seitenleisten organisieren von A bis Z",
         "TITLE": "Seitenleiste sortieren"
       },
       "COMMUNITY_TAB": {
@@ -635,19 +651,25 @@
       "INVALID_URL": "Ungültige URL",
       "LABEL": "Link",
       "LINK": "Link",
+      "LINK_WITH_COUNT_one": "{{count, number}} Link",
+      "LINK_WITH_COUNT_other": "{{count, number}} Links",
       "OPEN_IN_READER": "Im Reader öffnen",
       "SEARCH_PLACEHOLDER": "Fügen Sie einen Link ein oder suchen Sie nach einer Referenz"
     },
     "UPLOAD_SOURCE": {
       "EMPTY": "Legen Sie PDFs, Word-Dokumente, PPTs und <moreLink> mehr</moreLink> hier ab!",
       "INVALID": "Falsches Dateiformat!",
+      "IMPORT_INSTEAD": "RemNote kann Datei-Uploads dieses Art nicht akzeptieren. Allerdings können wir die Notizen oder Karteikarten in dieser Datei möglicherweise importieren! Wählen Sie „Importieren“ aus dem Kontomenü oben links.",
       "LABEL": "Hochladen",
       "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Dateien auswählen",
       "SELECT_FILES_TO_UPLOAD": "Wählen Sie die Dateien zum Hochladen aus",
       "UPLOADING": "Hochladen..."
     },
     "WIKIMEDIA_COMMONS": {
+      "EMPTY": "Legen Sie PDFs, Word-Dokumente, PPTs und<moreLink> mehr</moreLink> Hier!",
       "INVALID": "Falsches Dateiformat!",
       "LABEL": "Bildersuche",
       "PDF": "PDF",
