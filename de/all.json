@@ -49,6 +49,7 @@
     "MENU": {
       "ADD_NESTED_DOCUMENT": "Verschachteltes Dokument hinzufügen",
       "CHANGE_DOCUMENT_STATUS": "Dokumentstatus ändern",
+      "CUSTOMIZE_SPACED_REPETITION": "Anpassen von Spaced Repetition",
       "DELETE": "Löschen",
       "EDIT_MODE": {
         "READ": "Nur-Lese-Modus",
@@ -119,7 +120,8 @@
     "NEW_COMMENT": {
       "BODY": "kommentiert",
       "BODY_ARTICLE": "hat auf Ihr Dokument kommentiert",
-      "BODY_COMMENT": "hat auf deinen Kommentar geantwortet"
+      "BODY_COMMENT": "hat auf deinen Kommentar geantwortet",
+      "BODY_GROUP": "einen Chat an deine Gruppe gesendet"
     },
     "NEW_FOLLOWER": {
       "BODY": "gefolgt"
@@ -177,6 +179,8 @@
       "COPY_IMAGE": "Bild kopieren",
       "COPY_TEXT": "Nur Text kopieren",
       "HIGHLIGHT": "Markieren",
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "Bildverdeckungs-Karteikarten erstellen",
+      "NO_TEXT_IN_PDF_WARN": "Diese Datei enthält keine Textebene, Sie können aber trotzdem Bereichshervorhebungen zum Kommentieren verwenden.",
       "NOTE_BTN_TOOLTIP": "Notiz"
     },
     "EDIT_ANNOTATIONS": {
@@ -185,16 +189,29 @@
       "VIEW_REFERENCES": "Referenzen anzeigen"
     },
     "HEADER": {
-      "NUMBER_OF_PAGES_TOOLTIP": "Seitenzahl"
+      "NUMBER_OF_PAGES_TOOLTIP": "Seitenzahl",
+      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "Standarddokument umschalten"
     },
     "PDF_OPTIONS": {
+      "CHANGE_THEME": "Design ändern",
       "DOWNLOAD_PDF": "PDF Herunterladen",
       "LEARN_MORE": "Erfahren Sie mehr",
+      "OPEN_WEBPAGE_EXTERNALLY": "Webseite extern öffnen",
       "PDF_SETTINGS": "Einstellungen",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "Automatische Hervorhebung",
+        "AUTO_HIGHLIGHT_TOOLTIP": "Automatisches Erstellen von Hervorhebungen nach der Textauswahl.",
+        "DISABLE_HEADER_BUTTONS": "Kopfzeilenschaltflächen deaktivieren",
+        "SNAP_HIGHLIGHT_TO_WORDS": "Hervorhebung an Wörtern ausrichten"
+      },
+      "REFETCH_PAGE": "Seite erneut abrufen",
+      "REFETCH_PAGE_TOOLTIP": "Diese Seite kann nicht erneut abgerufen werden, falls sie bereits Hervorhebungen enthält.",
       "SEARCH_IN_PDF": "PDF durchsuchen",
+      "SPLIT_PANES": "Geteilte Bereiche",
       "THEMES": {
         "DARK": "Dunkel",
-        "LIGHT": "Hell"
+        "LIGHT": "Hell",
+        "USE_REMNOTE_THEME": "verwende RemNote-Design"
       }
     },
     "SEARCH_CTRL_F": {
@@ -234,7 +251,8 @@
     }
   },
   "POWERUPS": {
-    "POWERUP_one": "Einschalten"
+    "POWERUP_one": "Einschalten",
+    "POWERUP_other": "Powerups"
   },
   "SETTINGS": {
     "ACCOUNT": {
@@ -381,6 +399,9 @@
       "PREVIEW_REM_ON_HOVER": {
         "LABEL": "Wenn Sie mit der Maus über eine Referenz fahren, wird eine Vorschau ihres Inhalts angezeigt.",
         "TITLE": "Vorschau der Referenzen beim Hovern"
+      },
+      "SCALE_COLLAPSED_REM_BULLETS": {
+        "LABEL": "Machen Sie den Ring um die Aufzählungsstelle größer oder kleiner, basierend auf der Anzahl der Nachkommenden Aufzählungen."
       },
       "SINGLE_CLICK_REFERENCES_TO_OPEN": {
         "LABEL": "Wenn Sie auf eine Referenz klicken oder tippen, gelangen Sie sofort zu ihrem Ziel, anstatt das Referenzmenü zu öffnen. (Sie können das Referenzmenü jederzeit durch einen Rechtsklick anzeigen.)",
@@ -627,8 +648,13 @@
       "UPLOADING": "Hochladen..."
     },
     "WIKIMEDIA_COMMONS": {
+      "INVALID": "Falsches Dateiformat!",
       "LABEL": "Bildersuche",
       "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
+      "SELECT_FILES": "Dateien auswählen",
+      "SELECT_FILES_TO_UPLOAD": "Dateien zum Hochladen auswählen",
       "UPLOADING": "Hochladen..."
     }
   },
@@ -644,6 +670,7 @@
       },
       "TABLE_CONFIGURATION": {
         "ADD_LIST_VIEW_TITLE": "Listenansicht hinzufügen",
+        "ADD_TABLE_VIEW_TITLE": "Tabellenansicht hinzufügen",
         "ALL": "Alle",
         "CELL_LIST_HEIGHT": {
           "CELL_LIST_HEIGHT_TITLE": "Zellenhöhe",
@@ -677,6 +704,7 @@
         "ZOOM_IN_TO_TABLE_TITLE": "In die Tabelle hineinzoomen"
       },
       "TAG": {
+        "EDIT_TABLE_NAME": "Tabellennamen bearbeiten",
         "PRESS_TO_SAVE": "Drücken Sie ↩ zum Speichern",
         "RENAME_TAG": "Etikett umbenennen",
         "TAG_TITLE": "Etikett Name",
@@ -686,6 +714,7 @@
     "PRIMARY_COLUMN_TITLE": "Name",
     "TABLE_CREATION": {
       "EXISTING_TAG": {
+        "DESCRIPTION": "Stellen Sie eine Verbindung zu einer vorhandenen {{viewName}} Quelle her.",
         "TITLE": "Vorhandenes Etikett  verwenden"
       },
       "NEW_TAG": {
@@ -718,8 +747,10 @@
     "PROPERTY_other": "Eigenschaften",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Eigenschaft",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Eigenschaften",
+    "SET_AS_AUTO_APPLY_TEMPLATE": "Als automatisch anzuwendende Vorlage festlegen",
     "TEMPLATE_one": "Vorlage",
     "TEMPLATE_other": "Vorlagen",
+    "TEMPLATE_WITH_COUNT_one": "{{count, number}} Vorlage",
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} Vorlagen",
     "TEMPLATES_HELP_TEXT": "Die Vorlage eines Tags ist ein RemNote-Dokument, das automatisch in getaggte Rems kopiert werden kann. Fügen Sie Überschriften, Checklisten und mehr direkt in Ihre Vorlage ein.",
     "TURN_OFF_AUTO_APPLY": "Deaktiviere „Automatisches anwenden“.",
