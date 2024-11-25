@@ -51,6 +51,7 @@
       "CHANGE_DOCUMENT_ICON": "Dokumentsymbol ändern",
       "CHANGE_DOCUMENT_STATUS": "Dokumentstatus ändern",
       "CHANGE_FOLDER_ICON": "Ordnersymbol ändern",
+      "CUSTOMIZE_SPACED_REPETITION": "Anpassen von Spaced Repetition",
       "DELETE": "Löschen",
       "EDIT_MODE": {
         "READ": "Nur-Lese-Modus",
@@ -274,7 +275,7 @@
     }
   },
   "POWERUPS": {
-    "POWERUP_one": "Einschalten",
+    "POWERUP_one": "Power-Up",
     "POWERUP_other": "Power-Ups"
   },
   "SETTINGS": {
@@ -579,7 +580,7 @@
       },
       "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
         "DESCRIPTION": "Nutze die alten Tastaturkürzel (vor dem August 2020 Update).",
-        "TITLE": "alte Tastaturkürzel verwenden"
+        "TITLE": "Standardmäßig ältere Tastaturkürzel verwenden"
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
         "DESCRIPTION": "Geben Sie // anstelle von / ein, um beim Bearbeiten von Rems Befehle auszulösen.",
@@ -587,7 +588,7 @@
       },
       "ENTER_TO_OUTDENT": {
         "LABEL": "Durch Drücken der Eingabetaste bei einem Rem ohne Inhalt und nicht auf der obersten Ebene des Dokuments wird die Einrückungsebene um eine Ebene verringert. (Wenn deaktiviert, bleibt es auf der gleichen Ebene und bleibt ein leeres Rem).",
-        "TITLE": "Zum Ausrücken Enter drücken"
+        "TITLE": "Drücken Sie die Eingabetaste, um den Einzug zu verkleinern"
       },
       "SPLIT_WITH_ALT_ENTER": {
         "DESCRIPTION": {
@@ -604,11 +605,11 @@
       "DESCRIPTIONS": {
         "ARTICLE_VIEWS": {
           "LABEL": "Lassen Sie sich benachrichtigen, wenn Ihr freigegebenes Dokument signifikante Aufrufe erhält",
-          "TITLE": "Benachrichtigungen zu Dokumentenzugriffen"
+          "TITLE": "Benachrichtigungen zu Dokumentansichten"
         },
         "DOCUMENT_ADDED_TO_GROUP": {
           "LABEL": "Lassen Sie sich benachrichtigen, wenn ein Dokument zu Ihrer Gruppe hinzugefügt wird",
-          "TITLE": "Dokument zur Gruppe hinzugefügt Benachrichtigung"
+          "TITLE": "Benachrichtigungen zu Gruppen-Dokumenten"
         },
         "INVITE": {
           "LABEL": "Lassen Sie sich benachrichtigen, wenn Sie zu einer Gruppe eingeladen wurden",
@@ -631,7 +632,7 @@
           "TITLE": "Strähne-Benachrichtigungen"
         }
       },
-      "ENABLE_COMMUNITY_LABEL": "Erhalte Direktbenachrichtigungen wenn jemand mit geteilten Inhalten von dir interagiert",
+      "ENABLE_COMMUNITY_LABEL": "Erhalte Benachrichtigungen, wenn jemand mit geteilten Inhalten von dir interagiert.",
       "ENABLE_COMMUNITY_TITLE": "Benachrichtigungen zu freigegebenen Lernkarten",
       "ENABLE_DUE_CARDS_LABEL": "Zeige die Gesamtanzahl an fälligen Karten als Benachrichtigungssymbol auf dem RemNote Appsymbol auf deinem Startbildschirm",
       "ENABLE_DUE_CARDS_TITLE": "Abzeichen für fällige Karten",
@@ -659,6 +660,7 @@
       },
       "PRIVACY_NOTE": "Datenschutz: Lesen Sie unsere<policyLink>Datenschutzrichtlinie</policyLink> , oder ändern Sie Ihre Einstellungen in unserem<hubLink> Datenschutz-Hub</hubLink> .",
       "SORT_SIDEBAR": {
+        "KEYWORDS": "Seitenleisten organisieren von A bis Z",
         "TITLE": "Seitenleiste sortieren"
       },
       "COMMUNITY_TAB": {
@@ -686,8 +688,8 @@
       "INVALID_URL": "Ungültige URL",
       "LABEL": "Link",
       "LINK": "Link",
-      "LINK_WITH_COUNT_one": "count, number Link",
-      "LINK_WITH_COUNT_other": "count, number Links",
+      "LINK_WITH_COUNT_one": "{{count, number}} Link",
+      "LINK_WITH_COUNT_other": "{{count, number}} Links",
       "OPEN_IN_READER": "Im Reader öffnen",
       "SEARCH_PLACEHOLDER": "Fügen Sie einen Link ein oder suchen Sie nach einer Referenz"
     },
@@ -695,23 +697,24 @@
       "EMPTY": "Legen Sie PDFs, Word-Dokumente, PPTs und <moreLink> mehr</moreLink> hier ab!",
       "IMPORT_INSTEAD": "RemNote kann Datei-Uploads dieser Art nicht akzeptieren. Möglicherweise können wir die Notizen oder Karteikarten in dieser Datei jedoch importieren! Wählen Sie „Importieren“ aus dem Kontomenü oben links.",
       "INVALID": "Falsches Dateiformat!",
+      "IMPORT_INSTEAD": "RemNote kann Datei-Uploads dieses Art nicht akzeptieren. Allerdings können wir die Notizen oder Karteikarten in dieser Datei möglicherweise importieren! Wählen Sie „Importieren“ aus dem Kontomenü oben links.",
       "LABEL": "Hochladen",
       "PDF": "PDF",
-      "PDF_WITH_COUNT_one": "count, number PDF",
-      "PDF_WITH_COUNT_other": "count, number PDFs",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Dateien auswählen",
       "SELECT_FILES_TO_UPLOAD": "Wählen Sie die Dateien zum Hochladen aus",
       "UPLOADING": "Hochladen..."
     },
     "WIKIMEDIA_COMMONS": {
-      "EMPTY": "PDFs, Word Dokumente, Powerpoints und <moreLink>mehr</moreLink> hier hineinziehen!",
+      "EMPTY": "Legen Sie PDFs, Word-Dokumente, PPTs und<moreLink> mehr</moreLink> Hier!",
       "INVALID": "Falsches Dateiformat!",
       "LABEL": "Bildersuche",
       "PDF": "PDF",
-      "PDF_WITH_COUNT_one": "count, number PDF",
-      "PDF_WITH_COUNT_other": "count, number PDFs",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Dateien auswählen",
-      "SELECT_FILES_TO_UPLOAD": "Dateien für den Upload auswählen",
+      "SELECT_FILES_TO_UPLOAD": "Dateien zum Hochladen auswählen",
       "UPLOADING": "Hochladen..."
     }
   },
@@ -771,7 +774,7 @@
     "PRIMARY_COLUMN_TITLE": "Name",
     "TABLE_CREATION": {
       "EXISTING_TAG": {
-        "DESCRIPTION": "Mit einer existierenden viewName Quelle verbinden",
+        "DESCRIPTION": "Mit einer existierenden {{viewName}} Quelle verbinden",
         "TITLE": "Vorhandenes Etikett  verwenden"
       },
       "NEW_TAG": {
