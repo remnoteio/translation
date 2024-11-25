@@ -65,6 +65,21 @@
     },
     "POPUP_TITLE": "Notifiche recenti"
   },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "Crea una cartella"
+        },
+        "PAGE_1": {
+          "TITLE": "Aggiungi un punto elenco"
+        },
+        "PAGE_2": {
+          "TITLE": "Crea una Flashcard"
+        }
+      }
+    }
+  },
   "PAGES": {
     "ALL_NOTES": {
       "SORT": {
@@ -73,10 +88,10 @@
         "BY_MODIFICATION": "Per modifica",
         "BY_TITLE": "Per titolo",
         "DESCENDING": "Z -> A",
-        "OLDEST_CREATION_FIRST": "Prima la creazione più vecchia",
         "OLDEST_FIRST": "Prima i più vecchi",
-        "RECENTLY_CREATED": "Creato di recente",
-        "RECENTLY_MODIFIED": "Modificato di recente"
+        "RECENTLY_MODIFIED": "Modificato di recente",
+        "OLDEST_CREATION_FIRST": "Prima la creazione più vecchia",
+        "RECENTLY_CREATED": "Creato di recente"
       },
       "TITLE": "Tutte le Note"
     }
@@ -156,16 +171,16 @@
       "CREDIT_BALANCE_TEXT": "Hai <bold>{{userCredit}}</bold> credito residuo e hai guadagnato <bold>{{userCreditEarned}}</bold> credito in totale. {{months}} mese o mesi rimanenti di RemNote Pro gratis.<br /><br /> Iscriviti a Pro per iniziare a utilizzare il tuo credito! Non ti verrà addebitato alcun importo fino all'esaurimento del credito.",
       "EMAIL_PLACEHOLDER": "mariorossi@gmail.com",
       "ENTER_VALID_EMAIL": "Inserire un'email valida!",
-      "FRIEND_ALREADY_ON_REMNOTE": "Il tuo amico è già in RemNote",
       "FRIENDS_TITLE": "Amici",
+      "FRIEND_ALREADY_ON_REMNOTE": "Il tuo amico è già in RemNote",
       "INVITE": "Invita",
+      "INVITED_YOU": " (ti ha invitato)",
       "INVITE_COPIED": "Link di invito copiato!",
       "INVITE_EMAIL": "Invita tramite e-mail",
       "INVITE_ERROR": "Qualcosa è andato storto. Per favore riprova più tardi.",
       "INVITE_FRIENDS_EARN_CREDIT": "Invita i tuoi amici a guadagnare credito! Riceverai <0>{{monthlyPrice}}</0> in credito RemNote quando la persona che inviti si registra per un account RemNote e lei riceverà anche <0>{{monthlyPrice}}</0> credito per iniziare.",
       "INVITE_FRIENDS_REMNOTE": "Invita i tuoi amici in RemNote!",
       "INVITE_TEXT": "Invita amici e guadagna credito",
-      "INVITED_YOU": " (ti ha invitato)",
       "NOT_CONFIRMED_EMAIL": " (non ha confermato l'email)",
       "SEND_INVITE": "Invia un invito",
       "SHARE_LINK": "Condividi il collegamento di invito",
@@ -229,8 +244,8 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "Obiettivo giornaliero massimo",
-          "DESCRIPTION": "Limita il numero di flashcard sulle quali RemNote ti chiederà di esercitarti per raggiungere il tuo obiettivo giornaliero a questo valore."
+          "DESCRIPTION": "Limita il numero di flashcard sulle quali RemNote ti chiederà di esercitarti per raggiungere il tuo obiettivo giornaliero a questo valore.",
+          "TITLE": "Obiettivo giornaliero massimo"
         },
         "TODAYS_TARGET": "Obiettivo di oggi:",
         "TODAYS_TARGET_EXPLANATION": "RemNote tenta di impostare il tuo obiettivo giornaliero in modo tale che, se raggiungi l'obiettivo ogni giorno, completerai tutte le carte destinate alla revisione nei prossimi 7 giorni. Tuttavia, l'obiettivo giornaliero non sarà mai superiore al massimo sopra impostato."
@@ -288,11 +303,11 @@
         "LABEL": "Espandi i documenti per utilizzare l'intera larghezza dello schermo.",
         "TITLE": "Intera larghezza"
       },
-      "IN_APP_SUGGESTIONS": {
-        "LABEL": "Mostra suggerimenti sulle funzionalità di RemNote che potresti provare nella parte superiore del documento."
-      },
       "INTERFACE": {
         "TITLE": "Linguaggio dell'interfaccia di RemNote"
+      },
+      "IN_APP_SUGGESTIONS": {
+        "LABEL": "Mostra suggerimenti sulle funzionalità di RemNote che potresti provare nella parte superiore del documento."
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "LABEL": "Mostra tutorial sulle funzionalità di RemNote che stai attualmente utilizzando nell'angolo dello schermo.",
@@ -504,31 +519,16 @@
     "PROPERTIES_HELP_TEXT": {
       "0": "Le proprietà descrivono un tag. Ad esempio, per un tag chiamato \"Libro\", aggiungi proprietà denominate Autore, Genere, Stato di lettura e altro!"
     },
-    "PROPERTY_one": "Proprietà",
-    "PROPERTY_other": "Proprietà",
     "PROPERTY_WITH_COUNT_one": "Proprietà {{count, number}}",
     "PROPERTY_WITH_COUNT_other": "Proprietà {{count, number}}",
+    "PROPERTY_one": "Proprietà",
+    "PROPERTY_other": "Proprietà",
     "SET_AS_AUTO_APPLY_TEMPLATE": "Imposta come modello ad applicazione automatica",
-    "TEMPLATE_one": "Modello",
-    "TEMPLATE_other": "Modelli",
     "TEMPLATE_WITH_COUNT_one": "Modello {{count, number}}",
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} Modelli",
+    "TEMPLATE_one": "Modello",
+    "TEMPLATE_other": "Modelli",
     "TURN_OFF_AUTO_APPLY": "Disattiva l'applicazione automatica",
     "VIEW_CONFIGURATION": "Configura etichetta"
-  },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "PAGE_0": {
-          "TITLE": "Crea una cartella"
-        },
-        "PAGE_1": {
-          "TITLE": "Aggiungi un punto elenco"
-        },
-        "PAGE_2": {
-          "TITLE": "Crea una Flashcard"
-        }
-      }
-    }
   }
 }

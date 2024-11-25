@@ -45,6 +45,24 @@
     },
     "POPUP_TITLE": "Thông Báo Gần Đây"
   },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "Tạo Một Thư Mục"
+        },
+        "PAGE_1": {
+          "TITLE": "Thêm một Dấu đầu dòng"
+        },
+        "PAGE_2": {
+          "TITLE": "Tạo một Flashcard"
+        },
+        "PAGE_3": {
+          "TITLE": "Sấp Xếp Ghi Chú Bằng Cách Sử Dụng Tab"
+        }
+      }
+    }
+  },
   "PAGES": {
     "ALL_NOTES": {
       "SORT": {
@@ -52,8 +70,8 @@
         "BY_MODIFICATION": "Theo sự sửa đổi",
         "BY_TITLE": "Theo tiêu đề",
         "OLDEST_FIRST": "Cũ nhất đầu tiên",
-        "RECENTLY_CREATED": "Được tạo gần đây",
-        "RECENTLY_MODIFIED": "Được sửa gần đây"
+        "RECENTLY_MODIFIED": "Được sửa gần đây",
+        "RECENTLY_CREATED": "Được tạo gần đây"
       },
       "TITLE": "Tất Cả Ghi Chú"
     }
@@ -149,8 +167,8 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "Mục tiêu hàng ngày tối đa",
-          "DESCRIPTION": "Giới hạn số lượng thẻ ghi chú RemNote sẽ yêu cầu bạn luyện tập để đạt được mục tiêu hàng ngày ở giá trị này."
+          "DESCRIPTION": "Giới hạn số lượng thẻ ghi chú RemNote sẽ yêu cầu bạn luyện tập để đạt được mục tiêu hàng ngày ở giá trị này.",
+          "TITLE": "Mục tiêu hàng ngày tối đa"
         },
         "TODAYS_TARGET": "Mục tiêu hôm nay:",
         "TODAYS_TARGET_EXPLANATION": "RemNote cố gắng đặt mục tiêu hàng ngày của bạn để nếu bạn đạt được mục tiêu hàng ngày, bạn sẽ hoàn thành tất cả các thẻ cần xem xét trong 7 ngày tiếp theo. Tuy nhiên, mục tiêu hàng ngày sẽ không bao giờ vượt quá mức tối đa đã đặt ra ở trên."
@@ -238,24 +256,6 @@
         "DELETE_LIST": "Xóa Danh sách",
         "DELETE_TABLE": "Xóa Bảng",
         "DUPLICATE_TABLE_VIEW_TITLE": "Nhân đôi Chế độ xem Bảng"
-      }
-    }
-  },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "PAGE_0": {
-          "TITLE": "Tạo Một Thư Mục"
-        },
-        "PAGE_1": {
-          "TITLE": "Thêm một Dấu đầu dòng"
-        },
-        "PAGE_2": {
-          "TITLE": "Tạo một Flashcard"
-        },
-        "PAGE_3": {
-          "TITLE": "Sấp Xếp Ghi Chú Bằng Cách Sử Dụng Tab"
-        }
       }
     }
   }

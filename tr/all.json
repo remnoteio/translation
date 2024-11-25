@@ -2,6 +2,7 @@
   "COMMON": {
     "ACTIONS": {
       "APPLY": "Uygula",
+      "COPY": "Kopyala",
       "CREATE": "Oluştur",
       "DELETE": "Sil",
       "DUPLICATE": "Çoğalt",
@@ -10,10 +11,21 @@
       "REMOVE": "Kaldır",
       "UPDATE": "Güncelle",
       "VIEW": "Bak"
-    }
+    },
+    "AI": {
+      "AI_FLASHCARDS": "AI Flaşkartları"
+    },
+    "GENERAL": {
+      "FLASHCARD_one": "Flaşkart",
+      "FLASHCARD_other": "Flaşkartlar",
+      "NOTE_one": "not",
+      "NOTE_other": "notlar"
+    },
+    "NEW": "Yeni"
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Dil",
+    "TRANSLATION_INFO_SETTINGS": "Çeviri hala devam etmektedir; İngilizce ve seçilen dilin bir karışımıyla karşılaşacaksınız.<br> <guideLink>eğitim</guideLink>'i inceleyerek ve ardından çevirilere yardımcı olmak için <editorLink>web editörümüzü</editorLink> kullanarak katkıda bulunabilirsiniz.",
     "TRANSLATION_IN_PROGRESS": "RemNote'un çevirisi hala devam ediyor. <0>Inlang'da</0> çevirilere katkıda bulunabilirsiniz."
   },
   "PAGES": {
@@ -24,12 +36,66 @@
         "BY_MODIFICATION": "Düzenlemeye göre",
         "BY_TITLE": "Başlığa göre",
         "DESCENDING": "Z -> A",
-        "OLDEST_CREATION_FIRST": "Önce en eski oluşturulan",
         "OLDEST_FIRST": "Önce en yaşlı",
-        "RECENTLY_CREATED": "Yeni oluşturulmuş",
-        "RECENTLY_MODIFIED": "Yeni değiştirilmiş"
+        "RECENTLY_MODIFIED": "Yeni değiştirilmiş",
+        "OLDEST_CREATION_FIRST": "Önce en eski oluşturulan",
+        "RECENTLY_CREATED": "Yeni oluşturulmuş"
       },
       "TITLE": "Tüm Notlar"
+    }
+  },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "AI_DROPDOWN": {
+        "GENERATE_SECTION": "OLUŞTUR"
+      },
+      "HIGHLIGHT": "Vurgula",
+      "NOTE_BTN_TOOLTIP": "Not"
+    },
+    "EDIT_ANNOTATIONS": {
+      "VIEW_REFERENCES": "Referansları Görüntüle"
+    },
+    "HEADER": {
+      "NUMBER_OF_PAGES_TOOLTIP": "sayfa sayısı"
+    },
+    "PDF_OPTIONS": {
+      "DOWNLOAD_PDF": "PDF'yi indir",
+      "LEARN_MORE": "Daha fazla öğren",
+      "OPEN_WEBPAGE_EXTERNALLY": "Web sayfasını harici olarak aç",
+      "PDF_SETTINGS": "Ayarlar",
+      "SEARCH_IN_PDF": "PDF'de ara",
+      "THEMES": {
+        "DARK": "Karanlık",
+        "LIGHT": "Aydınlık"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "INPUT_PLACEHOLDER": "Ara"
+    }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "TITLE": "Belge"
+      },
+      "FOLDER": {
+        "DESCRIPTION": "Belgeleri klasörlere ayırın.",
+        "TITLE": "Klasör"
+      },
+      "QUICK_ADD": {
+        "TITLE": "Hızlı Ekle"
+      },
+      "TABLE_TAG": {
+        "TITLE": "Etiket ve Tablo"
+      },
+      "TODAYS_DOCUMENT": {
+        "TITLE": "Bugünün Belgesi"
+      },
+      "UPLOAD_FILE": {
+        "FEATURE_NAME": "PDF Vurgulama",
+        "PAYWALL": "PDF yükleme sınırınıza ulaştınız.",
+        "TITLE": "Dosyayı Yükle ve Açıklama Ekle"
+      }
     }
   },
   "POWERUPS": {
@@ -40,11 +106,242 @@
     "ACCOUNT": {
       "ADVANCED_TITLE": "Gelişmiş Ayarlar",
       "AUTHENTICATION_TITLE": "Doğrulama",
+      "CACHING": {
+        "DESCRIPTION": "Yüklendiğinde resimleri önbelleğe alın, böylece çevrim dışıyken de görüntülenebilir.",
+        "NUMBER_TITLE": "Maksimum Önbelleğe Alınan Görüntü",
+        "TITLE": "Önbelleğe alınıyor"
+      },
+      "DANGER_ZONE": {
+        "TITLE": "Tehlike Bölgesi"
+      },
       "DANGER_ZONE_TITLE": "Tehlikeli bölge",
-      "IMPORT_EXPORT_TITLE": "İçe aktar ve dışa aktar",
+      "IMPORT_EXPORT_TITLE": "İçe ve dışa aktar",
+      "MY_PROFILE": "Profilim",
       "NAVIGATION_TITLE": "Navigasyon",
+      "PRIVACY": {
+        "KEYWORDS": "gizlilik",
+        "TITLE": "Gizlilik"
+      },
       "PRIVACY_NOTE": "Gizlilik: <policyLink>Gizlilik Politikamızı</policyLink> okuyun veya <hubLink>Gizlilik Merkezimizde</hubLink> ayarlarınızı değiştirin.",
-      "PROFILE_TITLE": "Profil"
+      "PROFILE": {
+        "KEYWORDS": "Kişisel Kullanıcı Profili"
+      },
+      "PROFILE_TITLE": "Profil",
+      "SUPPORT": {
+        "TITLE": "Destek"
+      },
+      "SYNCING": {
+        "KEYWORDS": "Görüntüleri ve PDF'leri Senkronize Etmeye Zorla",
+        "TITLE": "Senkronizasyon"
+      },
+      "VERSION": {
+        "KEYWORDS": "versiyon",
+        "TITLE": "Uygulama Sürümü"
+      }
+    },
+    "EARN_CREDIT": {
+      "APPLY_CREDIT": "Kredinizi uygulayın",
+      "COPIED": "Kopyalandı!",
+      "COPYLINK": "Bağlantıyı Kopyala",
+      "CREATE_ACCOUNT": "Arkadaşlarınızı davet etmek için bir hesap oluşturun",
+      "CREDIT_BALANCE": "Kredi Bakiyesi",
+      "EMAIL_PLACEHOLDER": "meraklıarkadaş@gmail.com",
+      "ENTER_VALID_EMAIL": "Geçerli bir e-posta girin!",
+      "FRIENDS_TITLE": "Arkadaşlar",
+      "FRIEND_ALREADY_ON_REMNOTE": "Arkadaşınız zaten RemNote'ta",
+      "HANG_ON": "Bir dakika",
+      "INVITE": "Davet et",
+      "INVITED_YOU": " (sizi davet etti)",
+      "INVITE_COPIED": "Davet bağlantısı kopyalandı!",
+      "INVITE_EMAIL": "E-posta yoluyla davet et",
+      "INVITE_ERROR": "Bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin.",
+      "INVITE_FRIENDS_REMNOTE": "Arkadaşlarınızı RemNote'a davet edin!",
+      "INVITE_TEXT": "Arkadaşlarını davet et",
+      "NOT_CONFIRMED_EMAIL": " (e-postayı doğrulamadı)",
+      "SEND_INVITE": "Davetiye gönder",
+      "SHARE_LINK": "Bağlantıyı paylaş",
+      "TITLE": "Kredi Kazanın",
+      "TOAST_RENEW": "Mevcut aboneliğiniz yenilendiğinde kredileriniz otomatik olarak uygulanacaktır.",
+      "TOAST_SUBSCRIBE": "RemNote Pro'ya abone olduğunuzda kredileriniz otomatik olarak uygulanacaktır. Başlamak için aşağıdan bir plan seçin!",
+      "VERIFY_EMAIL": "Birini davet etmek için öncelikle e-postanızı doğrulayın."
+    },
+    "EDITOR": {
+      "DATES_AND_TIMES": {
+        "DATE_FORMATTING": {
+          "DESCRIPTION": "RemNote'taki tarihleri bu formatta göster.",
+          "TITLE": "Tarih Biçimlendirme"
+        },
+        "DATE_FORMATTING_CUSTOM": {
+          "DESCRIPTION": "Sağlanan seçenekleri kullanarak tarihinizi dilediğiniz gibi biçimlendirin.",
+          "TITLE": "Özel Tarih Biçimlendirmesi"
+        },
+        "TIME_FORMATTING": {
+          "TITLE": "Zaman Biçimlendirme"
+        },
+        "WEEK_STARTS_ON_MONDAY": {
+          "TITLE": "Hafta Pazartesi günüyle başlar"
+        }
+      },
+      "GENERAL": {
+        "CREATE_STUBS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Arama sırasında Cmd+Return tuşlarına basarak bir Rem oluştururken, onu “Stub” olarak etiketleyin."
+          }
+        },
+        "ENABLE_SPELLCHECK": {
+          "TITLE": "Yazım Denetimini Etkinleştir"
+        },
+        "INSERT_EMOJIS_AS_REFERENCES": {
+          "DESCRIPTION": "%% aramasından bir emoji seçerken bir referans oluşturun.",
+          "TITLE": "Emojileri Referans Olarak Ekle"
+        }
+      }
+    },
+    "EDITOR_INTERFACE": {
+      "ENABLE_ZOOM_INTO_BULLET": {
+        "TITLE": "Madde İşaretine Yakınlaştırmayı Etkinleştir"
+      },
+      "PREVIEW_REM_ON_HOVER": {
+        "LABEL": "Bir Referansın üzerine geldiğinizde, içeriğinin önizlemesini gösterin.",
+        "TITLE": "Üzerine Gelindiğinde Referansları Önizleme"
+      },
+      "SCALE_COLLAPSED_REM_BULLETS": {
+        "LABEL": "Maddenin etrafındaki halkayı, içeriğine bağlı olarak büyüt veya küçült."
+      },
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "TITLE": "Tek Tıklamayla Açılan Referanslar"
+      }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "DESCRIPTION": "Her gün en azından bu kadar sayıda bilgi kartını çözerek seriler oluşturun.",
+          "TITLE": "Hedef"
+        },
+        "TODAYS_TARGET": "Bugünün Düzeltilmiş Hedefi:",
+        "TODAYS_TARGET_EXPLANATION": "RemNote, önümüzdeki hafta boyunca pratik yapmak için belirlediğiniz günlük hedefinizden ortalama daha az kartınız olacağını öngörüyorsa, günlük hedefinizi geçici olarak düşüreceğiz; böylece başlangıçta çok fazla ve sonunda daha az kart yerine, her gün yaklaşık olarak eşit sayıda kartınız olacak."
+      },
+      "GENERAL": {
+        "AUTOPLAY_MEDIA": {
+          "DESCRIPTION": "Kelime kartlarındaki ses veya video içeriklerini otomatik olarak oynat.",
+          "TITLE": "Medyayı otomatik oynat"
+        },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "TITLE": "Metni sese çevirmeyi otomatik oynat"
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "TITLE": "Önceden Öğrenme Limiti"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "TITLE": "Ertesi Gün Şu Saatte Başlıyor"
+        },
+        "RESET_ALL": {
+          "CONFIRM_MESSAGE": "Tüm kart ayarlarını varsayılan değerlerine sıfırlamak istediğinizden emin misiniz?",
+          "DESCRIPTION": "Tüm flaşkart ayarlarını varsayılan değerlerine geri döndürün.",
+          "TITLE": "Flashcard Ayarlarını Sıfırla"
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "TITLE": "Basitleştirilmiş Flashcard Düğmeleri"
+        },
+        "TEXT_TO_SPEECH_SPEED": {
+          "DESCRIPTION": "Flaşkart metninin konuşulduğu hız.",
+          "TITLE": "Metinden Konuşmaya Hızı"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "SAMPLE": "Mitokondri hücrenin enerji santralidir.",
+          "TITLE": "Metinden Konuşmaya Seslendirmesi"
+        },
+        "TYPE_ANSWER": {
+          "TITLE": "Cevap yazın"
+        }
+      },
+      "ORDERING": {
+        "DOCUMENT_CLUSTERS": {
+          "TITLE": "Belge Kümeleri"
+        },
+        "HIERARCHY_CLUSTERS": {
+          "TITLE": "Hiyerarşi Kümeleri"
+        },
+        "REFERENCE_CLUSTERS": {
+          "TITLE": "Referans Kümeleri"
+        },
+        "TAG_CLUSTERS": {
+          "DESCRIPTION": "Aynı etikete sahip Rem'leri birlikte çalışmayı tercih edin.",
+          "TITLE": "Etiket Kümeleri"
+        }
+      },
+      "STATISTICS": {
+        "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
+          "TITLE": "Flaşkart Yanıt Süresi Sınırı"
+        }
+      },
+      "VISUAL": {
+        "SHOW_NEXT_REVIEW_TIMES": {
+          "DESCRIPTION": "Aralıklı tekrarla pratik yaparken her cevap butonunda bir sonraki tekrara kadar geçen süreyi gösterin.",
+          "TITLE": "Sonraki İnceleme Zamanlarını Göster"
+        }
+      }
+    },
+    "GLOBAL_INTERFACE": {
+      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
+        "TITLE": "Paylaşılan Kartlar Arama Dili"
+      },
+      "DARK_MODE": {
+        "LABEL": "Bu renk şemasını kullan.",
+        "TITLE": "Karanlık Mod"
+      },
+      "FULL_WIDTH": {
+        "LABEL": "Belgeleri ekranın tam genişliğini kullanacak şekilde genişletin.",
+        "TITLE": "Tam Genişlik"
+      },
+      "INTERFACE": {
+        "TITLE": "RemNote Arayüz Dili"
+      },
+      "IN_APP_SUGGESTIONS": {
+        "LABEL": "Belgenizin en üstünde RemNote'ta deneyebileceğiniz özelliklere ilişkin ipuçlarını gösterin."
+      },
+      "LEFT_SIDEBAR_TUTORIALS": {
+        "TITLE": "Uygulama İçi Eğitimler"
+      },
+      "ONBOARDING_TIPS_SHORTCUTS": {
+        "TITLE": "Klavye Kısayol İpuçları"
+      }
+    },
+    "KEYBOARD_SHORTCUTS": {
+      "CHANGE_KEYBOARD_SHORTCUTS": {
+        "TITLE": "Klavye Kısayollarını Değiştir"
+      },
+      "DOUBLE_SLASH_FOR_COMMAND_MENU": {
+        "DESCRIPTION": "Remleri düzenlerken komutları tetiklemek için / yerine // yazın.",
+        "TITLE": "Komut Menüsü İçin Çift Eğik Çizgi"
+      },
+      "ENTER_TO_OUTDENT": {
+        "TITLE": "Girintiyi azaltmak için Enter'a basın"
+      },
+      "SPLIT_WITH_ALT_ENTER": {
+        "TITLE": {
+          "PC": "Alt+Enter ile Böl"
+        }
+      }
+    },
+    "NOTIFICATIONS": {
+      "DESCRIPTIONS": {
+        "DOCUMENT_ADDED_TO_GROUP": {
+          "TITLE": "Belge grup bildirimine eklendi"
+        },
+        "INVITE": {
+          "LABEL": "Bir gruba davet edildiğinizde bildirim alın",
+          "TITLE": "Davet bildirimleri"
+        },
+        "NEW_COMMENT": {
+          "TITLE": "Yorum bildirimleri"
+        }
+      },
+      "ENABLE_DUE_CARDS_TITLE": "Vadeli kart rozeti",
+      "ENABLE_EMAIL_TITLE": "E-posta topluluğu bildirimlerini etkinleştir",
+      "ENABLE_PUSH_TITLE": "Anlık bildirimler",
+      "ENABLE_STREAK_DESCRIPTION": "Flashcard seriniz hakkında her gün saat 18:00'da hatırlatıcılar alın",
+      "ENABLE_STREAK_TITLE": "Mobil Seri Bildirimleri"
     }
   },
   "SIDEBAR": {
@@ -78,6 +375,15 @@
       "SELECT_FILES": "Dosyaları seç",
       "SELECT_FILES_TO_UPLOAD": "Yüklenecek dosyaları seçin",
       "UPLOADING": "Karşıya Yükleniyor..."
+    },
+    "WIKIMEDIA_COMMONS": {
+      "LABEL": "Resim Arama",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDF'ler",
+      "SELECT_FILES": "Dosyaları seçin",
+      "SELECT_FILES_TO_UPLOAD": "Yüklenecek dosyaları seçin",
+      "UPLOADING": "Yükleniyor..."
     }
   },
   "TABLES": {
@@ -132,6 +438,15 @@
       }
     },
     "PRIMARY_COLUMN_TITLE": "İsim",
+    "TABLE_CREATION": {
+      "EXISTING_TAG": {
+        "DESCRIPTION": "Mevcut bir {{viewName}} kaynağına bağlanın.",
+        "TITLE": "Mevcut Etiketi Kullan"
+      },
+      "NEW_TAG": {
+        "TITLE": "Yeni bir {{viewName}} + Etiketi Oluştur"
+      }
+    },
     "UNTITLED_PROPERTY_TITLE": "İsimsiz Özellik"
   },
   "TAGS": {
@@ -153,16 +468,16 @@
     "PROPERTIES_HELP_TEXT": {
       "0": "Özellikler bir etiketi tanımlar. Örneğin, \"Kitap\" adlı bir etiket için Yazar, Tür, Okuma Durumu ve daha pek çok özellik ekleyin!"
     },
-    "PROPERTY_one": "Özellik",
-    "PROPERTY_other": "Özellikler",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Özellik",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Özellikler",
+    "PROPERTY_one": "Özellik",
+    "PROPERTY_other": "Özellikler",
     "SET_AS_AUTO_APPLY_TEMPLATE": "Otomatik Uygulama Şablonu Olarak Ayarla",
-    "TEMPLATE_one": "Şablon",
-    "TEMPLATE_other": "Şablonlar",
+    "TEMPLATES_HELP_TEXT": "Bir etiketin şablonu, etiketli Rem'e otomatik olarak kopyalanabilen bir RemNote belgesidir. Başlıkları, kontrol listelerini ve daha fazlasını doğrudan şablonunuzun içine ekleyin.",
     "TEMPLATE_WITH_COUNT_one": "{{count, number}} Şablon",
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} Şablonlar",
-    "TEMPLATES_HELP_TEXT": "Bir etiketin şablonu, etiketli Rem'e otomatik olarak kopyalanabilen bir RemNote belgesidir. Başlıkları, kontrol listelerini ve daha fazlasını doğrudan şablonunuzun içine ekleyin.",
+    "TEMPLATE_one": "Şablon",
+    "TEMPLATE_other": "Şablonlar",
     "TURN_OFF_AUTO_APPLY": "Otomatik Uygulamayı kapat",
     "VIEW_CONFIGURATION": "Etiketi Yapılandır"
   }

@@ -48,7 +48,9 @@
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "Verschachteltes Dokument hinzufügen",
+      "CHANGE_DOCUMENT_ICON": "Dokumentsymbol ändern",
       "CHANGE_DOCUMENT_STATUS": "Dokumentstatus ändern",
+      "CHANGE_FOLDER_ICON": "Ordnersymbol ändern",
       "CUSTOMIZE_SPACED_REPETITION": "Anpassen von Spaced Repetition",
       "DELETE": "Löschen",
       "EDIT_MODE": {
@@ -63,6 +65,8 @@
       },
       "MARK_AS_DOCUMENT": "Als Dokument markieren",
       "MOVE": "Bewegen",
+      "MULTI_SELECTION_FOLDER": "Mehrere Ordner/Dokumente auswählen",
+      "MULTI_SELECTION_MODE": "Mehrere Rems auswählen",
       "OPEN_IN_ANOTHER_PANE": "In einem anderen Panel öffnen",
       "PIN_TO_SIDEBAR": "An der Seitenleiste anheften",
       "PRINT": "Drucken",
@@ -121,7 +125,7 @@
       "BODY": "kommentiert",
       "BODY_ARTICLE": "hat auf Ihr Dokument kommentiert",
       "BODY_COMMENT": "hat auf deinen Kommentar geantwortet",
-      "BODY_GROUP": "einen Chat an deine Gruppe gesendet"
+      "BODY_GROUP": "ein Chat wurde an deine Gruppe gesendet"
     },
     "NEW_FOLLOWER": {
       "BODY": "gefolgt"
@@ -145,6 +149,18 @@
         },
         "3": {
           "TITLE": "Notizen mit dem Tabulator strukturieren"
+        },
+        "PAGE_0": {
+          "TITLE": "Ordner erstellen"
+        },
+        "PAGE_1": {
+          "TITLE": "Stichpunkt hinzufügen"
+        },
+        "PAGE_2": {
+          "TITLE": "Karteikarte erstellen"
+        },
+        "PAGE_3": {
+          "TITLE": "Notizen mit Tab strukturieren"
         }
       }
     }
@@ -157,10 +173,10 @@
         "BY_MODIFICATION": "Nach Ä",
         "BY_TITLE": "Nach Titel",
         "DESCENDING": "Z -> A",
-        "OLDEST_CREATION_FIRST": "Älteste erstellung zuerst",
         "OLDEST_FIRST": "Ältesten zuerst",
-        "RECENTLY_CREATED": "Kürzlich erstellt",
-        "RECENTLY_MODIFIED": "Kürzlich geändert"
+        "RECENTLY_MODIFIED": "Kürzlich geändert",
+        "OLDEST_CREATION_FIRST": "Älteste erstellung zuerst",
+        "RECENTLY_CREATED": "Kürzlich erstellt"
       },
       "TITLE": "Alle Notizen"
     }
@@ -173,45 +189,53 @@
         "CLOZE_CARDS": "Lückentext-Karten",
         "CLOZE_CARDS_TOOLTIP": "Erstellen Sie Lückentext-Karteikarten aus dem ausgewählten Text.",
         "CONCEPT_CARDS": "Konzeptkarten",
+        "CONCEPT_CARDS_TOOLTIP": "Erstelle Konzept-Beschreibungs-Karteikarten mithilfe des ausgewählten Texts",
         "GENERATE_SECTION": "GENERIEREN"
       },
       "CLOZE_BTN_TOOLTIP": "Lückentext-Lernkarte",
       "COPY_IMAGE": "Bild kopieren",
       "COPY_TEXT": "Nur Text kopieren",
       "HIGHLIGHT": "Markieren",
-      "MAKE_IMG_OCC_BTN_TOOLTIP": "Bildverdeckungs-Karteikarten erstellen",
-      "NO_TEXT_IN_PDF_WARN": "Diese Datei enthält keine Textebene, Sie können aber trotzdem Bereichshervorhebungen zum Kommentieren verwenden.",
-      "NOTE_BTN_TOOLTIP": "Notiz"
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "Karteikarten mit Bildverdeckung erstellen",
+      "NOTE_BTN_TOOLTIP": "Notiz",
+      "NO_TEXT_IN_PDF_WARN": "Diese Datei beinhaltet keine Textebene, aber du kannst trotzdem Flächen hervorheben um zu annotieren."
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "Erweiterte Verknüpfungsoptionen",
+      "DELETE_WARNING": "Diese Hervorhebung besitzt notesCount, number notesWord. Bist du sicher, dass du sie löchen möchtest?",
       "TURN_INTO_CONCEPT": "Zum Konzept machen",
       "VIEW_REFERENCES": "Referenzen anzeigen"
     },
     "HEADER": {
+      "AREA_HIGHLIGHT_TOOLTIP": "Fläche hervorheben ({{keyName}} + Ziehen)",
       "NUMBER_OF_PAGES_TOOLTIP": "Seitenzahl",
-      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "Standarddokument umschalten"
+      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "Als Standarddokument setzen"
     },
     "PDF_OPTIONS": {
-      "CHANGE_THEME": "Design ändern",
+      "CHANGE_THEME": "Farbschema ändern",
       "DOWNLOAD_PDF": "PDF Herunterladen",
       "LEARN_MORE": "Erfahren Sie mehr",
-      "OPEN_WEBPAGE_EXTERNALLY": "Webseite extern öffnen",
+      "OPEN_WEBPAGE_EXTERNALLY": "Website extern öffnen",
       "PDF_SETTINGS": "Einstellungen",
       "PDF_SETTINGS_MENU": {
-        "AUTO_HIGHLIGHT": "Automatische Hervorhebung",
-        "AUTO_HIGHLIGHT_TOOLTIP": "Automatisches Erstellen von Hervorhebungen nach der Textauswahl.",
-        "DISABLE_HEADER_BUTTONS": "Kopfzeilenschaltflächen deaktivieren",
-        "SNAP_HIGHLIGHT_TO_WORDS": "Hervorhebung an Wörtern ausrichten"
+        "AUTO_HIGHLIGHT": "Automatisch hervorheben",
+        "AUTO_HIGHLIGHT_TOOLTIP": "Ausgewählten Text automatisch hervorheben",
+        "DISABLE_HEADER_BUTTONS": "Überschriftenschaltflächen deaktivieren",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "Überschriftenschaltflächen («) im Reader verstecken.",
+        "SNAP_HIGHLIGHT_TO_WORDS": "Hervorhebung an Wörtern ausrichten",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "Bei neuer Hervorhebung nur ganze Wörter auswählen"
       },
       "REFETCH_PAGE": "Seite erneut abrufen",
       "REFETCH_PAGE_TOOLTIP": "Diese Seite kann nicht erneut abgerufen werden, falls sie bereits Hervorhebungen enthält.",
       "SEARCH_IN_PDF": "PDF durchsuchen",
-      "SPLIT_PANES": "Geteilte Bereiche",
+      "SPLIT_PANES": "Bereiche aufteilen",
+      "SPLIT_PANES_TOOLTIP": "Den Editor und PDF Viewer in separate Bereiche aufteilen.",
       "THEMES": {
+        "CLASSIC_INVERT": "Klassische Invertierung",
         "DARK": "Dunkel",
         "LIGHT": "Hell",
-        "USE_REMNOTE_THEME": "verwende RemNote-Design"
+        "SOLARISED": "Solarisiert",
+        "USE_REMNOTE_THEME": "Nutze das RemNote Farbschema"
       }
     },
     "SEARCH_CTRL_F": {
@@ -251,8 +275,8 @@
     }
   },
   "POWERUPS": {
-    "POWERUP_one": "Einschalten",
-    "POWERUP_other": "Powerups"
+    "POWERUP_one": "Power-Up",
+    "POWERUP_other": "Power-Ups"
   },
   "SETTINGS": {
     "ACCOUNT": {
@@ -321,17 +345,17 @@
       "CREDIT_BALANCE_TEXT": "Sie haben <bold>{{userCredit}}</bold> Restguthaben und <bold> {{userCreditEarned}}</bold> Guthaben insgesamt erhalten. {{months}} verbleibender Monat oder verbleibende Monate RemNote Pro kostenlos.<br /><br /> Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung auf dem Konto erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.",
       "EMAIL_PLACEHOLDER": "neugierigfreund@gmail.com",
       "ENTER_VALID_EMAIL": "Geben Sie eine gültige E-Mail-Adresse ein!",
-      "FRIEND_ALREADY_ON_REMNOTE": "Ihr Freund ist bereits auf RemNote",
       "FRIENDS_TITLE": "Freunde",
+      "FRIEND_ALREADY_ON_REMNOTE": "Ihr Freund ist bereits auf RemNote",
       "HANG_ON": "Einen Moment",
       "INVITE": "Einladen",
+      "INVITED_YOU": "(hat dich eingeladen)",
       "INVITE_COPIED": "Einladungslink kopiert!",
       "INVITE_EMAIL": "Per E-Mail einladen",
       "INVITE_ERROR": "Etwas ist schief gelaufen. Bitte versuchen Sie es später noch einmal.",
       "INVITE_FRIENDS_EARN_CREDIT": "Laden Sie Ihre Freunde ein, um Guthaben zu verdienen! Sie erhalten <0>{{monthlyPrice}}</0> als RemNote-Gutschrift, wenn die von Ihnen eingeladene Person sich für ein RemNote-Konto anmeldet und Sie erhalten außerdem auch<0>{{monthlyPrice}}</0> Kredit, um loszulegen.",
       "INVITE_FRIENDS_REMNOTE": "Laden Sie Ihre Freunde zu RemNote ein!",
       "INVITE_TEXT": "Freunde einladen und Guthaben verdienen",
-      "INVITED_YOU": "(hat dich eingeladen)",
       "KEYWORDS": "Freunde einladen und Guthaben verdienen Tarif Abonnement ändern",
       "NOT_CONFIRMED_EMAIL": "(hat die E-Mail nicht bestätigt)",
       "SEND_INVITE": "Einladung senden",
@@ -378,8 +402,10 @@
         },
         "CREATE_STUBS_FROM_SEARCH": {
           "DESCRIPTION": {
-            "MAC": "Wenn Sie ein Rem durch Drücken von Cmd+Return in einer Suche erstellen, beschriften Sie es mit „Skizze“."
-          }
+            "MAC": "Wenn Sie ein Rem durch Drücken von Cmd+Return in einer Suche erstellen, beschriften Sie es mit „Skizze“.",
+            "PC": "Wenn Sie ein Rem durch Drücken von Strg+Eingabe in einer Suche erstellen, wird es mit „Skizze“ markiert."
+          },
+          "TITLE": "Erstellen Sie Skizzen aus der Suche"
         },
         "ENABLE_SPELLCHECK": {
           "DESCRIPTION": "Überprüfen Sie das aktuell fokussierte Rem auf Tippfehler.",
@@ -401,7 +427,8 @@
         "TITLE": "Vorschau der Referenzen beim Hovern"
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
-        "LABEL": "Machen Sie den Ring um die Aufzählungsstelle größer oder kleiner, basierend auf der Anzahl der Nachkommenden Aufzählungen."
+        "LABEL": "Passt die Größe des Ringes um den Stichpunkt entsprechend der Anzahl der Unterpunkte an.",
+        "TITLE": "Eingeklappte Rem Stichpunkte skalieren"
       },
       "SINGLE_CLICK_REFERENCES_TO_OPEN": {
         "LABEL": "Wenn Sie auf eine Referenz klicken oder tippen, gelangen Sie sofort zu ihrem Ziel, anstatt das Referenzmenü zu öffnen. (Sie können das Referenzmenü jederzeit durch einen Rechtsklick anzeigen.)",
@@ -415,8 +442,8 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "Maximales Tagesziel",
-          "DESCRIPTION": "Begrenzen Sie die Anzahl der Lernkarten. RemNote fordert Sie zum Üben auf, um Ihr Tagesziel bei diesem Wert zu erreichen."
+          "DESCRIPTION": "Begrenzen Sie die Anzahl der Lernkarten. RemNote fordert Sie zum Üben auf, um Ihr Tagesziel bei diesem Wert zu erreichen.",
+          "TITLE": "Maximales Tagesziel"
         },
         "TODAYS_TARGET": "Das heutige Ziel:",
         "TODAYS_TARGET_EXPLANATION": "RemNote versucht, Ihr Tagesziel so festzulegen, dass Sie, wenn Sie das Ziel jeden Tag erreichen, in den nächsten 7 Tagen alle zur Überprüfung fälligen Karten ausfüllen. Das Tagesziel wird jedoch niemals höher sein als das oben festgelegte Maximum."
@@ -459,13 +486,14 @@
           "DESCRIPTION": "Fügen Sie jeden Tag höchstens so viele veraltete Karteikarten wieder in Ihre Karteikartenwarteschlange ein. Veraltete Karten sind Karten, die vorübergehend aus der Warteschlange entfernt werden, weil Sie sie längere Zeit nicht mehr gelernt haben und es anstrengend wäre, sie alle auf einmal neu zu lernen.",
           "TITLE": "Maximale Anzahl veralteter Karten pro Tag"
         },
-        "TEXT_TO_SPEECH_VOICE": {
-          "DESCRIPTION": "Die Stimme, die für Text in Sprache verwendet wird. Beachten Sie, dass einige Stimmen nur für bestimmte Sprachen funktionieren.",
-          "TITLE": "Stimme für Text in Sprache"
-        },
         "TEXT_TO_SPEECH_SPEED": {
           "DESCRIPTION": "Die Geschwindigkeit, in der der Text auf den Karteikarten gesprochen wird.",
           "TITLE": "Text to Speech Geschwindigkeit"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "Die Stimme, die für Text in Sprache verwendet wird. Beachten Sie, dass einige Stimmen nur für bestimmte Sprachen funktionieren.",
+          "SAMPLE": "Die Mitochondrien sind das Kraftwerk der Zelle.",
+          "TITLE": "Stimme für Text in Sprache"
         },
         "TYPE_ANSWER": {
           "DESCRIPTION": "Zeigen Sie auf der Vorderseite jeder Karteikarte ein Textfeld an und vergleichen Sie Ihre Eingabe mit der Antwort auf der Rückseite der Karte.",
@@ -516,17 +544,22 @@
         "LABEL": "Erweitern Sie Dokumente, um die volle Breite des Bildschirms zu nutzen.",
         "TITLE": "Gesamtbreite"
       },
-      "IN_APP_SUGGESTIONS": {
-        "LABEL": "Zeigen Sie oben in Ihrem Dokument Tipps zu RemNote-Funktionen an, die Sie ausprobieren können."
-      },
       "INTERFACE": {
         "KEYWORDS": "sprache sprache übersetzung i18n",
         "TITLE": "RemNote Sprache der Benutzeroberfläche(Alpha)"
       },
+      "IN_APP_SUGGESTIONS": {
+        "KEYWORDS": "Hinweise Hilfe Unterstützung Lernen Anleitung",
+        "LABEL": "Zeigen Sie oben in Ihrem Dokument Tipps zu RemNote-Funktionen an, die Sie ausprobieren können.",
+        "TITLE": "Einführende Tipps oben im Dokument"
+      },
       "LEFT_SIDEBAR_TUTORIALS": {
+        "KEYWORDS": "In-App links Seitenleiste Anleitungen Hinweise Hilfe Unterstützung Lernen Anleitung",
+        "LABEL": "Zeige Tutorials zu den RemNote-Funktionen, die Sie gerade verwenden in der Ecke des Bildschirms an.",
         "TITLE": "In-App-Tutorials"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
+        "KEYWORDS": "Hinweise Hilfe Unterstützung Lernen Anleitung",
         "LABEL": "Zeigen Sie in der Ecke des Bildschirms Tipps zu Tastaturkürzeln an, die Sie gerade verwenden.",
         "TITLE": "Tipps zu Tastaturkürzeln"
       },
@@ -542,9 +575,11 @@
     "KEYBOARD_SHORTCUTS": {
       "CHANGE_KEYBOARD_SHORTCUTS": {
         "DESCRIPTION": "Passen Sie die Zuordnung der Tastenkombinationen für Tastaturkürzel an.",
+        "KEYWORDS": "Passen Sie Tastaturkürzel und Tastenbelegung an",
         "TITLE": "Tastaturkürzel ändern"
       },
       "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
+        "DESCRIPTION": "Nutze die alten Tastaturkürzel (vor dem August 2020 Update).",
         "TITLE": "Standardmäßig ältere Tastaturkürzel verwenden"
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
@@ -552,12 +587,13 @@
         "TITLE": "Doppelter Schrägstrich für Befehlsmenü"
       },
       "ENTER_TO_OUTDENT": {
+        "LABEL": "Durch Drücken der Eingabetaste bei einem Rem ohne Inhalt und nicht auf der obersten Ebene des Dokuments wird die Einrückungsebene um eine Ebene verringert. (Wenn deaktiviert, bleibt es auf der gleichen Ebene und bleibt ein leeres Rem).",
         "TITLE": "Drücken Sie die Eingabetaste, um den Einzug zu verkleinern"
       },
       "SPLIT_WITH_ALT_ENTER": {
         "DESCRIPTION": {
-          "MAC": "Teilen Sie Text in einzelne Rems auf, indem Sie in der Mitte eines Rems die Tastenkombination Opt+Return drücken.",
-          "PC": "Teilen Sie Text in einzelne Rems auf, indem Sie in der Mitte eines Rems Alt+Eingabe drücken."
+          "MAC": "Text durch drücken von Opt+Enter innerhalb des Rems in separate Rems aufteilen.",
+          "PC": "Text durch drücken von Alt+Enter innerhalb des Rems in separate Rems aufteilen."
         },
         "TITLE": {
           "MAC": "Mit Opt+Return aufteilen",
@@ -573,7 +609,7 @@
         },
         "DOCUMENT_ADDED_TO_GROUP": {
           "LABEL": "Lassen Sie sich benachrichtigen, wenn ein Dokument zu Ihrer Gruppe hinzugefügt wird",
-          "TITLE": "Dokument zur Gruppenbenachrichtigung hinzugefügt"
+          "TITLE": "Benachrichtigungen zu Gruppen-Dokumenten"
         },
         "INVITE": {
           "LABEL": "Lassen Sie sich benachrichtigen, wenn Sie zu einer Gruppe eingeladen wurden",
@@ -596,16 +632,17 @@
           "TITLE": "Strähne-Benachrichtigungen"
         }
       },
-      "ENABLE_COMMUNITY_LABEL": "Erhalten Sie sofortige Benachrichtigungen, wenn jemand mit Ihren freigegebenen Inhalten interagiert.",
+      "ENABLE_COMMUNITY_LABEL": "Erhalte Benachrichtigungen, wenn jemand mit geteilten Inhalten von dir interagiert.",
       "ENABLE_COMMUNITY_TITLE": "Benachrichtigungen zu freigegebenen Lernkarten",
+      "ENABLE_DUE_CARDS_LABEL": "Zeige die Gesamtanzahl an fälligen Karten als Benachrichtigungssymbol auf dem RemNote Appsymbol auf deinem Startbildschirm",
       "ENABLE_DUE_CARDS_TITLE": "Abzeichen für fällige Karten",
       "ENABLE_EMAIL_LABEL": "Erhalten Sie Benachrichtigungen direkt in Ihren Posteingang",
       "ENABLE_EMAIL_TITLE": "E-Mail-Benachrichtigungen aktivieren?",
       "ENABLE_PUSH_LABEL": "Erhalten Sie Benachrichtigungen direkt auf Ihr Gerät",
       "ENABLE_PUSH_TITLE": "Push-Benachrichtigungen aktivieren?",
-      "ENABLE_STREAK_DESCRIPTION": "Erhalten Sie täglich um 18 Uhr Erinnerungen an Ihre Karteikartenserie.",
+      "ENABLE_STREAK_DESCRIPTION": "Erhalte tägliche Benachrichtigungen um 18:00 Uhr bezüglich deiner Karteikartenstreak",
       "ENABLE_STREAK_TITLE": "Mobile Streak-Benachrichtigungen",
-      "PUSH_ENABLE_MESSAGE": "Push-Benachrichtigungen sind auf diesem Gerät nicht konfiguriert. Klicken Sie hier, um sie einzurichten.",
+      "PUSH_ENABLE_MESSAGE": "Push-Benachrichtigungen sind auf diesem Gerät nicht eingerichtet. Klicke hier um sie zu aktivieren!",
       "TOGGLE_LABEL": "Steuern Sie, welche Benachrichtigungen Sie direkt auf Ihrem Gerät/Posteingang erhalten möchten",
       "TOGGLE_TITLE": "Benachrichtigungen filtern"
     },
@@ -658,6 +695,7 @@
     },
     "UPLOAD_SOURCE": {
       "EMPTY": "Legen Sie PDFs, Word-Dokumente, PPTs und <moreLink> mehr</moreLink> hier ab!",
+      "IMPORT_INSTEAD": "RemNote kann Datei-Uploads dieser Art nicht akzeptieren. Möglicherweise können wir die Notizen oder Karteikarten in dieser Datei jedoch importieren! Wählen Sie „Importieren“ aus dem Kontomenü oben links.",
       "INVALID": "Falsches Dateiformat!",
       "IMPORT_INSTEAD": "RemNote kann Datei-Uploads dieses Art nicht akzeptieren. Allerdings können wir die Notizen oder Karteikarten in dieser Datei möglicherweise importieren! Wählen Sie „Importieren“ aus dem Kontomenü oben links.",
       "LABEL": "Hochladen",
@@ -726,7 +764,7 @@
         "ZOOM_IN_TO_TABLE_TITLE": "In die Tabelle hineinzoomen"
       },
       "TAG": {
-        "EDIT_TABLE_NAME": "Tabellennamen bearbeiten",
+        "EDIT_TABLE_NAME": "Tabellenname bearbeiten",
         "PRESS_TO_SAVE": "Drücken Sie ↩ zum Speichern",
         "RENAME_TAG": "Etikett umbenennen",
         "TAG_TITLE": "Etikett Name",
@@ -736,7 +774,7 @@
     "PRIMARY_COLUMN_TITLE": "Name",
     "TABLE_CREATION": {
       "EXISTING_TAG": {
-        "DESCRIPTION": "Stellen Sie eine Verbindung zu einer vorhandenen {{viewName}} Quelle her.",
+        "DESCRIPTION": "Mit einer existierenden {{viewName}} Quelle verbinden",
         "TITLE": "Vorhandenes Etikett  verwenden"
       },
       "NEW_TAG": {
@@ -765,16 +803,16 @@
     "PROPERTIES_HELP_TEXT": {
       "0": "Eigenschaften beschreiben ein Etikett. Fügen Sie beispielsweise für ein Etikett namens „Buch“ Eigenschaften mit den Namen „Autor“, „Genre“, „Lesestatus“ und mehr hinzu!"
     },
-    "PROPERTY_one": "Eigenschaft",
-    "PROPERTY_other": "Eigenschaften",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Eigenschaft",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Eigenschaften",
+    "PROPERTY_one": "Eigenschaft",
+    "PROPERTY_other": "Eigenschaften",
     "SET_AS_AUTO_APPLY_TEMPLATE": "Als automatisch anzuwendende Vorlage festlegen",
-    "TEMPLATE_one": "Vorlage",
-    "TEMPLATE_other": "Vorlagen",
+    "TEMPLATES_HELP_TEXT": "Die Vorlage eines Tags ist ein RemNote-Dokument, das automatisch in getaggte Rems kopiert werden kann. Fügen Sie Überschriften, Checklisten und mehr direkt in Ihre Vorlage ein.",
     "TEMPLATE_WITH_COUNT_one": "{{count, number}} Vorlage",
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} Vorlagen",
-    "TEMPLATES_HELP_TEXT": "Die Vorlage eines Tags ist ein RemNote-Dokument, das automatisch in getaggte Rems kopiert werden kann. Fügen Sie Überschriften, Checklisten und mehr direkt in Ihre Vorlage ein.",
+    "TEMPLATE_one": "Vorlage",
+    "TEMPLATE_other": "Vorlagen",
     "TURN_OFF_AUTO_APPLY": "Deaktiviere „Automatisches anwenden“.",
     "VIEW_CONFIGURATION": "Tag konfigurieren"
   }

@@ -2,23 +2,34 @@
   "COMMON": {
     "ACTIONS": {
       "APPLY": "Aplicar",
+      "COPY": "Copiar",
       "CREATE": "Criar",
-      "DELETE": "Deletar",
+      "DELETE": "Excluir",
       "DUPLICATE": "Duplicar",
       "EDIT": "Editar",
       "HIDE": "Ocultar",
       "REMOVE": "Remover",
       "UPDATE": "Atualizar",
       "VIEW": "Visualizar"
-    }
+    },
+    "AI": {
+      "AI_FLASHCARDS": "Flashcards de IA"
+    },
+    "GENERAL": {
+      "FLASHCARD_one": "Flashcard",
+      "FLASHCARD_other": "Flashcards",
+      "NOTE_one": "anotação",
+      "NOTE_other": "anotações"
+    },
+    "NEW": "Novo"
   },
   "COMMUNITY": {
     "ARTICLES": {
       "ERRORS": {
         "SHARING": {
           "NO_CONTENT": {
-            "SRC": "O documento que você está tentando compartilhar parece um pouco vazio. Adicione pelo menos {{minimum}} rems e tente novamente.",
-            "SUBDOCUMENT": "Um dos seus subdocumentos parece um pouco vazio. Não será publicado até que tenha {{minimum}} rems."
+            "SRC": "O documento que você está tentando compartilhar tem pouco conteúdo. Adicione pelo menos alguns rems a ele e tente novamente.",
+            "SUBDOCUMENT": "Um dos seus subdocumentos parece um pouco vazio. Ele não será publicado até que tenha o mínimo de Rems"
           },
           "NO_TITLE": {
             "SRC": "O documento que você está tentando compartilhar não tem título. Você precisa adicionar um antes de publicá-lo.",
@@ -28,9 +39,67 @@
       }
     }
   },
+  "DOCUMENT": {
+    "DIALOGS": {
+      "DELETE_ALSO_UNSHARE": "Você também deseja cancelar o compartilhamento do documento?",
+      "DELETE_CONFIRM_DIALOG": "Tem certeza de que deseja excluir este documento?",
+      "DELETE_UNSHARE_ERROR": "Ocorreu um erro ao cancelar o compartilhamento deste documento. Por favor, cancele-o manualmente.",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "Você está off-line. Cancele o compartilhamento do documento manualmente quando estiver on-line novamente."
+    },
+    "MENU": {
+      "ADD_NESTED_DOCUMENT": "Adicionar Documento Aninhado",
+      "CHANGE_DOCUMENT_ICON": "Alterar Ícone do Documento",
+      "CHANGE_DOCUMENT_STATUS": "Alterar Status do Documento",
+      "CHANGE_FOLDER_ICON": "Alterar Ícone da Pasta",
+      "CUSTOMIZE_SPACED_REPETITION": "Personalizar a Repetição Espaçada",
+      "DELETE": "Excluir",
+      "EDIT_MODE": {
+        "READ": "Modo de Leitura",
+        "WRITE": "Modo de Edição"
+      },
+      "EXPORT": "Exportar",
+      "FIND_OR_FILTER": "Pesquisar ou Filtrar",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "Essa opção está obsoleta, e é recomendável usar o método alternativo de pressionar <keycode /> e, em seguida, buscar as referências textuais",
+        "LABEL": "Localizar Referências de Texto"
+      },
+      "MARK_AS_DOCUMENT": "Marcar como Documento",
+      "MOVE": "Mover",
+      "MULTI_SELECTION_FOLDER": "Selecionar Múltiplas Pastas/Documentos",
+      "MULTI_SELECTION_MODE": "Selecionar múltiplos Rems",
+      "OPEN_IN_ANOTHER_PANE": "Abrir em Outro Painel",
+      "PIN_TO_SIDEBAR": "Fixar na Barra Lateral",
+      "PRINT": "Imprimir",
+      "RENAME": "Renomear",
+      "SHOW_STUDY_BUTTON": "Botão Mostrar Estudo",
+      "STATS": "Estatísticas",
+      "UNDO": "Desfazer",
+      "UNPIN_FROM_SIDEBAR": "Desafixar da Barra Lateral",
+      "UNSHARE_DOCUMENT": "Descompartilhar o Documento",
+      "VIEW_GRAPH": "Exibir Gráfico Local",
+      "VIEW_TRASH": "Ver Lixeira"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "Rascunho",
+      "FINISHED": "Finalizado",
+      "PINNED": "Fixado"
+    }
+  },
+  "FILE_UPLOADING": {
+    "CACHED_INFO": "Este arquivo foi armazenado em cache para visualização off-line e pode não ter sido carregado ainda.",
+    "LOCAL_ONLY_WARN": "O upload desse arquivo não foi bem-sucedido e está armazenado temporariamente em seu computador.",
+    "LOCAL_WAITING_FOR_UPLOAD_WARN": "Esse arquivo ainda não foi carregado e está armazenado apenas localmente.",
+    "NOT_FOUND": "Esse arquivo não pode ser encontrado.",
+    "NOT_YET_UPLOADED": "Esse arquivo ainda não foi carregado.",
+    "SNIPPING": {
+      "NON_PDF": "Tente usar outra ferramenta de recorte/colagem ou entre em contato com o suporte.",
+      "PDF": "Entre em contato com o suporte."
+    }
+  },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Idioma",
-    "TRANSLATION_INFO_SETTINGS": "A tradução ainda está em andamento.<br> Você pode nos ajudar lendo o <guideLink>tutorial</guideLink> e então usando nosso <editorLink>editor web</editorLink> ."
+    "TRANSLATION_INFO_SETTINGS": "A tradução ainda está em andamento.<br> Você pode nos ajudar lendo o <guideLink>tutorial</guideLink> e então usando nosso <editorLink>editor web</editorLink> .",
+    "TRANSLATION_IN_PROGRESS": "Tradução Em Progresso"
   },
   "NOTIFICATIONS": {
     "ARTICLE_DEFAULT": "Seu documento",
@@ -54,7 +123,7 @@
     },
     "NEW_COMMENT": {
       "BODY": "comentou no",
-      "BODY_ARTICLE": "comentou no seu artigo",
+      "BODY_ARTICLE": "comentou em seu documento",
       "BODY_COMMENT": "respondeu seu comentário",
       "BODY_GROUP": "enviou um chat para seu grupo"
     },
@@ -66,20 +135,101 @@
     },
     "POPUP_TITLE": "Notificações recentes"
   },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "Criar uma pasta"
+        },
+        "PAGE_1": {
+          "TITLE": "Adicionar um Marcador"
+        },
+        "PAGE_2": {
+          "TITLE": "Criar um Flashcard"
+        },
+        "PAGE_3": {
+          "TITLE": "Estruturar notas usando Tab"
+        }
+      }
+    }
+  },
   "PAGES": {
     "ALL_NOTES": {
       "SORT": {
         "ASCENDING": "A -> Z",
-        "BY_CREATION_TIME": "Por tempo da criação",
+        "BY_CREATION_TIME": "Por tempo de criação",
         "BY_MODIFICATION": "Por modificação",
-        "BY_TITLE": "Por Título",
+        "BY_TITLE": "Por título",
         "DESCENDING": "Z -> A",
-        "OLDEST_CREATION_FIRST": "Criação Mais Antiga primeiro",
-        "OLDEST_FIRST": "Mais Antigo primeiro",
-        "RECENTLY_CREATED": "Criado recentemente",
-        "RECENTLY_MODIFIED": "Modificado Recentemente"
+        "OLDEST_FIRST": "Mais antigo primeiro",
+        "RECENTLY_MODIFIED": "Modificado recentemente",
+        "OLDEST_CREATION_FIRST": "Criação mais antiga primeiro",
+        "RECENTLY_CREATED": "Criado recentemente"
       },
       "TITLE": "Todas as Notas"
+    }
+  },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "AI_DROPDOWN": {
+        "BASIC_CARDS": "Cartas básicas",
+        "BASIC_CARDS_TOOLTIP": "Gerar flashcards básicos de perguntas e respostas a partir do texto selecionado.",
+        "CLOZE_CARDS": "Cartões Cloze (Preencher a lacuna)",
+        "CLOZE_CARDS_TOOLTIP": "Gerar flashcards de cloze a partir do texto selecionado.",
+        "CONCEPT_CARDS": "Cartões Conceituais",
+        "CONCEPT_CARDS_TOOLTIP": "Gerar flashcards conceituais a partir do texto selecionado.",
+        "GENERATE_SECTION": "GERAR"
+      },
+      "CLOZE_BTN_TOOLTIP": " Flashcard (Preencher a lacuna) Cloze",
+      "COPY_IMAGE": "Copiar Imagem",
+      "COPY_IMAGE_AS_TEXT": "Copiar imagem como texto com IA",
+      "COPY_TEXT": "Copiar como Texto Sem Formatação",
+      "HIGHLIGHT": "Destaque",
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "Criar Flashcards de Oclusão de Imagem",
+      "NOTE_BTN_TOOLTIP": "Observação",
+      "NO_TEXT_IN_PDF_WARN": "Esse arquivo não contém uma camada de texto, mas você ainda pode usar destaques de área para fazer anotações."
+    },
+    "EDIT_ANNOTATIONS": {
+      "ADVANCED_LINKING_OPTIONS": "Opções Avançadas de Vinculação",
+      "DELETE_WARNING": "Esse destaque tem {{notesCount, number}} {{ notesWord }}. Tem certeza de que deseja excluí-lo?",
+      "TURN_INTO_CONCEPT": "Transformar em Conceito",
+      "VIEW_REFERENCES": "Exibir Referências"
+    },
+    "HEADER": {
+      "AREA_HIGHLIGHT_TOOLTIP": "Destacar Área ({{keyName}} + Arrastar)",
+      "NUMBER_OF_PAGES_TOOLTIP": "número de páginas",
+      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "Alternar Documento Padrão"
+    },
+    "PDF_OPTIONS": {
+      "CHANGE_THEME": "Alterar o tema",
+      "DOWNLOAD_PDF": "Baixar PDF",
+      "LEARN_MORE": "Saiba mais",
+      "OPEN_WEBPAGE_EXTERNALLY": "Abrir a página da Web externamente",
+      "PDF_SETTINGS": "Configurações",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "Destaque automático",
+        "AUTO_HIGHLIGHT_TOOLTIP": "Crie destaques automaticamente depois que o texto for selecionado.",
+        "DISABLE_HEADER_BUTTONS": "Desativar botões de cabeçalho",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "Desativar a exibição dos botões de cabeçalho (\") no leitor.",
+        "SNAP_HIGHLIGHT_TO_WORDS": "Destaque de palavras",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "Ao criar novos destaques, selecione apenas palavras inteiras."
+      },
+      "REFETCH_PAGE": "Buscar página novamente",
+      "REFETCH_PAGE_TOOLTIP": "Essa página não poderá ser refeita se tiver destaques existentes.",
+      "SEARCH_IN_PDF": "Pesquisar em PDF",
+      "SPLIT_PANES": "Dividir painéis",
+      "SPLIT_PANES_TOOLTIP": "Dividir o editor e o visualizador de PDF em painéis separados.",
+      "THEMES": {
+        "CLASSIC_INVERT": "Invertido Clássico",
+        "DARK": "Escuro",
+        "LIGHT": "Claro",
+        "SOLARISED": "Solarizado",
+        "USE_REMNOTE_THEME": "Usar o tema RemNote"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "DONE": "Feito",
+      "INPUT_PLACEHOLDER": "Pesquisa"
     }
   },
   "POPUPS": {
@@ -109,7 +259,7 @@
         "FEATURE_NAME": "Grifar PDF",
         "PAYWALL": "Você atingiu seu limite de uploads de PDF.",
         "TITLE": "Fazer Upload e Anotar Arquivo",
-        "todo_for_the_item_below": "mover isso para um objeto de nome que tem características globais?"
+        "todo_for_the_item_below": "mover isso para um objeto de nome de recurso global?"
       }
     }
   },
@@ -127,6 +277,14 @@
         "KEYWORDS": "Sair Sair Método de Login do Google Adicionar Desconectar Entrar Cadastrar-se"
       },
       "AUTHENTICATION_TITLE": "Autenticação",
+      "CACHING": {
+        "DESCRIPTION": "Armazene imagens em cache quando elas forem carregadas para que possam ser visualizadas off-line.",
+        "NUMBER_DESCRIPTION": "Defina o número máximo de imagens a serem armazenadas em cache. Quando o limite for atingido, as imagens mais antigas serão removidas do cache.",
+        "NUMBER_TITLE": "Máximo de imagens em cache",
+        "TITLE": "Armazenando em cache",
+        "TOGGLE_DESCRIPTION": "Quando desativado, todas as imagens armazenadas em cache serão apagadas.",
+        "TOGGLE_TITLE": "Ativar Cache"
+      },
       "DANGER_ZONE": {
         "KEYWORDS": "sincronizar log excluir conta redefinir passo a passo progresso redefinir onboarding avançadas conta configurações ",
         "TITLE": "Zona de Perigo"
@@ -165,7 +323,12 @@
       "NOTIFICATIONS": {
         "DESCRIPTION": "Enviar lembretes sobre sua sequência diária de flashcards. Os lembretes são enviados às 18h todos os dias, no seu fuso horário local.",
         "TITLE": "Notificações de Sequência para o Celular"
-      }
+      },
+      "ADVANCED_KEYWORDS": "Senhas Avançadas",
+      "AUTHENTICATION_KEYWORDS": "Senhas de Autenticação",
+      "EXPORT_IMPORT_KEYWORDS": "Senhas de exportação e importação",
+      "NAVIGATION_KEYWORDS": "Senhas de navegação",
+      "PROFILE_KEYWORDS": "Senhas de perfil"
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Utilize seu crédito",
@@ -176,17 +339,17 @@
       "CREDIT_BALANCE_TEXT": "Você tem<bold> {{userCredit}}</bold> de créditos restantes e ganhou<bold> {{userCreditEarned}}</bold> de créditos no total. {{months}} mês ou meses restantes de RemNote Pro gratuitamente.<div><br /> Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>",
       "EMAIL_PLACEHOLDER": "amigocuriosos@gmail.com",
       "ENTER_VALID_EMAIL": "Digite um e-mail válido!",
-      "FRIEND_ALREADY_ON_REMNOTE": "Seu amigo já está no RemNote",
       "FRIENDS_TITLE": "Amigos",
+      "FRIEND_ALREADY_ON_REMNOTE": "Seu amigo já está no RemNote",
       "HANG_ON": "Espere",
       "INVITE": "Convidar",
+      "INVITED_YOU": "(convidou você)",
       "INVITE_COPIED": "Link do convite copiado!",
       "INVITE_EMAIL": "Convidar por e-mail",
       "INVITE_ERROR": "Algo deu errado. Por favor, tente novamente mais tarde.",
       "INVITE_FRIENDS_EARN_CREDIT": "Convide seus amigos para ganhar créditos! Você receberá <0>{{monthlyPrice}}</0> em crédito RemNote quando a pessoa que você convidou se inscrever com uma conta RemNote, e ele também receberá <0>{{monthlyPrice}}</0> de crédito para começar.",
       "INVITE_FRIENDS_REMNOTE": "Convide seus amigos para o RemNote!",
       "INVITE_TEXT": "Convide amigos e ganhe créditos",
-      "INVITED_YOU": "(convidou você)",
       "KEYWORDS": "convidar amigos ganhar créditos plano mudar assinatura ganhar créditos grátis remnote enviar tweet email escolher plano aprendizado vitalício pro recursos detalhamento preços opções",
       "NOT_CONFIRMED_EMAIL": "(não confirmou e-mail)",
       "SEND_INVITE": "Enviar convite",
@@ -194,6 +357,7 @@
       "TITLE": "Ganhe Créditos",
       "TOAST_RENEW": "Seus créditos serão aplicados automaticamente quando sua assinatura atual for renovada.",
       "TOAST_SUBSCRIBE": "Seus créditos serão aplicados automaticamente quando você assinar o RemNote Pro. Escolha um plano abaixo para começar!",
+      "TOTAL_MONTHS_EARNED": "Total de Meses Pro Adquiridos",
       "VERIFY_EMAIL": "Para convidar alguém, primeiro verifique seu e-mail."
     },
     "EDITOR": {
@@ -272,8 +436,8 @@
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "TITLE": "Meta Diária Máxima",
-          "DESCRIPTION": "Limita o número de flashcards que o RemNote solicitará que você pratique para atingir sua meta diária neste valor."
+          "DESCRIPTION": "Pratique pelo menos essa quantidade de flashcards todos os dias para criar sequências.",
+          "TITLE": "Meta Diária Máxima"
         },
         "TODAYS_TARGET": "Meta de Hoje:",
         "TODAYS_TARGET_EXPLANATION": "O RemNote tenta definir sua meta diária para que, se você atingi-la todos os dias, todos os cards sejam revisados nos próximos 7 dias. Porém, a meta diária nunca será superior ao máximo definido acima."
@@ -283,13 +447,17 @@
           "DESCRIPTION": "Ao mostrar um flashcard, reproduz automaticamente qualquer áudio ou vídeo contido nele.",
           "TITLE": "Reprodução Automática de Mídia "
         },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "DESCRIPTION": "Ao mostrar um flashcard, reproduza automaticamente o áudio de texto para fala para a frente do cartão e para o verso do cartão depois de revelado.",
+          "TITLE": "Reprodução automática de texto para fala"
+        },
         "LEARN_AHEAD_LIMIT": {
           "DESCRIPTION": "Quando você finalizar todos os cartões na sua fila prioritária de revisão, o Remnote imediatamente já vai te mostrar cartões secundários que estão para vencer. Com isso, você não vai ficar com cartões pendentes pra revisar logo após terminar as revisões da sua fila prioritária.",
           "TITLE": "Aprender além do limite"
         },
         "LEECH_THRESHOLD": {
-          "DESCRIPTION": "Sanguessugas são cartas difíceis que você continua aprendendo e depois esquecendo novamente. Se você pressionar “esqueci” em um cartão mais vezes do que o este valor, iremos avisá-lo para que você possa descobrir por que está tendo dificuldades neste card e resolver este problema. Defina valores mais altos para ver o aviso de sanguessuga com menos frequência.",
-          "TITLE": "Limite para Sanguessugas"
+          "DESCRIPTION": "\"Cartas Sanguessugas\" são cartas difíceis que você continua aprendendo e depois esquecendo novamente. Se você pressionar “esqueci” em um cartão mais vezes do que o este valor, iremos avisá-lo para que você possa descobrir por que está tendo dificuldades neste card e resolver este problema. Defina valores mais altos para ver o aviso de \"Cartas Sanguessugas\" com menos frequência.",
+          "TITLE": "Limite para \"Cartas Sanguessugas\""
         },
         "NEW_CARDS_PER_DAY": {
           "DESCRIPTION": "Inclua uma quantidade máxima de flashcards novos em sua revisão a cada dia. Dessa forma, novos cartões serão inseridos em sua fila a uma taxa diária constante, em vez de entrar tudo de uma vez.",
@@ -311,6 +479,15 @@
         "STALE_CARDS_PER_DAY": {
           "DESCRIPTION": "Defina a quantidade máxima de flashcards obsoletos que você quer que sejam reintroduzidos aos poucos em sua fila de revisão diariamente. Cartões obsoletos são aqueles que são temporariamente retidos da fila porque você passou muito tempo sem estudá-los e reaprende-los todos de uma vez seria exaustivo.",
           "TITLE": "Máximo de Cards Obsoletos por Dia"
+        },
+        "TEXT_TO_SPEECH_SPEED": {
+          "DESCRIPTION": "A velocidade na qual o texto do cartão de memória é falado.",
+          "TITLE": "Velocidade de Conversão de Texto em Fala"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "A voz usada para conversão de texto em fala. Observe que algumas vozes só funcionam em determinados idiomas.",
+          "SAMPLE": "A mitocôndria é a fonte de energia da célula.",
+          "TITLE": "Voz de texto para fala"
         },
         "TYPE_ANSWER": {
           "DESCRIPTION": "Mostra uma caixa de texto na frente de cada cartão e compara o que você digitou com a resposta no verso do cartão.",
@@ -371,14 +548,14 @@
         "LABEL": "Expanda os documentos para usar toda a largura da tela.",
         "TITLE": "Largura Completa "
       },
+      "INTERFACE": {
+        "KEYWORDS": "idioma idioma tradução i18n",
+        "TITLE": "Idioma da interface do RemNote"
+      },
       "IN_APP_SUGGESTIONS": {
         "KEYWORDS": "dicas ajuda suporte aprender tutorial",
         "LABEL": "Mostre dicas sobre os recursos do RemNote na parte superior do seu documento.",
         "TITLE": "Dicas de Integração na Topo do Documento"
-      },
-      "INTERFACE": {
-        "KEYWORDS": "idioma idioma tradução i18n",
-        "TITLE": "Idioma da interface do RemNote"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "KEYWORDS": "no aplicativo barra lateral esquerda tutoriais dicas ajuda suporte aprender tutorial",
@@ -463,12 +640,19 @@
           "TITLE": "Notificações de Sequencia Diária"
         }
       },
+      "ENABLE_COMMUNITY_LABEL": "Receba notificações instantâneas quando alguém interagir com seu conteúdo compartilhado",
+      "ENABLE_COMMUNITY_TITLE": "Notificações de Flashcards Compartilhados",
       "ENABLE_DUE_CARDS_LABEL": "Exibe a quantidade total de cartões à revisar como um pequeno emblema no ícone do aplicativo do Remnote.",
       "ENABLE_DUE_CARDS_TITLE": "Ativar emblema de notificação para cartões à revisar?",
       "ENABLE_EMAIL_LABEL": "Receba notificações diretamente em seu e-mail",
       "ENABLE_EMAIL_TITLE": "Ativar notificações por e-mail?",
+      "ENABLE_EXAM_TITLE": "Lembretes de exames",
+      "ENABLE_EXAM_DESCRIPTION": "Receba e-mails se estiver atrasado na preparação para um exame",
       "ENABLE_PUSH_LABEL": "Receba notificações diretamente no seu dispositivo móvel",
       "ENABLE_PUSH_TITLE": "Ativar notificações flutuantes?",
+      "ENABLE_STREAK_DESCRIPTION": "Receba lembretes diários às 18h sobre sua sequência de flashcards",
+      "ENABLE_STREAK_TITLE": "Notificações do Mobile Streak",
+      "PUSH_ENABLE_MESSAGE": "As notificações por push não estão configuradas neste dispositivo. Clique aqui para configurá-las!",
       "TOGGLE_LABEL": "Controle quais notificações você deseja receber diretamente em seu dispositivo/e-mail",
       "TOGGLE_TITLE": "Filtrar notificações"
     },
@@ -517,6 +701,7 @@
     },
     "UPLOAD_SOURCE": {
       "EMPTY": "Arraste PDFs, documentos de Word, PPTs e <moreLink>mais</moreLink> aqui!",
+      "IMPORT_INSTEAD": "O RemNote não pode aceitar uploads de arquivos desse tipo. No entanto, talvez possamos importar as anotações ou flashcards desse arquivo! Tente escolher \"Importar\" no menu superior esquerdo da conta.",
       "INVALID": "Formato incorreto de arquivo",
       "LABEL": "Upload de Fonte",
       "PDF": "PDF",
@@ -551,17 +736,17 @@
       "TABLE_CONFIGURATION": {
         "ADD_LIST_VIEW_TITLE": "Adicionar Visualização em Lista",
         "ADD_TABLE_VIEW_TITLE": "Adicionar Visualização em Tabela",
-        "ALL": "Tudo",
+        "ALL": "Todos",
         "CELL_LIST_HEIGHT": {
           "CELL_LIST_HEIGHT_TITLE": "Altura das Celulas da Lista",
           "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Celulas podem conter múltiplos itens de lista! Limite a altura das celulas para facilitar a visualização. ",
           "COMFORTABLE_TITLE": "Confortável",
           "COMPACT_TITLE": "Compacto",
-          "FULL_TITLE": "Tudo"
+          "FULL_TITLE": "Cheio"
         },
         "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Configurar Tag & Editar Modelos",
-        "DELETE_LIST": "Deletar Lista",
-        "DELETE_TABLE": "Deletar Tabela",
+        "DELETE_LIST": "Excluir Lista",
+        "DELETE_TABLE": "Excluir Tabela",
         "DUPLICATE_LIST_VIEW_TITLE": "Duplicar Visualização da Lista",
         "DUPLICATE_TABLE_VIEW_TITLE": "Duplicar Vizualização da Tabela",
         "DUPLICATE_VIEW_MESSAGE_COMMON": "Duplique uma visualização para aplicar um novo filtro, ordenamento, ou mais! O conteúdo é compartilhado entre visualização de uma mesma fonte, para que você não acabe com instâncias acidentalmente duplicadas.",
@@ -623,35 +808,17 @@
     "PROPERTIES_HELP_TEXT": {
       "0": "Propriedades descrevem uma tag. Por exemplo, para uma tag chamada \"Livro\", adicione propriedades para Autor, Gênero, Status de Leitura e mais!"
     },
-    "PROPERTY_one": "Propriedade",
-    "PROPERTY_other": "Propriedades",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Propriedade",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Propriedades",
+    "PROPERTY_one": "Propriedade",
+    "PROPERTY_other": "Propriedades",
     "SET_AS_AUTO_APPLY_TEMPLATE": "Definir como Modelo Autoaplicável",
-    "TEMPLATE_one": "Modelo",
-    "TEMPLATE_other": "Modelos",
+    "TEMPLATES_HELP_TEXT": "O modelo de uma tag é um documento do RemNote que pode ser copiado automaticamente em um Rem marcado com esta Tag. Adicione cabeçalhos, listas e mais diretamente no seu modelo.",
     "TEMPLATE_WITH_COUNT_one": "{{count, number}} Modelo",
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} Modelos",
-    "TEMPLATES_HELP_TEXT": "O modelo de uma tag é um documento do RemNote que pode ser copiado automaticamente em um Rem marcado com esta Tag. Adicione cabeçalhos, listas e mais diretamente no seu modelo.",
+    "TEMPLATE_one": "Modelo",
+    "TEMPLATE_other": "Modelos",
     "TURN_OFF_AUTO_APPLY": "Desativar Aplicar Automaticamente",
     "VIEW_CONFIGURATION": "Configurar Tag"
-  },
-  "ONBOARDING": {
-    "SIDEBAR": {
-      "INITIAL": {
-        "PAGE_0": {
-          "TITLE": "Criar uma pasta"
-        },
-        "PAGE_1": {
-          "TITLE": "Adicionar bullet point"
-        },
-        "PAGE_2": {
-          "TITLE": "Criar um Flashcard"
-        },
-        "PAGE_3": {
-          "TITLE": "Estruturar notas usando Tab"
-        }
-      }
-    }
   }
 }
