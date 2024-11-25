@@ -664,7 +664,7 @@
       "LINK_WITH_COUNT_one": "{{count, number}} Link",
       "LINK_WITH_COUNT_other": "{{count, number}} Links",
       "OPEN_IN_READER": "Open in Reader",
-      "SEARCH_PLACEHOLDER": "Paste a link or search for a Reference"
+      "SEARCH_PLACEHOLDER": "Search for any Rem (source, document, or bullet)"
     },
     "UPLOAD_SOURCE": {
       "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
