@@ -659,7 +659,7 @@
     "LINK_SOURCE": {
       "ENTER_URL": "Enter URL",
       "INVALID_URL": "Invalid URL",
-      "LABEL": "Link",
+      "LABEL": "Link Existing Source",
       "LINK": "Link",
       "LINK_WITH_COUNT_one": "{{count, number}} Link",
       "LINK_WITH_COUNT_other": "{{count, number}} Links",
@@ -670,7 +670,7 @@
       "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
       "IMPORT_INSTEAD": "RemNote cannot accept file uploads of this type. However, we might be able to import the notes or flashcards in this file! Try choosing “Import” from the upper-left account menu.",
       "INVALID": "Sorry, RemNote cannot accept file uploads of this type.",
-      "LABEL": "Upload",
+      "LABEL": "Add Source",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
