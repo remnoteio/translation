@@ -657,6 +657,7 @@
   "SOURCES": {
     "LINK_SOURCE": {
       "ENTER_URL": "Enter URL",
+      "EMBED_LINK": "Embed Link",
       "INVALID_URL": "Invalid URL",
       "LABEL": "Link Existing Source",
       "LINK": "Link",
@@ -675,6 +676,7 @@
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Select files",
       "SELECT_FILES_TO_UPLOAD": "Select files to upload",
+      "UPLOAD": "Upload",
       "UPLOADING": "Uploading..."
     },
     "WIKIMEDIA_COMMONS": {
