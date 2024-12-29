@@ -1,7 +1,7 @@
 {
   "COMMON": {
     "ACTIONS": {
-      "APPLY": "Anwenden",
+      "APPLY": "Anwenden hello\n",
       "COPY": "Kopieren",
       "CREATE": "Erstellen",
       "DELETE": "Löschen",
@@ -339,12 +339,9 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Guthaben anwenden",
-      "BALANCE_IN_MONTHS": "{{numMonths}} Monate",
       "COPIED": "Kopiert!",
       "COPYLINK": "Link kopieren",
       "CREATE_ACCOUNT": "Erstellen Sie ein Konto, um Freunde einzuladen",
-      "CREDIT_BALANCE": "Kontostand",
-      "CREDIT_BALANCE_TEXT": "Sie haben <bold>{{userCredit}}</bold> Restguthaben und <bold> {{userCreditEarned}}</bold> Guthaben insgesamt erhalten. {{months}} verbleibender Monat oder verbleibende Monate RemNote Pro kostenlos.<br /><br /> Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung auf dem Konto erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.",
       "EMAIL_PLACEHOLDER": "neugierigfreund@gmail.com",
       "ENTER_VALID_EMAIL": "Geben Sie eine gültige E-Mail-Adresse ein!",
       "FRIENDS_TITLE": "Freunde",
@@ -368,7 +365,10 @@
       "TOAST_SUBSCRIBE": "Ihr Guthaben wird automatisch angewendet, wenn Sie RemNote Pro abonnieren. Wählen Sie unten einen Plan aus, um loszulegen!",
       "TOTAL_MONTHS_EARNED": "Anzahl an verdienten Pro Monaten",
       "VERIFY_EMAIL": "Um jemanden einzuladen, bestätigen Sie zunächst Ihre E-Mail-Adresse.",
-      "SUBSCRIBE_NOTICE": "<div><br />Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung ihres Kontos erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.</div>"
+      "CREDIT_BALANCE": "Kontostand",
+      "CREDIT_BALANCE_TEXT": "Sie haben <bold>{{userCredit}}</bold> Restguthaben und <bold> {{userCreditEarned}}</bold> Guthaben insgesamt erhalten. {{months}} verbleibender Monat oder verbleibende Monate RemNote Pro kostenlos.<br /><br /> Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung auf dem Konto erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.",
+      "SUBSCRIBE_NOTICE": "<div><br />Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung ihres Kontos erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.</div>",
+      "BALANCE_IN_MONTHS": "{{numMonths}} Monate"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {

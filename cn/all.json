@@ -335,8 +335,6 @@
       "COPIED": "已复制！",
       "COPYLINK": "复制链接",
       "CREATE_ACCOUNT": "创建账户并邀请好友",
-      "CREDIT_BALANCE": "积分详情",
-      "CREDIT_BALANCE_TEXT": "您当前剩余 <bold>{{userCredit}}</bold> 点积分，已累计获得 <bold>{{userCreditEarned}}</bold> 积分，还剩 {{months}} 个月的 RemNote Pro 计划免费使用期。<div><br />使用积分订阅 RemNote Pro 计划！在积分用完之前不会产生任何费用。</div> ",
       "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
       "ENTER_VALID_EMAIL": "请输入有效的电子邮件地址！",
       "FRIENDS_TITLE": "朋友",
@@ -358,6 +356,8 @@
       "TOAST_RENEW": "您的积分将在当前订阅续订时自动应用",
       "TOAST_SUBSCRIBE": "您的积分将在您订阅 RemNote Pro 时自动应用，选择下面的计划开始吧！",
       "VERIFY_EMAIL": "请先验证您的电子邮件，才能邀请他人",
+      "CREDIT_BALANCE": "积分详情",
+      "CREDIT_BALANCE_TEXT": "您当前剩余 <bold>{{userCredit}}</bold> 点积分，已累计获得 <bold>{{userCreditEarned}}</bold> 积分，还剩 {{months}} 个月的 RemNote Pro 计划免费使用期。<div><br />使用积分订阅 RemNote Pro 计划！在积分用完之前不会产生任何费用。</div> ",
       "SUBSCRIBE_NOTICE": "<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>"
     },
     "EDITOR": {

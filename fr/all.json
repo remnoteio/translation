@@ -325,8 +325,6 @@
       "COPIED": "Copié !",
       "COPYLINK": "Copier le Lien",
       "CREATE_ACCOUNT": "Créer un compte pour inviter des amis",
-      "CREDIT_BALANCE": "Solde de Crédits",
-      "CREDIT_BALANCE_TEXT": "Vous avez <bold>{{userCredit}}</bold> crédits restant et avez gagné <bold>{{userCreditEarned}}</bold> crédits au total. {{months}} mois restants ou mois de Remnote Pro gratuits.<br /><br />Abonnez-vous à Pro pour commencer à utiliser vos crédits ! Vous ne serez facturé que quand vos crédits seront épuisés.",
       "EMAIL_PLACEHOLDER": "amicurieux@gmail.com",
       "ENTER_VALID_EMAIL": "Tapez un email valide !",
       "FRIENDS_TITLE": "Amis",
@@ -347,7 +345,9 @@
       "TITLE": "Crédits",
       "TOAST_RENEW": "Vos crédit sont utilisés automatiquement lorsque votre abonnement se renouvellera.",
       "TOAST_SUBSCRIBE": "Vos crédits seront utilisés automatiquement lorsque vous souscrirez à RemNote Pro. Choisissez un plan ci-dessous et commencez maintenant !",
-      "VERIFY_EMAIL": "Pour inviter quelqu'un, validez votre adresse mail."
+      "VERIFY_EMAIL": "Pour inviter quelqu'un, validez votre adresse mail.",
+      "CREDIT_BALANCE": "Solde de Crédits",
+      "CREDIT_BALANCE_TEXT": "Vous avez <bold>{{userCredit}}</bold> crédits restant et avez gagné <bold>{{userCreditEarned}}</bold> crédits au total. {{months}} mois restants ou mois de Remnote Pro gratuits.<br /><br />Abonnez-vous à Pro pour commencer à utiliser vos crédits ! Vous ne serez facturé que quand vos crédits seront épuisés."
     },
     "EDITOR": {
       "DATES_AND_TIMES": {

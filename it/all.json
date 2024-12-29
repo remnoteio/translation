@@ -167,8 +167,6 @@
       "COPIED": "Copiato!",
       "COPYLINK": "Copia link",
       "CREATE_ACCOUNT": "Crea un account per invitare gli amici",
-      "CREDIT_BALANCE": "Credito disponibile",
-      "CREDIT_BALANCE_TEXT": "Hai <bold>{{userCredit}}</bold> credito residuo e hai guadagnato <bold>{{userCreditEarned}}</bold> credito in totale. {{months}} mese o mesi rimanenti di RemNote Pro gratis.<br /><br /> Iscriviti a Pro per iniziare a utilizzare il tuo credito! Non ti verrà addebitato alcun importo fino all'esaurimento del credito.",
       "EMAIL_PLACEHOLDER": "mariorossi@gmail.com",
       "ENTER_VALID_EMAIL": "Inserire un'email valida!",
       "FRIENDS_TITLE": "Amici",
@@ -187,7 +185,9 @@
       "TITLE": "Guadagna crediti",
       "TOAST_RENEW": "I tuoi crediti verranno utilizzati automaticamente al rinnovo del tuo abbonamento attuale.",
       "TOAST_SUBSCRIBE": "I tuoi crediti verranno utilizzati automaticamente quando ti iscrivi a RemNote Pro. Scegli un piano qui sotto per iniziare!",
-      "VERIFY_EMAIL": "Per invitare qualcuno, verifica prima la tua email."
+      "VERIFY_EMAIL": "Per invitare qualcuno, verifica prima la tua email.",
+      "CREDIT_BALANCE": "Credito disponibile",
+      "CREDIT_BALANCE_TEXT": "Hai <bold>{{userCredit}}</bold> credito residuo e hai guadagnato <bold>{{userCreditEarned}}</bold> credito in totale. {{months}} mese o mesi rimanenti di RemNote Pro gratis.<br /><br /> Iscriviti a Pro per iniziare a utilizzare il tuo credito! Non ti verrà addebitato alcun importo fino all'esaurimento del credito."
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
