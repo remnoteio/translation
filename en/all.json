@@ -48,9 +48,7 @@
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "Add Nested Document",
-      "CHANGE_DOCUMENT_ICON": "Change Document Icon",
       "CHANGE_DOCUMENT_STATUS": "Change Document Status",
-      "CHANGE_FOLDER_ICON": "Change Folder Icon",
       "CUSTOMIZE_SPACED_REPETITION": "Customize Spaced Repetition",
       "DELETE": "Delete",
       "EDIT_MODE": {
@@ -65,8 +63,6 @@
       },
       "MARK_AS_DOCUMENT": "Mark as Document",
       "MOVE": "Move",
-      "MULTI_SELECTION_FOLDER": "Select Multiple Folders/Documents",
-      "MULTI_SELECTION_MODE": "Select Multiple Rems",
       "OPEN_IN_ANOTHER_PANE": "Open in Another Pane",
       "PIN_TO_SIDEBAR": "Pin to Sidebar",
       "PRINT": "Print",
@@ -77,7 +73,11 @@
       "UNPIN_FROM_SIDEBAR": "Unpin from Sidebar",
       "UNSHARE_DOCUMENT": "Unshare Document",
       "VIEW_GRAPH": "View Local Graph",
-      "VIEW_TRASH": "View Trash"
+      "VIEW_TRASH": "View Trash",
+      "CHANGE_DOCUMENT_ICON": "Change Document Icon",
+      "CHANGE_FOLDER_ICON": "Change Folder Icon",
+      "MULTI_SELECTION_FOLDER": "Select Multiple Folders/Documents",
+      "MULTI_SELECTION_MODE": "Select Multiple Rems"
     },
     "PUBLISH_STATUS": {
       "DRAFT": "Draft",
@@ -179,12 +179,12 @@
       },
       "CLOZE_BTN_TOOLTIP": "Cloze (Fill-in-the-Blank) Flashcard",
       "COPY_IMAGE": "Copy Image",
-      "COPY_IMAGE_AS_TEXT": "Copy Image as Text With AI",
       "COPY_TEXT": "Copy as Plain Text",
       "HIGHLIGHT": "Highlight",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Make Image Occlusion Flashcards",
       "NOTE_BTN_TOOLTIP": "Note",
-      "NO_TEXT_IN_PDF_WARN": "This file does not contain a text layer, but you can still use area highlights to annotate."
+      "NO_TEXT_IN_PDF_WARN": "This file does not contain a text layer, but you can still use area highlights to annotate.",
+      "COPY_IMAGE_AS_TEXT": "Copy Image as Text With AI"
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "Advanced Linking Options",
@@ -319,8 +319,6 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Apply your free months",
-      "BALANCE_IN_MONTHS_SG": "{{numMonths}} month",
-      "BALANCE_IN_MONTHS_PL": "{{numMonths}} months",
       "COPIED": "Copied!",
       "COPYLINK": "Copy Link",
       "CREATE_ACCOUNT": "Create an account to invite friends",
@@ -339,14 +337,16 @@
       "INVITE_TEXT": "Invite Friends",
       "KEYWORDS": "invite friends earn credit plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options",
       "NOT_CONFIRMED_EMAIL": " (has not confirmed email)",
-      "REMAINING_MONTHS": "Remaining Months",
       "SEND_INVITE": "Send invite",
       "SHARE_LINK": "Share link",
       "TITLE": "Credits",
       "TOAST_RENEW": "Your credits will be applied automatically when your current subscription renews.",
       "TOAST_SUBSCRIBE": "Your credits will be applied automatically when you subscribe to RemNote Pro. Choose a plan below to get started!",
+      "VERIFY_EMAIL": "To invite someone, verify your email first.",
+      "REMAINING_MONTHS": "Remaining Months",
       "TOTAL_MONTHS_EARNED": "Total Months of Pro Earned",
-      "VERIFY_EMAIL": "To invite someone, verify your email first."
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} month",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} months"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -612,15 +612,15 @@
       "ENABLE_DUE_CARDS_TITLE": "Due cards badge",
       "ENABLE_EMAIL_LABEL": "Receive notifications directly to your inbox",
       "ENABLE_EMAIL_TITLE": "Enable email community notifications",
-      "ENABLE_EXAM_TITLE": "Exam reminders",
-      "ENABLE_EXAM_DESCRIPTION": "Receive emails if you're behind on preparing for an exam",
       "ENABLE_PUSH_LABEL": "Receive notifications directly to your device",
       "ENABLE_PUSH_TITLE": "Push notifications",
       "ENABLE_STREAK_DESCRIPTION": "Receive a reminder at 6pm if you still need to practice to keep your streak",
       "ENABLE_STREAK_TITLE": "Streak notifications",
       "PUSH_ENABLE_MESSAGE": "Push notifications aren't configured on this device. Click here to set them up!",
       "TOGGLE_LABEL": "Control which notifications you want to receive directly to your device",
-      "TOGGLE_TITLE": "Notify when:"
+      "TOGGLE_TITLE": "Notify when:",
+      "ENABLE_EXAM_TITLE": "Exam reminders",
+      "ENABLE_EXAM_DESCRIPTION": "Receive emails if you're behind on preparing for an exam"
     },
     "PLANS": {
       "KEYWORDS": "invite friends plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options",
@@ -657,14 +657,14 @@
   "SOURCES": {
     "LINK_SOURCE": {
       "ENTER_URL": "Enter URL",
-      "EMBED_LINK": "Embed Link",
       "INVALID_URL": "Invalid URL",
       "LABEL": "Link Existing Source",
       "LINK": "Link",
       "LINK_WITH_COUNT_one": "{{count, number}} Link",
       "LINK_WITH_COUNT_other": "{{count, number}} Links",
       "OPEN_IN_READER": "Open in Reader",
-      "SEARCH_PLACEHOLDER": "Search for any Rem (source, document, or bullet)"
+      "SEARCH_PLACEHOLDER": "Search for any Rem (source, document, or bullet)",
+      "EMBED_LINK": "Embed Link"
     },
     "UPLOAD_SOURCE": {
       "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
@@ -676,8 +676,8 @@
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Select files",
       "SELECT_FILES_TO_UPLOAD": "Select files to upload",
-      "UPLOAD": "Upload",
-      "UPLOADING": "Uploading..."
+      "UPLOADING": "Uploading...",
+      "UPLOAD": "Upload"
     },
     "WIKIMEDIA_COMMONS": {
       "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
@@ -773,9 +773,9 @@
     "CREATE_TEMPLATE": "Create Template",
     "HIDE_CONFIGURATION": "Hide Configuration",
     "NEW_TEMPLATE": "New Template",
-    "PROPERTIES_HELP_TEXT": [
-      "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
-    ],
+    "PROPERTIES_HELP_TEXT": {
+      "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
+    },
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Property",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Properties",
     "PROPERTY_one": "Property",

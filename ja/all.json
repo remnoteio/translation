@@ -48,9 +48,7 @@
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "入れ子ドキュメントの追加",
-      "CHANGE_DOCUMENT_ICON": "ドキュメントアイコンを変更",
       "CHANGE_DOCUMENT_STATUS": "ドキュメントのステータスを変更",
-      "CHANGE_FOLDER_ICON": "フォルダアイコンを変更",
       "CUSTOMIZE_SPACED_REPETITION": "間隔反復練習のカスタマイズ",
       "DELETE": "削除",
       "EDIT_MODE": {
@@ -65,8 +63,6 @@
       },
       "MARK_AS_DOCUMENT": "ドキュメントとしてマーク",
       "MOVE": "移動",
-      "MULTI_SELECTION_FOLDER": "複数のフォルダ/ドキュメントを選択",
-      "MULTI_SELECTION_MODE": "複数のremを選択",
       "OPEN_IN_ANOTHER_PANE": "他のタブで開く",
       "PIN_TO_SIDEBAR": "サイドバーにピン留め",
       "PRINT": "印刷",
@@ -77,7 +73,11 @@
       "UNPIN_FROM_SIDEBAR": "サイドバーから削除",
       "UNSHARE_DOCUMENT": "ドキュメントの共有を取り下げる",
       "VIEW_GRAPH": "グラフを見る",
-      "VIEW_TRASH": "ゴミ箱を見る"
+      "VIEW_TRASH": "ゴミ箱を見る",
+      "CHANGE_DOCUMENT_ICON": "ドキュメントアイコンを変更",
+      "CHANGE_FOLDER_ICON": "フォルダアイコンを変更",
+      "MULTI_SELECTION_FOLDER": "複数のフォルダ/ドキュメントを選択",
+      "MULTI_SELECTION_MODE": "複数のremを選択"
     },
     "PUBLISH_STATUS": {
       "DRAFT": "下書き",
@@ -334,8 +334,6 @@
       "COPIED": "コピーしました！",
       "COPYLINK": "リンクをコピー",
       "CREATE_ACCOUNT": "アカウントを作成して友達を招待する",
-      "CREDIT_BALANCE": "クレジット残高",
-      "CREDIT_BALANCE_TEXT": "あなたの<bold>{{userCredit}}</bold>クレジットの残りと獲得している<bold>{{userCreditEarned}}</bold>クレジットの合計です。RemNote Proを{{months}}ヶ月分無料でご利用いただけます。<br /><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。",
       "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
       "ENTER_VALID_EMAIL": "有効な電子メールを入力してください！",
       "FRIENDS_TITLE": "友達",
@@ -357,6 +355,8 @@
       "TOAST_RENEW": "クレジットは、現在のサブスクリプションの更新時に自動的に適用されます。",
       "TOAST_SUBSCRIBE": "クレジットはRemNote Proをご契約いただくと自動的に適用されます。下記よりプランをお選びください！",
       "VERIFY_EMAIL": "誰かを招待するには、まずメールアドレスを認証してください。",
+      "CREDIT_BALANCE": "クレジット残高",
+      "CREDIT_BALANCE_TEXT": "あなたの<bold>{{userCredit}}</bold>クレジットの残りと獲得している<bold>{{userCreditEarned}}</bold>クレジットの合計です。RemNote Proを{{months}}ヶ月分無料でご利用いただけます。<br /><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。",
       "SUBSCRIBE_NOTICE": "<div><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。</div>"
     },
     "EDITOR": {

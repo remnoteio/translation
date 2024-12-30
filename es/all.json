@@ -73,7 +73,11 @@
       "UNPIN_FROM_SIDEBAR": "Dejar de Fijar en la Barra Lateral",
       "UNSHARE_DOCUMENT": "Dejar de Compartir Documento",
       "VIEW_GRAPH": "Ver Grafo",
-      "VIEW_TRASH": "Ver Papelera"
+      "VIEW_TRASH": "Ver Papelera",
+      "CHANGE_DOCUMENT_ICON": "Cambiar icono del Documento",
+      "CHANGE_FOLDER_ICON": "Cambiar el icono de la carpeta",
+      "MULTI_SELECTION_FOLDER": "Seleccionar varias carpetas/documentos",
+      "MULTI_SELECTION_MODE": "Seleccionar varios Rems"
     },
     "PUBLISH_STATUS": {
       "DRAFT": "Borrador",
@@ -94,7 +98,8 @@
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Idioma",
-    "TRANSLATION_INFO_SETTINGS": "La traducción aún está en curso; verá una combinación de inglés y el idioma seleccionado.<br>Puede ayudarnos a traducir leyendo el <guideLink>tutorial</guideLink> y luego usando nuestro <editorLink>editor web</editorLink>."
+    "TRANSLATION_INFO_SETTINGS": "La traducción aún está en curso; verá una combinación de inglés y el idioma seleccionado.<br>Puede ayudarnos a traducir leyendo el <guideLink>tutorial</guideLink> y luego usando nuestro <editorLink>editor web</editorLink>.",
+    "TRANSLATION_IN_PROGRESS": "Traducción en curso"
   },
   "NOTIFICATIONS": {
     "ARTICLE_DEFAULT": "Tu documento",
@@ -193,7 +198,8 @@
       "HIGHLIGHT": "Resaltar",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Crear Flashcards de Ocultamiento de Imagen",
       "NOTE_BTN_TOOLTIP": "Nota",
-      "NO_TEXT_IN_PDF_WARN": "Este archivo no contiene una capa de texto, pero aún puedes utilizar resaltados de área para hacer anotaciones."
+      "NO_TEXT_IN_PDF_WARN": "Este archivo no contiene una capa de texto, pero aún puedes utilizar resaltados de área para hacer anotaciones.",
+      "COPY_IMAGE_AS_TEXT": "Copiar imagen como texto con IA"
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "Opciones Avanzadas de Vinculación",
@@ -336,8 +342,6 @@
       "COPIED": "¡Copiado!",
       "COPYLINK": "Copiar enlace",
       "CREATE_ACCOUNT": "Crea una cuenta para invitar a tus amigos",
-      "CREDIT_BALANCE": "Saldo de Crédito",
-      "CREDIT_BALANCE_TEXT": "Tienes <bold>{{userCredit}}</bold> de crédito restante y has ganado <bold>{{userCreditEarned}}</bold> de crédito en total. {{months}}restantes de RemNote Pro gratis. <br /><br />¡Suscríbete a Pro para empezar a usar tu crédito! No se te cobrará hasta que tu crédito se agote.",
       "EMAIL_PLACEHOLDER": "amigocurioso@gmail.com",
       "ENTER_VALID_EMAIL": "¡Ingresa un correo electrónico válido!",
       "FRIENDS_TITLE": "Amigos",
@@ -358,7 +362,13 @@
       "TITLE": "Obtener créditos",
       "TOAST_RENEW": "Tus créditos se aplicarán automáticamente al renovar tu suscripción actual.",
       "TOAST_SUBSCRIBE": "Tus créditos se aplicarán automáticamente al suscribirte a RemNote Pro. ¡Elige un plan a continuación para comenzar!",
-      "VERIFY_EMAIL": "Para invitar a alguien, verifica primero tu correo electrónico."
+      "VERIFY_EMAIL": "Para invitar a alguien, verifica primero tu correo electrónico.",
+      "REMAINING_MONTHS": "Meses restantes",
+      "TOTAL_MONTHS_EARNED": "Total de meses de Pro ganados",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} meses",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} meses",
+      "CREDIT_BALANCE": "Saldo de Crédito",
+      "CREDIT_BALANCE_TEXT": "Tienes <bold>{{userCredit}}</bold> de crédito restante y has ganado <bold>{{userCreditEarned}}</bold> de crédito en total. {{months}}restantes de RemNote Pro gratis. <br /><br />¡Suscríbete a Pro para empezar a usar tu crédito! No se te cobrará hasta que tu crédito se agote."
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -634,7 +644,9 @@
       "ENABLE_STREAK_TITLE": "Notificaciones Móviles de Rachas",
       "PUSH_ENABLE_MESSAGE": "Las notificaciones push no están configuradas en este dispositivo. ¡Haz clic aquí para configurarlas!",
       "TOGGLE_LABEL": "Controlar qué notificaciones quieres recibir directamente en tu dispositivo",
-      "TOGGLE_TITLE": "Notificarme cuando:"
+      "TOGGLE_TITLE": "Notificarme cuando:",
+      "ENABLE_EXAM_TITLE": "Recordatorios de exámenes",
+      "ENABLE_EXAM_DESCRIPTION": "Recibe correos electrónicos si estás atrasado en la preparación de un examen"
     },
     "PLANS": {
       "KEYWORDS": "invitar amigos plan cambiar suscripción ganar créditos remnote gratis enviar tweet email elegir plan aprendizaje de por vida pro desglose de funciones opciones de precios",
