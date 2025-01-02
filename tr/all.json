@@ -144,7 +144,6 @@
       "COPIED": "Kopyalandı!",
       "COPYLINK": "Bağlantıyı Kopyala",
       "CREATE_ACCOUNT": "Arkadaşlarınızı davet etmek için bir hesap oluşturun",
-      "CREDIT_BALANCE": "Kredi Bakiyesi",
       "EMAIL_PLACEHOLDER": "meraklıarkadaş@gmail.com",
       "ENTER_VALID_EMAIL": "Geçerli bir e-posta girin!",
       "FRIENDS_TITLE": "Arkadaşlar",
@@ -163,7 +162,8 @@
       "TITLE": "Kredi Kazanın",
       "TOAST_RENEW": "Mevcut aboneliğiniz yenilendiğinde kredileriniz otomatik olarak uygulanacaktır.",
       "TOAST_SUBSCRIBE": "RemNote Pro'ya abone olduğunuzda kredileriniz otomatik olarak uygulanacaktır. Başlamak için aşağıdan bir plan seçin!",
-      "VERIFY_EMAIL": "Birini davet etmek için öncelikle e-postanızı doğrulayın."
+      "VERIFY_EMAIL": "Birini davet etmek için öncelikle e-postanızı doğrulayın.",
+      "CREDIT_BALANCE": "Kredi Bakiyesi"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
