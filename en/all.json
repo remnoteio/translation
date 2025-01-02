@@ -138,6 +138,9 @@
   "ONBOARDING": {
     "SIDEBAR": {
       "INITIAL": {
+        "0": {
+          "TITLE": "Create a folder"
+        },
         "PAGE_0": {
           "TITLE": "Create A Folder"
         },
@@ -347,7 +350,9 @@
       "TOAST_RENEW": "Your credits will be applied automatically when your current subscription renews.",
       "TOAST_SUBSCRIBE": "Your credits will be applied automatically when you subscribe to RemNote Pro. Choose a plan below to get started!",
       "TOTAL_MONTHS_EARNED": "Total Months of Pro Earned",
-      "VERIFY_EMAIL": "To invite someone, verify your email first."
+      "VERIFY_EMAIL": "To invite someone, verify your email first.",
+      "SUBSCRIBE_NOTICE": "<div><br />Upgrade to Pro to start using your balance! You won't be charged until your app balance runs out.</div>",
+      "BALANCE_IN_MONTHS": "{{numMonths}} months"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -511,6 +516,15 @@
         "SHOW_NEXT_REVIEW_TIMES": {
           "DESCRIPTION": "When practicing with spaced repetition, show the time until the next review on each answer button.",
           "TITLE": "Show Next Review Times"
+        }
+      },
+      "AI": {
+        "ENABLE": {
+          "DESCRIPTION": "Use AI-powered autocomplete, grading, and flashcard generation. Samples of your notes will be sent to OpenAI when you use many of the AI ​​features. Find OpenAI's privacy policy at https://openai.com/policies/privacy-policy.",
+          "TITLE": "Enable AI features"
+        },
+        "OPENAI_KEY": {
+          "TITLE": "OpenAI Key"
         }
       }
     },
@@ -788,6 +802,18 @@
     "TEMPLATE_one": "Template",
     "TEMPLATE_other": "Templates",
     "TURN_OFF_AUTO_APPLY": "Turn off Auto-Apply",
-    "VIEW_CONFIGURATION": "Configure Tag"
+    "VIEW_CONFIGURATION": "Configure Tag",
+    "ADD_PROPERTY": "Add property",
+    "NEW_PROPERTY": "New property"
+  },
+  "COMMUNITY_NOTIFICATIONS": {
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "Document added to group"
+    },
+    "INVITE": {
+      "ACCEPT": "Accept",
+      "BODY": "Invite",
+      "REJECT": "Reject"
+    }
   }
 }

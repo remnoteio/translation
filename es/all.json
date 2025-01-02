@@ -339,7 +339,7 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Aplicar tu crédito",
-      "BALANCE_IN_MONTHS_SG": "{{numMonths}} meses",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} mes",
       "BALANCE_IN_MONTHS_PL": "{{numMonths}} meses",
       "COPIED": "¡Copiado!",
       "COPYLINK": "Copiar enlace",
@@ -367,6 +367,8 @@
       "TOAST_SUBSCRIBE": "Tus créditos se aplicarán automáticamente al suscribirte a RemNote Pro. ¡Elige un plan a continuación para comenzar!",
       "TOTAL_MONTHS_EARNED": "Total de meses de Pro ganados",
       "VERIFY_EMAIL": "Para invitar a alguien, verifica primero tu correo electrónico.",
+      "SUBSCRIBE_NOTICE": "<div><br />¡Actualiza al plan Pro para comenzar a usar tu saldo! No se cobrará nada hasta que se agoten el saldo de la aplicación.</div>",
+      "BALANCE_IN_MONTHS": "{{numMonths}} meses",
       "CREDIT_BALANCE": "Saldo de Crédito",
       "CREDIT_BALANCE_TEXT": "Tienes <bold>{{userCredit}}</bold> de crédito restante y has ganado <bold>{{userCreditEarned}}</bold> de crédito en total. {{months}}restantes de RemNote Pro gratis. <br /><br />¡Suscríbete a Pro para empezar a usar tu crédito! No se te cobrará hasta que tu crédito se agote."
     },
@@ -532,6 +534,16 @@
         "SHOW_NEXT_REVIEW_TIMES": {
           "DESCRIPTION": "Mostrar el tiempo hasta el próximo repaso en cada botón de respuesta.",
           "TITLE": "Mostrar Tiempos de Próximo Repaso"
+        }
+      },
+      "AI": {
+        "ENABLE": {
+          "DESCRIPTION": "Utilice el autocompletado, las calificaciones y la generación de tarjetas didácticas con tecnología de IA. Se enviarán fragmentos de sus notas a OpenAI cuando utilice muchas de las funciones de IA. Encuentre la política de privacidad de OpenAI en https://openai.com/policies/privacy-policy.",
+          "TITLE": "Habilitar funciones de IA"
+        },
+        "OPENAI_KEY": {
+          "TITLE": "Clave API de OpenAI",
+          "DESCRIPTION": "Si excede su límite mensual de solicitudes de IA, puede registrarse para obtener una clave API en https://platform.openai.com/account/api-keys e ingresarla aquí. Tenga en cuenta que esta es una función beta y puede eliminarse en cualquier momento."
         }
       }
     },
@@ -813,6 +825,18 @@
     "TEMPLATE_one": "Plantilla",
     "TEMPLATE_other": "Plantillas",
     "TURN_OFF_AUTO_APPLY": "Apagar Aplicar Automáticamente",
-    "VIEW_CONFIGURATION": "Configurar Etiqueta"
+    "VIEW_CONFIGURATION": "Configurar Etiqueta",
+    "ADD_PROPERTY": "Añadir propiedad",
+    "NEW_PROPERTY": "Nueva propiedad"
+  },
+  "COMMUNITY_NOTIFICATIONS": {
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "Documento añadido al grupo"
+    },
+    "INVITE": {
+      "ACCEPT": "Aceptar",
+      "BODY": "Invitar",
+      "REJECT": "Rechazar"
+    }
   }
 }

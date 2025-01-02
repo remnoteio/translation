@@ -356,9 +356,9 @@
       "TOAST_RENEW": "您的积分将在当前订阅续订时自动应用",
       "TOAST_SUBSCRIBE": "您的积分将在您订阅 RemNote Pro 时自动应用，选择下面的计划开始吧！",
       "VERIFY_EMAIL": "请先验证您的电子邮件，才能邀请他人",
+      "SUBSCRIBE_NOTICE": "<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>",
       "CREDIT_BALANCE": "积分详情",
-      "CREDIT_BALANCE_TEXT": "您当前剩余 <bold>{{userCredit}}</bold> 点积分，已累计获得 <bold>{{userCreditEarned}}</bold> 积分，还剩 {{months}} 个月的 RemNote Pro 计划免费使用期。<div><br />使用积分订阅 RemNote Pro 计划！在积分用完之前不会产生任何费用。</div> ",
-      "SUBSCRIBE_NOTICE": "<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>"
+      "CREDIT_BALANCE_TEXT": "您当前剩余 <bold>{{userCredit}}</bold> 点积分，已累计获得 <bold>{{userCreditEarned}}</bold> 积分，还剩 {{months}} 个月的 RemNote Pro 计划免费使用期。<div><br />使用积分订阅 RemNote Pro 计划！在积分用完之前不会产生任何费用。</div> "
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -530,8 +530,8 @@
           "TITLE": "启用人工智能(AI)功能"
         },
         "OPENAI_KEY": {
-          "DESCRIPTION": "如果您发现使用量超出每月的 AI 请求配额，您可以在 https://platform.openai.com/account/api-keys 注册 API 密钥(按请求次数付费)并在此输入。请注意，这是一个测试版功能，未来随时可能被移除。",
-          "TITLE": "OpenAI API 密钥"
+          "TITLE": "OpenAI API 密钥",
+          "DESCRIPTION": "如果您发现使用量超出每月的 AI 请求配额，您可以在 https://platform.openai.com/account/api-keys 注册 API 密钥(按请求次数付费)并在此输入。请注意，这是一个测试版功能，未来随时可能被移除。"
         }
       }
     },

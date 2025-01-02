@@ -530,8 +530,8 @@
           "TITLE": "Habilitar Recursos de IA"
         },
         "OPENAI_KEY": {
-          "DESCRIPTION": "Se você acabar excedendo sua cota mensal de requisições de IA, você pode se cadastrar para solicitar uma chave API em https://platform.openai.com/account/api-keys e inseri-la aqui, pagando pelo seu próprio uso. Note que isso é um recurso em beta e pode ser removido a qualquer momento.",
-          "TITLE": "Chave da API OpenAI"
+          "TITLE": "Chave da API OpenAI",
+          "DESCRIPTION": "Se você acabar excedendo sua cota mensal de requisições de IA, você pode se cadastrar para solicitar uma chave API em https://platform.openai.com/account/api-keys e inseri-la aqui, pagando pelo seu próprio uso. Note que isso é um recurso em beta e pode ser removido a qualquer momento."
         }
       }
     },

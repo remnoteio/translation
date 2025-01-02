@@ -355,9 +355,9 @@
       "TOAST_RENEW": "クレジットは、現在のサブスクリプションの更新時に自動的に適用されます。",
       "TOAST_SUBSCRIBE": "クレジットはRemNote Proをご契約いただくと自動的に適用されます。下記よりプランをお選びください！",
       "VERIFY_EMAIL": "誰かを招待するには、まずメールアドレスを認証してください。",
+      "SUBSCRIBE_NOTICE": "<div><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。</div>",
       "CREDIT_BALANCE": "クレジット残高",
-      "CREDIT_BALANCE_TEXT": "あなたの<bold>{{userCredit}}</bold>クレジットの残りと獲得している<bold>{{userCreditEarned}}</bold>クレジットの合計です。RemNote Proを{{months}}ヶ月分無料でご利用いただけます。<br /><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。",
-      "SUBSCRIBE_NOTICE": "<div><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。</div>"
+      "CREDIT_BALANCE_TEXT": "あなたの<bold>{{userCredit}}</bold>クレジットの残りと獲得している<bold>{{userCreditEarned}}</bold>クレジットの合計です。RemNote Proを{{months}}ヶ月分無料でご利用いただけます。<br /><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -528,8 +528,8 @@
           "TITLE": "AI 機能を有効にする"
         },
         "OPENAI_KEY": {
-          "DESCRIPTION": "ご利用が月々のAIリクエスト枠を超えた場合は、https://platform.openai.com/account/api-keys（リクエストごとに有料）でAPIキーを登録し、こちらに入力してください。 これはベータ版機能であり、今後いつでも削除される可能性があることにご注意ください。",
-          "TITLE": "OpenAI APIキー"
+          "TITLE": "OpenAI APIキー",
+          "DESCRIPTION": "ご利用が月々のAIリクエスト枠を超えた場合は、https://platform.openai.com/account/api-keys（リクエストごとに有料）でAPIキーを登録し、こちらに入力してください。 これはベータ版機能であり、今後いつでも削除される可能性があることにご注意ください。"
         }
       }
     },

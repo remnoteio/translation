@@ -365,10 +365,10 @@
       "TOAST_SUBSCRIBE": "Ihr Guthaben wird automatisch angewendet, wenn Sie RemNote Pro abonnieren. Wählen Sie unten einen Plan aus, um loszulegen!",
       "TOTAL_MONTHS_EARNED": "Anzahl an verdienten Pro Monaten",
       "VERIFY_EMAIL": "Um jemanden einzuladen, bestätigen Sie zunächst Ihre E-Mail-Adresse.",
-      "CREDIT_BALANCE": "Kontostand",
-      "CREDIT_BALANCE_TEXT": "Sie haben <bold>{{userCredit}}</bold> Restguthaben und <bold> {{userCreditEarned}}</bold> Guthaben insgesamt erhalten. {{months}} verbleibender Monat oder verbleibende Monate RemNote Pro kostenlos.<br /><br /> Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung auf dem Konto erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.",
       "SUBSCRIBE_NOTICE": "<div><br />Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung ihres Kontos erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.</div>",
-      "BALANCE_IN_MONTHS": "{{numMonths}} Monate"
+      "BALANCE_IN_MONTHS": "{{numMonths}} Monate",
+      "CREDIT_BALANCE": "Kontostand",
+      "CREDIT_BALANCE_TEXT": "Sie haben <bold>{{userCredit}}</bold> Restguthaben und <bold> {{userCreditEarned}}</bold> Guthaben insgesamt erhalten. {{months}} verbleibender Monat oder verbleibende Monate RemNote Pro kostenlos.<br /><br /> Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung auf dem Konto erfolgt erst, wenn Ihr Guthaben aufgebraucht ist."
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
