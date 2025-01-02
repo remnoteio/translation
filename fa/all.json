@@ -48,7 +48,9 @@
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "افزودن سند تو در تو",
+      "CHANGE_DOCUMENT_ICON": "تغییر نماد سند",
       "CHANGE_DOCUMENT_STATUS": "تغییر وضعیت سند",
+      "CHANGE_FOLDER_ICON": "تغییر نماد پوشه",
       "CUSTOMIZE_SPACED_REPETITION": "شخصی‌ سازی تکرار فاصله‌دار",
       "DELETE": "حذف",
       "EDIT_MODE": {
@@ -63,6 +65,8 @@
       },
       "MARK_AS_DOCUMENT": "علامت گذاری به عنوان سند",
       "MOVE": "جابجا کردن",
+      "MULTI_SELECTION_FOLDER": "چند پوشه/اسناد را انتخاب کنید",
+      "MULTI_SELECTION_MODE": "چند Rem انتخاب کنید",
       "OPEN_IN_ANOTHER_PANE": "در پنجره دیگری باز کنید",
       "PIN_TO_SIDEBAR": "پین کردن به نوار کناری",
       "PRINT": "چاپ کردن",
@@ -73,11 +77,7 @@
       "UNPIN_FROM_SIDEBAR": "برداشتن سنجاق از نوار کناری",
       "UNSHARE_DOCUMENT": "لغو اشتراک‌گذاری سند",
       "VIEW_GRAPH": "مشاهده نمودار محلی",
-      "VIEW_TRASH": "مشاهده سطل زباله",
-      "CHANGE_DOCUMENT_ICON": "تغییر نماد سند",
-      "CHANGE_FOLDER_ICON": "تغییر نماد پوشه",
-      "MULTI_SELECTION_FOLDER": "چند پوشه/اسناد را انتخاب کنید",
-      "MULTI_SELECTION_MODE": "چند Rem انتخاب کنید"
+      "VIEW_TRASH": "مشاهده سطل زباله"
     },
     "PUBLISH_STATUS": {
       "DRAFT": "پیش نویس",
@@ -179,12 +179,12 @@
       },
       "CLOZE_BTN_TOOLTIP": "فلش کارت جای خالی",
       "COPY_IMAGE": "کپی تصویر",
+      "COPY_IMAGE_AS_TEXT": "کپی تصویر به عنوان متن با هوش مصنوعی",
       "COPY_TEXT": "به صورت متن ساده کپی کنید",
       "HIGHLIGHT": "برجسته کردن",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "فلش کارت‌های پوشاندن تصویر بسازید",
       "NOTE_BTN_TOOLTIP": "یادداشت",
-      "NO_TEXT_IN_PDF_WARN": "این فایل حاوی لایه متنی نیست، اما همچنان می‌توانید از نقاط برجسته منطقه برای حاشیه نویسی استفاده کنید.",
-      "COPY_IMAGE_AS_TEXT": "کپی تصویر به عنوان متن با هوش مصنوعی"
+      "NO_TEXT_IN_PDF_WARN": "این فایل حاوی لایه متنی نیست، اما همچنان می‌توانید از نقاط برجسته منطقه برای حاشیه نویسی استفاده کنید."
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "گزینه‌های پیوند پیشرفته",

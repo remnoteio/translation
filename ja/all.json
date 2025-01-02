@@ -48,7 +48,9 @@
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "入れ子ドキュメントの追加",
+      "CHANGE_DOCUMENT_ICON": "ドキュメントアイコンを変更",
       "CHANGE_DOCUMENT_STATUS": "ドキュメントのステータスを変更",
+      "CHANGE_FOLDER_ICON": "フォルダアイコンを変更",
       "CUSTOMIZE_SPACED_REPETITION": "間隔反復練習のカスタマイズ",
       "DELETE": "削除",
       "EDIT_MODE": {
@@ -63,6 +65,8 @@
       },
       "MARK_AS_DOCUMENT": "ドキュメントとしてマーク",
       "MOVE": "移動",
+      "MULTI_SELECTION_FOLDER": "複数のフォルダ/ドキュメントを選択",
+      "MULTI_SELECTION_MODE": "複数のremを選択",
       "OPEN_IN_ANOTHER_PANE": "他のタブで開く",
       "PIN_TO_SIDEBAR": "サイドバーにピン留め",
       "PRINT": "印刷",
@@ -73,11 +77,7 @@
       "UNPIN_FROM_SIDEBAR": "サイドバーから削除",
       "UNSHARE_DOCUMENT": "ドキュメントの共有を取り下げる",
       "VIEW_GRAPH": "グラフを見る",
-      "VIEW_TRASH": "ゴミ箱を見る",
-      "CHANGE_DOCUMENT_ICON": "ドキュメントアイコンを変更",
-      "CHANGE_FOLDER_ICON": "フォルダアイコンを変更",
-      "MULTI_SELECTION_FOLDER": "複数のフォルダ/ドキュメントを選択",
-      "MULTI_SELECTION_MODE": "複数のremを選択"
+      "VIEW_TRASH": "ゴミ箱を見る"
     },
     "PUBLISH_STATUS": {
       "DRAFT": "下書き",
