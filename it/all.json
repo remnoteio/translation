@@ -307,8 +307,8 @@
           "TITLE": "Abilita funzionalità AI"
         },
         "OPENAI_KEY": {
-          "DESCRIPTION": "Se ti ritrovi a superare la quota mensile di richieste AI, puoi registrarti per una chiave API su https://platform.openai.com/account/api-keys e inserirla qui per pagare il tuo utilizzo. Tieni presente che questa è una funzionalità beta e potrebbe essere rimossa in qualsiasi momento.",
-          "TITLE": "Chiave API OpenAI"
+          "TITLE": "Chiave API OpenAI",
+          "DESCRIPTION": "Se ti ritrovi a superare la quota mensile di richieste AI, puoi registrarti per una chiave API su https://platform.openai.com/account/api-keys e inserirla qui per pagare il tuo utilizzo. Tieni presente che questa è una funzionalità beta e potrebbe essere rimossa in qualsiasi momento."
         }
       }
     },

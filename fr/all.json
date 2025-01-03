@@ -48,7 +48,9 @@
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "Ajouter un sous-document",
+      "CHANGE_DOCUMENT_ICON": "Changer l'Icône du Document",
       "CHANGE_DOCUMENT_STATUS": "Changer le Statut du Document",
+      "CHANGE_FOLDER_ICON": "Changer l'Icône du dossier",
       "CUSTOMIZE_SPACED_REPETITION": "Personnaliser la Répétition Espacée",
       "DELETE": "Supprimer",
       "EDIT_MODE": {
@@ -63,6 +65,8 @@
       },
       "MARK_AS_DOCUMENT": "Marquer comme Document",
       "MOVE": "Déplacer",
+      "MULTI_SELECTION_FOLDER": "Sélectionner Plusieurs Dossiers/Documents",
+      "MULTI_SELECTION_MODE": "Sélectionner Plusieurs Rems.",
       "OPEN_IN_ANOTHER_PANE": "Ouvrir dans un Autre Onglet",
       "PIN_TO_SIDEBAR": "Épingler à la Barre Latérale",
       "PRINT": "Imprimer",
@@ -73,11 +77,7 @@
       "UNPIN_FROM_SIDEBAR": "Supprimer de la Barre Latérale",
       "UNSHARE_DOCUMENT": "Ne plus partager ce document",
       "VIEW_GRAPH": "Voir le Graphique Local",
-      "VIEW_TRASH": "Voir la Corbeille",
-      "CHANGE_DOCUMENT_ICON": "Changer l'Icône du Document",
-      "CHANGE_FOLDER_ICON": "Changer l'Icône du dossier",
-      "MULTI_SELECTION_FOLDER": "Sélectionner Plusieurs Dossiers/Documents",
-      "MULTI_SELECTION_MODE": "Sélectionner Plusieurs Rems."
+      "VIEW_TRASH": "Voir la Corbeille"
     },
     "PUBLISH_STATUS": {
       "DRAFT": "Brouillon",

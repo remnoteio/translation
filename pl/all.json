@@ -358,9 +358,9 @@
       "TOAST_RENEW": "Twoje punkty poleceń zostaną wykorzystane automatycznie po odnowieniu bieżącej subskrypcji.",
       "TOAST_SUBSCRIBE": "Twoje punkty poleceń zostaną wykorzystane automatycznie po wykupieniu subskrypcji RemNote Pro. Wybierz plan poniżej, aby rozpocząć!",
       "VERIFY_EMAIL": "Aby kogoś zaprosić, zweryfikuj najpierw swój adres email.",
+      "SUBSCRIBE_NOTICE": "<div><br />Przejdź na plan Pro aby zacząć używać swoje saldo! Opłata nie zostanie pobrana, dopóki nie wyczerpią się środki w aplikacji.</div>",
       "CREDIT_BALANCE": "Stan punktów poleceń",
-      "CREDIT_BALANCE_TEXT": "Masz <bold>{{userCredit}}<bold> w niewykorzystanych punktach poleceń, razem zdobyłeś <bold>{{userCreditEarned}}<bold> w punktach poleceń. {{months}} pozostały miesiąc lub miesiące RemNote Pro za darmo.<br /><br />Przejdź na plan Pro, aby zacząć używać punktów poleceń! Opłata nie zostanie pobrana, dopóki nie wyczerpią się punkty poleceń w aplikacji.",
-      "SUBSCRIBE_NOTICE": "<div><br />Przejdź na plan Pro aby zacząć używać swoje saldo! Opłata nie zostanie pobrana, dopóki nie wyczerpią się środki w aplikacji.</div>"
+      "CREDIT_BALANCE_TEXT": "Masz <bold>{{userCredit}}<bold> w niewykorzystanych punktach poleceń, razem zdobyłeś <bold>{{userCreditEarned}}<bold> w punktach poleceń. {{months}} pozostały miesiąc lub miesiące RemNote Pro za darmo.<br /><br />Przejdź na plan Pro, aby zacząć używać punktów poleceń! Opłata nie zostanie pobrana, dopóki nie wyczerpią się punkty poleceń w aplikacji."
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -536,8 +536,8 @@
           "TITLE": "Włącz funkcje AI"
         },
         "OPENAI_KEY": {
-          "DESCRIPTION": "Jeśli przekroczysz miesięczny limit żądań AI, możesz zarejestrować się w celu uzyskania klucza API na stronie https://platform.openai.com/account/api-keys i wprowadzić go tutaj. Należy pamiętać, że jest to funkcja w wersji beta i może zostać usunięta w dowolnym momencie.",
-          "TITLE": "Klucz API OpenAI"
+          "TITLE": "Klucz API OpenAI",
+          "DESCRIPTION": "Jeśli przekroczysz miesięczny limit żądań AI, możesz zarejestrować się w celu uzyskania klucza API na stronie https://platform.openai.com/account/api-keys i wprowadzić go tutaj. Należy pamiętać, że jest to funkcja w wersji beta i może zostać usunięta w dowolnym momencie."
         }
       }
     },

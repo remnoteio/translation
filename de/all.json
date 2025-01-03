@@ -48,7 +48,9 @@
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "Verschachteltes Dokument hinzufügen",
+      "CHANGE_DOCUMENT_ICON": "Dokumentsymbol ändern",
       "CHANGE_DOCUMENT_STATUS": "Dokumentstatus ändern",
+      "CHANGE_FOLDER_ICON": "Ordnersymbol ändern",
       "CUSTOMIZE_SPACED_REPETITION": "Anpassen von Spaced Repetition",
       "DELETE": "Löschen",
       "EDIT_MODE": {
@@ -63,6 +65,8 @@
       },
       "MARK_AS_DOCUMENT": "Als Dokument markieren",
       "MOVE": "Bewegen",
+      "MULTI_SELECTION_FOLDER": "Mehrere Ordner/Dokumente auswählen",
+      "MULTI_SELECTION_MODE": "Mehrere Rems auswählen",
       "OPEN_IN_ANOTHER_PANE": "In einem anderen Panel öffnen",
       "PIN_TO_SIDEBAR": "An der Seitenleiste anheften",
       "PRINT": "Drucken",
@@ -73,11 +77,7 @@
       "UNPIN_FROM_SIDEBAR": "Von der Seitenleiste lösen",
       "UNSHARE_DOCUMENT": "Dokumentfreigabe aufheben",
       "VIEW_GRAPH": "Diagramm anzeigen",
-      "VIEW_TRASH": "Papierkorb anzeigen",
-      "CHANGE_DOCUMENT_ICON": "Dokumentsymbol ändern",
-      "CHANGE_FOLDER_ICON": "Ordnersymbol ändern",
-      "MULTI_SELECTION_FOLDER": "Mehrere Ordner/Dokumente auswählen",
-      "MULTI_SELECTION_MODE": "Mehrere Rems auswählen"
+      "VIEW_TRASH": "Papierkorb anzeigen"
     },
     "PUBLISH_STATUS": {
       "DRAFT": "Entwurf",
@@ -194,12 +194,12 @@
       },
       "CLOZE_BTN_TOOLTIP": "Lückentext-Lernkarte",
       "COPY_IMAGE": "Bild kopieren",
+      "COPY_IMAGE_AS_TEXT": "Bild als Text kopieren mit KI",
       "COPY_TEXT": "Nur Text kopieren",
       "HIGHLIGHT": "Markieren",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Karteikarten mit Bildverdeckung erstellen",
       "NOTE_BTN_TOOLTIP": "Notiz",
-      "NO_TEXT_IN_PDF_WARN": "Diese Datei beinhaltet keine Textebene, aber du kannst trotzdem Flächen hervorheben um zu annotieren.",
-      "COPY_IMAGE_AS_TEXT": "Bild als Text kopieren mit KI"
+      "NO_TEXT_IN_PDF_WARN": "Diese Datei beinhaltet keine Textebene, aber du kannst trotzdem Flächen hervorheben um zu annotieren."
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "Erweiterte Verknüpfungsoptionen",
@@ -357,18 +357,18 @@
       "INVITE_TEXT": "Freunde einladen und Guthaben verdienen",
       "KEYWORDS": "Freunde einladen und Guthaben verdienen Tarif Abonnement ändern",
       "NOT_CONFIRMED_EMAIL": "(hat die E-Mail nicht bestätigt)",
+      "REMAINING_MONTHS": "Verbleibende Monate",
       "SEND_INVITE": "Einladung senden",
       "SHARE_LINK": "Einladungslink teilen",
       "TITLE": "Guthaben verdienen",
       "TOAST_RENEW": "Ihr Guthaben wird automatisch angewendet, wenn Ihr aktuelles Abonnement verlängert wird.",
       "TOAST_SUBSCRIBE": "Ihr Guthaben wird automatisch angewendet, wenn Sie RemNote Pro abonnieren. Wählen Sie unten einen Plan aus, um loszulegen!",
-      "VERIFY_EMAIL": "Um jemanden einzuladen, bestätigen Sie zunächst Ihre E-Mail-Adresse.",
-      "REMAINING_MONTHS": "Verbleibende Monate",
       "TOTAL_MONTHS_EARNED": "Anzahl an verdienten Pro Monaten",
-      "CREDIT_BALANCE": "Kontostand",
-      "CREDIT_BALANCE_TEXT": "Sie haben <bold>{{userCredit}}</bold> Restguthaben und <bold> {{userCreditEarned}}</bold> Guthaben insgesamt erhalten. {{months}} verbleibender Monat oder verbleibende Monate RemNote Pro kostenlos.<br /><br /> Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung auf dem Konto erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.",
+      "VERIFY_EMAIL": "Um jemanden einzuladen, bestätigen Sie zunächst Ihre E-Mail-Adresse.",
       "SUBSCRIBE_NOTICE": "<div><br />Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung ihres Kontos erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.</div>",
-      "BALANCE_IN_MONTHS": "{{numMonths}} Monate"
+      "BALANCE_IN_MONTHS": "{{numMonths}} Monate",
+      "CREDIT_BALANCE": "Kontostand",
+      "CREDIT_BALANCE_TEXT": "Sie haben <bold>{{userCredit}}</bold> Restguthaben und <bold> {{userCreditEarned}}</bold> Guthaben insgesamt erhalten. {{months}} verbleibender Monat oder verbleibende Monate RemNote Pro kostenlos.<br /><br /> Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung auf dem Konto erfolgt erst, wenn Ihr Guthaben aufgebraucht ist."
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -642,15 +642,15 @@
       "ENABLE_DUE_CARDS_TITLE": "Abzeichen für fällige Karten",
       "ENABLE_EMAIL_LABEL": "Erhalten Sie Benachrichtigungen direkt in Ihren Posteingang",
       "ENABLE_EMAIL_TITLE": "E-Mail-Benachrichtigungen aktivieren?",
+      "ENABLE_EXAM_TITLE": "Prüfungserinnerungen",
+      "ENABLE_EXAM_DESCRIPTION": "Erhalte E-Mails, wenn du im Lernrückstand bist für eine Prüfung.",
       "ENABLE_PUSH_LABEL": "Erhalten Sie Benachrichtigungen direkt auf Ihr Gerät",
       "ENABLE_PUSH_TITLE": "Push-Benachrichtigungen aktivieren?",
       "ENABLE_STREAK_DESCRIPTION": "Erhalte tägliche Benachrichtigungen um 18:00 Uhr bezüglich deiner Karteikartenstreak",
       "ENABLE_STREAK_TITLE": "Mobile Streak-Benachrichtigungen",
       "PUSH_ENABLE_MESSAGE": "Push-Benachrichtigungen sind auf diesem Gerät nicht eingerichtet. Klicke hier um sie zu aktivieren!",
       "TOGGLE_LABEL": "Steuern Sie, welche Benachrichtigungen Sie direkt auf Ihrem Gerät/Posteingang erhalten möchten",
-      "TOGGLE_TITLE": "Benachrichtigungen filtern",
-      "ENABLE_EXAM_TITLE": "Prüfungserinnerungen",
-      "ENABLE_EXAM_DESCRIPTION": "Erhalte E-Mails, wenn du im Lernrückstand bist für eine Prüfung."
+      "TOGGLE_TITLE": "Benachrichtigungen filtern"
     },
     "PLANS": {
       "KEYWORDS": "Freunde einladen Tarif Abonnement ändern Guthaben verdienen kostenlos remnote verschicke twitter Nachricht wähle einen Tarif Lebenslanges lernen pro Aufschlüsselung der Funktionen Preisoptionen",
