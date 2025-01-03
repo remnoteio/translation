@@ -366,9 +366,9 @@
       "TOTAL_MONTHS_EARNED": "Anzahl an verdienten Pro Monaten",
       "VERIFY_EMAIL": "Um jemanden einzuladen, bestätigen Sie zunächst Ihre E-Mail-Adresse.",
       "SUBSCRIBE_NOTICE": "<div><br />Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung ihres Kontos erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.</div>",
-      "BALANCE_IN_MONTHS": "{{numMonths}} Monate",
       "CREDIT_BALANCE": "Kontostand",
-      "CREDIT_BALANCE_TEXT": "Sie haben <bold>{{userCredit}}</bold> Restguthaben und <bold> {{userCreditEarned}}</bold> Guthaben insgesamt erhalten. {{months}} verbleibender Monat oder verbleibende Monate RemNote Pro kostenlos.<br /><br /> Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung auf dem Konto erfolgt erst, wenn Ihr Guthaben aufgebraucht ist."
+      "CREDIT_BALANCE_TEXT": "Sie haben <bold>{{userCredit}}</bold> Restguthaben und <bold> {{userCreditEarned}}</bold> Guthaben insgesamt erhalten. {{months}} verbleibender Monat oder verbleibende Monate RemNote Pro kostenlos.<br /><br /> Abonnieren Sie Pro, um Ihr Guthaben zu nutzen! Die Belastung auf dem Konto erfolgt erst, wenn Ihr Guthaben aufgebraucht ist.",
+      "BALANCE_IN_MONTHS": "{{numMonths}} Monate"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
