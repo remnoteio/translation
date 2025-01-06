@@ -368,9 +368,9 @@
       "TOTAL_MONTHS_EARNED": "Total de meses de Pro ganados",
       "VERIFY_EMAIL": "Para invitar a alguien, verifica primero tu correo electrónico.",
       "SUBSCRIBE_NOTICE": "<div><br />¡Actualiza al plan Pro para comenzar a usar tu saldo! No se cobrará nada hasta que se agoten el saldo de la aplicación.</div>",
-      "BALANCE_IN_MONTHS": "{{numMonths}} meses",
       "CREDIT_BALANCE": "Saldo de Crédito",
-      "CREDIT_BALANCE_TEXT": "Tienes <bold>{{userCredit}}</bold> de crédito restante y has ganado <bold>{{userCreditEarned}}</bold> de crédito en total. {{months}}restantes de RemNote Pro gratis. <br /><br />¡Suscríbete a Pro para empezar a usar tu crédito! No se te cobrará hasta que tu crédito se agote."
+      "CREDIT_BALANCE_TEXT": "Tienes <bold>{{userCredit}}</bold> de crédito restante y has ganado <bold>{{userCreditEarned}}</bold> de crédito en total. {{months}}restantes de RemNote Pro gratis. <br /><br />¡Suscríbete a Pro para empezar a usar tu crédito! No se te cobrará hasta que tu crédito se agote.",
+      "BALANCE_IN_MONTHS": "{{numMonths}} meses"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
