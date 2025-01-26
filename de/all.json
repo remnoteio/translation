@@ -415,7 +415,7 @@
         },
         "ENABLE_SPELLCHECK": {
           "DESCRIPTION": "Überprüfen Sie das aktuell fokussierte Rem auf Tippfehler.",
-          "TITLE": "Aktivieren die Rechtschreibprüfung"
+          "TITLE": "Rechtschreibprüfung aktivieren"
         },
         "INSERT_EMOJIS_AS_REFERENCES": {
           "DESCRIPTION": "Wenn Sie mit %% suchen und ein Emoji auswählen, wird dieses als Referenz eingefügt.",
@@ -426,11 +426,11 @@
     "EDITOR_INTERFACE": {
       "ENABLE_ZOOM_INTO_BULLET": {
         "LABEL": "Wenn Sie auf den Aufzählungszeiger klicken, wird der Rest als ganze Seite angezeigt",
-        "TITLE": "Aktivieren Sie „In Bullet hineinzoomen“."
+        "TITLE": "Aktivieren Sie „In Gliederungspunkt hineinzoomen“."
       },
       "PREVIEW_REM_ON_HOVER": {
         "LABEL": "Wenn Sie mit der Maus über eine Referenz fahren, wird eine Vorschau ihres Inhalts angezeigt.",
-        "TITLE": "Vorschau der Referenzen beim Hovern"
+        "TITLE": "Vorschau der Referenzen beim Darüberschweben"
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
         "LABEL": "Passt die Größe des Ringes um den Stichpunkt entsprechend der Anzahl der Unterpunkte an.",
@@ -438,10 +438,10 @@
       },
       "SINGLE_CLICK_REFERENCES_TO_OPEN": {
         "LABEL": "Wenn Sie auf eine Referenz klicken oder tippen, gelangen Sie sofort zu ihrem Ziel, anstatt das Referenzmenü zu öffnen. (Sie können das Referenzmenü jederzeit durch einen Rechtsklick anzeigen.)",
-        "TITLE": "Referenzen mit einem Klick zum Öffnen"
+        "TITLE": "Referenzen mit einem Mausklick öffnen"
       },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
-        "LABEL": "Animieren Sie beim Hinzufügen oder Entfernen von Rems im Editor.",
+        "LABEL": "Animieren Sie das Hinzufügen oder Löschen von Rems im Editor.",
         "TITLE": "Animieren Sie den Editor fließend"
       }
     },
@@ -456,7 +456,7 @@
       },
       "GENERAL": {
         "AUTOPLAY_MEDIA": {
-          "DESCRIPTION": "Wenn eine Karteikarte angezeigt wird, soll automatisch alle darauf befindlichen Audio- oder Videoinhalte abgespielt werde.",
+          "DESCRIPTION": "Wenn eine Karteikarte angezeigt wird, sollen automatisch alle sich darauf befindlichen Audio- oder Videoinhalte abgespielt werden.",
           "TITLE": "Automatisches Abspielen von Medien"
         },
         "AUTOPLAY_TEXT_TO_SPEECH": {
@@ -464,12 +464,12 @@
           "TITLE": "Automatische Wiedergabe von Text in Sprache"
         },
         "LEARN_AHEAD_LIMIT": {
-          "DESCRIPTION": "Wenn Sie alle Karten, die heute fällig sind, geübt haben, inwieweit können wir in Zukunft Karten nehmen, die noch nicht fällig sind? So können Sie vermeiden, dass Sie zu früh wieder üben müssen.",
+          "DESCRIPTION": "Wenn Sie alle Karten, die heute fällig sind, geübt haben, inwieweit können wir aus der Zukunft Karten nehmen, die noch nicht fällig sind? So können Sie vermeiden, dass Sie sehr bald wieder üben müssen.",
           "TITLE": "Vorauslerngrenze"
         },
         "LEECH_THRESHOLD": {
           "DESCRIPTION": "Klammernde Karteikarten sind schwierige Karten, die man immer wieder lernt und dann wieder vergisst. Wenn Sie bei einer Karte öfter auf „Vergessen“ klicken, werden Sie von uns gewarnt, damit Sie herausfinden können, warum Sie sich damit schwer tun und das Problem beheben können. Stellen Sie hier einen höheren Wert ein, um die Warnung zu den klammernden Karteikarten seltener zu sehen.",
-          "TITLE": "Klammernde Karteikarten Schwellwert"
+          "TITLE": "Schwellwert für Klammernde Karteikarten"
         },
         "NEW_CARDS_PER_DAY": {
           "DESCRIPTION": "Fügen Sie jeden Tag höchstens so viele neu erstellte Lernkarten in Ihre Lernkartenwarteschlange ein. Auf diese Weise werden neue Karten in einem gleichmäßigen und nicht in einem großen Stapel in Ihre Warteschlange gelangen.",
@@ -482,7 +482,7 @@
         "RESET_ALL": {
           "CONFIRM_MESSAGE": "Sind Sie sicher, dass Sie alle Karteikarten-Einstellungen auf ihre Standardwerte zurücksetzen möchten?",
           "DESCRIPTION": "Setzen Sie alle Karteikarten-Einstellungen auf ihre Standardwerte zurück.",
-          "TITLE": "Alle Karteikaren-Einstellungen zurücksetzen"
+          "TITLE": "Alle Karteikarten-Einstellungen zurücksetzen"
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "DESCRIPTION": "Zeigen Sie beim Lernen von Karteikarten nur die Antwortschaltfläche „Vergessen“ und „Mit Mühe erinnert“ an, statt alle fünf Optionen.",
@@ -494,12 +494,12 @@
         },
         "TEXT_TO_SPEECH_SPEED": {
           "DESCRIPTION": "Die Geschwindigkeit, in der der Text auf den Karteikarten gesprochen wird.",
-          "TITLE": "Text to Speech Geschwindigkeit"
+          "TITLE": "Text-in-Sprache-Geschwindigkeit"
         },
         "TEXT_TO_SPEECH_VOICE": {
-          "DESCRIPTION": "Die Stimme, die für Text in Sprache verwendet wird. Beachten Sie, dass einige Stimmen nur für bestimmte Sprachen funktionieren.",
+          "DESCRIPTION": "Die Stimme, die für Text-in-Sprache verwendet wird. Beachten Sie, dass einige Stimmen nur für bestimmte Sprachen funktionieren.",
           "SAMPLE": "Die Mitochondrien sind das Kraftwerk der Zelle.",
-          "TITLE": "Stimme für Text in Sprache"
+          "TITLE": "Stimme für Text-in-Sprache"
         },
         "TYPE_ANSWER": {
           "DESCRIPTION": "Zeigen Sie auf der Vorderseite jeder Karteikarte ein Textfeld an und vergleichen Sie Ihre Eingabe mit der Antwort auf der Rückseite der Karte.",
@@ -509,7 +509,7 @@
       "ORDERING": {
         "DOCUMENT_CLUSTERS": {
           "DESCRIPTION": "Üben Sie Rems lieber gemeinsam aus zusammenhängenden Dokumenten.",
-          "TITLE": "Dokumenten Gruppierung"
+          "TITLE": "Dokumenten-Gruppierung"
         },
         "HIERARCHY_CLUSTERS": {
           "DESCRIPTION": "Üben Sie lieber hierarchisch miteinander verbundene Rems.",
@@ -517,29 +517,29 @@
         },
         "REFERENCE_CLUSTERS": {
           "DESCRIPTION": "Üben Sie lieber Rems, die sich gegenseitig referenzieren.",
-          "TITLE": "Referenz Gruppierung"
+          "TITLE": "Referenz-Gruppierung"
         },
         "TAG_CLUSTERS": {
           "DESCRIPTION": "Üben Sie lieber Rems mit demselben Etikett.",
-          "TITLE": "EtikettGruppierung"
+          "TITLE": "Etikett-Gruppierung"
         }
       },
       "STATISTICS": {
         "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
-          "DESCRIPTION": "Wenn die Beantwortung einer Karteikarte länger dauert (in Sekunden), lassden Rest der Zeit aus Ihren Statistiken heraus.",
+          "DESCRIPTION": "Wenn die Beantwortung einer Karteikarte länger dauert (in Sekunden), wird nur diese Zeit in Ihren Statistiken erscheinen.",
           "TITLE": "Maximale Reaktionszeit der Karteikarte"
         }
       },
       "VISUAL": {
         "SHOW_NEXT_REVIEW_TIMES": {
-          "DESCRIPTION": "Zeigen Sie auf jeder Antwortschaltfläche die Zeit bis zur nächsten Bewertung an.",
+          "DESCRIPTION": "Zeigen Sie beim Üben mit Abstandswiederholung auf jeder Antworttaste die Zeit bis zur nächsten Wiederholung an.",
           "TITLE": "Nächste Wiederholungszeiten anzeigen"
         }
       }
     },
     "GLOBAL_INTERFACE": {
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
-        "KEYWORDS": "sprache gemeinschaft dokumente suche",
+        "KEYWORDS": "sprache gemeinschaft dokumente suche karteikarten teilen geteilt herunterladen finden",
         "TITLE": "Gemeinschaft Dokument Suche Sprache"
       },
       "DARK_MODE": {
@@ -551,8 +551,8 @@
         "TITLE": "Gesamtbreite"
       },
       "INTERFACE": {
-        "KEYWORDS": "sprache sprache übersetzung i18n",
-        "TITLE": "RemNote Sprache der Benutzeroberfläche(Alpha)"
+        "KEYWORDS": "sprache sprache übersetzung übersetzen i18n",
+        "TITLE": "RemNote Sprache der Benutzeroberfläche (Alpha)"
       },
       "IN_APP_SUGGESTIONS": {
         "KEYWORDS": "Hinweise Hilfe Unterstützung Lernen Anleitung",
@@ -561,7 +561,7 @@
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "KEYWORDS": "In-App links Seitenleiste Anleitungen Hinweise Hilfe Unterstützung Lernen Anleitung",
-        "LABEL": "Zeige Tutorials zu den RemNote-Funktionen, die Sie gerade verwenden in der Ecke des Bildschirms an.",
+        "LABEL": "Zeige Anleitungen zu den RemNote-Funktionen, die Sie gerade verwenden, in der Ecke des Bildschirms an.",
         "TITLE": "In-App-Tutorials"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
@@ -693,6 +693,7 @@
   "SOURCES": {
     "LINK_SOURCE": {
       "ENTER_URL": "URL eingeben",
+      "EMBED_LINK": "Link einbetten",
       "INVALID_URL": "Ungültige URL",
       "LABEL": "Link",
       "LINK": "Link",
@@ -711,6 +712,7 @@
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Dateien auswählen",
       "SELECT_FILES_TO_UPLOAD": "Wählen Sie die Dateien zum Hochladen aus",
+      "UPLOAD": "hochladen",
       "UPLOADING": "Hochladen..."
     },
     "WIKIMEDIA_COMMONS": {
