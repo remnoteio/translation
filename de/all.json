@@ -6,7 +6,7 @@
       "CREATE": "Erstellen",
       "DELETE": "Löschen",
       "DUPLICATE": "Duplizieren",
-      "EDIT": "Änder",
+      "EDIT": "Ändern",
       "HIDE": "Verstecken",
       "REMOVE": "Entfernen",
       "UPDATE": "Aktualisieren",
@@ -29,11 +29,11 @@
         "SHARING": {
           "NO_CONTENT": {
             "SRC": "Das Dokument, das Sie teilen möchten, sieht etwas leer aus. Bitte fügen Sie mindestens {{minimum}} Rems hinzu und versuchen Sie es dann erneut.",
-            "SUBDOCUMENT": "Eines Ihrer Unterdokumente sehen etwas leer aus. Es wird erst veröffentlicht, wenn es {{minimum}} Rems hat."
+            "SUBDOCUMENT": "Eines Ihrer Unterdokumente sieht etwas leer aus. Es wird erst veröffentlicht, wenn es {{minimum}} Rems hat."
           },
           "NO_TITLE": {
-            "SRC": "Das Dokument, das Sie teilen möchten, hat keinen Titel. Sie müssen einhinzufügen, bevor Sie es veröffentlichen.",
-            "SUBDOCUMENT": "Eines Ihrer Unterdokumente hat keinen Titel. Es wird erst veröffentlicht, wenn es eines hat."
+            "SRC": "Das Dokument, das Sie teilen möchten, hat keinen Titel. Sie müssen einen hinzufügen, bevor Sie es veröffentlichen.",
+            "SUBDOCUMENT": "Eines Ihrer Unterdokumente hat keinen Titel. Es wird erst veröffentlicht, wenn es einen hat."
           }
         }
       }
@@ -71,7 +71,7 @@
       "PIN_TO_SIDEBAR": "An der Seitenleiste anheften",
       "PRINT": "Drucken",
       "RENAME": "Umbenennen",
-      "SHOW_STUDY_BUTTON": "Schaltfläche „Studieren anzeigen“",
+      "SHOW_STUDY_BUTTON": "Schaltfläche „Lernen“ anzeigen",
       "STATS": "Statistiken",
       "UNDO": "Rückgängig machen",
       "UNPIN_FROM_SIDEBAR": "Von der Seitenleiste lösen",
@@ -98,7 +98,7 @@
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Sprache",
-    "TRANSLATION_INFO_SETTINGS": "Die Übersetzung ist noch in Arbeit; Sie sehen eine Mischung aus Englisch und der ausgewählten Sprache.<br> Sie können uns beim Übersetzen helfen, indem Sie die <guideLink>Anleitung</guideLink> lesen und dann unserem<editorLink>Web-Editor</editorLink> nutzen.",
+    "TRANSLATION_INFO_SETTINGS": "Die Übersetzung ist noch in Arbeit; Sie sehen eine Mischung aus Englisch und der ausgewählten Sprache.<br> Sie können uns beim Übersetzen helfen, indem Sie die <guideLink>Anleitung</guideLink> lesen und dann unseren<editorLink>Web-Editor</editorLink> nutzen.",
     "TRANSLATION_IN_PROGRESS": "Die Übersetzungen sind noch nicht vollständig. Du kannst uns <0>auf Inlang</0> dabei helfen."
   },
   "NOTIFICATIONS": {
@@ -110,11 +110,11 @@
     "DOCUMENT_ADDED_TO_GROUP": {
       "BODY": "wurde hinzugefügt zu"
     },
-    "EMPTY_STATE_MESSAGE": "Sie sind auf den neusten Stand! Sie erhalten Benachrichtigungen, wenn jemand mit den auf Ihrem freigegebenen Inhalten auf ihren <profileLink>Profil</profileLink> interagiert .",
-    "EMPTY_STATE_TITLE": "Sie haben keine aktuellen Benachrichtigungen",
-    "GROUP_DEFAULT": "Deine Gruppe",
+    "EMPTY_STATE_MESSAGE": "Sie sind auf dem neusten Stand! Sie erhalten Benachrichtigungen, wenn jemand mit den auf Ihrem <profileLink>Profil</profileLink> freigegebenen Inhalten interagiert.",
+    "EMPTY_STATE_TITLE": "Sie haben keine aktuellen Benachrichtigungen.",
+    "GROUP_DEFAULT": "Ihre Gruppe",
     "IMPORT": {
-      "BODY": "Jemand hat Ihr Dokument importiert"
+      "BODY": "Jemand hat Ihr Dokument importiert."
     },
     "INVITE": {
       "ACCEPT": "Einladung annehmen",
@@ -123,12 +123,12 @@
     },
     "NEW_COMMENT": {
       "BODY": "kommentiert",
-      "BODY_ARTICLE": "hat auf Ihr Dokument kommentiert",
-      "BODY_COMMENT": "hat auf deinen Kommentar geantwortet",
-      "BODY_GROUP": "ein Chat wurde an deine Gruppe gesendet"
+      "BODY_ARTICLE": "hat Ihr Dokument kommentiert",
+      "BODY_COMMENT": "hat auf Ihren Kommentar geantwortet",
+      "BODY_GROUP": "ein Chat wurde an Ihre Gruppe gesendet"
     },
     "NEW_FOLLOWER": {
-      "BODY": "gefolgt"
+      "BODY": "folgt Ihnen"
     },
     "NEW_LIKE": {
       "BODY": "gefällt"
@@ -170,11 +170,11 @@
       "SORT": {
         "ASCENDING": "A -> Z",
         "BY_CREATION_TIME": "Zum Erstellungszeitpunkt",
-        "BY_MODIFICATION": "Nach Ä",
+        "BY_MODIFICATION": "Nach Änderungszeitpunkt",
         "BY_TITLE": "Nach Titel",
         "DESCENDING": "Z -> A",
-        "OLDEST_FIRST": "Ältesten zuerst",
-        "RECENTLY_MODIFIED": "Kürzlich geändert",
+        "OLDEST_FIRST": "Älteste zuerst",
+        "RECENTLY_MODIFIED": "Kürzlich Geänderte zuerst",
         "OLDEST_CREATION_FIRST": "Älteste erstellung zuerst",
         "RECENTLY_CREATED": "Kürzlich erstellt"
       },
@@ -189,22 +189,22 @@
         "CLOZE_CARDS": "Lückentext-Karten",
         "CLOZE_CARDS_TOOLTIP": "Erstellen Sie Lückentext-Karteikarten aus dem ausgewählten Text.",
         "CONCEPT_CARDS": "Konzeptkarten",
-        "CONCEPT_CARDS_TOOLTIP": "Erstelle Konzept-Beschreibungs-Karteikarten mithilfe des ausgewählten Texts",
+        "CONCEPT_CARDS_TOOLTIP": "Erstelle Konzept-Beschreibungs-Karteikarten aus dem ausgewählten Text.",
         "GENERATE_SECTION": "GENERIEREN"
       },
-      "CLOZE_BTN_TOOLTIP": "Lückentext-Lernkarte",
+      "CLOZE_BTN_TOOLTIP": "Lückentext-Karteikarte",
       "COPY_IMAGE": "Bild kopieren",
       "COPY_IMAGE_AS_TEXT": "Bild als Text kopieren mit KI",
       "COPY_TEXT": "Nur Text kopieren",
       "HIGHLIGHT": "Markieren",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Karteikarten mit Bildverdeckung erstellen",
       "NOTE_BTN_TOOLTIP": "Notiz",
-      "NO_TEXT_IN_PDF_WARN": "Diese Datei beinhaltet keine Textebene, aber du kannst trotzdem Flächen hervorheben um zu annotieren."
+      "NO_TEXT_IN_PDF_WARN": "Diese Datei enthält keine Textebene, aber Sie können trotzdem Flächen hervorheben, um Anmerkungen zu machen."
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "Erweiterte Verknüpfungsoptionen",
-      "DELETE_WARNING": "Diese Hervorhebung besitzt notesCount, number notesWord. Bist du sicher, dass du sie löchen möchtest?",
-      "TURN_INTO_CONCEPT": "Zum Konzept machen",
+      "DELETE_WARNING": "Diese Hervorhebung besitzt {{notesCount, number}} {{ notesWord }}. Sind Sie sicher, dass Sie sie löschen möchten?",
+      "TURN_INTO_CONCEPT": "In Konzept verwandeln",
       "VIEW_REFERENCES": "Referenzen anzeigen"
     },
     "HEADER": {
@@ -222,7 +222,7 @@
         "AUTO_HIGHLIGHT": "Automatisch hervorheben",
         "AUTO_HIGHLIGHT_TOOLTIP": "Ausgewählten Text automatisch hervorheben",
         "DISABLE_HEADER_BUTTONS": "Überschriftenschaltflächen deaktivieren",
-        "DISABLE_HEADER_BUTTONS_TOOLTIP": "Überschriftenschaltflächen («) im Reader verstecken.",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "Überschriftenschaltflächen («) im Reader verstecken",
         "SNAP_HIGHLIGHT_TO_WORDS": "Hervorhebung an Wörtern ausrichten",
         "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "Bei neuer Hervorhebung nur ganze Wörter auswählen"
       },
@@ -256,7 +256,7 @@
       },
       "QUICK_ADD": {
         "DESCRIPTION": "Erfassen Sie Ihre Ideen im Handumdrehen!",
-        "TITLE": "Schnelles hinzufügen"
+        "TITLE": "Schnelles Hinzufügen"
       },
       "TABLE_TAG": {
         "DESCRIPTION": "Erstellen Sie ein Etikett zur Verwendung mit Tabellen und Vorlagen.",
@@ -282,7 +282,7 @@
   "SETTINGS": {
     "ACCOUNT": {
       "ADVANCED": {
-        "KEYWORDS": "Unterstützung neu verdrahten Suche Fehlerbeheben"
+        "KEYWORDS": "Unterstützung der neu verdrahten Suche Fehler beheben"
       },
       "ADVANCED_TITLE": "Erweiterte Einstellungen",
       "AUTHENTICATION": {
@@ -308,14 +308,14 @@
       "IMPORT_EXPORT_TITLE": "Import und Export",
       "MY_PROFILE": "Mein Profil",
       "NAVIGATION": {
-        "KEYWORDS": "Exportieren und Sichere Papierkorb Gelöschte Rem Wissensdatenbank importieren Alle Karten anzeigen  Tägliches Backup herunterladen Erweiterte Einstellungen  Alle Rem löschen"
+        "KEYWORDS": "Exportieren und Sichere Papierkorb Gelöschte Rem Wissensdatenbank importieren Alle Karten anzeigen Tägliches Backup herunterladen Erweiterte Einstellungen Alle Rem löschen"
       },
       "NAVIGATION_TITLE": "Navigation",
       "PRIVACY": {
         "KEYWORDS": "Privatsphäre",
         "TITLE": "Privatsphäre"
       },
-      "PRIVACY_NOTE": "Datenschutz: Lies unsere <policyLink>Datenschutzerklärung</policyLink>, oder ändere deine Einstellungen im <hubLink>Privacy Hub</hubLink>.",
+      "PRIVACY_NOTE": "Datenschutz: Lesen Sie unsere <policyLink>Datenschutzerklärung</policyLink>, oder ändern Sie Ihre Einstellungen im <hubLink>Privacy Hub</hubLink>.",
       "PROFILE": {
         "KEYWORDS": "Persönliches Benutzerprofil"
       },
@@ -339,10 +339,12 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Guthaben anwenden",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} Monat",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} Monate",
       "COPIED": "Kopiert!",
       "COPYLINK": "Link kopieren",
       "CREATE_ACCOUNT": "Erstellen Sie ein Konto, um Freunde einzuladen",
-      "EMAIL_PLACEHOLDER": "neugierigfreund@gmail.com",
+      "EMAIL_PLACEHOLDER": "neugierigerfreund@gmail.com",
       "ENTER_VALID_EMAIL": "Geben Sie eine gültige E-Mail-Adresse ein!",
       "FRIENDS_TITLE": "Freunde",
       "FRIEND_ALREADY_ON_REMNOTE": "Ihr Freund ist bereits auf RemNote",
@@ -355,7 +357,7 @@
       "INVITE_FRIENDS_EARN_CREDIT": "Laden Sie Ihre Freunde ein, um Guthaben zu verdienen! Sie erhalten <0>{{monthlyPrice}}</0> als RemNote-Gutschrift, wenn die von Ihnen eingeladene Person sich für ein RemNote-Konto anmeldet und Sie erhalten außerdem auch<0>{{monthlyPrice}}</0> Kredit, um loszulegen.",
       "INVITE_FRIENDS_REMNOTE": "Laden Sie Ihre Freunde zu RemNote ein!",
       "INVITE_TEXT": "Freunde einladen und Guthaben verdienen",
-      "KEYWORDS": "Freunde einladen und Guthaben verdienen Tarif Abonnement ändern",
+      "KEYWORDS": "Freunde einladen und Guthaben verdienen Tarif Abonnement ändern Credits verdienen kostenloses remnote tweet email senden Plan wählen Lebenslanges Lernen pro Funktionsübersicht Preisoptionen",
       "NOT_CONFIRMED_EMAIL": "(hat die E-Mail nicht bestätigt)",
       "REMAINING_MONTHS": "Verbleibende Monate",
       "SEND_INVITE": "Einladung senden",
@@ -413,7 +415,7 @@
         },
         "ENABLE_SPELLCHECK": {
           "DESCRIPTION": "Überprüfen Sie das aktuell fokussierte Rem auf Tippfehler.",
-          "TITLE": "Aktivieren die Rechtschreibprüfung"
+          "TITLE": "Rechtschreibprüfung aktivieren"
         },
         "INSERT_EMOJIS_AS_REFERENCES": {
           "DESCRIPTION": "Wenn Sie mit %% suchen und ein Emoji auswählen, wird dieses als Referenz eingefügt.",
@@ -424,11 +426,11 @@
     "EDITOR_INTERFACE": {
       "ENABLE_ZOOM_INTO_BULLET": {
         "LABEL": "Wenn Sie auf den Aufzählungszeiger klicken, wird der Rest als ganze Seite angezeigt",
-        "TITLE": "Aktivieren Sie „In Bullet hineinzoomen“."
+        "TITLE": "Aktivieren Sie „In Gliederungspunkt hineinzoomen“."
       },
       "PREVIEW_REM_ON_HOVER": {
         "LABEL": "Wenn Sie mit der Maus über eine Referenz fahren, wird eine Vorschau ihres Inhalts angezeigt.",
-        "TITLE": "Vorschau der Referenzen beim Hovern"
+        "TITLE": "Vorschau der Referenzen beim Darüberschweben"
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
         "LABEL": "Passt die Größe des Ringes um den Stichpunkt entsprechend der Anzahl der Unterpunkte an.",
@@ -436,10 +438,10 @@
       },
       "SINGLE_CLICK_REFERENCES_TO_OPEN": {
         "LABEL": "Wenn Sie auf eine Referenz klicken oder tippen, gelangen Sie sofort zu ihrem Ziel, anstatt das Referenzmenü zu öffnen. (Sie können das Referenzmenü jederzeit durch einen Rechtsklick anzeigen.)",
-        "TITLE": "Referenzen mit einem Klick zum Öffnen"
+        "TITLE": "Referenzen mit einem Mausklick öffnen"
       },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
-        "LABEL": "Animieren Sie beim Hinzufügen oder Entfernen von Rems im Editor.",
+        "LABEL": "Animieren Sie das Hinzufügen oder Löschen von Rems im Editor.",
         "TITLE": "Animieren Sie den Editor fließend"
       }
     },
@@ -454,7 +456,7 @@
       },
       "GENERAL": {
         "AUTOPLAY_MEDIA": {
-          "DESCRIPTION": "Wenn eine Karteikarte angezeigt wird, soll automatisch alle darauf befindlichen Audio- oder Videoinhalte abgespielt werde.",
+          "DESCRIPTION": "Wenn eine Karteikarte angezeigt wird, sollen automatisch alle sich darauf befindlichen Audio- oder Videoinhalte abgespielt werden.",
           "TITLE": "Automatisches Abspielen von Medien"
         },
         "AUTOPLAY_TEXT_TO_SPEECH": {
@@ -462,12 +464,12 @@
           "TITLE": "Automatische Wiedergabe von Text in Sprache"
         },
         "LEARN_AHEAD_LIMIT": {
-          "DESCRIPTION": "Wenn Sie alle Karten, die heute fällig sind, geübt haben, inwieweit können wir in Zukunft Karten nehmen, die noch nicht fällig sind? So können Sie vermeiden, dass Sie zu früh wieder üben müssen.",
+          "DESCRIPTION": "Wenn Sie alle Karten, die heute fällig sind, geübt haben, inwieweit können wir aus der Zukunft Karten nehmen, die noch nicht fällig sind? So können Sie vermeiden, dass Sie sehr bald wieder üben müssen.",
           "TITLE": "Vorauslerngrenze"
         },
         "LEECH_THRESHOLD": {
           "DESCRIPTION": "Klammernde Karteikarten sind schwierige Karten, die man immer wieder lernt und dann wieder vergisst. Wenn Sie bei einer Karte öfter auf „Vergessen“ klicken, werden Sie von uns gewarnt, damit Sie herausfinden können, warum Sie sich damit schwer tun und das Problem beheben können. Stellen Sie hier einen höheren Wert ein, um die Warnung zu den klammernden Karteikarten seltener zu sehen.",
-          "TITLE": "Klammernde Karteikarten Schwellwert"
+          "TITLE": "Schwellwert für Klammernde Karteikarten"
         },
         "NEW_CARDS_PER_DAY": {
           "DESCRIPTION": "Fügen Sie jeden Tag höchstens so viele neu erstellte Lernkarten in Ihre Lernkartenwarteschlange ein. Auf diese Weise werden neue Karten in einem gleichmäßigen und nicht in einem großen Stapel in Ihre Warteschlange gelangen.",
@@ -480,7 +482,7 @@
         "RESET_ALL": {
           "CONFIRM_MESSAGE": "Sind Sie sicher, dass Sie alle Karteikarten-Einstellungen auf ihre Standardwerte zurücksetzen möchten?",
           "DESCRIPTION": "Setzen Sie alle Karteikarten-Einstellungen auf ihre Standardwerte zurück.",
-          "TITLE": "Alle Karteikaren-Einstellungen zurücksetzen"
+          "TITLE": "Alle Karteikarten-Einstellungen zurücksetzen"
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "DESCRIPTION": "Zeigen Sie beim Lernen von Karteikarten nur die Antwortschaltfläche „Vergessen“ und „Mit Mühe erinnert“ an, statt alle fünf Optionen.",
@@ -492,12 +494,12 @@
         },
         "TEXT_TO_SPEECH_SPEED": {
           "DESCRIPTION": "Die Geschwindigkeit, in der der Text auf den Karteikarten gesprochen wird.",
-          "TITLE": "Text to Speech Geschwindigkeit"
+          "TITLE": "Text-in-Sprache-Geschwindigkeit"
         },
         "TEXT_TO_SPEECH_VOICE": {
-          "DESCRIPTION": "Die Stimme, die für Text in Sprache verwendet wird. Beachten Sie, dass einige Stimmen nur für bestimmte Sprachen funktionieren.",
+          "DESCRIPTION": "Die Stimme, die für Text-in-Sprache verwendet wird. Beachten Sie, dass einige Stimmen nur für bestimmte Sprachen funktionieren.",
           "SAMPLE": "Die Mitochondrien sind das Kraftwerk der Zelle.",
-          "TITLE": "Stimme für Text in Sprache"
+          "TITLE": "Stimme für Text-in-Sprache"
         },
         "TYPE_ANSWER": {
           "DESCRIPTION": "Zeigen Sie auf der Vorderseite jeder Karteikarte ein Textfeld an und vergleichen Sie Ihre Eingabe mit der Antwort auf der Rückseite der Karte.",
@@ -507,7 +509,7 @@
       "ORDERING": {
         "DOCUMENT_CLUSTERS": {
           "DESCRIPTION": "Üben Sie Rems lieber gemeinsam aus zusammenhängenden Dokumenten.",
-          "TITLE": "Dokumenten Gruppierung"
+          "TITLE": "Dokumenten-Gruppierung"
         },
         "HIERARCHY_CLUSTERS": {
           "DESCRIPTION": "Üben Sie lieber hierarchisch miteinander verbundene Rems.",
@@ -515,29 +517,29 @@
         },
         "REFERENCE_CLUSTERS": {
           "DESCRIPTION": "Üben Sie lieber Rems, die sich gegenseitig referenzieren.",
-          "TITLE": "Referenz Gruppierung"
+          "TITLE": "Referenz-Gruppierung"
         },
         "TAG_CLUSTERS": {
           "DESCRIPTION": "Üben Sie lieber Rems mit demselben Etikett.",
-          "TITLE": "EtikettGruppierung"
+          "TITLE": "Etikett-Gruppierung"
         }
       },
       "STATISTICS": {
         "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
-          "DESCRIPTION": "Wenn die Beantwortung einer Karteikarte länger dauert (in Sekunden), lassden Rest der Zeit aus Ihren Statistiken heraus.",
+          "DESCRIPTION": "Wenn die Beantwortung einer Karteikarte länger dauert (in Sekunden), wird nur diese Zeit in Ihren Statistiken erscheinen.",
           "TITLE": "Maximale Reaktionszeit der Karteikarte"
         }
       },
       "VISUAL": {
         "SHOW_NEXT_REVIEW_TIMES": {
-          "DESCRIPTION": "Zeigen Sie auf jeder Antwortschaltfläche die Zeit bis zur nächsten Bewertung an.",
+          "DESCRIPTION": "Zeigen Sie beim Üben mit Abstandswiederholung auf jeder Antworttaste die Zeit bis zur nächsten Wiederholung an.",
           "TITLE": "Nächste Wiederholungszeiten anzeigen"
         }
       }
     },
     "GLOBAL_INTERFACE": {
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
-        "KEYWORDS": "sprache gemeinschaft dokumente suche",
+        "KEYWORDS": "sprache gemeinschaft dokumente suche karteikarten teilen geteilt herunterladen finden",
         "TITLE": "Gemeinschaft Dokument Suche Sprache"
       },
       "DARK_MODE": {
@@ -549,8 +551,8 @@
         "TITLE": "Gesamtbreite"
       },
       "INTERFACE": {
-        "KEYWORDS": "sprache sprache übersetzung i18n",
-        "TITLE": "RemNote Sprache der Benutzeroberfläche(Alpha)"
+        "KEYWORDS": "sprache sprache übersetzung übersetzen i18n",
+        "TITLE": "RemNote Sprache der Benutzeroberfläche (Alpha)"
       },
       "IN_APP_SUGGESTIONS": {
         "KEYWORDS": "Hinweise Hilfe Unterstützung Lernen Anleitung",
@@ -559,7 +561,7 @@
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "KEYWORDS": "In-App links Seitenleiste Anleitungen Hinweise Hilfe Unterstützung Lernen Anleitung",
-        "LABEL": "Zeige Tutorials zu den RemNote-Funktionen, die Sie gerade verwenden in der Ecke des Bildschirms an.",
+        "LABEL": "Zeige Anleitungen zu den RemNote-Funktionen, die Sie gerade verwenden, in der Ecke des Bildschirms an.",
         "TITLE": "In-App-Tutorials"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
@@ -691,6 +693,7 @@
   "SOURCES": {
     "LINK_SOURCE": {
       "ENTER_URL": "URL eingeben",
+      "EMBED_LINK": "Link einbetten",
       "INVALID_URL": "Ungültige URL",
       "LABEL": "Link",
       "LINK": "Link",
@@ -709,6 +712,7 @@
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Dateien auswählen",
       "SELECT_FILES_TO_UPLOAD": "Wählen Sie die Dateien zum Hochladen aus",
+      "UPLOAD": "hochladen",
       "UPLOADING": "Hochladen..."
     },
     "WIKIMEDIA_COMMONS": {
