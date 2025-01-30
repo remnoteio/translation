@@ -773,9 +773,9 @@
     "CREATE_TEMPLATE": "Create Template",
     "HIDE_CONFIGURATION": "Hide Configuration",
     "NEW_TEMPLATE": "New Template",
-    "PROPERTIES_HELP_TEXT": [
-      "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
-    ],
+    "PROPERTIES_HELP_TEXT": {
+      "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
+    },
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Property",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Properties",
     "PROPERTY_one": "Property",
