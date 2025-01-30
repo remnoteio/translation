@@ -194,7 +194,97 @@
     },
     "HEADER": {
       "AREA_HIGHLIGHT_TOOLTIP": "هایلایت کردن محدوده ( {{keyName}} + Drag)",
-      "NUMBER_OF_PAGES_TOOLTIP": "تعداد صفحات"
+      "NUMBER_OF_PAGES_TOOLTIP": "تعداد صفحات",
+      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "تغییر حالت سند پیش‌فرض"
+    },
+    "PDF_OPTIONS": {
+      "CHANGE_THEME": "تغییر تم",
+      "DOWNLOAD_PDF": "دانلود کردن PDF",
+      "LEARN_MORE": "بیشتر بدانید",
+      "OPEN_WEBPAGE_EXTERNALLY": "باز کردن صفحه‌ی وب به صورت خارجی",
+      "PDF_SETTINGS": "تنظیمات",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "هایلایت خودکار",
+        "AUTO_HIGHLIGHT_TOOLTIP": "پس از انتخاب متن، به طور خودکار هایلایت ایجاد کنید.",
+        "DISABLE_HEADER_BUTTONS": "دکمه های سرصفحه را غیرفعال کنید",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "دکمه های سرصفحه («) را از نمایش در خواننده غیرفعال کنید.",
+        "SNAP_HIGHLIGHT_TO_WORDS": "برجسته کردن کلمات",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "هنگام ایجاد نکات برجسته جدید، فقط کل کلمات را انتخاب کنید."
+      },
+      "REFETCH_PAGE": "واکشی صفحه",
+      "REFETCH_PAGE_TOOLTIP": "اگر این صفحه دارای نکات برجسته موجود باشد، قابل واکشی مجدد نیست.",
+      "SEARCH_IN_PDF": "جستجو در PDF",
+      "SPLIT_PANES": "جداره ها",
+      "SPLIT_PANES_TOOLTIP": "ویرایشگر و نمایشگر PDF را در صفحات جداگانه تقسیم کنید.",
+      "THEMES": {
+        "CLASSIC_INVERT": "وارونه کلاسیک",
+        "DARK": "تاریک",
+        "LIGHT": "روشن",
+        "SOLARISED": "خورشیدی شده",
+        "USE_REMNOTE_THEME": "از تم RemNote استفاده کنید"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "DONE": "انجام شد",
+      "INPUT_PLACEHOLDER": "جستجو"
+    }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "DESCRIPTION": "فلش کارت ها و یادداشت ها را در اسناد سازماندهی کنید.",
+        "TITLE": "سند"
+      },
+      "FOLDER": {
+        "DESCRIPTION": "اسناد را در پوشه ها سازماندهی کنید.",
+        "TITLE": "پوشه"
+      },
+      "QUICK_ADD": {
+        "DESCRIPTION": "ایده های خود را در لحظه ثبت کنید!",
+        "TITLE": "افزودن سریع"
+      },
+      "TABLE_TAG": {
+        "DESCRIPTION": "یک برچسب برای استفاده با جداول و الگوها ایجاد کنید.",
+        "TITLE": "برچسب و جدول"
+      },
+      "TODAYS_DOCUMENT": {
+        "DESCRIPTION": "اسناد روزانه برای ژورنال، فهرست کارها و موارد دیگر عالی هستند.",
+        "TITLE": "سند امروز"
+      },
+      "UPLOAD_FILE": {
+        "DESCRIPTION": "ویدئوهای یوتیوب، PDF، PPT، اسناد Word و غیره را برجسته و ارجاع دهید.",
+        "FEATURE_NAME": "برجسته سازی PDF",
+        "PAYWALL": "شما به حد مجاز خود برای بارگذاری PDF رسیده اید.",
+        "TITLE": "آپلود و حاشیه نویسی فایل"
+      }
+    }
+  },
+  "POWERUPS": {
+    "POWERUP_one": "تقویت کننده",
+    "POWERUP_other": "تقویت کننده‌ها"
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "ADVANCED_TITLE": "تنظیمات پیشرفته",
+      "AUTHENTICATION": {
+        "KEYWORDS": "خروج از سیستم ورود به سیستم Google روش ورود به سیستم افزودن قطع ارتباط ورود ثبت نام"
+      },
+      "AUTHENTICATION_TITLE": "احراز هویت",
+      "CACHING": {
+        "DESCRIPTION": "تصاویر را هنگام بارگیری در حافظه پنهان ذخیره کنید تا بتوان آنها را به صورت آفلاین مشاهده کرد.",
+        "NUMBER_DESCRIPTION": "حداکثر تعداد تصاویر را روی حافظه‌ی پنهان تنظیم کنید. با رسیدن به حد مجاز، قدیمی ترین تصاویر از حافظه پنهان پاک می شوند.",
+        "NUMBER_TITLE": "حداکثر تصاویر ذخیره شده در حافظه پنهان",
+        "TITLE": "ذخیره سازی پنهان",
+        "TOGGLE_DESCRIPTION": "در صورت غیرفعال شدن، هر تصویر ذخیره شده در حافظه پنهان پاک می شود.",
+        "TOGGLE_TITLE": "حافظه‌ی نهان را فعال کنید"
+      },
+      "DANGER_ZONE": {
+        "KEYWORDS": "گزارش همگام‌سازی حذف بازنشانی حساب، پیش‌رفته، بازنشانی در تنظیمات پیشرفته حساب",
+        "TITLE": "منطقه‌ی خطر"
+      },
+      "DANGER_ZONE_TITLE": "منطقه‌ی خطر",
+      "IMPORT_EXPORT_TITLE": "واردات و صادرات",
+      "MY_PROFILE": "نمایهٔ من"
     }
   }
 }
