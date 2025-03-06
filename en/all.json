@@ -725,7 +725,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "Open in Another Pane",
         "PROPERTIES_CONFIGURATION_TITLE": "Configure",
         "PROPERTIES_TITLE": "Properties",
-        "SHOW_VERTICAL_LINES_TITLE": "Show Vertical Lines",
         "TABLE_CONFIGURATION_TITLE": "Table",
         "VIEW_AS": {
           "LIST_VIEW": "List",
@@ -771,7 +770,6 @@
     "AUTO_APPLY": "Auto-apply",
     "AUTO_APPLY_HELP_TEXT": "This template will be automatically applied to all rows in its table, or all Rems tagged with the template.",
     "CREATE_TEMPLATE": "Create Template",
-    "HIDE_CONFIGURATION": "Hide Configuration",
     "NEW_TEMPLATE": "New Template",
     "PROPERTIES_HELP_TEXT": [
       "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
