@@ -763,7 +763,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "在新窗格中打开",
         "PROPERTIES_CONFIGURATION_TITLE": "设置",
         "PROPERTIES_TITLE": "属性",
-        "SHOW_VERTICAL_LINES_TITLE": "显示垂直网格线",
         "TABLE_CONFIGURATION_TITLE": "表格",
         "VIEW_AS": {
           "LIST_VIEW": "大纲",
@@ -772,7 +771,8 @@
           "VIEW_AS_TITLE": "视图类型"
         },
         "ZOOM_IN_TO_LIST_TITLE": "查看大纲",
-        "ZOOM_IN_TO_TABLE_TITLE": "查看表格"
+        "ZOOM_IN_TO_TABLE_TITLE": "查看表格",
+        "SHOW_VERTICAL_LINES_TITLE": "显示垂直网格线"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "编辑表格名",
@@ -809,7 +809,6 @@
     "AUTO_APPLY": "自动应用",
     "AUTO_APPLY_HELP_TEXT": "此模板将自动应用到表格的所有行中，或用此模板的标记的所有 Rem 中。",
     "CREATE_TEMPLATE": "创建模板",
-    "HIDE_CONFIGURATION": "隐藏配置",
     "NEW_TEMPLATE": "新模板",
     "PROPERTIES_HELP_TEXT": {
       "0": "属性用于描述标签。例如，在名为\"图书\"的标签中，可以添加作者、体裁、阅读进度等属性！"
@@ -826,6 +825,7 @@
     "TEMPLATE_other": "模板",
     "TURN_OFF_AUTO_APPLY": "关闭自动应用",
     "VIEW_CONFIGURATION": "设置标签",
+    "HIDE_CONFIGURATION": "隐藏配置",
     "ADD_PROPERTY": "添加属性",
     "NEW_PROPERTY": "新属性"
   },
