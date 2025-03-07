@@ -759,7 +759,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "別のタブで開く",
         "PROPERTIES_CONFIGURATION_TITLE": "設定",
         "PROPERTIES_TITLE": "プロパティ",
-        "SHOW_VERTICAL_LINES_TITLE": "縦線を表示",
         "TABLE_CONFIGURATION_TITLE": "テーブル",
         "VIEW_AS": {
           "LIST_VIEW": "リスト",
@@ -768,7 +767,8 @@
           "VIEW_AS_TITLE": "として表示"
         },
         "ZOOM_IN_TO_LIST_TITLE": "リストを拡大表示",
-        "ZOOM_IN_TO_TABLE_TITLE": "表を拡大表示"
+        "ZOOM_IN_TO_TABLE_TITLE": "表を拡大表示",
+        "SHOW_VERTICAL_LINES_TITLE": "縦線を表示"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "テーブル名の編集",
@@ -805,7 +805,6 @@
     "AUTO_APPLY": "自動適用",
     "AUTO_APPLY_HELP_TEXT": "このテンプレートは、テーブル内のすべての行、またはテンプレートでタグ付けされたすべてのRemに自動的に適用されます。",
     "CREATE_TEMPLATE": "テンプレートの作成",
-    "HIDE_CONFIGURATION": "設定を非表示にする",
     "NEW_TEMPLATE": "新しいテンプレート",
     "PROPERTIES_HELP_TEXT": {
       "0": "プロパティはタグを説明するものです。例えば、「本」というタグには、著者、ジャンル、読書状況などのプロパティを追加してください！"
@@ -822,6 +821,7 @@
     "TEMPLATE_other": "テンプレート",
     "TURN_OFF_AUTO_APPLY": "自動適用をオフにする",
     "VIEW_CONFIGURATION": "タグの設定",
+    "HIDE_CONFIGURATION": "設定を非表示にする",
     "ADD_PROPERTY": "プロパティの追加",
     "NEW_PROPERTY": "新しいプロパティ"
   },

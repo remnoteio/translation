@@ -763,7 +763,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "Abrir en Otro Panel",
         "PROPERTIES_CONFIGURATION_TITLE": "Configurar",
         "PROPERTIES_TITLE": "Propiedades",
-        "SHOW_VERTICAL_LINES_TITLE": "Mostrar Líneas Verticales",
         "TABLE_CONFIGURATION_TITLE": "Tabla",
         "VIEW_AS": {
           "LIST_VIEW": "Lista",
@@ -772,7 +771,8 @@
           "VIEW_AS_TITLE": "Ver como"
         },
         "ZOOM_IN_TO_LIST_TITLE": "Zoom en la Lista",
-        "ZOOM_IN_TO_TABLE_TITLE": "Zoom en la Tabla"
+        "ZOOM_IN_TO_TABLE_TITLE": "Zoom en la Tabla",
+        "SHOW_VERTICAL_LINES_TITLE": "Mostrar Líneas Verticales"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "Editar el Nombre de la Tabla",
@@ -809,7 +809,6 @@
     "AUTO_APPLY": "Aplicar automáticamente",
     "AUTO_APPLY_HELP_TEXT": "Esta plantilla se aplicará automáticamente a todas las filas de su tabla o a todos los Rems etiquetados con la plantilla.",
     "CREATE_TEMPLATE": "Crear Plantilla",
-    "HIDE_CONFIGURATION": "Ocultar Configuración",
     "NEW_TEMPLATE": "Nueva Plantilla",
     "PROPERTIES_HELP_TEXT": {
       "0": "Las propiedades describen una etiqueta. Por ejemplo, para una etiqueta llamada \"Libro\", agrega propiedades como Autor, Género, Estado de lectura ¡y más!"
@@ -826,6 +825,7 @@
     "TEMPLATE_other": "Plantillas",
     "TURN_OFF_AUTO_APPLY": "Apagar Aplicar Automáticamente",
     "VIEW_CONFIGURATION": "Configurar Etiqueta",
+    "HIDE_CONFIGURATION": "Ocultar Configuración",
     "ADD_PROPERTY": "Añadir propiedad",
     "NEW_PROPERTY": "Nueva propiedad"
   },

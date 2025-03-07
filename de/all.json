@@ -761,7 +761,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "In einem anderen Seröffnen",
         "PROPERTIES_CONFIGURATION_TITLE": "Konfigurieren",
         "PROPERTIES_TITLE": "Eigenschaften",
-        "SHOW_VERTICAL_LINES_TITLE": "Vertikale Linien anzeigen",
         "TABLE_CONFIGURATION_TITLE": "Tabelle",
         "VIEW_AS": {
           "LIST_VIEW": "Liste",
@@ -770,7 +769,8 @@
           "VIEW_AS_TITLE": "Ansicht als"
         },
         "ZOOM_IN_TO_LIST_TITLE": "In die Liste hineinzoomen",
-        "ZOOM_IN_TO_TABLE_TITLE": "In die Tabelle hineinzoomen"
+        "ZOOM_IN_TO_TABLE_TITLE": "In die Tabelle hineinzoomen",
+        "SHOW_VERTICAL_LINES_TITLE": "Vertikale Linien anzeigen"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "Tabellenname bearbeiten",
@@ -807,7 +807,6 @@
     "AUTO_APPLY": "Automatisch anwenden",
     "AUTO_APPLY_HELP_TEXT": "Diese Vorlage wird automatisch auf alle Zeilen in der Tabelle oder alle mit der Vorlage etikettiertenRems angewendet.",
     "CREATE_TEMPLATE": "Vorlage erstellen",
-    "HIDE_CONFIGURATION": "Konfiguration ausblenden",
     "NEW_TEMPLATE": "Neue Vorlage",
     "PROPERTIES_HELP_TEXT": {
       "0": "Eigenschaften beschreiben ein Etikett. Fügen Sie beispielsweise für ein Etikett namens „Buch“ Eigenschaften mit den Namen „Autor“, „Genre“, „Lesestatus“ und mehr hinzu!"
@@ -823,6 +822,7 @@
     "TEMPLATE_one": "Vorlage",
     "TEMPLATE_other": "Vorlagen",
     "TURN_OFF_AUTO_APPLY": "Deaktiviere „Automatisches anwenden“.",
-    "VIEW_CONFIGURATION": "Tag konfigurieren"
+    "VIEW_CONFIGURATION": "Tag konfigurieren",
+    "HIDE_CONFIGURATION": "Konfiguration ausblenden"
   }
 }

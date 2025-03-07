@@ -488,7 +488,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "Apri in un altro riquadro",
         "PROPERTIES_CONFIGURATION_TITLE": "Configura",
         "PROPERTIES_TITLE": "Proprietà",
-        "SHOW_VERTICAL_LINES_TITLE": "Mostra linee verticali",
         "TABLE_CONFIGURATION_TITLE": "Tabella",
         "VIEW_AS": {
           "LIST_VIEW": "Elenco",
@@ -497,7 +496,8 @@
           "VIEW_AS_TITLE": "Visualizza come"
         },
         "ZOOM_IN_TO_LIST_TITLE": "Zoom nell'Elenco",
-        "ZOOM_IN_TO_TABLE_TITLE": "Zoom nella Tabella"
+        "ZOOM_IN_TO_TABLE_TITLE": "Zoom nella Tabella",
+        "SHOW_VERTICAL_LINES_TITLE": "Mostra linee verticali"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "Modifica nome tabella",
@@ -532,7 +532,6 @@
     "ADD_NEW_PROPERTY": "Aggiungi nuova proprietà",
     "AUTO_APPLY": "Applica automaticamente",
     "CREATE_TEMPLATE": "Crea Modello",
-    "HIDE_CONFIGURATION": "Nascondi configurazione",
     "NEW_TEMPLATE": "Nuovo Modello",
     "PROPERTIES_HELP_TEXT": {
       "0": "Le proprietà descrivono un tag. Ad esempio, per un tag chiamato \"Libro\", aggiungi proprietà denominate Autore, Genere, Stato di lettura e altro!"
@@ -547,6 +546,7 @@
     "TEMPLATE_one": "Modello",
     "TEMPLATE_other": "Modelli",
     "TURN_OFF_AUTO_APPLY": "Disattiva l'applicazione automatica",
-    "VIEW_CONFIGURATION": "Configura etichetta"
+    "VIEW_CONFIGURATION": "Configura etichetta",
+    "HIDE_CONFIGURATION": "Nascondi configurazione"
   }
 }

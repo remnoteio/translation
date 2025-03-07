@@ -757,7 +757,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "Abrir em Outro Painel",
         "PROPERTIES_CONFIGURATION_TITLE": "Configurar",
         "PROPERTIES_TITLE": "Propriedades",
-        "SHOW_VERTICAL_LINES_TITLE": "Mostar Linhas Verticais",
         "TABLE_CONFIGURATION_TITLE": "Tabela",
         "VIEW_AS": {
           "LIST_VIEW": "Lista",
@@ -766,7 +765,8 @@
           "VIEW_AS_TITLE": "Ver como"
         },
         "ZOOM_IN_TO_LIST_TITLE": "Dar Zoom na Lista",
-        "ZOOM_IN_TO_TABLE_TITLE": "Dar Zoom na Tabela"
+        "ZOOM_IN_TO_TABLE_TITLE": "Dar Zoom na Tabela",
+        "SHOW_VERTICAL_LINES_TITLE": "Mostar Linhas Verticais"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "Editar Nome da Tabela",
@@ -803,7 +803,6 @@
     "AUTO_APPLY": "Autoaplicar",
     "AUTO_APPLY_HELP_TEXT": "Este modelo será automaticamente aplicado a todas as linhas de sua tabela, ou em todas os Rem marcados com este modelo.",
     "CREATE_TEMPLATE": "Criar Modelo",
-    "HIDE_CONFIGURATION": "Ocultar Configurações",
     "NEW_TEMPLATE": "Modelo Novo",
     "PROPERTIES_HELP_TEXT": {
       "0": "Propriedades descrevem uma tag. Por exemplo, para uma tag chamada \"Livro\", adicione propriedades para Autor, Gênero, Status de Leitura e mais!"
@@ -819,6 +818,7 @@
     "TEMPLATE_one": "Modelo",
     "TEMPLATE_other": "Modelos",
     "TURN_OFF_AUTO_APPLY": "Desativar Aplicar Automaticamente",
-    "VIEW_CONFIGURATION": "Configurar Tag"
+    "VIEW_CONFIGURATION": "Configurar Tag",
+    "HIDE_CONFIGURATION": "Ocultar Configurações"
   }
 }

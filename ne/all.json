@@ -324,7 +324,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "अर्को प्यानमा खोल्नुहोस्",
         "PROPERTIES_CONFIGURATION_TITLE": "कन्फिगर",
         "PROPERTIES_TITLE": "प्रॉपर्टीहरू",
-        "SHOW_VERTICAL_LINES_TITLE": "ठाडो रेखाहरू देखाउनुहोस्",
         "TABLE_CONFIGURATION_TITLE": "तालिका",
         "VIEW_AS": {
           "LIST_VIEW": "सूची",
@@ -333,7 +332,8 @@
           "VIEW_AS_TITLE": "रूपमा हेर्नुहोस्"
         },
         "ZOOM_IN_TO_LIST_TITLE": "सूचीमा जूम गर्नुहोस्",
-        "ZOOM_IN_TO_TABLE_TITLE": "तालिकामा जूम गर्नुहोस्"
+        "ZOOM_IN_TO_TABLE_TITLE": "तालिकामा जूम गर्नुहोस्",
+        "SHOW_VERTICAL_LINES_TITLE": "ठाडो रेखाहरू देखाउनुहोस्"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "तालिका नाम सम्पादन गर्नुहोस्",
@@ -370,7 +370,6 @@
     "AUTO_APPLY": "स्वत: लागू गर्नुहोस्",
     "AUTO_APPLY_HELP_TEXT": "यस टेम्पलेटलाई स्वत: उसको टेबलमा सबै पंक्तिमा वा टेम्पलेट संग ट्याग गरिएका सबै Remsमा लागू गरिन्छ।",
     "CREATE_TEMPLATE": "टेम्पलेट सिर्जना गर्नुहोस्",
-    "HIDE_CONFIGURATION": "कन्फिगरेसन लुकाउनुहोस्",
     "NEW_TEMPLATE": "नयाँ टेम्पलेट",
     "PROPERTIES_HELP_TEXT": {
       "0": "प्रपर्टीहरुले ट्यागलाई वर्णन गर्दछ। उदाहरणका लागि, \"Book\" भनिएको ट्यागको लागि लेखक, जाति, पढाइको स्थिति आदिको नामका प्रपर्टीहरु थप्नुहोस्!"
@@ -386,6 +385,7 @@
     "TEMPLATE_one": "टेम्पलेट",
     "TEMPLATE_other": "टेम्पलेटहरू",
     "TURN_OFF_AUTO_APPLY": "स्वत: लागू बन्द गर्नुहोस्",
-    "VIEW_CONFIGURATION": "ट्याग मिलाउनुहोस्"
+    "VIEW_CONFIGURATION": "ट्याग मिलाउनुहोस्",
+    "HIDE_CONFIGURATION": "कन्फिगरेसन लुकाउनुहोस्"
   }
 }
