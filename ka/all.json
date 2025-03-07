@@ -16,5 +16,27 @@
       "FLASHCARD_other": "სასწავლო ბარათები"
     },
     "NEW": "ახალი"
+  },
+  "DOCUMENT": {
+    "MENU": {
+      "DELETE": "წაშლა"
+    }
+  },
+  "TABLES": {
+    "MENUS": {
+      "FILTER": {
+        "FILTER_TITLE": "ფილტრი"
+      },
+      "TABLE_CONFIGURATION": {
+        "ALL": "ყველა",
+        "CELL_LIST_HEIGHT": {
+          "CELL_LIST_HEIGHT_TITLE": "უჯრის სიმაღლე",
+          "COMFORTABLE_TITLE": "კომფორტული",
+          "COMPACT_TITLE": "კომპაქტური"
+        },
+        "DELETE_LIST": "სიის წაშლა",
+        "DELETE_TABLE": "ცხრილის წაშლა"
+      }
+    }
   }
 }
