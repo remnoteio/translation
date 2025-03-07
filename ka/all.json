@@ -1,7 +1,19 @@
 {
   "COMMON": {
     "ACTIONS": {
-      "CREATE": "შექმნა"
-    }
+      "COPY": "ასლი",
+      "CREATE": "შექმნა",
+      "DELETE": "წაშლა",
+      "HIDE": "დამალვა",
+      "VIEW": "ნახვა"
+    },
+    "AI": {
+      "AI_FLASHCARDS": "AI სასწავლო ბარათები"
+    },
+    "GENERAL": {
+      "FLASHCARD_one": "სასწავლო ბარათი",
+      "FLASHCARD_other": "სასწავლო ბარათები"
+    },
+    "NEW": "ახალი"
   }
 }
