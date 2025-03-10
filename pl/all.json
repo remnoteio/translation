@@ -775,7 +775,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "Otwórz w nowym oknie",
         "PROPERTIES_CONFIGURATION_TITLE": "Konfiguruj",
         "PROPERTIES_TITLE": "Właściwości",
-        "SHOW_VERTICAL_LINES_TITLE": "Pokaż linie pionowe",
         "TABLE_CONFIGURATION_TITLE": "Tabela",
         "VIEW_AS": {
           "LIST_VIEW": "Lista",
@@ -784,7 +783,8 @@
           "VIEW_AS_TITLE": "Wyświetl jako"
         },
         "ZOOM_IN_TO_LIST_TITLE": "Powiększ listę",
-        "ZOOM_IN_TO_TABLE_TITLE": "Powiększ tabelę"
+        "ZOOM_IN_TO_TABLE_TITLE": "Powiększ tabelę",
+        "SHOW_VERTICAL_LINES_TITLE": "Pokaż linie pionowe"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "Edytuj nazwę tabeli",
@@ -821,7 +821,6 @@
     "AUTO_APPLY": "Zastosuj Automatycznie",
     "AUTO_APPLY_HELP_TEXT": "Ten Szablon zostanie automatycznie zastosowany do wszystkich wierszy w jego Tabeli lub do wszystkich Remów oznaczonych tym szablonem.",
     "CREATE_TEMPLATE": "Utwórz Szablon",
-    "HIDE_CONFIGURATION": "Ukryj konfigurację",
     "NEW_TEMPLATE": "Nowy Szablon",
     "PROPERTIES_HELP_TEXT": {
       "0": "Właściwości opisują Tag. Na przykład dla Tagu o nazwie „Książka” dodaj Właściwości takie jak Autor, Gatunek, status czytania i inne!"
@@ -838,6 +837,7 @@
     "TEMPLATE_other": "Szablony",
     "TURN_OFF_AUTO_APPLY": "Wyłącz automatyczne stosowanie",
     "VIEW_CONFIGURATION": "Skonfiguruj Tag",
+    "HIDE_CONFIGURATION": "Ukryj konfigurację",
     "ADD_PROPERTY": "Dodaj Właściwość",
     "NEW_PROPERTY": "Nowa Właściwość"
   }
