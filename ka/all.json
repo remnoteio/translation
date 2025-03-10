@@ -1,0 +1,42 @@
+{
+  "COMMON": {
+    "ACTIONS": {
+      "COPY": "ასლი",
+      "CREATE": "შექმნა",
+      "DELETE": "წაშლა",
+      "EDIT": "რედაქტირება",
+      "HIDE": "დამალვა",
+      "VIEW": "ნახვა"
+    },
+    "AI": {
+      "AI_FLASHCARDS": "AI სასწავლო ბარათები"
+    },
+    "GENERAL": {
+      "FLASHCARD_one": "სასწავლო ბარათი",
+      "FLASHCARD_other": "სასწავლო ბარათები"
+    },
+    "NEW": "ახალი"
+  },
+  "DOCUMENT": {
+    "MENU": {
+      "DELETE": "წაშლა"
+    }
+  },
+  "TABLES": {
+    "MENUS": {
+      "FILTER": {
+        "FILTER_TITLE": "ფილტრი"
+      },
+      "TABLE_CONFIGURATION": {
+        "ALL": "ყველა",
+        "CELL_LIST_HEIGHT": {
+          "CELL_LIST_HEIGHT_TITLE": "უჯრის სიმაღლე",
+          "COMFORTABLE_TITLE": "კომფორტული",
+          "COMPACT_TITLE": "კომპაქტური"
+        },
+        "DELETE_LIST": "სიის წაშლა",
+        "DELETE_TABLE": "ცხრილის წაშლა"
+      }
+    }
+  }
+}
