@@ -284,7 +284,57 @@
       },
       "DANGER_ZONE_TITLE": "منطقه‌ی خطر",
       "IMPORT_EXPORT_TITLE": "واردات و صادرات",
-      "MY_PROFILE": "نمایهٔ من"
+      "MY_PROFILE": "نمایهٔ من",
+      "NAVIGATION_TITLE": "هدایت",
+      "PRIVACY": {
+        "KEYWORDS": "حریم شخصی",
+        "TITLE": "حریم شخصی"
+      },
+      "PROFILE": {
+        "KEYWORDS": "پروفایل شخصی کاربر"
+      },
+      "PROFILE_TITLE": "پروفایل",
+      "SUPPORT": {
+        "TITLE": "پشتیبانی"
+      },
+      "SYNCING": {
+        "KEYWORDS": "اجبار بروزرسانی تصاویر و اسناد PDF",
+        "TITLE": "بروزرسانی"
+      },
+      "VERSION": {
+        "KEYWORDS": "نسخه",
+        "TITLE": "نسخه‌ی برنامه"
+      }
+    },
+    "EARN_CREDIT": {
+      "APPLY_CREDIT": "اعمال ماه‌های رایگان",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} ماه",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} ماه",
+      "COPIED": "کپی شد!",
+      "COPYLINK": "کپی پیوند",
+      "CREATE_ACCOUNT": "برای دعوت دوستان، حساب کاربری تشکیل دهید",
+      "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
+      "ENTER_VALID_EMAIL": "ایمیل معتبر وارد کنید!",
+      "FRIENDS_TITLE": "دوستان",
+      "FRIEND_ALREADY_ON_REMNOTE": "دوست شما سابقا در RemNote هست",
+      "HANG_ON": "صبر کنید",
+      "INVITE": "دعوت",
+      "INVITED_YOU": "(شما را دعوت کرد)",
+      "INVITE_COPIED": "لینک دعوت کپی شد",
+      "INVITE_EMAIL": "دعوت از طریق ایمیل",
+      "INVITE_ERROR": "خطایی رخ داد. لطفا بعدا تلاش کنید،",
+      "INVITE_FRIENDS_EARN_CREDIT": "هرگاه کسی ه شما ایشان را دعوت می‌کنید شروع به استفاده از RemNote می‌کند، هردوی شما یک ماه نسخه‌ی حرفه‌ای RemNote را دریافت می‌کنید،",
+      "INVITE_FRIENDS_REMNOTE": "دوستانتان را به RemNote دعوت کنید!",
+      "INVITE_TEXT": "دعوت دوستان",
+      "NOT_CONFIRMED_EMAIL": "(ایمیلشان را تایید نکرده‌اند)",
+      "REMAINING_MONTHS": "ماه‌های باقیمانده",
+      "SEND_INVITE": "دعوت کردن",
+      "SHARE_LINK": "به اشتراک گذاری لینک",
+      "TITLE": "اعتبار",
+      "TOAST_RENEW": "اعتبار شما به طور خودکار پس از پایان اشتراک فعلی‌تان اعمال خواهد شد.",
+      "TOAST_SUBSCRIBE": "اعتبار شما به طور خودکار وقتی اشتراک حرفه‌ای RemNote تهیه کنید اعمال خواهد شد. یک اشتراک از زیر انتخاب کنید،",
+      "TOTAL_MONTHS_EARNED": "تعداد کل ماه‌های اخذ شده‌ی نسخه‌ی حرفه‌ای",
+      "VERIFY_EMAIL": "برای دعوت کسی، ابتدا ایمیلتان را تایید کنید."
     }
   }
 }
