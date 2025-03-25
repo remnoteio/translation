@@ -716,7 +716,7 @@
         "DELETE_LIST": "Delete List",
         "DELETE_TABLE": "Delete Table",
         "DUPLICATE_LIST_VIEW_TITLE": "Duplicate List View",
-        "DUPLICATE_TABLE_VIEW_TITLE": "Duplicate Table View",
+        "DUPLICATE_TABLE_VIEW_TITLE": "Duplicate Table",
         "DUPLICATE_VIEW_MESSAGE_COMMON": "Duplicate a view to apply a new filter, sort, or more! Content is shared between views of the same source, so you won't end up with any accidental duplicate instances.",
         "INCLUDE_NESTED_DESCENDANTS": "Include Nested Descendants",
         "LIST_CONFIGURATION_TITLE": "List",
