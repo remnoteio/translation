@@ -98,7 +98,8 @@
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Language",
-    "TRANSLATION_INFO_SETTINGS": "Translation is still in progress; you will encounter a mix of English and the selected language.<br>You can contribute by reviewing the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink> to assist with translations."
+    "TRANSLATION_INFO_SETTINGS": "Translation is still in progress; you will encounter a mix of English and the selected language.<br>You can contribute by reviewing the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink> to assist with translations.",
+    "TRANSLATION_IN_PROGRESS": "The translation of RemNote is still in progress. You can <bold>contribute translations</bold> on <editorLink>on inlang</editorLink>."
   },
   "NOTIFICATIONS": {
     "ARTICLE_DEFAULT": "Your document",
@@ -161,7 +162,9 @@
         "BY_TITLE": "By title",
         "DESCENDING": "Z -> A",
         "OLDEST_FIRST": "Oldest first",
-        "RECENTLY_MODIFIED": "Newest first"
+        "RECENTLY_MODIFIED": "Newest first",
+        "OLDEST_CREATION_FIRST": "Sort by Created",
+        "RECENTLY_CREATED": "Latest Created"
       },
       "TITLE": "All Notes"
     }
