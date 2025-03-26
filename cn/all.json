@@ -332,6 +332,8 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "使用您的积分",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}}月份数",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}}月份数",
       "COPIED": "已复制！",
       "COPYLINK": "复制链接",
       "CREATE_ACCOUNT": "创建账户并邀请好友",
@@ -350,11 +352,13 @@
       "INVITE_TEXT": "邀请朋友",
       "KEYWORDS": "邀请朋友赚取积分 订阅计划 更改订阅 赚取积分 免费 RemNote 发送推文 邮件 选择计划 终身学习 Pro 功能详解 定价选项",
       "NOT_CONFIRMED_EMAIL": "(未确认邮件地址)",
+      "REMAINING_MONTHS": "剩余月份",
       "SEND_INVITE": "发送邀请",
       "SHARE_LINK": "分享邀请链接",
       "TITLE": "赚取积分",
       "TOAST_RENEW": "您的积分将在当前订阅续订时自动应用",
       "TOAST_SUBSCRIBE": "您的积分将在您订阅 RemNote Pro 时自动应用，选择下面的计划开始吧！",
+      "TOTAL_MONTHS_EARNED": "已赚取专业版总月数",
       "VERIFY_EMAIL": "请先验证您的电子邮件，才能邀请他人",
       "SUBSCRIBE_NOTICE": "<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>",
       "CREDIT_BALANCE": "积分详情",
@@ -696,6 +700,7 @@
   "SOURCES": {
     "LINK_SOURCE": {
       "ENTER_URL": "输入网址",
+      "EMBED_LINK": "嵌入链接",
       "INVALID_URL": "无效网址",
       "LABEL": "链接资源",
       "LINK": "链接",
@@ -714,6 +719,7 @@
       "PDF_WITH_COUNT_other": "{{count, number}} PDF",
       "SELECT_FILES": "选择文件",
       "SELECT_FILES_TO_UPLOAD": "选择上传文件",
+      "UPLOAD": "上传",
       "UPLOADING": "正在上传"
     },
     "WIKIMEDIA_COMMONS": {
