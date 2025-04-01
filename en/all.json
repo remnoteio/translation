@@ -659,7 +659,7 @@
       "ENTER_URL": "Enter URL",
       "EMBED_LINK": "Embed Link",
       "INVALID_URL": "Invalid URL",
-      "LABEL": "Link Existing Source",
+      "LABEL": "Link Source",
       "LINK": "Link",
       "LINK_WITH_COUNT_one": "{{count, number}} Link",
       "LINK_WITH_COUNT_other": "{{count, number}} Links",
