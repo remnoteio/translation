@@ -842,6 +842,9 @@
     },
     "NEW_FOLLOWER": {
       "BODY": "Começou a seguir você"
+    },
+    "NEW_LIKE": {
+      "BODY": "Curtiu"
     }
   }
 }
