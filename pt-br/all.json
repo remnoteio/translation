@@ -828,6 +828,7 @@
     "TEMPLATE_other": "Modelos",
     "TURN_OFF_AUTO_APPLY": "Desativar Aplicar Automaticamente",
     "VIEW_CONFIGURATION": "Configurar Tag",
-    "HIDE_CONFIGURATION": "Ocultar Configurações"
+    "HIDE_CONFIGURATION": "Ocultar Configurações",
+    "ADD_PROPERTY": "Adicionar Propriedade"
   }
 }
