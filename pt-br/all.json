@@ -834,6 +834,9 @@
   "COMMUNITY_NOTIFICATIONS": {
     "DOCUMENT_ADDED_TO_GROUP": {
       "BODY": "Documento adicionado ao grupo."
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "Começou a seguir você"
     }
   }
 }
