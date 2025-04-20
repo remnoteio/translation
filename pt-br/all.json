@@ -830,5 +830,10 @@
     "VIEW_CONFIGURATION": "Configurar Tag",
     "HIDE_CONFIGURATION": "Ocultar Configurações",
     "ADD_PROPERTY": "Adicionar Propriedade"
+  },
+  "COMMUNITY_NOTIFICATIONS": {
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "Documento adicionado ao grupo."
+    }
   }
 }
