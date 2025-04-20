@@ -350,6 +350,7 @@
       "INVITE_TEXT": "Convide amigos e ganhe créditos",
       "KEYWORDS": "convidar amigos ganhar créditos plano mudar assinatura ganhar créditos grátis remnote enviar tweet email escolher plano aprendizado vitalício pro recursos detalhamento preços opções",
       "NOT_CONFIRMED_EMAIL": "(não confirmou e-mail)",
+      "REMAINING_MONTHS": "Meses Restantes",
       "SEND_INVITE": "Enviar convite",
       "SHARE_LINK": "Compartilhar link de convite",
       "TITLE": "Ganhe Créditos",
@@ -691,6 +692,7 @@
   "SOURCES": {
     "LINK_SOURCE": {
       "ENTER_URL": "Inserir URL",
+      "EMBED_LINK": "Incorporar Link",
       "INVALID_URL": "URL inválido",
       "LABEL": "Link da Fonte",
       "LINK": "Link",
@@ -709,6 +711,7 @@
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Selecionar Arquivos",
       "SELECT_FILES_TO_UPLOAD": "Selecione arquivos para fazer upload",
+      "UPLOAD": "Enviar",
       "UPLOADING": "Enviando..."
     },
     "WIKIMEDIA_COMMONS": {
