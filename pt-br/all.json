@@ -676,6 +676,9 @@
       "SORT_SIDEBAR": {
         "KEYWORDS": "Organizar barras-laterais ordernar de-A-a-Z",
         "TITLE": "Ordenar Barra Lateral"
+      },
+      "COMMUNITY_TAB": {
+        "LABEL": "Mostra o centro de comunidade na barra lateral, onde você pode encontrar documentos públicos e grupos de estudo. Se esta função estiver desativada, você ainda poderá encontrá-la através da das Central da Conta."
       }
     }
   },
