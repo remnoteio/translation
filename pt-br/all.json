@@ -830,7 +830,8 @@
     "TURN_OFF_AUTO_APPLY": "Desativar Aplicar Automaticamente",
     "VIEW_CONFIGURATION": "Configurar Tag",
     "HIDE_CONFIGURATION": "Ocultar Configurações",
-    "ADD_PROPERTY": "Adicionar Propriedade"
+    "ADD_PROPERTY": "Adicionar Propriedade",
+    "NEW_PROPERTY": "Nova Propriedade"
   },
   "COMMUNITY_NOTIFICATIONS": {
     "DOCUMENT_ADDED_TO_GROUP": {
