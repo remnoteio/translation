@@ -581,7 +581,8 @@
       },
       "ONBOARDING_TIPS_FEATURES": {
         "LABEL": "Mostrar dicas sobre os recursos do RemNote que você está usando no canto da tela",
-        "TITLE": "Dicas de Onboarding"
+        "TITLE": "Dicas de Onboarding",
+        "KEYWORDS": "As dicas de ferramentas ajudam a apoiar o guia"
       }
     },
     "KEYBOARD_SHORTCUTS": {
