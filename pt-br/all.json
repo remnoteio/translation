@@ -580,6 +580,7 @@
         "TITLE": "Dicas de Integração"
       },
       "ONBOARDING_TIPS_FEATURES": {
+        "LABEL": "Mostrar dicas sobre os recursos do RemNote que você está usando no canto da tela",
         "TITLE": "Dicas de Onboarding"
       }
     },
