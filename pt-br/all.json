@@ -837,6 +837,9 @@
     "DOCUMENT_ADDED_TO_GROUP": {
       "BODY": "Documento adicionado ao grupo."
     },
+    "INVITE": {
+      "REJECT": "Rejeitado"
+    },
     "NEW_FOLLOWER": {
       "BODY": "Começou a seguir você"
     }
