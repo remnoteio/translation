@@ -332,8 +332,8 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Utilize seu crédito",
-      "BALANCE_IN_MONTHS_SG": "{{numMonths}} Meses",
-      "BALANCE_IN_MONTHS_PL": "{{numMonths}} Meses",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} Mês",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} Mês",
       "COPIED": "Copiado!",
       "COPYLINK": "Copiar Link",
       "CREATE_ACCOUNT": "Crie uma conta para convidar amigos",
