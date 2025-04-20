@@ -332,7 +332,8 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Utilize seu crédito",
-      "BALANCE_IN_MONTHS_SG": "{{numMonths}}numMeses",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} Meses",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} Meses",
       "COPIED": "Copiado!",
       "COPYLINK": "Copiar Link",
       "CREATE_ACCOUNT": "Crie uma conta para convidar amigos",
@@ -361,7 +362,8 @@
       "VERIFY_EMAIL": "Para convidar alguém, primeiro verifique seu e-mail.",
       "SUBSCRIBE_NOTICE": "<div><br />Atualize para o plano Pro para começar a usar seu saldo! Nada será cobrado até que o saldo do aplicativo se esgote.</div>",
       "CREDIT_BALANCE": "Balanço de Creditos",
-      "CREDIT_BALANCE_TEXT": "Você tem<bold> {{userCredit}}</bold> de créditos restantes e ganhou<bold> {{userCreditEarned}}</bold> de créditos no total. {{months}} mês ou meses restantes de RemNote Pro gratuitamente.<div><br /> Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>"
+      "CREDIT_BALANCE_TEXT": "Você tem<bold> {{userCredit}}</bold> de créditos restantes e ganhou<bold> {{userCreditEarned}}</bold> de créditos no total. {{months}} mês ou meses restantes de RemNote Pro gratuitamente.<div><br /> Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>",
+      "BALANCE_IN_MONTHS": "Meses"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
