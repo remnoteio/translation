@@ -479,7 +479,7 @@
         },
         "TYPE_ANSWER": {
           "DESCRIPTION": "Show a text box on the front of each flashcard and compare what you type to the answer on the back of the card.",
-          "TITLE": "Type Answer"
+          "TITLE": "Type in Answer"
         }
       },
       "ORDERING": {
