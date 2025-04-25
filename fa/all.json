@@ -295,6 +295,7 @@
       },
       "PROFILE_TITLE": "پروفایل",
       "SUPPORT": {
+        "KEYWORDS": "کمک اجرای بلیط پشتیبانی",
         "TITLE": "پشتیبانی"
       },
       "SYNCING": {
@@ -335,6 +336,131 @@
       "TOAST_SUBSCRIBE": "اعتبار شما به طور خودکار وقتی اشتراک حرفه‌ای RemNote تهیه کنید اعمال خواهد شد. یک اشتراک از زیر انتخاب کنید،",
       "TOTAL_MONTHS_EARNED": "تعداد کل ماه‌های اخذ شده‌ی نسخه‌ی حرفه‌ای",
       "VERIFY_EMAIL": "برای دعوت کسی، ابتدا ایمیلتان را تایید کنید."
+    },
+    "EDITOR": {
+      "DATES_AND_TIMES": {
+        "DATE_FORMATTING": {
+          "DESCRIPTION": "تاریخ ها را در سراسر RemNote در این قالب نشان دهید.",
+          "TITLE": "قالب بندی تاریخ"
+        },
+        "DATE_FORMATTING_CUSTOM": {
+          "DESCRIPTION": "با استفاده از گزینه های ارائه شده تاریخ خود را به دلخواه قالب بندی کنید.",
+          "TITLE": "قالب بندی تاریخ سفارشی"
+        },
+        "TIME_FORMATTING": {
+          "DESCRIPTION": "زمان‌های درج شده با /time را به این صورت قالب‌بندی کنید.",
+          "TITLE": "قالب بندی زمان"
+        },
+        "WEEK_STARTS_ON_MONDAY": {
+          "TITLE": "هفته از دوشنبه شروع می شود"
+        }
+      },
+      "GENERAL": {
+        "CAPITALIZE_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "هنگام ایجاد یک Rem با فشار دادن Cmd+Return در جستجو، نام آن را با حروف بزرگ بنویسید.",
+            "PC": "هنگام ایجاد یک Rem با فشار دادن Ctrl+Enter در جستجو، نام آن را با حروف بزرگ بنویسید."
+          },
+          "TITLE": "حروف بزرگ از جستجو"
+        },
+        "CREATE_CONCEPTS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "هنگام ایجاد یک Rem با فشار دادن Cmd+Return در جستجو، آن را به یک مفهوم تبدیل کنید.",
+            "PC": "هنگام ایجاد یک Rem با فشار دادن Ctrl+Enter در جستجو، آن را به یک مفهوم تبدیل کنید."
+          },
+          "TITLE": "ایجاد مفاهیم از جستجو"
+        },
+        "CREATE_STUBS_FROM_SEARCH": {
+          "TITLE": "ایجاد خرد از جستجو"
+        },
+        "ENABLE_SPELLCHECK": {
+          "TITLE": "بررسی املا را فعال کنید"
+        },
+        "INSERT_EMOJIS_AS_REFERENCES": {
+          "DESCRIPTION": "هنگام انتخاب ایموجی از %% جستجو، یک مرجع ایجاد کنید.",
+          "TITLE": "ایموجی را به عنوان مرجع درج کنید"
+        }
+      }
+    },
+    "EDITOR_INTERFACE": {
+      "PREVIEW_REM_ON_HOVER": {
+        "LABEL": "وقتی ماوس را روی یک مرجع نگه می دارید، پیش نمایشی از محتویات آن نشان دهید.",
+        "TITLE": "پیش نمایش مراجع در هنگام نگه‌داشتن موس"
+      },
+      "SCALE_COLLAPSED_REM_BULLETS": {
+        "TITLE": "مقیاس گلوله های Rem جمع شده"
+      },
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "TITLE": "برای باز کردن مراجع تنها کلیک کنید"
+      },
+      "SMOOTHLY_ANIMATE_THE_EDITOR": {
+        "LABEL": "افزودن یا حذف Rems را در ویرایشگر متحرک کنید.",
+        "TITLE": "به آرامی ویرایشگر را متحرک کنید"
+      }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "TITLE": "هدف"
+        },
+        "TODAYS_TARGET": "هدف هموار شده‌ی امروز:"
+      },
+      "GENERAL": {
+        "AUTOPLAY_MEDIA": {
+          "DESCRIPTION": "پخش خودکار محتوای صوتی یا تصویری بر روی فلش کارت ها.",
+          "TITLE": "پخش خودکار رسانه"
+        },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "TITLE": "پخش خودکار متن به گفتار"
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "TITLE": "فراتر از محدودیت یاد بگیرید"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "TITLE": "حداکثر کارت جدید در روز"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "TITLE": "روز بعد شروع می شود در"
+        },
+        "RESET_ALL": {
+          "TITLE": "تنظیمات فلش کارت را بازنشانی کنید"
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "TITLE": "دکمه های فلش کارت ساده شده"
+        },
+        "STALE_CARDS_PER_DAY": {
+          "TITLE": "حداکثر کارت های قدیمی در روز"
+        },
+        "TEXT_TO_SPEECH_SPEED": {
+          "TITLE": "سرعت متن به گفتار"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "SAMPLE": "میتوکندری نیروگاه سلول است.",
+          "TITLE": "صدای متن به گفتار"
+        },
+        "TYPE_ANSWER": {
+          "TITLE": "پاسخ را تایپ کنید"
+        }
+      },
+      "ORDERING": {
+        "DOCUMENT_CLUSTERS": {
+          "TITLE": "خوشه‌های اسناد"
+        },
+        "HIERARCHY_CLUSTERS": {
+          "TITLE": "خوشه‌های سلسله مراتبی"
+        },
+        "REFERENCE_CLUSTERS": {
+          "TITLE": "خوشه‌های مرجع"
+        },
+        "TAG_CLUSTERS": {
+          "TITLE": "خوشه‌های برچسب"
+        }
+      },
+      "VISUAL": {
+        "SHOW_NEXT_REVIEW_TIMES": {
+          "TITLE": "نمایش زمان بازبینی بعدی"
+        }
+      }
     }
   }
 }
