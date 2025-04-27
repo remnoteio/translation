@@ -12,7 +12,12 @@
       "UPDATE": "Updaten",
       "VIEW": "Bekijken"
     },
+    "AI": {
+      "AI_FLASHCARDS": "AI steekkaart"
+    },
     "GENERAL": {
+      "FLASHCARD_one": "Steekkaart",
+      "FLASHCARD_other": "Steekkaarten",
       "NOTE_one": "Notitie",
       "NOTE_other": "Notities"
     },
@@ -53,7 +58,30 @@
         "WRITE": "Wijzig modus"
       },
       "EXPORT": "Exporteren",
-      "FIND_OR_FILTER": "Zoeken of filteren"
+      "FIND_OR_FILTER": "Zoeken of filteren",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "Deze optie is verouderd, het is aanbevolen om de alternatieve methode te gebruiken door op <keycode /> te drukken en dan te zoeken naar tekstreferenties.",
+        "LABEL": "Vind tekstreferenties"
+      },
+      "MARK_AS_DOCUMENT": "Als document markeren",
+      "MOVE": "Verplaatsen",
+      "MULTI_SELECTION_FOLDER": "Selecteer meerdere folders/documenten",
+      "MULTI_SELECTION_MODE": "Meerdere Rems selecteren",
+      "OPEN_IN_ANOTHER_PANE": "Openen in een ander paneel",
+      "PIN_TO_SIDEBAR": "Vastmaken aan zijbar",
+      "PRINT": "Afdrukken",
+      "RENAME": "Naam wijzigen",
+      "SHOW_STUDY_BUTTON": "Toon studeerknop",
+      "STATS": "Statistieken",
+      "UNDO": "Ongedaan maken",
+      "UNPIN_FROM_SIDEBAR": "Losmaken van zijbar",
+      "UNSHARE_DOCUMENT": "Stoppen met delen van document",
+      "VIEW_GRAPH": "Toon lokale grafiek",
+      "VIEW_TRASH": "Toon prullemand"
     }
+  },
+  "FILE_UPLOADING": {
+    "CACHED_INFO": "Dit bestand is gecached voor het offline bekijken en is mogelijks nog niet geuploaded.",
+    "NOT_FOUND": "Dit bestand kan niet gevonden worden."
   }
 }
