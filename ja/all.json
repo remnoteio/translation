@@ -334,8 +334,6 @@
       "COPIED": "コピーしました！",
       "COPYLINK": "リンクをコピー",
       "CREATE_ACCOUNT": "アカウントを作成して友達を招待する",
-      "CREDIT_BALANCE": "クレジット残高",
-      "CREDIT_BALANCE_TEXT": "あなたの<bold>{{userCredit}}</bold>クレジットの残りと獲得している<bold>{{userCreditEarned}}</bold>クレジットの合計です。RemNote Proを{{months}}ヶ月分無料でご利用いただけます。<br /><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。",
       "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
       "ENTER_VALID_EMAIL": "有効な電子メールを入力してください！",
       "FRIENDS_TITLE": "友達",
@@ -357,7 +355,9 @@
       "TOAST_RENEW": "クレジットは、現在のサブスクリプションの更新時に自動的に適用されます。",
       "TOAST_SUBSCRIBE": "クレジットはRemNote Proをご契約いただくと自動的に適用されます。下記よりプランをお選びください！",
       "VERIFY_EMAIL": "誰かを招待するには、まずメールアドレスを認証してください。",
-      "SUBSCRIBE_NOTICE": "<div><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。</div>"
+      "SUBSCRIBE_NOTICE": "<div><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。</div>",
+      "CREDIT_BALANCE": "クレジット残高",
+      "CREDIT_BALANCE_TEXT": "あなたの<bold>{{userCredit}}</bold>クレジットの残りと獲得している<bold>{{userCreditEarned}}</bold>クレジットの合計です。RemNote Proを{{months}}ヶ月分無料でご利用いただけます。<br /><br />クレジットを使い始めるには、RemNote Pro に加入してください！クレジットがなくなるまで料金は請求されません。"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -528,8 +528,8 @@
           "TITLE": "AI 機能を有効にする"
         },
         "OPENAI_KEY": {
-          "DESCRIPTION": "ご利用が月々のAIリクエスト枠を超えた場合は、https://platform.openai.com/account/api-keys（リクエストごとに有料）でAPIキーを登録し、こちらに入力してください。 これはベータ版機能であり、今後いつでも削除される可能性があることにご注意ください。",
-          "TITLE": "OpenAI APIキー"
+          "TITLE": "OpenAI APIキー",
+          "DESCRIPTION": "ご利用が月々のAIリクエスト枠を超えた場合は、https://platform.openai.com/account/api-keys（リクエストごとに有料）でAPIキーを登録し、こちらに入力してください。 これはベータ版機能であり、今後いつでも削除される可能性があることにご注意ください。"
         }
       }
     },
@@ -759,7 +759,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "別のタブで開く",
         "PROPERTIES_CONFIGURATION_TITLE": "設定",
         "PROPERTIES_TITLE": "プロパティ",
-        "SHOW_VERTICAL_LINES_TITLE": "縦線を表示",
         "TABLE_CONFIGURATION_TITLE": "テーブル",
         "VIEW_AS": {
           "LIST_VIEW": "リスト",
@@ -768,7 +767,8 @@
           "VIEW_AS_TITLE": "として表示"
         },
         "ZOOM_IN_TO_LIST_TITLE": "リストを拡大表示",
-        "ZOOM_IN_TO_TABLE_TITLE": "表を拡大表示"
+        "ZOOM_IN_TO_TABLE_TITLE": "表を拡大表示",
+        "SHOW_VERTICAL_LINES_TITLE": "縦線を表示"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "テーブル名の編集",
@@ -805,7 +805,6 @@
     "AUTO_APPLY": "自動適用",
     "AUTO_APPLY_HELP_TEXT": "このテンプレートは、テーブル内のすべての行、またはテンプレートでタグ付けされたすべてのRemに自動的に適用されます。",
     "CREATE_TEMPLATE": "テンプレートの作成",
-    "HIDE_CONFIGURATION": "設定を非表示にする",
     "NEW_TEMPLATE": "新しいテンプレート",
     "PROPERTIES_HELP_TEXT": {
       "0": "プロパティはタグを説明するものです。例えば、「本」というタグには、著者、ジャンル、読書状況などのプロパティを追加してください！"
@@ -822,6 +821,7 @@
     "TEMPLATE_other": "テンプレート",
     "TURN_OFF_AUTO_APPLY": "自動適用をオフにする",
     "VIEW_CONFIGURATION": "タグの設定",
+    "HIDE_CONFIGURATION": "設定を非表示にする",
     "ADD_PROPERTY": "プロパティの追加",
     "NEW_PROPERTY": "新しいプロパティ"
   },

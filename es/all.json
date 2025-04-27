@@ -48,7 +48,9 @@
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "Agregar Documento Anidado",
+      "CHANGE_DOCUMENT_ICON": "Cambiar icono del Documento",
       "CHANGE_DOCUMENT_STATUS": "Cambiar Estado del Documento",
+      "CHANGE_FOLDER_ICON": "Cambiar el icono de la carpeta",
       "CUSTOMIZE_SPACED_REPETITION": "Personalizar Repetición Espaciada",
       "DELETE": "Eliminar",
       "EDIT_MODE": {
@@ -63,6 +65,8 @@
       },
       "MARK_AS_DOCUMENT": "Marcar como Documento",
       "MOVE": "Mover",
+      "MULTI_SELECTION_FOLDER": "Seleccionar varias carpetas/documentos",
+      "MULTI_SELECTION_MODE": "Seleccionar varios Rems",
       "OPEN_IN_ANOTHER_PANE": "Abrir en Otro Panel",
       "PIN_TO_SIDEBAR": "Fijar en la Barra Lateral",
       "PRINT": "Imprimir",
@@ -94,7 +98,8 @@
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Idioma",
-    "TRANSLATION_INFO_SETTINGS": "La traducción aún está en curso; verá una combinación de inglés y el idioma seleccionado.<br>Puede ayudarnos a traducir leyendo el <guideLink>tutorial</guideLink> y luego usando nuestro <editorLink>editor web</editorLink>."
+    "TRANSLATION_INFO_SETTINGS": "La traducción aún está en curso; verá una combinación de inglés y el idioma seleccionado.<br>Puede ayudarnos a traducir leyendo el <guideLink>tutorial</guideLink> y luego usando nuestro <editorLink>editor web</editorLink>.",
+    "TRANSLATION_IN_PROGRESS": "Traducción en curso"
   },
   "NOTIFICATIONS": {
     "ARTICLE_DEFAULT": "Tu documento",
@@ -189,6 +194,7 @@
       },
       "CLOZE_BTN_TOOLTIP": "Tarjetas de completación (rellenar el espacio en blanco)",
       "COPY_IMAGE": "Copiar Imagen",
+      "COPY_IMAGE_AS_TEXT": "Copiar imagen como texto con IA",
       "COPY_TEXT": "Copiar como Texto Plano",
       "HIGHLIGHT": "Resaltar",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Crear Flashcards de Ocultamiento de Imagen",
@@ -333,11 +339,11 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Aplicar tu crédito",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} mes",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} meses",
       "COPIED": "¡Copiado!",
       "COPYLINK": "Copiar enlace",
       "CREATE_ACCOUNT": "Crea una cuenta para invitar a tus amigos",
-      "CREDIT_BALANCE": "Saldo de Crédito",
-      "CREDIT_BALANCE_TEXT": "Tienes <bold>{{userCredit}}</bold> de crédito restante y has ganado <bold>{{userCreditEarned}}</bold> de crédito en total. {{months}}restantes de RemNote Pro gratis. <br /><br />¡Suscríbete a Pro para empezar a usar tu crédito! No se te cobrará hasta que tu crédito se agote.",
       "EMAIL_PLACEHOLDER": "amigocurioso@gmail.com",
       "ENTER_VALID_EMAIL": "¡Ingresa un correo electrónico válido!",
       "FRIENDS_TITLE": "Amigos",
@@ -353,12 +359,18 @@
       "INVITE_TEXT": "Invita amigos y obtén crédito",
       "KEYWORDS": "invitar amigos obtener créditos plan cambiar suscripción remnote gratis enviar tweet email elegir plan aprendizaje de por vida pro desglose de funciones opciones de precios",
       "NOT_CONFIRMED_EMAIL": "(no ha confirmado el correo electrónico)",
+      "REMAINING_MONTHS": "Meses restantes",
       "SEND_INVITE": "Enviar invitación",
       "SHARE_LINK": "Compartir enlace de invitación",
       "TITLE": "Obtener créditos",
       "TOAST_RENEW": "Tus créditos se aplicarán automáticamente al renovar tu suscripción actual.",
       "TOAST_SUBSCRIBE": "Tus créditos se aplicarán automáticamente al suscribirte a RemNote Pro. ¡Elige un plan a continuación para comenzar!",
-      "VERIFY_EMAIL": "Para invitar a alguien, verifica primero tu correo electrónico."
+      "TOTAL_MONTHS_EARNED": "Total de meses de Pro ganados",
+      "VERIFY_EMAIL": "Para invitar a alguien, verifica primero tu correo electrónico.",
+      "SUBSCRIBE_NOTICE": "<div><br />¡Actualiza al plan Pro para comenzar a usar tu saldo! No se cobrará nada hasta que se agoten el saldo de la aplicación.</div>",
+      "CREDIT_BALANCE": "Saldo de Crédito",
+      "CREDIT_BALANCE_TEXT": "Tienes <bold>{{userCredit}}</bold> de crédito restante y has ganado <bold>{{userCreditEarned}}</bold> de crédito en total. {{months}}restantes de RemNote Pro gratis. <br /><br />¡Suscríbete a Pro para empezar a usar tu crédito! No se te cobrará hasta que tu crédito se agote.",
+      "BALANCE_IN_MONTHS": "{{numMonths}} meses"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -523,6 +535,16 @@
           "DESCRIPTION": "Mostrar el tiempo hasta el próximo repaso en cada botón de respuesta.",
           "TITLE": "Mostrar Tiempos de Próximo Repaso"
         }
+      },
+      "AI": {
+        "ENABLE": {
+          "DESCRIPTION": "Utilice el autocompletado, las calificaciones y la generación de tarjetas didácticas con tecnología de IA. Se enviarán fragmentos de sus notas a OpenAI cuando utilice muchas de las funciones de IA. Encuentre la política de privacidad de OpenAI en https://openai.com/policies/privacy-policy.",
+          "TITLE": "Habilitar funciones de IA"
+        },
+        "OPENAI_KEY": {
+          "TITLE": "Clave API de OpenAI",
+          "DESCRIPTION": "Si excede su límite mensual de solicitudes de IA, puede registrarse para obtener una clave API en https://platform.openai.com/account/api-keys e ingresarla aquí. Tenga en cuenta que esta es una función beta y puede eliminarse en cualquier momento."
+        }
       }
     },
     "GLOBAL_INTERFACE": {
@@ -628,6 +650,8 @@
       "ENABLE_DUE_CARDS_TITLE": "Insignia de tarjetas pendientes",
       "ENABLE_EMAIL_LABEL": "Recibir notificaciones directamente en tu bandeja de entrada",
       "ENABLE_EMAIL_TITLE": "Activar notificaciones de la comunidad por correo electrónico",
+      "ENABLE_EXAM_TITLE": "Recordatorios de exámenes",
+      "ENABLE_EXAM_DESCRIPTION": "Recibe correos electrónicos si estás atrasado en la preparación de un examen",
       "ENABLE_PUSH_LABEL": "Recibir notificaciones directamente en tu dispositivo",
       "ENABLE_PUSH_TITLE": "Notificaciones push",
       "ENABLE_STREAK_DESCRIPTION": "Recibe recordatorios diarios a las 6 p. m. sobre tu racha de tarjetas de estudio",
@@ -671,6 +695,7 @@
   "SOURCES": {
     "LINK_SOURCE": {
       "ENTER_URL": "Ingresar URL",
+      "EMBED_LINK": "Enlace incrustado",
       "INVALID_URL": "URL Inválido",
       "LABEL": "Enlace",
       "LINK": "Enlace",
@@ -689,6 +714,7 @@
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Seleccionar archivos",
       "SELECT_FILES_TO_UPLOAD": "Seleccionar archivos para subir",
+      "UPLOAD": "Subir",
       "UPLOADING": "Subiendo..."
     },
     "WIKIMEDIA_COMMONS": {
@@ -737,7 +763,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "Abrir en Otro Panel",
         "PROPERTIES_CONFIGURATION_TITLE": "Configurar",
         "PROPERTIES_TITLE": "Propiedades",
-        "SHOW_VERTICAL_LINES_TITLE": "Mostrar Líneas Verticales",
         "TABLE_CONFIGURATION_TITLE": "Tabla",
         "VIEW_AS": {
           "LIST_VIEW": "Lista",
@@ -746,7 +771,8 @@
           "VIEW_AS_TITLE": "Ver como"
         },
         "ZOOM_IN_TO_LIST_TITLE": "Zoom en la Lista",
-        "ZOOM_IN_TO_TABLE_TITLE": "Zoom en la Tabla"
+        "ZOOM_IN_TO_TABLE_TITLE": "Zoom en la Tabla",
+        "SHOW_VERTICAL_LINES_TITLE": "Mostrar Líneas Verticales"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "Editar el Nombre de la Tabla",
@@ -783,7 +809,6 @@
     "AUTO_APPLY": "Aplicar automáticamente",
     "AUTO_APPLY_HELP_TEXT": "Esta plantilla se aplicará automáticamente a todas las filas de su tabla o a todos los Rems etiquetados con la plantilla.",
     "CREATE_TEMPLATE": "Crear Plantilla",
-    "HIDE_CONFIGURATION": "Ocultar Configuración",
     "NEW_TEMPLATE": "Nueva Plantilla",
     "PROPERTIES_HELP_TEXT": {
       "0": "Las propiedades describen una etiqueta. Por ejemplo, para una etiqueta llamada \"Libro\", agrega propiedades como Autor, Género, Estado de lectura ¡y más!"
@@ -799,6 +824,19 @@
     "TEMPLATE_one": "Plantilla",
     "TEMPLATE_other": "Plantillas",
     "TURN_OFF_AUTO_APPLY": "Apagar Aplicar Automáticamente",
-    "VIEW_CONFIGURATION": "Configurar Etiqueta"
+    "VIEW_CONFIGURATION": "Configurar Etiqueta",
+    "HIDE_CONFIGURATION": "Ocultar Configuración",
+    "ADD_PROPERTY": "Añadir propiedad",
+    "NEW_PROPERTY": "Nueva propiedad"
+  },
+  "COMMUNITY_NOTIFICATIONS": {
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "Documento añadido al grupo"
+    },
+    "INVITE": {
+      "ACCEPT": "Aceptar",
+      "BODY": "Invitar",
+      "REJECT": "Rechazar"
+    }
   }
 }

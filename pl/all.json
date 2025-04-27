@@ -48,7 +48,9 @@
     },
     "MENU": {
       "ADD_NESTED_DOCUMENT": "Dodaj Zagnieżdżony Dokument",
+      "CHANGE_DOCUMENT_ICON": "Zmień ikonę dokumentu",
       "CHANGE_DOCUMENT_STATUS": "Zmień Status Dokumentu",
+      "CHANGE_FOLDER_ICON": "Zmień ikonę folderu",
       "CUSTOMIZE_SPACED_REPETITION": "Spersonalizuj Spaced Repetition",
       "DELETE": "Skasuj",
       "EDIT_MODE": {
@@ -63,6 +65,8 @@
       },
       "MARK_AS_DOCUMENT": "Oznacz jako Dokument",
       "MOVE": "Przenieś",
+      "MULTI_SELECTION_FOLDER": "Wybierz wiele folderów/dokumentów",
+      "MULTI_SELECTION_MODE": "Wybierz wiele Remów",
       "OPEN_IN_ANOTHER_PANE": "Otwórz w Innym Okienku",
       "PIN_TO_SIDEBAR": "Przypnij do Paska Bocznego",
       "PRINT": "Drukuj",
@@ -190,6 +194,7 @@
       },
       "CLOZE_BTN_TOOLTIP": "Fiszka z Tekstem do Uzupełnienia",
       "COPY_IMAGE": "Skopiuj Zdjęcie",
+      "COPY_IMAGE_AS_TEXT": "Kopiuj obraz jako tekst za pomocą AI",
       "COPY_TEXT": "Skopiuj jako Zwykły Tekst",
       "HIGHLIGHT": "Wyróżnij",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Stwórz Fiszki Zasłoniętych Zdjęć",
@@ -334,11 +339,11 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Wydaj swoje punkty poleceń",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} miesiąc",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} miesięcy",
       "COPIED": "Skopiowano!",
       "COPYLINK": "Skopiuj link",
       "CREATE_ACCOUNT": "Stwórz konto, aby zapraszać znajomych",
-      "CREDIT_BALANCE": "Stan punktów poleceń",
-      "CREDIT_BALANCE_TEXT": "Masz <bold>{{userCredit}}<bold> w niewykorzystanych punktach poleceń, razem zdobyłeś <bold>{{userCreditEarned}}<bold> w punktach poleceń. {{months}} pozostały miesiąc lub miesiące RemNote Pro za darmo.<br /><br />Przejdź na plan Pro, aby zacząć używać punktów poleceń! Opłata nie zostanie pobrana, dopóki nie wyczerpią się punkty poleceń w aplikacji.",
       "EMAIL_PLACEHOLDER": "zaciekawionyprzyjaciel@gmail.com",
       "ENTER_VALID_EMAIL": "Wprowadź poprawny adres email!",
       "FRIENDS_TITLE": "Znajomi",
@@ -354,13 +359,17 @@
       "INVITE_TEXT": "Zaproś znajomych",
       "KEYWORDS": "Zaproś znajomych Zdobywaj punkty poleceń Zmień plan Subskrypcja Bezpłatnie Za darmo RemNote Wyślij Tweet E-mail Wybierz Plan nauki na całe życie Pro Spis funkcjonalności Cennik Cena Ceny",
       "NOT_CONFIRMED_EMAIL": "(dotychczas nie zweryfikował adresu email)",
+      "REMAINING_MONTHS": "Pozostałe miesiące",
       "SEND_INVITE": "Wyślij zaproszenie",
       "SHARE_LINK": "Zaproś poprzez linka",
       "TITLE": "Zdobywaj punkty poleceń",
       "TOAST_RENEW": "Twoje punkty poleceń zostaną wykorzystane automatycznie po odnowieniu bieżącej subskrypcji.",
       "TOAST_SUBSCRIBE": "Twoje punkty poleceń zostaną wykorzystane automatycznie po wykupieniu subskrypcji RemNote Pro. Wybierz plan poniżej, aby rozpocząć!",
+      "TOTAL_MONTHS_EARNED": "Łączna liczba otrzymanych miesięcy planu Pro",
       "VERIFY_EMAIL": "Aby kogoś zaprosić, zweryfikuj najpierw swój adres email.",
-      "SUBSCRIBE_NOTICE": "<div><br />Przejdź na plan Pro aby zacząć używać swoje saldo! Opłata nie zostanie pobrana, dopóki nie wyczerpią się środki w aplikacji.</div>"
+      "SUBSCRIBE_NOTICE": "<div><br />Przejdź na plan Pro aby zacząć używać swoje saldo! Opłata nie zostanie pobrana, dopóki nie wyczerpią się środki w aplikacji.</div>",
+      "CREDIT_BALANCE": "Stan punktów poleceń",
+      "CREDIT_BALANCE_TEXT": "Masz <bold>{{userCredit}}<bold> w niewykorzystanych punktach poleceń, razem zdobyłeś <bold>{{userCreditEarned}}<bold> w punktach poleceń. {{months}} pozostały miesiąc lub miesiące RemNote Pro za darmo.<br /><br />Przejdź na plan Pro, aby zacząć używać punktów poleceń! Opłata nie zostanie pobrana, dopóki nie wyczerpią się punkty poleceń w aplikacji."
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -536,8 +545,8 @@
           "TITLE": "Włącz funkcje AI"
         },
         "OPENAI_KEY": {
-          "DESCRIPTION": "Jeśli przekroczysz miesięczny limit żądań AI, możesz zarejestrować się w celu uzyskania klucza API na stronie https://platform.openai.com/account/api-keys i wprowadzić go tutaj. Należy pamiętać, że jest to funkcja w wersji beta i może zostać usunięta w dowolnym momencie.",
-          "TITLE": "Klucz API OpenAI"
+          "TITLE": "Klucz API OpenAI",
+          "DESCRIPTION": "Jeśli przekroczysz miesięczny limit żądań AI, możesz zarejestrować się w celu uzyskania klucza API na stronie https://platform.openai.com/account/api-keys i wprowadzić go tutaj. Należy pamiętać, że jest to funkcja w wersji beta i może zostać usunięta w dowolnym momencie."
         }
       }
     },
@@ -649,6 +658,8 @@
       "ENABLE_DUE_CARDS_TITLE": "Plakietka zaległych fiszek",
       "ENABLE_EMAIL_LABEL": "Otrzymuj powiadomienia bezpośrednio do Twojej skrzynki",
       "ENABLE_EMAIL_TITLE": "Włącz otrzymywanie powiadomień społeczności poprzez email",
+      "ENABLE_EXAM_TITLE": "Przypomnienia o egzaminach",
+      "ENABLE_EXAM_DESCRIPTION": "Otrzymuj e-maile, jeśli masz zaległości w przygotowaniach do egzaminu",
       "ENABLE_PUSH_LABEL": "Otrzymuj powiadomienia bezpośrednio na swoje urządzenie",
       "ENABLE_PUSH_TITLE": "Powiadomienia push",
       "ENABLE_STREAK_DESCRIPTION": "Otrzymuj codzienne przypomnienia o 18:00 na temat Twojej serii fiszek",
@@ -696,6 +707,7 @@
   "SOURCES": {
     "LINK_SOURCE": {
       "ENTER_URL": "Wprowadź URL",
+      "EMBED_LINK": "Umieść link",
       "INVALID_URL": "Nieprawidłowy URL",
       "LABEL": "Link",
       "LINK": "Link",
@@ -714,6 +726,7 @@
       "PDF_WITH_COUNT_other": "{{count, number}} PDF-y",
       "SELECT_FILES": "Wybierz pliki",
       "SELECT_FILES_TO_UPLOAD": "Wybierz pliki do przesłania",
+      "UPLOAD": "Załącz",
       "UPLOADING": "Przesyłanie..."
     },
     "WIKIMEDIA_COMMONS": {
@@ -762,7 +775,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "Otwórz w nowym oknie",
         "PROPERTIES_CONFIGURATION_TITLE": "Konfiguruj",
         "PROPERTIES_TITLE": "Właściwości",
-        "SHOW_VERTICAL_LINES_TITLE": "Pokaż linie pionowe",
         "TABLE_CONFIGURATION_TITLE": "Tabela",
         "VIEW_AS": {
           "LIST_VIEW": "Lista",
@@ -771,7 +783,8 @@
           "VIEW_AS_TITLE": "Wyświetl jako"
         },
         "ZOOM_IN_TO_LIST_TITLE": "Powiększ listę",
-        "ZOOM_IN_TO_TABLE_TITLE": "Powiększ tabelę"
+        "ZOOM_IN_TO_TABLE_TITLE": "Powiększ tabelę",
+        "SHOW_VERTICAL_LINES_TITLE": "Pokaż linie pionowe"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "Edytuj nazwę tabeli",
@@ -808,7 +821,6 @@
     "AUTO_APPLY": "Zastosuj Automatycznie",
     "AUTO_APPLY_HELP_TEXT": "Ten Szablon zostanie automatycznie zastosowany do wszystkich wierszy w jego Tabeli lub do wszystkich Remów oznaczonych tym szablonem.",
     "CREATE_TEMPLATE": "Utwórz Szablon",
-    "HIDE_CONFIGURATION": "Ukryj konfigurację",
     "NEW_TEMPLATE": "Nowy Szablon",
     "PROPERTIES_HELP_TEXT": {
       "0": "Właściwości opisują Tag. Na przykład dla Tagu o nazwie „Książka” dodaj Właściwości takie jak Autor, Gatunek, status czytania i inne!"
@@ -825,6 +837,7 @@
     "TEMPLATE_other": "Szablony",
     "TURN_OFF_AUTO_APPLY": "Wyłącz automatyczne stosowanie",
     "VIEW_CONFIGURATION": "Skonfiguruj Tag",
+    "HIDE_CONFIGURATION": "Ukryj konfigurację",
     "ADD_PROPERTY": "Dodaj Właściwość",
     "NEW_PROPERTY": "Nowa Właściwość"
   }

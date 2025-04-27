@@ -318,24 +318,23 @@
       }
     },
     "EARN_CREDIT": {
-      "APPLY_CREDIT": "Apply your credit",
-      "BALANCE_IN_MONTHS": "{{numMonths}} months",
+      "APPLY_CREDIT": "Apply your free months",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} month",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} months",
       "COPIED": "Copied!",
       "COPYLINK": "Copy Link",
       "CREATE_ACCOUNT": "Create an account to invite friends",
-      "CREDIT_BALANCE": "Credit Balance",
-      "CREDIT_BALANCE_TEXT": "You have <bold>{{userCredit}}</bold> credit remaining and have earned <bold>{{userCreditEarned}}</bold> credit in total. {{months}} remaining month or months of RemNote Pro for free.<br /><br />Subscribe to Pro to start using your credit! You won't be charged until your credit runs out.",
       "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
       "ENTER_VALID_EMAIL": "Enter valid email!",
       "FRIENDS_TITLE": "Friends",
       "FRIEND_ALREADY_ON_REMNOTE": "Your friend is already on RemNote",
       "HANG_ON": "Hang on",
       "INVITE": "Invite",
-      "INVITED_YOU": " (invited You)",
+      "INVITED_YOU": " (invited you)",
       "INVITE_COPIED": "Invite link copied!",
       "INVITE_EMAIL": "Invite via email",
       "INVITE_ERROR": "Something went wrong. Please try again later.",
-      "INVITE_FRIENDS_EARN_CREDIT": "When someone you invite starts using RemNote, both of you earn one month of credit.",
+      "INVITE_FRIENDS_EARN_CREDIT": "When someone you invite starts using RemNote, both of you earn one free month of RemNote Pro.",
       "INVITE_FRIENDS_REMNOTE": "Invite your friends to RemNote!",
       "INVITE_TEXT": "Invite Friends",
       "KEYWORDS": "invite friends earn credit plan change subscription earn credits free remnote send tweet email choose plan life-long learning pro feature breakdown pricing options",
@@ -480,7 +479,7 @@
         },
         "TYPE_ANSWER": {
           "DESCRIPTION": "Show a text box on the front of each flashcard and compare what you type to the answer on the back of the card.",
-          "TITLE": "Type Answer"
+          "TITLE": "Type in Answer"
         }
       },
       "ORDERING": {
@@ -617,7 +616,7 @@
       "ENABLE_EXAM_DESCRIPTION": "Receive emails if you're behind on preparing for an exam",
       "ENABLE_PUSH_LABEL": "Receive notifications directly to your device",
       "ENABLE_PUSH_TITLE": "Push notifications",
-      "ENABLE_STREAK_DESCRIPTION": "Receive a reminder at 6pm if you still need to practice to keep your streak",
+      "ENABLE_STREAK_DESCRIPTION": "Receive a reminder to keep up your streak, you can choose the time",
       "ENABLE_STREAK_TITLE": "Streak notifications",
       "PUSH_ENABLE_MESSAGE": "Push notifications aren't configured on this device. Click here to set them up!",
       "TOGGLE_LABEL": "Control which notifications you want to receive directly to your device",
@@ -658,24 +657,26 @@
   "SOURCES": {
     "LINK_SOURCE": {
       "ENTER_URL": "Enter URL",
+      "EMBED_LINK": "Embed Link",
       "INVALID_URL": "Invalid URL",
-      "LABEL": "Link",
+      "LABEL": "Link Source",
       "LINK": "Link",
       "LINK_WITH_COUNT_one": "{{count, number}} Link",
       "LINK_WITH_COUNT_other": "{{count, number}} Links",
       "OPEN_IN_READER": "Open in Reader",
-      "SEARCH_PLACEHOLDER": "Paste a link or search for a Reference"
+      "SEARCH_PLACEHOLDER": "Search for any Rem (source, document, or bullet)"
     },
     "UPLOAD_SOURCE": {
       "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
       "IMPORT_INSTEAD": "RemNote cannot accept file uploads of this type. However, we might be able to import the notes or flashcards in this file! Try choosing “Import” from the upper-left account menu.",
       "INVALID": "Sorry, RemNote cannot accept file uploads of this type.",
-      "LABEL": "Upload",
+      "LABEL": "Add Source",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Select files",
       "SELECT_FILES_TO_UPLOAD": "Select files to upload",
+      "UPLOAD": "Upload",
       "UPLOADING": "Uploading..."
     },
     "WIKIMEDIA_COMMONS": {
@@ -715,7 +716,7 @@
         "DELETE_LIST": "Delete List",
         "DELETE_TABLE": "Delete Table",
         "DUPLICATE_LIST_VIEW_TITLE": "Duplicate List View",
-        "DUPLICATE_TABLE_VIEW_TITLE": "Duplicate Table View",
+        "DUPLICATE_TABLE_VIEW_TITLE": "Duplicate Table",
         "DUPLICATE_VIEW_MESSAGE_COMMON": "Duplicate a view to apply a new filter, sort, or more! Content is shared between views of the same source, so you won't end up with any accidental duplicate instances.",
         "INCLUDE_NESTED_DESCENDANTS": "Include Nested Descendants",
         "LIST_CONFIGURATION_TITLE": "List",
@@ -724,7 +725,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "Open in Another Pane",
         "PROPERTIES_CONFIGURATION_TITLE": "Configure",
         "PROPERTIES_TITLE": "Properties",
-        "SHOW_VERTICAL_LINES_TITLE": "Show Vertical Lines",
         "TABLE_CONFIGURATION_TITLE": "Table",
         "VIEW_AS": {
           "LIST_VIEW": "List",
@@ -770,7 +770,6 @@
     "AUTO_APPLY": "Auto-apply",
     "AUTO_APPLY_HELP_TEXT": "This template will be automatically applied to all rows in its table, or all Rems tagged with the template.",
     "CREATE_TEMPLATE": "Create Template",
-    "HIDE_CONFIGURATION": "Hide Configuration",
     "NEW_TEMPLATE": "New Template",
     "PROPERTIES_HELP_TEXT": {
       "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"

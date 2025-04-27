@@ -2,6 +2,7 @@
   "COMMON": {
     "ACTIONS": {
       "APPLY": "Applica",
+      "COPY": "Copia",
       "CREATE": "Crea",
       "DELETE": "Elimina",
       "DUPLICATE": "Duplica",
@@ -10,7 +11,8 @@
       "REMOVE": "Rimuovi",
       "UPDATE": "Aggiorna",
       "VIEW": "Mostra"
-    }
+    },
+    "NEW": "Nuovo"
   },
   "COMMUNITY": {
     "ARTICLES": {
@@ -26,6 +28,22 @@
           }
         }
       }
+    }
+  },
+  "DOCUMENT": {
+    "DIALOGS": {
+      "DELETE_ALSO_UNSHARE": "Vuoi anche annullare la condivisione del documento?"
+    },
+    "MENU": {
+      "CHANGE_DOCUMENT_STATUS": "Cambia stato documento",
+      "DELETE": "Eliminare",
+      "EDIT_MODE": {
+        "READ": "Modalità di sola lettura"
+      },
+      "EXPORT": "Esportare",
+      "PRINT": "Stampa",
+      "RENAME": "Rinominare",
+      "UNDO": "Disfare"
     }
   },
   "LANGUAGE": {
@@ -167,8 +185,6 @@
       "COPIED": "Copiato!",
       "COPYLINK": "Copia link",
       "CREATE_ACCOUNT": "Crea un account per invitare gli amici",
-      "CREDIT_BALANCE": "Credito disponibile",
-      "CREDIT_BALANCE_TEXT": "Hai <bold>{{userCredit}}</bold> credito residuo e hai guadagnato <bold>{{userCreditEarned}}</bold> credito in totale. {{months}} mese o mesi rimanenti di RemNote Pro gratis.<br /><br /> Iscriviti a Pro per iniziare a utilizzare il tuo credito! Non ti verrà addebitato alcun importo fino all'esaurimento del credito.",
       "EMAIL_PLACEHOLDER": "mariorossi@gmail.com",
       "ENTER_VALID_EMAIL": "Inserire un'email valida!",
       "FRIENDS_TITLE": "Amici",
@@ -187,7 +203,9 @@
       "TITLE": "Guadagna crediti",
       "TOAST_RENEW": "I tuoi crediti verranno utilizzati automaticamente al rinnovo del tuo abbonamento attuale.",
       "TOAST_SUBSCRIBE": "I tuoi crediti verranno utilizzati automaticamente quando ti iscrivi a RemNote Pro. Scegli un piano qui sotto per iniziare!",
-      "VERIFY_EMAIL": "Per invitare qualcuno, verifica prima la tua email."
+      "VERIFY_EMAIL": "Per invitare qualcuno, verifica prima la tua email.",
+      "CREDIT_BALANCE": "Credito disponibile",
+      "CREDIT_BALANCE_TEXT": "Hai <bold>{{userCredit}}</bold> credito residuo e hai guadagnato <bold>{{userCreditEarned}}</bold> credito in totale. {{months}} mese o mesi rimanenti di RemNote Pro gratis.<br /><br /> Iscriviti a Pro per iniziare a utilizzare il tuo credito! Non ti verrà addebitato alcun importo fino all'esaurimento del credito."
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -289,8 +307,8 @@
           "TITLE": "Abilita funzionalità AI"
         },
         "OPENAI_KEY": {
-          "DESCRIPTION": "Se ti ritrovi a superare la quota mensile di richieste AI, puoi registrarti per una chiave API su https://platform.openai.com/account/api-keys e inserirla qui per pagare il tuo utilizzo. Tieni presente che questa è una funzionalità beta e potrebbe essere rimossa in qualsiasi momento.",
-          "TITLE": "Chiave API OpenAI"
+          "TITLE": "Chiave API OpenAI",
+          "DESCRIPTION": "Se ti ritrovi a superare la quota mensile di richieste AI, puoi registrarti per una chiave API su https://platform.openai.com/account/api-keys e inserirla qui per pagare il tuo utilizzo. Tieni presente che questa è una funzionalità beta e potrebbe essere rimossa in qualsiasi momento."
         }
       }
     },
@@ -470,7 +488,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "Apri in un altro riquadro",
         "PROPERTIES_CONFIGURATION_TITLE": "Configura",
         "PROPERTIES_TITLE": "Proprietà",
-        "SHOW_VERTICAL_LINES_TITLE": "Mostra linee verticali",
         "TABLE_CONFIGURATION_TITLE": "Tabella",
         "VIEW_AS": {
           "LIST_VIEW": "Elenco",
@@ -479,7 +496,8 @@
           "VIEW_AS_TITLE": "Visualizza come"
         },
         "ZOOM_IN_TO_LIST_TITLE": "Zoom nell'Elenco",
-        "ZOOM_IN_TO_TABLE_TITLE": "Zoom nella Tabella"
+        "ZOOM_IN_TO_TABLE_TITLE": "Zoom nella Tabella",
+        "SHOW_VERTICAL_LINES_TITLE": "Mostra linee verticali"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "Modifica nome tabella",
@@ -514,7 +532,6 @@
     "ADD_NEW_PROPERTY": "Aggiungi nuova proprietà",
     "AUTO_APPLY": "Applica automaticamente",
     "CREATE_TEMPLATE": "Crea Modello",
-    "HIDE_CONFIGURATION": "Nascondi configurazione",
     "NEW_TEMPLATE": "Nuovo Modello",
     "PROPERTIES_HELP_TEXT": {
       "0": "Le proprietà descrivono un tag. Ad esempio, per un tag chiamato \"Libro\", aggiungi proprietà denominate Autore, Genere, Stato di lettura e altro!"
@@ -529,6 +546,7 @@
     "TEMPLATE_one": "Modello",
     "TEMPLATE_other": "Modelli",
     "TURN_OFF_AUTO_APPLY": "Disattiva l'applicazione automatica",
-    "VIEW_CONFIGURATION": "Configura etichetta"
+    "VIEW_CONFIGURATION": "Configura etichetta",
+    "HIDE_CONFIGURATION": "Nascondi configurazione"
   }
 }

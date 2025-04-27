@@ -335,8 +335,6 @@
       "COPIED": "Copiado!",
       "COPYLINK": "Copiar Link",
       "CREATE_ACCOUNT": "Crie uma conta para convidar amigos",
-      "CREDIT_BALANCE": "Balanço de Creditos",
-      "CREDIT_BALANCE_TEXT": "Você tem<bold> {{userCredit}}</bold> de créditos restantes e ganhou<bold> {{userCreditEarned}}</bold> de créditos no total. {{months}} mês ou meses restantes de RemNote Pro gratuitamente.<div><br /> Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>",
       "EMAIL_PLACEHOLDER": "amigocuriosos@gmail.com",
       "ENTER_VALID_EMAIL": "Digite um e-mail válido!",
       "FRIENDS_TITLE": "Amigos",
@@ -358,7 +356,9 @@
       "TOAST_RENEW": "Seus créditos serão aplicados automaticamente quando sua assinatura atual for renovada.",
       "TOAST_SUBSCRIBE": "Seus créditos serão aplicados automaticamente quando você assinar o RemNote Pro. Escolha um plano abaixo para começar!",
       "TOTAL_MONTHS_EARNED": "Total de Meses Pro Adquiridos",
-      "VERIFY_EMAIL": "Para convidar alguém, primeiro verifique seu e-mail."
+      "VERIFY_EMAIL": "Para convidar alguém, primeiro verifique seu e-mail.",
+      "CREDIT_BALANCE": "Balanço de Creditos",
+      "CREDIT_BALANCE_TEXT": "Você tem<bold> {{userCredit}}</bold> de créditos restantes e ganhou<bold> {{userCreditEarned}}</bold> de créditos no total. {{months}} mês ou meses restantes de RemNote Pro gratuitamente.<div><br /> Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -530,8 +530,8 @@
           "TITLE": "Habilitar Recursos de IA"
         },
         "OPENAI_KEY": {
-          "DESCRIPTION": "Se você acabar excedendo sua cota mensal de requisições de IA, você pode se cadastrar para solicitar uma chave API em https://platform.openai.com/account/api-keys e inseri-la aqui, pagando pelo seu próprio uso. Note que isso é um recurso em beta e pode ser removido a qualquer momento.",
-          "TITLE": "Chave da API OpenAI"
+          "TITLE": "Chave da API OpenAI",
+          "DESCRIPTION": "Se você acabar excedendo sua cota mensal de requisições de IA, você pode se cadastrar para solicitar uma chave API em https://platform.openai.com/account/api-keys e inseri-la aqui, pagando pelo seu próprio uso. Note que isso é um recurso em beta e pode ser removido a qualquer momento."
         }
       }
     },
@@ -757,7 +757,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "Abrir em Outro Painel",
         "PROPERTIES_CONFIGURATION_TITLE": "Configurar",
         "PROPERTIES_TITLE": "Propriedades",
-        "SHOW_VERTICAL_LINES_TITLE": "Mostar Linhas Verticais",
         "TABLE_CONFIGURATION_TITLE": "Tabela",
         "VIEW_AS": {
           "LIST_VIEW": "Lista",
@@ -766,7 +765,8 @@
           "VIEW_AS_TITLE": "Ver como"
         },
         "ZOOM_IN_TO_LIST_TITLE": "Dar Zoom na Lista",
-        "ZOOM_IN_TO_TABLE_TITLE": "Dar Zoom na Tabela"
+        "ZOOM_IN_TO_TABLE_TITLE": "Dar Zoom na Tabela",
+        "SHOW_VERTICAL_LINES_TITLE": "Mostar Linhas Verticais"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "Editar Nome da Tabela",
@@ -803,7 +803,6 @@
     "AUTO_APPLY": "Autoaplicar",
     "AUTO_APPLY_HELP_TEXT": "Este modelo será automaticamente aplicado a todas as linhas de sua tabela, ou em todas os Rem marcados com este modelo.",
     "CREATE_TEMPLATE": "Criar Modelo",
-    "HIDE_CONFIGURATION": "Ocultar Configurações",
     "NEW_TEMPLATE": "Modelo Novo",
     "PROPERTIES_HELP_TEXT": {
       "0": "Propriedades descrevem uma tag. Por exemplo, para uma tag chamada \"Livro\", adicione propriedades para Autor, Gênero, Status de Leitura e mais!"
@@ -819,6 +818,7 @@
     "TEMPLATE_one": "Modelo",
     "TEMPLATE_other": "Modelos",
     "TURN_OFF_AUTO_APPLY": "Desativar Aplicar Automaticamente",
-    "VIEW_CONFIGURATION": "Configurar Tag"
+    "VIEW_CONFIGURATION": "Configurar Tag",
+    "HIDE_CONFIGURATION": "Ocultar Configurações"
   }
 }

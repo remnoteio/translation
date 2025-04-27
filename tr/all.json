@@ -144,7 +144,6 @@
       "COPIED": "Kopyalandı!",
       "COPYLINK": "Bağlantıyı Kopyala",
       "CREATE_ACCOUNT": "Arkadaşlarınızı davet etmek için bir hesap oluşturun",
-      "CREDIT_BALANCE": "Kredi Bakiyesi",
       "EMAIL_PLACEHOLDER": "meraklıarkadaş@gmail.com",
       "ENTER_VALID_EMAIL": "Geçerli bir e-posta girin!",
       "FRIENDS_TITLE": "Arkadaşlar",
@@ -163,7 +162,8 @@
       "TITLE": "Kredi Kazanın",
       "TOAST_RENEW": "Mevcut aboneliğiniz yenilendiğinde kredileriniz otomatik olarak uygulanacaktır.",
       "TOAST_SUBSCRIBE": "RemNote Pro'ya abone olduğunuzda kredileriniz otomatik olarak uygulanacaktır. Başlamak için aşağıdan bir plan seçin!",
-      "VERIFY_EMAIL": "Birini davet etmek için öncelikle e-postanızı doğrulayın."
+      "VERIFY_EMAIL": "Birini davet etmek için öncelikle e-postanızı doğrulayın.",
+      "CREDIT_BALANCE": "Kredi Bakiyesi"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -418,7 +418,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "Diğer Bölmede Aç",
         "PROPERTIES_CONFIGURATION_TITLE": "Yapılandır",
         "PROPERTIES_TITLE": "Özellikler",
-        "SHOW_VERTICAL_LINES_TITLE": "Dikey Çizgileri Göster",
         "TABLE_CONFIGURATION_TITLE": "Tablo",
         "VIEW_AS": {
           "LIST_VIEW": "Liste",
@@ -427,7 +426,8 @@
           "VIEW_AS_TITLE": "Olarak görüntüle"
         },
         "ZOOM_IN_TO_LIST_TITLE": "Listeye Yakınlaştır",
-        "ZOOM_IN_TO_TABLE_TITLE": "Tabloyu Yakınlaştır"
+        "ZOOM_IN_TO_TABLE_TITLE": "Tabloyu Yakınlaştır",
+        "SHOW_VERTICAL_LINES_TITLE": "Dikey Çizgileri Göster"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "Tablo Adını Düzenle",
@@ -463,7 +463,6 @@
     "AUTO_APPLY": "Otomatik uygula",
     "AUTO_APPLY_HELP_TEXT": "Bu şablon, tablosundaki tüm satırlara veya şablonla etiketlenen tüm Rem'lere otomatik olarak uygulanacaktır.",
     "CREATE_TEMPLATE": "Şablon Oluştur",
-    "HIDE_CONFIGURATION": "Yapılandırmayı Gizle",
     "NEW_TEMPLATE": "Yeni şablon",
     "PROPERTIES_HELP_TEXT": {
       "0": "Özellikler bir etiketi tanımlar. Örneğin, \"Kitap\" adlı bir etiket için Yazar, Tür, Okuma Durumu ve daha pek çok özellik ekleyin!"
@@ -479,6 +478,7 @@
     "TEMPLATE_one": "Şablon",
     "TEMPLATE_other": "Şablonlar",
     "TURN_OFF_AUTO_APPLY": "Otomatik Uygulamayı kapat",
-    "VIEW_CONFIGURATION": "Etiketi Yapılandır"
+    "VIEW_CONFIGURATION": "Etiketi Yapılandır",
+    "HIDE_CONFIGURATION": "Yapılandırmayı Gizle"
   }
 }

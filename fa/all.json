@@ -194,7 +194,273 @@
     },
     "HEADER": {
       "AREA_HIGHLIGHT_TOOLTIP": "هایلایت کردن محدوده ( {{keyName}} + Drag)",
-      "NUMBER_OF_PAGES_TOOLTIP": "تعداد صفحات"
+      "NUMBER_OF_PAGES_TOOLTIP": "تعداد صفحات",
+      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "تغییر حالت سند پیش‌فرض"
+    },
+    "PDF_OPTIONS": {
+      "CHANGE_THEME": "تغییر تم",
+      "DOWNLOAD_PDF": "دانلود کردن PDF",
+      "LEARN_MORE": "بیشتر بدانید",
+      "OPEN_WEBPAGE_EXTERNALLY": "باز کردن صفحه‌ی وب به صورت خارجی",
+      "PDF_SETTINGS": "تنظیمات",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "هایلایت خودکار",
+        "AUTO_HIGHLIGHT_TOOLTIP": "پس از انتخاب متن، به طور خودکار هایلایت ایجاد کنید.",
+        "DISABLE_HEADER_BUTTONS": "دکمه های سرصفحه را غیرفعال کنید",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "دکمه های سرصفحه («) را از نمایش در خواننده غیرفعال کنید.",
+        "SNAP_HIGHLIGHT_TO_WORDS": "برجسته کردن کلمات",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "هنگام ایجاد نکات برجسته جدید، فقط کل کلمات را انتخاب کنید."
+      },
+      "REFETCH_PAGE": "واکشی صفحه",
+      "REFETCH_PAGE_TOOLTIP": "اگر این صفحه دارای نکات برجسته موجود باشد، قابل واکشی مجدد نیست.",
+      "SEARCH_IN_PDF": "جستجو در PDF",
+      "SPLIT_PANES": "جداره ها",
+      "SPLIT_PANES_TOOLTIP": "ویرایشگر و نمایشگر PDF را در صفحات جداگانه تقسیم کنید.",
+      "THEMES": {
+        "CLASSIC_INVERT": "وارونه کلاسیک",
+        "DARK": "تاریک",
+        "LIGHT": "روشن",
+        "SOLARISED": "خورشیدی شده",
+        "USE_REMNOTE_THEME": "از تم RemNote استفاده کنید"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "DONE": "انجام شد",
+      "INPUT_PLACEHOLDER": "جستجو"
+    }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "DESCRIPTION": "فلش کارت ها و یادداشت ها را در اسناد سازماندهی کنید.",
+        "TITLE": "سند"
+      },
+      "FOLDER": {
+        "DESCRIPTION": "اسناد را در پوشه ها سازماندهی کنید.",
+        "TITLE": "پوشه"
+      },
+      "QUICK_ADD": {
+        "DESCRIPTION": "ایده های خود را در لحظه ثبت کنید!",
+        "TITLE": "افزودن سریع"
+      },
+      "TABLE_TAG": {
+        "DESCRIPTION": "یک برچسب برای استفاده با جداول و الگوها ایجاد کنید.",
+        "TITLE": "برچسب و جدول"
+      },
+      "TODAYS_DOCUMENT": {
+        "DESCRIPTION": "اسناد روزانه برای ژورنال، فهرست کارها و موارد دیگر عالی هستند.",
+        "TITLE": "سند امروز"
+      },
+      "UPLOAD_FILE": {
+        "DESCRIPTION": "ویدئوهای یوتیوب، PDF، PPT، اسناد Word و غیره را برجسته و ارجاع دهید.",
+        "FEATURE_NAME": "برجسته سازی PDF",
+        "PAYWALL": "شما به حد مجاز خود برای بارگذاری PDF رسیده اید.",
+        "TITLE": "آپلود و حاشیه نویسی فایل"
+      }
+    }
+  },
+  "POWERUPS": {
+    "POWERUP_one": "تقویت کننده",
+    "POWERUP_other": "تقویت کننده‌ها"
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "ADVANCED_TITLE": "تنظیمات پیشرفته",
+      "AUTHENTICATION": {
+        "KEYWORDS": "خروج از سیستم ورود به سیستم Google روش ورود به سیستم افزودن قطع ارتباط ورود ثبت نام"
+      },
+      "AUTHENTICATION_TITLE": "احراز هویت",
+      "CACHING": {
+        "DESCRIPTION": "تصاویر را هنگام بارگیری در حافظه پنهان ذخیره کنید تا بتوان آنها را به صورت آفلاین مشاهده کرد.",
+        "NUMBER_DESCRIPTION": "حداکثر تعداد تصاویر را روی حافظه‌ی پنهان تنظیم کنید. با رسیدن به حد مجاز، قدیمی ترین تصاویر از حافظه پنهان پاک می شوند.",
+        "NUMBER_TITLE": "حداکثر تصاویر ذخیره شده در حافظه پنهان",
+        "TITLE": "ذخیره سازی پنهان",
+        "TOGGLE_DESCRIPTION": "در صورت غیرفعال شدن، هر تصویر ذخیره شده در حافظه پنهان پاک می شود.",
+        "TOGGLE_TITLE": "حافظه‌ی نهان را فعال کنید"
+      },
+      "DANGER_ZONE": {
+        "KEYWORDS": "گزارش همگام‌سازی حذف بازنشانی حساب، پیش‌رفته، بازنشانی در تنظیمات پیشرفته حساب",
+        "TITLE": "منطقه‌ی خطر"
+      },
+      "DANGER_ZONE_TITLE": "منطقه‌ی خطر",
+      "IMPORT_EXPORT_TITLE": "واردات و صادرات",
+      "MY_PROFILE": "نمایهٔ من",
+      "NAVIGATION_TITLE": "هدایت",
+      "PRIVACY": {
+        "KEYWORDS": "حریم شخصی",
+        "TITLE": "حریم شخصی"
+      },
+      "PROFILE": {
+        "KEYWORDS": "پروفایل شخصی کاربر"
+      },
+      "PROFILE_TITLE": "پروفایل",
+      "SUPPORT": {
+        "KEYWORDS": "کمک اجرای بلیط پشتیبانی",
+        "TITLE": "پشتیبانی"
+      },
+      "SYNCING": {
+        "KEYWORDS": "اجبار بروزرسانی تصاویر و اسناد PDF",
+        "TITLE": "بروزرسانی"
+      },
+      "VERSION": {
+        "KEYWORDS": "نسخه",
+        "TITLE": "نسخه‌ی برنامه"
+      }
+    },
+    "EARN_CREDIT": {
+      "APPLY_CREDIT": "اعمال ماه‌های رایگان",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} ماه",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} ماه",
+      "COPIED": "کپی شد!",
+      "COPYLINK": "کپی پیوند",
+      "CREATE_ACCOUNT": "برای دعوت دوستان، حساب کاربری تشکیل دهید",
+      "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
+      "ENTER_VALID_EMAIL": "ایمیل معتبر وارد کنید!",
+      "FRIENDS_TITLE": "دوستان",
+      "FRIEND_ALREADY_ON_REMNOTE": "دوست شما سابقا در RemNote هست",
+      "HANG_ON": "صبر کنید",
+      "INVITE": "دعوت",
+      "INVITED_YOU": "(شما را دعوت کرد)",
+      "INVITE_COPIED": "لینک دعوت کپی شد",
+      "INVITE_EMAIL": "دعوت از طریق ایمیل",
+      "INVITE_ERROR": "خطایی رخ داد. لطفا بعدا تلاش کنید،",
+      "INVITE_FRIENDS_EARN_CREDIT": "هرگاه کسی ه شما ایشان را دعوت می‌کنید شروع به استفاده از RemNote می‌کند، هردوی شما یک ماه نسخه‌ی حرفه‌ای RemNote را دریافت می‌کنید،",
+      "INVITE_FRIENDS_REMNOTE": "دوستانتان را به RemNote دعوت کنید!",
+      "INVITE_TEXT": "دعوت دوستان",
+      "NOT_CONFIRMED_EMAIL": "(ایمیلشان را تایید نکرده‌اند)",
+      "REMAINING_MONTHS": "ماه‌های باقیمانده",
+      "SEND_INVITE": "دعوت کردن",
+      "SHARE_LINK": "به اشتراک گذاری لینک",
+      "TITLE": "اعتبار",
+      "TOAST_RENEW": "اعتبار شما به طور خودکار پس از پایان اشتراک فعلی‌تان اعمال خواهد شد.",
+      "TOAST_SUBSCRIBE": "اعتبار شما به طور خودکار وقتی اشتراک حرفه‌ای RemNote تهیه کنید اعمال خواهد شد. یک اشتراک از زیر انتخاب کنید،",
+      "TOTAL_MONTHS_EARNED": "تعداد کل ماه‌های اخذ شده‌ی نسخه‌ی حرفه‌ای",
+      "VERIFY_EMAIL": "برای دعوت کسی، ابتدا ایمیلتان را تایید کنید."
+    },
+    "EDITOR": {
+      "DATES_AND_TIMES": {
+        "DATE_FORMATTING": {
+          "DESCRIPTION": "تاریخ ها را در سراسر RemNote در این قالب نشان دهید.",
+          "TITLE": "قالب بندی تاریخ"
+        },
+        "DATE_FORMATTING_CUSTOM": {
+          "DESCRIPTION": "با استفاده از گزینه های ارائه شده تاریخ خود را به دلخواه قالب بندی کنید.",
+          "TITLE": "قالب بندی تاریخ سفارشی"
+        },
+        "TIME_FORMATTING": {
+          "DESCRIPTION": "زمان‌های درج شده با /time را به این صورت قالب‌بندی کنید.",
+          "TITLE": "قالب بندی زمان"
+        },
+        "WEEK_STARTS_ON_MONDAY": {
+          "TITLE": "هفته از دوشنبه شروع می شود"
+        }
+      },
+      "GENERAL": {
+        "CAPITALIZE_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "هنگام ایجاد یک Rem با فشار دادن Cmd+Return در جستجو، نام آن را با حروف بزرگ بنویسید.",
+            "PC": "هنگام ایجاد یک Rem با فشار دادن Ctrl+Enter در جستجو، نام آن را با حروف بزرگ بنویسید."
+          },
+          "TITLE": "حروف بزرگ از جستجو"
+        },
+        "CREATE_CONCEPTS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "هنگام ایجاد یک Rem با فشار دادن Cmd+Return در جستجو، آن را به یک مفهوم تبدیل کنید.",
+            "PC": "هنگام ایجاد یک Rem با فشار دادن Ctrl+Enter در جستجو، آن را به یک مفهوم تبدیل کنید."
+          },
+          "TITLE": "ایجاد مفاهیم از جستجو"
+        },
+        "CREATE_STUBS_FROM_SEARCH": {
+          "TITLE": "ایجاد خرد از جستجو"
+        },
+        "ENABLE_SPELLCHECK": {
+          "TITLE": "بررسی املا را فعال کنید"
+        },
+        "INSERT_EMOJIS_AS_REFERENCES": {
+          "DESCRIPTION": "هنگام انتخاب ایموجی از %% جستجو، یک مرجع ایجاد کنید.",
+          "TITLE": "ایموجی را به عنوان مرجع درج کنید"
+        }
+      }
+    },
+    "EDITOR_INTERFACE": {
+      "PREVIEW_REM_ON_HOVER": {
+        "LABEL": "وقتی ماوس را روی یک مرجع نگه می دارید، پیش نمایشی از محتویات آن نشان دهید.",
+        "TITLE": "پیش نمایش مراجع در هنگام نگه‌داشتن موس"
+      },
+      "SCALE_COLLAPSED_REM_BULLETS": {
+        "TITLE": "مقیاس گلوله های Rem جمع شده"
+      },
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "TITLE": "برای باز کردن مراجع تنها کلیک کنید"
+      },
+      "SMOOTHLY_ANIMATE_THE_EDITOR": {
+        "LABEL": "افزودن یا حذف Rems را در ویرایشگر متحرک کنید.",
+        "TITLE": "به آرامی ویرایشگر را متحرک کنید"
+      }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "TITLE": "هدف"
+        },
+        "TODAYS_TARGET": "هدف هموار شده‌ی امروز:"
+      },
+      "GENERAL": {
+        "AUTOPLAY_MEDIA": {
+          "DESCRIPTION": "پخش خودکار محتوای صوتی یا تصویری بر روی فلش کارت ها.",
+          "TITLE": "پخش خودکار رسانه"
+        },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "TITLE": "پخش خودکار متن به گفتار"
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "TITLE": "فراتر از محدودیت یاد بگیرید"
+        },
+        "NEW_CARDS_PER_DAY": {
+          "TITLE": "حداکثر کارت جدید در روز"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "TITLE": "روز بعد شروع می شود در"
+        },
+        "RESET_ALL": {
+          "TITLE": "تنظیمات فلش کارت را بازنشانی کنید"
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "TITLE": "دکمه های فلش کارت ساده شده"
+        },
+        "STALE_CARDS_PER_DAY": {
+          "TITLE": "حداکثر کارت های قدیمی در روز"
+        },
+        "TEXT_TO_SPEECH_SPEED": {
+          "TITLE": "سرعت متن به گفتار"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "SAMPLE": "میتوکندری نیروگاه سلول است.",
+          "TITLE": "صدای متن به گفتار"
+        },
+        "TYPE_ANSWER": {
+          "TITLE": "پاسخ را تایپ کنید"
+        }
+      },
+      "ORDERING": {
+        "DOCUMENT_CLUSTERS": {
+          "TITLE": "خوشه‌های اسناد"
+        },
+        "HIERARCHY_CLUSTERS": {
+          "TITLE": "خوشه‌های سلسله مراتبی"
+        },
+        "REFERENCE_CLUSTERS": {
+          "TITLE": "خوشه‌های مرجع"
+        },
+        "TAG_CLUSTERS": {
+          "TITLE": "خوشه‌های برچسب"
+        }
+      },
+      "VISUAL": {
+        "SHOW_NEXT_REVIEW_TIMES": {
+          "TITLE": "نمایش زمان بازبینی بعدی"
+        }
+      }
     }
   }
 }
