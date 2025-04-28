@@ -1,0 +1,87 @@
+{
+  "COMMON": {
+    "ACTIONS": {
+      "APPLY": "Toepassen",
+      "COPY": "Kopiëren",
+      "CREATE": "Maken",
+      "DELETE": "Verwijderen",
+      "DUPLICATE": "Dupliceren",
+      "EDIT": "Wijzigen",
+      "HIDE": "Verbergen",
+      "REMOVE": "Verwijderen",
+      "UPDATE": "Updaten",
+      "VIEW": "Bekijken"
+    },
+    "AI": {
+      "AI_FLASHCARDS": "AI steekkaart"
+    },
+    "GENERAL": {
+      "FLASHCARD_one": "Steekkaart",
+      "FLASHCARD_other": "Steekkaarten",
+      "NOTE_one": "Notitie",
+      "NOTE_other": "Notities"
+    },
+    "NEW": "Nieuw"
+  },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_CONTENT": {
+            "SRC": "Het document dat je probeert te delen lijkt leeg te zijn. Voeg alstublieft {{minimum}} rems toe, probeer het dan opnieuw.",
+            "SUBDOCUMENT": "Een van je subdocumenten lijkt wat leeg te zijn. Het wordt niet gepubliceerd tot het {{minimum}} rems bevat."
+          },
+          "NO_TITLE": {
+            "SRC": "Het document dat je probeert te delen heeft geen titel. Je moet er een toevoegen voor je kan publiceren.",
+            "SUBDOCUMENT": "Een van je subdocumenten heeft nog geen titel. Het zal niet worden gepubliceerd tot het er een heeft."
+          }
+        }
+      }
+    }
+  },
+  "DOCUMENT": {
+    "DIALOGS": {
+      "DELETE_ALSO_UNSHARE": "Wil je ook het document stoppen met delen?",
+      "DELETE_CONFIRM_DIALOG": "Ben je zeker dat je dit document wil verwijderen?",
+      "DELETE_UNSHARE_ERROR": "Er was een fout bij het stoppen met delen van dit document. Stop alstublieft manueel met delen. ",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "Je bent offline. Stop alstublieft manueel met delen wanneer je weer online bent."
+    },
+    "MENU": {
+      "ADD_NESTED_DOCUMENT": "Voeg een genest document toe",
+      "CHANGE_DOCUMENT_ICON": "Wijzig document icoon",
+      "CHANGE_DOCUMENT_STATUS": "Wijzig document status",
+      "CHANGE_FOLDER_ICON": "Wijzig folder icoon",
+      "CUSTOMIZE_SPACED_REPETITION": "Wijzig gespreide herhaling",
+      "DELETE": "Verwijderen",
+      "EDIT_MODE": {
+        "READ": "Alleen lezen modus",
+        "WRITE": "Wijzig modus"
+      },
+      "EXPORT": "Exporteren",
+      "FIND_OR_FILTER": "Zoeken of filteren",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "Deze optie is verouderd, het is aanbevolen om de alternatieve methode te gebruiken door op <keycode /> te drukken en dan te zoeken naar tekstreferenties.",
+        "LABEL": "Vind tekstreferenties"
+      },
+      "MARK_AS_DOCUMENT": "Als document markeren",
+      "MOVE": "Verplaatsen",
+      "MULTI_SELECTION_FOLDER": "Selecteer meerdere folders/documenten",
+      "MULTI_SELECTION_MODE": "Meerdere Rems selecteren",
+      "OPEN_IN_ANOTHER_PANE": "Openen in een ander paneel",
+      "PIN_TO_SIDEBAR": "Vastmaken aan zijbar",
+      "PRINT": "Afdrukken",
+      "RENAME": "Naam wijzigen",
+      "SHOW_STUDY_BUTTON": "Toon studeerknop",
+      "STATS": "Statistieken",
+      "UNDO": "Ongedaan maken",
+      "UNPIN_FROM_SIDEBAR": "Losmaken van zijbar",
+      "UNSHARE_DOCUMENT": "Stoppen met delen van document",
+      "VIEW_GRAPH": "Toon lokale grafiek",
+      "VIEW_TRASH": "Toon prullemand"
+    }
+  },
+  "FILE_UPLOADING": {
+    "CACHED_INFO": "Dit bestand is gecached voor het offline bekijken en is mogelijks nog niet geuploaded.",
+    "NOT_FOUND": "Dit bestand kan niet gevonden worden."
+  }
+}
