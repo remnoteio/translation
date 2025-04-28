@@ -456,21 +456,73 @@
       },
       "ORDERING": {
         "DOCUMENT_CLUSTERS": {
+          "DESCRIPTION": "ترجیح دهید رم‌ها را از اسناد متصل با هم تمرین کنید.",
           "TITLE": "خوشه‌های اسناد"
         },
         "HIERARCHY_CLUSTERS": {
+          "DESCRIPTION": "ترجیح دهید رم‌های مرتبط با یکدیگر را به صورت سلسله مراتبی با هم تمرین کنید.",
           "TITLE": "خوشه‌های سلسله مراتبی"
         },
         "REFERENCE_CLUSTERS": {
+          "DESCRIPTION": "ترجیح دهید رم‌هایی را تمرین کنید که به یکدیگر ارجاع می‌دهند.",
           "TITLE": "خوشه‌های مرجع"
         },
         "TAG_CLUSTERS": {
+          "DESCRIPTION": "ترجیح دهید رم‌ها را با یک تگ با هم تمرین کنید.",
           "TITLE": "خوشه‌های برچسب"
+        }
+      },
+      "STATISTICS": {
+        "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
+          "TITLE": "محدودیت زمانی پاسخ فلش کارت"
         }
       },
       "VISUAL": {
         "SHOW_NEXT_REVIEW_TIMES": {
           "TITLE": "نمایش زمان بازبینی بعدی"
+        }
+      }
+    },
+    "GLOBAL_INTERFACE": {
+      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
+        "TITLE": "زبان جستجوی فلش‌کارت‌های به اشتراک گذاشته شده"
+      },
+      "DARK_MODE": {
+        "LABEL": "از این طرح رنگی استفاده کنید.",
+        "TITLE": "حالت تاریک"
+      },
+      "FULL_WIDTH": {
+        "LABEL": "اسناد را برای استفاده از تمام عرض صفحه بزرگ کنید.",
+        "TITLE": "عرض کامل"
+      },
+      "INTERFACE": {
+        "TITLE": "زبان رابط RemNote"
+      },
+      "IN_APP_SUGGESTIONS": {
+        "KEYWORDS": "راهنمای ابزار به پشتیبانی از آموزش کمک می‌کند",
+        "LABEL": "نکاتی را در مورد ویژگی‌های RemNote نشان دهید که می‌توانید در بالای سند خود امتحان کنید.",
+        "TITLE": "نکات ورود به سند بالای سند"
+      },
+      "LEFT_SIDEBAR_TUTORIALS": {
+        "TITLE": "آموزش های درون برنامه ای"
+      },
+      "ONBOARDING_TIPS_SHORTCUTS": {
+        "KEYWORDS": "راهنمای ابزار به پشتیبانی از آموزش کمک می‌کند",
+        "TITLE": "نکات میانبر صفحه کلید"
+      }
+    },
+    "KEYBOARD_SHORTCUTS": {
+      "CHANGE_KEYBOARD_SHORTCUTS": {
+        "TITLE": "میانبرهای صفحه کلید"
+      }
+    },
+    "NOTIFICATIONS": {
+      "DESCRIPTIONS": {
+        "ARTICLE_VIEWS": {
+          "TITLE": "اعلان‌های مشاهده اسناد"
+        },
+        "DOCUMENT_ADDED_TO_GROUP": {
+          "LABEL": "یک سند به گروهی که در آن هستید اضافه شد."
         }
       }
     }
