@@ -318,7 +318,7 @@
       }
     },
     "EARN_CREDIT": {
-      "APPLY_CREDIT": "Apply your free months",
+      "APPLY_CREDIT": "Apply free months",
       "BALANCE_IN_MONTHS_SG": "{{numMonths}} month",
       "BALANCE_IN_MONTHS_PL": "{{numMonths}} months",
       "COPIED": "Copied!",
