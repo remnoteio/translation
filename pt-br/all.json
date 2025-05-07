@@ -332,6 +332,8 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Utilize seu crédito",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} Mês",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} Mês",
       "COPIED": "Copiado!",
       "COPYLINK": "Copiar Link",
       "CREATE_ACCOUNT": "Crie uma conta para convidar amigos",
@@ -350,6 +352,7 @@
       "INVITE_TEXT": "Convide amigos e ganhe créditos",
       "KEYWORDS": "convidar amigos ganhar créditos plano mudar assinatura ganhar créditos grátis remnote enviar tweet email escolher plano aprendizado vitalício pro recursos detalhamento preços opções",
       "NOT_CONFIRMED_EMAIL": "(não confirmou e-mail)",
+      "REMAINING_MONTHS": "Meses Restantes",
       "SEND_INVITE": "Enviar convite",
       "SHARE_LINK": "Compartilhar link de convite",
       "TITLE": "Ganhe Créditos",
@@ -357,8 +360,10 @@
       "TOAST_SUBSCRIBE": "Seus créditos serão aplicados automaticamente quando você assinar o RemNote Pro. Escolha um plano abaixo para começar!",
       "TOTAL_MONTHS_EARNED": "Total de Meses Pro Adquiridos",
       "VERIFY_EMAIL": "Para convidar alguém, primeiro verifique seu e-mail.",
+      "SUBSCRIBE_NOTICE": "<div><br />Atualize para o plano Pro para começar a usar seu saldo! Nada será cobrado até que o saldo do aplicativo se esgote.</div>",
       "CREDIT_BALANCE": "Balanço de Creditos",
-      "CREDIT_BALANCE_TEXT": "Você tem<bold> {{userCredit}}</bold> de créditos restantes e ganhou<bold> {{userCreditEarned}}</bold> de créditos no total. {{months}} mês ou meses restantes de RemNote Pro gratuitamente.<div><br /> Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>"
+      "CREDIT_BALANCE_TEXT": "Você tem<bold> {{userCredit}}</bold> de créditos restantes e ganhou<bold> {{userCreditEarned}}</bold> de créditos no total. {{months}} mês ou meses restantes de RemNote Pro gratuitamente.<div><br /> Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>",
+      "BALANCE_IN_MONTHS": "Meses"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -577,7 +582,9 @@
         "TITLE": "Dicas de Integração"
       },
       "ONBOARDING_TIPS_FEATURES": {
-        "TITLE": "Dicas de Onboarding"
+        "LABEL": "Mostrar dicas sobre os recursos do RemNote que você está usando no canto da tela",
+        "TITLE": "Dicas de Onboarding",
+        "KEYWORDS": "dicas, ajuda, tutorial, suporte""
       }
     },
     "KEYBOARD_SHORTCUTS": {
@@ -672,6 +679,9 @@
       "SORT_SIDEBAR": {
         "KEYWORDS": "Organizar barras-laterais ordernar de-A-a-Z",
         "TITLE": "Ordenar Barra Lateral"
+      },
+      "COMMUNITY_TAB": {
+        "LABEL": "Mostra o centro de comunidade na barra lateral, onde você pode encontrar documentos públicos e grupos de estudo. Se esta função estiver desativada, você ainda poderá encontrá-la através da Central da Conta."
       }
     }
   },
@@ -691,6 +701,7 @@
   "SOURCES": {
     "LINK_SOURCE": {
       "ENTER_URL": "Inserir URL",
+      "EMBED_LINK": "Incorporar Link",
       "INVALID_URL": "URL inválido",
       "LABEL": "Link da Fonte",
       "LINK": "Link",
@@ -709,6 +720,7 @@
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Selecionar Arquivos",
       "SELECT_FILES_TO_UPLOAD": "Selecione arquivos para fazer upload",
+      "UPLOAD": "Enviar",
       "UPLOADING": "Enviando..."
     },
     "WIKIMEDIA_COMMONS": {
@@ -819,6 +831,22 @@
     "TEMPLATE_other": "Modelos",
     "TURN_OFF_AUTO_APPLY": "Desativar Aplicar Automaticamente",
     "VIEW_CONFIGURATION": "Configurar Tag",
-    "HIDE_CONFIGURATION": "Ocultar Configurações"
+    "HIDE_CONFIGURATION": "Ocultar Configurações",
+    "ADD_PROPERTY": "Adicionar Propriedade",
+    "NEW_PROPERTY": "Nova Propriedade"
+  },
+  "COMMUNITY_NOTIFICATIONS": {
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "Documento adicionado ao grupo."
+    },
+    "INVITE": {
+      "REJECT": "Rejeitado"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "Começou a seguir você"
+    },
+    "NEW_LIKE": {
+      "BODY": "Curtiu"
+    }
   }
 }
