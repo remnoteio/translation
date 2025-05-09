@@ -660,6 +660,7 @@
       "EMBED_LINK": "Embed Link",
       "INVALID_URL": "Invalid URL",
       "LABEL": "Link Source",
+      "LABEL_MOBILE": "Links",
       "LINK": "Link",
       "LINK_WITH_COUNT_one": "{{count, number}} Link",
       "LINK_WITH_COUNT_other": "{{count, number}} Links",
@@ -671,6 +672,7 @@
       "IMPORT_INSTEAD": "RemNote cannot accept file uploads of this type. However, we might be able to import the notes or flashcards in this file! Try choosing “Import” from the upper-left account menu.",
       "INVALID": "Sorry, RemNote cannot accept file uploads of this type.",
       "LABEL": "Add Source",
+      "LABEL_MOBILE": "Files",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
@@ -678,6 +680,9 @@
       "SELECT_FILES_TO_UPLOAD": "Select files to upload",
       "UPLOAD": "Upload",
       "UPLOADING": "Uploading..."
+    },
+    "RECORD_SOURCE": {
+      "LABEL": "Record"
     },
     "WIKIMEDIA_COMMONS": {
       "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
