@@ -28,12 +28,12 @@
       "ERRORS": {
         "SHARING": {
           "NO_CONTENT": {
-            "SRC": "您的文档内容不足，请添加至少 {{minimum}} 个 Rems 后再重新尝试分享",
-            "SUBDOCUMENT": "您的某个子文档内容不足，需达到至少 {{minimum}} 个 Rems 后才可发布"
+            "SRC": "文档内容不足，暂时无法分享。请至少添加 {{minimum}} 个 Rem 后再尝试",
+            "SUBDOCUMENT": "您的某个子文档内容不足。需添加至少 {{minimum}} 个 Rem 后方可发布"
           },
           "NO_TITLE": {
-            "SRC": "您尝试分享的文档没有标题，发布前请先添加标题",
-            "SUBDOCUMENT": "您的某个子文档没有标题，发布前请先添加标题"
+            "SRC": "文档没有标题，无法发布。请先添加标题！",
+            "SUBDOCUMENT": "您的某个子文档没有标题。需添加标题后方可发布。"
           }
         }
       }
@@ -41,7 +41,7 @@
   },
   "DOCUMENT": {
     "DIALOGS": {
-      "DELETE_ALSO_UNSHARE": "您是否要同时取消此文档的共享？",
+      "DELETE_ALSO_UNSHARE": "是否同时取消分享该文档？",
       "DELETE_CONFIRM_DIALOG": "您确定要删除此文档吗？",
       "DELETE_UNSHARE_ERROR": "取消共享此文档时出错，请手动取消共享",
       "DELETE_UNSHARE_OFFLINE_ERROR": "您当前处于离线状态，请在重新联网后手动取消共享此文档"
@@ -60,7 +60,7 @@
       "EXPORT": "导出",
       "FIND_OR_FILTER": "查找或筛选",
       "FIND_TEXT_REFERENCES": {
-        "DEPRECATION_WARNING": "此选项已被弃用，建议使用替代方法：按下 <keycode /> 并搜索文本引用",
+        "DEPRECATION_WARNING": "此选项已不推荐使用。建议改用以下方式：按 <keycode />，然后搜索文本引用。",
         "LABEL": "查找文本引用"
       },
       "MARK_AS_DOCUMENT": "标记为文档",
@@ -86,19 +86,19 @@
     }
   },
   "FILE_UPLOADING": {
-    "CACHED_INFO": "此文件可能尚未上传，已缓存用于离线查看",
-    "LOCAL_ONLY_WARN": "此文件未成功上传，暂时存储在您的计算机上",
-    "LOCAL_WAITING_FOR_UPLOAD_WARN": "此文件尚未上传，仅存储在本地",
+    "CACHED_INFO": "此文件已缓存供离线查看，可能尚未上传。",
+    "LOCAL_ONLY_WARN": "此文件上传失败，已暂存到本地。",
+    "LOCAL_WAITING_FOR_UPLOAD_WARN": "此文件尚未上传，仅存储在本地。",
     "NOT_FOUND": "找不到此文件",
     "NOT_YET_UPLOADED": "此文件尚未上传",
     "SNIPPING": {
-      "NON_PDF": "请尝试使用其他截图/粘贴工具，或联系支持人员",
+      "NON_PDF": "请尝试使用其他截图/粘贴工具，或联系支持。",
       "PDF": "请联系支持人员"
     }
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "语言",
-    "TRANSLATION_INFO_SETTINGS": "翻译仍在进行中，您将看到英语和所选语言的混合内容。<br>您可以先阅读<guideLink>教程</guideLink>，然后使用我们的<editorLink>网页编辑器</editorLink>来协助翻译。",
+    "TRANSLATION_INFO_SETTINGS": "翻译仍在进行中，界面可能混杂显示英语和所选语言。<br>您可通过查看 <guideLink>教程</guideLink> 并使用我们的 <editorLink>网页编辑器</editorLink> 协助翻译。",
     "TRANSLATION_IN_PROGRESS": "RemNote 的翻译仍然在进行中。您可以在<editorLink>on inlang</editorLink>上<bold>贡献翻译</bold>。"
   },
   "NOTIFICATIONS": {
@@ -110,8 +110,8 @@
     "DOCUMENT_ADDED_TO_GROUP": {
       "BODY": "被加入"
     },
-    "EMPTY_STATE_MESSAGE": "您已查看所有内容！当有人与您在<profileLink>个人主页</profileLink>上分享的内容互动时，您将收到通知",
-    "EMPTY_STATE_TITLE": "您最近没有收到任何通知",
+    "EMPTY_STATE_MESSAGE": "您已全部处理完毕！当有人与您在 <profileLink>个人主页</profileLink> 分享的内容互动时，您会收到通知。",
+    "EMPTY_STATE_TITLE": "您没有最近通知。",
     "GROUP_DEFAULT": "您的群组",
     "IMPORT": {
       "BODY": "有人导入了您的文档"
@@ -187,7 +187,7 @@
       "HIGHLIGHT": "高亮",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "制作图像遮蔽记忆卡",
       "NOTE_BTN_TOOLTIP": "笔记",
-      "NO_TEXT_IN_PDF_WARN": "此文件不包含文本层，但您仍可以使用区域高亮来添加注释"
+      "NO_TEXT_IN_PDF_WARN": "此文件不含文本层，但您仍可使用区域高亮进行标注。"
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "高级链接选项",
@@ -215,12 +215,12 @@
         "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "创建高亮时，仅选择完整单词"
       },
       "REFETCH_PAGE": "重新获取页面",
-      "REFETCH_PAGE_TOOLTIP": "如果页面已有高亮内容，将无法重新获取",
+      "REFETCH_PAGE_TOOLTIP": "此页面包含已有高亮时，无法刷新。",
       "SEARCH_IN_PDF": "在 PDF 中搜索",
       "SPLIT_PANES": "拆分窗格",
-      "SPLIT_PANES_TOOLTIP": "将编辑器和 PDF 阅读器拆分到不同的窗格中",
+      "SPLIT_PANES_TOOLTIP": "编辑器与 PDF 阅读器分屏显示",
       "THEMES": {
-        "CLASSIC_INVERT": "经典主题色反转",
+        "CLASSIC_INVERT": "经典反转",
         "DARK": "暗黑",
         "LIGHT": "明亮",
         "SOLARISED": "Solarised",
@@ -235,27 +235,27 @@
   "POPUPS": {
     "CREATE_CONTENT_OPTIONS": {
       "DOCUMENT": {
-        "DESCRIPTION": "将记忆卡片和笔记整理到文档中",
+        "DESCRIPTION": "将记忆卡片和笔记组织到文档中",
         "TITLE": "文档"
       },
       "FOLDER": {
-        "DESCRIPTION": "在文件夹中组织笔记",
+        "DESCRIPTION": "将文档组织到文件夹中",
         "TITLE": "文件夹"
       },
       "QUICK_ADD": {
-        "DESCRIPTION": "随时捕捉您的想法！",
+        "DESCRIPTION": "灵感乍现，即时记录！",
         "TITLE": "速记"
       },
       "TABLE_TAG": {
-        "DESCRIPTION": "创建用于表格和模板的标签",
+        "DESCRIPTION": "创建用于表格与模板的标签。",
         "TITLE": "表格和标签"
       },
       "TODAYS_DOCUMENT": {
-        "DESCRIPTION": "每日笔记非常适合日记、待办清单等",
+        "DESCRIPTION": "每日文档非常适合写日记、待办事项列表等等",
         "TITLE": "今日笔记"
       },
       "UPLOAD_FILE": {
-        "DESCRIPTION": "高亮并引用 PDF、PowerPoint、Word 文档或其他文件",
+        "DESCRIPTION": "高亮并引用 Youtube视频、PDF、PPT、Word 文档或其他文件",
         "FEATURE_NAME": "PDF 高亮",
         "PAYWALL": "您的 PDF 上传量已达到上限",
         "TITLE": "上传并标注文件",
@@ -278,11 +278,11 @@
       },
       "AUTHENTICATION_TITLE": "认证授权",
       "CACHING": {
-        "DESCRIPTION": "加载图像时同时进行缓存，以便离线查看",
-        "NUMBER_DESCRIPTION": "设置要缓存的最大图像数。当达到限制时，将从缓存中清除最旧的图像",
-        "NUMBER_TITLE": "最大缓存图像数量",
+        "DESCRIPTION": "加载图片时缓存，供离线查看。",
+        "NUMBER_DESCRIPTION": "设置最大缓存图片数量。达到上限时，将自动清除缓存中最旧的图片。",
+        "NUMBER_TITLE": "最大缓存图片数量",
         "TITLE": "缓存",
-        "TOGGLE_DESCRIPTION": "禁用后，所有缓存的图像都将被清除",
+        "TOGGLE_DESCRIPTION": "禁用后，所有缓存的图片都将被清除",
         "TOGGLE_TITLE": "启用缓存"
       },
       "DANGER_ZONE": {
@@ -303,7 +303,7 @@
         "KEYWORDS": "隐私",
         "TITLE": "隐私"
       },
-      "PRIVACY_NOTE": "隐私：阅读我们的<policyLink>隐私政策</policyLink>，或在我们的<hubLink>隐私中心</hubLink>中更改您的设置",
+      "PRIVACY_NOTE": "隐私：阅读我们的<policyLink>隐私政策</policyLink>，或在我们的<hubLink>隐私中心<hubLink> 更改您的设置。",
       "PROFILE": {
         "KEYWORDS": "个人用户资料"
       },
@@ -343,22 +343,22 @@
       "FRIEND_ALREADY_ON_REMNOTE": "您的朋友已在使用 RemNote",
       "HANG_ON": "挂起",
       "INVITE": "邀请",
-      "INVITED_YOU": "(邀请您)",
+      "INVITED_YOU": "（邀请您）",
       "INVITE_COPIED": "已复制邀请链接！",
       "INVITE_EMAIL": "通过电子邮件邀请",
       "INVITE_ERROR": "出了点问题，请稍后再试",
-      "INVITE_FRIENDS_EARN_CREDIT": "当您邀请的人开始使用 RemNote 时，你们双方都会获得一个月的积分奖励。",
+      "INVITE_FRIENDS_EARN_CREDIT": "当您邀请的朋友开始使用 RemNote 后，您和朋友将各获得一个月 RemNote Pro 免费时长。",
       "INVITE_FRIENDS_REMNOTE": "邀请您的朋友加入 RemNote！",
       "INVITE_TEXT": "邀请朋友",
       "KEYWORDS": "邀请朋友赚取积分 订阅计划 更改订阅 赚取积分 免费 RemNote 发送推文 邮件 选择计划 终身学习 Pro 功能详解 定价选项",
-      "NOT_CONFIRMED_EMAIL": "(未确认邮件地址)",
+      "NOT_CONFIRMED_EMAIL": "（未确认邮件地址）",
       "REMAINING_MONTHS": "剩余月份",
       "SEND_INVITE": "发送邀请",
       "SHARE_LINK": "分享邀请链接",
       "TITLE": "赚取积分",
-      "TOAST_RENEW": "您的积分将在当前订阅续订时自动应用",
-      "TOAST_SUBSCRIBE": "您的积分将在您订阅 RemNote Pro 时自动应用，选择下面的计划开始吧！",
-      "TOTAL_MONTHS_EARNED": "已赚取专业版总月数",
+      "TOAST_RENEW": "您的积分将在当前订阅续订时自动抵扣。",
+      "TOAST_SUBSCRIBE": "您的积分将在您订阅 RemNote Pro 时自动抵扣。请在下方选择适合您的计划，立即开始！",
+      "TOTAL_MONTHS_EARNED": "累计赚取 RemNote Pro 月数",
       "VERIFY_EMAIL": "请先验证您的电子邮件，才能邀请他人",
       "SUBSCRIBE_NOTICE": "<div><br />使用积分订阅 RemNote Pro 计划！在您的积分用完之前，我们不会向您收取任何费用。</div>",
       "CREDIT_BALANCE": "积分详情",
@@ -371,80 +371,80 @@
           "TITLE": "日期格式"
         },
         "DATE_FORMATTING_CUSTOM": {
-          "DESCRIPTION": "按您提供的选项设置预期的日期格式",
+          "DESCRIPTION": "使用提供的选项，设置您希望的日期格式",
           "TITLE": "自定义日期格式"
         },
         "TIME_FORMATTING": {
-          "DESCRIPTION": "设置 /time 命令插入的时间格式",
+          "DESCRIPTION": "使用 /time 插入的时间格式",
           "TITLE": "时间格式"
         },
         "WEEK_STARTS_ON_MONDAY": {
-          "DESCRIPTION": "在日期选择器中选择日期时，将日历每行的开始日期设为星期一，而非星期天",
-          "TITLE": "每周从星期一开始"
+          "DESCRIPTION": "设置日历的每周从周一开始，而非周日",
+          "TITLE": "每周从周一开始"
         }
       },
       "GENERAL": {
         "CAPITALIZE_FROM_SEARCH": {
           "DESCRIPTION": {
-            "MAC": "搜索中按 Cmd + Enter 创建 Rem 时自动将首字母大写",
-            "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时自动将首字母大写"
+            "MAC": "当在搜索中按 Cmd+Return 创建 Rem 时，将其名称大写",
+            "PC": "当在搜索中按 Ctrl+Enter 创建 Rem 时，将其名称大写"
           },
-          "TITLE": "从搜索中创建 Rem"
+          "TITLE": "搜索创建时自动大写"
         },
         "CREATE_CONCEPTS_FROM_SEARCH": {
           "DESCRIPTION": {
-            "MAC": "搜索中按 Cmd+ Return 键创建 Rem 时，将其设置为概念（Concept）",
-            "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时，将其设置为概念（Concept）"
+            "MAC": "当在搜索中按 Cmd+Return 创建 Rem 时，将其创建为概念",
+            "PC": "当在搜索中按 Ctrl+Enter 创建 Rem 时，将其创建为概念"
           },
-          "TITLE": "从搜索中创建概念"
+          "TITLE": "搜索创建为概念"
         },
         "CREATE_STUBS_FROM_SEARCH": {
           "DESCRIPTION": {
-            "MAC": "搜索中按 Cmd + Return 键创建 Rem 时，为其添加 Stub 标签",
-            "PC": "搜索中按 Ctrl + Enter 键创建 Rem 时，为其添加 Stub 标签"
+            "MAC": "当在搜索中按 Cmd+Return 创建 Rem 时，自动打上标签“Stub”",
+            "PC": "当在搜索中按 Ctrl+Enter 创建 Rem 时，自动打上标签“Stub”"
           },
           "TITLE": "从搜索中创建 Stub"
         },
         "ENABLE_SPELLCHECK": {
-          "DESCRIPTION": "检查当前聚焦的 Rem 是否有拼写错误。拼写检查使用您浏览器或操作系统中选择的语言",
+          "DESCRIPTION": "检查当前聚焦 Rem 的拼写错误。拼写检查使用的语言取决于您的浏览器或操作系统设置",
           "TITLE": "启用拼写检查"
         },
         "INSERT_EMOJIS_AS_REFERENCES": {
-          "DESCRIPTION": "使用 %% 搜索表情并作为引用插入",
+          "DESCRIPTION": "从 %% 搜索选择表情符号时，创建引用",
           "TITLE": "表情符号引用"
         }
       }
     },
     "EDITOR_INTERFACE": {
       "ENABLE_ZOOM_INTO_BULLET": {
-        "LABEL": "当您单击项目符号时，将 rem 显式为整页",
-        "TITLE": "启用项目符号缩放功能"
+        "LABEL": "点击项目符号时，将 Rem 显示为整页",
+        "TITLE": "启用点击项目符号整页显示"
       },
       "PREVIEW_REM_ON_HOVER": {
         "LABEL": "当鼠标悬停在引用上时，显示其内容预览",
         "TITLE": "悬停预览引用"
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
-        "LABEL": "根据子项数量调整项目符号大小",
-        "TITLE": "缩放折叠 Rem 的项目符号"
+        "LABEL": "根据后代数量调整项目符号圆环大小",
+        "TITLE": "折叠 Rem 项目符号比例"
       },
       "SINGLE_CLICK_REFERENCES_TO_OPEN": {
-        "LABEL": "单击或点击引用时，直接跳转到目标位置，而不是打开引用菜单。（您始终可以通过右键单击显示引用菜单）",
+        "LABEL": "点击或轻触引用时，直接跳转到目标，而非打开引用菜单。（右键单击可始终显示引用菜单）",
         "TITLE": "单击打开引用"
       },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
-        "LABEL": "在编辑器中添加和删除 Rem 时启用动画效果",
-        "TITLE": "编辑器动画效果更加流畅"
+        "LABEL": "启用编辑器中增删 Rem 动画",
+        "TITLE": "编辑器平滑动画"
       }
     },
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "DESCRIPTION": "设置每天至少练习的记忆卡片数量，以建立连续练习的记录",
+          "DESCRIPTION": "每天至少练习达到此数量闪卡，以开始或继续连胜",
           "TITLE": "目标"
         },
         "TODAYS_TARGET": "今日目标：",
-        "TODAYS_TARGET_EXPLANATION": "如果 RemNote 预测到在未来一周内，您平均每天需要练习的卡片数低于您设置的每日目标，我们将暂时降低您的每日目标，以确保您每天的卡片数量大致相等，避免出现前期复习过多，后期复习较少的情况"
+        "TODAYS_TARGET_EXPLANATION": "如果 RemNote 预测未来一周内，您平均每天的到期卡片量低于设定的每日目标，我们将暂时降低您的每日目标，以平衡每日练习量，避免前期过多而后期过少"
       },
       "GENERAL": {
         "AUTOPLAY_MEDIA": {
@@ -456,19 +456,19 @@
           "TITLE": "自动播放文本转语音"
         },
         "LEARN_AHEAD_LIMIT": {
-          "DESCRIPTION": "在您完成所有到期卡片的练习后，我们可以提前多久调出尚未到期的卡片进行练习？这有助于避免您过早地再次复习同一内容",
+          "DESCRIPTION": "设置在完成所有到期卡片练习后，可从未来预习未到期卡片的范围。这有助于您避免在短期内再次进行练习",
           "TITLE": "超前学习限制"
         },
         "LEECH_THRESHOLD": {
-          "DESCRIPTION": "当您在某张难卡上按“忘记”达到指定次数后，发出警告提示。<leechArticle>了解更多关于高遗忘项的信息</leechArticle>",
+          "DESCRIPTION": "当您忘记一张困难卡片的次数过多时，发出警告。<leechArticle>了解更多关于困难卡片的信息</leechArticle>",
           "TITLE": "遗忘阈值"
         },
         "NEW_CARDS_PER_DAY": {
-          "DESCRIPTION": "每天最多将新建闪卡加入您的复习队列的数量。这样新卡片每天将以稳定的频率进入队列，而不是一次性大量涌入复习队列",
-          "TITLE": "每日最大新卡数量"
+          "DESCRIPTION": "每天最多将此数量的新增闪卡加入您的复习队列，确保新卡片以稳定的每日速率流入，而非一次涌入大量",
+          "TITLE": "每日新增卡片上限"
         },
         "NEXT_DAY_STARTS_AT": {
-          "DESCRIPTION": "设置每天新卡片加入在您的队列中的时间",
+          "DESCRIPTION": "设置新增卡片每日入列时间",
           "TITLE": "次日起始时间"
         },
         "RESET_ALL": {
@@ -477,11 +477,11 @@
           "TITLE": "重置全部记忆卡片设置"
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
-          "DESCRIPTION": "在记忆卡片上只显示”忘记“和“部分记得”的反馈按钮",
+          "DESCRIPTION": "针对记忆卡，仅显示“忘记”和“记住”按钮",
           "TITLE": "简化记忆卡片按钮"
         },
         "STALE_CARDS_PER_DAY": {
-          "DESCRIPTION": "设置每天允许加入记忆卡片队列的过期卡片数量，过期卡片是因为您很长时间没有学习它们而被暂时从队列中撤回的卡片，一次性重新学习它们会很耗费精力",
+          "DESCRIPTION": "每天最多将此数量的陈旧记忆卡重新加入复习队列。陈旧记忆卡是指那些您长时间未复习而被暂时移出复习队列的卡片，因为一次性全部重新学习它们会令人不堪重负",
           "TITLE": "每日最多过期卡片数"
         },
         "TEXT_TO_SPEECH_SPEED": {
@@ -489,42 +489,42 @@
           "TITLE": "文本转语音的速度"
         },
         "TEXT_TO_SPEECH_VOICE": {
-          "DESCRIPTION": "用于文本转语音的声音。请注意某些声音仅适用于某些语言",
-          "SAMPLE": "线粒体是细胞的动力源。",
+          "DESCRIPTION": "用于文本转语音的语音。请注意，部分语音仅支持特定语言",
+          "SAMPLE": "线粒体是细胞的能量工厂",
           "TITLE": "文本转语音"
         },
         "TYPE_ANSWER": {
-          "DESCRIPTION": "在每张记忆卡片的正面显示一个文本框，并将您输入的内容与卡片背面的答案进行比较",
+          "DESCRIPTION": "在每张闪卡的正面显示一个文本框，并比较您输入的内容与卡片背面的答案",
           "TITLE": "输入答案"
         }
       },
       "ORDERING": {
         "DOCUMENT_CLUSTERS": {
-          "DESCRIPTION": "同时复习关联的文档中的 Rem",
-          "TITLE": "文档集合"
+          "DESCRIPTION": "优先将来自关联文档的 Rem 分组练习",
+          "TITLE": "文档分组"
         },
         "HIERARCHY_CLUSTERS": {
-          "DESCRIPTION": "同时复习在层级间相互关联的 Rem",
-          "TITLE": "层级集合"
+          "DESCRIPTION": "优先将具有层级关系的 Rem 分组练习",
+          "TITLE": "层级分组"
         },
         "REFERENCE_CLUSTERS": {
-          "DESCRIPTION": "同时复习相互引用的 Rem",
-          "TITLE": "引用集合"
+          "DESCRIPTION": "优先将相互引用的 Rem 分组练习",
+          "TITLE": "引用分组"
         },
         "TAG_CLUSTERS": {
-          "DESCRIPTION": "同时复习具有相同标签的 Rem",
-          "TITLE": "标签集合"
+          "DESCRIPTION": "优先将具有相同标签的 Rem 分组练习",
+          "TITLE": "标签分组"
         }
       },
       "STATISTICS": {
         "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
-          "DESCRIPTION": "如果您在卡片上回答所需的时间超过此值（以秒为单位），则超出的时间不会记录在统计数据中",
+          "DESCRIPTION": "当您回答闪卡的时间超过设定的时长时，统计时最多计入设定的时长。（例如，因为您离开了片刻）",
           "TITLE": "最大记忆卡片回答时间"
         }
       },
       "VISUAL": {
         "SHOW_NEXT_REVIEW_TIMES": {
-          "DESCRIPTION": "在每个答案按钮上显示距离下一次复习的时间",
+          "DESCRIPTION": "进行间隔重复练习时，在回答按钮上显示下次复习间隔",
           "TITLE": "显示下次复习时间"
         }
       },
@@ -542,10 +542,10 @@
     "GLOBAL_INTERFACE": {
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
         "KEYWORDS": "语言 社区 文档 搜索",
-        "TITLE": "社区文档搜索语言"
+        "TITLE": "共享闪卡搜索语言"
       },
       "DARK_MODE": {
-        "LABEL": "主题配色方案",
+        "LABEL": "使用此配色方案",
         "TITLE": "暗黑模式"
       },
       "FULL_WIDTH": {
