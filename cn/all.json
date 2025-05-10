@@ -809,7 +809,7 @@
   "TAGS": {
     "INSERT_PROPERTIES": "插入属性",
     "PINNED_TAGS": "固定标签",
-    "SEARCH_PLACEHOLDER": "搜索并应用标签",
+    "SEARCH_PLACEHOLDER": "搜索现有标签用于添加",
     "TAG": "标签",
     "TAG_WITH_COUNT_one": "{{count, number}} 标签",
     "TAG_WITH_COUNT_other": "{{count, number}} 标签",
