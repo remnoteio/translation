@@ -558,17 +558,17 @@
       },
       "IN_APP_SUGGESTIONS": {
         "KEYWORDS": "提示 帮助 支持 学习 教程",
-        "LABEL": "在文档顶部显示可以试用的 RemNote 功能提示",
+        "LABEL": "在文档顶部显示您可以尝试的 RemNote 功能提示",
         "TITLE": "顶级文档 使用技巧"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
         "KEYWORDS": "应用程序内 左侧边栏 教程 工具提示 帮助 支持 学习教程",
-        "LABEL": "在屏幕一角显示您当前使用的 RemNote 功能提示",
-        "TITLE": "应用内置教程"
+        "LABEL": "在侧边栏底部显示关于 RemNote 功能的教程",
+        "TITLE": "应用内教程"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
         "KEYWORDS": "工具提示 帮助 支持 学习教程",
-        "LABEL": "在屏幕一角显示您当前使用的键盘快捷键提示",
+        "LABEL": "在屏幕角落显示您当前使用的键盘快捷键提示",
         "TITLE": "键盘快捷键提示"
       },
       "SIMPLIFIED_UI": {
@@ -587,79 +587,79 @@
     },
     "KEYBOARD_SHORTCUTS": {
       "CHANGE_KEYBOARD_SHORTCUTS": {
-        "DESCRIPTION": "自定义绑定键盘快捷键",
-        "KEYWORDS": "自定义绑定键盘快捷键",
-        "TITLE": "更改键盘快捷键"
+        "DESCRIPTION": "自定义键盘快捷键",
+        "KEYWORDS": "更改您的键盘快捷键",
+        "TITLE": "键盘快捷键"
       },
       "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
-        "DESCRIPTION": "使用旧版键盘快捷键（2020年8月更新之前）",
-        "TITLE": "启用旧版快捷键"
+        "DESCRIPTION": "默认使用旧版键盘快捷键（2020 年 8 月更新前）",
+        "TITLE": "默认使用旧版键盘快捷键"
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
-        "DESCRIPTION": "编辑 Rem 时使用 // 触发命令模式（默认为单斜线）",
-        "TITLE": "命令菜单"
+        "DESCRIPTION": "在编辑 Rem 时，输入 // 而非 / 以触发命令",
+        "TITLE": "双斜杠命令菜单"
       },
       "ENTER_TO_OUTDENT": {
-        "LABEL": "在文档顶层没有内容的 Rem 上按回车键时，将向外缩进一级（如果禁用，则停留在同一层级并留下一个空的 Rem）",
-        "TITLE": "取消缩进"
+        "LABEL": "在空白 Rem 且不在文档顶层时按下 Enter，减少缩进一级。（如果禁用，则保持当前层级并留下一个空白 Rem。）",
+        "TITLE": "Enter 减少缩进"
       },
       "SPLIT_WITH_ALT_ENTER": {
         "DESCRIPTION": {
-          "MAC": "在 Rem 中按 Return 键实现软换行（在当前 Rem 中插入换行符），同时按 Opt+ Return 键实现硬换行（将文本拆分成两个独立的 Rem）。（默认情况下Shift + Return 键和 Return 键分别实现上述行为）",
-          "PC": "在 Rem 中按 Enter 键实现软换行（在当前 Rem 中插入换行符），同时使用 Alt + Enter 键实现硬换行（将文本拆分成两个独立的 Rem）。（默认情况下Shift + Enter 键和 Enter 键分别实现上述行为）"
+          "MAC": "在 Rem 文本中间按 Opt+Return 时，将文本拆分为独立的 Rem",
+          "PC": "在 Rem 文本中间按 Alt+Enter 时，将文本拆分为独立的 Rem"
         },
         "TITLE": {
-          "MAC": "Opt + 回车键拆分文本",
-          "PC": "Alt + Enter 拆分文本"
+          "MAC": "Opt + 回车键拆分",
+          "PC": "Alt + Enter 拆分"
         }
       }
     },
     "NOTIFICATIONS": {
       "DESCRIPTIONS": {
         "ARTICLE_VIEWS": {
-          "LABEL": "开启后，可以收到文章阅读浏览量通知",
-          "TITLE": "文章浏览通知"
+          "LABEL": "您的共享文档正热门",
+          "TITLE": "文章浏览量通知"
         },
         "DOCUMENT_ADDED_TO_GROUP": {
-          "LABEL": "开启后，可以收到群组中添加文章的通知",
-          "TITLE": "群组添加文章通知"
+          "LABEL": "文档已添加到您所在的群组",
+          "TITLE": "文档添加到群组通知"
         },
         "INVITE": {
-          "LABEL": "开启后，可以收到群组邀请通知",
+          "LABEL": "您收到一个群组邀请",
           "TITLE": "邀请通知"
         },
         "NEW_COMMENT": {
-          "LABEL": "开启后，可以收到其他人评论您文章的通知",
+          "LABEL": "有人评论了您的共享文档",
           "TITLE": "评论通知"
         },
         "NEW_FOLLOWER": {
-          "LABEL": "开启后，可以收到其他人关注您的通知",
+          "LABEL": "有人关注了您",
           "TITLE": "关注通知"
         },
         "NEW_LIKE": {
-          "LABEL": "开启后，可以收到已分享文章的点赞通知",
+          "LABEL": "有人赞了您分享的文档",
           "TITLE": "点赞通知"
         },
         "STREAK": {
-          "LABEL": "好好学习，天天通知！",
-          "TITLE": "持续通知"
+          "LABEL": "开启每日提醒，保持学习连胜！",
+          "TITLE": "学习连胜提醒"
         }
       },
-      "ENABLE_COMMUNITY_LABEL": "当有人与您分享的内容互动时，立即接收通知。",
-      "ENABLE_COMMUNITY_TITLE": "共享记忆卡片通知",
-      "ENABLE_DUE_CARDS_LABEL": "开启后，在 RemNote 应用程序图标上以角标形式显示到期卡片总数",
-      "ENABLE_DUE_CARDS_TITLE": "启用卡片到期角标",
-      "ENABLE_EMAIL_LABEL": "发送通知到您的邮箱",
-      "ENABLE_EMAIL_TITLE": "开启电子邮件通知？",
+      "ENABLE_COMMUNITY_LABEL": "当有人与您的社区主页互动时，收到应用内通知",
+      "ENABLE_COMMUNITY_TITLE": "社区通知",
+      "ENABLE_DUE_CARDS_LABEL": "在 RemNote 应用图标上，以角标形式显示到期卡片总数",
+      "ENABLE_DUE_CARDS_TITLE": "卡片到期角标",
+      "ENABLE_EMAIL_LABEL": "直接将通知发送至您的收件箱",
+      "ENABLE_EMAIL_TITLE": "启用电子邮件社区通知",
       "ENABLE_EXAM_TITLE": "考试提醒",
-      "ENABLE_EXAM_DESCRIPTION": "如果您的备考进度滞后，将收到提醒邮件。",
-      "ENABLE_PUSH_LABEL": "开启后，发送消息通知到您的设备",
-      "ENABLE_PUSH_TITLE": "启用推送通知",
-      "ENABLE_STREAK_DESCRIPTION": "每天晚上6点接收关于您记忆卡片连续使用情况的提醒。",
-      "ENABLE_STREAK_TITLE": "移动端连续使用提醒",
-      "PUSH_ENABLE_MESSAGE": "此设备尚未配置推送通知。点击这里进行设置！",
-      "TOGGLE_LABEL": "管理发送到您的设备或邮箱的通知",
-      "TOGGLE_TITLE": "通知管理"
+      "ENABLE_EXAM_DESCRIPTION": "备考进度落后时，将通过电子邮件提醒您",
+      "ENABLE_PUSH_LABEL": "直接将通知发送至您的设备",
+      "ENABLE_PUSH_TITLE": "推送通知",
+      "ENABLE_STREAK_DESCRIPTION": "接收连胜提醒，可设定发送时间",
+      "ENABLE_STREAK_TITLE": "学习连胜提醒",
+      "PUSH_ENABLE_MESSAGE": "此设备尚未配置推送通知。点击此处进行设置！",
+      "TOGGLE_LABEL": "控制直接发送至您设备的通知类型",
+      "TOGGLE_TITLE": "在以下情况通知："
     },
     "PLANS": {
       "KEYWORDS": "邀请好友 更改订阅计划 订阅赚取积分 免费RemNote 发送推特电子邮件 选择计划 终身学习专业版 功能细分 定价选项",
@@ -670,10 +670,10 @@
         "TITLE": "自定义侧边栏"
       },
       "DOCUMENT_STATUSES": {
-        "LABEL": "将文档分为草稿、已完成和固定三类",
+        "LABEL": "将文档分为草稿、已完成和已固定三类",
         "TITLE": "文档状态"
       },
-      "PRIVACY_NOTE": "隐私：请阅读我们的<policyLink>隐私政策</policyLink>，您可以在<hubLink>隐私中心</hubLink>中更改您的设置。",
+      "PRIVACY_NOTE": "隐私：阅读我们的<policyLink>隐私政策</policyLink>，或在<hubLink>隐私中心</hubLink>更改您的设置",
       "SORT_SIDEBAR": {
         "KEYWORDS": "侧边栏按A-Z字母序排序",
         "TITLE": "侧边栏排序"
@@ -690,7 +690,7 @@
     "LABEL_EDIT_LATER": "稍后编辑",
     "LABEL_FLASHCARDS": "记忆卡片",
     "LABEL_INTERACTIVE_TOUR": "互动导览",
-    "LABEL_ONBOARDING_CALL": "发起新用户使用导览",
+    "LABEL_ONBOARDING_CALL": "发起入门指导通话",
     "LABEL_RESUME_INTERACTIVE_TOUR": "恢复互动导览",
     "LABEL_TODAYS_NOTE": "今日笔记",
     "LABEL_TUTORIALS": "教程",
@@ -708,19 +708,19 @@
       "LINK_WITH_COUNT_one": "{{count, number}} 链接",
       "LINK_WITH_COUNT_other": "{{count, number}} 链接",
       "OPEN_IN_READER": "在 RemNote 阅读器中打开",
-      "SEARCH_PLACEHOLDER": "粘贴链接或搜索并链接资源"
+      "SEARCH_PLACEHOLDER": "搜索任意 Rem（源、文档或项目符号）"
     },
     "UPLOAD_SOURCE": {
-      "EMPTY": "请将文件拖放到这里!（支持 PDF、Word 文档、PPT 以及<moreLink>更多</moreLink>类型）",
-      "IMPORT_INSTEAD": "RemNote 无法接受此类型的文件上传，但可以导入此文件中的笔记或记忆卡片！请尝试从左上角的账户菜单中选择‘导入’。",
-      "INVALID": "无效文件格式！",
-      "LABEL": "上传资源",
+      "EMPTY": "将 PDF、Word、PPT 以及<moreLink>更多</moreLink> 拖放到此处！",
+      "IMPORT_INSTEAD": "RemNote 不支持此类文件上传。但是，我们或许可以导入此文件中的笔记或闪卡！请从左上角账户菜单选择“导入”",
+      "INVALID": "抱歉，RemNote 不支持此类文件上传",
+      "LABEL": "添加源",
       "LABEL_MOBILE": "文件",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDF",
       "SELECT_FILES": "选择文件",
-      "SELECT_FILES_TO_UPLOAD": "选择上传文件",
+      "SELECT_FILES_TO_UPLOAD": "选择文件上传",
       "UPLOAD": "上传",
       "UPLOADING": "正在上传"
     },
@@ -728,21 +728,21 @@
       "LABEL": "录音"
     },
     "WIKIMEDIA_COMMONS": {
-      "EMPTY": "将 PDF、Word 文档、PPT 和 <moreLink>更多</moreLink> 文件拖放到这里！",
+      "EMPTY": "将 PDF、Word、PPT 以及<moreLink>更多</moreLink>拖放到此处！",
       "INVALID": "文件格式不正确！",
       "LABEL": "图片搜索",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "选择文件",
-      "SELECT_FILES_TO_UPLOAD": "选择上传的文件",
+      "SELECT_FILES_TO_UPLOAD": "选择文件上传",
       "UPLOADING": "正在上传"
     }
   },
   "TABLES": {
     "MENUS": {
       "FILTER": {
-        "ADD_ADVANCED_FILTER": "添加高级筛选条件",
+        "ADD_ADVANCED_FILTER": "添加高级筛选",
         "FILTER_TITLE": "筛选",
         "NO_PROPERTIES_AVAILABLE": "无可用属性，请添加新属性",
         "NO_FILTER": "无筛选条件"
