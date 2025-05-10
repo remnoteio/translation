@@ -703,6 +703,7 @@
       "EMBED_LINK": "嵌入链接",
       "INVALID_URL": "无效网址",
       "LABEL": "链接资源",
+      "LABEL_MOBILE": "链接",
       "LINK": "链接",
       "LINK_WITH_COUNT_one": "{{count, number}} 链接",
       "LINK_WITH_COUNT_other": "{{count, number}} 链接",
@@ -714,6 +715,7 @@
       "IMPORT_INSTEAD": "RemNote 无法接受此类型的文件上传，但可以导入此文件中的笔记或记忆卡片！请尝试从左上角的账户菜单中选择‘导入’。",
       "INVALID": "无效文件格式！",
       "LABEL": "上传资源",
+      "LABEL_MOBILE": "文件",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDF",
@@ -721,6 +723,9 @@
       "SELECT_FILES_TO_UPLOAD": "选择上传文件",
       "UPLOAD": "上传",
       "UPLOADING": "正在上传"
+    },
+    "RECORD_SOURCE": {
+      "LABEL": "录音"
     },
     "WIKIMEDIA_COMMONS": {
       "EMPTY": "将 PDF、Word 文档、PPT 和 <moreLink>更多</moreLink> 文件拖放到这里！",
