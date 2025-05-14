@@ -332,7 +332,7 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Utilize seu crédito",
-      "BALANCE_IN_MONTHS_SG": "{{numMonths}} ",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} mês",
       "BALANCE_IN_MONTHS_PL": "{{numMonths}} meses",
       "COPIED": "Copiado!",
       "COPYLINK": "Copiar Link",
