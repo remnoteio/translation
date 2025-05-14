@@ -332,6 +332,8 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Utilize seu crédito",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} ",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} meses",
       "COPIED": "Copiado!",
       "COPYLINK": "Copiar Link",
       "CREATE_ACCOUNT": "Crie uma conta para convidar amigos",
@@ -350,6 +352,7 @@
       "INVITE_TEXT": "Convide amigos e ganhe créditos",
       "KEYWORDS": "convidar amigos ganhar créditos plano mudar assinatura ganhar créditos grátis remnote enviar tweet email escolher plano aprendizado vitalício pro recursos detalhamento preços opções",
       "NOT_CONFIRMED_EMAIL": "(não confirmou e-mail)",
+      "REMAINING_MONTHS": "Meses Restantes",
       "SEND_INVITE": "Enviar convite",
       "SHARE_LINK": "Compartilhar link de convite",
       "TITLE": "Ganhe Créditos",
@@ -691,8 +694,10 @@
   "SOURCES": {
     "LINK_SOURCE": {
       "ENTER_URL": "Inserir URL",
+      "EMBED_LINK": "Incorporar Link",
       "INVALID_URL": "URL inválido",
       "LABEL": "Link da Fonte",
+      "LABEL_MOBILE": "Links",
       "LINK": "Link",
       "LINK_WITH_COUNT_one": "{{count, number}} Link",
       "LINK_WITH_COUNT_other": "{{count, number}} Links",
@@ -704,12 +709,17 @@
       "IMPORT_INSTEAD": "O RemNote não pode aceitar uploads de arquivos desse tipo. No entanto, talvez possamos importar as anotações ou flashcards desse arquivo! Tente escolher \"Importar\" no menu superior esquerdo da conta.",
       "INVALID": "Formato incorreto de arquivo",
       "LABEL": "Upload de Fonte",
+      "LABEL_MOBILE": "Arquivos",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Selecionar Arquivos",
       "SELECT_FILES_TO_UPLOAD": "Selecione arquivos para fazer upload",
+      "UPLOAD": "Enviar",
       "UPLOADING": "Enviando..."
+    },
+    "RECORD_SOURCE": {
+      "LABEL": "Registrar"
     },
     "WIKIMEDIA_COMMONS": {
       "EMPTY": "Solte PDFs, docs do Word, PPTs e<moreLink> mais</moreLink> aqui!",
