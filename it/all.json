@@ -12,6 +12,15 @@
       "UPDATE": "Aggiorna",
       "VIEW": "Mostra"
     },
+    "AI": {
+      "AI_FLASHCARDS": "Flashcard AI"
+    },
+    "GENERAL": {
+      "FLASHCARD_one": "Flashcard",
+      "FLASHCARD_other": "Flashcard",
+      "NOTE_one": "nota",
+      "NOTE_other": "note"
+    },
     "NEW": "Nuovo"
   },
   "COMMUNITY": {
@@ -20,11 +29,11 @@
         "SHARING": {
           "NO_CONTENT": {
             "SRC": "Il documento che stai tentando di condividere sembra un po' vuoto. Aggiungi almeno {{minimum}} rem, quindi riprova.",
-            "SUBDOCUMENT": "Uno dei tuoi documenti secondari sembra un po' vuoto. Non verrà pubblicato finché non avrà {{minimum}} rem."
+            "SUBDOCUMENT": "Uno dei tuoi sottodocumenti sembra un po' vuoto. Non verrà pubblicato finché non avrà {{minimum}} rem."
           },
           "NO_TITLE": {
             "SRC": "Il documento che stai tentando di condividere non ha un titolo. È necessario aggiungerne uno prima di pubblicarlo.",
-            "SUBDOCUMENT": "Uno dei tuoi documenti secondari non ha un titolo. Non sarà pubblicato finché non ne avrà uno."
+            "SUBDOCUMENT": "Uno dei tuoi sottodocumenti non ha un titolo. Non sarà pubblicato finché non ne avrà uno."
           }
         }
       }
@@ -32,23 +41,64 @@
   },
   "DOCUMENT": {
     "DIALOGS": {
-      "DELETE_ALSO_UNSHARE": "Vuoi anche annullare la condivisione del documento?"
+      "DELETE_ALSO_UNSHARE": "Vuoi anche annullare la condivisione del documento?",
+      "DELETE_CONFIRM_DIALOG": "Eliminare questo documento?",
+      "DELETE_UNSHARE_ERROR": "Impossibile disattivare la condivisione di questo documento. Disattivala manualmente.",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "Sei offline. Disattiva la condivisione del documento manualmente quando torni online."
     },
     "MENU": {
+      "ADD_NESTED_DOCUMENT": "Aggiungi documento annidato",
+      "CHANGE_DOCUMENT_ICON": "Cambia icona documento",
       "CHANGE_DOCUMENT_STATUS": "Cambia stato documento",
+      "CHANGE_FOLDER_ICON": "Cambia icona cartella",
+      "CUSTOMIZE_SPACED_REPETITION": "Personalizza ripetizione dilazionata",
       "DELETE": "Eliminare",
       "EDIT_MODE": {
-        "READ": "Modalità di sola lettura"
+        "READ": "Modalità di sola lettura",
+        "WRITE": "Modalità di modifica"
       },
       "EXPORT": "Esportare",
+      "FIND_OR_FILTER": "Trova o filtra",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "Questa opzione è obsoleta. Si consiglia di usare il metodo alternativo premendo <keycode /> e poi cercare riferimenti testuali.",
+        "LABEL": "Trova riferimenti testuali"
+      },
+      "MARK_AS_DOCUMENT": "Contrassegna come documento",
+      "MOVE": "Sposta",
+      "MULTI_SELECTION_FOLDER": "Seleziona più cartelle/documenti",
+      "MULTI_SELECTION_MODE": "Seleziona più rem",
+      "OPEN_IN_ANOTHER_PANE": "Apri in un altro riquadro",
+      "PIN_TO_SIDEBAR": "Fissa nella barra laterale",
       "PRINT": "Stampa",
-      "RENAME": "Rinominare",
-      "UNDO": "Disfare"
+      "RENAME": "Rinomina",
+      "SHOW_STUDY_BUTTON": "Mostra pulsante studio",
+      "STATS": "Statistiche",
+      "UNDO": "Annulla",
+      "UNPIN_FROM_SIDEBAR": "Sblocca dalla barra laterale",
+      "UNSHARE_DOCUMENT": "Disattiva condivisione documento",
+      "VIEW_GRAPH": "Visualizza grafo locale",
+      "VIEW_TRASH": "Visualizza cestino"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "Bozza",
+      "FINISHED": "Completato",
+      "PINNED": "Fissato"
+    }
+  },
+  "FILE_UPLOADING": {
+    "CACHED_INFO": "Questo file è memorizzato nella cache per la visualizzazione offline e potrebbe non essere ancora stato sincronizzato.",
+    "LOCAL_ONLY_WARN": "Questo file non è stato sincronizzato correttamente ed è temporaneamente archiviato sul tuo computer.",
+    "LOCAL_WAITING_FOR_UPLOAD_WARN": "Questo file non è ancora stato sincronizzato ed è archiviato solo localmente.",
+    "NOT_FOUND": "Questo file non è stato trovato.",
+    "NOT_YET_UPLOADED": "Questo file non è stato ancora sincronizzato",
+    "SNIPPING": {
+      "NON_PDF": "Prova un altro strumento di cattura/incolla oppure contatta l'assistenza.",
+      "PDF": "Contatta l'assistenza."
     }
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Lingua",
-    "TRANSLATION_INFO_SETTINGS": "La traduzione è ancora in corso; vedrai un mix di inglese e la lingua selezionata.<br> Puoi aiutarci a tradurre leggendo il<guideLink> tutorial</guideLink> e quindi utilizzando il nostro<editorLink> redattore web</editorLink>."
+    "TRANSLATION_INFO_SETTINGS": "La traduzione è ancora in corso; vedrai un mix di inglese e la lingua selezionata.<br>Puoi aiutarci a tradurre leggendo il <guideLink>tutorial</guideLink> e poi usando il nostro <editorLink>editor web</editorLink>."
   },
   "NOTIFICATIONS": {
     "ARTICLE_DEFAULT": "Il tuo documento",
@@ -59,6 +109,7 @@
     "DOCUMENT_ADDED_TO_GROUP": {
       "BODY": "è stato aggiunto a"
     },
+    "EMPTY_STATE_MESSAGE": "Sei aggiornato! Riceverai notifiche quando qualcuno interagisce con i contenuti condivisi sul tuo <profileLink>profilo</profileLink>",
     "EMPTY_STATE_TITLE": "Non hai notifiche recenti",
     "GROUP_DEFAULT": "Il tuo gruppo",
     "IMPORT": {
@@ -66,7 +117,7 @@
     },
     "INVITE": {
       "ACCEPT": "Accetta l'invito",
-      "BODY": "ti ha invitato a iscriverti",
+      "BODY": "ti ha invitato a unirti",
       "REJECT": "Rifiuta"
     },
     "NEW_COMMENT": {
@@ -79,7 +130,7 @@
       "BODY": "ti segue"
     },
     "NEW_LIKE": {
-      "BODY": "ha messo un Like"
+      "BODY": "ha messo un like"
     },
     "POPUP_TITLE": "Notifiche recenti"
   },
@@ -94,6 +145,9 @@
         },
         "PAGE_2": {
           "TITLE": "Crea una Flashcard"
+        },
+        "PAGE_3": {
+          "TITLE": "Organizza le note usando Tab"
         }
       }
     }
@@ -102,22 +156,84 @@
     "ALL_NOTES": {
       "SORT": {
         "ASCENDING": "A -> Z",
-        "BY_CREATION_TIME": "Per ora della creazione",
+        "BY_CREATION_TIME": "Per creazione",
         "BY_MODIFICATION": "Per modifica",
         "BY_TITLE": "Per titolo",
         "DESCENDING": "Z -> A",
-        "OLDEST_FIRST": "Prima i più vecchi",
-        "RECENTLY_MODIFIED": "Modificato di recente",
+        "OLDEST_FIRST": "Dal più vecchio",
+        "RECENTLY_MODIFIED": "Dal più recente",
         "OLDEST_CREATION_FIRST": "Prima la creazione più vecchia",
         "RECENTLY_CREATED": "Creato di recente"
       },
       "TITLE": "Tutte le Note"
     }
   },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "AI_DROPDOWN": {
+        "BASIC_CARDS": "Carte base",
+        "BASIC_CARDS_TOOLTIP": "Genera semplici flashcard con domanda e risposta dal testo selezionato.",
+        "CLOZE_CARDS": "Carte cloze (completamento)",
+        "CLOZE_CARDS_TOOLTIP": "Genera flashcard cloze dal testo selezionato",
+        "CONCEPT_CARDS": "Carte concetto",
+        "CONCEPT_CARDS_TOOLTIP": "Genera flashcard concetto-descrittore dal testo selezionato",
+        "GENERATE_SECTION": "GENERA"
+      },
+      "CLOZE_BTN_TOOLTIP": "Flashcard cloze (completamento)",
+      "COPY_IMAGE": "Copia immagine",
+      "COPY_IMAGE_AS_TEXT": "Compia immagine come testo con AI",
+      "COPY_TEXT": "Copia come testo semplice",
+      "HIGHLIGHT": "Evidenzia",
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "Crea flashcard con occlusione immagine",
+      "NOTE_BTN_TOOLTIP": "Nota",
+      "NO_TEXT_IN_PDF_WARN": "Questo file non contiene un livello di testo, ma è comunque possibile utilizzare le aree evidenziate per annotare."
+    },
+    "EDIT_ANNOTATIONS": {
+      "ADVANCED_LINKING_OPTIONS": "Opzioni avanzate di collegamento",
+      "DELETE_WARNING": "Questa evidenziazione ha {{notesCount, number}} {{ notesWord }}. Vuoi davvero eliminarla?",
+      "TURN_INTO_CONCEPT": "Trasforma in concetto",
+      "VIEW_REFERENCES": "Visualizza riferimenti"
+    },
+    "HEADER": {
+      "AREA_HIGHLIGHT_TOOLTIP": "Evidenzia un'area ({{keyName}} + trascina)",
+      "NUMBER_OF_PAGES_TOOLTIP": "Numero di pagine"
+    },
+    "PDF_OPTIONS": {
+      "CHANGE_THEME": "Cambia tema",
+      "DOWNLOAD_PDF": "Scarica PDF",
+      "LEARN_MORE": "Ulteriori informazioni",
+      "OPEN_WEBPAGE_EXTERNALLY": "Apri pagina web esternamente",
+      "PDF_SETTINGS": "Impostazioni",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "Evidenzia automaticamente",
+        "AUTO_HIGHLIGHT_TOOLTIP": "Evidenzia automaticamente il testo selezionato.",
+        "DISABLE_HEADER_BUTTONS": "Disattiva pulsanti della barra superiore",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "Nasconde i pulsanti della barra superiore («) dal visualizzatore.",
+        "SNAP_HIGHLIGHT_TO_WORDS": "Evidenzia parole intere",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "Quando si evidenzia, seleziona solo parole intere."
+      },
+      "REFETCH_PAGE": "Ricarica la pagina",
+      "REFETCH_PAGE_TOOLTIP": "Questa pagina non può essere ricaricata se contiene evidenziazioni.",
+      "SEARCH_IN_PDF": "Cerca nel PDF",
+      "SPLIT_PANES": "Riquadri separati",
+      "SPLIT_PANES_TOOLTIP": "Divide l'editor e il visualizzatore PDF in riquadri separati.",
+      "THEMES": {
+        "CLASSIC_INVERT": "Classico invertito",
+        "DARK": "Scuro",
+        "LIGHT": "Chiaro",
+        "SOLARISED": "Solarized",
+        "USE_REMNOTE_THEME": "Usa il tema di RemNote"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "DONE": "Fatto",
+      "INPUT_PLACEHOLDER": "Cerca"
+    }
+  },
   "POPUPS": {
     "CREATE_CONTENT_OPTIONS": {
       "DOCUMENT": {
-        "DESCRIPTION": "Organizza appunti su lezioni, fonti o idee nei documenti.",
+        "DESCRIPTION": "Organizza flashcard e appunti in documenti.",
         "TITLE": "Documento"
       },
       "FOLDER": {
@@ -137,7 +253,7 @@
         "TITLE": "Documento di Oggi"
       },
       "UPLOAD_FILE": {
-        "DESCRIPTION": "Evidenzia e referenzia un PDF, PowerPoint, documento Word o altro file.",
+        "DESCRIPTION": "Evidenzia e crea collegamenti in PDF, PowerPoint, documenti Word, ecc.",
         "FEATURE_NAME": "Evidenziazione PDF",
         "PAYWALL": "Hai raggiunto il limite per i caricamenti di PDF.",
         "TITLE": "Carica e annota il file"
@@ -151,7 +267,13 @@
   "SETTINGS": {
     "ACCOUNT": {
       "ADVANCED_TITLE": "Impostazioni avanzate",
+      "AUTHENTICATION": {
+        "KEYWORDS": "Logout Log out Esci Google Login Accesso Accedi Metodo Aggiungi Disconnetti Sign In Entra Sign Up Registrati"
+      },
       "AUTHENTICATION_TITLE": "Autenticazione",
+      "CACHING": {
+        "DESCRIPTION": "Memorizza le immagini nella cache quando vengono caricate, così che possano essere visualizzate offline."
+      },
       "DANGER_ZONE": {
         "TITLE": "Zona pericolosa"
       },
@@ -430,8 +552,7 @@
       "LINK": "Collegamento",
       "LINK_WITH_COUNT_one": "Collegamento {{count, number}}",
       "LINK_WITH_COUNT_other": "{{count, number}} Collegamenti",
-      "OPEN_IN_READER": "Apri nel Lettore",
-      "SEARCH_PLACEHOLDER": "Incolla un collegamento o cerca un Riferimento"
+      "OPEN_IN_READER": "Apri nel visualizzatore"
     },
     "UPLOAD_SOURCE": {
       "EMPTY": "Trascina PDF, documenti Word, PPT e<moreLink> Di più</moreLink> qui!",
