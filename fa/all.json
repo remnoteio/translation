@@ -578,7 +578,70 @@
       "ENABLE_EMAIL_TITLE": "فعال کردن اعلان‌های انجمن از طریق ایمیل",
       "ENABLE_EXAM_TITLE": "یادآوری‌های امتحان",
       "ENABLE_EXAM_DESCRIPTION": "اگر از آمادگی برای امتحان عقب هستید، ایمیل دریافت کنید",
-      "ENABLE_PUSH_LABEL": "اعلان‌ها را مستقیماً روی دستگاه خود دریافت کنید"
+      "ENABLE_PUSH_LABEL": "اعلان‌ها را مستقیماً روی دستگاه خود دریافت کنید",
+      "TOGGLE_TITLE": "اطلاع رسانی در زمانی که:"
+    },
+    "PLANS": {
+      "TITLE": "طرح‌ها"
+    },
+    "SIDEBAR": {
+      "CUSTOMIZE_SIDEBAR_SECTIONS": {
+        "TITLE": "سازماندهی نوار کناری"
+      },
+      "DOCUMENT_STATUSES": {
+        "TITLE": "وضعیت اسناد"
+      },
+      "SORT_SIDEBAR": {
+        "KEYWORDS": "سازماندهی نوار‌های کناری مرتب سازی از الف تا ی",
+        "TITLE": "نوار کناری مرتب سازی"
+      }
+    }
+  },
+  "SIDEBAR": {
+    "LABEL_ALL_NOTES": "همه‌ی یادداشت‌ها",
+    "LABEL_EDIT_LATER": "بعداً ویرایش کنید",
+    "LABEL_FLASHCARDS": "فلش کارت‌ها",
+    "LABEL_INTERACTIVE_TOUR": "تور تعاملی",
+    "LABEL_ONBOARDING_CALL": "یک تماس تلفنی برای شروع کار تنظیم کنید",
+    "LABEL_RESUME_INTERACTIVE_TOUR": "تور تعاملی را ادامه دهید",
+    "LABEL_TODAYS_NOTE": "یادداشت امروز",
+    "LABEL_TUTORIALS": "آموزش‌ها",
+    "TOOLTIP_EDIT_LATER_QUEUE": "صف ویرایش را باز کنید",
+    "TOOLTIP_FLASHCARD_HOME": "به صفحه اصلی فلش کارت بروید"
+  },
+  "SOURCES": {
+    "LINK_SOURCE": {
+      "ENTER_URL": "آدرس اینترنتی را وارد کنید",
+      "EMBED_LINK": "پیوند را جاسازی کنید",
+      "INVALID_URL": "آدرس اینترنتی نامعتبر",
+      "LABEL": "منبع لینک",
+      "LABEL_MOBILE": "پیوندها",
+      "LINK": "پیوند",
+      "LINK_WITH_COUNT_one": "{{count, number}} لینک",
+      "LINK_WITH_COUNT_other": "{{count, number}} لینک",
+      "OPEN_IN_READER": "باز کردن در خواننده",
+      "SEARCH_PLACEHOLDER": "جستجوی هر Rem (منبع، سند یا بولت)"
+    },
+    "UPLOAD_SOURCE": {
+      "LABEL": "منبع را اضافه کنید",
+      "LABEL_MOBILE": "فایل‌ها",
+      "PDF": "پی دی اف",
+      "PDF_WITH_COUNT_one": "{{count, number}} پی دی اف",
+      "PDF_WITH_COUNT_other": "{{count, number}} پی دی اف",
+      "SELECT_FILES": "انتخاب فایل‌ها",
+      "UPLOAD": "آپلود",
+      "UPLOADING": "در حال آپلود..."
+    },
+    "RECORD_SOURCE": {
+      "LABEL": "رکورد"
+    },
+    "WIKIMEDIA_COMMONS": {
+      "INVALID": "فرمت فایل اشتباه است!",
+      "LABEL": "جستجوی تصویر",
+      "PDF": "پی دی اف",
+      "PDF_WITH_COUNT_one": "{{count, number}} پی دی اف",
+      "PDF_WITH_COUNT_other": "{{count, number}} پی دی اف",
+      "SELECT_FILES": "انتخاب فایل‌ها"
     }
   }
 }
