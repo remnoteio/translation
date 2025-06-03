@@ -668,7 +668,9 @@
       "SEARCH_PLACEHOLDER": "Search for any Rem (source, document, or bullet)"
     },
     "UPLOAD_SOURCE": {
-      "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
+      "EMPTY": "Drop files here or <chooseFiles>choose files</chooseFiles>",
+      "FILE_TYPES": "Accepts PDF, Word, PPT, XLSX, ePub, and <moreLink>more formats</moreLink>.",
+      "PASTE_URL": "Paste YouTube, PDF, or web URL",
       "IMPORT_INSTEAD": "RemNote cannot accept file uploads of this type. However, we might be able to import the notes or flashcards in this file! Try choosing “Import” from the upper-left account menu.",
       "INVALID": "Sorry, RemNote cannot accept file uploads of this type.",
       "LABEL": "Add Source",
@@ -685,15 +687,7 @@
       "LABEL": "Record"
     },
     "WIKIMEDIA_COMMONS": {
-      "EMPTY": "Drop PDFs, Word docs, PPTs, and <moreLink>more</moreLink> here!",
-      "INVALID": "Incorrect file format!",
-      "LABEL": "Image Search",
-      "PDF": "PDF",
-      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
-      "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
-      "SELECT_FILES": "Select files",
-      "SELECT_FILES_TO_UPLOAD": "Select files to upload",
-      "UPLOADING": "Uploading..."
+      "LABEL": "Image Search"
     }
   },
   "TABLES": {
