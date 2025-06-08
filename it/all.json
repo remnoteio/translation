@@ -266,20 +266,35 @@
   },
   "SETTINGS": {
     "ACCOUNT": {
+      "ADVANCED": {
+        "KEYWORDS": "Supporto Rewire Search Ricerca Fix Risolvi Bug"
+      },
       "ADVANCED_TITLE": "Impostazioni avanzate",
       "AUTHENTICATION": {
         "KEYWORDS": "Logout Log out Esci Google Login Accesso Accedi Metodo Aggiungi Disconnetti Sign In Entra Sign Up Registrati"
       },
       "AUTHENTICATION_TITLE": "Autenticazione",
       "CACHING": {
-        "DESCRIPTION": "Memorizza le immagini nella cache quando vengono caricate, così che possano essere visualizzate offline."
+        "DESCRIPTION": "Memorizza le immagini nella cache quando vengono caricate, così che possano essere visualizzate offline.",
+        "NUMBER_DESCRIPTION": "Imposta il massimo numero di immagini da memorizzare nella cache. Quando il limite viene raggiunto, le immagini meno recenti saranno rimosse dalla cache.",
+        "NUMBER_TITLE": "Massimo numero di immagini nella cache",
+        "TITLE": "Cache",
+        "TOGGLE_DESCRIPTION": "Quando non attivo, qualunque immagine memorizzata nella cache sarà rimossa",
+        "TOGGLE_TITLE": "Attiva cache"
       },
       "DANGER_ZONE": {
+        "KEYWORDS": "sync sincronizzazione log delete eliminare account resettare reimpostare walkthrough introduzione progresso reset onboarding tour guida advanced avanzate account settings impostazioni",
         "TITLE": "Zona pericolosa"
       },
       "DANGER_ZONE_TITLE": "Zona pericolosa",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Export Esporta Backup Export Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
       "IMPORT_EXPORT_TITLE": "Importazione e esportazione",
       "MY_PROFILE": "Il mio profilo",
+      "NAVIGATION": {
+        "KEYWORDS": "Export and Backup Esporta Trash Cestino View Deleted Rem Visualizza Rem Eliminati Cancellati Import Importa Knowledge Base View All Cards Vedi Tutte Le Carte Download a Daily Backup Scarica Un Backup Giornaliero Advanced Settings Impostazioni Avanzate Delete All Rem Elimina Tutti I Rem"
+      },
       "NAVIGATION_TITLE": "Navigazione",
       "PRIVACY": {
         "KEYWORDS": "privacy",
@@ -291,6 +306,7 @@
       },
       "PROFILE_TITLE": "Profilo",
       "SUPPORT": {
+        "KEYWORDS": "supporto ticket run help aiuto",
         "TITLE": "Supporto"
       },
       "SYNCING": {
@@ -304,27 +320,33 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Utilizza il tuo credito",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} mese",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} mesi",
       "COPIED": "Copiato!",
       "COPYLINK": "Copia link",
       "CREATE_ACCOUNT": "Crea un account per invitare gli amici",
       "EMAIL_PLACEHOLDER": "mariorossi@gmail.com",
       "ENTER_VALID_EMAIL": "Inserire un'email valida!",
       "FRIENDS_TITLE": "Amici",
-      "FRIEND_ALREADY_ON_REMNOTE": "Il tuo amico è già in RemNote",
+      "FRIEND_ALREADY_ON_REMNOTE": "Il tuo amico è già su RemNote",
+      "HANG_ON": "Attendi",
       "INVITE": "Invita",
       "INVITED_YOU": " (ti ha invitato)",
       "INVITE_COPIED": "Link di invito copiato!",
       "INVITE_EMAIL": "Invita tramite e-mail",
       "INVITE_ERROR": "Qualcosa è andato storto. Per favore riprova più tardi.",
       "INVITE_FRIENDS_EARN_CREDIT": "Invita i tuoi amici a guadagnare credito! Riceverai <0>{{monthlyPrice}}</0> in credito RemNote quando la persona che inviti si registra per un account RemNote e lei riceverà anche <0>{{monthlyPrice}}</0> credito per iniziare.",
-      "INVITE_FRIENDS_REMNOTE": "Invita i tuoi amici in RemNote!",
+      "INVITE_FRIENDS_REMNOTE": "Invita i tuoi amici su RemNote!",
       "INVITE_TEXT": "Invita amici e guadagna credito",
+      "KEYWORDS": "invite friends invita amici earn credit guadagna crediti plan piano change subscription cambia abbonamento cambia versione earn credits free guadagna crediti gratuiti remnote send tweet email invia choose plan scegli piano life-long learning apprendimento a vita pro feature funzionalità pro breakdown dettagli pricing options piani tariffari piano tariffario",
       "NOT_CONFIRMED_EMAIL": " (non ha confermato l'email)",
-      "SEND_INVITE": "Invia un invito",
+      "REMAINING_MONTHS": "Mesi rimasti",
+      "SEND_INVITE": "Manda un invito",
       "SHARE_LINK": "Condividi il collegamento di invito",
       "TITLE": "Guadagna crediti",
       "TOAST_RENEW": "I tuoi crediti verranno utilizzati automaticamente al rinnovo del tuo abbonamento attuale.",
       "TOAST_SUBSCRIBE": "I tuoi crediti verranno utilizzati automaticamente quando ti iscrivi a RemNote Pro. Scegli un piano qui sotto per iniziare!",
+      "TOTAL_MONTHS_EARNED": "Mesi totali di Pro guadagnati",
       "VERIFY_EMAIL": "Per invitare qualcuno, verifica prima la tua email.",
       "CREDIT_BALANCE": "Credito disponibile",
       "CREDIT_BALANCE_TEXT": "Hai <bold>{{userCredit}}</bold> credito residuo e hai guadagnato <bold>{{userCreditEarned}}</bold> credito in totale. {{months}} mese o mesi rimanenti di RemNote Pro gratis.<br /><br /> Iscriviti a Pro per iniziare a utilizzare il tuo credito! Non ti verrà addebitato alcun importo fino all'esaurimento del credito."
@@ -332,6 +354,7 @@
     "EDITOR": {
       "DATES_AND_TIMES": {
         "DATE_FORMATTING": {
+          "DESCRIPTION": "Mostra le date in RemNote in questo formato.",
           "TITLE": "Formattazione della data"
         },
         "DATE_FORMATTING_CUSTOM": {
@@ -352,13 +375,15 @@
           "DESCRIPTION": {
             "MAC": "Quando crei un Rem premendo Cmd+Invio in una ricerca, scrivi in maiuscolo il suo nome.",
             "PC": "Quando crei un Rem premendo Ctrl+Invio in una ricerca, scrivi in maiuscolo il suo nome."
-          }
+          },
+          "TITLE": "Maiuscola automatica dalla ricerca"
         },
         "CREATE_CONCEPTS_FROM_SEARCH": {
           "DESCRIPTION": {
             "MAC": "Quando crei un Rem premendo Cmd+Invio in una ricerca, trasformalo in un Concetto.",
             "PC": "Quando crei un Rem premendo Ctrl+Invio in una ricerca, trasformalo in un Concetto."
-          }
+          },
+          "TITLE": "Crea concetti dalla ricerca"
         },
         "ENABLE_SPELLCHECK": {
           "TITLE": "Abilita il controllo ortografico"
@@ -566,9 +591,9 @@
       "UPLOADING": "Caricamento..."
     },
     "WIKIMEDIA_COMMONS": {
+      "LABEL": "Ricerca di immagini",
       "EMPTY": "Trascina PDF, documenti Word, PPT e<moreLink> Di più</moreLink> qui!",
       "INVALID": "Formato file errato!",
-      "LABEL": "Ricerca di immagini",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDF",
