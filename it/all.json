@@ -130,7 +130,7 @@
       "BODY": "ti segue"
     },
     "NEW_LIKE": {
-      "BODY": "ha messo like a"
+      "BODY": "ha messo mi piace a"
     },
     "POPUP_TITLE": "Notifiche recenti"
   },
@@ -509,6 +509,12 @@
           "TITLE": "Tempo massimo di risposta della Flashcard"
         }
       },
+      "VISUAL": {
+        "SHOW_NEXT_REVIEW_TIMES": {
+          "DESCRIPTION": "Quando stai ripetendo con ripetizione dilazionata, mostra il tempo per la prossima ripetizione sui pulsanti della risposta.",
+          "TITLE": "Mostra la prossima ripetizione"
+        }
+      },
       "AI": {
         "ENABLE": {
           "DESCRIPTION": "Utilizza il completamento automatico, la valutazione e la generazione di flashcard basati sull'intelligenza artificiale. Frammenti delle tue note verranno inviati a OpenAI quando utilizzi molte delle funzionalità AI. Trova l'informativa sulla privacy di OpenAI su https://openai.com/policies/privacy-policy.",
@@ -521,8 +527,12 @@
       }
     },
     "GLOBAL_INTERFACE": {
+      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
+        "KEYWORDS": "language linguaggio community comunità documents documenti search ricerca flashcards share shared condivisione condividi download scaricare find trovare",
+        "TITLE": "Linguaggio cercato per le flashcard condivise"
+      },
       "DARK_MODE": {
-        "LABEL": "Usa questa combinazione di colori.",
+        "LABEL": "Usa questo schema di colori.",
         "TITLE": "Modalità scura"
       },
       "FULL_WIDTH": {
@@ -530,16 +540,21 @@
         "TITLE": "Intera larghezza"
       },
       "INTERFACE": {
+        "KEYWORDS": "lang language linguaggio translation traduzione translate traduci i18n l10n",
         "TITLE": "Linguaggio dell'interfaccia di RemNote"
       },
       "IN_APP_SUGGESTIONS": {
-        "LABEL": "Mostra suggerimenti sulle funzionalità di RemNote che potresti provare nella parte superiore del documento."
+        "KEYWORDS": "tooltips suggerimenti help aiuto supporto learn impara tutorial guida",
+        "LABEL": "Mostra suggerimenti sulle funzionalità di RemNote che potresti provare in cima al documento.",
+        "TITLE": "Suggerimenti in cima al documento"
       },
       "LEFT_SIDEBAR_TUTORIALS": {
-        "LABEL": "Mostra tutorial sulle funzionalità di RemNote che stai attualmente utilizzando nell'angolo dello schermo.",
+        "KEYWORDS": "in app left sidebar barra laterale sinistra tutorials guida tooltips suggerimenti help aiuto supporto learn impara tutorial",
+        "LABEL": "Mostra tutorial sulle funzionalità di RemNote in fondo alla barra laterale.",
         "TITLE": "Tutorial in-app"
       },
       "ONBOARDING_TIPS_SHORTCUTS": {
+        "KEYWORDS": "tooltips suggerimenti help aiuto supporto learn imparare tutorial guida",
         "LABEL": "Mostra suggerimenti sulle scorciatoie da tastiera attualmente in uso nell'angolo dello schermo.",
         "TITLE": "Suggerimenti per le scorciatoie da tastiera"
       },
@@ -550,16 +565,27 @@
     },
     "KEYBOARD_SHORTCUTS": {
       "CHANGE_KEYBOARD_SHORTCUTS": {
-        "TITLE": "Cambia le scorciatoie da tastiera"
+        "DESCRIPTION": "Personalizza i tasti assegnati alle scorciatoie da tastiera.",
+        "KEYWORDS": "change cambia customize personalizza keyboard shortcuts scorciatoie da tastiera mapping associazioni assegnazioni keybinding tasti",
+        "TITLE": "Scorciatoie da tastiera"
+      },
+      "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
+        "DESCRIPTION": "Usa le scorciatoie da tastiera legacy per impostazione predefinita (precedenti all’aggiornamento di agosto 2020).",
+        "TITLE": "Scorciatoie da tastiera predefinite legacy"
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
-        "DESCRIPTION": "Digita // invece di / per attivare i comandi durante la modifica dei Rems.",
+        "DESCRIPTION": "Digita // invece di / per attivare i comandi durante la modifica dei Rem.",
         "TITLE": "Doppio Slash per il menu dei comandi"
       },
       "ENTER_TO_OUTDENT": {
-        "TITLE": "Premere Invio per ridurre il rientro"
+        "LABEL": "Quando premi Invio su un Rem vuoto che non si trova al livello principale del documento, riduci il rientro di un livello.\n(Se non attivo, rimani allo stesso livello e lascia un Rem vuoto.)",
+        "TITLE": "Invio riduce il rientro"
       },
       "SPLIT_WITH_ALT_ENTER": {
+        "DESCRIPTION": {
+          "MAC": "Dividi il testo in Rem separati quando si preme Opt+Invio in mezzo a un Rem.",
+          "PC": "Dividi il testo in Rem separati quando si preme Alt+Invio in mezzo a un Rem."
+        },
         "TITLE": {
           "MAC": "Dividi con Opt+Invio",
           "PC": "Dividi con Alt+Invio"
@@ -569,26 +595,32 @@
     "NOTIFICATIONS": {
       "DESCRIPTIONS": {
         "ARTICLE_VIEWS": {
-          "LABEL": "Ricevi una notifica quando il tuo documento condiviso inizia a ottenere visualizzazioni significative",
-          "TITLE": "Notifica di visualizzazioni dei documenti"
+          "LABEL": "Il tuo documento condiviso sta diventando popolare",
+          "TITLE": "Notifiche visualizzazioni dei documenti"
         },
         "DOCUMENT_ADDED_TO_GROUP": {
-          "LABEL": "Ricevi una notifica quando un documento viene aggiunto al tuo gruppo",
-          "TITLE": "Notifica di documento aggiunto al gruppo"
+          "LABEL": "Un documento viene aggiunto a un gruppo a cui partecipi",
+          "TITLE": "Notifiche documenti aggiunti ai gruppi"
         },
         "INVITE": {
-          "LABEL": "Ricevi una notifica quando sei stato invitato a un gruppo",
-          "TITLE": "Notifiche di invito"
+          "LABEL": "Sei invitato a un gruppo",
+          "TITLE": "Notifiche inviti"
         },
         "NEW_COMMENT": {
-          "LABEL": "Ricevi una notifica quando qualcuno commenta il tuo documento condiviso",
-          "TITLE": "Notifica di commento"
+          "LABEL": "Qualcuno commenta il tuo documento condiviso",
+          "TITLE": "Notifiche commenti"
         },
         "NEW_FOLLOWER": {
-          "LABEL": "Ricevi una notifica quando qualcuno ti segue"
+          "LABEL": "Qualcuno ti segue",
+          "TITLE": "Notifiche seguaci"
         },
         "NEW_LIKE": {
-          "TITLE": "Notifiche di Like"
+          "LABEL": "Qualcuno mette mi piace a un documento che hai condiviso",
+          "TITLE": "Notifiche mi piace"
+        },
+        "STREAK": {
+          "LABEL": "Ricevi notifiche giornaliere per mantenere la serie di studio!",
+          "TITLE": "Notifiche serie"
         }
       },
       "ENABLE_DUE_CARDS_LABEL": "Mostra il numero totale di carte da ripetere come badge sull'icona di RemNote",
