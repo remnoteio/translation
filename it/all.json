@@ -253,7 +253,7 @@
         "TITLE": "Documento di Oggi"
       },
       "UPLOAD_FILE": {
-        "DESCRIPTION": "Evidenzia e crea collegamenti in PDF, PowerPoint, documenti Word, ecc.",
+        "DESCRIPTION": "Evidenzia e crea riferimenti in PDF, PowerPoint, documenti Word, ecc.",
         "FEATURE_NAME": "Evidenziazione PDF",
         "PAYWALL": "Hai raggiunto il limite per i caricamenti di PDF.",
         "TITLE": "Carica e annota il file"
@@ -385,8 +385,20 @@
           },
           "TITLE": "Crea concetti dalla ricerca"
         },
+        "CREATE_STUBS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "Quando crei un Rem premendo Cmd+Invio in una ricerca, aggiungi il tag \"Stub\".",
+            "PC": "Quando crei un Rem premendo Ctrl+Invio in una ricerca, aggiungi il tag \"Stub\"."
+          },
+          "TITLE": "Crea Stub dalla ricerca"
+        },
         "ENABLE_SPELLCHECK": {
+          "DESCRIPTION": "Controlla l'ortografia del Rem attuale. Il controllo selezionato usa il/i linguaggio/i selezionato/i nel browser o nel sistema operativo.",
           "TITLE": "Abilita il controllo ortografico"
+        },
+        "INSERT_EMOJIS_AS_REFERENCES": {
+          "DESCRIPTION": "Crea un riferimento quando viene selezionato un emoji dalla ricerca %%.",
+          "TITLE": "Inserisci emoji come riferimenti"
         }
       }
     },
@@ -400,25 +412,38 @@
         "TITLE": "Mostra anteprima dei Riferimenti al passaggio del mouse"
       },
       "SCALE_COLLAPSED_REM_BULLETS": {
-        "LABEL": "Quando un Rem è compresso, allarga o rimpicciolisci l'anello attorno al suo punto elenco in base al numero totale di figli."
+        "LABEL": "Quando un Rem è compresso, allarga o rimpicciolisci l'anello attorno al suo punto elenco in base al numero totale di figli.",
+        "TITLE": "Ridimensiona i punti elenco dei Rem compressi"
       },
       "SINGLE_CLICK_REFERENCES_TO_OPEN": {
-        "TITLE": "Apri i Riferimenti con un solo click"
+        "LABEL": "Quando tocchi o fai clic su un riferimento, vai immediatamente alla destinazione, invece di aprirla nel menu dei riferimenti. (Puoi sempre mostrare il menu dei riferimenti facendo clic destro.)",
+        "TITLE": "Apri i Riferimenti con un solo clic"
+      },
+      "SMOOTHLY_ANIMATE_THE_EDITOR": {
+        "LABEL": "Anima l'aggiunta o l'eliminazione dei Rem nell'editor.",
+        "TITLE": "Animazioni fluide dell’editor"
       }
     },
     "FLASHCARDS": {
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
-          "DESCRIPTION": "Limita il numero di flashcard sulle quali RemNote ti chiederà di esercitarti per raggiungere il tuo obiettivo giornaliero a questo valore.",
-          "TITLE": "Obiettivo giornaliero massimo"
+          "DESCRIPTION": "Ripeti almeno questo numero di flashcard in un giorno per iniziare o mantenere una serie.",
+          "TITLE": "Obiettivo"
         },
-        "TODAYS_TARGET": "Obiettivo di oggi:",
-        "TODAYS_TARGET_EXPLANATION": "RemNote tenta di impostare il tuo obiettivo giornaliero in modo tale che, se raggiungi l'obiettivo ogni giorno, completerai tutte le carte destinate alla revisione nei prossimi 7 giorni. Tuttavia, l'obiettivo giornaliero non sarà mai superiore al massimo sopra impostato."
+        "TODAYS_TARGET": "Obiettivo ottimizzato di oggi:",
+        "TODAYS_TARGET_EXPLANATION": "Se RemNote prevede che, nella prossima settimana, avrai in media meno carte da ripetere rispetto al tuo obiettivo giornaliero configurato, ridurremo temporaneamente il tuo obiettivo giornaliero. In questo modo, avrai un numero di carte più equilibrato ogni giorno, anziché molte all’inizio e poche alla fine."
       },
       "GENERAL": {
         "AUTOPLAY_MEDIA": {
-          "DESCRIPTION": "Quando mostri una flashcard, riproduci automaticamente qualsiasi audio o video contenuto in essa.",
+          "DESCRIPTION": "Riproduci automaticamente audio o video contenuti nelle flashcard.",
           "TITLE": "Riproduzione automatica dei contenuti multimediali"
+        },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "DESCRIPTION": "Quando viene visualizzata una flashcard, riproduci automaticamente la sintesi vocale del fronte della carta, e del retro non appena viene rivelato.",
+          "TITLE": "Riproduzione automatica della sintesi vocale"
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "DESCRIPTION": "Quando hai ripetuto tutte le carte in programma, quanto in anticipo possiamo mostrarti carte non ancora in programma? Questo ti aiuta a evitare nuove carte da ripetere poco dopo."
         },
         "NEW_CARDS_PER_DAY": {
           "DESCRIPTION": "Includi al massimo questo numero di flashcard appena create nella tua coda di flashcard ogni giorno. In questo modo, le nuove carte entreranno nella tua coda a una velocità giornaliera costante, anziché tutte insieme.",
@@ -499,10 +524,6 @@
         "TITLE": "Premere Invio per ridurre il rientro"
       },
       "SPLIT_WITH_ALT_ENTER": {
-        "DESCRIPTION": {
-          "MAC": "Quando premi Invio nel mezzo di un Rem, crea un'interruzione di riga all'interno di quel Rem e utilizza invece Opt+Invio per suddividere il testo in due Rem separati. (Per impostazione predefinita, Shift+Invio e Invio, rispettivamente, svolgono queste funzioni.)",
-          "PC": "Quando premi Invio nel mezzo di un Rem, crea un'interruzione di riga all'interno di quel Rem e utilizza invece Alt+Invio per suddividere il testo in due Rem separati. (Per impostazione predefinita, Shift+Invio e Invio, rispettivamente, svolgono queste funzioni.)"
-        },
         "TITLE": {
           "MAC": "Dividi con Opt+Invio",
           "PC": "Dividi con Alt+Invio"
@@ -534,6 +555,8 @@
           "TITLE": "Notifiche di Like"
         }
       },
+      "ENABLE_DUE_CARDS_LABEL": "Mostra il numero totale di carte da ripetere come badge sull'icona di RemNote",
+      "ENABLE_DUE_CARDS_TITLE": "Badge carte da ripetere",
       "ENABLE_EMAIL_LABEL": "Ricevi notifiche direttamente nella tua casella di posta",
       "ENABLE_EMAIL_TITLE": "Abilitare le notifiche email?",
       "ENABLE_PUSH_LABEL": "Ricevi notifiche direttamente sul tuo dispositivo",
