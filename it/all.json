@@ -671,7 +671,6 @@
       "OPEN_IN_READER": "Apri nel visualizzatore"
     },
     "UPLOAD_SOURCE": {
-      "EMPTY": "Trascina PDF, documenti Word, PPT e<moreLink> Di più</moreLink> qui!",
       "INVALID": "Formato file errato!",
       "LABEL": "Carica",
       "PDF": "PDF",
@@ -682,15 +681,7 @@
       "UPLOADING": "Caricamento..."
     },
     "WIKIMEDIA_COMMONS": {
-      "LABEL": "Ricerca di immagini",
-      "EMPTY": "Trascina PDF, documenti Word, PPT e<moreLink> Di più</moreLink> qui!",
-      "INVALID": "Formato file errato!",
-      "PDF": "PDF",
-      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
-      "PDF_WITH_COUNT_other": "{{count, number}} PDF",
-      "SELECT_FILES": "Seleziona file",
-      "SELECT_FILES_TO_UPLOAD": "Seleziona i file da caricare",
-      "UPLOADING": "Caricamento..."
+      "LABEL": "Ricerca di immagini"
     }
   },
   "TABLES": {
