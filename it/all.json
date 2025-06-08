@@ -161,9 +161,7 @@
         "BY_TITLE": "Per titolo",
         "DESCENDING": "Z -> A",
         "OLDEST_FIRST": "Dal più vecchio",
-        "RECENTLY_MODIFIED": "Dal più recente",
-        "OLDEST_CREATION_FIRST": "Prima la creazione più vecchia",
-        "RECENTLY_CREATED": "Creato di recente"
+        "RECENTLY_MODIFIED": "Dal più recente"
       },
       "TITLE": "Tutte le Note"
     }
@@ -347,9 +345,7 @@
       "TOAST_RENEW": "I tuoi crediti verranno utilizzati automaticamente al rinnovo del tuo abbonamento attuale.",
       "TOAST_SUBSCRIBE": "I tuoi crediti verranno utilizzati automaticamente quando ti iscrivi a RemNote Pro. Scegli un piano qui sotto per iniziare!",
       "TOTAL_MONTHS_EARNED": "Mesi totali di Pro guadagnati",
-      "VERIFY_EMAIL": "Per invitare qualcuno, verifica prima la tua email.",
-      "CREDIT_BALANCE": "Credito disponibile",
-      "CREDIT_BALANCE_TEXT": "Hai <bold>{{userCredit}}</bold> credito residuo e hai guadagnato <bold>{{userCreditEarned}}</bold> credito in totale. {{months}} mese o mesi rimanenti di RemNote Pro gratis.<br /><br /> Iscriviti a Pro per iniziare a utilizzare il tuo credito! Non ti verrà addebitato alcun importo fino all'esaurimento del credito."
+      "VERIFY_EMAIL": "Per invitare qualcuno, verifica prima la tua email."
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -514,16 +510,6 @@
           "DESCRIPTION": "Quando stai ripetendo con ripetizione dilazionata, mostra il tempo per la prossima ripetizione sui pulsanti della risposta.",
           "TITLE": "Mostra la prossima ripetizione"
         }
-      },
-      "AI": {
-        "ENABLE": {
-          "DESCRIPTION": "Utilizza il completamento automatico, la valutazione e la generazione di flashcard basati sull'intelligenza artificiale. Frammenti delle tue note verranno inviati a OpenAI quando utilizzi molte delle funzionalità AI. Trova l'informativa sulla privacy di OpenAI su https://openai.com/policies/privacy-policy.",
-          "TITLE": "Abilita funzionalità AI"
-        },
-        "OPENAI_KEY": {
-          "TITLE": "Chiave API OpenAI",
-          "DESCRIPTION": "Se ti ritrovi a superare la quota mensile di richieste AI, puoi registrarti per una chiave API su https://platform.openai.com/account/api-keys e inserirla qui per pagare il tuo utilizzo. Tieni presente che questa è una funzionalità beta e potrebbe essere rimossa in qualsiasi momento."
-        }
       }
     },
     "GLOBAL_INTERFACE": {
@@ -557,10 +543,6 @@
         "KEYWORDS": "tooltips suggerimenti help aiuto supporto learn imparare tutorial guida",
         "LABEL": "Mostra suggerimenti sulle scorciatoie da tastiera attualmente in uso nell'angolo dello schermo.",
         "TITLE": "Suggerimenti per le scorciatoie da tastiera"
-      },
-      "SIMPLIFIED_UI": {
-        "LABEL": "Semplifica l'interfaccia utente e nascondi funzionalità avanzate.",
-        "TITLE": "Interfaccia utente semplificata"
       }
     },
     "KEYBOARD_SHORTCUTS": {
@@ -724,8 +706,7 @@
           "VIEW_AS_TITLE": "Visualizza come"
         },
         "ZOOM_IN_TO_LIST_TITLE": "Zoom nell'Elenco",
-        "ZOOM_IN_TO_TABLE_TITLE": "Zoom nella Tabella",
-        "SHOW_VERTICAL_LINES_TITLE": "Mostra linee verticali"
+        "ZOOM_IN_TO_TABLE_TITLE": "Zoom nella Tabella"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "Modifica nome tabella",
@@ -774,7 +755,6 @@
     "TEMPLATE_one": "Modello",
     "TEMPLATE_other": "Modelli",
     "TURN_OFF_AUTO_APPLY": "Disattiva l'applicazione automatica",
-    "VIEW_CONFIGURATION": "Configura etichetta",
-    "HIDE_CONFIGURATION": "Nascondi configurazione"
+    "VIEW_CONFIGURATION": "Configura etichetta"
   }
 }
