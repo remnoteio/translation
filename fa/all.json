@@ -636,8 +636,8 @@
       "LABEL": "رکورد"
     },
     "WIKIMEDIA_COMMONS": {
-      "INVALID": "فرمت فایل اشتباه است!",
       "LABEL": "جستجوی تصویر",
+      "INVALID": "فرمت فایل اشتباه است!",
       "PDF": "پی دی اف",
       "PDF_WITH_COUNT_one": "{{count, number}} پی دی اف",
       "PDF_WITH_COUNT_other": "{{count, number}} پی دی اف",
