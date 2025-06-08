@@ -300,7 +300,7 @@
         "KEYWORDS": "privacy",
         "TITLE": "Privacy"
       },
-      "PRIVACY_NOTE": "Privacy: Leggi la nostra<policyLink> politica sulla riservatezza</policyLink> o modifica le tue impostazioni nel nostro<hubLink> Centro della privacy</hubLink>.",
+      "PRIVACY_NOTE": "Privacy: Leggi la nostra <policyLink>politica sulla riservatezza</policyLink> o modifica le tue impostazioni nel nostro <hubLink>Centro della privacy</hubLink>.",
       "PROFILE": {
         "KEYWORDS": "Profilo utente personale"
       },
@@ -335,7 +335,7 @@
       "INVITE_COPIED": "Link di invito copiato!",
       "INVITE_EMAIL": "Invita tramite e-mail",
       "INVITE_ERROR": "Qualcosa è andato storto. Per favore riprova più tardi.",
-      "INVITE_FRIENDS_EARN_CREDIT": "Invita i tuoi amici a guadagnare credito! Riceverai <0>{{monthlyPrice}}</0> in credito RemNote quando la persona che inviti si registra per un account RemNote e lei riceverà anche <0>{{monthlyPrice}}</0> credito per iniziare.",
+      "INVITE_FRIENDS_EARN_CREDIT": "Quando qualcuno che inviti comincia a usare RemNote, entrambi guadagnate un mese gratis di RemNote Pro.",
       "INVITE_FRIENDS_REMNOTE": "Invita i tuoi amici su RemNote!",
       "INVITE_TEXT": "Invita amici e guadagna credito",
       "KEYWORDS": "invite friends invita amici earn credit guadagna crediti plan piano change subscription cambia abbonamento cambia versione earn credits free guadagna crediti gratuiti remnote send tweet email invia choose plan scegli piano life-long learning apprendimento a vita pro feature funzionalità pro breakdown dettagli pricing options piani tariffari piano tariffario",
@@ -443,33 +443,69 @@
           "TITLE": "Riproduzione automatica della sintesi vocale"
         },
         "LEARN_AHEAD_LIMIT": {
-          "DESCRIPTION": "Quando hai ripetuto tutte le carte in programma, quanto in anticipo possiamo mostrarti carte non ancora in programma? Questo ti aiuta a evitare nuove carte da ripetere poco dopo."
+          "DESCRIPTION": "Quando hai ripetuto tutte le carte in programma, quanto in anticipo possiamo mostrarti carte non ancora in programma? Questo ti aiuta a evitare nuove carte da ripetere poco dopo.",
+          "TITLE": "Limite ripetizioni in anticipo"
+        },
+        "LEECH_THRESHOLD": {
+          "DESCRIPTION": "Notifica un'avvertenza quando dimentici una carta difficile troppe volte. <leechArticle>Maggiori informazioni sulle carte \"leech\".</leechArticle>",
+          "TITLE": "Soglia leech"
         },
         "NEW_CARDS_PER_DAY": {
-          "DESCRIPTION": "Includi al massimo questo numero di flashcard appena create nella tua coda di flashcard ogni giorno. In questo modo, le nuove carte entreranno nella tua coda a una velocità giornaliera costante, anziché tutte insieme.",
+          "DESCRIPTION": "Includi al massimo questo numero di flashcard appena create nella tua coda di flashcard in un giorno. In questo modo, le nuove carte entreranno nella tua coda a una velocità giornaliera costante, anziché tutte insieme.",
           "TITLE": "Numero massimo di nuove carte al giorno"
         },
         "NEXT_DAY_STARTS_AT": {
-          "DESCRIPTION": "Nuove carte appaiono nella tua coda ogni giorno in questo momento.",
+          "DESCRIPTION": "Nuove carte compaiono nella tua coda ogni giorno in questo orario.",
           "TITLE": "Il giorno successivo inizia alle"
         },
         "RESET_ALL": {
-          "CONFIRM_MESSAGE": "Sei sicuro di voler ripristinare tutte le impostazioni sulle flashcard ai valori predefiniti?",
-          "DESCRIPTION": "Ripristina tutte le impostazioni sulle flashcard ai valori predefiniti.",
-          "TITLE": "Ripristina tutte le impostazioni sulle Flashcard ai valori predefiniti"
+          "CONFIRM_MESSAGE": "Sei sicuro di voler ripristinare tutte le impostazioni delle flashcard ai valori predefiniti?",
+          "DESCRIPTION": "Ripristina tutte le impostazioni delle flashcard ai valori predefiniti.",
+          "TITLE": "Reimposta impostazioni delle flashcard"
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
-          "DESCRIPTION": "Mostra solo i pulsanti di risposta \"Dimenticato\" e \"Ricordato con sforzo\" quando studi le flashcard, invece di tutte e cinque le opzioni.",
+          "DESCRIPTION": "Mostra solo i pulsanti \"Dimenticata\" e \"Ricordata\" quando ripeti le flashcard.",
           "TITLE": "Pulsanti Flashcard semplificati"
         },
+        "STALE_CARDS_PER_DAY": {
+          "DESCRIPTION": "Reintroduci al massimo questo numero di flashcard scadute nella tua coda di flashcard in un giorno. Le carte scadute sono quelle temporaneamente rimosse dalla coda perché non le hai ripetute per molto tempo e riprenderle tutte in una volta sarebbe molto faticoso.",
+          "TITLE": "Numero massimo di carte scadute al giorno"
+        },
+        "TEXT_TO_SPEECH_SPEED": {
+          "DESCRIPTION": "La velocità a cui viene letta la flashcard.",
+          "TITLE": "Velocità della sintesi vocale"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "La voce usata per la sintesi vocale. Alcune voci sono disponibili solo per determinate lingue.",
+          "SAMPLE": "I mitocondri sono la centrale energetica della cellula.",
+          "TITLE": "Voce della sintesi vocale"
+        },
         "TYPE_ANSWER": {
-          "DESCRIPTION": "Mostra una casella di testo sulla parte anteriore di ciascuna flashcard e confronta ciò che scrivi con la risposta sul retro della carta.",
+          "DESCRIPTION": "Mostra una casella di testo sul fronte di ciascuna flashcard e confronta ciò che scrivi con la risposta sul retro della carta.",
           "TITLE": "Digita la risposta"
+        }
+      },
+      "ORDERING": {
+        "DOCUMENT_CLUSTERS": {
+          "DESCRIPTION": "Preferisci ripetere insieme i Rem provenienti da documenti connessi.",
+          "TITLE": "Raggruppa per documenti"
+        },
+        "HIERARCHY_CLUSTERS": {
+          "DESCRIPTION": "Preferisci praticare insieme i Rem che hanno una relazione gerarchica.",
+          "TITLE": "Raggruppa per gerarchia"
+        },
+        "REFERENCE_CLUSTERS": {
+          "DESCRIPTION": "Preferisci praticare insieme i Rem che fanno riferimento l'un l'altro.",
+          "TITLE": "Raggruppa per riferimenti"
+        },
+        "TAG_CLUSTERS": {
+          "DESCRIPTION": "Preferisci praticare insieme i Rem con lo stesso tag.",
+          "TITLE": "Raggruppa per tag"
         }
       },
       "STATISTICS": {
         "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
-          "DESCRIPTION": "Se impieghi più tempo per rispondere a una flashcard (in secondi), lascia il resto del tempo fuori dalle tue statistiche.",
+          "DESCRIPTION": "Se impieghi più tempo per rispondere a una flashcard (ad esempio perché sei andato via per qualche minuto), nelle tue statistiche verrà considerato questo tempo.",
           "TITLE": "Tempo massimo di risposta della Flashcard"
         }
       },
