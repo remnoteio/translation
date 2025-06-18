@@ -580,6 +580,17 @@
           "PC": "Diviser avec Alt+Entrée"
         }
       }
+    },
+    "NOTIFICATIONS": {
+      "DESCRIPTIONS": {
+        "DOCUMENT_ADDED_TO_GROUP": {
+          "LABEL": "Un document est ajouté à un groupe auquel vous appartenez"
+        },
+        "INVITE": {
+          "LABEL": "Vous êtes invité à un groupe",
+          "TITLE": "Notifications d'invitation"
+        }
+      }
     }
   },
   "TABLES": {
