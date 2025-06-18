@@ -730,9 +730,9 @@
       "UPLOADING": "Przesyłanie..."
     },
     "WIKIMEDIA_COMMONS": {
+      "LABEL": "Wyszukiwanie obrazów",
       "EMPTY": "Upuść pliki PDF, dokumenty Word, prezentacje PPT i <moreLink>inne</moreLink> tutaj!",
       "INVALID": "Nieprawidłowy format pliku!",
-      "LABEL": "Wyszukiwanie obrazów",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDF-y",
