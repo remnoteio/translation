@@ -621,7 +621,7 @@
       "ENABLE_EXAM_DESCRIPTION": "Receive emails if you're behind on preparing for an exam",
       "ENABLE_PUSH_LABEL": "Receive notifications directly to your device",
       "ENABLE_PUSH_TITLE": "Push notifications",
-      "ENABLE_STREAK_DESCRIPTION": "Receive a reminder to keep up your streak, you can choose the time",
+      "ENABLE_STREAK_DESCRIPTION": "Receive a reminder to keep up your streak (you can choose the time when these are sent)",
       "ENABLE_STREAK_TITLE": "Streak notifications",
       "PUSH_ENABLE_MESSAGE": "Push notifications aren't configured on this device. Click here to set them up!",
       "TOGGLE_LABEL": "Control which notifications you want to receive directly to your device",

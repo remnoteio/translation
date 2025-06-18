@@ -647,7 +647,7 @@
       "ENABLE_EXAM_DESCRIPTION": "Erhalte E-Mails, wenn du im Lernrückstand bist für eine Prüfung.",
       "ENABLE_PUSH_LABEL": "Erhalten Sie Benachrichtigungen direkt auf Ihr Gerät",
       "ENABLE_PUSH_TITLE": "Push-Benachrichtigungen aktivieren?",
-      "ENABLE_STREAK_DESCRIPTION": "Erhalte tägliche Benachrichtigungen um 18:00 Uhr bezüglich deiner Karteikartenstreak",
+      "ENABLE_STREAK_DESCRIPTION": "Erhalte tägliche Benachrichtigungen bezüglich deiner Karteikartenstreak (Sie können die Zeit wählen, zu dem diese gesendet werden)",
       "ENABLE_STREAK_TITLE": "Mobile Streak-Benachrichtigungen",
       "PUSH_ENABLE_MESSAGE": "Push-Benachrichtigungen sind auf diesem Gerät nicht eingerichtet. Klicke hier um sie zu aktivieren!",
       "TOGGLE_LABEL": "Steuern Sie, welche Benachrichtigungen Sie direkt auf Ihrem Gerät/Posteingang erhalten möchten",
