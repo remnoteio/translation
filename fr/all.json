@@ -590,7 +590,10 @@
           "LABEL": "Vous êtes invité à un groupe",
           "TITLE": "Notifications d'invitation"
         }
-      }
+      },
+      "ENABLE_EXAM_DESCRIPTION": "Recevez des e-mails si vous êtes en retard dans la préparation d'un examen",
+      "ENABLE_PUSH_LABEL": "Recevez des notifications directement sur votre appareil",
+      "ENABLE_PUSH_TITLE": "Notifications push"
     }
   },
   "TABLES": {
