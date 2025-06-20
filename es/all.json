@@ -718,9 +718,9 @@
       "UPLOADING": "Subiendo..."
     },
     "WIKIMEDIA_COMMONS": {
+      "LABEL": "Búsqueda de Imágenes",
       "EMPTY": "¡Suelta aquí archivos PDF, Word, PPT y <moreLink>más</moreLink>!",
       "INVALID": "¡Formato de archivo incorrecto!",
-      "LABEL": "Búsqueda de Imágenes",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",

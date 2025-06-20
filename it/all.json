@@ -445,9 +445,9 @@
       "UPLOADING": "Caricamento..."
     },
     "WIKIMEDIA_COMMONS": {
+      "LABEL": "Ricerca di immagini",
       "EMPTY": "Trascina PDF, documenti Word, PPT e<moreLink> Di più</moreLink> qui!",
       "INVALID": "Formato file errato!",
-      "LABEL": "Ricerca di immagini",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDF",
