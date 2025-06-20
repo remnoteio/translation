@@ -603,11 +603,15 @@
           "LABEL": "Quelqu'un a aimé un document que vous avez partagé"
         },
         "STREAK": {
-          "LABEL": "Recevez des notifications journalières pour garder votre série!"
+          "LABEL": "Recevez des notifications journalières pour garder votre série!",
+          "TITLE": "Notifications de série"
         }
       },
       "ENABLE_COMMUNITY_LABEL": "Recevez une notification dans l'application quand quelqu'un interagit avec votre profil communautaire",
       "ENABLE_COMMUNITY_TITLE": "Notifications de la communauté",
+      "ENABLE_DUE_CARDS_LABEL": "Montrer le nombre total de cartes à réviser en tant que badge sur l’icône de l'application RemNote",
+      "ENABLE_DUE_CARDS_TITLE": "Badge de cartes à réviser",
+      "ENABLE_EMAIL_LABEL": "Recevez des notifications directement dans votre boîte de réception",
       "ENABLE_EMAIL_TITLE": "Activez les notifications email de la communauté",
       "ENABLE_EXAM_TITLE": "Rappels d'examens",
       "ENABLE_EXAM_DESCRIPTION": "Recevez des emails si vous être en retard sur la préparation d'un examen",
@@ -616,37 +620,90 @@
       "ENABLE_STREAK_TITLE": "Notifications de série",
       "TOGGLE_LABEL": "Contrôlez quelles notifications vous voulez recevoir directement sur votre appareil",
       "TOGGLE_TITLE": "Notifier quand:"
+    },
+    "SIDEBAR": {
+      "PRIVACY_NOTE": "Confidentialité : Lisez notre <policyLink>politique de confidentialité</policyLink>, ou modifiez vos paramètres dans notre <hubLink>Centre de confidentialité</hubLink> ."
     }
   },
   "SIDEBAR": {
+    "LABEL_ALL_NOTES": "Toutes les notes",
+    "LABEL_COMMUNITY": "Flashcards partagées",
     "LABEL_EDIT_LATER": "Modifier plus tard",
+    "LABEL_FLASHCARDS": "Flashcards",
     "LABEL_INTERACTIVE_TOUR": "Tour interactif",
+    "LABEL_RESUME_INTERACTIVE_TOUR": "Reprendre le tour interactif",
     "LABEL_TODAYS_NOTE": "La note du jour",
-    "LABEL_TUTORIALS": "Tutoriels"
+    "LABEL_TUTORIALS": "Tutoriels",
+    "TOOLTIP_FLASHCARD_HOME": "Accéder à la page d'accueil des Flashcards"
   },
   "SOURCES": {
     "LINK_SOURCE": {
       "ENTER_URL": "Entrer l'URL",
-      "INVALID_URL": "URL invalide"
+      "EMBED_LINK": "Lien intégré",
+      "INVALID_URL": "URL invalide",
+      "LABEL_MOBILE": "Liens",
+      "LINK": "Lien",
+      "OPEN_IN_READER": "Ouvrir dans le lecteur",
+      "SEARCH_PLACEHOLDER": "Rechercher dans n'importe quel Rem (source, document ou puce)"
     },
     "UPLOAD_SOURCE": {
+      "FILE_TYPES": "Accepte les formats PDF, Word, PPT, XLSX, ePub, et <moreLink>bien plus</moreLink>.",
       "PASTE_URL": "Copier URL Youtube, PDF ou web",
+      "INVALID": "Désolé, RemNote ne peut pas accepter le téléchargement de fichier de ce type",
+      "LABEL": "Ajouter une source",
+      "LABEL_MOBILE": "Fichiers",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
-      "PDF_WITH_COUNT_other": "{{count, number}} PDFs"
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
+      "SELECT_FILES": "Sélectionnez les fichiers",
+      "SELECT_FILES_TO_UPLOAD": "Sélectionnez les fichiers à télécharger",
+      "UPLOAD": "Télécharger",
+      "UPLOADING": "Téléchargement..."
+    },
+    "WIKIMEDIA_COMMONS": {
+      "LABEL": "Recherche d'image"
     }
   },
   "TABLES": {
     "MENUS": {
       "FILTER": {
-        "FILTER_TITLE": "Filtrer"
+        "ADD_ADVANCED_FILTER": "Ajouter un filtre avancé",
+        "FILTER_TITLE": "Filtrer",
+        "NO_PROPERTIES_AVAILABLE": "Aucune propriétés disponible; Ajoutez-en une nouvelle !"
       },
       "SORT": {
         "SORT_TITLE": "Trier"
+      },
+      "TABLE_CONFIGURATION": {
+        "ALL": "Tout",
+        "CELL_LIST_HEIGHT": {
+          "CELL_LIST_HEIGHT_TITLE": "Haute de cellule",
+          "COMFORTABLE_TITLE": "Confortable",
+          "COMPACT_TITLE": "Compacte",
+          "FULL_TITLE": "Pleine"
+        },
+        "DELETE_LIST": "Supprimer la liste",
+        "DELETE_TABLE": "Supprimer la table",
+        "DUPLICATE_TABLE_VIEW_TITLE": "Dupliquer la table",
+        "LIST_CONFIGURATION_TITLE": "Liste",
+        "PROPERTIES_TITLE": "Propriétés",
+        "TABLE_CONFIGURATION_TITLE": "Table",
+        "VIEW_AS": {
+          "LIST_VIEW": "Liste",
+          "NORMAL_PORTAL_VIEW": "Portail",
+          "TABLE_VIEW": "Table",
+          "VIEW_AS_TITLE": "Voir comme"
+        }
+      },
+      "TAG": {
+        "PRESS_TO_SAVE": "Appuyez sur ↩ pour enregistrer"
       }
-    }
+    },
+    "PRIMARY_COLUMN_TITLE": "Nom"
   },
   "TEMPLATES": {
+    "ADD_NEW_PROPERTY": "Ajouter une nouvelle propriété",
+    "AUTO_APPLY": "Appliquer automatiquement",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Propriété",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Propriétés",
     "PROPERTY_one": "Propriété",
