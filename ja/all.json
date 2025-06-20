@@ -713,9 +713,9 @@
       "UPLOADING": "アップロード中..."
     },
     "WIKIMEDIA_COMMONS": {
+      "LABEL": "画像検索",
       "EMPTY": "PDF、Word ドキュメント、PowerPoint、<moreLink>その他</moreLink>ファイルををここにドロップしてください。",
       "INVALID": "ファイル形式が正しくありません！",
-      "LABEL": "画像検索",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDF",

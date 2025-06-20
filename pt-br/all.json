@@ -722,9 +722,9 @@
       "LABEL": "Gravar"
     },
     "WIKIMEDIA_COMMONS": {
+      "LABEL": "Pesquisar imagem",
       "EMPTY": "Solte PDFs, docs do Word, PPTs e<moreLink> mais</moreLink> aqui!",
       "INVALID": "Formato de arquivo incorreto!",
-      "LABEL": "Pesquisar imagem",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
