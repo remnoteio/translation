@@ -680,9 +680,9 @@
       "UPLOADING": "Загрузка..."
     },
     "WIKIMEDIA_COMMONS": {
+      "LABEL": "Поиск изображений",
       "EMPTY": "Перетащите сюда PDF, документы Word, PPT и <moreLink>другое</moreLink>!",
       "INVALID": "Неправильный формат файла!",
-      "LABEL": "Поиск изображений",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDF",
