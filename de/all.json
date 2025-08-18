@@ -99,7 +99,7 @@
   "LANGUAGE": {
     "LANGUAGE_WORD": "Sprache",
     "TRANSLATION_INFO_SETTINGS": "Die Übersetzung ist noch in Arbeit; Sie sehen eine Mischung aus Englisch und der ausgewählten Sprache.<br> Sie können uns beim Übersetzen helfen, indem Sie die <guideLink>Anleitung</guideLink> lesen und dann unseren<editorLink>Web-Editor</editorLink> nutzen.",
-    "TRANSLATION_IN_PROGRESS": "Die Übersetzungen sind noch nicht vollständig. Du kannst uns <0>auf Inlang</0> dabei helfen."
+    "TRANSLATION_IN_PROGRESS": "Die Übersetzungen sind noch nicht vollständig"
   },
   "NOTIFICATIONS": {
     "ARTICLE_DEFAULT": "Ihr Dokument",
@@ -551,7 +551,6 @@
         "TITLE": "Gesamtbreite"
       },
       "INTERFACE": {
-        "KEYWORDS": "sprache sprache übersetzung übersetzen i18n",
         "TITLE": "RemNote Sprache der Benutzeroberfläche (Alpha)"
       },
       "IN_APP_SUGGESTIONS": {
@@ -648,7 +647,7 @@
       "ENABLE_EXAM_DESCRIPTION": "Erhalte E-Mails, wenn du im Lernrückstand bist für eine Prüfung.",
       "ENABLE_PUSH_LABEL": "Erhalten Sie Benachrichtigungen direkt auf Ihr Gerät",
       "ENABLE_PUSH_TITLE": "Push-Benachrichtigungen aktivieren?",
-      "ENABLE_STREAK_DESCRIPTION": "Erhalte tägliche Benachrichtigungen um 18:00 Uhr bezüglich deiner Karteikartenstreak",
+      "ENABLE_STREAK_DESCRIPTION": "Erhalte tägliche Benachrichtigungen bezüglich deiner Karteikartenstreak (Sie können die Zeit wählen, zu dem diese gesendet werden)",
       "ENABLE_STREAK_TITLE": "Mobile Streak-Benachrichtigungen",
       "PUSH_ENABLE_MESSAGE": "Push-Benachrichtigungen sind auf diesem Gerät nicht eingerichtet. Klicke hier um sie zu aktivieren!",
       "TOGGLE_LABEL": "Steuern Sie, welche Benachrichtigungen Sie direkt auf Ihrem Gerät/Posteingang erhalten möchten",
@@ -716,9 +715,9 @@
       "UPLOADING": "Hochladen..."
     },
     "WIKIMEDIA_COMMONS": {
+      "LABEL": "Bildersuche",
       "EMPTY": "Legen Sie PDFs, Word-Dokumente, PPTs und<moreLink> mehr</moreLink> Hier!",
       "INVALID": "Falsches Dateiformat!",
-      "LABEL": "Bildersuche",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",

@@ -182,6 +182,7 @@
       },
       "CLOZE_BTN_TOOLTIP": "Flashcard Cloze (Texte à trous)",
       "COPY_IMAGE": "Copier l'image",
+      "COPY_IMAGE_AS_TEXT": "Copier image comme du texte avec IA",
       "COPY_TEXT": "Copier en texte brut",
       "HIGHLIGHT": "Surligner",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Créer une Flashcard Occlusion d'Image",
@@ -258,7 +259,7 @@
         "FEATURE_NAME": "Surlignement PDF",
         "PAYWALL": "Vous avez atteint votre limite de PDFs mis en ligne.",
         "TITLE": "Téléverser et Annoter un Fichier",
-        "todo_for_the_item_below": "déplacer ceci dans un objet de nom de fonctionnalité globale ?"
+        "todo_for_the_item_below": "Déplacer ceci dans un objet de nom de fonctionnalité globale ?"
       }
     }
   },
@@ -322,6 +323,8 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Utiliser votre crédit",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} mois",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} mois",
       "COPIED": "Copié !",
       "COPYLINK": "Copier le Lien",
       "CREATE_ACCOUNT": "Créer un compte pour inviter des amis",
@@ -340,11 +343,13 @@
       "INVITE_TEXT": "Inviter des Amis",
       "KEYWORDS": "inviter des amis gagner des crédits abonnement changer d'abonnement gagner des crédits gratuitement remnote envoyer un tweet e-mail choisir un plan apprentissage continu présentation des fonctionnalités pro options de tarification prix tarifs",
       "NOT_CONFIRMED_EMAIL": "(n'a pas confirmé son email)",
+      "REMAINING_MONTHS": "Mois restants",
       "SEND_INVITE": "Envoyer une invitation",
       "SHARE_LINK": "Partager le lien",
       "TITLE": "Crédits",
       "TOAST_RENEW": "Vos crédit sont utilisés automatiquement lorsque votre abonnement se renouvellera.",
       "TOAST_SUBSCRIBE": "Vos crédits seront utilisés automatiquement lorsque vous souscrirez à RemNote Pro. Choisissez un plan ci-dessous et commencez maintenant !",
+      "TOTAL_MONTHS_EARNED": "Nombre total de mois de Pro gagnés",
       "VERIFY_EMAIL": "Pour inviter quelqu'un, validez votre adresse mail.",
       "CREDIT_BALANCE": "Solde de Crédits",
       "CREDIT_BALANCE_TEXT": "Vous avez <bold>{{userCredit}}</bold> crédits restant et avez gagné <bold>{{userCreditEarned}}</bold> crédits au total. {{months}} mois restants ou mois de Remnote Pro gratuits.<br /><br />Abonnez-vous à Pro pour commencer à utiliser vos crédits ! Vous ne serez facturé que quand vos crédits seront épuisés."
@@ -528,7 +533,6 @@
         "TITLE": "Pleine Largeur"
       },
       "INTERFACE": {
-        "KEYWORDS": "traduction langue lang traduire i18n",
         "TITLE": "Langue de l'interface RemNote"
       },
       "IN_APP_SUGGESTIONS": {
@@ -564,8 +568,35 @@
       "ENTER_TO_OUTDENT": {
         "LABEL": "Lorsque vous appuyez sur Entrée sur un Rem sans contenu qui n'est pas au niveau supérieur du document, indentez d'un niveau. (Si cette option est désactivée, reste au même niveau et laisse un Rem vide.)",
         "TITLE": "Appuyer sur Entrée pour désindenter"
+      },
+      "SPLIT_WITH_ALT_ENTER": {
+        "DESCRIPTION": {
+          "MAC": "Diviser le texte en Rems distincts en appuyant sur Opt+Retour depuis le milieu de Rem.",
+          "PC": "Diviser le texte en Rems distincts en appuyant sur Alt+Entrée depuis le milieu du Rem."
+        },
+        "TITLE": {
+          "MAC": "Diviser avec Opt+Retour",
+          "PC": "Diviser avec Alt+Entrée"
+        }
       }
+    },
+    "NOTIFICATIONS": {
+      "DESCRIPTIONS": {
+        "DOCUMENT_ADDED_TO_GROUP": {
+          "LABEL": "Un document est ajouté à un groupe auquel vous appartenez"
+        },
+        "INVITE": {
+          "LABEL": "Vous êtes invité à un groupe",
+          "TITLE": "Notifications d'invitation"
+        }
+      },
+      "ENABLE_EXAM_DESCRIPTION": "Recevez des e-mails si vous êtes en retard dans la préparation d'un examen",
+      "ENABLE_PUSH_LABEL": "Recevez des notifications directement sur votre appareil",
+      "ENABLE_PUSH_TITLE": "Notifications push"
     }
+  },
+  "TABLES": {
+    "PRIMARY_COLUMN_TITLE": "Nom"
   },
   "TEMPLATES": {
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Propriété",

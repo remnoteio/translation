@@ -98,7 +98,8 @@
   },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Language",
-    "TRANSLATION_INFO_SETTINGS": "Translation is still in progress; you will encounter a mix of English and the selected language.<br>You can contribute by reviewing the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink> to assist with translations."
+    "TRANSLATION_INFO_SETTINGS": "Translation is still in progress; you will encounter a mix of English and the selected language.<br>You can contribute by reviewing the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink> to assist with translations.",
+    "TRANSLATION_IN_PROGRESS": "Language translation in progress"
   },
   "NOTIFICATIONS": {
     "ARTICLE_DEFAULT": "Your document",
@@ -161,7 +162,9 @@
         "BY_TITLE": "By title",
         "DESCENDING": "Z -> A",
         "OLDEST_FIRST": "Oldest first",
-        "RECENTLY_MODIFIED": "Newest first"
+        "RECENTLY_MODIFIED": "Newest first",
+        "OLDEST_CREATION_FIRST": "Oldest first",
+        "RECENTLY_CREATED": "Newest first"
       },
       "TITLE": "All Notes"
     }
@@ -315,6 +318,9 @@
       "VERSION": {
         "KEYWORDS": "version",
         "TITLE": "Application Version"
+      },
+      "NOTIFICATIONS": {
+        "DESCRIPTION": "Activate push notifications about your daily flashcard progress. The notifications are sent every day at 6 PM."
       }
     },
     "EARN_CREDIT": {
@@ -527,7 +533,6 @@
         "TITLE": "Full Width"
       },
       "INTERFACE": {
-        "KEYWORDS": "lang language translation translate i18n",
         "TITLE": "RemNote Interface Language"
       },
       "IN_APP_SUGGESTIONS": {
@@ -616,7 +621,7 @@
       "ENABLE_EXAM_DESCRIPTION": "Receive emails if you're behind on preparing for an exam",
       "ENABLE_PUSH_LABEL": "Receive notifications directly to your device",
       "ENABLE_PUSH_TITLE": "Push notifications",
-      "ENABLE_STREAK_DESCRIPTION": "Receive a reminder to keep up your streak, you can choose the time",
+      "ENABLE_STREAK_DESCRIPTION": "Receive a reminder to keep up your streak (you can choose the time when these are sent)",
       "ENABLE_STREAK_TITLE": "Streak notifications",
       "PUSH_ENABLE_MESSAGE": "Push notifications aren't configured on this device. Click here to set them up!",
       "TOGGLE_LABEL": "Control which notifications you want to receive directly to your device",
@@ -770,9 +775,9 @@
     "AUTO_APPLY_HELP_TEXT": "This template will be automatically applied to all rows in its table, or all Rems tagged with the template.",
     "CREATE_TEMPLATE": "Create Template",
     "NEW_TEMPLATE": "New Template",
-    "PROPERTIES_HELP_TEXT": [
-      "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
-    ],
+    "PROPERTIES_HELP_TEXT": {
+      "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
+    },
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Property",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Properties",
     "PROPERTY_one": "Property",
