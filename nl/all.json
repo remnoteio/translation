@@ -18,8 +18,8 @@
     "GENERAL": {
       "FLASHCARD_one": "Steekkaart",
       "FLASHCARD_other": "Steekkaarten",
-      "NOTE_one": "Notitie",
-      "NOTE_other": "Notities"
+      "NOTE_one": "notitie",
+      "NOTE_other": "notities"
     },
     "NEW": "Nieuw"
   },
@@ -83,5 +83,36 @@
   "FILE_UPLOADING": {
     "CACHED_INFO": "Dit bestand is gecached voor het offline bekijken en is mogelijks nog niet geuploaded.",
     "NOT_FOUND": "Dit bestand kan niet gevonden worden."
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "SORT": {
+        "ASCENDING": "A -> Z",
+        "DESCENDING": "Z -> A"
+      }
+    }
+  },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "NOTE_BTN_TOOLTIP": "Opmerking"
+    }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "TITLE": "Document"
+      }
+    }
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "NAVIGATION_TITLE": "Navigatie",
+      "SUPPORT": {
+        "TITLE": "Ondersteuning"
+      },
+      "VERSION": {
+        "KEYWORDS": "versie"
+      }
+    }
   }
 }
