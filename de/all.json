@@ -716,9 +716,9 @@
       "UPLOADING": "Hochladen..."
     },
     "WIKIMEDIA_COMMONS": {
+      "LABEL": "Bildersuche",
       "EMPTY": "Legen Sie PDFs, Word-Dokumente, PPTs und<moreLink> mehr</moreLink> Hier!",
       "INVALID": "Falsches Dateiformat!",
-      "LABEL": "Bildersuche",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
