@@ -182,6 +182,7 @@
       },
       "CLOZE_BTN_TOOLTIP": "Flashcard Cloze (Texte à trous)",
       "COPY_IMAGE": "Copier l'image",
+      "COPY_IMAGE_AS_TEXT": "Copier l'image en tant que texte avec l'IA",
       "COPY_TEXT": "Copier en texte brut",
       "HIGHLIGHT": "Surligner",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Créer une Flashcard Occlusion d'Image",
@@ -322,6 +323,8 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Utiliser votre crédit",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} mois",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} mois",
       "COPIED": "Copié !",
       "COPYLINK": "Copier le Lien",
       "CREATE_ACCOUNT": "Créer un compte pour inviter des amis",
@@ -340,11 +343,13 @@
       "INVITE_TEXT": "Inviter des Amis",
       "KEYWORDS": "inviter des amis gagner des crédits abonnement changer d'abonnement gagner des crédits gratuitement remnote envoyer un tweet e-mail choisir un plan apprentissage continu présentation des fonctionnalités pro options de tarification prix tarifs",
       "NOT_CONFIRMED_EMAIL": "(n'a pas confirmé son email)",
+      "REMAINING_MONTHS": "Mois restants",
       "SEND_INVITE": "Envoyer une invitation",
       "SHARE_LINK": "Partager le lien",
       "TITLE": "Crédits",
       "TOAST_RENEW": "Vos crédit sont utilisés automatiquement lorsque votre abonnement se renouvellera.",
       "TOAST_SUBSCRIBE": "Vos crédits seront utilisés automatiquement lorsque vous souscrirez à RemNote Pro. Choisissez un plan ci-dessous et commencez maintenant !",
+      "TOTAL_MONTHS_EARNED": "Nombre total de mois de Pro gagnés",
       "VERIFY_EMAIL": "Pour inviter quelqu'un, validez votre adresse mail.",
       "CREDIT_BALANCE": "Solde de Crédits",
       "CREDIT_BALANCE_TEXT": "Vous avez <bold>{{userCredit}}</bold> crédits restant et avez gagné <bold>{{userCreditEarned}}</bold> crédits au total. {{months}} mois restants ou mois de Remnote Pro gratuits.<br /><br />Abonnez-vous à Pro pour commencer à utiliser vos crédits ! Vous ne serez facturé que quand vos crédits seront épuisés."
@@ -564,10 +569,141 @@
       "ENTER_TO_OUTDENT": {
         "LABEL": "Lorsque vous appuyez sur Entrée sur un Rem sans contenu qui n'est pas au niveau supérieur du document, indentez d'un niveau. (Si cette option est désactivée, reste au même niveau et laisse un Rem vide.)",
         "TITLE": "Appuyer sur Entrée pour désindenter"
+      },
+      "SPLIT_WITH_ALT_ENTER": {
+        "DESCRIPTION": {
+          "MAC": "Séparer le texte en différents Rems en appuyant sur Opt+Retour depuis le milieu du Rem.",
+          "PC": "Séparer le texte en différents Rems en appuyant sur Alt+Entrée depuis le milieu du Rem."
+        },
+        "TITLE": {
+          "MAC": "Séparer avec Opt+Retour",
+          "PC": "Séparer avec Alt+Entrée"
+        }
       }
+    },
+    "NOTIFICATIONS": {
+      "DESCRIPTIONS": {
+        "ARTICLE_VIEWS": {
+          "LABEL": "Votre document partagé est tendance"
+        },
+        "DOCUMENT_ADDED_TO_GROUP": {
+          "LABEL": "Un document est ajouté dans un group auquel vous appartenez",
+          "TITLE": "Document ajouté aux notifications de groupe"
+        },
+        "INVITE": {
+          "LABEL": "Vous êtes invité à un groupe"
+        },
+        "NEW_COMMENT": {
+          "LABEL": "Quelqu'un commente sur votre document partagé"
+        },
+        "NEW_FOLLOWER": {
+          "LABEL": "Quelqu'un vous suit"
+        },
+        "NEW_LIKE": {
+          "LABEL": "Quelqu'un a aimé un document que vous avez partagé"
+        },
+        "STREAK": {
+          "LABEL": "Recevez des notifications journalières pour garder votre série!",
+          "TITLE": "Notifications de série"
+        }
+      },
+      "ENABLE_COMMUNITY_LABEL": "Recevez une notification dans l'application quand quelqu'un interagit avec votre profil communautaire",
+      "ENABLE_COMMUNITY_TITLE": "Notifications de la communauté",
+      "ENABLE_DUE_CARDS_LABEL": "Montrer le nombre total de cartes à réviser en tant que badge sur l’icône de l'application RemNote",
+      "ENABLE_DUE_CARDS_TITLE": "Badge de cartes à réviser",
+      "ENABLE_EMAIL_LABEL": "Recevez des notifications directement dans votre boîte de réception",
+      "ENABLE_EMAIL_TITLE": "Activez les notifications email de la communauté",
+      "ENABLE_EXAM_TITLE": "Rappels d'examens",
+      "ENABLE_EXAM_DESCRIPTION": "Recevez des emails si vous être en retard sur la préparation d'un examen",
+      "ENABLE_PUSH_LABEL": "Recevez des notifications directement sur votre appareil",
+      "ENABLE_STREAK_DESCRIPTION": "Recevez un rappel pour continuer votre série, vous pouvez choisir le temps",
+      "ENABLE_STREAK_TITLE": "Notifications de série",
+      "TOGGLE_LABEL": "Contrôlez quelles notifications vous voulez recevoir directement sur votre appareil",
+      "TOGGLE_TITLE": "Notifier quand:"
+    },
+    "SIDEBAR": {
+      "PRIVACY_NOTE": "Confidentialité : Lisez notre <policyLink>politique de confidentialité</policyLink>, ou modifiez vos paramètres dans notre <hubLink>Centre de confidentialité</hubLink> ."
     }
   },
+  "SIDEBAR": {
+    "LABEL_ALL_NOTES": "Toutes les notes",
+    "LABEL_COMMUNITY": "Flashcards partagées",
+    "LABEL_EDIT_LATER": "Modifier plus tard",
+    "LABEL_FLASHCARDS": "Flashcards",
+    "LABEL_INTERACTIVE_TOUR": "Tour interactif",
+    "LABEL_RESUME_INTERACTIVE_TOUR": "Reprendre le tour interactif",
+    "LABEL_TODAYS_NOTE": "La note du jour",
+    "LABEL_TUTORIALS": "Tutoriels",
+    "TOOLTIP_FLASHCARD_HOME": "Accéder à la page d'accueil des Flashcards"
+  },
+  "SOURCES": {
+    "LINK_SOURCE": {
+      "ENTER_URL": "Entrer l'URL",
+      "EMBED_LINK": "Lien intégré",
+      "INVALID_URL": "URL invalide",
+      "LABEL_MOBILE": "Liens",
+      "LINK": "Lien",
+      "OPEN_IN_READER": "Ouvrir dans le lecteur",
+      "SEARCH_PLACEHOLDER": "Rechercher dans n'importe quel Rem (source, document ou puce)"
+    },
+    "UPLOAD_SOURCE": {
+      "FILE_TYPES": "Accepte les formats PDF, Word, PPT, XLSX, ePub, et <moreLink>bien plus</moreLink>.",
+      "PASTE_URL": "Copier URL Youtube, PDF ou web",
+      "INVALID": "Désolé, RemNote ne peut pas accepter le téléchargement de fichier de ce type",
+      "LABEL": "Ajouter une source",
+      "LABEL_MOBILE": "Fichiers",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
+      "SELECT_FILES": "Sélectionnez les fichiers",
+      "SELECT_FILES_TO_UPLOAD": "Sélectionnez les fichiers à télécharger",
+      "UPLOAD": "Télécharger",
+      "UPLOADING": "Téléchargement..."
+    },
+    "WIKIMEDIA_COMMONS": {
+      "LABEL": "Recherche d'image"
+    }
+  },
+  "TABLES": {
+    "MENUS": {
+      "FILTER": {
+        "ADD_ADVANCED_FILTER": "Ajouter un filtre avancé",
+        "FILTER_TITLE": "Filtrer",
+        "NO_PROPERTIES_AVAILABLE": "Aucune propriétés disponible; Ajoutez-en une nouvelle !"
+      },
+      "SORT": {
+        "SORT_TITLE": "Trier"
+      },
+      "TABLE_CONFIGURATION": {
+        "ALL": "Tout",
+        "CELL_LIST_HEIGHT": {
+          "CELL_LIST_HEIGHT_TITLE": "Haute de cellule",
+          "COMFORTABLE_TITLE": "Confortable",
+          "COMPACT_TITLE": "Compacte",
+          "FULL_TITLE": "Pleine"
+        },
+        "DELETE_LIST": "Supprimer la liste",
+        "DELETE_TABLE": "Supprimer la table",
+        "DUPLICATE_TABLE_VIEW_TITLE": "Dupliquer la table",
+        "LIST_CONFIGURATION_TITLE": "Liste",
+        "PROPERTIES_TITLE": "Propriétés",
+        "TABLE_CONFIGURATION_TITLE": "Table",
+        "VIEW_AS": {
+          "LIST_VIEW": "Liste",
+          "NORMAL_PORTAL_VIEW": "Portail",
+          "TABLE_VIEW": "Table",
+          "VIEW_AS_TITLE": "Voir comme"
+        }
+      },
+      "TAG": {
+        "PRESS_TO_SAVE": "Appuyez sur ↩ pour enregistrer"
+      }
+    },
+    "PRIMARY_COLUMN_TITLE": "Nom"
+  },
   "TEMPLATES": {
+    "ADD_NEW_PROPERTY": "Ajouter une nouvelle propriété",
+    "AUTO_APPLY": "Appliquer automatiquement",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Propriété",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Propriétés",
     "PROPERTY_one": "Propriété",
